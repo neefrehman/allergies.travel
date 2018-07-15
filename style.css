@@ -11,20 +11,12 @@ h1{
 	color: #fff;
 	text-align: center;
 	margin-top: 250px;
-
-	-webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 0.2px;
-  -webkit-text-stroke-color: #fff;
 }
 
 h2{
 	font-size: 40px;
 	color: #fff;
 	text-align: center;
-
-	-webkit-text-fill-color: transparent;
-	-webkit-text-stroke-width: 0.2px;
-	-webkit-text-stroke-color: #fff;
 }
 
 p{
@@ -48,6 +40,12 @@ header{
 
 	font-family: 'Chonburi', cursive;
 	letter-spacing: +3px;
+}
+
+.outline{
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 0.2px;
+	-webkit-text-stroke-color: #fff;
 }
 
 
