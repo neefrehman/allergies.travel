@@ -3,18 +3,20 @@
 const countryArray = [
   {
     "country": "Afghanistan",
+    "flag" "🇦🇫",
     "wikipedia": "https://en.wikipedia.org/wiki/Afghanistan",
-    "tidyurl": "wikipedia.org/wiki/Afghanistan",
-    "flag" "🇦🇫"
+    "tidywikipedia": "wikipedia.org/Afghanistan",
+    "translate": "https://translate.google.co.uk/#auto/ps/I'm%20allergic%20to%20...",
     "tags": "nuts asia south",
     "line": "Natural sports nutrition and an amazing community.",
     "copy": "We are a community of 50,000+ athletes brought together by a love of nature and a shared spirit for adventure. TRIBE was inspired by a 1,000 mile run across Europe to fight human trafficking. A journey that set us on a mission to change the world of sports nutrition."
   },
   {
     "country": "Åland Islands",
+    "flag" "🇦🇽",
     "wikipedia": "https://en.wikipedia.org/wiki/%C3%85land_Islands",
-    "tidyurl": "wikipedia.org/wiki/Åland_Islands",
-    "flag" "🇦🇽"
+    "tidyurl": "wikipedia.org/Åland_Islands",
+    "translate": "https://translate.google.co.uk/#auto/ps/I'm%20allergic%20to%20...",
     "tags": "nuts baltic finland",
     "line": "Natural sports nutrition and an amazing community.",
     "copy": "We are a community of 50,000+ athletes brought together by a love of nature and a shared spirit for adventure. TRIBE was inspired by a 1,000 mile run across Europe to fight human trafficking. A journey that set us on a mission to change the world of sports nutrition."
