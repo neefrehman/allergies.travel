@@ -12,7 +12,7 @@ h1{
 	text-align: center;
 	margin-top: 250px;
 
-	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+	-webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 0.2px;
   -webkit-text-stroke-color: #fff;
 }
@@ -20,8 +20,11 @@ h1{
 h2{
 	font-size: 40px;
 	color: #fff;
-	opacity: 0.9;
 	text-align: center;
+
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 0.2px;
+	-webkit-text-stroke-color: #fff;
 }
 
 p{

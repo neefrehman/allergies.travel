@@ -2,15 +2,23 @@
 
 const countryArray = [
   {
-    "name": "Tribe",
-    "url": "https://wearetribe.co/",
-    "tidyurl": "wearetribe.co",
-    "tags": "playground fund",
-    "image": "images/team_assets/tribe_image.jpg",
-    "logo": "images/team_assets/tribe_logo.png",
+    "country": "Afghanistan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Afghanistan",
+    "tidyurl": "wikipedia.org/wiki/Afghanistan",
+    "flag" "🇦🇫"
+    "tags": "nuts asia south",
     "line": "Natural sports nutrition and an amazing community.",
     "copy": "We are a community of 50,000+ athletes brought together by a love of nature and a shared spirit for adventure. TRIBE was inspired by a 1,000 mile run across Europe to fight human trafficking. A journey that set us on a mission to change the world of sports nutrition."
   },
+  {
+    "country": "Åland Islands",
+    "wikipedia": "https://en.wikipedia.org/wiki/%C3%85land_Islands",
+    "tidyurl": "wikipedia.org/wiki/Åland_Islands",
+    "flag" "🇦🇽"
+    "tags": "nuts baltic finland",
+    "line": "Natural sports nutrition and an amazing community.",
+    "copy": "We are a community of 50,000+ athletes brought together by a love of nature and a shared spirit for adventure. TRIBE was inspired by a 1,000 mile run across Europe to fight human trafficking. A journey that set us on a mission to change the world of sports nutrition."
+  }
 ];
 
 
