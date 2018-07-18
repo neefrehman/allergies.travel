@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	background-color: #171717;
+	background-color: #05161f;
 	font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -11,8 +11,6 @@ h1{
 	letter-spacing: +3px;
 	font-size: 72px;
 	color: #fff;
-	text-align: center;
-	margin-top: 250px;
 }
 
 h2{
@@ -20,7 +18,6 @@ h2{
 	letter-spacing: +3px;
 	font-size: 36px;
 	color: #fff;
-	text-align: center;
 }
 
 p{
@@ -39,8 +36,16 @@ header{
 	height: 100vh;
 	width: 100vw;
 	position: absolute;
-	background-color: #171717;
+	background-color: #05161f;
 	background-attachment: fixed;
+}
+
+#title{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .outline{
@@ -48,8 +53,6 @@ header{
 	-webkit-text-stroke-width: 0.2px;
 	-webkit-text-stroke-color: #fff;
 }
-
-
 
 
 @media (min-width: 1920px) {
