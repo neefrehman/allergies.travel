@@ -48,12 +48,6 @@ header{
 	transform: translate(-50%, -50%);
 }
 
-.outline{
-	-webkit-text-fill-color: transparent;
-	-webkit-text-stroke-width: 0.2px;
-	-webkit-text-stroke-color: #fff;
-}
-
 
 @media (min-width: 1920px) {
 
