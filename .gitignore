@@ -1,0 +1,6 @@
+.cache/
+public/
+coverage/
+node_modules/
+.env
+.linaria-cache/
