@@ -3,10 +3,9 @@ import { useLoader } from "react-three-fiber";
 
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader";
-
 // import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
 
-// References - I think the model will need to be put in static folder since it can't be imported
+// References
 // https://github.com/ustwo/repair-game-website/commit/37939d02cc33ce09e1a7cecfb93ef6c47b427010
 // https://github.com/react-spring/react-three-fiber/blob/master/examples/demos/GltfPlanet.js
 
