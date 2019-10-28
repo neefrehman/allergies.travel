@@ -2,9 +2,13 @@ import React, { useRef } from "react";
 import { useLoader } from "react-three-fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
+// References - I think the model will need to be put in static folder since it can't be imported
+// https://github.com/ustwo/repair-game-website/commit/37939d02cc33ce09e1a7cecfb93ef6c47b427010
+// https://github.com/react-spring/react-three-fiber/blob/master/examples/demos/GltfPlanet.js
+
 const Planet = props => {
     const ref = useRef();
-    const gltf = useLoader(GLTFLoader, "./models/planet.gltf");
+    const gltf = useLoader(GLTFLoader, "/models/planet.gltf");
 
     return (
         <group ref={ref} {...props}>
