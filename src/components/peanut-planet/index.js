@@ -17,7 +17,7 @@ const PeanutPlanet = () => (
         camera={{ position: [0, 0, 15] }}
         shadowMap
     >
-        <ambientLight intensity={0.8} />
+        <ambientLight intensity={0.4} />
         <pointLight intensity={20} position={[-10, -25, -10]} color="#200f20" />
         <spotLight
             castShadow
@@ -27,7 +27,7 @@ const PeanutPlanet = () => (
             shadow-mapSize-width={2048}
             shadow-mapSize-height={2048}
         />
-        <fog attach="fog" args={["#090b1f", 0, 25]} />
+        <fog attach="fog" args={["#090b1f", 1, 800]} />
         <Suspense fallback={null}>
             <Planet />
         </Suspense>
