@@ -5,16 +5,19 @@ import Stars from "./stars";
 import Controls from "./controls";
 import Planet from "./planet";
 
+import "./style.css";
+
 const PeanutPlanet = () => (
     <Canvas
         style={{
             background: "#061923",
-            height: "100vh"
+            height: "100vh",
+            width: "100vw"
         }}
         camera={{ position: [0, 0, 15] }}
         shadowMap
     >
-        <ambientLight intensity={0.4} />
+        <ambientLight intensity={0.8} />
         <pointLight intensity={20} position={[-10, -25, -10]} color="#200f20" />
         <spotLight
             castShadow
@@ -33,7 +36,7 @@ const PeanutPlanet = () => (
             autoRotate
             autoRotateSpeed={0.4}
             enablePan={false}
-            enableZoom={false}
+            enableZoom
             enableDamping
             dampingFactor={0.5}
             rotateSpeed={1}
