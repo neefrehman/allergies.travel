@@ -13,3 +13,11 @@ const Controls = props => {
 };
 
 export default Controls;
+
+// https://react-spring-visualizer.com/#scale
+// react-spring config:
+// {
+//   mass: 9.5,
+//   tension: 246,
+//   friction: 64
+// }
