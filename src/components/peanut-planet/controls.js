@@ -12,18 +12,19 @@ const Controls = ({ planetHasLoaded = true }) => {
 
     // eslint-disable-next-line no-unused-vars
     const { z } = useSpring({
-        from: { z: 200 },
+        from: { z: initialCameraZ },
         z: planetHasLoaded ? 15 : initialCameraZ,
         config: {
             duration: 500,
-            mass: 9.5,
-            tension: 246,
-            friction: 64
+            mass: 9,
+            tension: 250,
+            friction: 60
         }
     });
 
-    // TODO: Swap clock-based value with z^
     useFrame(({ clock }) => {
+        // TODO: Swap clock-based value with z^
+        // camera.position.z = z;
         camera.position.z = planetHasLoaded
             ? 200 + Math.sin(clock.getElapsedTime()) * 30
             : initialCameraZ;
