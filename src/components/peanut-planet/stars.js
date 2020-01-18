@@ -25,11 +25,12 @@ const Stars = ({ count = 1000, xOff = 0, yOff = 0, zOff = 50 }) => {
             <bufferGeometry attach="geometry">
                 <bufferAttribute
                     attachObject={["attributes", "position"]}
-                    count={positionsArray.length / 3}
+                    count={count}
                     array={positionsArray}
                     itemSize={3}
                 />
             </bufferGeometry>
+
             <pointsMaterial
                 attach="material"
                 size={2}

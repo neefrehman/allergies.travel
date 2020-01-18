@@ -3,18 +3,14 @@ import { useLoader } from "react-three-fiber";
 
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader";
-// import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
+import planetModel from "./models/planet.gltf";
 
-// References
-// https://github.com/ustwo/repair-game-website/commit/37939d02cc33ce09e1a7cecfb93ef6c47b427010
-// https://github.com/react-spring/react-three-fiber/blob/master/examples/demos/GltfPlanet.js
-// https://github.com/LekoArts/gatsby-react-three-fiber/blob/master/gatsby-node.js
-
+// Reference: https://github.com/react-spring/react-three-fiber/blob/master/examples/src/demos/GltfPlanet.js
 const Planet = props => {
     const ref = useRef();
-    const gltf = useLoader(GLTFLoader, "/models/planet.gltf", loader => {
+    const gltf = useLoader(GLTFLoader, planetModel, loader => {
         const dracoLoader = new DRACOLoader();
-        dracoLoader.setDecoderPath("/models/draco-gltf/");
+        dracoLoader.setDecoderPath("./models/draco-gltf/");
         loader.setDRACOLoader(dracoLoader);
     });
 
