@@ -39,6 +39,7 @@ const Controls = ({ planetHasLoaded = true }) => {
             autoRotateSpeed={0.4}
             enablePan={false}
             enableZoom={false}
+            enableRotate={false}
             enableDamping
             dampingFactor={0.5}
             maxPolarAngle={Math.PI / 2}
