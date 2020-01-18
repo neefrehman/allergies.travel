@@ -5,7 +5,6 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader";
 import planetModel from "./models/planet.gltf";
 
-// Reference: https://github.com/react-spring/react-three-fiber/blob/master/examples/src/demos/GltfPlanet.js
 const Planet = props => {
     const ref = useRef();
     const gltf = useLoader(GLTFLoader, planetModel, loader => {
