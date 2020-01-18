@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useState, useEffect } from "react";
 import { Canvas } from "react-three-fiber";
 
 import Lights from "./lights";
@@ -8,27 +8,33 @@ import Controls from "./controls";
 
 import "./style.css";
 
-const PeanutPlanet = () => (
-    <Canvas
-        style={{
-            background: "#061923",
-            height: "100vh",
-            width: "100vw"
-        }}
-        shadowMap
-    >
-        <Lights />
-        <fog attach="fog" args={["#090b1f", 1, 800]} />
+const PeanutPlanet = () => {
+    const [planetHasLoaded, setPlanetHasLoaded] = useState(false);
+    useEffect(() => {
+        setTimeout(() => setPlanetHasLoaded(true), 2000);
+    }, []);
 
-        <Suspense fallback={null}>
-            {/* TODO: callback to trigger spring-zoom only once planet is loaded */}
-            <Planet />
-        </Suspense>
+    return (
+        <Canvas
+            style={{
+                background: "#061923",
+                height: "100vh",
+                width: "100vw"
+            }}
+            shadowMap
+        >
+            <Lights />
+            <fog attach="fog" args={["#090b1f", 1, 700]} />
 
-        <Stars />
+            <Suspense fallback={null}>
+                {/* TODO: callback to trigger zoom only once planet is loaded? */}
+                <Planet />
+            </Suspense>
 
-        <Controls />
-    </Canvas>
-);
+            <Stars />
+            <Controls planetHasLoaded={planetHasLoaded} />
+        </Canvas>
+    );
+};
 
 export default PeanutPlanet;

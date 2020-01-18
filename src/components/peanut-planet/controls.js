@@ -1,22 +1,19 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef } from "react";
 import { useFrame, useThree, extend } from "react-three-fiber";
 import { useSpring } from "react-spring";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 extend({ OrbitControls });
 
-const Controls = () => {
+const Controls = ({ planetHasLoaded = true }) => {
     const { gl, camera } = useThree();
     const ref = useRef();
-    useFrame(() => ref.current.update());
-
-    const [loaded, setLoaded] = useState(false);
-    useEffect(() => setLoaded(true), []);
+    const initialCameraZ = 200;
 
     // eslint-disable-next-line no-unused-vars
     const { z } = useSpring({
         from: { z: 200 },
-        z: loaded ? 15 : 200,
+        z: planetHasLoaded ? 15 : initialCameraZ,
         config: {
             duration: 500,
             mass: 9.5,
@@ -25,13 +22,19 @@ const Controls = () => {
         }
     });
 
-    camera.position.set(0, 0, 15);
+    // TODO: Swap clock-based value with z^
+    useFrame(({ clock }) => {
+        camera.position.z = planetHasLoaded
+            ? 200 + Math.sin(clock.getElapsedTime()) * 30
+            : initialCameraZ;
+        ref.current.update();
+    });
 
     return (
         <orbitControls
             ref={ref}
             args={[camera, gl.domElement]}
-            autoRotate
+            autoRotate={planetHasLoaded}
             autoRotateSpeed={0.4}
             enablePan={false}
             enableZoom={false}
