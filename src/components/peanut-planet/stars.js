@@ -1,7 +1,16 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState } from "react";
+import { useFrame } from "react-three-fiber";
+
+import lerp from "../../utils/lerp";
 
 const Stars = ({ count = 1000, xOff = 0, yOff = 0, zOff = 50 }) => {
-    const positionsArray = useMemo(() => {
+    const [starOpacity, setStarOpacity] = useState(0.2);
+
+    useFrame(() => {
+        if (starOpacity < 1) setStarOpacity(lerp(starOpacity, 1.05, 0.07));
+    });
+
+    const starPositionArray = useMemo(() => {
         const positions = [];
         for (let i = 0; i < count; i++) {
             positions.push(
@@ -18,7 +27,7 @@ const Stars = ({ count = 1000, xOff = 0, yOff = 0, zOff = 50 }) => {
             );
         }
         return new Float32Array(positions);
-    }, [count]);
+    }, [count, xOff, yOff, zOff]);
 
     return (
         <points>
@@ -26,7 +35,7 @@ const Stars = ({ count = 1000, xOff = 0, yOff = 0, zOff = 50 }) => {
                 <bufferAttribute
                     attachObject={["attributes", "position"]}
                     count={count}
-                    array={positionsArray}
+                    array={starPositionArray}
                     itemSize={3}
                 />
             </bufferGeometry>
@@ -37,7 +46,7 @@ const Stars = ({ count = 1000, xOff = 0, yOff = 0, zOff = 50 }) => {
                 sizeAttenuation
                 color="white"
                 transparent
-                opacity={1}
+                opacity={starOpacity}
                 fog={false}
             />
         </points>
