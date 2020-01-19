@@ -34,7 +34,8 @@
     "react/jsx-indent": "off",
     "react/jsx-indent-props": "off",
     "no-underscore-dangle": "off",
-    "react/no-danger": "off"
+    "react/no-danger": "off",
+    "react/jsx-props-no-spreading": "off"
   },
   "plugins": ["prettier", "jsx-a11y"]
 }

@@ -1,42 +1,41 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { useFrame, useThree, extend } from "react-three-fiber";
 import { useSpring } from "react-spring";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 extend({ OrbitControls });
 
-const Controls = ({ planetHasLoaded = true }) => {
+const Controls = () => {
     const { gl, camera } = useThree();
     const ref = useRef();
-    const initialCameraZ = 200;
 
-    // eslint-disable-next-line no-unused-vars
+    const [zoomFinished, setZoomFinished] = useState(false);
+
     const { z } = useSpring({
-        from: { z: initialCameraZ },
-        z: planetHasLoaded ? 15 : initialCameraZ,
+        from: { z: 380 },
+        z: 20,
         config: {
-            duration: 500,
-            mass: 9,
-            tension: 250,
-            friction: 60
-        }
+            mass: 0.1,
+            tension: 200,
+            friction: 180
+        },
+        onRest: () => setZoomFinished(true)
     });
 
-    useFrame(({ clock }) => {
-        // TODO: Swap clock-based value with z^
-        // camera.position.z = z;
-        camera.position.z = planetHasLoaded
-            ? 200 + Math.sin(clock.getElapsedTime()) * 30
-            : initialCameraZ;
+    // TODO: find a way to hand off values back to the camera prop in Canvas once zoom is over
+    // Otherwise autoRotate get's whacked!
+    useFrame(() => {
+        camera.position.z = z.value;
         ref.current.update();
+        console.log(z.value, camera.position.z);
     });
 
     return (
         <orbitControls
             ref={ref}
             args={[camera, gl.domElement]}
-            autoRotate={planetHasLoaded}
-            autoRotateSpeed={0.4}
+            autoRotate={zoomFinished}
+            autoRotateSpeed={0.3}
             enablePan={false}
             enableZoom={false}
             enableRotate={false}
