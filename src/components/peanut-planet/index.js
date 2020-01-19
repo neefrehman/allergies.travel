@@ -22,7 +22,9 @@ const PeanutPlanet = () => (
         <fog attach="fog" args={["#090b1f", 1, 700]} />
 
         <Suspense fallback={null}>
-            {/* TODO: callback to trigger zoom only once planet is loaded? */}
+            {/* TODO: Fix only loading controls once Planet is loaded
+            "Since it's inside the Suspense boundary, it will
+            start doing that once everything's loaded/processed" */}
             <Planet />
             <Controls />
         </Suspense>
