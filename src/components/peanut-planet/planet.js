@@ -1,15 +1,15 @@
 import React, { useRef } from "react";
 import { useLoader } from "react-three-fiber";
-
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader";
-import planetModel from "./planet.gltf";
+
+import planetModel from "./models/planet.gltf";
 
 const Planet = props => {
     const ref = useRef();
     const gltf = useLoader(GLTFLoader, planetModel, loader => {
         const dracoLoader = new DRACOLoader();
-        dracoLoader.setDecoderPath("./draco-gltf/");
+        dracoLoader.setDecoderPath("./models/draco-gltf/");
         loader.setDRACOLoader(dracoLoader);
     });
 
