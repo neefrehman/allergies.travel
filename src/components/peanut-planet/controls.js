@@ -26,8 +26,10 @@ const Controls = ({ initialCameraZ }) => {
 
     useFrame(() => {
         if (camera.position.z > 20) camera.position.z = z.value;
-        if (dollyFinished && rotationSpeed < 0.3) {
-            setRotationSpeed(lerp(rotationSpeed, 0.305, 0.003));
+        if (rotationSpeed < 0.3) {
+            setRotationSpeed(
+                lerp(rotationSpeed, 0.305, dollyFinished ? 0.003 : 0.0008)
+            );
         }
         ref.current.update();
     });
@@ -37,7 +39,7 @@ const Controls = ({ initialCameraZ }) => {
             target={[0, 0, 0]}
             ref={ref}
             args={[camera, gl.domElement]}
-            autoRotate={dollyFinished}
+            autoRotate
             autoRotateSpeed={rotationSpeed}
             enablePan={false}
             enableZoom={false}
