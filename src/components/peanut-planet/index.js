@@ -7,7 +7,7 @@ import Stars from "./stars";
 import Controls from "./controls";
 
 const PeanutPlanet = () => {
-    const initialCameraZ = 1100;
+    const initialCameraZ = 1000;
 
     return (
         <Canvas

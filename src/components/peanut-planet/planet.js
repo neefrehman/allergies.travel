@@ -9,7 +9,8 @@ const Planet = props => {
     const ref = useRef();
     const gltf = useLoader(GLTFLoader, planetModel, loader => {
         const dracoLoader = new DRACOLoader();
-        dracoLoader.setDecoderPath("./models/draco-gltf/");
+        // TODO: URL loader for decoder path dir -> ./models/draco-gltf/
+        dracoLoader.setDecoderPath("/draco-gltf/");
         loader.setDRACOLoader(dracoLoader);
     });
 
