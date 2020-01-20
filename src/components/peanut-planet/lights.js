@@ -2,7 +2,7 @@ import React from "react";
 
 const Lights = () => (
     <>
-        <ambientLight intensity={0.4} />
+        <ambientLight intensity={0.3} />
         <pointLight intensity={20} position={[-10, -25, -10]} color="#200f20" />
         <spotLight
             castShadow
