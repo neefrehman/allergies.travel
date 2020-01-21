@@ -6,8 +6,10 @@ import Planet from "./planet";
 import Stars from "./stars";
 import Controls from "./controls";
 
+// TODO: Split peanut-planet THREE bundle from main js bundle on index -> faster loading
+
 const PeanutPlanet = () => {
-    const initialCameraZ = 1000;
+    const initialCameraZ = 1050;
 
     return (
         <Canvas
@@ -24,7 +26,7 @@ const PeanutPlanet = () => {
                 <Lights />
                 <fog attach="fog" args={["#090b1f", 1, 700]} />
                 <Planet />
-                <Stars />
+                <Stars count={1000} />
                 <Controls initialCameraZ={initialCameraZ} />
             </Suspense>
         </Canvas>

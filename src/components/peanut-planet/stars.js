@@ -4,10 +4,10 @@ import { useFrame } from "react-three-fiber";
 import lerp from "../../utils/lerp";
 
 const Stars = ({ count = 1000, xOff = 0, yOff = 0, zOff = 50 }) => {
-    const [starOpacity, setStarOpacity] = useState(0.1);
+    const [starOpacity, setStarOpacity] = useState(0);
 
     useFrame(() => {
-        if (starOpacity < 1) setStarOpacity(lerp(starOpacity, 1.05, 0.05));
+        if (starOpacity < 1) setStarOpacity(lerp(starOpacity, 1.02, 0.09));
     });
 
     const starPositionArray = useMemo(() => {
