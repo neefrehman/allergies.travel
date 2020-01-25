@@ -6,10 +6,10 @@ import Planet from "./planet";
 import Stars from "./stars";
 import Controls from "./controls";
 
-// TODO: Split peanut-planet THREE bundle from main js bundle on index -> faster loading
+// TODO: Split peanut-planet THREE bundle from main js bundle on index page -> faster loading?
 
 const PeanutPlanet = () => {
-    const initialCameraZ = 1050;
+    const initialCameraZ = 1100;
 
     return (
         <Canvas

@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         siteTitle: "allergies.travel",
-        siteSubtitle: "Travel safely :—)",
+        siteSubtitle: "Not coming soon",
         siteDescription: "",
         siteImage: "",
         twitter: "@neefrehman_",

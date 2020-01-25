@@ -27,7 +27,7 @@
     "prettier/prettier": "warn",
     "react/prop-types": "off",
     "react/display-name": "off",
-    "react/jsx-filename-extension": "off",
+    // "react/jsx-filename-extension": "off",
     "linebreak-style": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-wrap-multilines": "off",

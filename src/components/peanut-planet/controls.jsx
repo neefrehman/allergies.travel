@@ -17,7 +17,7 @@ const Controls = ({ initialCameraZ }) => {
         from: { z: initialCameraZ },
         z: 20,
         config: {
-            mass: 5,
+            mass: 5.2,
             tension: 320,
             friction: 180
         },
@@ -26,9 +26,9 @@ const Controls = ({ initialCameraZ }) => {
 
     useFrame(() => {
         if (camera.position.z > 20) camera.position.z = z.value;
-        if (rotationSpeed < 0.31) {
+        if (rotationSpeed < 0.305) {
             setRotationSpeed(
-                lerp(rotationSpeed, 0.315, dollyFinished ? 0.003 : 0.0008)
+                lerp(rotationSpeed, 0.31, dollyFinished ? 0.003 : 0.0008)
             );
         }
         ref.current.update();

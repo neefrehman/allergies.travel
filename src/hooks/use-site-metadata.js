@@ -6,12 +6,13 @@ export default () => {
             query SiteMetaData {
                 site {
                     siteMetadata {
-                        siteUrl
                         siteTitle
+                        siteSubtitle
                         siteDescription
                         siteImage
                         twitter
                         name
+                        siteUrl
                     }
                 }
             }
