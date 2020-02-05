@@ -2,6 +2,7 @@ import React from "react";
 import { styled } from "linaria/react";
 
 import PeanutPlanet from "../../components/peanut-planet";
+
 import Title from "./title";
 
 import "../../styles/base.css";

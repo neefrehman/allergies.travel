@@ -18,7 +18,7 @@ const SEO = ({ title, description, image }) => {
     const pageImage = image || siteImage;
 
     return (
-        <Helmet>
+        <Helmet htmlAttributes={{ lang: "en" }}>
             <meta charset="utf-8" />
             <meta
                 name="viewport"

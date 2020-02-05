@@ -8,6 +8,8 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
     "airbnb",
     "prettier"
   ],
@@ -24,18 +26,24 @@
         "allowForLoopAfterthoughts": true
       }
     ],
+    "linebreak-style": "off",
+    "no-underscore-dangle": "off",
+    "import/order": [
+      "warn",
+      {
+        "newlines-between": "always",
+      }
+    ],
     "prettier/prettier": "warn",
     "react/prop-types": "off",
     "react/display-name": "off",
     // "react/jsx-filename-extension": "off",
-    "linebreak-style": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-wrap-multilines": "off",
     "react/jsx-indent": "off",
     "react/jsx-indent-props": "off",
-    "no-underscore-dangle": "off",
     "react/no-danger": "off",
     "react/jsx-props-no-spreading": "off"
   },
-  "plugins": ["prettier", "jsx-a11y"]
+  "plugins": ["prettier", "jsx-a11y", "import"]
 }
