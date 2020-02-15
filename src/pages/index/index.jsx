@@ -15,13 +15,12 @@ const IntroContainer = styled.div`
 
 const HomePage = () => {
     const [titleIsVisible, setTitleIsVisible] = useState(false);
-    const startTitleAnimation = () => setTitleIsVisible(true);
 
     return (
         <IntroContainer>
             <PeanutPlanet
                 titleIsVisible={titleIsVisible}
-                startTitleAnimation={startTitleAnimation}
+                setTitleIsVisible={setTitleIsVisible}
             />
             {titleIsVisible && <Title />}
         </IntroContainer>

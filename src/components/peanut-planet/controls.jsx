@@ -7,7 +7,7 @@ import lerp from "../../utils/lerp";
 
 extend({ OrbitControls });
 
-const Controls = ({ initialCameraZ, titleIsVisible, startTitleAnimation }) => {
+const Controls = ({ initialCameraZ, titleIsVisible, setTitleIsVisible }) => {
     const { gl, camera } = useThree();
     const ref = useRef();
     const [rotationSpeed, setRotationSpeed] = useState(0);
@@ -17,17 +17,17 @@ const Controls = ({ initialCameraZ, titleIsVisible, startTitleAnimation }) => {
         z: 20,
         config: {
             mass: 5.2,
-            tension: 320,
+            tension: 310,
             friction: 170
         },
-        onRest: () => startTitleAnimation()
+        onRest: () => setTitleIsVisible(true)
     });
 
     useFrame(() => {
         if (camera.position.z > 20) camera.position.z = z.value;
         if (rotationSpeed < 0.3) {
             setRotationSpeed(
-                lerp(rotationSpeed, 0.305, titleIsVisible ? 0.003 : 0.0008)
+                lerp(rotationSpeed, 0.305, titleIsVisible ? 0.003 : 0.0009)
             );
         }
         ref.current.update();
