@@ -18,7 +18,7 @@ const Controls = ({ initialCameraZ, titleIsVisible, startTitleAnimation }) => {
         config: {
             mass: 5.2,
             tension: 320,
-            friction: 180
+            friction: 170
         },
         onRest: () => startTitleAnimation()
     });

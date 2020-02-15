@@ -9,7 +9,7 @@ import Controls from "./controls";
 // TODO: Split peanut-planet THREE bundle from main js bundle on index page -> faster loading?
 
 const PeanutPlanet = ({ titleIsVisible, startTitleAnimation }) => {
-    const initialCameraZ = 1200;
+    const initialCameraZ = 2000;
 
     return (
         <Canvas
@@ -24,7 +24,6 @@ const PeanutPlanet = ({ titleIsVisible, startTitleAnimation }) => {
         >
             <Suspense fallback={null}>
                 <Lights />
-                <fog attach="fog" args={["#090b1f", 1, 700]} />
                 <Planet />
                 <Stars count={1000} />
                 <Controls
