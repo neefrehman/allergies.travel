@@ -7,11 +7,7 @@ import lerp from "../../../utils/lerp";
 
 extend({ OrbitControls });
 
-const Controls = ({
-    initialCameraZ,
-    dollyHasFinished,
-    setDollyHasFinished
-}) => {
+const Controls = ({ initialCameraZ, titleIsVisible, startTitleAnimation }) => {
     const { gl, camera } = useThree();
     const ref = useRef();
     const [rotationSpeed, setRotationSpeed] = useState(0);
@@ -24,14 +20,14 @@ const Controls = ({
             tension: 320,
             friction: 180
         },
-        onRest: () => setDollyHasFinished()
+        onRest: () => startTitleAnimation()
     });
 
     useFrame(() => {
         if (camera.position.z > 20) camera.position.z = z.value;
-        if (rotationSpeed < 0.305) {
+        if (rotationSpeed < 0.3) {
             setRotationSpeed(
-                lerp(rotationSpeed, 0.31, dollyHasFinished ? 0.003 : 0.0008)
+                lerp(rotationSpeed, 0.305, titleIsVisible ? 0.003 : 0.0008)
             );
         }
         ref.current.update();

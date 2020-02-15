@@ -13,16 +13,16 @@ const IntroContainer = styled.div`
 `;
 
 const HomePage = () => {
-    const [dollyHasFinished, setDollyHasFinished] = useState(false);
-    const finishDolly = () => setDollyHasFinished(true);
+    const [titleIsVisible, setTitleIsVisible] = useState(false);
+    const startTitleAnimation = () => setTitleIsVisible(true);
 
     return (
         <IntroContainer>
             <PeanutPlanet
-                dollyHasFinished={dollyHasFinished}
-                setDollyHasFinished={finishDolly}
+                titleIsVisible={titleIsVisible}
+                startTitleAnimation={startTitleAnimation}
             />
-            {dollyHasFinished && <Title />}
+            {titleIsVisible && <Title />}
         </IntroContainer>
     );
 };

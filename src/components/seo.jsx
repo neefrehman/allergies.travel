@@ -44,7 +44,7 @@ const SEO = ({ title, description, image }) => {
             <meta name="twitter:image" content={pageImage} />
 
             <link
-                href="https://fonts.googleapis.com/css?family=Chonburi&display=block"
+                href="https://fonts.googleapis.com/css?family=Chonburi"
                 rel="stylesheet"
             />
 
