@@ -34,8 +34,6 @@ const StyledDiv = styled.div`
 const Title = () => {
     const { siteTitle: title, siteSubtitle: subtitle } = useSiteMetadata();
 
-    const initialDelay = 6800;
-
     const springConfig = {
         mass: 13,
         tension: 280,
@@ -46,14 +44,14 @@ const Title = () => {
         transform: "translate3d(0, 0, 0)",
         from: { transform: "translate3d(0, 180%, 0)" },
         config: springConfig,
-        delay: initialDelay
+        delay: 200
     });
 
     const subtitleSpring = useSpring({
         transform: "translate3d(0, 0, 0)",
         from: { transform: "translate3d(0, -160%, 0)" },
         config: springConfig,
-        delay: initialDelay + 2800
+        delay: 3000
     });
 
     return (

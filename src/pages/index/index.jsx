@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { styled } from "linaria/react";
 
-import PeanutPlanet from "../../components/peanut-planet";
-
+import PeanutPlanet from "./peanut-planet";
 import Title from "./title";
 
 import "../../styles/base.css";
@@ -13,11 +12,19 @@ const IntroContainer = styled.div`
     position: relative;
 `;
 
-const HomePage = () => (
-    <IntroContainer>
-        <PeanutPlanet />
-        <Title />
-    </IntroContainer>
-);
+const HomePage = () => {
+    const [dollyHasFinished, setDollyHasFinished] = useState(false);
+    const finishDolly = () => setDollyHasFinished(true);
+
+    return (
+        <IntroContainer>
+            <PeanutPlanet
+                dollyHasFinished={dollyHasFinished}
+                setDollyHasFinished={finishDolly}
+            />
+            {dollyHasFinished && <Title />}
+        </IntroContainer>
+    );
+};
 
 export default HomePage;

@@ -3,14 +3,17 @@ import { useFrame, useThree, extend } from "react-three-fiber";
 import { useSpring } from "react-spring";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
-import lerp from "../../utils/lerp";
+import lerp from "../../../utils/lerp";
 
 extend({ OrbitControls });
 
-const Controls = ({ initialCameraZ }) => {
+const Controls = ({
+    initialCameraZ,
+    dollyHasFinished,
+    setDollyHasFinished
+}) => {
     const { gl, camera } = useThree();
     const ref = useRef();
-    const [dollyFinished, setDollyFinished] = useState(false);
     const [rotationSpeed, setRotationSpeed] = useState(0);
 
     const { z } = useSpring({
@@ -21,14 +24,14 @@ const Controls = ({ initialCameraZ }) => {
             tension: 320,
             friction: 180
         },
-        onRest: () => setDollyFinished(true)
+        onRest: () => setDollyHasFinished()
     });
 
     useFrame(() => {
         if (camera.position.z > 20) camera.position.z = z.value;
         if (rotationSpeed < 0.305) {
             setRotationSpeed(
-                lerp(rotationSpeed, 0.31, dollyFinished ? 0.003 : 0.0008)
+                lerp(rotationSpeed, 0.31, dollyHasFinished ? 0.003 : 0.0008)
             );
         }
         ref.current.update();

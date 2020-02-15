@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { useFrame } from "react-three-fiber";
 
-import lerp from "../../utils/lerp";
+import lerp from "../../../utils/lerp";
 
 const Stars = ({ count = 1000, xOff = 0, yOff = 0, zOff = 50 }) => {
     const [starOpacity, setStarOpacity] = useState(0);
