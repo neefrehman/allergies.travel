@@ -3,7 +3,7 @@ import { useFrame, useThree, extend } from "react-three-fiber";
 import { useSpring } from "react-spring";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
-import lerp from "../../../utils/lerp";
+import lerp from "../../utils/lerp";
 
 extend({ OrbitControls });
 
