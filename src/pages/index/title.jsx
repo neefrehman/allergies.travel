@@ -43,15 +43,14 @@ const Title = () => {
     const titleSpring = useSpring({
         transform: "translate3d(0, 0, 0)",
         from: { transform: "translate3d(0, 180%, 0)" },
-        config: springConfig,
-        delay: 200
+        config: springConfig
     });
 
     const subtitleSpring = useSpring({
         transform: "translate3d(0, 0, 0)",
         from: { transform: "translate3d(0, -160%, 0)" },
         config: springConfig,
-        delay: 3000
+        delay: 2800
     });
 
     return (
