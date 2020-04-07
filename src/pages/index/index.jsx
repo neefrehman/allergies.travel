@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { styled } from "linaria/react";
 
-import PeanutPlanet from "../../components/peanut-planet";
+import PeanutPlanet from "../../components/PeanutPlanet";
 
 import Title from "./title";
 

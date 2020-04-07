@@ -1,7 +1,7 @@
 import React from "react";
 import { styled } from "linaria/react";
 
-import useSiteMetadata from "../../hooks/use-site-metadata";
+import useSiteMetadata from "../../hooks/useSiteMetadata";
 
 const StyledDiv = styled.div`
     position: absolute;
@@ -18,7 +18,7 @@ const StyledDiv = styled.div`
 
     h1,
     p {
-        transition: transform 3800ms cubic-bezier(0, 0.85, 0.1, 1);
+        transition: transform 3800ms cubic-bezier(0, 0.8, 0.1, 1);
     }
 
     h1 {

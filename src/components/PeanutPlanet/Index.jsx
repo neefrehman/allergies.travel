@@ -1,10 +1,10 @@
 import React, { Suspense } from "react";
 import { Canvas } from "react-three-fiber";
 
-import Lights from "./lights";
-import Planet from "./planet";
-import Stars from "./stars";
-import Controls from "./controls";
+import Lights from "./Lights";
+import Planet from "./Planet";
+import Stars from "./Stars";
+import Controls from "./Controls";
 
 // TODO: Split peanut-planet THREE bundle from main js bundle on index page -> faster loading?
 
