@@ -1,6 +1,5 @@
 import React from "react";
 import { styled } from "linaria/react";
-import { useSpring, animated } from "react-spring";
 
 import useSiteMetadata from "../../hooks/use-site-metadata";
 
@@ -17,9 +16,15 @@ const StyledDiv = styled.div`
         padding: 0.2em 0;
     }
 
+    h1,
+    p {
+        transition: transform 3800ms cubic-bezier(0, 0.85, 0.1, 1);
+    }
+
     h1 {
         margin-bottom: 0.5em;
         overflow-wrap: break-word;
+        transform: translate3d(0, 180%, 0);
 
         @media (max-width: 620px) {
             font-size: 2.6em;
@@ -28,39 +33,25 @@ const StyledDiv = styled.div`
 
     p {
         font-size: 1.42em;
+        transform: translate3d(0, -160%, 0);
+        transition-delay: 2700ms;
     }
 `;
 
-const Title = () => {
+const Title = ({ isVisible }) => {
     const { siteTitle: title, siteSubtitle: subtitle } = useSiteMetadata();
 
-    const springConfig = {
-        mass: 13,
-        tension: 280,
-        friction: 150
-    };
-
-    const titleSpring = useSpring({
-        transform: "translate3d(0, 0, 0)",
-        from: { transform: "translate3d(0, 180%, 0)" },
-        config: springConfig
-    });
-
-    const subtitleSpring = useSpring({
-        transform: "translate3d(0, 0, 0)",
-        from: { transform: "translate3d(0, -160%, 0)" },
-        config: springConfig,
-        delay: 2800
-    });
+    const loadedStyle = isVisible
+        ? { transform: "translate3d(0, 0, 0)" }
+        : undefined;
 
     return (
         <StyledDiv>
             <div>
-                <animated.h1 style={titleSpring}>{title}</animated.h1>
+                <h1 style={loadedStyle}>{title}</h1>
             </div>
-
             <div>
-                <animated.p style={subtitleSpring}>{subtitle}</animated.p>
+                <p style={loadedStyle}>{subtitle}</p>
             </div>
         </StyledDiv>
     );

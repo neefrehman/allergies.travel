@@ -22,7 +22,7 @@ const HomePage = () => {
                 titleIsVisible={titleIsVisible}
                 setTitleIsVisible={setTitleIsVisible}
             />
-            {titleIsVisible && <Title />}
+            <Title isVisible={titleIsVisible} />
         </IntroContainer>
     );
 };
