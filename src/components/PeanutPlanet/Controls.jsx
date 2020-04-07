@@ -18,7 +18,7 @@ const Controls = ({ initialCameraZ, titleIsVisible, setTitleIsVisible }) => {
         config: {
             mass: 5.2,
             tension: 310,
-            friction: 175
+            friction: 150
         },
         onRest: () => setTitleIsVisible(true)
     });
