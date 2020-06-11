@@ -1,49 +1,108 @@
 {
-  "parser": "babel-eslint",
-  "env": {
-    "browser": true,
-    "node": true
-  },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:jsx-a11y/recommended",
-    "plugin:import/errors",
-    "plugin:import/warnings",
-    "airbnb",
-    "prettier"
-  ],
-  "rules": {
-    "strict": 0,
-    "no-console": "warn",
-    "quotes": [
-      "warn",
-      "double"
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module",
+        "allowImportExportEverywhere": true,
+        "project": "./tsconfig.json",
+        "tsconfigRootDir": "./"
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "prettier",
+        "import",
+        "@typescript-eslint"
     ],
-    "no-plusplus": [
-      2,
-      {
-        "allowForLoopAfterthoughts": true
-      }
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:jsx-a11y/recommended",
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "plugin:import/typescript",
+        "prettier",
+        "prettier/@typescript-eslint"
     ],
-    "linebreak-style": "off",
-    "no-underscore-dangle": "off",
-    "import/order": [
-      "warn",
-      {
-        "newlines-between": "always",
-      }
-    ],
-    "prettier/prettier": "warn",
-    "react/prop-types": "off",
-    "react/display-name": "off",
-    // "react/jsx-filename-extension": "off",
-    "react/jsx-one-expression-per-line": "off",
-    "react/jsx-wrap-multilines": "off",
-    "react/jsx-indent": "off",
-    "react/jsx-indent-props": "off",
-    "react/no-danger": "off",
-    "react/jsx-props-no-spreading": "off"
-  },
-  "plugins": ["prettier", "jsx-a11y", "import"]
+    "settings": {
+        "import/resolver": {
+            "typescript": {}
+        }
+    },
+    "rules": {
+        "strict": 0,
+        "no-console": "warn",
+        "no-plusplus": [
+            "warn",
+            {
+                "allowForLoopAfterthoughts": true
+            }
+        ],
+        "no-param-reassign": [
+            "error",
+            {
+                "props": true,
+                "ignorePropertyModificationsForRegex": ["p"]
+            }
+        ],
+        "lines-between-class-members": [
+            "warn",
+            "always",
+            {
+                "exceptAfterSingleLine": true
+            }
+        ],
+        "prefer-destructuring": [
+            "error",
+            {
+                "AssignmentExpression": {
+                    "array": false
+                }
+            }
+        ],
+        "import/order": [
+            "warn",
+            {
+                "groups": [
+                    "builtin",
+                    "external",
+                    "internal",
+                    "parent",
+                    "sibling",
+                    "index"
+                ],
+                "newlines-between": "always"
+            }
+        ],
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+                "js": "never",
+                "ts": "never",
+                "tsx": "never"
+            }
+        ],
+        "prettier/prettier": "warn",
+        "react/prop-types": "off",
+        "react/jsx-filename-extension": "off",
+        "react/jsx-indent": [2, 4],
+        "react/jsx-indent-props": [2, 4],
+        "react/jsx-one-expression-per-line": "off",
+        "react/no-danger": "warn",
+        "jsx-a11y/anchor-is-valid": [
+            "error",
+            {
+                "components": ["Link"],
+                "specialLink": ["href"],
+                "aspects": ["invalidHref", "preferButton"]
+            }
+        ],
+        "@typescript-eslint/explicit-function-return-type": "off"
+    }
 }
