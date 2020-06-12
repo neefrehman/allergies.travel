@@ -3,15 +3,15 @@
 import React, { useState } from "react";
 import { useFrame, useThree } from "react-three-fiber";
 import { useSpring } from "react-spring";
-// Cannot use import statement outside a module: https://github.com/react-spring/gltfjsx/issues/20
 // import { OrbitControls } from "drei";
+// ^Cannot use import statement outside a module: https://github.com/react-spring/react-three-fiber/discussions/504
 
 import lerp from "utils/lerp";
 
 let OrbitControls;
 
 interface ControlsProps {
-    initialCameraZ: any; // otherwise z.value in useFrame won't work
+    initialCameraZ: number;
     titleIsVisible: boolean;
     setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
 }
@@ -26,7 +26,7 @@ const Controls = ({
     const { gl, camera } = useThree();
     const [rotationSpeed, setRotationSpeed] = useState(0);
 
-    const { z } = useSpring({
+    useSpring({
         from: {
             z: initialCameraZ
         },
@@ -36,11 +36,13 @@ const Controls = ({
             tension: 310,
             friction: 150
         },
+        onFrame: ({ z }) => {
+            camera.position.z = z;
+        },
         onRest: () => setTitleIsVisible(true)
     });
 
     useFrame(() => {
-        if (camera.position.z > 20) camera.position.z = z.value;
         if (rotationSpeed < 0.3) {
             setRotationSpeed(
                 lerp(rotationSpeed, 0.305, titleIsVisible ? 0.003 : 0.0009)

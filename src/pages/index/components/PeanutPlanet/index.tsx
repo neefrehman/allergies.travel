@@ -32,14 +32,14 @@ const PeanutPlanet = ({
             shadowMap
         >
             <Suspense fallback={null}>
-                {/* <Lights />
-                // <Planet /> */}
+                <Lights />
+                <Planet />
                 <Stars count={1000} />
-                {/* <Controls
+                <Controls
                     initialCameraZ={initialCameraZ}
                     titleIsVisible={titleIsVisible}
                     setTitleIsVisible={setTitleIsVisible}
-                /> */}
+                />
             </Suspense>
         </Canvas>
     );

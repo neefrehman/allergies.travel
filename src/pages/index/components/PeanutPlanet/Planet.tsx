@@ -2,8 +2,8 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 import React from "react";
 import { useLoader } from "react-three-fiber";
-// Cannot use import statement outside a module: https://github.com/react-spring/gltfjsx/issues/20
 // import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
+// ^Cannot use import statement outside a module: https://github.com/react-spring/react-three-fiber/discussions/504
 
 import planetModel from "./models/peanut_planet.obj";
 
