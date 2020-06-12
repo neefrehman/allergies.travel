@@ -14,6 +14,7 @@ export const globalStyles = css`
         body {
             margin: 0;
             font-size: 18px;
+            -webkit-font-smoothing: antialiased;
         }
 
         h1 {

@@ -1,17 +1,35 @@
+/* eslint-disable global-require */
+/* eslint-disable @typescript-eslint/no-var-requires */
 import React, { useState } from "react";
 import { useFrame, useThree } from "react-three-fiber";
-import { useSpring } from "react-spring/three";
-import { OrbitControls } from "drei";
-import { Vector3 } from "three";
+import { useSpring } from "react-spring";
+// Cannot use import statement outside a module: https://github.com/react-spring/gltfjsx/issues/20
+// import { OrbitControls } from "drei";
 
 import lerp from "utils/lerp";
 
-const Controls = ({ initialCameraZ, titleIsVisible, setTitleIsVisible }) => {
+let OrbitControls;
+
+interface ControlsProps {
+    initialCameraZ: any; // otherwise z.value in useFrame won't work
+    titleIsVisible: boolean;
+    setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const Controls = ({
+    initialCameraZ,
+    titleIsVisible,
+    setTitleIsVisible
+}: ControlsProps) => {
+    OrbitControls = require("drei").OrbitControls;
+
     const { gl, camera } = useThree();
     const [rotationSpeed, setRotationSpeed] = useState(0);
 
     const { z } = useSpring({
-        from: { z: initialCameraZ },
+        from: {
+            z: initialCameraZ
+        },
         z: 20,
         config: {
             mass: 5.2,
@@ -32,7 +50,7 @@ const Controls = ({ initialCameraZ, titleIsVisible, setTitleIsVisible }) => {
 
     return (
         <OrbitControls
-            target={new Vector3(0, 0, 0)}
+            target={[0, 0, 0]}
             args={[camera, gl.domElement]}
             autoRotate
             autoRotateSpeed={rotationSpeed}

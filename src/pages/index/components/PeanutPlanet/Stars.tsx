@@ -3,7 +3,14 @@ import { useFrame } from "react-three-fiber";
 
 import lerp from "utils/lerp";
 
-const Stars = ({ count = 1000, xOff = 0, yOff = 0, zOff = 50 }) => {
+interface StarsProps {
+    count: number;
+    xOff?: number;
+    yOff?: number;
+    zOff?: number;
+}
+
+const Stars = ({ count = 1000, xOff = 0, yOff = 0, zOff = 50 }: StarsProps) => {
     const [starOpacity, setStarOpacity] = useState(0);
 
     useFrame(() => {

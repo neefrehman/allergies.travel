@@ -25,5 +25,3 @@ module.exports = withCSS({
         return config;
     }
 });
-
-// module.exports = { experimental: { modern: true } }; // TODO: wait for general release - this breaks linaria

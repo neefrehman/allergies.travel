@@ -7,8 +7,17 @@ import Stars from "./Stars";
 import Controls from "./Controls";
 
 // TODO: Split peanut-planet THREE bundle from main js bundle on index page -> faster loading?
+// TODO: prefers-reduced-motion fallback
 
-const PeanutPlanet = ({ titleIsVisible, setTitleIsVisible }) => {
+interface PeanutPlanetProps {
+    titleIsVisible: boolean;
+    setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const PeanutPlanet = ({
+    titleIsVisible,
+    setTitleIsVisible
+}: PeanutPlanetProps) => {
     const initialCameraZ = 2100;
 
     return (
@@ -23,16 +32,14 @@ const PeanutPlanet = ({ titleIsVisible, setTitleIsVisible }) => {
             shadowMap
         >
             <Suspense fallback={null}>
-                <Lights />
-                {/* FIXME Cannot use import statement outside a module */}
-                <Planet />
+                {/* <Lights />
+                <Planet /> */}
                 <Stars count={1000} />
-                {/* FIXME Cannot use import statement outside a module */}
-                {/* <Controls
+                <Controls
                     initialCameraZ={initialCameraZ}
                     titleIsVisible={titleIsVisible}
                     setTitleIsVisible={setTitleIsVisible}
-                /> */}
+                />
             </Suspense>
         </Canvas>
     );
