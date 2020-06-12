@@ -11,6 +11,10 @@ export default App;
 
 export const globalStyles = css`
     :global() {
+        * {
+            margin: 0;
+        }
+
         body {
             margin: 0;
             font-size: 18px;
