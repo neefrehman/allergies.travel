@@ -1,14 +1,9 @@
-/* eslint-disable global-require */
-/* eslint-disable @typescript-eslint/no-var-requires */
 import React, { useState } from "react";
 import { useFrame, useThree } from "react-three-fiber";
 import { useSpring } from "react-spring";
-// import { OrbitControls } from "drei";
-// ^Cannot use import statement outside a module: https://github.com/react-spring/react-three-fiber/discussions/504
+import { OrbitControls } from "drei";
 
 import lerp from "utils/lerp";
-
-let OrbitControls;
 
 interface ControlsProps {
     initialCameraZ: number;
@@ -21,8 +16,6 @@ const Controls = ({
     titleIsVisible,
     setTitleIsVisible
 }: ControlsProps) => {
-    OrbitControls = require("drei").OrbitControls;
-
     const { gl, camera } = useThree();
     const [rotationSpeed, setRotationSpeed] = useState(0);
 

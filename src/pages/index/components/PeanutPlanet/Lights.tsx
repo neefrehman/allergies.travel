@@ -12,6 +12,7 @@ const Lights = () => (
             shadow-mapSize-width={2048}
             shadow-mapSize-height={2048}
         />
+        {/* @ts-ignore */}
         <fog attach="fog" args={["#090b1f", 1, 700]} />
     </>
 );

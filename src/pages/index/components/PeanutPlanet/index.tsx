@@ -1,10 +1,12 @@
-import React, { Suspense } from "react";
+import React, { Suspense, lazy } from "react";
 import { Canvas } from "react-three-fiber";
 
 import Lights from "./Lights";
-import Planet from "./Planet";
 import Stars from "./Stars";
-import Controls from "./Controls";
+
+const Controls = lazy(() => import("./Controls"));
+const Planet = lazy(() => import("./Planet"));
+// ^Fix for `Cannot use import statement outside a module` https://github.com/react-spring/react-three-fiber/discussions/504
 
 // TODO: Split peanut-planet THREE bundle from main js bundle on index page -> faster loading?
 // TODO: prefers-reduced-motion fallback

@@ -5,7 +5,6 @@ import PeanutPlanet from "./components/PeanutPlanet";
 import Title from "./components/Title";
 
 const IntroContainer = styled.div`
-    background-color: #061923;
     position: relative;
 `;
 
@@ -18,6 +17,7 @@ const HomePage = () => {
                 titleIsVisible={titleIsVisible}
                 setTitleIsVisible={setTitleIsVisible}
             />
+
             <Title isVisible={titleIsVisible} />
         </IntroContainer>
     );
