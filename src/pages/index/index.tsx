@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { styled } from "linaria/react";
 
-import PeanutPlanet from "./components/PeanutPlanet";
+import PeanutPlanet from "../../components/PeanutPlanet";
+
 import Title from "./components/Title";
 
 const IntroContainer = styled.div`
