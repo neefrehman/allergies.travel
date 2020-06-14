@@ -8,7 +8,6 @@ const Planet = lazy(() => import("./Planet"));
 const Controls = lazy(() => import("./Controls"));
 // ^Fix for `cannot use import statement outside a module`: https://github.com/react-spring/react-three-fiber/discussions/504
 
-// TODO: Split peanut-planet THREE bundle from main js bundle on index page -> faster loading?
 // TODO: prefers-reduced-motion fallback
 
 interface PeanutPlanetProps {
