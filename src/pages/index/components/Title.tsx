@@ -8,6 +8,7 @@ const StyledDiv = styled.div`
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
+    text-shadow: 0px 0px 15px #00000060;
 
     div {
         overflow-y: hidden;
@@ -16,7 +17,7 @@ const StyledDiv = styled.div`
 
     h1,
     p {
-        transition: transform 3800ms cubic-bezier(0, 0.8, 0.1, 1);
+        transition: transform 3600ms cubic-bezier(0, 0.8, 0.1, 1);
     }
 
     h1 {

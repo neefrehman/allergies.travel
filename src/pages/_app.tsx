@@ -16,6 +16,8 @@ export const globalStyles = css`
         }
 
         body {
+            min-height: 100vh;
+            min-height: -webkit-fill-available;
             margin: 0;
             font-size: 18px;
             -webkit-font-smoothing: antialiased;

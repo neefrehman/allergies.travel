@@ -19,6 +19,7 @@ const Controls = ({
     const { gl, camera } = useThree();
     const [rotationSpeed, setRotationSpeed] = useState(0);
 
+    // Will be deprecated in v9 https://github.com/react-spring/react-three-fiber/discussions/505
     useSpring({
         from: {
             z: initialCameraZ
@@ -38,7 +39,7 @@ const Controls = ({
     useFrame(() => {
         if (rotationSpeed < 0.3) {
             setRotationSpeed(
-                lerp(rotationSpeed, 0.305, titleIsVisible ? 0.003 : 0.0009)
+                lerp(rotationSpeed, 0.305, titleIsVisible ? 0.003 : 0.001)
             );
         }
     });

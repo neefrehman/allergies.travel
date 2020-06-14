@@ -34,6 +34,10 @@ class MyDocument extends Document {
                             `
                         }}
                     />
+                    <meta
+                        name="google-site-verification"
+                        content="wQKszS0jKVKPsouNwVNd1UP3YWgBZ9RV49yf8MP8ED8"
+                    />
 
                     {/* OG */}
                     <meta property="og:type" content="website" />

@@ -18,7 +18,6 @@ const HomePage = () => {
                 titleIsVisible={titleIsVisible}
                 setTitleIsVisible={setTitleIsVisible}
             />
-
             <Title isVisible={titleIsVisible} />
         </IntroContainer>
     );
