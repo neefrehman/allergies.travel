@@ -33,7 +33,7 @@ const PeanutPlanet = ({
             shadowMap
         >
             <Suspense fallback={null}>
-                {/* <Lights /> */}
+                <Lights />
                 <Planet />
                 <Stars count={1000} />
                 <Controls

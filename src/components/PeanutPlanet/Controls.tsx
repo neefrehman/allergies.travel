@@ -39,7 +39,7 @@ const Controls = ({
     useFrame(() => {
         if (rotationSpeed < 0.3) {
             setRotationSpeed(
-                lerp(rotationSpeed, 0.305, titleIsVisible ? 0.003 : 0.001)
+                lerp(rotationSpeed, 0.305, titleIsVisible ? 0.003 : 0.0012)
             );
         }
     });

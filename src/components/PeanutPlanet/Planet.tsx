@@ -6,12 +6,14 @@ import lerp from "Utils/lerp";
 
 import planetModel from "./models/peanut_planet.obj";
 
+const scale = window.innerWidth > 500 ? 1 : 0.75;
+
 const Planet = () => {
     const planetObj = useLoader(OBJLoader, planetModel);
     const [rotationY, setRotationY] = useState(-20);
 
     useFrame(() => {
-        if (rotationY < 5) setRotationY(lerp(rotationY, 5.005, 0.025));
+        if (rotationY < 5) setRotationY(lerp(rotationY, 5, 0.025));
     });
 
     return (
@@ -21,8 +23,8 @@ const Planet = () => {
             <fog attach="fog" args={["#090b1f", 1, 700]} />
             <primitive
                 object={planetObj}
-                scale={[4, 4, 4]}
-                position={[0, -0.4, 0]}
+                scale={[scale, scale, scale]}
+                position={[0, -0.3, 0]}
                 rotation={[0, rotationY, 0]}
             />
         </>
