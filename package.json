@@ -1,0 +1,74 @@
+{
+    "name": "allergies.travel",
+    "version": "1.0.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/neefrehman/allergies.travel/issues"
+    },
+    "keywords": [],
+    "author": "neefrehman",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/neefrehman/allergies.travel/issues"
+    },
+    "homepage": "https://github.com/neefrehman/allergies.travel/#readme",
+    "dependencies": {
+        "@zeit/next-css": "^1.0.1",
+        "drei": "0.0.60",
+        "glslify": "^7.0.0",
+        "linaria": "^1.3.3",
+        "next": "^9.4.4",
+        "react": "16.13.1",
+        "react-dom": "16.13.1",
+        "react-spring": "8.0.27",
+        "react-three-fiber": "^4.2.10",
+        "three": "^0.117.1"
+    },
+    "devDependencies": {
+        "@types/node": "^14.0.13",
+        "@types/react": "^16.9.36",
+        "@typescript-eslint/eslint-plugin": "^3.2.0",
+        "@typescript-eslint/parser": "^3.2.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.2.0",
+        "eslint-config-airbnb": "^18.1.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-import-resolver-typescript": "^2.0.0",
+        "eslint-loader": "^4.0.2",
+        "eslint-plugin-import": "^2.21.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-prettier": "^3.1.3",
+        "eslint-plugin-react": "^7.20.0",
+        "husky": "^4.2.5",
+        "lint-staged": "^10.2.9",
+        "prettier": "^2.0.5",
+        "typescript": "^3.9.5",
+        "url-loader": "^4.1.0",
+        "glslify-loader": "^2.0.0",
+        "raw-loader": "^4.0.1"
+    },
+    "scripts": {
+        "format": "prettier \"src/**/*.{js,ts,tsx}\"",
+        "format:fix": "prettier \"src/**/*.{js,ts,tsx}\" --write",
+        "lint": "eslint \"src/**/*.{js,ts,tsx}\"",
+        "lint:fix": "eslint \"src/**/*.{js,ts,tsx}\" --fix",
+        "typecheck": "tsc",
+        "dev": "next dev",
+        "build": "next build",
+        "export": "next export",
+        "start": "next start"
+    },
+    "lint-staged": {
+        "*.(js|ts|tsx)": [
+            "eslint --fix",
+            "prettier --write",
+            "git add"
+        ]
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": ""
+        }
+    }
+}
