@@ -1,15 +1,12 @@
-import React, { Suspense, lazy, useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "react-three-fiber";
 
 import Lights from "./Lights";
 import Stars from "./Stars";
+import Planet from "./Planet";
+import Controls from "./Controls";
 
-const Planet = lazy(() => import("./Planet"));
-const Controls = lazy(() => import("./Controls"));
-// ^Fix for `cannot use import statement outside a module`: https://github.com/react-spring/react-three-fiber/discussions/504
-
-// TODO: low-connectivity fallback - static image instead?
-// TODO: low-performance fallback - fps counter and lower res or static image?
+// TODO: low-performance fallback - fps counter and lower res at threshold? With Stats from drei?
 
 interface PeanutPlanetProps {
     titleIsVisible: boolean;
