@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from "react";
+import React, { Suspense, lazy, useEffect, useState } from "react";
 import { Canvas } from "react-three-fiber";
 
 import Lights from "./Lights";
@@ -8,7 +8,8 @@ const Planet = lazy(() => import("./Planet"));
 const Controls = lazy(() => import("./Controls"));
 // ^Fix for `cannot use import statement outside a module`: https://github.com/react-spring/react-three-fiber/discussions/504
 
-// TODO: prefers-reduced-motion fallback
+// TODO: low-connectivity fallback - static image instead?
+// TODO: low-performance fallback - fps counter and lower res or static image?
 
 interface PeanutPlanetProps {
     titleIsVisible: boolean;
@@ -19,7 +20,15 @@ const PeanutPlanet = ({
     titleIsVisible,
     setTitleIsVisible
 }: PeanutPlanetProps) => {
-    const initialCameraZ = 2100;
+    const [isReducedMotion, setIsReducedMotion] = useState(false);
+    const [initialCameraZ, setInitialCameraZ] = useState(2100);
+
+    useEffect(() => {
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+            setIsReducedMotion(true);
+            setInitialCameraZ(40);
+        }
+    });
 
     return (
         <Canvas
@@ -34,7 +43,7 @@ const PeanutPlanet = ({
         >
             <Suspense fallback={null}>
                 <Lights />
-                <Planet />
+                <Planet willRotate={!isReducedMotion} />
                 <Stars count={1000} />
                 <Controls
                     initialCameraZ={initialCameraZ}
