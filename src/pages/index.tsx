@@ -5,8 +5,8 @@ import Title from "../components/index/Title";
 
 const PeanutPlanet = lazy(() => import("../components/PeanutPlanet"));
 // ^Fix for `cannot use import statement outside a module`: https://github.com/react-spring/react-three-fiber/discussions/504
-// TODO: low-connectivity fallback - import static image with ternary instead?
-// import(navigator.connection.type === notSlowOnes ? "../components/PeanutPlanet" "../components/PeanutPlanet/FallbackImage")
+// TODO: low-connectivity fallback
+// import(navigator.connection.type === notSlow ? "../components/PeanutPlanet" : "../components/PeanutPlanet/FallbackImage")
 
 const IntroContainer = styled.div`
     position: relative;

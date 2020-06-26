@@ -12,6 +12,10 @@ interface PlanetProps {
     willRotate: boolean;
 }
 
+// TODO: two identical models placed over each other (blue and green) - both simplified
+// Green given terrain using glsl-noise
+// https://threejs.org/examples/#webgl_modifier_simplifier
+
 const Planet = ({ willRotate }: PlanetProps) => {
     const planetObj = useLoader(OBJLoader, planetModel);
     const [rotationY, setRotationY] = useState(willRotate ? -20 : 5);
@@ -22,8 +26,6 @@ const Planet = ({ willRotate }: PlanetProps) => {
 
     return (
         <>
-            {/* until three js publishes updated fog types: https://github.com/mrdoob/three.js/pull/19641 */
-            /* @ts-ignore */}
             <fog attach="fog" args={["#090b1f", 1, willRotate ? 700 : 70]} />
             <primitive
                 object={planetObj}

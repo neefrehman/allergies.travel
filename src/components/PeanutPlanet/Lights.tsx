@@ -4,7 +4,7 @@ const Lights = () => (
     <>
         <ambientLight intensity={0.5} color="#2F98D0" />
         {/* TODO: swap light color once planet colouring is done with shaders */}
-        {/* TODO: light rotatesa round planet for sun-like effect */}
+        {/* TODO: light rotates around planet for sun-like effect */}
         <pointLight intensity={2} position={[-10, -25, -10]} color="#5CBF62" />
         <spotLight
             castShadow

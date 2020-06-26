@@ -24,6 +24,7 @@ const PeanutPlanet = ({
         if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
             setIsReducedMotion(true);
             setInitialCameraZ(40);
+            // TODO: other reduced motion areas
         }
     });
 
