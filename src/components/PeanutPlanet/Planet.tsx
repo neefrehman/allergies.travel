@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useLoader, useFrame } from "react-three-fiber";
 import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
 
-import lerp from "Utils/lerp";
+import { lerp } from "Utils/lerp";
 
 import planetModel from "./models/peanut_planet.obj";
 
@@ -16,7 +16,7 @@ interface PlanetProps {
 // Green given terrain using glsl-noise
 // https://threejs.org/examples/#webgl_modifier_simplifier
 
-const Planet = ({ willRotate }: PlanetProps) => {
+export const Planet = ({ willRotate }: PlanetProps) => {
     const planetObj = useLoader(OBJLoader, planetModel);
     const [rotationY, setRotationY] = useState(willRotate ? -20 : 5);
 
@@ -36,5 +36,3 @@ const Planet = ({ willRotate }: PlanetProps) => {
         </>
     );
 };
-
-export default Planet;

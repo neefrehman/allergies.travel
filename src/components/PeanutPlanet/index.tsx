@@ -1,10 +1,12 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense } from "react";
 import { Canvas } from "react-three-fiber";
 
-import Lights from "./Lights";
-import Stars from "./Stars";
-import Planet from "./Planet";
-import Controls from "./Controls";
+import { usePrefersReducedMotion } from "hooks/usePrefersReducedMotion";
+
+import { Lights } from "./Lights";
+import { Stars } from "./Stars";
+import { Planet } from "./Planet";
+import { Controls } from "./Controls";
 
 // TODO: low-performance fallback - fps counter and lower res at threshold? With Stats from drei?
 
@@ -15,18 +17,10 @@ interface PeanutPlanetProps {
 
 const PeanutPlanet = ({
     titleIsVisible,
-    setTitleIsVisible
+    setTitleIsVisible,
 }: PeanutPlanetProps) => {
-    const [isReducedMotion, setIsReducedMotion] = useState(false);
-    const [initialCameraZ, setInitialCameraZ] = useState(2100);
-
-    useEffect(() => {
-        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-            setIsReducedMotion(true);
-            setInitialCameraZ(40);
-            // TODO: other reduced motion areas
-        }
-    });
+    const prefersReducedMotion = usePrefersReducedMotion();
+    const initialCameraZ = prefersReducedMotion ? 40 : 2100;
 
     return (
         <Canvas
@@ -35,13 +29,13 @@ const PeanutPlanet = ({
             style={{
                 background: "#061923",
                 height: "100vh",
-                width: "100vw"
+                width: "100vw",
             }}
             shadowMap
         >
             <Suspense fallback={null}>
                 <Lights />
-                <Planet willRotate={!isReducedMotion} />
+                <Planet willRotate={!prefersReducedMotion} />
                 <Stars count={1000} />
                 <Controls
                     initialCameraZ={initialCameraZ}

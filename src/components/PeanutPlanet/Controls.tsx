@@ -3,7 +3,7 @@ import { useFrame, useThree } from "react-three-fiber";
 import { useSpring } from "react-spring";
 import { OrbitControls } from "drei";
 
-import lerp from "utils/lerp";
+import { lerp } from "utils/lerp";
 
 interface ControlsProps {
     initialCameraZ: number;
@@ -11,10 +11,10 @@ interface ControlsProps {
     setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const Controls = ({
+export const Controls = ({
     initialCameraZ,
     titleIsVisible,
-    setTitleIsVisible
+    setTitleIsVisible,
 }: ControlsProps) => {
     const { gl, camera } = useThree();
     const [rotationSpeed, setRotationSpeed] = useState(0);
@@ -22,18 +22,18 @@ const Controls = ({
     // Will be deprecated in v9 https://github.com/react-spring/react-three-fiber/discussions/505
     useSpring({
         from: {
-            z: initialCameraZ
+            z: initialCameraZ,
         },
         z: 20,
         config: {
             mass: 5.2,
             tension: 310,
-            friction: 150
+            friction: 150,
         },
         onFrame: ({ z }) => {
             camera.position.z = z;
         },
-        onRest: () => setTitleIsVisible(true)
+        onRest: () => setTitleIsVisible(true),
     });
 
     useFrame(() => {
@@ -56,5 +56,3 @@ const Controls = ({
         />
     );
 };
-
-export default Controls;

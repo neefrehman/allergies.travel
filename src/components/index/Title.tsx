@@ -37,7 +37,7 @@ const StyledDiv = styled.div`
     }
 `;
 
-const Title = ({ isVisible }: { isVisible: boolean }) => {
+export const Title = ({ isVisible }: { isVisible: boolean }) => {
     const loadedStyle = isVisible
         ? { transform: "translate3d(0, 0, 0)" }
         : undefined;
@@ -53,5 +53,3 @@ const Title = ({ isVisible }: { isVisible: boolean }) => {
         </StyledDiv>
     );
 };
-
-export default Title;

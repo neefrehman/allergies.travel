@@ -26,6 +26,7 @@
         "plugin:import/errors",
         "plugin:import/warnings",
         "plugin:import/typescript",
+        "plugin:react-hooks/recommended",
         "prettier",
         "prettier/@typescript-eslint"
     ],
@@ -43,11 +44,18 @@
                 "allowForLoopAfterthoughts": true
             }
         ],
+        "no-unused-expressions": "off",
+        "no-undef": "error",
         "no-param-reassign": [
             "error",
             {
                 "props": true,
-                "ignorePropertyModificationsForRegex": ["p"]
+                "ignorePropertyModificationsForRegex": [
+                    "p",
+                    "context",
+                    "ctx",
+                    "camera"
+                ]
             }
         ],
         "lines-between-class-members": [
@@ -65,6 +73,7 @@
                 }
             }
         ],
+        "prefer-const": ["warn"],
         "import/order": [
             "warn",
             {
@@ -75,6 +84,18 @@
                     "parent",
                     "sibling",
                     "index"
+                ],
+                "pathGroups": [
+                    {
+                        "pattern": "LibUtils/**",
+                        "group": "internal",
+                        "position": "after"
+                    },
+                    {
+                        "pattern": "Utils/**",
+                        "group": "internal",
+                        "position": "after"
+                    }
                 ],
                 "newlines-between": "always"
             }
@@ -88,6 +109,7 @@
                 "tsx": "never"
             }
         ],
+        "import/prefer-default-export": "off",
         "prettier/prettier": "warn",
         "react/prop-types": "off",
         "react/jsx-filename-extension": "off",
@@ -95,6 +117,8 @@
         "react/jsx-indent-props": [2, 4],
         "react/jsx-one-expression-per-line": "off",
         "react/no-danger": "warn",
+        "react/require-default-props": "off",
+        "react/no-unused-prop-types": "off",
         "jsx-a11y/anchor-is-valid": [
             "error",
             {

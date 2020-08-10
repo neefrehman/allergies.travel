@@ -9,7 +9,7 @@ const encode = data => {
         .join("&");
 };
 
-export default () => {
+export const useNetlifySubmit () => {
     const [sending, setSending] = useState(false);
     const [response, setResponse] = useState(false);
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Lights = () => (
+export const Lights = () => (
     <>
         <ambientLight intensity={0.5} color="#2F98D0" />
         {/* TODO: swap light color once planet colouring is done with shaders */}
@@ -17,5 +17,3 @@ const Lights = () => (
         />
     </>
 );
-
-export default Lights;
