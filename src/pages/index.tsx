@@ -29,7 +29,7 @@ const HomePage = () => {
                         setTitleIsVisible={setTitleIsVisible}
                     />
                     <Title isVisible={titleIsVisible} />
-                    <HomepageSearchBox isVisible={titleIsVisible} />
+                    {/* <HomepageSearchBox isVisible={titleIsVisible} /> */}
                 </Suspense>
             )}
         </IntroContainer>

@@ -13,6 +13,7 @@ export const usePrefersReducedMotion = () => {
         };
 
         mediaQueryList.addListener(listener);
+
         return () => mediaQueryList.removeListener(listener);
     }, []);
 

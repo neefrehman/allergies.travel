@@ -12,9 +12,9 @@ interface PlanetProps {
     willRotate: boolean;
 }
 
-// TODO: two identical models placed over each other (blue and green) - both simplified
-// Green given terrain using glsl-noise
-// https://threejs.org/examples/#webgl_modifier_simplifier
+// TODO: two identical models placed over each other (blue and green)
+// Both simplified using https://threejs.org/examples/#webgl_modifier_simplifier OR https://github.com/react-spring/drei#usesimplification-
+// Green given terrain using glsl-noise OR static meshDistortMaterial from Drei: https://github.com/react-spring/drei#meshdistortmaterial
 
 export const Planet = ({ willRotate }: PlanetProps) => {
     const planetObj = useLoader(OBJLoader, planetModel);

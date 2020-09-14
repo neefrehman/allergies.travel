@@ -20,12 +20,12 @@ const PeanutPlanet = ({
     setTitleIsVisible,
 }: PeanutPlanetProps) => {
     const prefersReducedMotion = usePrefersReducedMotion();
-    const initialCameraZ = prefersReducedMotion ? 40 : 2100;
+    const INITIAL_CAMERA_Z = prefersReducedMotion ? 40 : 2100;
 
     return (
         <Canvas
             concurrent
-            camera={{ position: [0, 0, initialCameraZ] }}
+            camera={{ position: [0, 0, INITIAL_CAMERA_Z] }}
             style={{
                 background: "#061923",
                 height: "100vh",
@@ -38,7 +38,7 @@ const PeanutPlanet = ({
                 <Planet willRotate={!prefersReducedMotion} />
                 <Stars count={1000} />
                 <Controls
-                    initialCameraZ={initialCameraZ}
+                    initialCameraZ={INITIAL_CAMERA_Z}
                     titleIsVisible={titleIsVisible}
                     setTitleIsVisible={setTitleIsVisible}
                 />
