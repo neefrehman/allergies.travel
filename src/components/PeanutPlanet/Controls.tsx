@@ -52,6 +52,7 @@ export const Controls = ({
             autoRotateSpeed={rotationSpeed}
             enablePan={false}
             enableZoom={false}
+            // FIXME: still rotates on drag?
             enableRotate={false}
         />
     );

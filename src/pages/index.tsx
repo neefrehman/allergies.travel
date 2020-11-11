@@ -1,10 +1,10 @@
 import React, { useState, lazy, Suspense, useEffect } from "react";
 import { styled } from "linaria/react";
 
-import { Title } from "components/index/Title";
+import { Title } from "components/home/Title";
 
 const PeanutPlanet = lazy(() => import("components/PeanutPlanet"));
-// ^Fix for `cannot use import statement outside a module`: https://github.com/react-spring/react-three-fiber/discussions/504
+// ^Fix for `cannot use import statement outside a module` issue with three/jsm: https://github.com/react-spring/react-three-fiber/discussions/504
 
 // TODO low-connectivity fallback:
 // import(navigator.connection.type === notSlow ? "../components/PeanutPlanet" : "../components/PeanutPlanet/FallbackImage")
