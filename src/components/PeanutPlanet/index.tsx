@@ -1,7 +1,7 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useContext } from "react";
 import { Canvas } from "react-three-fiber";
 
-import { usePrefersReducedMotion } from "hooks/usePrefersReducedMotion";
+import { PrefersReducedMotionContext } from "context/PrefersReducedMotion";
 
 import { Lights } from "./Lights";
 import { Stars } from "./Stars";
@@ -19,7 +19,7 @@ const PeanutPlanet = ({
     titleIsVisible,
     setTitleIsVisible,
 }: PeanutPlanetProps) => {
-    const prefersReducedMotion = usePrefersReducedMotion();
+    const prefersReducedMotion = useContext(PrefersReducedMotionContext);
     const INITIAL_CAMERA_Z = prefersReducedMotion ? 40 : 2100;
 
     return (

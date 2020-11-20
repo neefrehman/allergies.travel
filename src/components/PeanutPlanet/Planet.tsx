@@ -6,8 +6,6 @@ import { lerp } from "Utils/lerp";
 
 import planetModel from "./models/peanut_planet.obj";
 
-const scale = window.innerWidth > 500 ? 1 : 0.75;
-
 interface PlanetProps {
     willRotate: boolean;
 }
@@ -23,6 +21,8 @@ export const Planet = ({ willRotate }: PlanetProps) => {
     useFrame(() => {
         if (rotationY < 5) setRotationY(lerp(rotationY, 5, 0.025));
     });
+
+    const scale = window.innerWidth > 500 ? 1 : 0.75;
 
     return (
         <>

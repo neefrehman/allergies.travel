@@ -1,14 +1,22 @@
-import { useState, useEffect } from "react";
+import React, { createContext, ReactNode, useState } from "react";
 
-// TODO: abstract to shared state? Context + provider would cause rerenders across the
-// tree whenever things change. Zustand or Jotai?
-export const usePrefersReducedMotion = () => {
+import useIsomorphicLayoutEffect from "hooks/useIsomorphicLayouteffect";
+
+/** Global context for debug mode */
+export const PrefersReducedMotionContext = createContext(false);
+
+/** Global context provider for debug mode */
+export const PrefersReducedMotionProvider = ({
+    children,
+}: {
+    children: ReactNode;
+}) => {
     const QUERY = "(prefers-reduced-motion: reduce)";
     const [prefersReducedMotion, setPrefersReducedMotion] = useState(
         window.matchMedia(QUERY).matches
     );
 
-    useEffect(() => {
+    useIsomorphicLayoutEffect(() => {
         const mediaQueryList = window.matchMedia(QUERY);
         const listener = (e: MediaQueryListEvent) => {
             setPrefersReducedMotion(e.matches);
@@ -28,5 +36,9 @@ export const usePrefersReducedMotion = () => {
         };
     }, []);
 
-    return prefersReducedMotion;
+    return (
+        <PrefersReducedMotionContext.Provider value={prefersReducedMotion}>
+            {children}
+        </PrefersReducedMotionContext.Provider>
+    );
 };

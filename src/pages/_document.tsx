@@ -31,7 +31,7 @@ class MyDocument extends Document {
                                 gtag('config', 'UA-122323130-1', {
                                     page_path: window.location.pathname,
                                 });
-                            `
+                            `,
                         }}
                     />
                     <meta
