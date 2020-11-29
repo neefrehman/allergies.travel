@@ -20,14 +20,12 @@ export const useGroupSimplification = (simplePercent: number) => {
                 ? originalGeometry.clone()
                 : new THREE.BufferGeometry().fromGeometry(originalGeometry);
 
-        const originalVerticesCount = newGeometry.attributes.position.count;
-        const newVerticesCount = Math.floor(
-            originalVerticesCount * simplePercent
-        );
+        const originalVertexCount = newGeometry.attributes.position.count;
+        const newVertexCount = Math.floor(originalVertexCount * simplePercent);
 
         const simplifiedGeometry = modifier.modify(
             originalGeometry,
-            newVerticesCount
+            newVertexCount
         );
         simplifiedGeometry.computeVertexNormals(); // TODO: remove if colours will be handled by shaders
 
