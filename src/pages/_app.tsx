@@ -2,13 +2,16 @@ import React from "react";
 import { AppProps } from "next/app";
 import { css } from "linaria";
 
+import { IsDebugProvider } from "context/IsDebug";
 import { PrefersReducedMotionProvider } from "context/PrefersReducedMotion";
 
 const App = ({ Component, pageProps }: AppProps) => (
-    <PrefersReducedMotionProvider>
-        {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-        <Component {...pageProps} />
-    </PrefersReducedMotionProvider>
+    <IsDebugProvider>
+        <PrefersReducedMotionProvider>
+            {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+            <Component {...pageProps} />
+        </PrefersReducedMotionProvider>
+    </IsDebugProvider>
 );
 
 export default App;

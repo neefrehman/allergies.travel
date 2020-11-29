@@ -2,6 +2,7 @@ import React, { useState, lazy, Suspense, useEffect } from "react";
 import { styled } from "linaria/react";
 
 import { Title } from "components/home/Title";
+import { useHasMounted } from "hooks/useHasMounted";
 
 const PeanutPlanet = lazy(() => import("components/PeanutPlanet"));
 // ^Fix for `cannot use import statement outside a module` issue with three/jsm: https://github.com/react-spring/react-three-fiber/discussions/504
@@ -15,9 +16,7 @@ const IntroContainer = styled.div`
 
 const HomePage = () => {
     const [titleIsVisible, setTitleIsVisible] = useState(false);
-    const [hasMounted, setHasMounted] = useState(false);
-
-    useEffect(() => setHasMounted(true), []);
+    const hasMounted = useHasMounted();
 
     return (
         <IntroContainer>

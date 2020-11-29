@@ -1,11 +1,11 @@
 import React, { createContext, ReactNode, useState } from "react";
 
-import useIsomorphicLayoutEffect from "hooks/useIsomorphicLayouteffect";
+import { useIsomorphicLayoutEffect } from "hooks/useIsomorphicLayouteffect";
 
-/** Global context for debug mode */
+/** Global context for reduced motion a11y preference */
 export const PrefersReducedMotionContext = createContext(false);
 
-/** Global context provider for debug mode */
+/** Global context provider for reduced motion a11y preference */
 export const PrefersReducedMotionProvider = ({
     children,
 }: {

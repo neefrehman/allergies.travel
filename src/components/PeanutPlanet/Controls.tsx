@@ -7,33 +7,29 @@ import { lerp } from "utils/lerp";
 
 interface ControlsProps {
     initialCameraZ: number;
+    willZoom: boolean;
     titleIsVisible: boolean;
     setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 export const Controls = ({
     initialCameraZ,
+    willZoom,
     titleIsVisible,
     setTitleIsVisible,
 }: ControlsProps) => {
     const { gl, camera } = useThree();
     const [rotationSpeed, setRotationSpeed] = useState(0);
 
-    // Will be deprecated in v9 https://github.com/react-spring/react-three-fiber/discussions/505
     useSpring({
-        from: {
-            z: initialCameraZ,
-        },
+        from: { z: initialCameraZ },
         z: 20,
-        config: {
-            mass: 5.2,
-            tension: 310,
-            friction: 150,
-        },
+        config: { mass: 5.2, tension: 320, friction: 150 },
         onFrame: ({ z }) => {
-            camera.position.z = z;
+            camera.position.z = z; // Will be deprecated in v9 https://github.com/react-spring/react-three-fiber/discussions/505
         },
         onRest: () => setTitleIsVisible(true),
+        immediate: !willZoom, // TODO: test instant jaring-ness of appearance for low-motion preference
     });
 
     useFrame(() => {
@@ -52,7 +48,6 @@ export const Controls = ({
             autoRotateSpeed={rotationSpeed}
             enablePan={false}
             enableZoom={false}
-            // FIXME: still rotates on drag?
             enableRotate={false}
         />
     );

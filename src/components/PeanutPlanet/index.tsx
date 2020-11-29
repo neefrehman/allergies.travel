@@ -2,6 +2,7 @@ import React, { Suspense, useContext } from "react";
 import { Canvas } from "react-three-fiber";
 
 import { PrefersReducedMotionContext } from "context/PrefersReducedMotion";
+import { IsDebugContext } from "context/IsDebug";
 
 import { Lights } from "./Lights";
 import { Stars } from "./Stars";
@@ -19,8 +20,9 @@ const PeanutPlanet = ({
     titleIsVisible,
     setTitleIsVisible,
 }: PeanutPlanetProps) => {
+    const isDebug = useContext(IsDebugContext);
     const prefersReducedMotion = useContext(PrefersReducedMotionContext);
-    const INITIAL_CAMERA_Z = prefersReducedMotion ? 40 : 2100;
+    const INITIAL_CAMERA_Z = 2100;
 
     return (
         <Canvas
@@ -30,14 +32,16 @@ const PeanutPlanet = ({
                 background: "#061923",
                 height: "100vh",
                 width: "100vw",
+                pointerEvents: !isDebug ? "none" : "initial",
             }}
             shadowMap
         >
             <Suspense fallback={null}>
-                <Lights />
+                {/* <Lights /> */}
                 <Planet willRotate={!prefersReducedMotion} />
                 <Stars count={1000} />
                 <Controls
+                    willZoom={!prefersReducedMotion}
                     initialCameraZ={INITIAL_CAMERA_Z}
                     titleIsVisible={titleIsVisible}
                     setTitleIsVisible={setTitleIsVisible}
