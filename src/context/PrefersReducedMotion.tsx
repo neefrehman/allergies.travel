@@ -11,10 +11,9 @@ export const PrefersReducedMotionProvider = ({
 }: {
     children: ReactNode;
 }) => {
+    const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+
     const QUERY = "(prefers-reduced-motion: reduce)";
-    const [prefersReducedMotion, setPrefersReducedMotion] = useState(
-        window.matchMedia(QUERY).matches
-    );
 
     useIsomorphicLayoutEffect(() => {
         const mediaQueryList = window.matchMedia(QUERY);
