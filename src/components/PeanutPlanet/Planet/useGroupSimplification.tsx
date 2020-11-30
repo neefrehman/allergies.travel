@@ -36,7 +36,7 @@ export const useGroupSimplification = (simplePercent: number) => {
         groupRef.current.traverse(child => {
             if (child instanceof THREE.Mesh) {
                 // eslint-disable-next-line no-param-reassign
-                child.geometry = getSimplifiedGeometry(child.geometry);
+                child.geometry = getSimplifiedGeometry(child.geometry); // FIXME: this is recursive so reduces every rerender. cloning the initial group and using it's geometry doesnt work 🤔
             }
         });
     }, [modifier, simplePercent]);
