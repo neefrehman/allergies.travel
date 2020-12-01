@@ -1,5 +1,6 @@
 import React, { Suspense, useContext } from "react";
 import { Canvas } from "react-three-fiber";
+import { useTheme } from "@emotion/react";
 
 import { Lights } from "./Lights";
 import { Stars } from "./Stars";
@@ -8,21 +9,18 @@ import { Controls } from "./Controls";
 
 import { IsDebugContext } from "context/IsDebug";
 import { PrefersReducedMotionContext } from "context/PrefersReducedMotion";
-import { theme } from "styles/theme";
 
 // TODO: low-performance fallback - fps counter and lower res at threshold? With Stats from drei?
 
 interface PeanutPlanetProps {
-    titleIsVisible: boolean;
     setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const PeanutPlanet = ({
-    titleIsVisible,
-    setTitleIsVisible,
-}: PeanutPlanetProps) => {
+const PeanutPlanet = ({ setTitleIsVisible }: PeanutPlanetProps) => {
+    const { colors } = useTheme();
     const isDebug = useContext(IsDebugContext);
     const prefersReducedMotion = useContext(PrefersReducedMotionContext);
+
     const INITIAL_CAMERA_Z = 2100;
 
     return (
@@ -30,9 +28,7 @@ const PeanutPlanet = ({
             concurrent
             camera={{ position: [0, 0, INITIAL_CAMERA_Z] }}
             style={{
-                background: theme.colors.spaceNavy,
-                height: "100vh",
-                width: "100vw",
+                backgroundColor: colors.spaceNavy,
                 pointerEvents: !isDebug ? "none" : "initial",
             }}
             shadowMap
@@ -44,7 +40,6 @@ const PeanutPlanet = ({
                 <Controls
                     willZoom={!prefersReducedMotion}
                     initialCameraZ={INITIAL_CAMERA_Z}
-                    titleIsVisible={titleIsVisible}
                     setTitleIsVisible={setTitleIsVisible}
                 />
             </Suspense>

@@ -15,7 +15,7 @@ interface PlanetProps {
 
 export const Planet = ({ willRotate }: PlanetProps) => {
     const planetObj = useLoader(OBJLoader, planetModel);
-    const simplifiedGroupRef = useGroupSimplification(0.1);
+    const simplifiedGroupRef = useGroupSimplification(0.13);
 
     const scale = window.innerWidth > 500 ? 4 : 3;
 

@@ -1,25 +1,25 @@
-import React, { useState } from "react";
-import { useFrame, useThree } from "react-three-fiber";
-import { useSpring } from "react-spring";
+import React, { useContext, useMemo } from "react";
+import { useThree } from "react-three-fiber";
+import { animated, useSpring } from "react-spring";
 import { OrbitControls } from "drei";
 
-import { lerp } from "utils/lerp";
+import { IsDebugContext } from "context/IsDebug";
 
 interface ControlsProps {
     initialCameraZ: number;
     willZoom: boolean;
-    titleIsVisible: boolean;
     setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 export const Controls = ({
     initialCameraZ,
     willZoom,
-    titleIsVisible,
     setTitleIsVisible,
 }: ControlsProps) => {
     const { gl, camera } = useThree();
-    const [rotationSpeed, setRotationSpeed] = useState(0);
+    const isDebug = useContext(IsDebugContext);
+
+    const AnimatedOrbitControls = useMemo(() => animated(OrbitControls), []);
 
     useSpring({
         from: { z: initialCameraZ },
@@ -29,26 +29,24 @@ export const Controls = ({
             camera.position.z = z; // Will be deprecated in v9 https://github.com/react-spring/react-three-fiber/discussions/505
         },
         onRest: () => setTitleIsVisible(true),
-        immediate: !willZoom, // TODO: test instant jaring-ness of appearance for low-motion preference
+        immediate: !willZoom, // TODO: test jaring-ness of appearance for low-motion preference
     });
 
-    useFrame(() => {
-        if (rotationSpeed < 0.3) {
-            setRotationSpeed(
-                lerp(rotationSpeed, 0.305, titleIsVisible ? 0.003 : 0.0012)
-            );
-        }
+    const { rotationSpeed } = useSpring({
+        from: { rotationSpeed: 0 },
+        rotationSpeed: 0.28,
+        config: { mass: 10, tension: 15, friction: 250 },
     });
 
     return (
-        <OrbitControls
+        <AnimatedOrbitControls
             target={[0, 0, 0]}
             args={[camera, gl.domElement]}
             autoRotate
             autoRotateSpeed={rotationSpeed}
-            enablePan={false}
-            enableZoom={false}
-            enableRotate={false}
+            enablePan={isDebug}
+            enableZoom={isDebug}
+            enableRotate={isDebug}
         />
     );
 };

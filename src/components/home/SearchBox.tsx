@@ -21,8 +21,8 @@ const StyledInput = styled.input`
     background-color: rgba(0, 0, 0, 0%);
     opacity: 0;
 
-    transition: backdrop-filter 2000ms ease-out,
-        background-color 1500ms ease-out, opacity 1500ms ease-out;
+    transition: backdrop-filter 2000ms ease-out, background-color 1500ms ease-out,
+        opacity 1500ms ease-out;
     will-change: backdrop-filter; /* FIXME: terrible transitions! */
 
     ::placeholder {

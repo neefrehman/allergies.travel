@@ -11,7 +11,10 @@ const PeanutPlanet = lazy(() => import("components/PeanutPlanet"));
 // import(navigator.connection.type === notSlow ? "../components/PeanutPlanet" : "../components/PeanutPlanet/FallbackImage")
 
 const IntroContainer = styled.div`
+    background-color: ${({ theme }) => theme.colors.spaceNavy};
     position: relative;
+    height: 100vh;
+    width: 100vw;
 `;
 
 const HomePage = () => {
@@ -22,10 +25,7 @@ const HomePage = () => {
         <IntroContainer>
             {hasMounted && (
                 <Suspense fallback={null}>
-                    <PeanutPlanet
-                        titleIsVisible={titleIsVisible}
-                        setTitleIsVisible={setTitleIsVisible}
-                    />
+                    <PeanutPlanet setTitleIsVisible={setTitleIsVisible} />
                     <Title isVisible={titleIsVisible} />
                 </Suspense>
             )}

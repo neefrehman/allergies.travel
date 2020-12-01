@@ -13,8 +13,7 @@ export const theme = {
         desktop: 2560,
     },
     mqs: {
-        above: (breakpoint: number) =>
-            `@media (min-width: ${breakpoint + 1}px)`,
+        above: (breakpoint: number) => `@media (min-width: ${breakpoint + 1}px)`,
         below: (breakpoint: number) => `@media (max-width: ${breakpoint}px)`,
     },
 };
