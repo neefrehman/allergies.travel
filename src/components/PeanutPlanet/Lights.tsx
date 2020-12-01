@@ -1,18 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
+import { useFrame, Vector3 } from "react-three-fiber";
 
-export const Lights = () => (
-    <>
-        <ambientLight intensity={0.5} color="#2F98D0" />
-        {/* TODO: light rotates around planet for sun-like effect */}
-        {/* <pointLight intensity={2} position={[-10, -25, -10]} color="#5CBF62" /> */}
-        <spotLight
-            castShadow
-            intensity={2}
-            color="#5CBF62"
-            angle={Math.PI / 8}
-            position={[15, 25, 5]}
-            shadow-mapSize-width={2048}
-            shadow-mapSize-height={2048}
-        />
-    </>
-);
+export const Lights = () => {
+    const [spotlightPos, setSpotlightPos] = useState([15, 25, 15] as Vector3);
+
+    useFrame(({ clock }) => {
+        const time = clock.elapsedTime * 0.05;
+        const spotLightX = Math.sin(time) * 15;
+        const spotLightZ = Math.cos(time) * 15;
+        setSpotlightPos([spotLightX, 25, spotLightZ]);
+    });
+
+    return (
+        <>
+            <ambientLight intensity={0.8} color="#287fae" />
+            <spotLight
+                castShadow
+                intensity={0.25}
+                color="#ffffff"
+                angle={Math.PI / 8}
+                position={spotlightPos}
+                shadow-mapSize-width={2048}
+                shadow-mapSize-height={2048}
+            />
+        </>
+    );
+};
