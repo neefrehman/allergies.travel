@@ -32,7 +32,8 @@ export const Controls = ({
         immediate: !willZoom, // TODO: test jaring-ness of appearance for low-motion preference
     });
 
-    const { rotationSpeed } = useSpring({
+    // Fix for: Type '{ interpolate: InterpolationChain<unknown>; getValue: () => unknown; }' is not assignable to type 'number'
+    const { rotationSpeed }: { rotationSpeed: unknown } = useSpring({
         from: { rotationSpeed: 0 },
         rotationSpeed: 0.28,
         config: { mass: 10, tension: 15, friction: 250 },
@@ -43,7 +44,7 @@ export const Controls = ({
             target={[0, 0, 0]}
             args={[camera, gl.domElement]}
             autoRotate
-            autoRotateSpeed={rotationSpeed}
+            autoRotateSpeed={rotationSpeed as number} // Same fix as above - both required
             enablePan={isDebug}
             enableZoom={isDebug}
             enableRotate={isDebug}

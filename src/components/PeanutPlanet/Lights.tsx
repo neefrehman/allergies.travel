@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useFrame, Vector3 } from "react-three-fiber";
 
 export const Lights = () => {
-    const [spotlightPos, setSpotlightPos] = useState([15, 25, 15] as Vector3);
+    const [spotlightPos, setSpotlightPos] = useState<Vector3>([15, 20, 15]);
 
     useFrame(({ clock }) => {
         const time = clock.elapsedTime * 0.05;
