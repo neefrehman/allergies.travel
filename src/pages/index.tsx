@@ -1,5 +1,5 @@
-import React, { useState, lazy, Suspense, useEffect } from "react";
-import { styled } from "linaria/react";
+import React, { useState, lazy, Suspense } from "react";
+import styled from "@emotion/styled";
 
 import { Title } from "components/home/Title";
 import { useHasMounted } from "hooks/useHasMounted";

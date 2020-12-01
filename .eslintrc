@@ -16,7 +16,8 @@
         "jsx-a11y",
         "prettier",
         "import",
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "@emotion"
     ],
     "extends": [
         "plugin:react/recommended",
@@ -46,25 +47,6 @@
         ],
         "no-unused-expressions": "off",
         "no-undef": "error",
-        "no-param-reassign": [
-            "error",
-            {
-                "props": true,
-                "ignorePropertyModificationsForRegex": [
-                    "p",
-                    "context",
-                    "ctx",
-                    "camera"
-                ]
-            }
-        ],
-        "lines-between-class-members": [
-            "warn",
-            "always",
-            {
-                "exceptAfterSingleLine": true
-            }
-        ],
         "prefer-destructuring": [
             "error",
             {
@@ -77,26 +59,6 @@
         "import/order": [
             "warn",
             {
-                "groups": [
-                    "builtin",
-                    "external",
-                    "internal",
-                    "parent",
-                    "sibling",
-                    "index"
-                ],
-                "pathGroups": [
-                    {
-                        "pattern": "LibUtils/**",
-                        "group": "internal",
-                        "position": "after"
-                    },
-                    {
-                        "pattern": "Utils/**",
-                        "group": "internal",
-                        "position": "after"
-                    }
-                ],
                 "newlines-between": "always"
             }
         ],

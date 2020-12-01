@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { styled } from "linaria/react";
-import { css, cx } from "linaria";
+import styled from "@emotion/styled";
+import { cx, css } from "@emotion/css";
 
 const StyledInput = styled.input`
     position: absolute;

@@ -1,13 +1,14 @@
 import React, { Suspense, useContext } from "react";
 import { Canvas } from "react-three-fiber";
 
-import { PrefersReducedMotionContext } from "context/PrefersReducedMotion";
-import { IsDebugContext } from "context/IsDebug";
-
 import { Lights } from "./Lights";
 import { Stars } from "./Stars";
 import { Planet } from "./Planet";
 import { Controls } from "./Controls";
+
+import { IsDebugContext } from "context/IsDebug";
+import { PrefersReducedMotionContext } from "context/PrefersReducedMotion";
+import { theme } from "styles/theme";
 
 // TODO: low-performance fallback - fps counter and lower res at threshold? With Stats from drei?
 
@@ -29,7 +30,7 @@ const PeanutPlanet = ({
             concurrent
             camera={{ position: [0, 0, INITIAL_CAMERA_Z] }}
             style={{
-                background: "#061923",
+                background: theme.colors.spaceNavy,
                 height: "100vh",
                 width: "100vw",
                 pointerEvents: !isDebug ? "none" : "initial",
