@@ -24,7 +24,7 @@ export const Controls = ({
     useSpring({
         from: { z: initialCameraZ },
         z: 20,
-        config: { mass: 5.2, tension: 320, friction: 150 },
+        config: { mass: 5.2, tension: 320, friction: 150 }, // TODO: more experimentation with config
         onFrame: ({ z }) => {
             camera.position.z = z; // Will be deprecated in v9 https://github.com/react-spring/react-three-fiber/discussions/505
         },
@@ -32,11 +32,10 @@ export const Controls = ({
         immediate: !willZoom, // TODO: test jaring-ness of appearance for low-motion preference
     });
 
-    // Fix for: Type '{ interpolate: InterpolationChain<unknown>; getValue: () => unknown; }' is not assignable to type 'number'
-    const { rotationSpeed }: { rotationSpeed: unknown } = useSpring({
+    const { rotationSpeed } = useSpring({
         from: { rotationSpeed: 0 },
         rotationSpeed: 0.28,
-        config: { mass: 10, tension: 15, friction: 250 },
+        config: { mass: 10, tension: 15, friction: 250 }, // TODO: more experimentation with config
     });
 
     return (
@@ -44,7 +43,7 @@ export const Controls = ({
             target={[0, 0, 0]}
             args={[camera, gl.domElement]}
             autoRotate
-            autoRotateSpeed={rotationSpeed as number} // Same fix as above - both required
+            autoRotateSpeed={(rotationSpeed as unknown) as number} // ix for: Type '{ interpolate: InterpolationChain<unknown>; getValue: () => unknown; }' is not assignable to type 'number'
             enablePan={isDebug}
             enableZoom={isDebug}
             enableRotate={isDebug}
