@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import styled from "@emotion/styled";
-import { cx, css } from "@emotion/css";
+import { css } from "@emotion/react";
 
-const StyledInput = styled.input`
+const StyledInput = styled.input<{ isVisible: boolean }>`
     position: absolute;
     top: 70%;
     left: 50%;
@@ -16,37 +16,31 @@ const StyledInput = styled.input`
     height: 70px;
     border: none;
     border-radius: 20px;
-
-    backdrop-filter: blur(0);
-    background-color: rgba(0, 0, 0, 0%);
-    opacity: 0;
-
-    transition: backdrop-filter 2000ms ease-out, background-color 1500ms ease-out,
+    /* prettier-ignore */
+    transition:
+        backdrop-filter 2000ms ease-out,
+        background-color 1500ms ease-out,
         opacity 1500ms ease-out;
     will-change: backdrop-filter; /* FIXME: terrible transitions! */
+
+    ${({ isVisible }) => css`
+        opacity: ${isVisible ? 100 : 0};
+        backdrop-filter: blur(${isVisible ? "15px" : 0});
+        background-color: rgba(0, 0, 0, ${isVisible ? "12%" : "0%"});
+    `}
 
     ::placeholder {
         color: white;
     }
 
     :focus {
-        outline: none;
-    }
-`;
-
-const visibleStyles = css`
-    backdrop-filter: blur(15px);
-    background-color: rgba(0, 0, 0, 12%);
-    opacity: 100;
-
-    :focus {
         background-color: rgba(0, 0, 0, 20%);
+        outline: none;
     }
 `;
 
 export const HomepageSearchBox = ({ isVisible }: { isVisible: boolean }) => {
     const [isVisibleWithTimeout, setIsVisibleWithTimeout] = useState(false);
-    const styles = cx(isVisibleWithTimeout && visibleStyles);
 
     useEffect(() => {
         const timeout =
@@ -56,7 +50,7 @@ export const HomepageSearchBox = ({ isVisible }: { isVisible: boolean }) => {
 
     return (
         <StyledInput
-            className={styles}
+            isVisible={isVisibleWithTimeout}
             placeholder="Don't search for allergens or countries..."
         />
     );

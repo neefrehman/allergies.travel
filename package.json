@@ -9,7 +9,6 @@
     "license": "MIT",
     "homepage": "https://allergies.travel",
     "dependencies": {
-        "@emotion/css": "^11.0.0",
         "@emotion/react": "^11.1.1",
         "@emotion/styled": "^11.0.0",
         "drei": "1.5.7",
