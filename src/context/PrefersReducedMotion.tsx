@@ -1,6 +1,7 @@
 import React, { createContext, ReactNode, useState } from "react";
 
 import { useIsomorphicLayoutEffect } from "hooks/useIsomorphicLayouteffect";
+import { getFromSearchParams } from "utils/getFromSearchParams";
 
 /** Global context for reduced motion a11y preference */
 export const PrefersReducedMotionContext = createContext(false);
@@ -26,6 +27,12 @@ export const PrefersReducedMotionProvider = ({
         } catch {
             mediaQueryList.addListener(listener); // Safari
         }
+
+        if (prefersReducedMotion === false) {
+            const reducedMotionfromParams = getFromSearchParams("reducedMotion");
+            setPrefersReducedMotion(reducedMotionfromParams);
+        }
+
         return () => {
             try {
                 mediaQueryList.removeEventListener("change", listener);

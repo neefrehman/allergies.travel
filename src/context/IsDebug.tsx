@@ -1,6 +1,7 @@
 import React, { createContext, ReactNode, useState } from "react";
 
 import { useIsomorphicLayoutEffect } from "hooks/useIsomorphicLayouteffect";
+import { getFromSearchParams } from "utils/getFromSearchParams";
 
 /** Global context for debug mode */
 export const IsDebugContext = createContext(false);
@@ -14,10 +15,7 @@ export const IsDebugProvider = ({ children }: { children: ReactNode }) => {
     useIsomorphicLayoutEffect(() => {
         if (isDebug === true) return;
 
-        const searchParams = new URLSearchParams(window.location.search);
-        const debugQuery = searchParams.get("debug");
-        const acceptedQueryValues = ["", "true"]; // `/?debug` || `/?debug=true`
-        const debugInParams = acceptedQueryValues.includes(debugQuery);
+        const debugInParams = getFromSearchParams("reducedMotion");
 
         setIsDebug(debugInParams);
     }, [isDebug]);

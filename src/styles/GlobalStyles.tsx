@@ -1,6 +1,8 @@
 import React from "react";
 import { css, Global } from "@emotion/react";
 
+// TODO: content-visibility - https://web.dev/content-visibility/
+
 const globalStyles = css`
     * {
         margin: 0;
