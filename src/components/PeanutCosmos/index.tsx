@@ -28,6 +28,8 @@ const PeanutPlanet = ({ setTitleIsVisible }: PeanutPlanetProps) => {
     const INITIAL_CAMERA_Z = prefersReducedMotion ? 26 : 2100;
     const ORBIT_SPEED = prefersReducedMotion ? 0.12 : 0.28;
 
+    console.log(isDebug ? "initial" : "none");
+
     return (
         <Canvas
             concurrent
@@ -37,7 +39,7 @@ const PeanutPlanet = ({ setTitleIsVisible }: PeanutPlanetProps) => {
                 backgroundColor: colors.spaceNavy,
                 transition: "opacity 3000ms",
                 opacity: prefersReducedMotion && !hasMounted ? "0" : "1",
-                pointerEvents: !isDebug ? "none" : "initial",
+                pointerEvents: isDebug ? "initial" : "none",
             }}
         >
             <Suspense fallback={null}>
