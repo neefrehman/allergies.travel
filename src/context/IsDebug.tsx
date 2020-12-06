@@ -1,13 +1,15 @@
-import React, { createContext, ReactNode, useState } from "react";
+import React, { createContext, useState } from "react";
 
 import { useIsomorphicLayoutEffect } from "hooks/useIsomorphicLayouteffect";
 import { getFromSearchParams } from "utils/getFromSearchParams";
+
+import type { SimpleProviderProps } from "./types";
 
 /** Global context for debug mode */
 export const IsDebugContext = createContext(false);
 
 /** Global context provider for debug mode */
-export const IsDebugProvider = ({ children }: { children: ReactNode }) => {
+export const IsDebugProvider = ({ children }: SimpleProviderProps) => {
     const [isDebug, setIsDebug] = useState(
         process.env.NODE_ENV === "development"
     );
@@ -15,7 +17,7 @@ export const IsDebugProvider = ({ children }: { children: ReactNode }) => {
     useIsomorphicLayoutEffect(() => {
         if (isDebug === true) return;
 
-        const debugInParams = getFromSearchParams("reducedMotion");
+        const debugInParams = getFromSearchParams("debug");
 
         setIsDebug(debugInParams);
     }, [isDebug]);

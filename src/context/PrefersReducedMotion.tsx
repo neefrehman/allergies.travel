@@ -1,7 +1,9 @@
-import React, { createContext, ReactNode, useState } from "react";
+import React, { createContext, useState } from "react";
 
 import { useIsomorphicLayoutEffect } from "hooks/useIsomorphicLayouteffect";
 import { getFromSearchParams } from "utils/getFromSearchParams";
+
+import type { SimpleProviderProps } from "./types";
 
 /** Global context for reduced motion a11y preference */
 export const PrefersReducedMotionContext = createContext(false);
@@ -9,9 +11,7 @@ export const PrefersReducedMotionContext = createContext(false);
 /** Global context provider for reduced motion a11y preference */
 export const PrefersReducedMotionProvider = ({
     children,
-}: {
-    children: ReactNode;
-}) => {
+}: SimpleProviderProps) => {
     const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
 
     const QUERY = "(prefers-reduced-motion: reduce)";

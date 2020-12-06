@@ -18,6 +18,7 @@ export function useCustomMaterial(material: THREE.Material) {
         }
     }, []);
 
+    // TODO: fix flash of old material on slow loads
     useEffect(() => {
         if (originalMaterial.current && groupElementRef.current) {
             groupElementRef.current?.traverse(child => {

@@ -4,7 +4,9 @@ import { useTheme } from "@emotion/react";
 
 import { IsDebugContext } from "context/IsDebug";
 import { PrefersReducedMotionContext } from "context/PrefersReducedMotion";
+import { HomePageAnimationHasRunContext } from "context/HomePageAnimationHasRun";
 import { useHasMounted } from "hooks/useHasMounted";
+import { useTimeout } from "hooks/useTimeout";
 
 import { Lights } from "./Lights";
 import { Stars } from "./Stars";
@@ -19,16 +21,19 @@ interface PeanutPlanetProps {
 
 const PeanutPlanet = ({ setTitleIsVisible }: PeanutPlanetProps) => {
     const { colors } = useTheme();
+
+    const hasMounted = useHasMounted();
     const isDebug = useContext(IsDebugContext);
     const prefersReducedMotion = useContext(PrefersReducedMotionContext);
-    // const hasRunThisSession = useContext(HomePageAnimationHasRunContext); // TODO
-    // const isShortAnimation = prefersReducedMotion || hasRunThisSession;
-    const hasMounted = useHasMounted();
+    const [hasRunThisSession, setHasRunThisSession] = useContext(
+        HomePageAnimationHasRunContext
+    );
+    const isShortAnimation = prefersReducedMotion || hasRunThisSession;
 
-    const INITIAL_CAMERA_Z = prefersReducedMotion ? 26 : 2100;
+    useTimeout(() => setHasRunThisSession(true), 3000); // TODO test hasRunThisSession
+
+    const INITIAL_CAMERA_Z = isShortAnimation ? 26 : 2100;
     const ORBIT_SPEED = prefersReducedMotion ? 0.12 : 0.28;
-
-    console.log(isDebug ? "initial" : "none");
 
     return (
         <Canvas
@@ -55,6 +60,6 @@ const PeanutPlanet = ({ setTitleIsVisible }: PeanutPlanetProps) => {
             </Suspense>
         </Canvas>
     );
-};
+};;
 
 export default PeanutPlanet;

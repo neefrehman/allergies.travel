@@ -1,10 +1,11 @@
-import React, { useContext, useMemo } from "react";
+import React, { useMemo } from "react";
 import { useThree } from "react-three-fiber";
 import { animated, useSpring } from "react-spring";
 import { OrbitControls } from "drei";
 
-import { IsDebugContext } from "context/IsDebug";
-import { PrefersReducedMotionContext } from "context/PrefersReducedMotion";
+// import {useContext} from "react";
+// import { IsDebugContext } from "context/IsDebug";
+// import { PrefersReducedMotionContext } from "context/PrefersReducedMotion";
 
 interface ControlsProps {
     initialCameraZ: number;
@@ -21,12 +22,16 @@ export const Controls = ({
 }: ControlsProps) => {
     const { gl, camera } = useThree();
 
-    // context only returned default on this layer strangely. resorted to prop drilling.
+    /*
+        Context returns default values on this layer strangely. resorted to prop drilling.
+        Comments left for future investigation. Looks like this component doesn't rerender when context values change.
+        Why? it's not memo-ised. And the context is changed with setState. 🤔
+    */
     // const isDebug = useContext(IsDebugContext);
     // const prefersReducedMotion = useContext(PrefersReducedMotionContext);
     // console.log(isDebug, prefersReducedMotion);
 
-    const AnimatedOrbitControls = useMemo(() => animated(OrbitControls), []);
+    const AnimatedOrbitControls = useMemo(() => animated(OrbitControls), []); // TODO: remove this memo/add deps to test above issue
 
     useSpring({
         from: { z: initialCameraZ },
@@ -55,4 +60,4 @@ export const Controls = ({
             enableRotate={userControllable}
         />
     );
-};
+};;
