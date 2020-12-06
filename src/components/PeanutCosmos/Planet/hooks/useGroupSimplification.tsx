@@ -9,7 +9,8 @@ import { SimplifyModifier } from "three/examples/jsm/modifiers/SimplifyModifier"
  * @link https://github.com/pmndrs/drei/blob/master/src/useSimplification.tsx
  */
 export const useGroupSimplification = (simplePercent: number) => {
-    const groupRef = useRef<THREE.Group>();
+    const groupElementRef = useRef<THREE.Group>(null);
+    const initialGroupRef = useRef(null);
     const modifier = useMemo(() => new SimplifyModifier(), []);
 
     const getSimplifiedGeometry = (
@@ -33,13 +34,21 @@ export const useGroupSimplification = (simplePercent: number) => {
     };
 
     useEffect(() => {
-        groupRef.current.traverse(child => {
-            if (child instanceof THREE.Mesh) {
-                // eslint-disable-next-line no-param-reassign
-                child.geometry = getSimplifiedGeometry(child.geometry); // FIXME: this is recursive so reduces every rerender. cloning the initial group and using it's geometry doesnt work 🤔
-            }
-        });
+        if (!initialGroupRef.current) {
+            initialGroupRef.current = groupElementRef.current?.clone();
+        }
+    }, []);
+
+    useEffect(() => {
+        if (initialGroupRef.current && groupElementRef.current) {
+            groupElementRef.current.traverse(child => {
+                if (child instanceof THREE.Mesh) {
+                    // eslint-disable-next-line no-param-reassign
+                    child.geometry = getSimplifiedGeometry(child.geometry); // FIXME: this is recursive so reduces every rerender. cloning the initial group and using it's geometry doesnt work 🤔
+                }
+            });
+        }
     }, [modifier, simplePercent]);
 
-    return groupRef;
+    return groupElementRef;
 };

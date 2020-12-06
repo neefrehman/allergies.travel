@@ -47,6 +47,7 @@
         ],
         "no-unused-expressions": "off",
         "no-undef": "error",
+        "lines-between-class-members": ["warn", "always", { "exceptAfterSingleLine": true }],
         "prefer-destructuring": [
             "error",
             {
@@ -58,7 +59,15 @@
         "prefer-const": ["warn"],
         "import/order": [
             "warn",
-            {
+            { 
+                "groups": [
+                    "builtin",
+                    "external",
+                    "internal",
+                    "parent",
+                    "sibling",
+                    "index"
+                ],
                 "newlines-between": "always"
             }
         ],

@@ -11,7 +11,6 @@ const StyledInput = styled.input<{ isVisible: boolean }>`
     color: white;
     font-family: monaco;
     text-indent: 24px;
-
     width: 500px;
     height: 70px;
     border: none;

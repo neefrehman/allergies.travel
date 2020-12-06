@@ -4,7 +4,8 @@ import { useSpring, animated } from "react-spring/three";
 import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
 
 import planetModel from "./models/peanut-planet.obj";
-import { useGroupSimplification } from "./useGroupSimplification";
+import { useGroupSimplification } from "./hooks/useGroupSimplification";
+import { DistortedObject } from "./DistortObject";
 
 interface PlanetProps {
     willRotate: boolean;
@@ -15,7 +16,8 @@ interface PlanetProps {
 
 export const Planet = ({ willRotate }: PlanetProps) => {
     const planetObj = useLoader(OBJLoader, planetModel);
-    const simplifiedGroupRef = useGroupSimplification(0.13);
+
+    const simplifiedGroupRef = useGroupSimplification(0.11);
 
     const scale = window.innerWidth > 500 ? 4 : 3;
 
@@ -28,14 +30,27 @@ export const Planet = ({ willRotate }: PlanetProps) => {
 
     return (
         <>
-            <fog attach="fog" args={["#090b1f", 0, willRotate ? 540 : 100]} />
+            <animated.fog attach="fog" args={["#090b1f", 0, 540]} />
             <animated.group
                 ref={simplifiedGroupRef}
                 scale={[scale, scale, scale]}
                 position={[0, -0.3, 0]}
                 rotation={rotation}
             >
-                <primitive object={planetObj} />
+                {/* FIXME: terrain wont show!!! */}
+                <DistortedObject
+                    object={planetObj}
+                    color="#2fb076"
+                    distort={0.3}
+                    speed={0}
+                />
+                {/* ocean */}
+                <DistortedObject
+                    object={planetObj}
+                    color="#2f5596"
+                    distort={0.16}
+                    radius={0.9}
+                />
             </animated.group>
         </>
     );

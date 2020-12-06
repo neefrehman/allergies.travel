@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { useFrame, Vector3 } from "react-three-fiber";
 
 export const Lights = () => {
-    const [spotlightPos, setSpotlightPos] = useState<Vector3>([15, 20, 15]);
+    const [spotlightPos, setSpotlightPos] = useState<Vector3>([0, 15, 15]);
 
     useFrame(({ clock }) => {
-        const time = clock.elapsedTime * 0.05;
+        const time = clock.elapsedTime * 0.06;
         const spotLightX = Math.sin(time) * 15;
         const spotLightZ = Math.cos(time) * 15;
         setSpotlightPos([spotLightX, 25, spotLightZ]);
@@ -13,10 +13,10 @@ export const Lights = () => {
 
     return (
         <>
-            <ambientLight intensity={0.8} color="#287fae" />
+            <ambientLight intensity={0.25} color="#ffffff" />
             <spotLight
                 castShadow
-                intensity={0.25}
+                intensity={0.5}
                 color="#ffffff"
                 angle={Math.PI / 8}
                 position={spotlightPos}
