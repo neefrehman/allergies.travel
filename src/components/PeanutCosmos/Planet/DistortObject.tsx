@@ -9,7 +9,7 @@ import { Group } from "three/src/objects/Group";
 import { useFrame } from "react-three-fiber";
 import glsl from "glslify";
 
-import { useCustomMaterial } from "./hooks/useCustomMaterial.tsx";
+import { useCustomMaterial } from "./hooks/useCustomMaterial";
 
 interface Uniform<T> {
     value: T;
@@ -47,7 +47,7 @@ export class DistortPhysicalMaterialImpl extends MeshPhysicalMaterial {
             "#include <begin_vertex>",
             // TODO: update characteristics of noise for better terrain
             glsl`
-                float noiseScale = 1.8; // Continent size
+                float noiseScale = 2.0; // Continent size
                 
                 float noise = snoise3(vec3(position / noiseScale + time));
                 vec3 transformed = vec3(position * (noise * pow(distort, 2.0) + radius));

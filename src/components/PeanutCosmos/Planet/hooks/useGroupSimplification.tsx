@@ -3,6 +3,8 @@ import { useEffect, useMemo, useRef } from "react";
 import { SimplifyModifier } from "three/examples/jsm/modifiers/SimplifyModifier";
 
 /**
+ * @deprecated Simplification is now done in blender for smaller filesizes
+ *
  * A fork of Drei's `useSimplification` hook that allowes it to work on groups
  * and .obj model primitives by traversing to find the mesh.
  *
@@ -28,7 +30,7 @@ export const useGroupSimplification = (simplePercent: number) => {
             originalGeometry,
             newVertexCount
         );
-        simplifiedGeometry.computeVertexNormals(); // TODO: remove if colours will be handled by shaders
+        simplifiedGeometry.computeVertexNormals();
 
         return simplifiedGeometry;
     };
@@ -44,7 +46,7 @@ export const useGroupSimplification = (simplePercent: number) => {
             groupElementRef.current.traverse(child => {
                 if (child instanceof THREE.Mesh) {
                     // eslint-disable-next-line no-param-reassign
-                    child.geometry = getSimplifiedGeometry(child.geometry); // FIXME: this is recursive so reduces every rerender. cloning the initial group and using it's geometry doesnt work 🤔
+                    child.geometry = getSimplifiedGeometry(child.geometry); // this is recursive so cululatively reduces every rerender. even though the cloned original ref is used 🤔
                 }
             });
         }
