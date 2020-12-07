@@ -16,7 +16,7 @@ export const Lights = () => {
             <ambientLight intensity={0.25} color="#ffffff" />
             <spotLight
                 castShadow
-                intensity={0.5}
+                intensity={0.7}
                 color="#ffffff"
                 angle={Math.PI / 8}
                 position={spotlightPos}

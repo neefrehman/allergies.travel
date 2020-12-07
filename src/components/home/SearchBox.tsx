@@ -15,16 +15,11 @@ const StyledInput = styled.input<{ isVisible: boolean }>`
     height: 70px;
     border: none;
     border-radius: 20px;
-    /* prettier-ignore */
-    transition:
-        backdrop-filter 2000ms ease-out,
-        background-color 1500ms ease-out,
-        opacity 1500ms ease-out;
-    will-change: backdrop-filter; /* FIXME: terrible transitions! */
+    backdrop-filter: 15px; /* removed transition as it was very jarring, even with will-change. Maybe try again once browsers are more used to the property? */
+    transition: background-color 1500ms ease-out, opacity 1500ms ease-out;
 
     ${({ isVisible }) => css`
         opacity: ${isVisible ? 100 : 0};
-        backdrop-filter: blur(${isVisible ? "15px" : 0});
         background-color: rgba(0, 0, 0, ${isVisible ? "12%" : "0%"});
     `}
 

@@ -13,7 +13,9 @@ import { Stars } from "./Stars";
 import { Planet } from "./Planet";
 import { Controls } from "./Controls";
 
-// TODO: low-performance fallback - fps counter and lower res at threshold? With Stats from drei?
+// TODO: low-performance fallbac
+// TODO low-connectivity fallback:
+// import(navigator.connection.type === notSlow ? "./Scene" : "./FallbackImage")
 
 interface PeanutPlanetProps {
     setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;

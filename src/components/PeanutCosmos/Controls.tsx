@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import { useThree } from "react-three-fiber";
 import { animated, useSpring } from "react-spring";
-import { OrbitControls } from "drei";
+import { OrbitControls } from "@react-three/drei/OrbitControls";
 
 // eslint-disable-next-line import/order
 // import { useContext } from "react";
@@ -24,10 +24,10 @@ export const Controls = ({
     const { gl, camera } = useThree();
 
     /*
-        Context always returns default values on this layer strangely. resorted to prop drilling.
+        Context only returns default values on this layer. Resorted to prop drilling as in the parent it works fine.
         Comments left for future investigation. Looks like this component doesn't rerender when
-        context values change. Although the console.log does happen multiple times for other state changes...
-        Why? it's not memo-ised (the memo isn't the cause). And context is changed with setState. 🤔
+        context values change? Although the console.log does happen multiple times for other state changes...
+        Why? it's not memo-ised (the below memo isn't the cause). And context is changed with setState. 🤔
     */
     // const isDebug = useContext(IsDebugContext);
     // const prefersReducedMotion = useContext(PrefersReducedMotionContext);
@@ -36,8 +36,8 @@ export const Controls = ({
     const AnimatedOrbitControls = useMemo(() => animated(OrbitControls), []);
 
     useSpring({
-        from: { z: initialCameraZ },
         z: 20,
+        from: { z: initialCameraZ },
         config: { mass: 5.2, tension: 320, friction: 150 }, // TODO: more experimentation with config
         onFrame: ({ z }) => {
             camera.position.z = z; // Will be deprecated in v9 https://github.com/react-spring/react-three-fiber/discussions/505
@@ -46,8 +46,8 @@ export const Controls = ({
     });
 
     const { orbitSpeed } = useSpring({
-        from: { orbitSpeed: 0 },
         orbitSpeed: orbitSpeedMax,
+        from: { orbitSpeed: 0 },
         config: { mass: 10, tension: 15, friction: 250 }, // TODO: more experimentation with config
     });
 

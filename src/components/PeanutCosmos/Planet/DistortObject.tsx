@@ -15,6 +15,7 @@ interface Uniform<T> {
     value: T;
 }
 
+/** Adapted from drei's MeshDistortMaterial, with some changes to the noise output. */
 export class DistortPhysicalMaterialImpl extends MeshPhysicalMaterial {
     _time: Uniform<number>;
     _distort: Uniform<number>;
@@ -44,9 +45,11 @@ export class DistortPhysicalMaterialImpl extends MeshPhysicalMaterial {
 
         shader.vertexShader = shader.vertexShader.replace(
             "#include <begin_vertex>",
+            // TODO: update characteristics of noise for better terrain
             glsl`
-                float updateTime = time / 50.0;
-                float noise = snoise3(vec3(position / 2.0 + updateTime * 5.0));
+                float noiseScale = 1.8; // Continent size
+                
+                float noise = snoise3(vec3(position / noiseScale + time));
                 vec3 transformed = vec3(position * (noise * pow(distort, 2.0) + radius));
             `
         );

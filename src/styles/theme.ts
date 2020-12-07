@@ -28,6 +28,9 @@ export const theme = {
             large: "4rem",
         },
     },
+    zIndex: {
+        // ...indices
+    },
     breakpoints: {
         mobileS: 320,
         mobileM: 375,
@@ -69,6 +72,9 @@ declare module "@emotion/react" {
             spacing: {
                 [spacingSize in keyof typeof theme.layout.spacing]: string;
             };
+        };
+        zIndex: {
+            [index in keyof typeof theme.zIndex]: number;
         };
         /** breakpoint values from Chrome devtools */
         breakpoints: {
