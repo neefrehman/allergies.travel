@@ -33,7 +33,7 @@ const PeanutPlanet = ({ setTitleIsVisible }: PeanutPlanetProps) => {
     useTimeout(() => setHasRunThisSession(true), 3000); // TODO test hasRunThisSession
 
     const INITIAL_CAMERA_Z = isShortAnimation ? 26 : 2100;
-    const ORBIT_SPEED = prefersReducedMotion ? 0.12 : 0.28;
+    const ORBIT_SPEED = prefersReducedMotion ? 0.1 : 0.28;
 
     return (
         <Canvas
@@ -60,6 +60,6 @@ const PeanutPlanet = ({ setTitleIsVisible }: PeanutPlanetProps) => {
             </Suspense>
         </Canvas>
     );
-};;
+};
 
 export default PeanutPlanet;

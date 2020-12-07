@@ -30,18 +30,22 @@ export const Planet = ({ willRotate }: PlanetProps) => {
 
     return (
         <>
-            <animated.fog attach="fog" args={["#090b1f", 0, 540]} />
+            <fog attach="fog" args={["#090b1f", 0, 540]} />
             <animated.group
                 ref={simplifiedGroupRef}
                 scale={[scale, scale, scale]}
                 position={[0, -0.3, 0]}
                 rotation={rotation}
             >
-                {/* FIXME: terrain wont show!!! */}
+                {/* 
+                    FIXME: whichever one is on top wont show. group apparently only contains first child.
+                    Maybe only one primitive is allowed?
+                */}
+                {/* terrain */}
                 <DistortedObject
                     object={planetObj}
                     color="#2fb076"
-                    distort={0.3}
+                    distort={0.4}
                     speed={0}
                 />
                 {/* ocean */}
@@ -49,7 +53,7 @@ export const Planet = ({ willRotate }: PlanetProps) => {
                     object={planetObj}
                     color="#2f5596"
                     distort={0.16}
-                    radius={0.9}
+                    radius={1}
                 />
             </animated.group>
         </>

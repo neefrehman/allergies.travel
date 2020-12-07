@@ -6,8 +6,7 @@ import {
 } from "three/src/materials/Materials";
 import { Shader } from "three/src/renderers/shaders/ShaderLib";
 import { Group } from "three/src/objects/Group";
-import { Color as ThreeColor } from "three/src/math/Color";
-import { useFrame, Color } from "react-three-fiber";
+import { useFrame } from "react-three-fiber";
 import glsl from "glslify";
 
 import { useCustomMaterial } from "./hooks/useCustomMaterial.tsx";
@@ -83,7 +82,6 @@ interface DistortedObjectProps {
     radius?: number;
     distort?: number;
     speed?: number;
-    color?: Color;
 }
 
 /**
@@ -96,19 +94,20 @@ export const DistortedObject = ({
     distort = 1,
     radius = 1,
     speed = 1,
-    color = "#ffffff",
-}: DistortedObjectProps) => {
-    // prettier-ignore
-    const material = useMemo(() => new DistortPhysicalMaterialImpl(), []);
+    ...materialParams
+}: DistortedObjectProps & MeshPhysicalMaterialParameters) => {
+    const material = useMemo(
+        () => new DistortPhysicalMaterialImpl(materialParams),
+        [materialParams]
+    );
+
+    const objectRef = useCustomMaterial(material);
 
     useEffect(() => {
-        material.color = new ThreeColor(color);
         material.time = Math.random() * 10000;
         material.radius = radius;
         material.distort = distort;
-    }, [color, distort, radius, material]);
-
-    const objectRef = useCustomMaterial(material);
+    }, [distort, radius, material]);
 
     useFrame(() => {
         if (speed !== 0) material.time += 0.02 * speed;
