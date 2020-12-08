@@ -1,4 +1,4 @@
-// TODO:
+// TODO generateCountryData:
 
 // import countriesJson from "world-countries/dist/countries.json";
 

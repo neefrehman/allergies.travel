@@ -2,6 +2,9 @@
 import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
+// TODO: PWA support
+// TODO: navigator.share sheet
+
 class MyDocument extends Document {
     render() {
         return (

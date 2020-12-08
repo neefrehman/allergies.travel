@@ -25,7 +25,7 @@ const FallbackImageContainer = styled.div<{ zoomed: boolean }>`
 const FallbackImage = ({ setTitleIsVisible }: PeanutCosmosSceneProps) => {
     const hasMounted = useHasMounted();
 
-    useTimeout(() => setTitleIsVisible(true), 2300);
+    useTimeout(() => setTitleIsVisible(true), 2500);
 
     return (
         <FallbackImageContainer zoomed={hasMounted}>

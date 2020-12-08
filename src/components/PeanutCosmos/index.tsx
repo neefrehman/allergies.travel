@@ -6,7 +6,7 @@ import { PeanutCosmosSceneProps } from "./Scene";
 const PeanutCosmos = memo(
     ({ setTitleIsVisible }: PeanutCosmosSceneProps) => {
         const gpu = useDetectGPU();
-        const isLowPerformance = parseFloat(gpu.tier) < 2;
+        const isLowPerformance = gpu?.tier < 1 ?? false;
 
         // @ts-expect-error: connection does exist. And I've created a fallback where the api isn't supported.
         const connection = navigator?.connection?.effectiveType ?? "4g"; // default for safari - should be fast?
