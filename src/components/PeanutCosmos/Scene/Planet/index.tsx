@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React, { memo, useMemo } from "react";
 import { useLoader } from "react-three-fiber";
 import { useSpring, animated } from "react-spring/three";
 import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
@@ -13,6 +13,7 @@ interface PlanetProps {
 export const Planet = memo(
     ({ willRotate }: PlanetProps) => {
         const planetObj = useLoader(OBJLoader, planetModel);
+        const clonedObject = useMemo(() => planetObj.clone(), [planetObj]);
 
         const scale = window.innerWidth > 500 ? 4 : 3;
 
@@ -38,11 +39,11 @@ export const Planet = memo(
                         distort={0.32}
                         speed={0}
                         // TODO: experiment with more physical material props: https://threejs.org/docs/#api/en/materials/MeshPhysicalMaterial
-                        reflectivity={1.6 /* IDEA: isWinter ? 7 : 1.6 :) */}
+                        reflectivity={1.6 /* IDEA: isWinterIrl ? 7 : 1.6 :) */}
                     />
                     {/* ocean */}
                     <DistortedObject
-                        object={planetObj.clone()}
+                        object={clonedObject}
                         color="#2f5596"
                         distort={0.06}
                         speed={0.03}
