@@ -8,8 +8,8 @@ const PeanutCosmos = memo(
         const gpu = useDetectGPU();
         const isLowPerformance = parseFloat(gpu.tier) < 2;
 
-        // @ts-expect-error connection does exist. And I've created a fallback anyway.
-        const connection = navigator?.connection?.effectiveType ?? "4g"; // default for safari which doesn't support the api - should be fast?
+        // @ts-expect-error: connection does exist. And I've created a fallback where the api isn't supported.
+        const connection = navigator?.connection?.effectiveType ?? "4g"; // default for safari - should be fast?
         const isLowconnectivity = connection === "slow-2g" || connection === "2g";
 
         const shouldFallback = isLowPerformance || isLowconnectivity;
