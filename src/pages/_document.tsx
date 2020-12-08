@@ -10,10 +10,13 @@ class MyDocument extends Document {
         return (
             <Html lang="en">
                 <Head>
-                    <meta name="author" content="Neef Rehman" />
+                    <title>allergies.travel</title>
+
                     <link rel="icon" href="/static/favicon.ico" />
+                    <meta name="author" content="Neef Rehman" />
                     <meta name="title" content="allergies.travel" />
                     <meta name="description" content="Not coming soon." />
+
                     <link
                         rel="stylesheet"
                         href="https://fonts.googleapis.com/css?family=Chonburi"
@@ -22,6 +25,10 @@ class MyDocument extends Document {
                     <script
                         async
                         src="https://www.googletagmanager.com/gtag/js?id=UA-122323130-1"
+                    />
+                    <meta
+                        name="google-site-verification"
+                        content="wQKszS0jKVKPsouNwVNd1UP3YWgBZ9RV49yf8MP8ED8"
                     />
                     <script
                         dangerouslySetInnerHTML={{
@@ -35,19 +42,15 @@ class MyDocument extends Document {
                             `,
                         }}
                     />
-                    <meta
-                        name="google-site-verification"
-                        content="wQKszS0jKVKPsouNwVNd1UP3YWgBZ9RV49yf8MP8ED8"
-                    />
 
                     <meta property="og:type" content="website" />
                     <meta property="og:url" content="https://allergies.travel" />
                     <meta property="og:title" content="allergies.travel" />
                     <meta property="og:description" content="Not coming soon" />
-                    {/* <meta
+                    <meta
                         property="og:image"
-                        content="https://allergies.travel/static/meta-image.png"
-                    /> */}
+                        content="https://allergies.travel/static/meta-image.jpeg"
+                    />
 
                     <meta property="twitter:card" content="summary_large_image" />
                     <meta
@@ -59,10 +62,10 @@ class MyDocument extends Document {
                         property="twitter:description"
                         content="Not coming soon"
                     />
-                    {/* <meta
+                    <meta
                         property="twitter:image"
-                        content="https://allergies.travel/static/meta-image.png"
-                    /> */}
+                        content="https://allergies.travel/static/meta-image.jpeg"
+                    />
                 </Head>
 
                 <body>

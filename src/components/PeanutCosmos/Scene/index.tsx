@@ -8,17 +8,15 @@ import { HomePageAnimationHasRunContext } from "context/HomePageAnimationHasRun"
 import { useHasMounted } from "hooks/useHasMounted";
 import { useTimeout } from "hooks/useTimeout";
 
+import { PeanutCosmosProps } from "..";
+
 import { Lights } from "./Lights";
 import { Stars } from "./Stars";
 import { Planet } from "./Planet";
 import { Controls } from "./Controls";
 
-export interface PeanutCosmosSceneProps {
-    setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
-}
-
 const PeanutCosmosScene = memo(
-    ({ setTitleIsVisible }: PeanutCosmosSceneProps) => {
+    ({ setTitleIsVisible }: PeanutCosmosProps) => {
         const { colors } = useTheme();
 
         const hasMounted = useHasMounted();

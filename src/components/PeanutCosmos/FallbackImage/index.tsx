@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useHasMounted } from "hooks/useHasMounted";
 import { useTimeout } from "hooks/useTimeout";
 
-import { PeanutCosmosSceneProps } from "../Scene";
+import { PeanutCosmosProps } from "..";
 
 import imageSrc from "./img.jpeg";
 
@@ -22,7 +22,7 @@ const FallbackImageContainer = styled.div<{ zoomed: boolean }>`
     }
 `;
 
-const FallbackImage = ({ setTitleIsVisible }: PeanutCosmosSceneProps) => {
+const FallbackImage = ({ setTitleIsVisible }: PeanutCosmosProps) => {
     const hasMounted = useHasMounted();
 
     useTimeout(() => setTitleIsVisible(true), 2500);

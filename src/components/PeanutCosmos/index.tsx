@@ -1,20 +1,22 @@
 import React, { lazy, memo, Suspense } from "react";
 import { useDetectGPU } from "@react-three/drei";
 
-import { PeanutCosmosSceneProps } from "./Scene";
+export interface PeanutCosmosProps {
+    setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
+}
 
 const PeanutCosmos = memo(
-    ({ setTitleIsVisible }: PeanutCosmosSceneProps) => {
+    ({ setTitleIsVisible }: PeanutCosmosProps) => {
         const gpu = useDetectGPU();
         const isLowPerformance = gpu?.tier < 1 ?? false;
 
-        // @ts-expect-error: connection does exist. And I've created a fallback where the api isn't supported.
-        const connection = navigator?.connection?.effectiveType ?? "4g"; // default for safari - should be fast?
-        const isLowconnectivity = connection === "slow-2g" || connection === "2g";
+        // @ts-expect-error: connection does exist. And there's a fallback where the api isn't supported.
+        const connection = navigator?.connection?.effectiveType ?? "4g"; // default for safari, which should be fast?
+        const isLowConnectivity = connection === "slow-2g" || connection === "2g";
 
-        const shouldFallback = isLowPerformance || isLowconnectivity;
+        const shouldFallback = isLowPerformance || isLowConnectivity;
 
-        let Scene: React.LazyExoticComponent<React.FC<PeanutCosmosSceneProps>>;
+        let Scene: React.LazyExoticComponent<React.FC<PeanutCosmosProps>>;
         if (shouldFallback) Scene = lazy(() => import("./FallbackImage"));
         else Scene = lazy(() => import("./Scene")); // ternary wont work: import(shouldFallback ? "./FallbackImage" : "./Scene");
 
