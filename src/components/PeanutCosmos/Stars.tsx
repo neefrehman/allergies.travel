@@ -1,11 +1,12 @@
-import React, { useMemo, useState } from "react";
+import React, { useMemo, useRef } from "react";
 import { useFrame } from "react-three-fiber";
+import { PointsMaterial } from "three";
 
 export const Stars = ({ count = 1000, xOff = 0, yOff = 0, zOff = 50 }) => {
-    const [starOpacity, setStarOpacity] = useState(0);
+    const points = useRef<PointsMaterial>();
 
     useFrame(() => {
-        if (starOpacity < 1) setStarOpacity(starOpacity + 0.02);
+        if (points.current.opacity < 1) points.current.opacity += 0.02;
     });
 
     const starPositionArray = useMemo(() => {
@@ -39,12 +40,13 @@ export const Stars = ({ count = 1000, xOff = 0, yOff = 0, zOff = 50 }) => {
             </bufferGeometry>
 
             <pointsMaterial
+                ref={points}
                 attach="material"
                 size={2}
                 sizeAttenuation
                 color="white"
                 transparent
-                opacity={starOpacity}
+                opacity={0}
                 fog={false}
             />
         </points>

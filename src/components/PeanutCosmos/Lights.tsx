@@ -1,43 +1,44 @@
-import React, { useState } from "react";
-import { useFrame, Vector3 } from "react-three-fiber";
+import React, { useRef } from "react";
+import { useFrame } from "react-three-fiber";
+import { SpotLight } from "three";
 
 export const Lights = () => {
     const DIST = 15;
     const Y_DIST = 25;
 
-    const [spotlightPos, setSpotlightPos] = useState<Vector3>([0, Y_DIST, DIST]);
-    const [backlightPos, setBacklightPos] = useState<Vector3>([DIST, -Y_DIST, 0]);
+    const frontLight = useRef<SpotLight>();
+    const backLight = useRef<SpotLight>();
 
     useFrame(({ clock }) => {
         const time = clock.elapsedTime * 0.06;
 
-        const spotLightX = Math.sin(time) * -DIST;
-        const spotLightZ = Math.cos(time) * DIST;
-        setSpotlightPos([spotLightX, Y_DIST, spotLightZ]);
+        frontLight.current.position.x = Math.sin(time) * -DIST;
+        frontLight.current.position.z = Math.cos(time) * DIST;
 
-        const backLightX = Math.sin(time) * DIST;
-        const backLightZ = Math.cos(time) * -DIST;
-        setBacklightPos([backLightX, -Y_DIST, backLightZ]);
+        backLight.current.position.x = Math.sin(time) * DIST;
+        backLight.current.position.z = Math.cos(time) * -DIST;
     });
 
     return (
         <>
             <ambientLight intensity={0.27} color="#ffffff" />
             <spotLight
+                ref={frontLight}
                 castShadow
                 intensity={0.45}
                 color="#ffffff"
+                position={[0, Y_DIST, DIST]}
                 angle={Math.PI / 8}
-                position={spotlightPos}
                 shadow-mapSize-width={2048}
                 shadow-mapSize-height={2048}
             />
             <spotLight
+                ref={backLight}
                 castShadow
-                intensity={0.11}
+                intensity={0.1}
                 color="#ffffff"
+                position={[DIST, -Y_DIST, 0]}
                 angle={Math.PI / 8}
-                position={backlightPos}
                 shadow-mapSize-width={2048}
                 shadow-mapSize-height={2048}
             />
