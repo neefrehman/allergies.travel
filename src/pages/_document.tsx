@@ -41,10 +41,10 @@ class MyDocument extends Document {
                     <meta property="og:url" content="https://allergies.travel" />
                     <meta property="og:title" content="allergies.travel" />
                     <meta property="og:description" content="Not coming soon" />
-                    <meta
+                    {/* <meta
                         property="og:image"
                         content="https://allergies.travel/static/meta-image.png"
-                    />
+                    /> */}
 
                     <meta property="twitter:card" content="summary_large_image" />
                     <meta
@@ -56,10 +56,10 @@ class MyDocument extends Document {
                         property="twitter:description"
                         content="Not coming soon"
                     />
-                    <meta
+                    {/* <meta
                         property="twitter:image"
                         content="https://allergies.travel/static/meta-image.png"
-                    />
+                    /> */}
                 </Head>
 
                 <body>

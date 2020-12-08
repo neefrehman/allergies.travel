@@ -36,16 +36,19 @@ export const Planet = memo(
                     {/* terrain */}
                     <DistortedObject
                         object={planetObj}
-                        color="#2fb076"
+                        color="#24714f"
                         distort={0.32}
                         speed={0}
+                        // TODO: experiment with more physical material props: https://threejs.org/docs/#api/en/materials/MeshPhysicalMaterial
+                        reflectivity={1.8}
                     />
                     {/* ocean */}
                     <DistortedObject
                         object={planetObj.clone()}
                         color="#2f5596"
                         distort={0.06}
-                        speed={0.03}
+                        speed={0.04}
+                        reflectivity={1.2}
                     />
                 </animated.group>
             </>
