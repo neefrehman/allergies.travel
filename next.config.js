@@ -1,7 +1,7 @@
 module.exports = {
     webpack(config /* , options */) {
         config.module.rules.push({
-            test: /\.obj$/,
+            test: [/\.obj$/, /\.jpe?g$/],
             use: ["url-loader"],
         });
         return config;

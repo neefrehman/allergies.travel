@@ -1,70 +1,27 @@
-import React, { memo, Suspense, useContext } from "react";
-import { Canvas } from "react-three-fiber";
-import { useTheme } from "@emotion/react";
+import React, { lazy, memo, Suspense } from "react";
+import { useDetectGPU } from "@react-three/drei";
 
-import { IsDebugContext } from "context/IsDebug";
-import { PrefersReducedMotionContext } from "context/PrefersReducedMotion";
-import { HomePageAnimationHasRunContext } from "context/HomePageAnimationHasRun";
-import { useHasMounted } from "hooks/useHasMounted";
-import { useTimeout } from "hooks/useTimeout";
+import { PeanutCosmosSceneProps } from "./Scene";
 
-import { Lights } from "./Lights";
-import { Stars } from "./Stars";
-import { Planet } from "./Planet";
-import { Controls } from "./Controls";
+const PeanutCosmos = memo(
+    ({ setTitleIsVisible }: PeanutCosmosSceneProps) => {
+        const gpu = useDetectGPU();
+        const isLowPerformance = parseFloat(gpu.tier) < 2;
 
-// TODO: low-performance fallback
-// TODO low-connectivity fallback
-// const shouldFallback = navigator.connection.type === notSlow || useDetectGpuResult === bad;
-// import(shouldFallback ? "./FallbackImage" : "./Scene")
+        // @ts-expect-error connection does exist. And I've created a fallback anyway.
+        const connection = navigator?.connection?.effectiveType ?? "4g"; // default for safari which doesn't support the api - should be fast?
+        const isLowconnectivity = connection === "slow-2g" || connection === "2g";
 
-interface PeanutPlanetProps {
-    setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
-}
+        const shouldFallback = isLowPerformance || isLowconnectivity;
 
-// FIXME: rerenders on scroll!! memos don't help
-
-const PeanutPlanet = memo(
-    ({ setTitleIsVisible }: PeanutPlanetProps) => {
-        const { colors } = useTheme();
-
-        const hasMounted = useHasMounted();
-        const isDebug = useContext(IsDebugContext);
-        const prefersReducedMotion = useContext(PrefersReducedMotionContext);
-        const [hasRunThisSession, setHasRunThisSession] = useContext(
-            HomePageAnimationHasRunContext
-        );
-        const isShortAnimation = prefersReducedMotion || hasRunThisSession;
-
-        useTimeout(() => setHasRunThisSession(true), 3000); // TODO test hasRunThisSession
-
-        const INITIAL_CAMERA_Z = isShortAnimation ? 26 : 2100;
-        const ORBIT_SPEED = prefersReducedMotion ? 0.1 : 0.28;
+        let Scene: React.LazyExoticComponent<React.FC<PeanutCosmosSceneProps>>;
+        if (shouldFallback) Scene = lazy(() => import("./FallbackImage"));
+        else Scene = lazy(() => import("./Scene")); // ternary wont work: import(shouldFallback ? "./FallbackImage" : "./Scene");
 
         return (
-            <Canvas
-                concurrent
-                camera={{ position: [0, 0, INITIAL_CAMERA_Z] }}
-                shadowMap
-                style={{
-                    backgroundColor: colors.spaceNavy,
-                    transition: "opacity 3000ms",
-                    opacity: prefersReducedMotion && !hasMounted ? "0" : "1",
-                    pointerEvents: isDebug ? "initial" : "none",
-                }}
-            >
-                <Suspense fallback={null}>
-                    <Lights />
-                    <Planet willRotate={!prefersReducedMotion} />
-                    <Stars count={1000} />
-                    <Controls
-                        initialCameraZ={INITIAL_CAMERA_Z}
-                        orbitSpeedMax={ORBIT_SPEED}
-                        userControllable={isDebug}
-                        setTitleIsVisible={setTitleIsVisible}
-                    />
-                </Suspense>
-            </Canvas>
+            <Suspense fallback={null}>
+                <Scene setTitleIsVisible={setTitleIsVisible} />
+            </Suspense>
         );
     },
     (previous, next) => {
@@ -73,4 +30,4 @@ const PeanutPlanet = memo(
     }
 );
 
-export default PeanutPlanet;
+export default PeanutCosmos;
