@@ -8,6 +8,10 @@ const globalStyles = css`
         margin: 0;
     }
 
+    html {
+        height: -webkit-fill-available;
+    }
+
     body {
         min-height: 100vh;
         min-height: -webkit-fill-available;
