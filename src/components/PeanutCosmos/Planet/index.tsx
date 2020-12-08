@@ -14,8 +14,6 @@ export const Planet = memo(
     ({ willRotate }: PlanetProps) => {
         const planetObj = useLoader(OBJLoader, planetModel);
 
-        // TODO: sharper low-poly aesthetic. In blender? Subsurf modifier causes way too big files
-
         const scale = window.innerWidth > 500 ? 4 : 3;
 
         const { rotation }: { rotation: [number, number, number] } = useSpring({
@@ -27,7 +25,7 @@ export const Planet = memo(
 
         return (
             <>
-                <fog attach="fog" args={["#090b1f", 0, 540]} />
+                <fog attach="fog" args={["#090b1f", 0, 640]} />
                 <animated.group
                     scale={[scale, scale, scale]}
                     position={[0, -0.3, 0]}
@@ -40,15 +38,15 @@ export const Planet = memo(
                         distort={0.32}
                         speed={0}
                         // TODO: experiment with more physical material props: https://threejs.org/docs/#api/en/materials/MeshPhysicalMaterial
-                        reflectivity={1.8}
+                        reflectivity={1.6 /* IDEA: isWinter ? 7 : 1.6 :) */}
                     />
                     {/* ocean */}
                     <DistortedObject
                         object={planetObj.clone()}
                         color="#2f5596"
                         distort={0.06}
-                        speed={0.04}
-                        reflectivity={1.2}
+                        speed={0.03}
+                        reflectivity={1.1}
                     />
                 </animated.group>
             </>

@@ -1,4 +1,4 @@
-import React, { memo, Suspense, useContext } from "react";
+import React, { Suspense, useContext } from "react";
 import { Canvas } from "react-three-fiber";
 import { useTheme } from "@emotion/react";
 
@@ -21,53 +21,47 @@ interface PeanutPlanetProps {
     setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const PeanutPlanet = memo(
-    ({ setTitleIsVisible }: PeanutPlanetProps) => {
-        const { colors } = useTheme();
+const PeanutPlanet = ({ setTitleIsVisible }: PeanutPlanetProps) => {
+    const { colors } = useTheme();
 
-        const hasMounted = useHasMounted();
-        const isDebug = useContext(IsDebugContext);
-        const prefersReducedMotion = useContext(PrefersReducedMotionContext);
-        const [hasRunThisSession, setHasRunThisSession] = useContext(
-            HomePageAnimationHasRunContext
-        );
-        const isShortAnimation = prefersReducedMotion || hasRunThisSession;
+    const hasMounted = useHasMounted();
+    const isDebug = useContext(IsDebugContext);
+    const prefersReducedMotion = useContext(PrefersReducedMotionContext);
+    const [hasRunThisSession, setHasRunThisSession] = useContext(
+        HomePageAnimationHasRunContext
+    );
+    const isShortAnimation = prefersReducedMotion || hasRunThisSession;
 
-        useTimeout(() => setHasRunThisSession(true), 3000); // TODO test hasRunThisSession
+    useTimeout(() => setHasRunThisSession(true), 3000); // TODO test hasRunThisSession
 
-        const INITIAL_CAMERA_Z = isShortAnimation ? 26 : 2100;
-        const ORBIT_SPEED = prefersReducedMotion ? 0.1 : 0.28;
+    const INITIAL_CAMERA_Z = isShortAnimation ? 26 : 2100;
+    const ORBIT_SPEED = prefersReducedMotion ? 0.1 : 0.28;
 
-        return (
-            <Canvas
-                concurrent
-                camera={{ position: [0, 0, INITIAL_CAMERA_Z] }}
-                shadowMap
-                style={{
-                    backgroundColor: colors.spaceNavy,
-                    transition: "opacity 3000ms",
-                    opacity: prefersReducedMotion && !hasMounted ? "0" : "1",
-                    pointerEvents: isDebug ? "initial" : "none",
-                }}
-            >
-                <Suspense fallback={null}>
-                    <Lights />
-                    <Planet willRotate={!prefersReducedMotion} />
-                    <Stars count={1000} />
-                    <Controls
-                        initialCameraZ={INITIAL_CAMERA_Z}
-                        orbitSpeedMax={ORBIT_SPEED}
-                        userControllable={isDebug}
-                        setTitleIsVisible={setTitleIsVisible}
-                    />
-                </Suspense>
-            </Canvas>
-        );
-    },
-    (previous, next) => {
-        if (previous === next) return false;
-        return true;
-    }
-);
+    return (
+        <Canvas
+            concurrent
+            camera={{ position: [0, 0, INITIAL_CAMERA_Z] }}
+            shadowMap
+            style={{
+                backgroundColor: colors.spaceNavy,
+                transition: "opacity 3000ms",
+                opacity: prefersReducedMotion && !hasMounted ? "0" : "1",
+                pointerEvents: isDebug ? "initial" : "none",
+            }}
+        >
+            <Suspense fallback={null}>
+                <Lights />
+                <Planet willRotate={!prefersReducedMotion} />
+                <Stars count={1000} />
+                <Controls
+                    initialCameraZ={INITIAL_CAMERA_Z}
+                    orbitSpeedMax={ORBIT_SPEED}
+                    userControllable={isDebug}
+                    setTitleIsVisible={setTitleIsVisible}
+                />
+            </Suspense>
+        </Canvas>
+    );
+};
 
 export default PeanutPlanet;

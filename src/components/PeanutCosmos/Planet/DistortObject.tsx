@@ -101,7 +101,7 @@ export const DistortedObject = ({
 }: DistortedObjectProps & MeshPhysicalMaterialParameters) => {
     const material = useMemo(
         () => new DistortPhysicalMaterialImpl(materialParams),
-        [distort, radius, speed, object, materialParams.color] // `.color` Required as otherwise the material re-generates onScroll
+        [object, materialParams.color, materialParams.reflectivity] // `specificty required on materialParams as otherwise it re-generates onScroll / resize
     );
 
     const objectRef = useCustomMaterial(material);

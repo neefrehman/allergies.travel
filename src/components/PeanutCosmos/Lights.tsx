@@ -21,11 +21,11 @@ export const Lights = () => {
 
     return (
         <>
-            <ambientLight intensity={0.27} color="#ffffff" />
+            <ambientLight intensity={0.25} color="#ffffff" />
             <spotLight
                 ref={frontLight}
                 castShadow
-                intensity={0.45}
+                intensity={0.42}
                 color="#ffffff"
                 position={[0, Y_DIST, DIST]}
                 angle={Math.PI / 8}
@@ -35,7 +35,7 @@ export const Lights = () => {
             <spotLight
                 ref={backLight}
                 castShadow
-                intensity={0.1}
+                intensity={0.06}
                 color="#ffffff"
                 position={[DIST, -Y_DIST, 0]}
                 angle={Math.PI / 8}
