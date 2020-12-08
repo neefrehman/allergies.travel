@@ -104,7 +104,7 @@ export const DistortedObject = ({
         [object, materialParams.color, materialParams.reflectivity] // `specificty required on materialParams as otherwise it re-generates onScroll / resize
     );
 
-    const objectRef = useCustomMaterial(material);
+    const customMaterialRef = useCustomMaterial(material);
 
     useEffect(() => {
         material.time = Math.random() * 10000;
@@ -116,5 +116,5 @@ export const DistortedObject = ({
         if (speed !== 0) material.time += 0.02 * speed;
     });
 
-    return <primitive ref={objectRef} object={object} />;
+    return <primitive ref={customMaterialRef} object={object} />;
 };

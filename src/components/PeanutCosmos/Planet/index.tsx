@@ -53,7 +53,7 @@ export const Planet = memo(
         );
     },
     (previous, next) => {
-        if (previous === next) return false;
+        if (previous.willRotate !== next.willRotate) return false;
         return true;
     }
 );

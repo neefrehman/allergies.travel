@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 /**
  * A hook that will traverse a group (in our case a rendered .obj) and replace it's material
  */
-export function useCustomMaterial(material: THREE.Material) {
+export const useCustomMaterial = (material: THREE.Material) => {
     const groupElementRef = useRef<THREE.Group>(null);
     const originalMaterial = useRef<THREE.Material>(null);
 
@@ -31,4 +31,4 @@ export function useCustomMaterial(material: THREE.Material) {
     }, [material]);
 
     return groupElementRef;
-}
+};
