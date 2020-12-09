@@ -10,8 +10,6 @@ class MyDocument extends Document {
         return (
             <Html lang="en">
                 <Head>
-                    <title>allergies.travel</title>
-
                     <link rel="icon" href="/static/favicon.ico" />
                     <meta name="author" content="Neef Rehman" />
                     <meta name="title" content="allergies.travel" />

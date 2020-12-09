@@ -19,14 +19,14 @@ export const Planet = memo(
 
         const { rotation }: { rotation: [number, number, number] } = useSpring({
             rotation: [0, -0.3, 0],
-            from: { rotation: [0, -24, 0] },
+            from: { rotation: [0, -26, 0] },
             config: { mass: 3, tension: 355, friction: 235 },
             immediate: !willRotate,
         });
 
         return (
             <>
-                <fog attach="fog" args={["#090b1f", 0, 640]} />
+                <fog attach="fog" args={["#090b1f", 0, 540]} />
                 <animated.group
                     scale={[scale, scale, scale]}
                     position={[0, -0.3, 0]}

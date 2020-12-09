@@ -4,7 +4,7 @@ import type { ErrorInfo, ReactNode } from "react";
 
 interface ErrorBoundaryProps {
     children: ReactNode;
-    fallback: ReactNode;
+    fallback?: ReactNode;
 }
 
 interface ErrorBoundaryState {
@@ -31,7 +31,7 @@ export class ErrorBoundary extends Component<
 
     render() {
         if (this.state.hasError) {
-            return this.props.fallback;
+            return this.props?.fallback ?? null;
         }
 
         return this.props.children;

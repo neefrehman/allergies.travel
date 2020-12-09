@@ -22,7 +22,7 @@ const HomePage = () => {
     return (
         <IntroContainer>
             {hasMounted && (
-                <ErrorBoundary fallback={<h1>Error</h1>}>
+                <ErrorBoundary fallback={<Title isVisible />}>
                     <Suspense fallback={null}>
                         <PeanutCosmos setTitleIsVisible={setTitleIsVisible} />
                         <Title isVisible={titleIsVisible} />

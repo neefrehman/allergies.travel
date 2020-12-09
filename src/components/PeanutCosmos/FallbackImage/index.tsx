@@ -23,7 +23,7 @@ const FallbackImageContainer = styled.div<{ zoomed: boolean }>`
 `;
 
 const FallbackImage = ({ setTitleIsVisible }: PeanutCosmosProps) => {
-    const hasMounted = useHasMounted();
+    const hasMounted = useHasMounted(); // TODO: test zoomed={hasMounted} - this is sometimes fully zoomed by the time the image loads
 
     useTimeout(() => setTitleIsVisible(true), 2500);
 
