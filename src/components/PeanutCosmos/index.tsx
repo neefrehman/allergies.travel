@@ -1,4 +1,5 @@
 import React, { lazy, memo, Suspense } from "react";
+import type { LazyExoticComponent, FC } from "react";
 import { useDetectGPU } from "@react-three/drei";
 
 export interface PeanutCosmosProps {
@@ -16,9 +17,9 @@ const PeanutCosmos = memo(
 
         const shouldFallback = isLowPerformance || isLowConnectivity;
 
-        const Scene: React.LazyExoticComponent<
-            React.FC<PeanutCosmosProps>
-        > = lazy(() => import(`./${shouldFallback ? "FallbackImage" : "Scene"}`));
+        let Scene: LazyExoticComponent<FC<PeanutCosmosProps>>;
+        if (shouldFallback) Scene = lazy(() => import("./FallbackImage"));
+        else Scene = lazy(() => import("./Scene")); // `./${shouldFallback ? "FallbackImage" : "Scene"}` causes blender file to create webpack warning due to prebundling attempt
 
         return (
             <Suspense fallback={null}>
