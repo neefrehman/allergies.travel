@@ -2,12 +2,12 @@ import React, { lazy, memo, Suspense } from "react";
 import type { LazyExoticComponent, FC } from "react";
 import { useDetectGPU } from "@react-three/drei";
 
-export interface PeanutCosmosProps {
+export interface PeanutWorldProps {
     setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const PeanutCosmos = memo(
-    ({ setTitleIsVisible }: PeanutCosmosProps) => {
+const PeanutWorld = memo(
+    ({ setTitleIsVisible }: PeanutWorldProps) => {
         const gpu = useDetectGPU();
         const isLowPerformance = gpu?.tier < 1 ?? false;
 
@@ -17,9 +17,9 @@ const PeanutCosmos = memo(
 
         const shouldFallback = isLowPerformance || isLowConnectivity;
 
-        let Scene: LazyExoticComponent<FC<PeanutCosmosProps>>;
+        let Scene: LazyExoticComponent<FC<PeanutWorldProps>>;
         if (shouldFallback) Scene = lazy(() => import("./FallbackImage"));
-        else Scene = lazy(() => import("./Scene")); // `./${shouldFallback ? "FallbackImage" : "Scene"}` causes blender file to create webpack warning due to prebundling attempt
+        else Scene = lazy(() => import("./Scene")); // `./${shouldFallback ? "FallbackImage" : "Scene"}` causes .blend webpack warning due to bundling attempt
 
         return (
             <Suspense fallback={null}>
@@ -33,4 +33,5 @@ const PeanutCosmos = memo(
     }
 );
 
-export default PeanutCosmos;
+// Default export required for simple dynamic importing
+export default PeanutWorld;

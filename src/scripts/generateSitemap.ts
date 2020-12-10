@@ -20,7 +20,7 @@ export const generateSitemap = async (
         .map(name => name.replace(".tsx", "").replace("index", "")); // Index becomes homepage
 
     // const dyamicPageArray = getAllPagesFromCmsData();
-    // TODO: i18n handling
+    // TODO: i18n handling, lastModified: https://github.com/netlify/netlify-cms/issues/4671
 
     const allRoutes = [...staticPageArray /* , ...dyamicPageArray */];
     const urlPaths = allRoutes.map(route => (route !== "" ? `/${route}` : route));
@@ -33,7 +33,7 @@ export const generateSitemap = async (
                     route =>
                         `
                         <url>
-                            <loc>${`https://generative.neef.co${route}`}</loc>
+                            <loc>${`https://allergies.travel${route}`}</loc>
                         </url>
                     `
                 )

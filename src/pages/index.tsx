@@ -5,7 +5,7 @@ import { Title } from "components/home/Title";
 import { useHasMounted } from "hooks/useHasMounted";
 import { ErrorBoundary } from "components/ErrorBoundary";
 
-const PeanutCosmos = lazy(() => import("components/PeanutCosmos"));
+const PeanutWorld = lazy(() => import("components/PeanutWorld"));
 // ^Fix for `cannot use import statement outside a module` issue with three/jsm: https://github.com/react-spring/react-three-fiber/discussions/504
 
 const IntroContainer = styled.div`
@@ -24,7 +24,7 @@ const HomePage = () => {
             {hasMounted && (
                 <ErrorBoundary fallback={<Title isVisible />}>
                     <Suspense fallback={null}>
-                        <PeanutCosmos setTitleIsVisible={setTitleIsVisible} />
+                        <PeanutWorld setTitleIsVisible={setTitleIsVisible} />
                         <Title isVisible={titleIsVisible} />
                     </Suspense>
                 </ErrorBoundary>

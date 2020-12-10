@@ -8,15 +8,15 @@ import { HomePageAnimationHasRunContext } from "context/HomePageAnimationHasRun"
 import { useHasMounted } from "hooks/useHasMounted";
 import { useTimeout } from "hooks/useTimeout";
 
-import { PeanutCosmosProps } from "..";
+import { PeanutWorldProps } from "..";
 
 import { Lights } from "./Lights";
 import { Stars } from "./Stars";
 import { Planet } from "./Planet";
 import { Controls } from "./Controls";
 
-const PeanutCosmosScene = memo(
-    ({ setTitleIsVisible }: PeanutCosmosProps) => {
+const PeanutWorldScene = memo(
+    ({ setTitleIsVisible }: PeanutWorldProps) => {
         const { colors } = useTheme();
 
         const hasMounted = useHasMounted();
@@ -64,5 +64,5 @@ const PeanutCosmosScene = memo(
     }
 );
 
-// Default export required for dynamic importing
-export default PeanutCosmosScene;
+// Default export required for simple dynamic importing
+export default PeanutWorldScene;
