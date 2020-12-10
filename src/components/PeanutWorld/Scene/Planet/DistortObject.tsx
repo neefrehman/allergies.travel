@@ -1,4 +1,4 @@
-/* eslint-disable no-underscore-dangle, no-param-reassign */
+/* eslint-disable no-underscore-dangle, no-param-reassign, lines-between-class-members */
 import React, { useEffect, useMemo } from "react";
 import {
     MeshPhysicalMaterial,
@@ -58,7 +58,6 @@ export class DistortPhysicalMaterialImpl extends MeshPhysicalMaterial {
     get time() {
         return this._time.value;
     }
-
     set time(v) {
         this._time.value = v;
     }
@@ -66,7 +65,6 @@ export class DistortPhysicalMaterialImpl extends MeshPhysicalMaterial {
     get distort() {
         return this._distort.value;
     }
-
     set distort(v) {
         this._distort.value = v;
     }
@@ -74,7 +72,6 @@ export class DistortPhysicalMaterialImpl extends MeshPhysicalMaterial {
     get radius() {
         return this._radius.value;
     }
-
     set radius(v) {
         this._radius.value = v;
     }
