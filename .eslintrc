@@ -60,6 +60,7 @@
         "import/order": [
             "warn",
             { 
+                "newlines-between": "always",
                 "groups": [
                     "builtin",
                     "external",
@@ -67,8 +68,7 @@
                     "parent",
                     "sibling",
                     "index"
-                ],
-                "newlines-between": "always"
+                ]
             }
         ],
         "import/extensions": [

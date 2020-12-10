@@ -14,6 +14,10 @@
         "isolatedModules": true,
         "jsx": "preserve",
         "baseUrl": "src",
+        "paths": {
+            "HomeComponents/*": ["components/pages/home/*"],
+            "CountryComponents/*": ["components/pages/country/*"],
+        }
     },
     "exclude": ["node_modules"],
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]

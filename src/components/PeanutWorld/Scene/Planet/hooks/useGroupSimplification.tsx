@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { useEffect, useMemo, useRef } from "react";
+import { useCallback, useEffect, useMemo, useRef } from "react";
 import { SimplifyModifier } from "three/examples/jsm/modifiers/SimplifyModifier";
 
 /**
@@ -15,25 +15,25 @@ export const useGroupSimplification = (simplePercent: number) => {
     const initialGroupRef = useRef(null);
     const modifier = useMemo(() => new SimplifyModifier(), []);
 
-    const getSimplifiedGeometry = (
-        originalGeometry: THREE.BufferGeometry | THREE.Geometry
-    ) => {
-        const newGeometry =
-            originalGeometry instanceof THREE.BufferGeometry
-                ? originalGeometry.clone()
-                : new THREE.BufferGeometry().fromGeometry(originalGeometry);
+    const getSimplifiedGeometry = useCallback(
+        (originalGeom: THREE.BufferGeometry | THREE.Geometry) => {
+            const newGeom =
+                originalGeom instanceof THREE.BufferGeometry
+                    ? originalGeom.clone()
+                    : new THREE.BufferGeometry().fromGeometry(originalGeom);
 
-        const originalVertexCount = newGeometry.attributes.position.count;
-        const newVertexCount = Math.floor(originalVertexCount * simplePercent);
+            const originalVertexCount = newGeom.attributes.position.count;
+            const newVertexCount = Math.floor(
+                originalVertexCount * simplePercent
+            );
 
-        const simplifiedGeometry = modifier.modify(
-            originalGeometry,
-            newVertexCount
-        );
-        simplifiedGeometry.computeVertexNormals();
+            const simplifiedGeom = modifier.modify(originalGeom, newVertexCount);
+            simplifiedGeom.computeVertexNormals();
 
-        return simplifiedGeometry;
-    };
+            return simplifiedGeom;
+        },
+        [modifier, simplePercent]
+    );
 
     useEffect(() => {
         if (!initialGroupRef.current) {
@@ -46,11 +46,11 @@ export const useGroupSimplification = (simplePercent: number) => {
             groupElementRef.current.traverse(child => {
                 if (child instanceof THREE.Mesh) {
                     // eslint-disable-next-line no-param-reassign
-                    child.geometry = getSimplifiedGeometry(child.geometry); // this is recursive so cululatively reduces every rerender. even though the cloned original ref is used 🤔
+                    child.geometry = getSimplifiedGeometry(child.geometry); // this is recursive so cumulatively reduces every rerender. even though the cloned original ref is used 🤔
                 }
             });
         }
-    }, [modifier, simplePercent]);
+    }, [getSimplifiedGeometry, modifier, simplePercent]);
 
     return groupElementRef;
 };

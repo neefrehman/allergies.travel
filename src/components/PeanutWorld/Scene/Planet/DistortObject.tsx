@@ -99,7 +99,8 @@ export const DistortedObject = ({
 }: DistortedObjectProps & MeshPhysicalMaterialParameters) => {
     const material = useMemo(
         () => new DistortPhysicalMaterialImpl({ color, reflectivity }),
-        [object, color, reflectivity] // object required to avoid resetting material when any DistortedObjectProps change.
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        [color, reflectivity, object] // object required to avoid resetting material when any DistortedObjectProps change.
     );
 
     const customMaterialRef = useCustomMaterial(material);

@@ -1,7 +1,7 @@
 import React, { useState, lazy, Suspense } from "react";
 import styled from "@emotion/styled";
 
-import { Title } from "components/home/Title";
+import { Title } from "HomeComponents/Title";
 import { useHasMounted } from "hooks/useHasMounted";
 import { ErrorBoundary } from "components/ErrorBoundary";
 
