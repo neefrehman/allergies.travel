@@ -1,9 +1,10 @@
 import React, { useState, lazy, Suspense } from "react";
 import styled from "@emotion/styled";
 
-import { Title } from "HomeComponents/Title";
 import { useHasMounted } from "hooks/useHasMounted";
 import { ErrorBoundary } from "components/ErrorBoundary";
+
+import { Title } from "HomeComponents/Title";
 
 const PeanutWorld = lazy(() => import("components/PeanutWorld"));
 // ^Fix for `cannot use import statement outside a module` issue with three/jsm: https://github.com/react-spring/react-three-fiber/discussions/504

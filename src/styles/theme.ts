@@ -46,7 +46,6 @@ export const theme = {
         dark: "@media (prefers-color-scheme: dark)",
         light: "@media (prefers-color-scheme: light)",
         reducedMotion: "@media (prefers-reduced-motion: reduce)",
-
         /** Creates a media query to handle sizes above a value */
         above: (breakpoint: number) => `@media (min-width: ${breakpoint + 1}px)`,
         /** Creates a media query to handle sizes below a value */
@@ -54,52 +53,8 @@ export const theme = {
     },
 } as const;
 
-type InferedThemeType = typeof theme; // workaround for manual· typing: https://twitter.com/neefrehman_/status/1337052860421447685
+type InferedThemeType = typeof theme; // workaround for manual typing: https://twitter.com/neefrehman_/status/1337052860421447685
 declare module "@emotion/react" {
     // eslint-disable-next-line @typescript-eslint/no-empty-interface
     export interface Theme extends InferedThemeType {}
 }
-
-// Old theme:
-// declare module "@emotion/react" {
-//     export interface Theme {
-//         colors: {
-//             [color in keyof typeof theme.colors]: string;
-//         };
-//         fonts: {
-//             [font in keyof typeof theme.fonts]: string;
-//         };
-//         fontSizes: {
-//             [fontSize in keyof typeof theme.fontSizes]: string;
-//         };
-//         borderRadius: {
-//             [radius in keyof typeof theme.borderRadius]: string;
-//         };
-//         shadows: {
-//             [shadow in keyof typeof theme.shadows]: string;
-//         };
-//         layout: {
-//             appMaxWidth: string;
-//             gridGap: string;
-//             spacing: {
-//                 [spacingSize in keyof typeof theme.layout.spacing]: string;
-//             };
-//         };
-//         zIndex: {
-//             [index in keyof typeof theme.zIndex]: number;
-//         };
-//         /** breakpoint values from Chrome devtools */
-//         breakpoints: {
-//             [breakpoint in keyof typeof theme.breakpoints]: number;
-//         };
-//         media: {
-//             dark: string;
-//             light: string;
-//             reducedMotion: string;
-//             /** Creates a media query to handle sizes above a value */
-//             above: (breakpoint: number) => string;
-//             /** Creates a media query to handle sizes below a value */
-//             below: (breakpoint: number) => string;
-//         };
-//     }
-// }
