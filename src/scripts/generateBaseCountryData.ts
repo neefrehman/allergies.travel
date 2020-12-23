@@ -92,6 +92,15 @@ const generateBaseCountryData = () => {
     requiredCountryData.forEach(country => {
         // TODO: Object.assign(oldObject, currentObject) - need to read and parse files first
         // This will enable us to overwrite the baseData keys while keeping the CMs injected content.
+        // const prevData: BaseCountryData = JSON.parse(
+        //     fs.readFileSync(
+        //         `${directory}/${kebabCaseWithDiacriticHandling(
+        //             country.info.name.common
+        //         )}.json`,
+        //         "utf8"
+        //     )
+        // );
+
         fs.writeFileSync(
             `${directory}/${kebabCaseWithDiacriticHandling(
                 country.info.name.common

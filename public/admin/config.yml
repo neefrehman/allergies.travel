@@ -47,13 +47,12 @@ collections:
 
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      # TODO: automated last-modified: https://github.com/netlify/netlify-cms/issues/4671
+      - { label: "Last Modified", name: "lastModified", widget: "hidden" } # TODO: automated last-modified: https://github.com/netlify/netlify-cms/issues/4671#issuecomment-741754188
 
       - name: Allergens
         label: allergens
         widget: list
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Allergen Name", name: "allergenName", widget: relation, collection: allergens, value_field: name, search_fields: [name] }
           - label: "Found in"
             name: "foundIn"
@@ -121,15 +120,6 @@ collections:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "Symbol", name: "symbol", widget: "string" }
               - { label: ISO 4217 currency code, name: currencyCode, widget: string, hint: the three-letter currency code. e.g. "USD" }
-          - name: codes
-            label: Codes
-            widget: object
-            collapsed: false
-            required: false
-            fields:
-              - { label: "cca2", name: "cca2", widget: "string", required: false }
-              - { label: "cca3", name: "cca3", widget: "string", required: false }
-              - { label: "ccn3", name: "ccn3", widget: "string", required: false }
           - name: coordinates
             label: Coordinates
             widget: object
@@ -137,3 +127,12 @@ collections:
             fields:
               - { label: "Latitude", name: "latitude", widget: "number", step: 0.000001 }
               - { label: "Longitude", name: "longitude", widget: "number", step: 0.000001 }
+          - name: codes
+            label: Codes
+            widget: object
+            collapsed: true
+            required: false
+            fields:
+              - { label: "cca2", name: "cca2", widget: "string", required: false }
+              - { label: "cca3", name: "cca3", widget: "string", required: false }
+              - { label: "ccn3", name: "ccn3", widget: "string", required: false }
