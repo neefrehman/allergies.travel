@@ -71,8 +71,8 @@ collections:
         summary: Information about the countries cuisine
         required: false
         fields: 
-          - { label: "Description", name: "description", widget: "text" }
-          - { label: "Source url", name: "source_url", widget: "string" }
+          - { label: "Description", name: "description", widget: "text", required: false }
+          - { label: "Source url", name: "source_url", widget: "string", required: false }
 
       - name: Allergens
         label: allergens
