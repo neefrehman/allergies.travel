@@ -6,7 +6,7 @@ import { useEffect, useRef } from "react";
  */
 export const useCustomMaterial = (material: THREE.Material) => {
     const groupElementRef = useRef<THREE.Group>(null);
-    const originalMaterial = useRef<THREE.Material>(null);
+    const originalMaterial = useRef<THREE.Material | null>(null);
 
     useEffect(() => {
         if (!originalMaterial.current) {

@@ -6,15 +6,17 @@ import type { Country } from "world-countries";
 const countryData: Country[] = require("world-countries");
 
 // Added here instead of from utils/ to avid the extra tsc compiling
-const kebabCaseWithDiacriticHandling = (string: string) =>
-    string
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .match(
-            /[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g
-        )
-        .map(x => x.toLowerCase())
-        .join("-");
+const kebabCaseWithDiacriticHandling = (string: string) => {
+    const matches =
+        string
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .match(
+                /[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g
+            ) ?? [];
+
+    return matches.map(x => x.toLowerCase()).join("-");
+};
 
 /**
  * Generates the base country data we will use in the site, from the
@@ -30,20 +32,20 @@ const kebabCaseWithDiacriticHandling = (string: string) =>
 const generateBaseCountryData = () => {
     const requiredCountryData: BaseCountryData[] = countryData.map(country => ({
         name: country.name,
-        currencies: country.currencies,
-        languages: country.languages,
         capital: country.capital,
         region: country.region,
         subregion: country.subregion,
+        languages: country.languages,
         translations: country.translations,
-        latlng: country.latlng,
+        currencies: country.currencies,
         flag: country.flag,
+        latlng: country.latlng,
         cca2: country.cca2,
         cca3: country.cca3,
         ccn3: country.ccn3,
     }));
 
-    const directory = "src/data/countries/base";
+    const directory = "src/data/countries";
 
     if (fs.existsSync(directory)) {
         fs.rmdirSync(directory, { recursive: true });
@@ -52,6 +54,8 @@ const generateBaseCountryData = () => {
     fs.mkdirSync(directory);
 
     requiredCountryData.forEach(country => {
+        // TODO: Object.assign(oldObject, currentObject) - need to read and parse files first
+        // This will enable us to overwrite the baseData keys while keeping the CMs injected content.
         fs.writeFileSync(
             `${directory}/${kebabCaseWithDiacriticHandling(
                 country.name.common

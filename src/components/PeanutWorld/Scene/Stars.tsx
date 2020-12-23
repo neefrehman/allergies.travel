@@ -3,10 +3,12 @@ import { useFrame } from "react-three-fiber";
 import type { PointsMaterial } from "three";
 
 export const Stars = ({ count = 1000, xOff = 0, yOff = 0, zOff = 50 }) => {
-    const points = useRef<PointsMaterial>();
+    const points = useRef<PointsMaterial>(null);
 
     useFrame(() => {
-        if (points.current.opacity < 1) points.current.opacity += 0.02;
+        if (points.current) {
+            if (points.current.opacity < 1) points.current.opacity += 0.02;
+        }
     });
 
     const starPositionArray = useMemo(() => {

@@ -9,7 +9,7 @@ export interface PeanutWorldProps {
 const PeanutWorld = memo(
     ({ setTitleIsVisible }: PeanutWorldProps) => {
         const gpu = useDetectGPU();
-        const isLowPerformance = gpu?.tier < 1 ?? false;
+        const isLowPerformance = (gpu?.tier ?? 2) < 1;
 
         // @ts-expect-error: connection does exist
         const connection = navigator?.connection?.effectiveType ?? "4g"; // fallback for safari, which should be fast?

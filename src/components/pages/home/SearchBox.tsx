@@ -39,7 +39,9 @@ export const HomepageSearchBox = ({ isVisible }: { isVisible: boolean }) => {
     useEffect(() => {
         const timeout =
             isVisible && setTimeout(() => setIsVisibleWithTimeout(true), 4500);
-        return () => clearTimeout(timeout);
+        return () => {
+            if (timeout) clearTimeout(timeout);
+        };
     }, [isVisible]);
 
     return (

@@ -12,7 +12,7 @@ import { SimplifyModifier } from "three/examples/jsm/modifiers/SimplifyModifier"
  */
 export const useGroupSimplification = (simplePercent: number) => {
     const groupElementRef = useRef<THREE.Group>(null);
-    const initialGroupRef = useRef(null);
+    const initialGroupRef = useRef<THREE.Group | null>(null);
     const modifier = useMemo(() => new SimplifyModifier(), []);
 
     const getSimplifiedGeometry = useCallback(
@@ -36,7 +36,7 @@ export const useGroupSimplification = (simplePercent: number) => {
     );
 
     useEffect(() => {
-        if (!initialGroupRef.current) {
+        if (!initialGroupRef.current && groupElementRef.current) {
             initialGroupRef.current = groupElementRef.current?.clone();
         }
     }, []);

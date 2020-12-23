@@ -6,7 +6,7 @@ import type { SimpleProviderProps } from "./types";
 /** Global context for if the PeanutCosmos animation has run in this user session */
 export const HomePageAnimationHasRunContext = createContext<
     [boolean, Dispatch<SetStateAction<boolean>>]
->(null);
+>([false, () => null]);
 
 /** Global context provider for if the PeanutCosmos animation has run in this user session */
 export const HomePageAnimationHasRunProvider = ({

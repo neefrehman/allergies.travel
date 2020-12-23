@@ -6,17 +6,19 @@ export const Lights = () => {
     const DIST = 15;
     const Y_DIST = 25;
 
-    const frontLight = useRef<SpotLight>();
-    const backLight = useRef<SpotLight>();
+    const frontLight = useRef<SpotLight>(null);
+    const backLight = useRef<SpotLight>(null);
 
     useFrame(({ clock }) => {
         const time = clock.elapsedTime * 0.06;
 
-        frontLight.current.position.x = Math.sin(time) * -DIST;
-        frontLight.current.position.z = Math.cos(time) * DIST;
+        if (frontLight.current && backLight.current) {
+            frontLight.current.position.x = Math.sin(time) * -DIST;
+            frontLight.current.position.z = Math.cos(time) * DIST;
 
-        backLight.current.position.x = Math.sin(time) * DIST;
-        backLight.current.position.z = Math.cos(time) * -DIST;
+            backLight.current.position.x = Math.sin(time) * DIST;
+            backLight.current.position.z = Math.cos(time) * -DIST;
+        }
     });
 
     return (

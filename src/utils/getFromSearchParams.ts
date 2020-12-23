@@ -7,7 +7,8 @@ export const getFromSearchParams = (query: string): boolean => {
     const searchParams = new URLSearchParams(window.location.search);
     const fullQuery = searchParams.get(query);
     const acceptedQueryValues = ["", "true"]; // `/?query` || `/?query=true`
-    const isInParams = acceptedQueryValues.includes(fullQuery);
+    const isInParams =
+        fullQuery !== null ? acceptedQueryValues.includes(fullQuery) : false;
 
     return isInParams;
 };
