@@ -1,13 +1,16 @@
 publish_mode: editorial_workflow
 
+
 backend:
   name: github
   repo: neefrehman/allergies.travel
   branch: staging # TODO: update to master after launch
   open_authoring: true # docs: https://www.netlifycms.org/docs/open-authoring/ 
 
+
 media_folder: public/static/uploads
 public_folder: /uploads
+
 
 collections:
   - name: "country-content" # Used in routes, e.g., /admin/collections/tracks
