@@ -14,40 +14,74 @@ public_folder: /uploads
 
 collections:
 
-  - name: "countries" # Used in routes, e.g., /admin/collections/tracks
-    label: "CountrIes" # Used in the UI
+  - name: "allergens" # Used in routes, e.g., /admin/collections/tracks
+    label: "Allergens" # Used in the UI
+    create: true
+    editor:
+      preview: false
+
+    files:
+      - label: "Allergens"
+        name: "allergens"
+        file: "src/data/allergens.json"
+        fields:
+          - {label: Name, name: name, widget: string}
+          - label: Translations
+            name: translations
+            widget: list
+            required: false
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Language code, name: language_code, widget: string, hint: the three-letter ISO 639-3 code. e.g. "fra"}
+
+
+  - name: "countries"
+    label: "Countries"
     folder: "src/data/countries/data"
     extension: "json"
     format: "json"
     create: false
-
     editor:
       preview: false
 
     fields:
+      - label: "Info"
+        name: "info"
+        widget: "object"
+        collapsed: true
+        summary: Basic info about the country
+        fields: 
+          # TODO: align with BaseCountryData schema
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Capital", name: "name", widget: "string" }
+          - { label: "Region", name: "name", widget: "string" }
+          - { label: "Subregion", name: "name", widget: "string", required: false }
+          - { label: "Languages", name: "name", widget: "string" }
+          - { label: "Translations", name: "name", widget: "string", required: false }
+          - { label: "Currencies", name: "name", widget: "string", required: false }
+          - { label: "Flag", name: "name", widget: "string" }
+          - { label: "Coordinates", name: "name", widget: "string" }
+          - { label: "cca2", name: "name", widget: "string", required: false }
+          - { label: "cca3", name: "name", widget: "string", required: false }
+          - { label: "ccn3", name: "name", widget: "string", required: false }
 
-      - { label: "Name", name: "name", widget: "string" }
+      - name: Cuisine Description
+        label: cuisine_description
+        widget: object
+        collapsed: false
+        summary: Information about the countries cuisine
+        required: false
+        fields: 
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Source url", name: "source_url", widget: "string" }
+
       - name: Allergens
         label: allergens
         widget: list
         fields: 
-          - { label: "Allergen Name", name: "allergen_name", widget: string } # TODO: reference allergens
+          - { label: "Allergen Name", name: "allergen_name", widget: relation, collection: allergens, value_field: name, search_fields: [name] }
           - label: "Found in"
             name: "found_in"
             widget: list
             fields:
               - { label: "Food Name", name: "food", widget: string }
-
-
-  - name: "country-data"
-    label: "Country Data"
-    folder: "src/data/countries/data"
-    extension: "json"
-    format: "json"
-    create: false
-
-    editor:
-      preview: true
-
-    fields:
-      - { label: "Name", name: "name", widget: "string" }
