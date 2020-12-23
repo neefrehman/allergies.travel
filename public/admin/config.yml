@@ -87,10 +87,13 @@ collections:
               - label: "Native"
                 name: "native"
                 widget: list
+                collapsed: true
+                minimize_collapsed: true
                 fields:
                   - { label: "Common", name: "common", widget: "string" }
                   - { label: "Official", name: "official", widget: "string" }
                   - { label: ISO 639-3 code, name: languageCode, widget: string, hint: the three-letter ISO 639-3 code. e.g. "eng" }
+          - { label: "Flag", name: "flag", widget: "string" }
           - { label: "Capital", name: "capital", widget: "string" }
           - { label: "Region", name: "region", widget: "string" }
           - { label: "Subregion", name: "subregion", widget: "string", required: false }
@@ -103,6 +106,7 @@ collections:
           - label: "Translations"
             name: "translations"
             widget: list
+            collapsed: true
             minimize_collapsed: true
             required: false
             fields:
@@ -117,7 +121,6 @@ collections:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "Symbol", name: "symbol", widget: "string" }
               - { label: ISO 4217 currency code, name: currencyCode, widget: string, hint: the three-letter currency code. e.g. "USD" }
-          - { label: "Flag", name: "flag", widget: "string" }
           - name: codes
             label: Codes
             widget: object

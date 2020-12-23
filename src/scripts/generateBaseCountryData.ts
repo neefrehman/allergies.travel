@@ -36,7 +36,7 @@ const generateBaseCountryData = () => {
             info: {
                 name: {
                     ...country.name,
-                    native: Object.entries(country.translations).map(
+                    native: Object.entries(country.name.native).map(
                         ([code, { official, common }]) => ({
                             languageCode: code,
                             official,
