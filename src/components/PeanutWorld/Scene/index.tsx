@@ -8,7 +8,7 @@ import { HomePageAnimationHasRunContext } from "context/HomePageAnimationHasRun"
 import { useHasMounted } from "hooks/useHasMounted";
 import { useTimeout } from "hooks/useTimeout";
 
-import { PeanutWorldProps } from "..";
+import type { PeanutWorldProps } from "..";
 
 import { Lights } from "./Lights";
 import { Stars } from "./Stars";

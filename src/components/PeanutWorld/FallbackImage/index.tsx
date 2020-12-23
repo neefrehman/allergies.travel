@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useHasMounted } from "hooks/useHasMounted";
 import { useTimeout } from "hooks/useTimeout";
 
-import { PeanutWorldProps } from "..";
+import type { PeanutWorldProps } from "..";
 
 import imageSrc from "./img.jpeg";
 

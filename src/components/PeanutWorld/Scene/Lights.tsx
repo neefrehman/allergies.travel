@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { useFrame } from "react-three-fiber";
-import { SpotLight } from "three";
+import type { SpotLight } from "three";
 
 export const Lights = () => {
     const DIST = 15;

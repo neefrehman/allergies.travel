@@ -19,7 +19,7 @@ export const Planet = memo(
 
         const { rotation }: { rotation: [number, number, number] } = useSpring({
             rotation: [0, -0.3, 0],
-            from: { rotation: [0, -26, 0] },
+            from: { rotation: [0, -22, 0] },
             config: { mass: 3, tension: 355, friction: 235 },
             immediate: !willRotate,
         });
@@ -38,8 +38,7 @@ export const Planet = memo(
                         color="#24714f"
                         distort={0.32}
                         speed={0}
-                        // TODO: experiment with more physical material props: https://threejs.org/docs/#api/en/materials/MeshPhysicalMaterial
-                        reflectivity={1.6 /* IDEA: isWinterIrl ? 7 : 1.6 :) */}
+                        reflectivity={1.6}
                     />
                     {/* ocean */}
                     <DistortedObject

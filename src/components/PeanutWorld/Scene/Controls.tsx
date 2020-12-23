@@ -48,7 +48,7 @@ export const Controls = ({
     const { orbitSpeed } = useSpring({
         orbitSpeed: orbitSpeedMax,
         from: { orbitSpeed: 0 },
-        config: { mass: 10, tension: 15, friction: 250 }, // TODO: more experimentation with config
+        config: { mass: 10, tension: 15, friction: 340 },
     });
 
     return (

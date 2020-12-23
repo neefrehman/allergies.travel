@@ -1,0 +1,48 @@
+publish_mode: editorial_workflow
+
+backend:
+  name: github
+  repo: neefrehman/allergies.travel
+  branch: staging # TODO: update to master after launch
+  open_authoring: true # docs: https://www.netlifycms.org/docs/open-authoring/ 
+
+media_folder: public/static/uploads
+public_folder: /uploads
+
+collections:
+  - name: "country-content" # Used in routes, e.g., /admin/collections/tracks
+    label: "Country Content" # Used in the UI
+    folder: "src/data/countries/content"
+    extension: "json"
+    format: "json"
+    create: true
+
+    editor:
+      preview: true
+
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - name: Allergens
+        label: allergens
+        widget: list
+        fields: 
+          - { label: "Allergen Name", name: "allergen_name", widget: string }
+          - label: "Found in"
+            name: "found_in"
+            widget: list
+            fields:
+              - { label: "Food Name", name: "food", widget: string }
+
+
+  - name: "country-data"
+    label: "Country Data"
+    folder: "src/data/countries/data"
+    extension: "json"
+    format: "json"
+    create: false
+
+    editor:
+      preview: true
+
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
