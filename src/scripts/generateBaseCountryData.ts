@@ -62,7 +62,7 @@ const generateBaseCountryData = () => {
         // This will enable us to overwrite the baseData keys while keeping the CMs injected content.
         fs.writeFileSync(
             `${directory}/${kebabCaseWithDiacriticHandling(
-                country.name.common
+                country.info.name.common
             )}.json`,
             JSON.stringify(country)
         );
