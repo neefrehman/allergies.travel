@@ -32,7 +32,7 @@ const kebabCaseWithDiacriticHandling = (string: string) => {
 const generateBaseCountryData = () => {
     const requiredCountryData: BaseCountryData[] = countryData.map(country => ({
         name: country.name,
-        capital: country.capital,
+        capital: country.capital[0],
         region: country.region,
         subregion: country.subregion,
         languages: country.languages,
@@ -72,7 +72,6 @@ export type BaseCountryData = Pick<
     | "name"
     | "currencies"
     | "languages"
-    | "capital"
     | "region"
     | "subregion"
     | "translations"
@@ -81,4 +80,4 @@ export type BaseCountryData = Pick<
     | "cca2"
     | "cca3"
     | "ccn3"
->;
+> & { capital: string };

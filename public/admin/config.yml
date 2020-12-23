@@ -16,27 +16,27 @@ collections:
 
   - name: "allergens" # Used in routes, e.g., /admin/collections/tracks
     label: "Allergens" # Used in the UI
+    folder: "src/data/allergens"
+    extension: "json"
+    format: "json"
     create: true
     editor:
       preview: false
 
-    files:
-      - label: "Allergens"
-        name: "allergens"
-        file: "src/data/allergens.json"
+    fields:
+      - {label: Name, name: name, widget: string}
+      - label: Translations
+        name: translations
+        widget: list
+        required: false
         fields:
           - {label: Name, name: name, widget: string}
-          - label: Translations
-            name: translations
-            widget: list
-            required: false
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Language code, name: language_code, widget: string, hint: the three-letter ISO 639-3 code. e.g. "fra"}
+          - {label: Language code, name: language_code, widget: string, hint: the three-letter ISO 639-3 code. e.g. "fra"}
+
 
   - name: "countries"
     label: "Countries"
-    folder: "src/data/countries/data"
+    folder: "src/data/countries"
     extension: "json"
     format: "json"
     create: false
