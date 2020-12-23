@@ -78,58 +78,59 @@ collections:
         summary: Basic info about the country
         fields: 
           - name: Name
-              label: name
-              widget: object
-              collapsed: false
-              fields:
-                - { label: "Common", name: "common", widget: "string" }
-                - { label: "Official", name: "official", widget: "string" }
-                - label: "Native"
-                    name: "native"
-                    widget: list
-                    fields:
-                      - { label: "Common", name: "common", widget: "string" }
-                      - { label: "Official", name: "official", widget: "string" }
+            label: name
+            widget: object
+            collapsed: false
+            fields:
+              - { label: "Common", name: "common", widget: "string" }
+              - { label: "Official", name: "official", widget: "string" }
+              - label: "Native"
+                name: "native"
+                widget: list
+                fields:
+                  - { label: "Common", name: "common", widget: "string" }
+                  - { label: "Official", name: "official", widget: "string" }
+                  - { label: ISO 639-3 code, name: languageCode, widget: string, hint: the three-letter ISO 639-3 code. e.g. "eng" }
           - { label: "Capital", name: "capital", widget: "string" }
           - { label: "Region", name: "region", widget: "string" }
           - { label: "Subregion", name: "subregion", widget: "string", required: false }
           - label: "Languages"
-              name: "languages"
-              widget: list
-              fields:
-                - { label: ISO 639-3 code, name: languageCode, widget: string, hint: the three-letter ISO 639-3 code. e.g. "en" }
-                - { label: Name, name: name, widget: string }
+            name: "languages"
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: ISO 639-3 code, name: languageCode, widget: string, hint: the three-letter ISO 639-3 code. e.g. "eng" }
           - label: "Translations"
-              name: "translations"
-              widget: list
-              required: false
-              fields:
-                - { label: ISO 639-3 code, name: languageCode, widget: string, hint: the three-letter ISO 639-3 code. e.g. "en" }
-                - { label: "Common", name: "common", widget: "string" }
-                - { label: "Official", name: "official", widget: "string" }
-          - { label: "Currencies", name: "currencies", widget: "string", required: false } # Should be list
+            name: "translations"
+            widget: list
+            minimize_collapsed: true
+            required: false
+            fields:
+              - { label: "Common", name: "common", widget: "string" }
+              - { label: "Official", name: "official", widget: "string" }
+              - { label: ISO 639-3 code, name: languageCode, widget: string, hint: the three-letter ISO 639-3 code. e.g. "eng" }
           - label: "Currencies"
-              name: "currencies"
-              widget: list
-              required: false
-              fields:
-                - { label: "Name", name: "name", widget: "string" }
-                - { label: "Symbol", name: "symbol", widget: "string" }
-                - { label: ISO 4217 currency code, name: currencyCode, widget: string, hint: the three-letter currency code. e.g. "USD" }
+            name: "currencies"
+            widget: list
+            required: false
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Symbol", name: "symbol", widget: "string" }
+              - { label: ISO 4217 currency code, name: currencyCode, widget: string, hint: the three-letter currency code. e.g. "USD" }
           - { label: "Flag", name: "flag", widget: "string" }
           - name: Codes
-              label: codes
-              widget: object
-              collapsed: false
-              required: false
-              fields:
-                - { label: "cca2", name: "cca2", widget: "string", required: false }
-                - { label: "cca3", name: "cca3", widget: "string", required: false }
-                - { label: "ccn3", name: "ccn3", widget: "string", required: false }
+            label: codes
+            widget: object
+            collapsed: false
+            required: false
+            fields:
+              - { label: "cca2", name: "cca2", widget: "string", required: false }
+              - { label: "cca3", name: "cca3", widget: "string", required: false }
+              - { label: "ccn3", name: "ccn3", widget: "string", required: false }
           - name: Coordinates
-              label: coordinates
-              widget: object
-              collapsed: false
-              fields:
-                - { label: "Latitude", name: "latitude", widget: "number" }
-                - { label: "Longitude", name: "longituyde", widget: "number" }
+            label: coordinates
+            widget: object
+            collapsed: false
+            fields:
+              - { label: "Latitude", name: "latitude", widget: "number" }
+              - { label: "Longitude", name: "longitude", widget: "number" }

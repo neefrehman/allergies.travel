@@ -34,7 +34,16 @@ const generateBaseCountryData = () => {
         country => ({
             title: country.name.common,
             info: {
-                name: country.name,
+                name: {
+                    ...country.name,
+                    native: Object.entries(country.translations).map(
+                        ([code, { official, common }]) => ({
+                            languageCode: code,
+                            official,
+                            common,
+                        })
+                    ),
+                },
                 capital: country.capital[0],
                 region: country.region,
                 subregion: country.subregion,
@@ -94,10 +103,12 @@ const generateBaseCountryData = () => {
 
 generateBaseCountryData();
 
-export type BaseCountryData = Pick<
-    Country,
-    "name" | "region" | "subregion" | "flag"
-> & {
+export type BaseCountryData = Pick<Country, "region" | "subregion" | "flag"> & {
+    name: {
+        common: string;
+        official: string;
+        native: { languageCode: string; common: string; official: string }[];
+    };
     capital: string;
     languages: { languageCode: string; name: string }[];
     translations: { languageCode: string; common: string; official: string }[];
