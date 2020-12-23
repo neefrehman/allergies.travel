@@ -14,6 +14,7 @@ public_folder: /uploads
 
 collections:
 
+
   - name: "allergens" # Used in routes, e.g., /admin/collections/tracks
     label: "Allergens" # Used in the UI
     folder: "src/data/allergens"
@@ -30,8 +31,9 @@ collections:
         widget: list
         required: false
         fields:
+          - { label: ISO 639-3 code, name: languageCode, widget: string, hint: the three-letter ISO 639-3 code. e.g. "en" }
           - { label: Name, name: name, widget: string }
-          - { label: Language code, name: language_code, widget: string, hint: the two-letter ISO 639-1 code. e.g. "en" }
+
 
 
   - name: "countries"
@@ -44,43 +46,90 @@ collections:
       preview: false
 
     fields:
+      - { label: "Title", name: "title", widget: "string" }
+      # TODO: automated last-modified: https://github.com/netlify/netlify-cms/issues/4671
+
+      - name: Allergens
+        label: allergens
+        widget: list
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Allergen Name", name: "allergenName", widget: relation, collection: allergens, value_field: name, search_fields: [name] }
+          - label: "Found in"
+            name: "foundIn"
+            widget: list
+            fields:
+              - { label: "Food Name", name: "food", widget: string }
+
+      - name: Cuisine Description
+        label: cuisineDescription
+        widget: object
+        collapsed: false
+        summary: Information about the countries cuisine
+        required: false
+        fields:
+          - { label: "Description", name: "description", widget: "text", required: false }
+          - { label: "Source url", name: "sourceUrl", widget: "string", required: false }
+
       - label: "Info"
         name: "info"
         widget: "object"
         collapsed: true
         summary: Basic info about the country
         fields: 
-          # TODO: align with BaseCountryData schema
-          - { label: "Name", name: "name", widget: "string" }
+          - name: Name
+              label: name
+              widget: object
+              collapsed: false
+              fields:
+                - { label: "Common", name: "common", widget: "string" }
+                - { label: "Official", name: "official", widget: "string" }
+                - label: "Native"
+                    name: "native"
+                    widget: list
+                    fields:
+                      - { label: "Common", name: "common", widget: "string" }
+                      - { label: "Official", name: "official", widget: "string" }
           - { label: "Capital", name: "capital", widget: "string" }
           - { label: "Region", name: "region", widget: "string" }
           - { label: "Subregion", name: "subregion", widget: "string", required: false }
-          - { label: "Languages", name: "languages", widget: "string" } # Should be list
-          - { label: "Translations", name: "translations", widget: "string", required: false } # Should be list
+          - label: "Languages"
+              name: "languages"
+              widget: list
+              fields:
+                - { label: ISO 639-3 code, name: languageCode, widget: string, hint: the three-letter ISO 639-3 code. e.g. "en" }
+                - { label: Name, name: name, widget: string }
+          - label: "Translations"
+              name: "translations"
+              widget: list
+              required: false
+              fields:
+                - { label: ISO 639-3 code, name: languageCode, widget: string, hint: the three-letter ISO 639-3 code. e.g. "en" }
+                - { label: "Common", name: "common", widget: "string" }
+                - { label: "Official", name: "official", widget: "string" }
           - { label: "Currencies", name: "currencies", widget: "string", required: false } # Should be list
+          - label: "Currencies"
+              name: "currencies"
+              widget: list
+              required: false
+              fields:
+                - { label: "Name", name: "name", widget: "string" }
+                - { label: "Symbol", name: "symbol", widget: "string" }
+                - { label: ISO 4217 currency code, name: currencyCode, widget: string, hint: the three-letter currency code. e.g. "USD" }
           - { label: "Flag", name: "flag", widget: "string" }
-          - { label: "Coordinates", name: "coordinates", widget: "string" }
-          - { label: "cca2 code", name: "cca2", widget: "string", required: false }
-          - { label: "cca3 code", name: "cca3", widget: "string", required: false }
-          - { label: "ccn3 code", name: "ccn3", widget: "string", required: false }
-
-      - name: Cuisine Description
-        label: cuisine_description
-        widget: object
-        collapsed: false
-        summary: Information about the countries cuisine
-        required: false
-        fields: 
-          - { label: "Description", name: "description", widget: "text", required: false }
-          - { label: "Source url", name: "source_url", widget: "string", required: false }
-
-      - name: Allergens
-        label: allergens
-        widget: list
-        fields: 
-          - { label: "Allergen Name", name: "allergen_name", widget: relation, collection: allergens, value_field: name, search_fields: [name] }
-          - label: "Found in"
-            name: "found_in"
-            widget: list
-            fields:
-              - { label: "Food Name", name: "food", widget: string }
+          - name: Codes
+              label: codes
+              widget: object
+              collapsed: false
+              required: false
+              fields:
+                - { label: "cca2", name: "cca2", widget: "string", required: false }
+                - { label: "cca3", name: "cca3", widget: "string", required: false }
+                - { label: "ccn3", name: "ccn3", widget: "string", required: false }
+          - name: Coordinates
+              label: coordinates
+              widget: object
+              collapsed: false
+              fields:
+                - { label: "Latitude", name: "latitude", widget: "number" }
+                - { label: "Longitude", name: "longituyde", widget: "number" }

@@ -32,19 +32,42 @@ const kebabCaseWithDiacriticHandling = (string: string) => {
 const generateBaseCountryData = () => {
     const requiredCountryData: { info: BaseCountryData }[] = countryData.map(
         country => ({
+            title: country.name.common,
             info: {
                 name: country.name,
                 capital: country.capital[0],
                 region: country.region,
                 subregion: country.subregion,
-                languages: country.languages,
-                translations: country.translations,
-                currencies: country.currencies,
+                languages: Object.entries(country.languages).map(
+                    ([code, name]) => ({
+                        languageCode: code,
+                        name,
+                    })
+                ),
+                translations: Object.entries(country.translations).map(
+                    ([code, { official, common }]) => ({
+                        languageCode: code,
+                        official,
+                        common,
+                    })
+                ),
+                currencies: Object.entries(country.currencies).map(
+                    ([code, { name, symbol }]) => ({
+                        name,
+                        symbol,
+                        currencyCode: code,
+                    })
+                ),
                 flag: country.flag,
-                latlng: country.latlng,
-                cca2: country.cca2,
-                cca3: country.cca3,
-                ccn3: country.ccn3,
+                codes: {
+                    cca2: country.cca2,
+                    cca3: country.cca3,
+                    ccn3: country.ccn3,
+                },
+                coordinates: {
+                    latitude: country.latlng[0],
+                    longitude: country.latlng[1],
+                },
             },
         })
     );
@@ -73,15 +96,16 @@ generateBaseCountryData();
 
 export type BaseCountryData = Pick<
     Country,
-    | "name"
-    | "currencies"
-    | "languages"
-    | "region"
-    | "subregion"
-    | "translations"
-    | "latlng"
-    | "flag"
-    | "cca2"
-    | "cca3"
-    | "ccn3"
-> & { capital: string };
+    "name" | "region" | "subregion" | "flag"
+> & {
+    capital: string;
+    languages: { languageCode: string; name: string }[];
+    translations: { languageCode: string; common: string; official: string }[];
+    currencies: { name: string; symbol: string; currencyCode: string }[];
+    coordinates: { latitude: number; longitude: number };
+    codes: {
+        cca2: string;
+        cca3: string;
+        ccn3: string;
+    };
+};
