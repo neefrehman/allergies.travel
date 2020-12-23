@@ -77,8 +77,8 @@ collections:
         collapsed: true
         summary: Basic info about the country
         fields: 
-          - name: Name
-            label: name
+          - name: name
+            label: Name
             widget: object
             collapsed: false
             fields:
@@ -118,8 +118,8 @@ collections:
               - { label: "Symbol", name: "symbol", widget: "string" }
               - { label: ISO 4217 currency code, name: currencyCode, widget: string, hint: the three-letter currency code. e.g. "USD" }
           - { label: "Flag", name: "flag", widget: "string" }
-          - name: Codes
-            label: codes
+          - name: codes
+            label: Codes
             widget: object
             collapsed: false
             required: false
@@ -127,8 +127,8 @@ collections:
               - { label: "cca2", name: "cca2", widget: "string", required: false }
               - { label: "cca3", name: "cca3", widget: "string", required: false }
               - { label: "ccn3", name: "ccn3", widget: "string", required: false }
-          - name: Coordinates
-            label: coordinates
+          - name: coordinates
+            label: Coordinates
             widget: object
             collapsed: false
             fields:
