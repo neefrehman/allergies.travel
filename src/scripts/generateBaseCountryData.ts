@@ -30,20 +30,24 @@ const kebabCaseWithDiacriticHandling = (string: string) => {
  * to do this easily.
  */
 const generateBaseCountryData = () => {
-    const requiredCountryData: BaseCountryData[] = countryData.map(country => ({
-        name: country.name,
-        capital: country.capital[0],
-        region: country.region,
-        subregion: country.subregion,
-        languages: country.languages,
-        translations: country.translations,
-        currencies: country.currencies,
-        flag: country.flag,
-        latlng: country.latlng,
-        cca2: country.cca2,
-        cca3: country.cca3,
-        ccn3: country.ccn3,
-    }));
+    const requiredCountryData: { info: BaseCountryData }[] = countryData.map(
+        country => ({
+            info: {
+                name: country.name,
+                capital: country.capital[0],
+                region: country.region,
+                subregion: country.subregion,
+                languages: country.languages,
+                translations: country.translations,
+                currencies: country.currencies,
+                flag: country.flag,
+                latlng: country.latlng,
+                cca2: country.cca2,
+                cca3: country.cca3,
+                ccn3: country.ccn3,
+            },
+        })
+    );
 
     const directory = "src/data/countries";
 

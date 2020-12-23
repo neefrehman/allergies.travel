@@ -24,14 +24,14 @@ collections:
       preview: false
 
     fields:
-      - {label: Name, name: name, widget: string}
+      - { label: Name, name: name, widget: string }
       - label: Translations
         name: translations
         widget: list
         required: false
         fields:
-          - {label: Name, name: name, widget: string}
-          - {label: Language code, name: language_code, widget: string, hint: the three-letter ISO 639-3 code. e.g. "fra"}
+          - { label: Name, name: name, widget: string }
+          - { label: Language code, name: language_code, widget: string, hint: the two-letter ISO 639-1 code. e.g. "en" }
 
 
   - name: "countries"
@@ -60,9 +60,9 @@ collections:
           - { label: "Currencies", name: "currencies", widget: "string", required: false } # Should be list
           - { label: "Flag", name: "flag", widget: "string" }
           - { label: "Coordinates", name: "coordinates", widget: "string" }
-          - { label: "cca2", name: "cca2", widget: "string", required: false }
-          - { label: "cca3", name: "cca3", widget: "string", required: false }
-          - { label: "ccn3", name: "ccn3", widget: "string", required: false }
+          - { label: "cca2 code", name: "cca2", widget: "string", required: false }
+          - { label: "cca3 code", name: "cca3", widget: "string", required: false }
+          - { label: "ccn3 code", name: "ccn3", widget: "string", required: false }
 
       - name: Cuisine Description
         label: cuisine_description
