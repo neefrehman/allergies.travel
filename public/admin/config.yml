@@ -34,7 +34,6 @@ collections:
               - {label: Name, name: name, widget: string}
               - {label: Language code, name: language_code, widget: string, hint: the three-letter ISO 639-3 code. e.g. "fra"}
 
-
   - name: "countries"
     label: "Countries"
     folder: "src/data/countries/data"
@@ -53,17 +52,17 @@ collections:
         fields: 
           # TODO: align with BaseCountryData schema
           - { label: "Name", name: "name", widget: "string" }
-          - { label: "Capital", name: "name", widget: "string" }
-          - { label: "Region", name: "name", widget: "string" }
-          - { label: "Subregion", name: "name", widget: "string", required: false }
-          - { label: "Languages", name: "name", widget: "string" }
-          - { label: "Translations", name: "name", widget: "string", required: false }
-          - { label: "Currencies", name: "name", widget: "string", required: false }
-          - { label: "Flag", name: "name", widget: "string" }
-          - { label: "Coordinates", name: "name", widget: "string" }
-          - { label: "cca2", name: "name", widget: "string", required: false }
-          - { label: "cca3", name: "name", widget: "string", required: false }
-          - { label: "ccn3", name: "name", widget: "string", required: false }
+          - { label: "Capital", name: "capital", widget: "string" }
+          - { label: "Region", name: "region", widget: "string" }
+          - { label: "Subregion", name: "subregion", widget: "string", required: false }
+          - { label: "Languages", name: "languages", widget: "string" } # Should be list
+          - { label: "Translations", name: "translations", widget: "string", required: false } # Should be list
+          - { label: "Currencies", name: "currencies", widget: "string", required: false } # Should be list
+          - { label: "Flag", name: "flag", widget: "string" }
+          - { label: "Coordinates", name: "coordinates", widget: "string" }
+          - { label: "cca2", name: "cca2", widget: "string", required: false }
+          - { label: "cca3", name: "cca3", widget: "string", required: false }
+          - { label: "ccn3", name: "ccn3", widget: "string", required: false }
 
       - name: Cuisine Description
         label: cuisine_description
