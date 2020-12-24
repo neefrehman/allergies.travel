@@ -6,7 +6,7 @@ import { kebabCaseWithDiacriticHandling } from "../utils/kebabCase";
 import { deepMerge } from "../utils/deepMerge";
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const countryData: Country[] = require("world-countries"); // require needed as the package doesn't handle it's default export
+const countryData: Country[] = require("world-countries"); // require needed to avoid `world_countries_1["default"]` error
 
 /**
  * Generates the base country data we will use in the site, from the
