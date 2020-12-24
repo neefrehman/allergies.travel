@@ -1,19 +1,18 @@
 publish_mode: editorial_workflow
 
-
 backend:
   name: github
   repo: neefrehman/allergies.travel
   branch: staging # TODO: update to master after launch
   open_authoring: true # docs: https://www.netlifycms.org/docs/open-authoring/ 
 
-
 media_folder: public/static/uploads
 public_folder: /uploads
 
+# TODO: 18n support: https://www.netlifycms.org/docs/beta-features/#i18n-support
+
 
 collections:
-
 
   - name: "allergens" # Used in routes, e.g., /admin/collections/tracks
     label: "Allergens" # Used in the UI
@@ -26,6 +25,7 @@ collections:
 
     fields:
       - { label: Name, name: name, widget: string }
+      - { label: "Last Modified", name: "lastModified", widget: "hidden" }
       - label: Translations
         name: translations
         widget: list
@@ -33,7 +33,6 @@ collections:
         fields:
           - { label: ISO 639-3 code, name: languageCode, widget: string, hint: the three-letter ISO 639-3 code. e.g. "en" }
           - { label: Name, name: name, widget: string }
-
 
 
   - name: "countries"
@@ -47,7 +46,7 @@ collections:
 
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Last Modified", name: "lastModified", widget: "hidden" } # TODO: automated last-modified: https://github.com/netlify/netlify-cms/issues/4671#issuecomment-741754188
+      - { label: "Last Modified", name: "lastModified", widget: "hidden" }
 
       - name: Allergens
         label: allergens
@@ -63,7 +62,7 @@ collections:
       - name: Cuisine Description
         label: cuisineDescription
         widget: object
-        collapsed: false
+        collapsed: true
         summary: Information about the countries cuisine
         required: false
         fields:

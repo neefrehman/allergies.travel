@@ -101,6 +101,7 @@ fs.unlinkSync("src/utils/deepMerge.js");
 fs.unlinkSync("src/utils/kebabCase.js");
 fs.unlinkSync("src/scripts/generateBaseCountryData.js");
 
+// TODO: find better home
 export type BaseCountryData = Pick<Country, "region" | "subregion" | "flag"> & {
     name: {
         common: string;
@@ -119,14 +120,20 @@ export type BaseCountryData = Pick<Country, "region" | "subregion" | "flag"> & {
     };
 };
 
-// TODO: find better home
+export interface Allergen {
+    allergenName: string;
+    foundIn: string[];
+}
+
+export interface CuisineDescription {
+    description: string;
+    sourceUrl?: string;
+}
+
 export interface CountryContent {
     title: string;
     lastModified?: string;
-    allergens: { allergenName: string; foundIn: string[] };
-    cuisineDescription?: {
-        description?: string;
-        sourceUrl?: string;
-    };
+    allergens: Allergen[];
+    cuisineDescription?: CuisineDescription;
     info: BaseCountryData;
 }

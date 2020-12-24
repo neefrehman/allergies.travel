@@ -4,3 +4,7 @@
 
 [[plugins]]
     package = "netlify-plugin-cache-nextjs"
+
+[[redirects]]
+    from = "/admin"
+    to = "/admin/index.html"
