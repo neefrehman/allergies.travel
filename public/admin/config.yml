@@ -95,7 +95,7 @@ collections:
           - { label: "Flag", name: "flag", widget: "string" }
           - { label: "Capital", name: "capital", widget: "string" }
           - { label: "Region", name: "region", widget: "string" }
-          - { label: "Subregion", name: "subregion", widget: "string", required: false }
+          - { label: "Subregion", name: "subregion", widget: "string" }
           - label: "Languages"
             name: "languages"
             widget: list

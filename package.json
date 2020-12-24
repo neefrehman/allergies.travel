@@ -58,7 +58,7 @@
         "build": "next build",
         "export": "next export",
         "start": "next start",
-        "generateCountryData": "tsc src/scripts/generateBaseCountryData.ts && ts-node src/scripts/generateBaseCountryData.js"
+        "generateCountryData": "tsc src/scripts/generateBaseCountryData.ts && node src/scripts/generateBaseCountryData.js"
     },
     "lint-staged": {
         "*.(js|ts|tsx)": [

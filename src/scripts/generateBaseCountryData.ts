@@ -2,21 +2,11 @@ import * as fs from "fs";
 
 import type { Country } from "world-countries";
 
+import { kebabCaseWithDiacriticHandling } from "../utils/kebabCase";
+import { deepMerge } from "../utils/deepMerge";
+
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const countryData: Country[] = require("world-countries");
-
-// Added here instead of from utils/ to avid the extra tsc compiling
-const kebabCaseWithDiacriticHandling = (string: string) => {
-    const matches =
-        string
-            .normalize("NFD")
-            .replace(/[\u0300-\u036f]/g, "")
-            .match(
-                /[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g
-            ) ?? [];
-
-    return matches.map(x => x.toLowerCase()).join("-");
-};
+const countryData: Country[] = require("world-countries"); // require needed as the package doesn't handle it's default export
 
 /**
  * Generates the base country data we will use in the site, from the
@@ -25,12 +15,11 @@ const kebabCaseWithDiacriticHandling = (string: string) => {
  * @remarks
  * Requires node >= 12.0
  *
- * For QoL this file must be compiled to js and then run, as ts-node
- * won't yet work with import statements. Use `npm run generateCountryData`
- * to do this easily.
+ * This file must be compiled to js and then run, (ts-node has bugs with
+ * import statements). Use `npm run generateCountryData` to do this easily.
  */
 const generateBaseCountryData = () => {
-    const requiredCountryData: { info: BaseCountryData }[] = countryData.map(
+    const transformedCountryData: { info: BaseCountryData }[] = countryData.map(
         country => ({
             title: country.name.common,
             info: {
@@ -83,34 +72,34 @@ const generateBaseCountryData = () => {
 
     const directory = "src/data/countries";
 
-    if (fs.existsSync(directory)) {
-        fs.rmdirSync(directory, { recursive: true });
+    if (!fs.existsSync(directory)) {
+        fs.mkdirSync(directory);
     }
 
-    fs.mkdirSync(directory);
+    transformedCountryData.forEach(country => {
+        const fileName = `${directory}/${kebabCaseWithDiacriticHandling(
+            country.info.name.common
+        )}.json`;
 
-    requiredCountryData.forEach(country => {
-        // TODO: Object.assign(oldObject, currentObject) - need to read and parse files first
-        // This will enable us to overwrite the baseData keys while keeping the CMs injected content.
-        // const prevData: BaseCountryData = JSON.parse(
-        //     fs.readFileSync(
-        //         `${directory}/${kebabCaseWithDiacriticHandling(
-        //             country.info.name.common
-        //         )}.json`,
-        //         "utf8"
-        //     )
-        // );
+        let dataToSend: Partial<CountryContent> = country;
 
-        fs.writeFileSync(
-            `${directory}/${kebabCaseWithDiacriticHandling(
-                country.info.name.common
-            )}.json`,
-            JSON.stringify(country)
-        );
+        if (fs.existsSync(fileName)) {
+            // Merge new base data into existing data, while keeping additions from the CMS
+            const previousData: CountryContent = JSON.parse(
+                fs.readFileSync(fileName, "utf8")
+            );
+            dataToSend = deepMerge(previousData, country); // FIXME: deep merge fix needed: https://jsbin.com/habowuguye/edit?js,console
+        }
+
+        fs.writeFileSync(fileName, JSON.stringify(dataToSend));
     });
 };
 
 generateBaseCountryData();
+
+fs.unlinkSync("src/utils/deepMerge.js");
+fs.unlinkSync("src/utils/kebabCase.js");
+fs.unlinkSync("src/scripts/generateBaseCountryData.js");
 
 export type BaseCountryData = Pick<Country, "region" | "subregion" | "flag"> & {
     name: {
@@ -120,12 +109,24 @@ export type BaseCountryData = Pick<Country, "region" | "subregion" | "flag"> & {
     };
     capital: string;
     languages: { languageCode: string; name: string }[];
-    translations: { languageCode: string; common: string; official: string }[];
-    currencies: { name: string; symbol: string; currencyCode: string }[];
+    translations?: { languageCode: string; common: string; official: string }[];
+    currencies?: { name: string; symbol: string; currencyCode: string }[];
     coordinates: { latitude: number; longitude: number };
-    codes: {
-        cca2: string;
-        cca3: string;
-        ccn3: string;
+    codes?: {
+        cca2?: string;
+        cca3?: string;
+        ccn3?: string;
     };
 };
+
+// TODO: find better home
+export interface CountryContent {
+    title: string;
+    lastModified?: string;
+    allergens: { allergenName: string; foundIn: string[] };
+    cuisineDescription?: {
+        description?: string;
+        sourceUrl?: string;
+    };
+    info: BaseCountryData;
+}
