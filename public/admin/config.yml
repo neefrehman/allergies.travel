@@ -3,7 +3,7 @@ publish_mode: editorial_workflow
 backend:
   name: github
   repo: neefrehman/allergies.travel
-  branch: staging # TODO: update to master after launch
+  branch: staging # TODO: update to master on launch
   open_authoring: true # docs: https://www.netlifycms.org/docs/open-authoring/ 
 
 media_folder: public/static/uploads
@@ -57,7 +57,9 @@ collections:
             name: "foundIn"
             widget: list
             fields:
-              - { label: "Food Name", name: "food", widget: string }
+              - { label: "Food Name", name: "foodName", widget: string }
+              - { label: "Food Description", name: "description", widget: text }
+              - { label: "Info url", name: "infoUrl", widget: string }
 
       - name: Cuisine Description
         label: cuisineDescription

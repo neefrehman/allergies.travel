@@ -88,7 +88,7 @@ const generateBaseCountryData = () => {
             const previousData: CountryContent = JSON.parse(
                 fs.readFileSync(fileName, "utf8")
             );
-            dataToSend = deepMerge(previousData, country); // FIXME: deep merge fix needed: https://jsbin.com/habowuguye/edit?js,console
+            dataToSend = deepMerge(previousData, country);
         }
 
         fs.writeFileSync(fileName, JSON.stringify(dataToSend));
@@ -101,7 +101,7 @@ fs.unlinkSync("src/utils/deepMerge.js");
 fs.unlinkSync("src/utils/kebabCase.js");
 fs.unlinkSync("src/scripts/generateBaseCountryData.js");
 
-// TODO: find better home
+// TODO: find better home for these - types/index.ts
 export type BaseCountryData = Pick<Country, "region" | "subregion" | "flag"> & {
     name: {
         common: string;
@@ -122,7 +122,13 @@ export type BaseCountryData = Pick<Country, "region" | "subregion" | "flag"> & {
 
 export interface Allergen {
     allergenName: string;
-    foundIn: string[];
+    foundIn: Food[];
+}
+
+export interface Food {
+    foodName: string;
+    description: string;
+    infoUrl: string;
 }
 
 export interface CuisineDescription {
