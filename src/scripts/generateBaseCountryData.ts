@@ -16,7 +16,7 @@ const countryData: Country[] = require("world-countries"); // require needed to 
  * world-countries package.
  *
  * @remarks
- * Requires node >= 12.0
+ * Requires node >= 12.0 --- (and maybe full-icu for i18n?)
  *
  * This file must be compiled to js and then run, (ts-node has bugs with
  * import statements). Use `npm run generateCountryData` to do this easily.
@@ -24,6 +24,16 @@ const countryData: Country[] = require("world-countries"); // require needed to 
 const generateBaseCountryData = async () => {
     const prettierConfig = await prettier.resolveConfig("./.prettierrc");
 
+    // locales.forEach(locale => {
+    //     const regionNamesInLocale = new Intl.DisplayNames([locale], { type: 'region' });
+    //     const currencyNamesInLocale = new Intl.DisplayNames([locale], { type: 'currency' });
+    //     const languageNamesInLocale = new Intl.DisplayNames([locale], { type: 'language' });
+    //
+    //     transformedCountryData.forEach(country => {
+    //          ...
+    //          name: regionNamesInLocale.of(country.cca2) ?? [if length ===2] country.name.common
+    //          ...
+    //          const directory = "src/data/countries/${locale}";
     const transformedCountryData: Pick<
         CountryContent,
         "title" | "slug" | "baseInfo"
