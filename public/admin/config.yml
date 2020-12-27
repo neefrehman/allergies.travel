@@ -53,6 +53,8 @@ collections:
         widget: list
         fields:
           - { label: "Allergen Name", name: "allergenName", widget: relation, collection: allergens, value_field: name, search_fields: [name] }
+          - { label: "Slug", name: "slug", widget: string, hint: "A URL-friendly version of the name. e.g. 'mutter-paneer'" }
+          - { label: "Description", name: "descriptionInCuisine", widget: text, hint: "A short piece of informaiton about the use of this ingredient in the country's cuisine", required: false }
           - label: "Found in"
             name: "foundIn"
             widget: list
@@ -71,8 +73,8 @@ collections:
           - { label: "Description", name: "description", widget: "text", required: false }
           - { label: "Source url", name: "sourceUrl", widget: "string", required: false }
 
-      - label: "Info"
-        name: "info"
+      - label: "Base Info"
+        name: "baseInfo"
         widget: "object"
         collapsed: true
         summary: Basic info about the country
