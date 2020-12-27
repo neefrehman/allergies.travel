@@ -10,119 +10,13 @@
                     "languageCode": "sh",
                     "official": "Republika Hrvatska",
                     "common": "Hrvatska"
-                },
-                {
-                    "languageCode": "hr",
-                    "official": "Republika Hrvatska",
-                    "common": "Hrvatska"
                 }
             ]
         },
         "capital": "Zagreb",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "languages": [
-            { "languageCode": "sh", "name": "Croatian" },
-            { "languageCode": "hr", "name": "Croatian" }
-        ],
-        "translations": [
-            {
-                "languageCode": "cs",
-                "official": "Chorvatská republika",
-                "common": "Chorvatsko"
-            },
-            {
-                "languageCode": "cy",
-                "official": "Gweriniaeth Croatia",
-                "common": "Croatia"
-            },
-            {
-                "languageCode": "de",
-                "official": "Republik Kroatien",
-                "common": "Kroatien"
-            },
-            {
-                "languageCode": "fr",
-                "official": "République de Croatie",
-                "common": "Croatie"
-            },
-            {
-                "languageCode": "sh",
-                "official": "Republika Hrvatska",
-                "common": "Hrvatska"
-            },
-            {
-                "languageCode": "it",
-                "official": "Repubblica di Croazia",
-                "common": "Croazia"
-            },
-            {
-                "languageCode": "ja",
-                "official": "クロアチア共和国",
-                "common": "クロアチア"
-            },
-            {
-                "languageCode": "nl",
-                "official": "Republiek Kroatië",
-                "common": "Kroatië"
-            },
-            {
-                "languageCode": "pt",
-                "official": "República da Croácia",
-                "common": "Croácia"
-            },
-            {
-                "languageCode": "ru",
-                "official": "Республика Хорватия",
-                "common": "Хорватия"
-            },
-            {
-                "languageCode": "sk",
-                "official": "Chorvátska republika",
-                "common": "Chorvátsko"
-            },
-            {
-                "languageCode": "es",
-                "official": "República de Croacia",
-                "common": "Croacia"
-            },
-            {
-                "languageCode": "fi",
-                "official": "Kroatian tasavalta",
-                "common": "Kroatia"
-            },
-            {
-                "languageCode": "et",
-                "official": "Horvaatia Vabariik",
-                "common": "Horvaatia"
-            },
-            {
-                "languageCode": "zh",
-                "official": "克罗地亚共和国",
-                "common": "克罗地亚"
-            },
-            {
-                "languageCode": "pl",
-                "official": "Republika Chorwacji",
-                "common": "Chorwacja"
-            },
-            {
-                "languageCode": "ur",
-                "official": "جمہوریہ کرویئشا",
-                "common": "کرویئشا"
-            },
-            {
-                "languageCode": "ko",
-                "official": "크로아티아 공화국",
-                "common": "크로아티아"
-            },
-            { "official": "جمهوری کرواسی", "common": "کرُواسی" },
-            {
-                "languageCode": "hr",
-                "official": "Republika Hrvatska",
-                "common": "Hrvatska"
-            }
-        ],
+        "languages": [{ "languageCode": "sh", "name": "Croatian" }],
         "currencies": [
             { "name": "Croatian kuna", "symbol": "kn", "currencyCode": "HRK" }
         ],

@@ -17,39 +17,6 @@
         "region": "Americas",
         "subregion": "Caribbean",
         "languages": [{ "languageCode": "en", "name": "English" }],
-        "translations": [
-            { "languageCode": "cs", "official": "Grenada", "common": "Grenada" },
-            { "languageCode": "de", "official": "Grenada", "common": "Grenada" },
-            { "languageCode": "fr", "official": "Grenade", "common": "Grenade" },
-            { "languageCode": "sh", "official": "Grenada", "common": "Grenada" },
-            { "languageCode": "it", "official": "Grenada", "common": "Grenada" },
-            {
-                "languageCode": "ja",
-                "official": "グレナダ",
-                "common": "グレナダ"
-            },
-            { "languageCode": "nl", "official": "Grenada", "common": "Grenada" },
-            { "languageCode": "pt", "official": "Grenada", "common": "Granada" },
-            { "languageCode": "ru", "official": "Гренада", "common": "Гренада" },
-            { "languageCode": "sk", "official": "Grenada", "common": "Grenada" },
-            { "languageCode": "es", "official": "Granada", "common": "Grenada" },
-            { "languageCode": "fi", "official": "Grenada", "common": "Grenada" },
-            { "languageCode": "et", "official": "Grenada", "common": "Grenada" },
-            {
-                "languageCode": "zh",
-                "official": "格林纳达",
-                "common": "格林纳达"
-            },
-            { "languageCode": "pl", "official": "Grenada", "common": "Grenada" },
-            { "languageCode": "ur", "official": "گریناڈا", "common": "گریناڈا" },
-            {
-                "languageCode": "ko",
-                "official": "그레나다",
-                "common": "그레나다"
-            },
-            { "official": "گرنادا", "common": "گرنادا" },
-            { "languageCode": "hr", "official": "Grenada", "common": "Grenada" }
-        ],
         "currencies": [
             {
                 "name": "Eastern Caribbean dollar",

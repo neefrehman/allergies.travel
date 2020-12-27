@@ -49,13 +49,13 @@ const generateBaseCountryData = async () => {
                 name,
             })),
             // replace below with Intl.DisplayNames with full-icu? https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames
-            translations: Object.entries(country.translations).map(
-                ([code, { official, common }]) => ({
-                    languageCode: ISO_639_3_TO_1_MAP[code],
-                    official,
-                    common,
-                })
-            ),
+            // translations: Object.entries(country.translations).map(
+            //     ([code, { official, common }]) => ({
+            //         languageCode: ISO_639_3_TO_1_MAP[code],
+            //         official,
+            //         common,
+            //     })
+            // ),
             currencies: Object.entries(country.currencies).map(
                 ([code, { name, symbol }]) => ({
                     name,
@@ -121,7 +121,7 @@ export type BaseCountryData = Pick<Country, "region" | "subregion" | "flag"> & {
     };
     capital: string;
     languages: { languageCode: string; name: string }[];
-    translations?: { languageCode: string; common: string; official: string }[];
+    // translations?: { languageCode: string; common: string; official: string }[];
     currencies?: { name: string; symbol: string; currencyCode: string }[];
     coordinates: { latitude: number; longitude: number };
     codes?: {

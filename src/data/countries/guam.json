@@ -23,31 +23,6 @@
             { "languageCode": "en", "name": "English" },
             { "languageCode": "es", "name": "Spanish" }
         ],
-        "translations": [
-            { "languageCode": "cs", "official": "Guam", "common": "Guam" },
-            { "languageCode": "de", "official": "Guam", "common": "Guam" },
-            { "languageCode": "fr", "official": "Guam", "common": "Guam" },
-            { "languageCode": "sh", "official": "Guam", "common": "Guam" },
-            { "languageCode": "it", "official": "Guam", "common": "Guam" },
-            { "languageCode": "ja", "official": "グアム", "common": "グアム" },
-            { "languageCode": "nl", "official": "Guam", "common": "Guam" },
-            { "languageCode": "pt", "official": "Guam", "common": "Guam" },
-            { "languageCode": "ru", "official": "Гуам", "common": "Гуам" },
-            { "languageCode": "sk", "official": "Guam", "common": "Guam" },
-            { "languageCode": "es", "official": "Guam", "common": "Guam" },
-            { "languageCode": "fi", "official": "Guam", "common": "Guam" },
-            { "languageCode": "et", "official": "Guami ala", "common": "Guam" },
-            { "languageCode": "zh", "official": "关岛", "common": "关岛" },
-            {
-                "languageCode": "pl",
-                "official": "Terytorium Guamu",
-                "common": "Guam"
-            },
-            { "languageCode": "ur", "official": "گوام", "common": "گوام" },
-            { "languageCode": "ko", "official": "괌", "common": "괌" },
-            { "official": "گوآم", "common": "گوآم" },
-            { "languageCode": "hr", "official": "Guam", "common": "Guam" }
-        ],
         "currencies": [
             {
                 "name": "United States dollar",

@@ -20,8 +20,7 @@
                     "languageCode": "tk",
                     "official": "Owganystan Yslam Respublikasy",
                     "common": "Owganystan"
-                },
-                { "official": "جمهوری اسلامی افغانستان", "common": "افغانستان" }
+                }
             ]
         },
         "capital": "Kabul",
@@ -30,106 +29,7 @@
         "languages": [
             { "languageCode": "fa", "name": "Dari" },
             { "languageCode": "ps", "name": "Pashto" },
-            { "languageCode": "tk", "name": "Turkmen" },
-            { "name": "Dari" }
-        ],
-        "translations": [
-            {
-                "languageCode": "cs",
-                "official": "Afghánská islámská republika",
-                "common": "Afghánistán"
-            },
-            {
-                "languageCode": "cy",
-                "official": "Gweriniaeth Islamaidd Affganistan",
-                "common": "Affganistan"
-            },
-            {
-                "languageCode": "de",
-                "official": "Islamische Republik Afghanistan",
-                "common": "Afghanistan"
-            },
-            {
-                "languageCode": "fr",
-                "official": "République islamique d'Afghanistan",
-                "common": "Afghanistan"
-            },
-            {
-                "languageCode": "sh",
-                "official": "Islamska Republika Afganistan",
-                "common": "Afganistan"
-            },
-            {
-                "languageCode": "it",
-                "official": "Repubblica islamica dell'Afghanistan",
-                "common": "Afghanistan"
-            },
-            {
-                "languageCode": "ja",
-                "official": "アフガニスタン·イスラム共和国",
-                "common": "アフガニスタン"
-            },
-            {
-                "languageCode": "nl",
-                "official": "Islamitische Republiek Afghanistan",
-                "common": "Afghanistan"
-            },
-            {
-                "languageCode": "pt",
-                "official": "República Islâmica do Afeganistão",
-                "common": "Afeganistão"
-            },
-            {
-                "languageCode": "ru",
-                "official": "Исламская Республика Афганистан",
-                "common": "Афганистан"
-            },
-            {
-                "languageCode": "sk",
-                "official": "Afgánsky islamský štát",
-                "common": "Afganistan"
-            },
-            {
-                "languageCode": "es",
-                "official": "República Islámica de Afganistán",
-                "common": "Afganistán"
-            },
-            {
-                "languageCode": "fi",
-                "official": "Afganistanin islamilainen tasavalta",
-                "common": "Afganistan"
-            },
-            {
-                "languageCode": "et",
-                "official": "Afganistani Islamivabariik",
-                "common": "Afganistan"
-            },
-            {
-                "languageCode": "zh",
-                "official": "阿富汗伊斯兰共和国",
-                "common": "阿富汗"
-            },
-            {
-                "languageCode": "pl",
-                "official": "Islamska Republika Afganistanu",
-                "common": "Afganistan"
-            },
-            {
-                "languageCode": "ur",
-                "official": "اسلامی جمہوریہ افغانستان",
-                "common": "افغانستان"
-            },
-            {
-                "languageCode": "ko",
-                "official": "아프가니스탄 이슬람 공화국",
-                "common": "아프가니스탄"
-            },
-            { "official": "جمهوری اسلامی افغانستان", "common": "افغانستان" },
-            {
-                "languageCode": "hr",
-                "official": "Islamska Republika Afganistan",
-                "common": "Afganistan"
-            }
+            { "languageCode": "tk", "name": "Turkmen" }
         ],
         "currencies": [
             { "name": "Afghan afghani", "symbol": "؋", "currencyCode": "AFN" }

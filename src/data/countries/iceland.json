@@ -13,67 +13,6 @@
         "region": "Europe",
         "subregion": "Northern Europe",
         "languages": [{ "languageCode": "is", "name": "Icelandic" }],
-        "translations": [
-            { "languageCode": "cs", "official": "Island", "common": "Island" },
-            { "languageCode": "de", "official": "Island", "common": "Island" },
-            {
-                "languageCode": "fr",
-                "official": "République d'Islande",
-                "common": "Islande"
-            },
-            { "languageCode": "sh", "official": "Island", "common": "Island" },
-            { "languageCode": "it", "official": "Islanda", "common": "Islanda" },
-            {
-                "languageCode": "ja",
-                "official": "アイスランド",
-                "common": "アイスランド"
-            },
-            { "languageCode": "nl", "official": "IJsland", "common": "IJsland" },
-            {
-                "languageCode": "pt",
-                "official": "Islândia",
-                "common": "Islândia"
-            },
-            {
-                "languageCode": "ru",
-                "official": "Исландия",
-                "common": "Исландия"
-            },
-            {
-                "languageCode": "sk",
-                "official": "Islandská republika",
-                "common": "Island"
-            },
-            {
-                "languageCode": "es",
-                "official": "Islandia",
-                "common": "Islandia"
-            },
-            { "languageCode": "fi", "official": "Islanti", "common": "Islanti" },
-            {
-                "languageCode": "et",
-                "official": "Islandi Vabariik",
-                "common": "Island"
-            },
-            { "languageCode": "zh", "official": "冰岛", "common": "冰岛" },
-            {
-                "languageCode": "pl",
-                "official": "Republika Islandii",
-                "common": "Islandia"
-            },
-            {
-                "languageCode": "ur",
-                "official": "آئس لینڈ",
-                "common": "آئس لینڈ"
-            },
-            {
-                "languageCode": "ko",
-                "official": "아이슬란드 공화국",
-                "common": "아이슬란드"
-            },
-            { "official": "جمهوری ایسلند", "common": "ایسلند" },
-            { "languageCode": "hr", "official": "Island", "common": "Island" }
-        ],
         "currencies": [
             { "name": "Icelandic króna", "symbol": "kr", "currencyCode": "ISK" }
         ],

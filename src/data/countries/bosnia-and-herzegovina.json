@@ -20,21 +20,6 @@
                     "languageCode": "sh",
                     "official": "Боснa и Херцеговина",
                     "common": "Боснa и Херцеговина"
-                },
-                {
-                    "languageCode": "bs",
-                    "official": "Bosna i Hercegovina",
-                    "common": "Bosna i Hercegovina"
-                },
-                {
-                    "languageCode": "hr",
-                    "official": "Bosna i Hercegovina",
-                    "common": "Bosna i Hercegovina"
-                },
-                {
-                    "languageCode": "sr",
-                    "official": "Боснa и Херцеговина",
-                    "common": "Боснa и Херцеговина"
                 }
             ]
         },
@@ -44,108 +29,7 @@
         "languages": [
             { "languageCode": "sh", "name": "Bosnian" },
             { "languageCode": "sh", "name": "Croatian" },
-            { "languageCode": "sh", "name": "Serbian" },
-            { "languageCode": "bs", "name": "Bosnian" },
-            { "languageCode": "hr", "name": "Croatian" },
-            { "languageCode": "sr", "name": "Serbian" }
-        ],
-        "translations": [
-            {
-                "languageCode": "cs",
-                "official": "Bosna a Hercegovina",
-                "common": "Bosna a Hercegovina"
-            },
-            {
-                "languageCode": "cy",
-                "official": "Bosnia a Hercegovina",
-                "common": "Bosnia a Hercegovina"
-            },
-            {
-                "languageCode": "de",
-                "official": "Bosnien und Herzegowina",
-                "common": "Bosnien und Herzegowina"
-            },
-            {
-                "languageCode": "fr",
-                "official": "Bosnie-et-Herzégovine",
-                "common": "Bosnie-Herzégovine"
-            },
-            {
-                "languageCode": "sh",
-                "official": "Bosna i Hercegovina",
-                "common": "Bosna i Hercegovina"
-            },
-            {
-                "languageCode": "it",
-                "official": "Bosnia-Erzegovina",
-                "common": "Bosnia ed Erzegovina"
-            },
-            {
-                "languageCode": "ja",
-                "official": "ボスニア·ヘルツェゴビナ",
-                "common": "ボスニア・ヘルツェゴビナ"
-            },
-            {
-                "languageCode": "nl",
-                "official": "Bosnië-Herzegovina",
-                "common": "Bosnië en Herzegovina"
-            },
-            {
-                "languageCode": "pt",
-                "official": "Bósnia e Herzegovina",
-                "common": "Bósnia e Herzegovina"
-            },
-            {
-                "languageCode": "ru",
-                "official": "Босния и Герцеговина",
-                "common": "Босния и Герцеговина"
-            },
-            {
-                "languageCode": "sk",
-                "official": "Republika Bosny a Hercegoviny",
-                "common": "Bosna a Hercegovina"
-            },
-            {
-                "languageCode": "es",
-                "official": "Bosnia y Herzegovina",
-                "common": "Bosnia y Herzegovina"
-            },
-            {
-                "languageCode": "fi",
-                "official": "Bosnia ja Hertsegovina",
-                "common": "Bosnia ja Hertsegovina"
-            },
-            {
-                "languageCode": "et",
-                "official": "Bosnia ja Hertsegoviina",
-                "common": "Bosnia ja Hertsegoviina"
-            },
-            {
-                "languageCode": "zh",
-                "official": "波斯尼亚和黑塞哥维那",
-                "common": "波斯尼亚和黑塞哥维那"
-            },
-            {
-                "languageCode": "pl",
-                "official": "Bośnia i Hercegowina",
-                "common": "Bośnia i Hercegowina"
-            },
-            {
-                "languageCode": "ur",
-                "official": "بوسنیا و ہرزیگووینا",
-                "common": "بوسنیا و ہرزیگووینا"
-            },
-            {
-                "languageCode": "ko",
-                "official": "보스니아 헤르체고비나",
-                "common": "보스니아 헤르체고비나"
-            },
-            { "official": "بوسنی و هرزگوین", "common": "بوسنی و هرزگوین" },
-            {
-                "languageCode": "hr",
-                "official": "Bosna i Hercegovina",
-                "common": "Bosna i Hercegovina"
-            }
+            { "languageCode": "sh", "name": "Serbian" }
         ],
         "currencies": [
             {

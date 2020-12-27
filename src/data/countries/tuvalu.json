@@ -21,27 +21,6 @@
             { "languageCode": "en", "name": "English" },
             { "name": "Tuvaluan" }
         ],
-        "translations": [
-            { "languageCode": "cs", "official": "Tuvalu", "common": "Tuvalu" },
-            { "languageCode": "de", "official": "Tuvalu", "common": "Tuvalu" },
-            { "languageCode": "fr", "official": "Tuvalu", "common": "Tuvalu" },
-            { "languageCode": "sh", "official": "Tuvalu", "common": "Tuvalu" },
-            { "languageCode": "it", "official": "Tuvalu", "common": "Tuvalu" },
-            { "languageCode": "ja", "official": "ツバル", "common": "ツバル" },
-            { "languageCode": "nl", "official": "Tuvalu", "common": "Tuvalu" },
-            { "languageCode": "pt", "official": "Tuvalu", "common": "Tuvalu" },
-            { "languageCode": "ru", "official": "Тувалу", "common": "Тувалу" },
-            { "languageCode": "sk", "official": "Tuvalu", "common": "Tuvalu" },
-            { "languageCode": "es", "official": "Tuvalu", "common": "Tuvalu" },
-            { "languageCode": "fi", "official": "Tuvalu", "common": "Tuvalu" },
-            { "languageCode": "et", "official": "Tuvalu", "common": "Tuvalu" },
-            { "languageCode": "zh", "official": "图瓦卢", "common": "图瓦卢" },
-            { "languageCode": "pl", "official": "Tuvalu", "common": "Tuvalu" },
-            { "languageCode": "ur", "official": "تووالو", "common": "تووالو" },
-            { "languageCode": "ko", "official": "투발루", "common": "투발루" },
-            { "official": "تووالو", "common": "تووالو" },
-            { "languageCode": "hr", "official": "Tuvalu", "common": "Tuvalu" }
-        ],
         "currencies": [
             { "name": "Australian dollar", "symbol": "$", "currencyCode": "AUD" },
             { "name": "Tuvaluan dollar", "symbol": "$", "currencyCode": "TVD" }

@@ -27,60 +27,6 @@
             { "languageCode": "nl", "name": "Dutch" },
             { "name": "Papiamento" }
         ],
-        "translations": [
-            {
-                "languageCode": "cs",
-                "official": "Autonomní země Curaçao",
-                "common": "Curaçao"
-            },
-            {
-                "languageCode": "de",
-                "official": "Land Curaçao",
-                "common": "Curaçao"
-            },
-            {
-                "languageCode": "fr",
-                "official": "Pays de Curaçao",
-                "common": "Curaçao"
-            },
-            {
-                "languageCode": "it",
-                "official": "Paese di Curaçao",
-                "common": "Curaçao"
-            },
-            {
-                "languageCode": "nl",
-                "official": "Land Curaçao",
-                "common": "Curaçao"
-            },
-            {
-                "languageCode": "pt",
-                "official": "País de Curaçao",
-                "common": "ilha da Curação"
-            },
-            {
-                "languageCode": "ru",
-                "official": "Страна Кюрасао",
-                "common": "Кюрасао"
-            },
-            { "languageCode": "sk", "official": "Curacao", "common": "Curacao" },
-            {
-                "languageCode": "es",
-                "official": "País de Curazao",
-                "common": "Curazao"
-            },
-            { "languageCode": "fi", "official": "Curaçao", "common": "Curaçao" },
-            { "languageCode": "et", "official": "Curaçao", "common": "Curaçao" },
-            { "languageCode": "zh", "official": "库拉索", "common": "库拉索" },
-            { "languageCode": "pl", "official": "Curaçao", "common": "Curaçao" },
-            {
-                "languageCode": "ur",
-                "official": "مملکتِ کیوراساؤ",
-                "common": "کیوراساؤ"
-            },
-            { "languageCode": "ko", "official": "퀴라소", "common": "퀴라소" },
-            { "official": "کوراسائو", "common": "کوراسائو" }
-        ],
         "currencies": [
             {
                 "name": "Netherlands Antillean guilder",

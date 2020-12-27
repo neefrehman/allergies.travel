@@ -16,8 +16,7 @@
                     "languageCode": "ku",
                     "official": "کۆماری عێراق",
                     "common": "کۆماری"
-                },
-                { "official": "کۆماری عێراق", "common": "کۆماری" }
+                }
             ]
         },
         "capital": "Baghdad",
@@ -26,101 +25,7 @@
         "languages": [
             { "languageCode": "ar", "name": "Arabic" },
             { "name": "Aramaic" },
-            { "languageCode": "ku", "name": "Sorani" },
-            { "name": "Sorani" }
-        ],
-        "translations": [
-            {
-                "languageCode": "cs",
-                "official": "Irácká republika",
-                "common": "Irák"
-            },
-            {
-                "languageCode": "de",
-                "official": "Republik Irak",
-                "common": "Irak"
-            },
-            {
-                "languageCode": "fr",
-                "official": "République d'Irak",
-                "common": "Irak"
-            },
-            {
-                "languageCode": "sh",
-                "official": "Republika Irak",
-                "common": "Irak"
-            },
-            {
-                "languageCode": "it",
-                "official": "Repubblica dell'Iraq",
-                "common": "Iraq"
-            },
-            {
-                "languageCode": "ja",
-                "official": "イラク共和国",
-                "common": "イラク"
-            },
-            {
-                "languageCode": "nl",
-                "official": "Republiek Irak",
-                "common": "Irak"
-            },
-            {
-                "languageCode": "pt",
-                "official": "República do Iraque",
-                "common": "Iraque"
-            },
-            {
-                "languageCode": "ru",
-                "official": "Республика Ирак",
-                "common": "Ирак"
-            },
-            {
-                "languageCode": "sk",
-                "official": "Iracká republika",
-                "common": "Irak"
-            },
-            {
-                "languageCode": "es",
-                "official": "República de Irak",
-                "common": "Irak"
-            },
-            {
-                "languageCode": "fi",
-                "official": "Irakin tasavalta",
-                "common": "Irak"
-            },
-            {
-                "languageCode": "et",
-                "official": "Iraagi Vabariik",
-                "common": "Iraak"
-            },
-            {
-                "languageCode": "zh",
-                "official": "伊拉克共和国",
-                "common": "伊拉克"
-            },
-            {
-                "languageCode": "pl",
-                "official": "Republika Iraku",
-                "common": "Irak"
-            },
-            {
-                "languageCode": "ur",
-                "official": "جمہوریہ عراق",
-                "common": "عراق"
-            },
-            {
-                "languageCode": "ko",
-                "official": "이라크 공화국",
-                "common": "이라크"
-            },
-            { "official": "جمهوری عراق", "common": "عراق" },
-            {
-                "languageCode": "hr",
-                "official": "Republika Irak",
-                "common": "Irak"
-            }
+            { "languageCode": "ku", "name": "Sorani" }
         ],
         "currencies": [
             { "name": "Iraqi dinar", "symbol": "ع.د", "currencyCode": "IQD" }

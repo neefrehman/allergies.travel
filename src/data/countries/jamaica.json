@@ -21,43 +21,6 @@
             { "languageCode": "en", "name": "English" },
             { "name": "Jamaican Patois" }
         ],
-        "translations": [
-            { "languageCode": "cs", "official": "Jamajka", "common": "Jamajka" },
-            { "languageCode": "de", "official": "Jamaika", "common": "Jamaika" },
-            {
-                "languageCode": "fr",
-                "official": "Jamaïque",
-                "common": "Jamaïque"
-            },
-            { "languageCode": "sh", "official": "Jamajka", "common": "Jamajka" },
-            {
-                "languageCode": "it",
-                "official": "Giamaica",
-                "common": "Giamaica"
-            },
-            {
-                "languageCode": "ja",
-                "official": "ジャマイカ",
-                "common": "ジャマイカ"
-            },
-            { "languageCode": "nl", "official": "Jamaica", "common": "Jamaica" },
-            { "languageCode": "pt", "official": "Jamaica", "common": "Jamaica" },
-            { "languageCode": "ru", "official": "Ямайка", "common": "Ямайка" },
-            { "languageCode": "sk", "official": "Jamajka", "common": "Jamajka" },
-            { "languageCode": "es", "official": "Jamaica", "common": "Jamaica" },
-            { "languageCode": "fi", "official": "Jamaika", "common": "Jamaika" },
-            { "languageCode": "et", "official": "Jamaica", "common": "Jamaica" },
-            { "languageCode": "zh", "official": "牙买加", "common": "牙买加" },
-            { "languageCode": "pl", "official": "Jamajka", "common": "Jamajka" },
-            { "languageCode": "ur", "official": "جمیکا", "common": "جمیکا" },
-            {
-                "languageCode": "ko",
-                "official": "자메이카",
-                "common": "자메이카"
-            },
-            { "official": "جامائیکا", "common": "جامائیکا" },
-            { "languageCode": "hr", "official": "Jamajka", "common": "Jamajka" }
-        ],
         "currencies": [
             { "name": "Jamaican dollar", "symbol": "$", "currencyCode": "JMD" }
         ],

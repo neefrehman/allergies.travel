@@ -26,13 +26,13 @@ collections:
     fields:
       - { label: Name, name: name, widget: string }
       - { label: "Last Modified", name: "lastModified", widget: "hidden" }
-      - label: Translations
-        name: translations
-        widget: list
-        required: false
-        fields:
-          - { label: ISO 639-3 code, name: languageCode, widget: string, hint: the three-letter ISO 639-3 code. e.g. "en" }
-          - { label: Name, name: name, widget: string }
+      # - label: Translations
+      #   name: translations
+      #   widget: list
+      #   required: false
+      #   fields:
+      #     - { label: ISO 639-1 code, name: languageCode, widget: string, hint: the two-letter ISO 639-1 code. e.g. "en" }
+      #     - { label: Name, name: name, widget: string }
 
 
   - name: "countries"
@@ -94,7 +94,7 @@ collections:
                 fields:
                   - { label: "Common", name: "common", widget: "string" }
                   - { label: "Official", name: "official", widget: "string" }
-                  - { label: ISO 639-3 code, name: languageCode, widget: string, hint: the three-letter ISO 639-3 code. e.g. "eng" }
+                  - { label: ISO 639-1 code, name: languageCode, widget: string, hint: the two-letter ISO 639-1 code. e.g. "eng" }
           - { label: "Flag", name: "flag", widget: "string" }
           - { label: "Capital", name: "capital", widget: "string" }
           - { label: "Region", name: "region", widget: "string" }
@@ -104,17 +104,17 @@ collections:
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
-              - { label: ISO 639-3 code, name: languageCode, widget: string, hint: the three-letter ISO 639-3 code. e.g. "eng" }
-          - label: "Translations"
-            name: "translations"
-            widget: list
-            collapsed: true
-            minimize_collapsed: true
-            required: false
-            fields:
-              - { label: "Common", name: "common", widget: "string" }
-              - { label: "Official", name: "official", widget: "string" }
-              - { label: ISO 639-3 code, name: languageCode, widget: string, hint: the three-letter ISO 639-3 code. e.g. "eng" }
+              - { label: ISO 639-1 code, name: languageCode, widget: string, hint: the two-letter ISO 639-1 code. e.g. "eng" }
+          # - label: "Translations"
+          #   name: "translations"
+          #   widget: list
+          #   collapsed: true
+          #   minimize_collapsed: true
+          #   required: false
+          #   fields:
+          #     - { label: "Common", name: "common", widget: "string" }
+          #     - { label: "Official", name: "official", widget: "string" }
+          #     - { label: ISO 639-1 code, name: languageCode, widget: string, hint: the two-letter ISO 639-1 code. e.g. "eng" }
           - label: "Currencies"
             name: "currencies"
             widget: list
@@ -122,7 +122,7 @@ collections:
             fields:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "Symbol", name: "symbol", widget: "string" }
-              - { label: ISO 4217 currency code, name: currencyCode, widget: string, hint: the three-letter currency code. e.g. "USD" }
+              - { label: ISO 4217 currency code, name: currencyCode, widget: string, hint: the two-letter currency code. e.g. "USD" }
           - name: coordinates
             label: Coordinates
             widget: object

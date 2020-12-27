@@ -13,39 +13,6 @@
         "region": "Asia",
         "subregion": "Eastern Asia",
         "languages": [{ "languageCode": "ja", "name": "Japanese" }],
-        "translations": [
-            {
-                "languageCode": "cs",
-                "official": "Japonsko",
-                "common": "Japonsko"
-            },
-            { "languageCode": "de", "official": "Japan", "common": "Japan" },
-            { "languageCode": "fr", "official": "Japon", "common": "Japon" },
-            { "languageCode": "sh", "official": "Japan", "common": "Japan" },
-            {
-                "languageCode": "it",
-                "official": "Giappone",
-                "common": "Giappone"
-            },
-            { "languageCode": "ja", "official": "日本", "common": "日本" },
-            { "languageCode": "nl", "official": "Japan", "common": "Japan" },
-            { "languageCode": "pt", "official": "Japão", "common": "Japão" },
-            { "languageCode": "ru", "official": "Япония", "common": "Япония" },
-            {
-                "languageCode": "sk",
-                "official": "Japonsko",
-                "common": "Japonsko"
-            },
-            { "languageCode": "es", "official": "Japón", "common": "Japón" },
-            { "languageCode": "fi", "official": "Japani", "common": "Japani" },
-            { "languageCode": "et", "official": "Jaapan", "common": "Jaapan" },
-            { "languageCode": "zh", "official": "日本国", "common": "日本" },
-            { "languageCode": "pl", "official": "Japonia", "common": "Japonia" },
-            { "languageCode": "ur", "official": "جاپان", "common": "جاپان" },
-            { "languageCode": "ko", "official": "일본국", "common": "일본" },
-            { "official": "ژاپن", "common": "ژاپن" },
-            { "languageCode": "hr", "official": "Japan", "common": "Japan" }
-        ],
         "currencies": [
             { "name": "Japanese yen", "symbol": "¥", "currencyCode": "JPY" }
         ],

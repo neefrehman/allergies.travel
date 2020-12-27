@@ -17,52 +17,6 @@
         "region": "Americas",
         "subregion": "North America",
         "languages": [{ "languageCode": "en", "name": "English" }],
-        "translations": [
-            {
-                "languageCode": "cs",
-                "official": "Bermudské ostrovy",
-                "common": "Bermudy"
-            },
-            {
-                "languageCode": "cy",
-                "official": "Bermiwda",
-                "common": "Bermiwda"
-            },
-            { "languageCode": "de", "official": "Bermuda", "common": "Bermuda" },
-            {
-                "languageCode": "fr",
-                "official": "Bermudes",
-                "common": "Bermudes"
-            },
-            { "languageCode": "sh", "official": "Bermuda", "common": "Bermudi" },
-            { "languageCode": "it", "official": "Bermuda", "common": "Bermuda" },
-            {
-                "languageCode": "ja",
-                "official": "バミューダ",
-                "common": "バミューダ"
-            },
-            { "languageCode": "nl", "official": "Bermuda", "common": "Bermuda" },
-            {
-                "languageCode": "pt",
-                "official": "Bermudas",
-                "common": "Bermudas"
-            },
-            {
-                "languageCode": "ru",
-                "official": "Бермудские острова",
-                "common": "Бермудские Острова"
-            },
-            { "languageCode": "sk", "official": "Bermudy", "common": "Bermudy" },
-            { "languageCode": "es", "official": "Bermuda", "common": "Bermudas" },
-            { "languageCode": "fi", "official": "Bermuda", "common": "Bermuda" },
-            { "languageCode": "et", "official": "Bermuda", "common": "Bermuda" },
-            { "languageCode": "zh", "official": "百慕大", "common": "百慕大" },
-            { "languageCode": "pl", "official": "Bermudy", "common": "Bermudy" },
-            { "languageCode": "ur", "official": "برمودا", "common": "برمودا" },
-            { "languageCode": "ko", "official": "버뮤다", "common": "버뮤다" },
-            { "official": "جزایر برمودا", "common": "برمودا" },
-            { "languageCode": "hr", "official": "Bermuda", "common": "Bermudi" }
-        ],
         "currencies": [
             { "name": "Bermudian dollar", "symbol": "$", "currencyCode": "BMD" }
         ],

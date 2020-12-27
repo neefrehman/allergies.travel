@@ -17,51 +17,6 @@
         "region": "Europe",
         "subregion": "Eastern Europe",
         "languages": [{ "languageCode": "uk", "name": "Ukrainian" }],
-        "translations": [
-            {
-                "languageCode": "cs",
-                "official": "Ukrajina",
-                "common": "Ukrajina"
-            },
-            { "languageCode": "de", "official": "Ukraine", "common": "Ukraine" },
-            { "languageCode": "fr", "official": "Ukraine", "common": "Ukraine" },
-            {
-                "languageCode": "sh",
-                "official": "Ukrajina",
-                "common": "Ukrajina"
-            },
-            { "languageCode": "it", "official": "Ucraina", "common": "Ucraina" },
-            {
-                "languageCode": "ja",
-                "official": "ウクライナ",
-                "common": "ウクライナ"
-            },
-            {
-                "languageCode": "nl",
-                "official": "Oekraïne",
-                "common": "Oekraïne"
-            },
-            { "languageCode": "pt", "official": "Ucrânia", "common": "Ucrânia" },
-            { "languageCode": "ru", "official": "Украина", "common": "Украина" },
-            {
-                "languageCode": "sk",
-                "official": "Ukrajina",
-                "common": "Ukrajina"
-            },
-            { "languageCode": "es", "official": "Ucrania", "common": "Ucrania" },
-            { "languageCode": "fi", "official": "Ukraina", "common": "Ukraina" },
-            { "languageCode": "et", "official": "Ukraina", "common": "Ukraina" },
-            { "languageCode": "zh", "official": "乌克兰", "common": "乌克兰" },
-            { "languageCode": "pl", "official": "Ukraina", "common": "Ukraina" },
-            { "languageCode": "ur", "official": "یوکرین", "common": "یوکرین" },
-            {
-                "languageCode": "ko",
-                "official": "우크라이나",
-                "common": "우크라이나"
-            },
-            { "official": "اوکراین", "common": "اوکراین" },
-            { "languageCode": "hr", "official": "Ukrajina", "common": "Ukrajina" }
-        ],
         "currencies": [
             { "name": "Ukrainian hryvnia", "symbol": "₴", "currencyCode": "UAH" }
         ],

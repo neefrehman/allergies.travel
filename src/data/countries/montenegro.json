@@ -10,110 +10,13 @@
                     "languageCode": "sh",
                     "official": "Црна Гора",
                     "common": "Црна Гора"
-                },
-                {
-                    "languageCode": "sr",
-                    "official": "Црна Гора",
-                    "common": "Црна Гора"
                 }
             ]
         },
         "capital": "Podgorica",
         "region": "Europe",
         "subregion": "Southern Europe",
-        "languages": [
-            { "languageCode": "sh", "name": "Montenegrin" },
-            { "languageCode": "sr", "name": "Montenegrin" }
-        ],
-        "translations": [
-            {
-                "languageCode": "cs",
-                "official": "Černá Hora",
-                "common": "Černá Hora"
-            },
-            {
-                "languageCode": "de",
-                "official": "Montenegro",
-                "common": "Montenegro"
-            },
-            {
-                "languageCode": "fr",
-                "official": "Monténégro",
-                "common": "Monténégro"
-            },
-            {
-                "languageCode": "sh",
-                "official": "Crna Gora",
-                "common": "Crna Gora"
-            },
-            {
-                "languageCode": "it",
-                "official": "Montenegro",
-                "common": "Montenegro"
-            },
-            {
-                "languageCode": "ja",
-                "official": "モンテネグロ",
-                "common": "モンテネグロ"
-            },
-            {
-                "languageCode": "nl",
-                "official": "Montenegro",
-                "common": "Montenegro"
-            },
-            {
-                "languageCode": "pt",
-                "official": "Montenegro",
-                "common": "Montenegro"
-            },
-            {
-                "languageCode": "ru",
-                "official": "Черногория",
-                "common": "Черногория"
-            },
-            {
-                "languageCode": "sk",
-                "official": "Čierna Hora",
-                "common": "Čierna Hora"
-            },
-            {
-                "languageCode": "es",
-                "official": "Montenegro",
-                "common": "Montenegro"
-            },
-            {
-                "languageCode": "fi",
-                "official": "Montenegro",
-                "common": "Montenegro"
-            },
-            {
-                "languageCode": "et",
-                "official": "Montenegro",
-                "common": "Montenegro"
-            },
-            { "languageCode": "zh", "official": "黑山", "common": "黑山" },
-            {
-                "languageCode": "pl",
-                "official": "Czarnogóra",
-                "common": "Czarnogóra"
-            },
-            {
-                "languageCode": "ur",
-                "official": "مونٹینیگرو",
-                "common": "مونٹینیگرو"
-            },
-            {
-                "languageCode": "ko",
-                "official": "몬테네그로",
-                "common": "몬테네그로"
-            },
-            { "official": "مونته‌نگرو", "common": "مونته‌نگرو" },
-            {
-                "languageCode": "hr",
-                "official": "Crna Gora",
-                "common": "Crna Gora"
-            }
-        ],
+        "languages": [{ "languageCode": "sh", "name": "Montenegrin" }],
         "currencies": [{ "name": "Euro", "symbol": "€", "currencyCode": "EUR" }],
         "flag": "🇲🇪",
         "codes": { "cca2": "ME", "cca3": "MNE", "ccn3": "499" },

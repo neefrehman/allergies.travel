@@ -10,114 +10,13 @@
                     "languageCode": "ms",
                     "official": "Republik Indonesia",
                     "common": "Indonesia"
-                },
-                {
-                    "languageCode": "id",
-                    "official": "Republik Indonesia",
-                    "common": "Indonesia"
                 }
             ]
         },
         "capital": "Jakarta",
         "region": "Asia",
         "subregion": "South-Eastern Asia",
-        "languages": [
-            { "languageCode": "ms", "name": "Indonesian" },
-            { "languageCode": "id", "name": "Indonesian" }
-        ],
-        "translations": [
-            {
-                "languageCode": "cs",
-                "official": "Indonéská republika",
-                "common": "Indonésie"
-            },
-            {
-                "languageCode": "de",
-                "official": "Republik Indonesien",
-                "common": "Indonesien"
-            },
-            {
-                "languageCode": "fr",
-                "official": "République d'Indonésie",
-                "common": "Indonésie"
-            },
-            {
-                "languageCode": "sh",
-                "official": "Republika Indonezija",
-                "common": "Indonezija"
-            },
-            {
-                "languageCode": "it",
-                "official": "Repubblica di Indonesia",
-                "common": "Indonesia"
-            },
-            {
-                "languageCode": "ja",
-                "official": "インドネシア共和国",
-                "common": "インドネシア"
-            },
-            {
-                "languageCode": "nl",
-                "official": "Republiek Indonesië",
-                "common": "Indonesië"
-            },
-            {
-                "languageCode": "pt",
-                "official": "República da Indonésia",
-                "common": "Indonésia"
-            },
-            {
-                "languageCode": "ru",
-                "official": "Республика Индонезия",
-                "common": "Индонезия"
-            },
-            {
-                "languageCode": "sk",
-                "official": "Indonézska republika",
-                "common": "Indonézia"
-            },
-            {
-                "languageCode": "es",
-                "official": "República de Indonesia",
-                "common": "Indonesia"
-            },
-            {
-                "languageCode": "fi",
-                "official": "Indonesian tasavalta",
-                "common": "Indonesia"
-            },
-            {
-                "languageCode": "et",
-                "official": "Indoneesia Vabariik",
-                "common": "Indoneesia"
-            },
-            {
-                "languageCode": "zh",
-                "official": "印度尼西亚共和国",
-                "common": "印度尼西亚"
-            },
-            {
-                "languageCode": "pl",
-                "official": "Republika Indonezji",
-                "common": "Indonezja"
-            },
-            {
-                "languageCode": "ur",
-                "official": "جمہوریہ انڈونیشیا",
-                "common": "انڈونیشیا"
-            },
-            {
-                "languageCode": "ko",
-                "official": "인도네시아 공화국",
-                "common": "인도네시아"
-            },
-            { "official": "جمهوری اندونزی", "common": "اندونزی" },
-            {
-                "languageCode": "hr",
-                "official": "Republika Indonezija",
-                "common": "Indonezija"
-            }
-        ],
+        "languages": [{ "languageCode": "ms", "name": "Indonesian" }],
         "currencies": [
             { "name": "Indonesian rupiah", "symbol": "Rp", "currencyCode": "IDR" }
         ],

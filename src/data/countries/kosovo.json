@@ -15,11 +15,6 @@
                     "languageCode": "sh",
                     "official": "Република Косово",
                     "common": "Косово"
-                },
-                {
-                    "languageCode": "sr",
-                    "official": "Република Косово",
-                    "common": "Косово"
                 }
             ]
         },
@@ -28,96 +23,7 @@
         "subregion": "Eastern Europe",
         "languages": [
             { "languageCode": "sq", "name": "Albanian" },
-            { "languageCode": "sh", "name": "Serbian" },
-            { "languageCode": "sr", "name": "Serbian" }
-        ],
-        "translations": [
-            {
-                "languageCode": "cs",
-                "official": "Kosovská republika",
-                "common": "Kosovo"
-            },
-            {
-                "languageCode": "de",
-                "official": "Republik Kosovo",
-                "common": "Kosovo"
-            },
-            {
-                "languageCode": "fr",
-                "official": "République du Kosovo",
-                "common": "Kosovo"
-            },
-            {
-                "languageCode": "sh",
-                "official": "Republika Kosovo",
-                "common": "Kosovo"
-            },
-            {
-                "languageCode": "it",
-                "official": "Repubblica del Kosovo",
-                "common": "Kosovo"
-            },
-            {
-                "languageCode": "nl",
-                "official": "Republiek Kosovo",
-                "common": "Kosovo"
-            },
-            {
-                "languageCode": "pt",
-                "official": "República do Kosovo",
-                "common": "Kosovo"
-            },
-            {
-                "languageCode": "ru",
-                "official": "Республика Косово",
-                "common": "Республика Косово"
-            },
-            {
-                "languageCode": "sk",
-                "official": "Republika Kosovo",
-                "common": "Kosovo"
-            },
-            {
-                "languageCode": "es",
-                "official": "República de Kosovo",
-                "common": "Kosovo"
-            },
-            {
-                "languageCode": "fi",
-                "official": "Kosovon tasavalta",
-                "common": "Kosovo"
-            },
-            {
-                "languageCode": "et",
-                "official": "Kosovo Vabariik",
-                "common": "Kosovo"
-            },
-            {
-                "languageCode": "zh",
-                "official": "科索沃共和国",
-                "common": "科索沃"
-            },
-            {
-                "languageCode": "pl",
-                "official": "Republika Kosowa",
-                "common": "Kosowo"
-            },
-            {
-                "languageCode": "ur",
-                "official": "جمہوریہ کوسووہ",
-                "common": "کوسووہ"
-            },
-            {
-                "languageCode": "ko",
-                "official": "코소보 공화국",
-                "common": "코소보"
-            },
-            { "official": "جمهوری کوزوو", "common": "کوزوو" },
-            {
-                "languageCode": "hr",
-                "official": "Republika Kosovo",
-                "common": "Kosovo"
-            }
+            { "languageCode": "sh", "name": "Serbian" }
         ],
         "currencies": [{ "name": "Euro", "symbol": "€", "currencyCode": "EUR" }],
         "flag": "🇽🇰",
