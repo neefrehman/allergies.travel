@@ -1,1 +1,108 @@
-{"title":"Oman","slug":"oman","baseInfo":{"name":{"common":"Oman","official":"Sultanate of Oman","native":[{"languageCode":"ar","official":"سلطنة عمان","common":"عمان"}]},"capital":"Muscat","region":"Asia","subregion":"Western Asia","languages":[{"languageCode":"ar","name":"Arabic"}],"translations":[{"languageCode":"cs","official":"Sultanát Omán","common":"Omán"},{"languageCode":"de","official":"Sultanat Oman","common":"Oman"},{"languageCode":"fr","official":"Sultanat d'Oman","common":"Oman"},{"languageCode":"hr","official":"Sultanat Oman","common":"Oman"},{"languageCode":"it","official":"Sultanato dell'Oman","common":"oman"},{"languageCode":"ja","official":"オマーン·スルタン国","common":"オマーン"},{"languageCode":"nl","official":"Sultanaat van Oman","common":"Oman"},{"languageCode":"pt","official":"Sultanato de Omã","common":"Omã"},{"languageCode":"ru","official":"Султанат Оман","common":"Оман"},{"languageCode":"sk","official":"Ománsky sultanát","common":"Omán"},{"languageCode":"es","official":"Sultanato de Omán","common":"Omán"},{"languageCode":"fi","official":"Omanin sulttaanikunta","common":"Oman"},{"languageCode":"et","official":"Omaani Sultaniriik","common":"Omaan"},{"languageCode":"zh","official":"阿曼苏丹国","common":"阿曼"},{"languageCode":"pl","official":"Sułtanat Omanu","common":"Oman"},{"languageCode":"ur","official":"سلطنت عمان","common":"عمان"},{"languageCode":"ko","official":"오만 술탄국","common":"오만"},{"official":"سلطان‌نشین عُمان","common":"عمان"}],"currencies":[{"name":"Omani rial","symbol":"ر.ع.","currencyCode":"OMR"}],"flag":"🇴🇲","codes":{"cca2":"OM","cca3":"OMN","ccn3":"512"},"coordinates":{"latitude":21,"longitude":57}}}
+{
+    "title": "Oman",
+    "slug": "oman",
+    "baseInfo": {
+        "name": {
+            "common": "Oman",
+            "official": "Sultanate of Oman",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "سلطنة عمان",
+                    "common": "عمان"
+                }
+            ]
+        },
+        "capital": "Muscat",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [{ "languageCode": "ar", "name": "Arabic" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Sultanát Omán",
+                "common": "Omán"
+            },
+            {
+                "languageCode": "de",
+                "official": "Sultanat Oman",
+                "common": "Oman"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Sultanat d'Oman",
+                "common": "Oman"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Sultanat Oman",
+                "common": "Oman"
+            },
+            {
+                "languageCode": "it",
+                "official": "Sultanato dell'Oman",
+                "common": "oman"
+            },
+            {
+                "languageCode": "ja",
+                "official": "オマーン·スルタン国",
+                "common": "オマーン"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Sultanaat van Oman",
+                "common": "Oman"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Sultanato de Omã",
+                "common": "Omã"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Султанат Оман",
+                "common": "Оман"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Ománsky sultanát",
+                "common": "Omán"
+            },
+            {
+                "languageCode": "es",
+                "official": "Sultanato de Omán",
+                "common": "Omán"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Omanin sulttaanikunta",
+                "common": "Oman"
+            },
+            {
+                "languageCode": "et",
+                "official": "Omaani Sultaniriik",
+                "common": "Omaan"
+            },
+            { "languageCode": "zh", "official": "阿曼苏丹国", "common": "阿曼" },
+            {
+                "languageCode": "pl",
+                "official": "Sułtanat Omanu",
+                "common": "Oman"
+            },
+            { "languageCode": "ur", "official": "سلطنت عمان", "common": "عمان" },
+            { "languageCode": "ko", "official": "오만 술탄국", "common": "오만" },
+            { "official": "سلطان‌نشین عُمان", "common": "عمان" },
+            {
+                "languageCode": "hr",
+                "official": "Sultanat Oman",
+                "common": "Oman"
+            }
+        ],
+        "currencies": [
+            { "name": "Omani rial", "symbol": "ر.ع.", "currencyCode": "OMR" }
+        ],
+        "flag": "🇴🇲",
+        "codes": { "cca2": "OM", "cca3": "OMN", "ccn3": "512" },
+        "coordinates": { "latitude": 21, "longitude": 57 }
+    }
+}

@@ -1,1 +1,127 @@
-{"title":"United States Virgin Islands","slug":"united-states-virgin-islands","baseInfo":{"name":{"common":"United States Virgin Islands","official":"Virgin Islands of the United States","native":[{"languageCode":"en","official":"Virgin Islands of the United States","common":"United States Virgin Islands"}]},"capital":"Charlotte Amalie","region":"Americas","subregion":"Caribbean","languages":[{"languageCode":"en","name":"English"}],"translations":[{"languageCode":"cs","official":"Americké Panenské ostrovy","common":"Americké Panenské ostrovy"},{"languageCode":"de","official":"Amerikanische Jungferninseln","common":"Amerikanische Jungferninseln"},{"languageCode":"fr","official":"Îles Vierges des États-Unis","common":"Îles Vierges des États-Unis"},{"languageCode":"hr","official":"Djevičanski Otoci SAD","common":"Američki Djevičanski Otoci"},{"languageCode":"it","official":"Isole Vergini degli Stati Uniti","common":"Isole Vergini americane"},{"languageCode":"ja","official":"米国のバージン諸島","common":"アメリカ領ヴァージン諸島"},{"languageCode":"nl","official":"Maagdeneilanden van de Verenigde Staten","common":"Amerikaanse Maagdeneilanden"},{"languageCode":"pt","official":"Ilhas Virgens dos Estados Unidos","common":"Ilhas Virgens dos Estados Unidos"},{"languageCode":"ru","official":"Виргинские острова Соединенных Штатов","common":"Виргинские Острова"},{"languageCode":"sk","official":"Americké Panenské ostrovy","common":"Americké Panenské ostrovy"},{"languageCode":"es","official":"Islas Vírgenes de los Estados Unidos","common":"Islas Vírgenes de los Estados Unidos"},{"languageCode":"fi","official":"Yhdysvaltain Neitsytsaaret","common":"Neitsytsaaret"},{"languageCode":"et","official":"Ühendriikide Neitsisaared","common":"Neitsisaared, USA"},{"languageCode":"zh","official":"美属维尔京群岛","common":"美属维尔京群岛"},{"languageCode":"pl","official":"Wyspy Dziewicze Stanów Zjednoczonych","common":"Wyspy Dziewicze Stanów Zjednoczonych"},{"languageCode":"ur","official":"امریکی جزائر ورجن","common":"امریکی جزائر ورجن"},{"languageCode":"ko","official":"미국령 버진아일랜드","common":"미국령 버진아일랜드"},{"official":"جزایر ویرجین ایالات متحده آمریکا","common":"جزایر ویرجین ایالات متحده آمریکا"}],"currencies":[{"name":"United States dollar","symbol":"$","currencyCode":"USD"}],"flag":"🇻🇮","codes":{"cca2":"VI","cca3":"VIR","ccn3":"850"},"coordinates":{"latitude":18.35,"longitude":-64.933333}}}
+{
+    "title": "United States Virgin Islands",
+    "slug": "united-states-virgin-islands",
+    "baseInfo": {
+        "name": {
+            "common": "United States Virgin Islands",
+            "official": "Virgin Islands of the United States",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Virgin Islands of the United States",
+                    "common": "United States Virgin Islands"
+                }
+            ]
+        },
+        "capital": "Charlotte Amalie",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Americké Panenské ostrovy",
+                "common": "Americké Panenské ostrovy"
+            },
+            {
+                "languageCode": "de",
+                "official": "Amerikanische Jungferninseln",
+                "common": "Amerikanische Jungferninseln"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Îles Vierges des États-Unis",
+                "common": "Îles Vierges des États-Unis"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Djevičanski Otoci SAD",
+                "common": "Američki Djevičanski Otoci"
+            },
+            {
+                "languageCode": "it",
+                "official": "Isole Vergini degli Stati Uniti",
+                "common": "Isole Vergini americane"
+            },
+            {
+                "languageCode": "ja",
+                "official": "米国のバージン諸島",
+                "common": "アメリカ領ヴァージン諸島"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Maagdeneilanden van de Verenigde Staten",
+                "common": "Amerikaanse Maagdeneilanden"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Ilhas Virgens dos Estados Unidos",
+                "common": "Ilhas Virgens dos Estados Unidos"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Виргинские острова Соединенных Штатов",
+                "common": "Виргинские Острова"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Americké Panenské ostrovy",
+                "common": "Americké Panenské ostrovy"
+            },
+            {
+                "languageCode": "es",
+                "official": "Islas Vírgenes de los Estados Unidos",
+                "common": "Islas Vírgenes de los Estados Unidos"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Yhdysvaltain Neitsytsaaret",
+                "common": "Neitsytsaaret"
+            },
+            {
+                "languageCode": "et",
+                "official": "Ühendriikide Neitsisaared",
+                "common": "Neitsisaared, USA"
+            },
+            {
+                "languageCode": "zh",
+                "official": "美属维尔京群岛",
+                "common": "美属维尔京群岛"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Wyspy Dziewicze Stanów Zjednoczonych",
+                "common": "Wyspy Dziewicze Stanów Zjednoczonych"
+            },
+            {
+                "languageCode": "ur",
+                "official": "امریکی جزائر ورجن",
+                "common": "امریکی جزائر ورجن"
+            },
+            {
+                "languageCode": "ko",
+                "official": "미국령 버진아일랜드",
+                "common": "미국령 버진아일랜드"
+            },
+            {
+                "official": "جزایر ویرجین ایالات متحده آمریکا",
+                "common": "جزایر ویرجین ایالات متحده آمریکا"
+            },
+            {
+                "languageCode": "hr",
+                "official": "Djevičanski Otoci SAD",
+                "common": "Američki Djevičanski Otoci"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "United States dollar",
+                "symbol": "$",
+                "currencyCode": "USD"
+            }
+        ],
+        "flag": "🇻🇮",
+        "codes": { "cca2": "VI", "cca3": "VIR", "ccn3": "850" },
+        "coordinates": { "latitude": 18.35, "longitude": -64.933333 }
+    }
+}

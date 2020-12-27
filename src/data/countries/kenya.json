@@ -1,1 +1,124 @@
-{"title":"Kenya","slug":"kenya","baseInfo":{"name":{"common":"Kenya","official":"Republic of Kenya","native":[{"languageCode":"en","official":"Republic of Kenya","common":"Kenya"},{"languageCode":"sw","official":"Republic of Kenya","common":"Kenya"}]},"capital":"Nairobi","region":"Africa","subregion":"Eastern Africa","languages":[{"languageCode":"en","name":"English"},{"languageCode":"sw","name":"Swahili"}],"translations":[{"languageCode":"cs","official":"Keňská republika","common":"Keňa"},{"languageCode":"de","official":"Republik Kenia","common":"Kenia"},{"languageCode":"fr","official":"République du Kenya","common":"Kenya"},{"languageCode":"hr","official":"Republika Kenija","common":"Kenija"},{"languageCode":"it","official":"Repubblica del Kenya","common":"Kenya"},{"languageCode":"ja","official":"ケニア共和国","common":"ケニア"},{"languageCode":"nl","official":"Republiek Kenia","common":"Kenia"},{"languageCode":"pt","official":"República do Quénia","common":"Quénia"},{"languageCode":"ru","official":"Республика Кения","common":"Кения"},{"languageCode":"sk","official":"Kenská republika","common":"Keňa"},{"languageCode":"es","official":"República de Kenya","common":"Kenia"},{"languageCode":"fi","official":"Kenian tasavalta","common":"Kenia"},{"languageCode":"et","official":"Keenia Vabariik","common":"Keenia"},{"languageCode":"zh","official":"肯尼亚共和国","common":"肯尼亚"},{"languageCode":"pl","official":"Republika Kenii","common":"Kenia"},{"languageCode":"ur","official":"جمہوریہ کینیا","common":"کینیا"},{"languageCode":"ko","official":"케냐 공화국","common":"케냐"},{"official":"جمهوری کنیا","common":"کنیا"}],"currencies":[{"name":"Kenyan shilling","symbol":"Sh","currencyCode":"KES"}],"flag":"🇰🇪","codes":{"cca2":"KE","cca3":"KEN","ccn3":"404"},"coordinates":{"latitude":1,"longitude":38}}}
+{
+    "title": "Kenya",
+    "slug": "kenya",
+    "baseInfo": {
+        "name": {
+            "common": "Kenya",
+            "official": "Republic of Kenya",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Kenya",
+                    "common": "Kenya"
+                },
+                {
+                    "languageCode": "sw",
+                    "official": "Republic of Kenya",
+                    "common": "Kenya"
+                }
+            ]
+        },
+        "capital": "Nairobi",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "sw", "name": "Swahili" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Keňská republika",
+                "common": "Keňa"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Kenia",
+                "common": "Kenia"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Kenya",
+                "common": "Kenya"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Kenija",
+                "common": "Kenija"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Kenya",
+                "common": "Kenya"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ケニア共和国",
+                "common": "ケニア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Kenia",
+                "common": "Kenia"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Quénia",
+                "common": "Quénia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Кения",
+                "common": "Кения"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Kenská republika",
+                "common": "Keňa"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Kenya",
+                "common": "Kenia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Kenian tasavalta",
+                "common": "Kenia"
+            },
+            {
+                "languageCode": "et",
+                "official": "Keenia Vabariik",
+                "common": "Keenia"
+            },
+            {
+                "languageCode": "zh",
+                "official": "肯尼亚共和国",
+                "common": "肯尼亚"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Kenii",
+                "common": "Kenia"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ کینیا",
+                "common": "کینیا"
+            },
+            { "languageCode": "ko", "official": "케냐 공화국", "common": "케냐" },
+            { "official": "جمهوری کنیا", "common": "کنیا" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Kenija",
+                "common": "Kenija"
+            }
+        ],
+        "currencies": [
+            { "name": "Kenyan shilling", "symbol": "Sh", "currencyCode": "KES" }
+        ],
+        "flag": "🇰🇪",
+        "codes": { "cca2": "KE", "cca3": "KEN", "ccn3": "404" },
+        "coordinates": { "latitude": 1, "longitude": 38 }
+    }
+}

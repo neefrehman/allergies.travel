@@ -1,1 +1,132 @@
-{"title":"Puerto Rico","slug":"puerto-rico","baseInfo":{"name":{"common":"Puerto Rico","official":"Commonwealth of Puerto Rico","native":[{"languageCode":"en","official":"Commonwealth of Puerto Rico","common":"Puerto Rico"},{"languageCode":"es","official":"Estado Libre Asociado de Puerto Rico","common":"Puerto Rico"}]},"capital":"San Juan","region":"Americas","subregion":"Caribbean","languages":[{"languageCode":"en","name":"English"},{"languageCode":"es","name":"Spanish"}],"translations":[{"languageCode":"cs","official":"Portoriko","common":"Portoriko"},{"languageCode":"de","official":"Freistaat Puerto Rico","common":"Puerto Rico"},{"languageCode":"fr","official":"Porto Rico","common":"Porto Rico"},{"languageCode":"hr","official":"Zajednica Puerto Rico","common":"Portoriko"},{"languageCode":"it","official":"Commonwealth di Porto Rico","common":"Porto Rico"},{"languageCode":"ja","official":"プエルトリコのコモンウェルス","common":"プエルトリコ"},{"languageCode":"nl","official":"Gemenebest van Puerto Rico","common":"Puerto Rico"},{"languageCode":"pt","official":"Commonwealth of Puerto Rico","common":"Porto Rico"},{"languageCode":"ru","official":"Содружество Пуэрто-Рико","common":"Пуэрто-Рико"},{"languageCode":"sk","official":"Portorické spoločenstvo","common":"Portoriko"},{"languageCode":"es","official":"Asociado de Puerto Rico","common":"Puerto Rico"},{"languageCode":"fi","official":"Puerto Rico","common":"Puerto Rico"},{"languageCode":"et","official":"Puerto Rico Ühendus","common":"Puerto Rico"},{"languageCode":"zh","official":"波多黎各联邦","common":"波多黎各"},{"languageCode":"pl","official":"Wolne Stowarzyszone Państwo Portoryko","common":"Portoryko"},{"languageCode":"ur","official":" دولتِ مشترکہ پورٹو ریکو","common":"پورٹو ریکو"},{"languageCode":"ko","official":"푸에르토리코","common":"푸에르토리코"},{"official":"قلمرو همسود پورتوریکو","common":"پورتوریکو"}],"currencies":[{"name":"United States dollar","symbol":"$","currencyCode":"USD"}],"flag":"🇵🇷","codes":{"cca2":"PR","cca3":"PRI","ccn3":"630"},"coordinates":{"latitude":18.25,"longitude":-66.5}}}
+{
+    "title": "Puerto Rico",
+    "slug": "puerto-rico",
+    "baseInfo": {
+        "name": {
+            "common": "Puerto Rico",
+            "official": "Commonwealth of Puerto Rico",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Commonwealth of Puerto Rico",
+                    "common": "Puerto Rico"
+                },
+                {
+                    "languageCode": "es",
+                    "official": "Estado Libre Asociado de Puerto Rico",
+                    "common": "Puerto Rico"
+                }
+            ]
+        },
+        "capital": "San Juan",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "es", "name": "Spanish" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Portoriko",
+                "common": "Portoriko"
+            },
+            {
+                "languageCode": "de",
+                "official": "Freistaat Puerto Rico",
+                "common": "Puerto Rico"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Porto Rico",
+                "common": "Porto Rico"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Zajednica Puerto Rico",
+                "common": "Portoriko"
+            },
+            {
+                "languageCode": "it",
+                "official": "Commonwealth di Porto Rico",
+                "common": "Porto Rico"
+            },
+            {
+                "languageCode": "ja",
+                "official": "プエルトリコのコモンウェルス",
+                "common": "プエルトリコ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Gemenebest van Puerto Rico",
+                "common": "Puerto Rico"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Commonwealth of Puerto Rico",
+                "common": "Porto Rico"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Содружество Пуэрто-Рико",
+                "common": "Пуэрто-Рико"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Portorické spoločenstvo",
+                "common": "Portoriko"
+            },
+            {
+                "languageCode": "es",
+                "official": "Asociado de Puerto Rico",
+                "common": "Puerto Rico"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Puerto Rico",
+                "common": "Puerto Rico"
+            },
+            {
+                "languageCode": "et",
+                "official": "Puerto Rico Ühendus",
+                "common": "Puerto Rico"
+            },
+            {
+                "languageCode": "zh",
+                "official": "波多黎各联邦",
+                "common": "波多黎各"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Wolne Stowarzyszone Państwo Portoryko",
+                "common": "Portoryko"
+            },
+            {
+                "languageCode": "ur",
+                "official": " دولتِ مشترکہ پورٹو ریکو",
+                "common": "پورٹو ریکو"
+            },
+            {
+                "languageCode": "ko",
+                "official": "푸에르토리코",
+                "common": "푸에르토리코"
+            },
+            { "official": "قلمرو همسود پورتوریکو", "common": "پورتوریکو" },
+            {
+                "languageCode": "hr",
+                "official": "Zajednica Puerto Rico",
+                "common": "Portoriko"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "United States dollar",
+                "symbol": "$",
+                "currencyCode": "USD"
+            }
+        ],
+        "flag": "🇵🇷",
+        "codes": { "cca2": "PR", "cca3": "PRI", "ccn3": "630" },
+        "coordinates": { "latitude": 18.25, "longitude": -66.5 }
+    }
+}

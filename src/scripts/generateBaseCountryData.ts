@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 import * as fs from "fs";
 
 import type { Country } from "world-countries";
@@ -6,7 +7,8 @@ import { kebabCaseWithDiacriticHandling } from "../utils/kebabCase";
 import { deepMerge } from "../utils/deepMerge";
 import { ISO_639_3_TO_1_MAP } from "../utils/languageCodeMap";
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
+// eslint-disable-next-line import/no-extraneous-dependencies
+const prettier = require("prettier");
 const countryData: Country[] = require("world-countries"); // require needed to avoid `world_countries_1["default"]` error
 
 /**
@@ -19,7 +21,9 @@ const countryData: Country[] = require("world-countries"); // require needed to 
  * This file must be compiled to js and then run, (ts-node has bugs with
  * import statements). Use `npm run generateCountryData` to do this easily.
  */
-const generateBaseCountryData = () => {
+const generateBaseCountryData = async () => {
+    const prettierConfig = await prettier.resolveConfig("./.prettierrc");
+
     const transformedCountryData: Pick<
         CountryContent,
         "title" | "slug" | "baseInfo"
@@ -91,7 +95,12 @@ const generateBaseCountryData = () => {
             dataToSend = deepMerge(previousData, country);
         }
 
-        fs.writeFileSync(fileName, JSON.stringify(dataToSend));
+        const formattedData = prettier.format(JSON.stringify(dataToSend), {
+            ...prettierConfig,
+            parser: "json",
+        });
+
+        fs.writeFileSync(fileName, formattedData);
     });
 };
 

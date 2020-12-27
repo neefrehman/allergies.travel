@@ -1,1 +1,53 @@
-{"title":"Canada","slug":"canada","baseInfo":{"name":{"common":"Canada","official":"Canada","native":[{"languageCode":"en","official":"Canada","common":"Canada"},{"languageCode":"fr","official":"Canada","common":"Canada"}]},"capital":"Ottawa","region":"Americas","subregion":"North America","languages":[{"languageCode":"en","name":"English"},{"languageCode":"fr","name":"French"}],"translations":[{"languageCode":"cs","official":"Kanada","common":"Kanada"},{"languageCode":"cy","official":"Canada","common":"Canada"},{"languageCode":"de","official":"Kanada","common":"Kanada"},{"languageCode":"fr","official":"Canada","common":"Canada"},{"languageCode":"hr","official":"Kanada","common":"Kanada"},{"languageCode":"it","official":"Canada","common":"Canada"},{"languageCode":"ja","official":"カナダ","common":"カナダ"},{"languageCode":"nl","official":"Canada","common":"Canada"},{"languageCode":"pt","official":"Canadá","common":"Canadá"},{"languageCode":"ru","official":"Канада","common":"Канада"},{"languageCode":"sk","official":"Kanada","common":"Kanada"},{"languageCode":"es","official":"Canadá","common":"Canadá"},{"languageCode":"fi","official":"Kanada","common":"Kanada"},{"languageCode":"et","official":"Kanada","common":"Kanada"},{"languageCode":"zh","official":"加拿大","common":"加拿大"},{"languageCode":"pl","official":"Kanada","common":"Kanada"},{"languageCode":"ur","official":"کینیڈا","common":"کینیڈا"},{"languageCode":"ko","official":"캐나다","common":"캐나다"},{"official":"کانادا","common":"کانادا"}],"currencies":[{"name":"Canadian dollar","symbol":"$","currencyCode":"CAD"}],"flag":"🇨🇦","codes":{"cca2":"CA","cca3":"CAN","ccn3":"124"},"coordinates":{"latitude":60,"longitude":-95}}}
+{
+    "title": "Canada",
+    "slug": "canada",
+    "baseInfo": {
+        "name": {
+            "common": "Canada",
+            "official": "Canada",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Canada",
+                    "common": "Canada"
+                },
+                { "languageCode": "fr", "official": "Canada", "common": "Canada" }
+            ]
+        },
+        "capital": "Ottawa",
+        "region": "Americas",
+        "subregion": "North America",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "fr", "name": "French" }
+        ],
+        "translations": [
+            { "languageCode": "cs", "official": "Kanada", "common": "Kanada" },
+            { "languageCode": "cy", "official": "Canada", "common": "Canada" },
+            { "languageCode": "de", "official": "Kanada", "common": "Kanada" },
+            { "languageCode": "fr", "official": "Canada", "common": "Canada" },
+            { "languageCode": "sh", "official": "Kanada", "common": "Kanada" },
+            { "languageCode": "it", "official": "Canada", "common": "Canada" },
+            { "languageCode": "ja", "official": "カナダ", "common": "カナダ" },
+            { "languageCode": "nl", "official": "Canada", "common": "Canada" },
+            { "languageCode": "pt", "official": "Canadá", "common": "Canadá" },
+            { "languageCode": "ru", "official": "Канада", "common": "Канада" },
+            { "languageCode": "sk", "official": "Kanada", "common": "Kanada" },
+            { "languageCode": "es", "official": "Canadá", "common": "Canadá" },
+            { "languageCode": "fi", "official": "Kanada", "common": "Kanada" },
+            { "languageCode": "et", "official": "Kanada", "common": "Kanada" },
+            { "languageCode": "zh", "official": "加拿大", "common": "加拿大" },
+            { "languageCode": "pl", "official": "Kanada", "common": "Kanada" },
+            { "languageCode": "ur", "official": "کینیڈا", "common": "کینیڈا" },
+            { "languageCode": "ko", "official": "캐나다", "common": "캐나다" },
+            { "official": "کانادا", "common": "کانادا" },
+            { "languageCode": "hr", "official": "Kanada", "common": "Kanada" }
+        ],
+        "currencies": [
+            { "name": "Canadian dollar", "symbol": "$", "currencyCode": "CAD" }
+        ],
+        "flag": "🇨🇦",
+        "codes": { "cca2": "CA", "cca3": "CAN", "ccn3": "124" },
+        "coordinates": { "latitude": 60, "longitude": -95 }
+    }
+}

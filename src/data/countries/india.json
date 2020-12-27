@@ -1,1 +1,126 @@
-{"title":"India","slug":"india","baseInfo":{"name":{"common":"India","official":"Republic of India","native":[{"languageCode":"en","official":"Republic of India","common":"India"},{"languageCode":"hi","official":"भारत गणराज्य","common":"भारत"},{"languageCode":"ta","official":"இந்தியக் குடியரசு","common":"இந்தியா"}]},"capital":"New Delhi","region":"Asia","subregion":"Southern Asia","languages":[{"languageCode":"en","name":"English"},{"languageCode":"hi","name":"Hindi"},{"languageCode":"ta","name":"Tamil"}],"translations":[{"languageCode":"cs","official":"Indická republika","common":"Indie"},{"languageCode":"de","official":"Republik Indien","common":"Indien"},{"languageCode":"fr","official":"République de l'Inde","common":"Inde"},{"languageCode":"hr","official":"Republika Indija","common":"Indija"},{"languageCode":"it","official":"Repubblica dell'India","common":"India"},{"languageCode":"ja","official":"インド共和国","common":"インド"},{"languageCode":"nl","official":"Republiek India","common":"India"},{"languageCode":"pt","official":"República da Índia","common":"Índia"},{"languageCode":"ru","official":"Республика Индия","common":"Индия"},{"languageCode":"sk","official":"Indická republika","common":"India"},{"languageCode":"es","official":"República de la India","common":"India"},{"languageCode":"fi","official":"Intian tasavalta","common":"Intia"},{"languageCode":"et","official":"India Vabariik","common":"India"},{"languageCode":"zh","official":"印度共和国","common":"印度"},{"languageCode":"pl","official":"Republika Indii","common":"Indie"},{"languageCode":"ur","official":"جمہوریہ بھارت","common":"بھارت"},{"languageCode":"ko","official":"인도 공화국","common":"인도"},{"official":"جمهوری هندوستان","common":"هند"}],"currencies":[{"name":"Indian rupee","symbol":"₹","currencyCode":"INR"}],"flag":"🇮🇳","codes":{"cca2":"IN","cca3":"IND","ccn3":"356"},"coordinates":{"latitude":20,"longitude":77}}}
+{
+    "title": "India",
+    "slug": "india",
+    "baseInfo": {
+        "name": {
+            "common": "India",
+            "official": "Republic of India",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of India",
+                    "common": "India"
+                },
+                {
+                    "languageCode": "hi",
+                    "official": "भारत गणराज्य",
+                    "common": "भारत"
+                },
+                {
+                    "languageCode": "ta",
+                    "official": "இந்தியக் குடியரசு",
+                    "common": "இந்தியா"
+                }
+            ]
+        },
+        "capital": "New Delhi",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "hi", "name": "Hindi" },
+            { "languageCode": "ta", "name": "Tamil" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Indická republika",
+                "common": "Indie"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Indien",
+                "common": "Indien"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de l'Inde",
+                "common": "Inde"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Indija",
+                "common": "Indija"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica dell'India",
+                "common": "India"
+            },
+            {
+                "languageCode": "ja",
+                "official": "インド共和国",
+                "common": "インド"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek India",
+                "common": "India"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Índia",
+                "common": "Índia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Индия",
+                "common": "Индия"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Indická republika",
+                "common": "India"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de la India",
+                "common": "India"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Intian tasavalta",
+                "common": "Intia"
+            },
+            {
+                "languageCode": "et",
+                "official": "India Vabariik",
+                "common": "India"
+            },
+            { "languageCode": "zh", "official": "印度共和国", "common": "印度" },
+            {
+                "languageCode": "pl",
+                "official": "Republika Indii",
+                "common": "Indie"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ بھارت",
+                "common": "بھارت"
+            },
+            { "languageCode": "ko", "official": "인도 공화국", "common": "인도" },
+            { "official": "جمهوری هندوستان", "common": "هند" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Indija",
+                "common": "Indija"
+            }
+        ],
+        "currencies": [
+            { "name": "Indian rupee", "symbol": "₹", "currencyCode": "INR" }
+        ],
+        "flag": "🇮🇳",
+        "codes": { "cca2": "IN", "cca3": "IND", "ccn3": "356" },
+        "coordinates": { "latitude": 20, "longitude": 77 }
+    }
+}

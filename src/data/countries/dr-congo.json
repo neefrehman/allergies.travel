@@ -1,1 +1,150 @@
-{"title":"DR Congo","slug":"dr-congo","baseInfo":{"name":{"common":"DR Congo","official":"Democratic Republic of the Congo","native":[{"languageCode":"fr","official":"République démocratique du Congo","common":"RD Congo"},{"languageCode":"kg","official":"Repubilika ya Kongo Demokratiki","common":"Repubilika ya Kongo Demokratiki"},{"languageCode":"ln","official":"Republiki ya Kongó Demokratiki","common":"Republiki ya Kongó Demokratiki"},{"official":"Ditunga dia Kongu wa Mungalaata","common":"Ditunga dia Kongu wa Mungalaata"},{"languageCode":"sw","official":"Jamhuri ya Kidemokrasia ya Kongo","common":"Jamhuri ya Kidemokrasia ya Kongo"}]},"capital":"Kinshasa","region":"Africa","subregion":"Middle Africa","languages":[{"languageCode":"fr","name":"French"},{"languageCode":"kg","name":"Kikongo"},{"languageCode":"ln","name":"Lingala"},{"name":"Tshiluba"},{"languageCode":"sw","name":"Swahili"}],"translations":[{"languageCode":"cs","official":"Demokratická republika Kongo","common":"DR Kongo"},{"languageCode":"cy","official":"Gweriniaeth Ddemocrataidd Congo","common":"Gweriniaeth Ddemocrataidd Congo"},{"languageCode":"de","official":"Demokratische Republik Kongo","common":"Kongo (Dem. Rep.)"},{"languageCode":"fr","official":"République démocratique du Congo","common":"Congo (Rép. dém.)"},{"languageCode":"hr","official":"Demokratska Republika Kongo","common":"Kongo, Demokratska Republika"},{"languageCode":"it","official":"Repubblica Democratica del Congo","common":"Congo (Rep. Dem.)"},{"languageCode":"ja","official":"コンゴ民主共和国","common":"コンゴ民主共和国"},{"languageCode":"nl","official":"Democratische Republiek Congo","common":"Congo (DRC)"},{"languageCode":"pt","official":"República Democrática do Congo","common":"República Democrática do Congo"},{"languageCode":"ru","official":"Демократическая Республика Конго","common":"Демократическая Республика Конго"},{"languageCode":"sk","official":"Konžská demokratická republika","common":"Kongo"},{"languageCode":"es","official":"República Democrática del Congo","common":"Congo (Rep. Dem.)"},{"languageCode":"fi","official":"Kongon demokraattinen tasavalta","common":"Kongon demokraattinen tasavalta"},{"languageCode":"et","official":"Kongo Demokraatlik Vabariik","common":"Kongo DV"},{"languageCode":"zh","official":"刚果民主共和国","common":"民主刚果"},{"languageCode":"pl","official":"Demokratyczna Republika Konga","common":"Demokratyczna Republika Konga"},{"languageCode":"ur","official":"جمہوری جمہوریہ کانگو","common":"\nکانگو"},{"languageCode":"ko","official":"콩고 민주 공화국","common":"콩고 민주 공화국"},{"official":"جمهوری دموکراتیک کنگو","common":"کنگو دموکراتیک"}],"currencies":[{"name":"Congolese franc","symbol":"FC","currencyCode":"CDF"}],"flag":"🇨🇩","codes":{"cca2":"CD","cca3":"COD","ccn3":"180"},"coordinates":{"latitude":0,"longitude":25}}}
+{
+    "title": "DR Congo",
+    "slug": "dr-congo",
+    "baseInfo": {
+        "name": {
+            "common": "DR Congo",
+            "official": "Democratic Republic of the Congo",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République démocratique du Congo",
+                    "common": "RD Congo"
+                },
+                {
+                    "languageCode": "kg",
+                    "official": "Repubilika ya Kongo Demokratiki",
+                    "common": "Repubilika ya Kongo Demokratiki"
+                },
+                {
+                    "languageCode": "ln",
+                    "official": "Republiki ya Kongó Demokratiki",
+                    "common": "Republiki ya Kongó Demokratiki"
+                },
+                {
+                    "official": "Ditunga dia Kongu wa Mungalaata",
+                    "common": "Ditunga dia Kongu wa Mungalaata"
+                },
+                {
+                    "languageCode": "sw",
+                    "official": "Jamhuri ya Kidemokrasia ya Kongo",
+                    "common": "Jamhuri ya Kidemokrasia ya Kongo"
+                }
+            ]
+        },
+        "capital": "Kinshasa",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "languages": [
+            { "languageCode": "fr", "name": "French" },
+            { "languageCode": "kg", "name": "Kikongo" },
+            { "languageCode": "ln", "name": "Lingala" },
+            { "name": "Tshiluba" },
+            { "languageCode": "sw", "name": "Swahili" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Demokratická republika Kongo",
+                "common": "DR Kongo"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Ddemocrataidd Congo",
+                "common": "Gweriniaeth Ddemocrataidd Congo"
+            },
+            {
+                "languageCode": "de",
+                "official": "Demokratische Republik Kongo",
+                "common": "Kongo (Dem. Rep.)"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République démocratique du Congo",
+                "common": "Congo (Rép. dém.)"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Demokratska Republika Kongo",
+                "common": "Kongo, Demokratska Republika"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica Democratica del Congo",
+                "common": "Congo (Rep. Dem.)"
+            },
+            {
+                "languageCode": "ja",
+                "official": "コンゴ民主共和国",
+                "common": "コンゴ民主共和国"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Democratische Republiek Congo",
+                "common": "Congo (DRC)"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República Democrática do Congo",
+                "common": "República Democrática do Congo"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Демократическая Республика Конго",
+                "common": "Демократическая Республика Конго"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Konžská demokratická republika",
+                "common": "Kongo"
+            },
+            {
+                "languageCode": "es",
+                "official": "República Democrática del Congo",
+                "common": "Congo (Rep. Dem.)"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Kongon demokraattinen tasavalta",
+                "common": "Kongon demokraattinen tasavalta"
+            },
+            {
+                "languageCode": "et",
+                "official": "Kongo Demokraatlik Vabariik",
+                "common": "Kongo DV"
+            },
+            {
+                "languageCode": "zh",
+                "official": "刚果民主共和国",
+                "common": "民主刚果"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Demokratyczna Republika Konga",
+                "common": "Demokratyczna Republika Konga"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوری جمہوریہ کانگو",
+                "common": "\nکانگو"
+            },
+            {
+                "languageCode": "ko",
+                "official": "콩고 민주 공화국",
+                "common": "콩고 민주 공화국"
+            },
+            { "official": "جمهوری دموکراتیک کنگو", "common": "کنگو دموکراتیک" },
+            {
+                "languageCode": "hr",
+                "official": "Demokratska Republika Kongo",
+                "common": "Kongo, Demokratska Republika"
+            }
+        ],
+        "currencies": [
+            { "name": "Congolese franc", "symbol": "FC", "currencyCode": "CDF" }
+        ],
+        "flag": "🇨🇩",
+        "codes": { "cca2": "CD", "cca3": "COD", "ccn3": "180" },
+        "coordinates": { "latitude": 0, "longitude": 25 }
+    }
+}

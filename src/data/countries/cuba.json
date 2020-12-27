@@ -1,1 +1,122 @@
-{"title":"Cuba","slug":"cuba","baseInfo":{"name":{"common":"Cuba","official":"Republic of Cuba","native":[{"languageCode":"es","official":"República de Cuba","common":"Cuba"}]},"capital":"Havana","region":"Americas","subregion":"Caribbean","languages":[{"languageCode":"es","name":"Spanish"}],"translations":[{"languageCode":"cs","official":"Kubánská republika","common":"Kuba"},{"languageCode":"cy","official":"Gweriniaeth Ciwba","common":"Ciwba"},{"languageCode":"de","official":"Republik Kuba","common":"Kuba"},{"languageCode":"fr","official":"République de Cuba","common":"Cuba"},{"languageCode":"hr","official":"Republika Kuba","common":"Kuba"},{"languageCode":"it","official":"Repubblica di Cuba","common":"Cuba"},{"languageCode":"ja","official":"キューバ共和国","common":"キューバ"},{"languageCode":"nl","official":"Republiek Cuba","common":"Cuba"},{"languageCode":"pt","official":"República de Cuba","common":"Cuba"},{"languageCode":"ru","official":"Республика Куба","common":"Куба"},{"languageCode":"sk","official":"Kubánska republika","common":"Kuba"},{"languageCode":"es","official":"República de Cuba","common":"Cuba"},{"languageCode":"fi","official":"Kuuban tasavalta","common":"Kuuba"},{"languageCode":"et","official":"Kuuba Vabariik","common":"Kuuba"},{"languageCode":"zh","official":"古巴共和国","common":"古巴"},{"languageCode":"pl","official":"Republika Kuby","common":"Kuba"},{"languageCode":"ur","official":"جمہوریہ کیوبا","common":"کیوبا"},{"languageCode":"ko","official":"쿠바 공화국","common":"쿠바"},{"official":"جمهوری کوبا","common":"کوبا"}],"currencies":[{"name":"Cuban convertible peso","symbol":"$","currencyCode":"CUC"},{"name":"Cuban peso","symbol":"$","currencyCode":"CUP"}],"flag":"🇨🇺","codes":{"cca2":"CU","cca3":"CUB","ccn3":"192"},"coordinates":{"latitude":21.5,"longitude":-80}}}
+{
+    "title": "Cuba",
+    "slug": "cuba",
+    "baseInfo": {
+        "name": {
+            "common": "Cuba",
+            "official": "Republic of Cuba",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República de Cuba",
+                    "common": "Cuba"
+                }
+            ]
+        },
+        "capital": "Havana",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "es", "name": "Spanish" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Kubánská republika",
+                "common": "Kuba"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Ciwba",
+                "common": "Ciwba"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Kuba",
+                "common": "Kuba"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de Cuba",
+                "common": "Cuba"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Kuba",
+                "common": "Kuba"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Cuba",
+                "common": "Cuba"
+            },
+            {
+                "languageCode": "ja",
+                "official": "キューバ共和国",
+                "common": "キューバ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Cuba",
+                "common": "Cuba"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República de Cuba",
+                "common": "Cuba"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Куба",
+                "common": "Куба"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Kubánska republika",
+                "common": "Kuba"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Cuba",
+                "common": "Cuba"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Kuuban tasavalta",
+                "common": "Kuuba"
+            },
+            {
+                "languageCode": "et",
+                "official": "Kuuba Vabariik",
+                "common": "Kuuba"
+            },
+            { "languageCode": "zh", "official": "古巴共和国", "common": "古巴" },
+            {
+                "languageCode": "pl",
+                "official": "Republika Kuby",
+                "common": "Kuba"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ کیوبا",
+                "common": "کیوبا"
+            },
+            { "languageCode": "ko", "official": "쿠바 공화국", "common": "쿠바" },
+            { "official": "جمهوری کوبا", "common": "کوبا" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Kuba",
+                "common": "Kuba"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "Cuban convertible peso",
+                "symbol": "$",
+                "currencyCode": "CUC"
+            },
+            { "name": "Cuban peso", "symbol": "$", "currencyCode": "CUP" }
+        ],
+        "flag": "🇨🇺",
+        "codes": { "cca2": "CU", "cca3": "CUB", "ccn3": "192" },
+        "coordinates": { "latitude": 21.5, "longitude": -80 }
+    }
+}

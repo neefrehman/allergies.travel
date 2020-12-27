@@ -1,1 +1,124 @@
-{"title":"United Arab Emirates","slug":"united-arab-emirates","baseInfo":{"name":{"common":"United Arab Emirates","official":"United Arab Emirates","native":[{"languageCode":"ar","official":"الإمارات العربية المتحدة","common":"دولة الإمارات العربية المتحدة"}]},"capital":"Abu Dhabi","region":"Asia","subregion":"Western Asia","languages":[{"languageCode":"ar","name":"Arabic"}],"translations":[{"languageCode":"cs","official":"Spojené arabské emiráty","common":"Spojené arabské emiráty"},{"languageCode":"de","official":"Vereinigte Arabische Emirate","common":"Vereinigte Arabische Emirate"},{"languageCode":"fr","official":"Émirats arabes unis","common":"Émirats arabes unis"},{"languageCode":"hr","official":"Ujedinjeni Arapski Emirati","common":"Ujedinjeni Arapski Emirati"},{"languageCode":"it","official":"Emirati Arabi Uniti","common":"Emirati Arabi Uniti"},{"languageCode":"ja","official":"アラブ首長国連邦","common":"アラブ首長国連邦"},{"languageCode":"nl","official":"Verenigde Arabische Emiraten","common":"Verenigde Arabische Emiraten"},{"languageCode":"pt","official":"Emirados Árabes Unidos","common":"Emirados Árabes Unidos"},{"languageCode":"ru","official":"Объединенные Арабские Эмираты","common":"Объединённые Арабские Эмираты"},{"languageCode":"sk","official":"Spojené arabské emiráty","common":"Spojené arabské emiráty"},{"languageCode":"es","official":"Emiratos Árabes Unidos","common":"Emiratos Árabes Unidos"},{"languageCode":"fi","official":"Yhdistyneet arabiemiirikunnat","common":"Arabiemiraatit"},{"languageCode":"et","official":"Araabia Ühendemiraadid","common":"Araabia Ühendemiraadid"},{"languageCode":"zh","official":"阿拉伯联合酋长国","common":"阿拉伯联合酋长国"},{"languageCode":"pl","official":"Zjednoczone Emiraty Arabskie","common":"Zjednoczone Emiraty Arabskie"},{"languageCode":"ur","official":"متحدہ عرب امارات","common":"متحدہ عرب امارات"},{"languageCode":"ko","official":"아랍 토후국 연방","common":"아랍에미리트"},{"official":"امارات متحده عربی","common":"امارات"}],"currencies":[{"name":"United Arab Emirates dirham","symbol":"د.إ","currencyCode":"AED"}],"flag":"🇦🇪","codes":{"cca2":"AE","cca3":"ARE","ccn3":"784"},"coordinates":{"latitude":24,"longitude":54}}}
+{
+    "title": "United Arab Emirates",
+    "slug": "united-arab-emirates",
+    "baseInfo": {
+        "name": {
+            "common": "United Arab Emirates",
+            "official": "United Arab Emirates",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "الإمارات العربية المتحدة",
+                    "common": "دولة الإمارات العربية المتحدة"
+                }
+            ]
+        },
+        "capital": "Abu Dhabi",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [{ "languageCode": "ar", "name": "Arabic" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Spojené arabské emiráty",
+                "common": "Spojené arabské emiráty"
+            },
+            {
+                "languageCode": "de",
+                "official": "Vereinigte Arabische Emirate",
+                "common": "Vereinigte Arabische Emirate"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Émirats arabes unis",
+                "common": "Émirats arabes unis"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Ujedinjeni Arapski Emirati",
+                "common": "Ujedinjeni Arapski Emirati"
+            },
+            {
+                "languageCode": "it",
+                "official": "Emirati Arabi Uniti",
+                "common": "Emirati Arabi Uniti"
+            },
+            {
+                "languageCode": "ja",
+                "official": "アラブ首長国連邦",
+                "common": "アラブ首長国連邦"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Verenigde Arabische Emiraten",
+                "common": "Verenigde Arabische Emiraten"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Emirados Árabes Unidos",
+                "common": "Emirados Árabes Unidos"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Объединенные Арабские Эмираты",
+                "common": "Объединённые Арабские Эмираты"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Spojené arabské emiráty",
+                "common": "Spojené arabské emiráty"
+            },
+            {
+                "languageCode": "es",
+                "official": "Emiratos Árabes Unidos",
+                "common": "Emiratos Árabes Unidos"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Yhdistyneet arabiemiirikunnat",
+                "common": "Arabiemiraatit"
+            },
+            {
+                "languageCode": "et",
+                "official": "Araabia Ühendemiraadid",
+                "common": "Araabia Ühendemiraadid"
+            },
+            {
+                "languageCode": "zh",
+                "official": "阿拉伯联合酋长国",
+                "common": "阿拉伯联合酋长国"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Zjednoczone Emiraty Arabskie",
+                "common": "Zjednoczone Emiraty Arabskie"
+            },
+            {
+                "languageCode": "ur",
+                "official": "متحدہ عرب امارات",
+                "common": "متحدہ عرب امارات"
+            },
+            {
+                "languageCode": "ko",
+                "official": "아랍 토후국 연방",
+                "common": "아랍에미리트"
+            },
+            { "official": "امارات متحده عربی", "common": "امارات" },
+            {
+                "languageCode": "hr",
+                "official": "Ujedinjeni Arapski Emirati",
+                "common": "Ujedinjeni Arapski Emirati"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "United Arab Emirates dirham",
+                "symbol": "د.إ",
+                "currencyCode": "AED"
+            }
+        ],
+        "flag": "🇦🇪",
+        "codes": { "cca2": "AE", "cca3": "ARE", "ccn3": "784" },
+        "coordinates": { "latitude": 24, "longitude": 54 }
+    }
+}

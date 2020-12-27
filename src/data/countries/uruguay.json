@@ -1,1 +1,120 @@
-{"title":"Uruguay","slug":"uruguay","baseInfo":{"name":{"common":"Uruguay","official":"Oriental Republic of Uruguay","native":[{"languageCode":"es","official":"República Oriental del Uruguay","common":"Uruguay"}]},"capital":"Montevideo","region":"Americas","subregion":"South America","languages":[{"languageCode":"es","name":"Spanish"}],"translations":[{"languageCode":"cs","official":"Uruguayská východní republika","common":"Uruguay"},{"languageCode":"de","official":"Republik Östlich des Uruguay","common":"Uruguay"},{"languageCode":"fr","official":"République orientale de l'Uruguay","common":"Uruguay"},{"languageCode":"hr","official":"Orijentalna Republika Urugvaj","common":"Urugvaj"},{"languageCode":"it","official":"Repubblica Orientale dell'Uruguay","common":"Uruguay"},{"languageCode":"ja","official":"ウルグアイ東方共和国","common":"ウルグアイ"},{"languageCode":"nl","official":"Oosterse Republiek Uruguay","common":"Uruguay"},{"languageCode":"pt","official":"República Oriental do Uruguai","common":"Uruguai"},{"languageCode":"ru","official":"Восточной Республики Уругвай","common":"Уругвай"},{"languageCode":"sk","official":"Uruguajská východná republika","common":"Uruguaj"},{"languageCode":"es","official":"República Oriental del Uruguay","common":"Uruguay"},{"languageCode":"fi","official":"Uruguayn itäinen tasavalta","common":"Uruguay"},{"languageCode":"et","official":"Uruguay Idavabariik","common":"Uruguay"},{"languageCode":"zh","official":"乌拉圭东岸共和国","common":"乌拉圭"},{"languageCode":"pl","official":"Wschodnia Republika Urugwaju","common":"Urugwaj"},{"languageCode":"ur","official":"جمہوریہ شرقیہ یوراگوئے","common":"یوراگوئے"},{"languageCode":"ko","official":"우루과이 동방 공화국","common":"우루과이"},{"official":"جمهوری اروگوئه","common":"اروگوئه"}],"currencies":[{"name":"Uruguayan peso","symbol":"$","currencyCode":"UYU"}],"flag":"🇺🇾","codes":{"cca2":"UY","cca3":"URY","ccn3":"858"},"coordinates":{"latitude":-33,"longitude":-56}}}
+{
+    "title": "Uruguay",
+    "slug": "uruguay",
+    "baseInfo": {
+        "name": {
+            "common": "Uruguay",
+            "official": "Oriental Republic of Uruguay",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República Oriental del Uruguay",
+                    "common": "Uruguay"
+                }
+            ]
+        },
+        "capital": "Montevideo",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [{ "languageCode": "es", "name": "Spanish" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Uruguayská východní republika",
+                "common": "Uruguay"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Östlich des Uruguay",
+                "common": "Uruguay"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République orientale de l'Uruguay",
+                "common": "Uruguay"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Orijentalna Republika Urugvaj",
+                "common": "Urugvaj"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica Orientale dell'Uruguay",
+                "common": "Uruguay"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ウルグアイ東方共和国",
+                "common": "ウルグアイ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Oosterse Republiek Uruguay",
+                "common": "Uruguay"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República Oriental do Uruguai",
+                "common": "Uruguai"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Восточной Республики Уругвай",
+                "common": "Уругвай"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Uruguajská východná republika",
+                "common": "Uruguaj"
+            },
+            {
+                "languageCode": "es",
+                "official": "República Oriental del Uruguay",
+                "common": "Uruguay"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Uruguayn itäinen tasavalta",
+                "common": "Uruguay"
+            },
+            {
+                "languageCode": "et",
+                "official": "Uruguay Idavabariik",
+                "common": "Uruguay"
+            },
+            {
+                "languageCode": "zh",
+                "official": "乌拉圭东岸共和国",
+                "common": "乌拉圭"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Wschodnia Republika Urugwaju",
+                "common": "Urugwaj"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ شرقیہ یوراگوئے",
+                "common": "یوراگوئے"
+            },
+            {
+                "languageCode": "ko",
+                "official": "우루과이 동방 공화국",
+                "common": "우루과이"
+            },
+            { "official": "جمهوری اروگوئه", "common": "اروگوئه" },
+            {
+                "languageCode": "hr",
+                "official": "Orijentalna Republika Urugvaj",
+                "common": "Urugvaj"
+            }
+        ],
+        "currencies": [
+            { "name": "Uruguayan peso", "symbol": "$", "currencyCode": "UYU" }
+        ],
+        "flag": "🇺🇾",
+        "codes": { "cca2": "UY", "cca3": "URY", "ccn3": "858" },
+        "coordinates": { "latitude": -33, "longitude": -56 }
+    }
+}

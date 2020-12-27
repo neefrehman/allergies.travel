@@ -1,1 +1,131 @@
-{"title":"Cyprus","slug":"cyprus","baseInfo":{"name":{"common":"Cyprus","official":"Republic of Cyprus","native":[{"languageCode":"el","official":"Δημοκρατία της Κύπρος","common":"Κύπρος"},{"languageCode":"tr","official":"Kıbrıs Cumhuriyeti","common":"Kıbrıs"}]},"capital":"Nicosia","region":"Europe","subregion":"Eastern Europe","languages":[{"languageCode":"el","name":"Greek"},{"languageCode":"tr","name":"Turkish"}],"translations":[{"languageCode":"cs","official":"Kyperská republika","common":"Kypr"},{"languageCode":"cy","official":"Gweriniaeth Cyprus","common":"Cyprus"},{"languageCode":"de","official":"Republik Zypern","common":"Zypern"},{"languageCode":"fr","official":"République de Chypre","common":"Chypre"},{"languageCode":"hr","official":"Republika Cipar","common":"Cipar"},{"languageCode":"it","official":"Repubblica di Cipro","common":"Cipro"},{"languageCode":"ja","official":"キプロス共和国","common":"キプロス"},{"languageCode":"nl","official":"Republiek Cyprus","common":"Cyprus"},{"languageCode":"pt","official":"República de Chipre","common":"Chipre"},{"languageCode":"ru","official":"Республика Кипр","common":"Кипр"},{"languageCode":"sk","official":"Cyperská republika","common":"Cyprus"},{"languageCode":"es","official":"República de Chipre","common":"Chipre"},{"languageCode":"fi","official":"Kyproksen tasavalta","common":"Kypros"},{"languageCode":"et","official":"Küprose Vabariik","common":"Küpros"},{"languageCode":"zh","official":"塞浦路斯共和国","common":"塞浦路斯"},{"languageCode":"pl","official":"Republika Cypryjska","common":"Cypr"},{"languageCode":"ur","official":"جمہوریہ قبرص","common":"قبرص"},{"languageCode":"ko","official":"키프로스 공화국","common":"키프로스"},{"official":"جمهوری قبرس","common":"قِبرِس"}],"currencies":[{"name":"Euro","symbol":"€","currencyCode":"EUR"}],"flag":"🇨🇾","codes":{"cca2":"CY","cca3":"CYP","ccn3":"196"},"coordinates":{"latitude":35,"longitude":33}}}
+{
+    "title": "Cyprus",
+    "slug": "cyprus",
+    "baseInfo": {
+        "name": {
+            "common": "Cyprus",
+            "official": "Republic of Cyprus",
+            "native": [
+                {
+                    "languageCode": "el",
+                    "official": "Δημοκρατία της Κύπρος",
+                    "common": "Κύπρος"
+                },
+                {
+                    "languageCode": "tr",
+                    "official": "Kıbrıs Cumhuriyeti",
+                    "common": "Kıbrıs"
+                }
+            ]
+        },
+        "capital": "Nicosia",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [
+            { "languageCode": "el", "name": "Greek" },
+            { "languageCode": "tr", "name": "Turkish" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Kyperská republika",
+                "common": "Kypr"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Cyprus",
+                "common": "Cyprus"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Zypern",
+                "common": "Zypern"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de Chypre",
+                "common": "Chypre"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Cipar",
+                "common": "Cipar"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Cipro",
+                "common": "Cipro"
+            },
+            {
+                "languageCode": "ja",
+                "official": "キプロス共和国",
+                "common": "キプロス"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Cyprus",
+                "common": "Cyprus"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República de Chipre",
+                "common": "Chipre"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Кипр",
+                "common": "Кипр"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Cyperská republika",
+                "common": "Cyprus"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Chipre",
+                "common": "Chipre"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Kyproksen tasavalta",
+                "common": "Kypros"
+            },
+            {
+                "languageCode": "et",
+                "official": "Küprose Vabariik",
+                "common": "Küpros"
+            },
+            {
+                "languageCode": "zh",
+                "official": "塞浦路斯共和国",
+                "common": "塞浦路斯"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Cypryjska",
+                "common": "Cypr"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ قبرص",
+                "common": "قبرص"
+            },
+            {
+                "languageCode": "ko",
+                "official": "키프로스 공화국",
+                "common": "키프로스"
+            },
+            { "official": "جمهوری قبرس", "common": "قِبرِس" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Cipar",
+                "common": "Cipar"
+            }
+        ],
+        "currencies": [{ "name": "Euro", "symbol": "€", "currencyCode": "EUR" }],
+        "flag": "🇨🇾",
+        "codes": { "cca2": "CY", "cca3": "CYP", "ccn3": "196" },
+        "coordinates": { "latitude": 35, "longitude": 33 }
+    }
+}

@@ -1,1 +1,124 @@
-{"title":"Israel","slug":"israel","baseInfo":{"name":{"common":"Israel","official":"State of Israel","native":[{"languageCode":"ar","official":"دولة إسرائيل","common":"إسرائيل"},{"languageCode":"he","official":"מדינת ישראל","common":"ישראל"}]},"capital":"Jerusalem","region":"Asia","subregion":"Western Asia","languages":[{"languageCode":"ar","name":"Arabic"},{"languageCode":"he","name":"Hebrew"}],"translations":[{"languageCode":"cs","official":"Stát Izrael","common":"Izrael"},{"languageCode":"de","official":"Staat Israel","common":"Israel"},{"languageCode":"fr","official":"État d'Israël","common":"Israël"},{"languageCode":"hr","official":"Država Izrael","common":"Izrael"},{"languageCode":"it","official":"Stato di Israele","common":"Israele"},{"languageCode":"ja","official":"イスラエル国","common":"イスラエル"},{"languageCode":"nl","official":"Staat Israël","common":"Israël"},{"languageCode":"pt","official":"Estado de Israel","common":"Israel"},{"languageCode":"ru","official":"Государство Израиль","common":"Израиль"},{"languageCode":"sk","official":"Izraelský štát","common":"Izrael"},{"languageCode":"es","official":"Estado de Israel","common":"Israel"},{"languageCode":"fi","official":"Israelin valtio","common":"Israel"},{"languageCode":"et","official":"Iisraeli Riik","common":"Iisrael"},{"languageCode":"zh","official":"以色列国","common":"以色列"},{"languageCode":"pl","official":"Państwo Izrael","common":"Izrael"},{"languageCode":"ur","official":"ریاستِ اسرائیل","common":"اسرائیل"},{"languageCode":"ko","official":"이스라엘국","common":"이스라엘"},{"official":"فلسطين اشغالی","common":"فلسطين اشغالی"}],"currencies":[{"name":"Israeli new shekel","symbol":"₪","currencyCode":"ILS"}],"flag":"🇮🇱","codes":{"cca2":"IL","cca3":"ISR","ccn3":"376"},"coordinates":{"latitude":31.47,"longitude":35.13}}}
+{
+    "title": "Israel",
+    "slug": "israel",
+    "baseInfo": {
+        "name": {
+            "common": "Israel",
+            "official": "State of Israel",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "دولة إسرائيل",
+                    "common": "إسرائيل"
+                },
+                {
+                    "languageCode": "he",
+                    "official": "מדינת ישראל",
+                    "common": "ישראל"
+                }
+            ]
+        },
+        "capital": "Jerusalem",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [
+            { "languageCode": "ar", "name": "Arabic" },
+            { "languageCode": "he", "name": "Hebrew" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Stát Izrael",
+                "common": "Izrael"
+            },
+            {
+                "languageCode": "de",
+                "official": "Staat Israel",
+                "common": "Israel"
+            },
+            {
+                "languageCode": "fr",
+                "official": "État d'Israël",
+                "common": "Israël"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Država Izrael",
+                "common": "Izrael"
+            },
+            {
+                "languageCode": "it",
+                "official": "Stato di Israele",
+                "common": "Israele"
+            },
+            {
+                "languageCode": "ja",
+                "official": "イスラエル国",
+                "common": "イスラエル"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Staat Israël",
+                "common": "Israël"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Estado de Israel",
+                "common": "Israel"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Государство Израиль",
+                "common": "Израиль"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Izraelský štát",
+                "common": "Izrael"
+            },
+            {
+                "languageCode": "es",
+                "official": "Estado de Israel",
+                "common": "Israel"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Israelin valtio",
+                "common": "Israel"
+            },
+            {
+                "languageCode": "et",
+                "official": "Iisraeli Riik",
+                "common": "Iisrael"
+            },
+            { "languageCode": "zh", "official": "以色列国", "common": "以色列" },
+            {
+                "languageCode": "pl",
+                "official": "Państwo Izrael",
+                "common": "Izrael"
+            },
+            {
+                "languageCode": "ur",
+                "official": "ریاستِ اسرائیل",
+                "common": "اسرائیل"
+            },
+            {
+                "languageCode": "ko",
+                "official": "이스라엘국",
+                "common": "이스라엘"
+            },
+            { "official": "فلسطين اشغالی", "common": "فلسطين اشغالی" },
+            {
+                "languageCode": "hr",
+                "official": "Država Izrael",
+                "common": "Izrael"
+            }
+        ],
+        "currencies": [
+            { "name": "Israeli new shekel", "symbol": "₪", "currencyCode": "ILS" }
+        ],
+        "flag": "🇮🇱",
+        "codes": { "cca2": "IL", "cca3": "ISR", "ccn3": "376" },
+        "coordinates": { "latitude": 31.47, "longitude": 35.13 }
+    }
+}

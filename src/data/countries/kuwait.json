@@ -1,1 +1,112 @@
-{"title":"Kuwait","slug":"kuwait","baseInfo":{"name":{"common":"Kuwait","official":"State of Kuwait","native":[{"languageCode":"ar","official":"دولة الكويت","common":"الكويت"}]},"capital":"Kuwait City","region":"Asia","subregion":"Western Asia","languages":[{"languageCode":"ar","name":"Arabic"}],"translations":[{"languageCode":"cs","official":"Stát Kuvajt","common":"Kuvajt"},{"languageCode":"de","official":"Staat Kuwait","common":"Kuwait"},{"languageCode":"fr","official":"État du Koweït","common":"Koweït"},{"languageCode":"hr","official":"Država Kuvajt","common":"Kuvajt"},{"languageCode":"it","official":"Stato del Kuwait","common":"Kuwait"},{"languageCode":"ja","official":"クウェート国","common":"クウェート"},{"languageCode":"nl","official":"Staat Koeweit","common":"Koeweit"},{"languageCode":"pt","official":"Estado do Kuwait","common":"Kuwait"},{"languageCode":"ru","official":"Государство Кувейт","common":"Кувейт"},{"languageCode":"sk","official":"Kuvajtský štát","common":"Kuvajt"},{"languageCode":"es","official":"Estado de Kuwait","common":"Kuwait"},{"languageCode":"fi","official":"Kuwaitin valtio","common":"Kuwait"},{"languageCode":"et","official":"Kuveidi Riik","common":"Kuveit"},{"languageCode":"zh","official":"科威特国","common":"科威特"},{"languageCode":"pl","official":"Państwo Kuwejt","common":"Kuwejt"},{"languageCode":"ur","official":"دولتِ کویت","common":"کویت"},{"languageCode":"ko","official":"쿠웨이트국","common":"쿠웨이트"},{"official":"دولت کویت","common":"کُویت"}],"currencies":[{"name":"Kuwaiti dinar","symbol":"د.ك","currencyCode":"KWD"}],"flag":"🇰🇼","codes":{"cca2":"KW","cca3":"KWT","ccn3":"414"},"coordinates":{"latitude":29.5,"longitude":45.75}}}
+{
+    "title": "Kuwait",
+    "slug": "kuwait",
+    "baseInfo": {
+        "name": {
+            "common": "Kuwait",
+            "official": "State of Kuwait",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "دولة الكويت",
+                    "common": "الكويت"
+                }
+            ]
+        },
+        "capital": "Kuwait City",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [{ "languageCode": "ar", "name": "Arabic" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Stát Kuvajt",
+                "common": "Kuvajt"
+            },
+            {
+                "languageCode": "de",
+                "official": "Staat Kuwait",
+                "common": "Kuwait"
+            },
+            {
+                "languageCode": "fr",
+                "official": "État du Koweït",
+                "common": "Koweït"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Država Kuvajt",
+                "common": "Kuvajt"
+            },
+            {
+                "languageCode": "it",
+                "official": "Stato del Kuwait",
+                "common": "Kuwait"
+            },
+            {
+                "languageCode": "ja",
+                "official": "クウェート国",
+                "common": "クウェート"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Staat Koeweit",
+                "common": "Koeweit"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Estado do Kuwait",
+                "common": "Kuwait"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Государство Кувейт",
+                "common": "Кувейт"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Kuvajtský štát",
+                "common": "Kuvajt"
+            },
+            {
+                "languageCode": "es",
+                "official": "Estado de Kuwait",
+                "common": "Kuwait"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Kuwaitin valtio",
+                "common": "Kuwait"
+            },
+            {
+                "languageCode": "et",
+                "official": "Kuveidi Riik",
+                "common": "Kuveit"
+            },
+            { "languageCode": "zh", "official": "科威特国", "common": "科威特" },
+            {
+                "languageCode": "pl",
+                "official": "Państwo Kuwejt",
+                "common": "Kuwejt"
+            },
+            { "languageCode": "ur", "official": "دولتِ کویت", "common": "کویت" },
+            {
+                "languageCode": "ko",
+                "official": "쿠웨이트국",
+                "common": "쿠웨이트"
+            },
+            { "official": "دولت کویت", "common": "کُویت" },
+            {
+                "languageCode": "hr",
+                "official": "Država Kuvajt",
+                "common": "Kuvajt"
+            }
+        ],
+        "currencies": [
+            { "name": "Kuwaiti dinar", "symbol": "د.ك", "currencyCode": "KWD" }
+        ],
+        "flag": "🇰🇼",
+        "codes": { "cca2": "KW", "cca3": "KWT", "ccn3": "414" },
+        "coordinates": { "latitude": 29.5, "longitude": 45.75 }
+    }
+}

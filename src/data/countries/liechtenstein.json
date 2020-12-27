@@ -1,1 +1,120 @@
-{"title":"Liechtenstein","slug":"liechtenstein","baseInfo":{"name":{"common":"Liechtenstein","official":"Principality of Liechtenstein","native":[{"languageCode":"de","official":"Fürstentum Liechtenstein","common":"Liechtenstein"}]},"capital":"Vaduz","region":"Europe","subregion":"Western Europe","languages":[{"languageCode":"de","name":"German"}],"translations":[{"languageCode":"cs","official":"Knížectví Lichtenštejnské","common":"Lichtenštejnsko"},{"languageCode":"de","official":"Fürstentum Liechtenstein","common":"Liechtenstein"},{"languageCode":"fr","official":"Principauté du Liechtenstein","common":"Liechtenstein"},{"languageCode":"hr","official":"Kneževina Lihtenštajn","common":"Lihtenštajn"},{"languageCode":"it","official":"Principato del Liechtenstein","common":"Liechtenstein"},{"languageCode":"ja","official":"リヒテンシュタイン公国","common":"リヒテンシュタイン"},{"languageCode":"nl","official":"Vorstendom Liechtenstein","common":"Liechtenstein"},{"languageCode":"pt","official":"Principado de Liechtenstein","common":"Liechtenstein"},{"languageCode":"ru","official":"Княжество Лихтенштейн","common":"Лихтенштейн"},{"languageCode":"sk","official":"Lichtenštajnské kniežatstvo","common":"Lichtenštajnsko"},{"languageCode":"es","official":"Principado de Liechtenstein","common":"Liechtenstein"},{"languageCode":"fi","official":"Liechensteinin ruhtinaskunta","common":"Liechenstein"},{"languageCode":"et","official":"Liechtensteini Vürstiriik","common":"Liechtenstein"},{"languageCode":"zh","official":"列支敦士登公国","common":"列支敦士登"},{"languageCode":"pl","official":"Księstwo Liechtensteinu","common":"Liechtenstein"},{"languageCode":"ur","official":"امارات لیختینستائن","common":"لیختینستائن"},{"languageCode":"ko","official":"리히텐슈타인 공국","common":"리히텐슈타인"},{"official":"شاهزاده‌نشین لیختن‌اشتاین","common":"لیختن‌اشتاین"}],"currencies":[{"name":"Swiss franc","symbol":"Fr","currencyCode":"CHF"}],"flag":"🇱🇮","codes":{"cca2":"LI","cca3":"LIE","ccn3":"438"},"coordinates":{"latitude":47.26666666,"longitude":9.53333333}}}
+{
+    "title": "Liechtenstein",
+    "slug": "liechtenstein",
+    "baseInfo": {
+        "name": {
+            "common": "Liechtenstein",
+            "official": "Principality of Liechtenstein",
+            "native": [
+                {
+                    "languageCode": "de",
+                    "official": "Fürstentum Liechtenstein",
+                    "common": "Liechtenstein"
+                }
+            ]
+        },
+        "capital": "Vaduz",
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "languages": [{ "languageCode": "de", "name": "German" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Knížectví Lichtenštejnské",
+                "common": "Lichtenštejnsko"
+            },
+            {
+                "languageCode": "de",
+                "official": "Fürstentum Liechtenstein",
+                "common": "Liechtenstein"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Principauté du Liechtenstein",
+                "common": "Liechtenstein"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Kneževina Lihtenštajn",
+                "common": "Lihtenštajn"
+            },
+            {
+                "languageCode": "it",
+                "official": "Principato del Liechtenstein",
+                "common": "Liechtenstein"
+            },
+            {
+                "languageCode": "ja",
+                "official": "リヒテンシュタイン公国",
+                "common": "リヒテンシュタイン"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Vorstendom Liechtenstein",
+                "common": "Liechtenstein"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Principado de Liechtenstein",
+                "common": "Liechtenstein"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Княжество Лихтенштейн",
+                "common": "Лихтенштейн"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Lichtenštajnské kniežatstvo",
+                "common": "Lichtenštajnsko"
+            },
+            {
+                "languageCode": "es",
+                "official": "Principado de Liechtenstein",
+                "common": "Liechtenstein"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Liechensteinin ruhtinaskunta",
+                "common": "Liechenstein"
+            },
+            {
+                "languageCode": "et",
+                "official": "Liechtensteini Vürstiriik",
+                "common": "Liechtenstein"
+            },
+            {
+                "languageCode": "zh",
+                "official": "列支敦士登公国",
+                "common": "列支敦士登"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Księstwo Liechtensteinu",
+                "common": "Liechtenstein"
+            },
+            {
+                "languageCode": "ur",
+                "official": "امارات لیختینستائن",
+                "common": "لیختینستائن"
+            },
+            {
+                "languageCode": "ko",
+                "official": "리히텐슈타인 공국",
+                "common": "리히텐슈타인"
+            },
+            { "official": "شاهزاده‌نشین لیختن‌اشتاین", "common": "لیختن‌اشتاین" },
+            {
+                "languageCode": "hr",
+                "official": "Kneževina Lihtenštajn",
+                "common": "Lihtenštajn"
+            }
+        ],
+        "currencies": [
+            { "name": "Swiss franc", "symbol": "Fr", "currencyCode": "CHF" }
+        ],
+        "flag": "🇱🇮",
+        "codes": { "cca2": "LI", "cca3": "LIE", "ccn3": "438" },
+        "coordinates": { "latitude": 47.26666666, "longitude": 9.53333333 }
+    }
+}

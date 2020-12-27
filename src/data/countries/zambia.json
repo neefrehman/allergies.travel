@@ -1,1 +1,120 @@
-{"title":"Zambia","slug":"zambia","baseInfo":{"name":{"common":"Zambia","official":"Republic of Zambia","native":[{"languageCode":"en","official":"Republic of Zambia","common":"Zambia"}]},"capital":"Lusaka","region":"Africa","subregion":"Eastern Africa","languages":[{"languageCode":"en","name":"English"}],"translations":[{"languageCode":"cs","official":"Zambijská republika","common":"Zambie"},{"languageCode":"de","official":"Republik Sambia","common":"Sambia"},{"languageCode":"fr","official":"République de Zambie","common":"Zambie"},{"languageCode":"hr","official":"Republika Zambija","common":"Zambija"},{"languageCode":"it","official":"Repubblica di Zambia","common":"Zambia"},{"languageCode":"ja","official":"ザンビア共和国","common":"ザンビア"},{"languageCode":"nl","official":"Republiek Zambia","common":"Zambia"},{"languageCode":"pt","official":"República da Zâmbia","common":"Zâmbia"},{"languageCode":"ru","official":"Республика Замбия","common":"Замбия"},{"languageCode":"sk","official":"Zambijská republika","common":"Zambia"},{"languageCode":"es","official":"República de Zambia","common":"Zambia"},{"languageCode":"fi","official":"Sambian tasavalta","common":"Sambia"},{"languageCode":"et","official":"Sambia Vabariik","common":"Sambia"},{"languageCode":"zh","official":"赞比亚共和国","common":"赞比亚"},{"languageCode":"pl","official":"Republika Zambii","common":"Zambia"},{"languageCode":"ur","official":"جمہوریہ زیمبیا","common":"زیمبیا"},{"languageCode":"ko","official":"잠비아 공화국","common":"잠비아"},{"official":"جمهوری زامبیا","common":"زامبیا"}],"currencies":[{"name":"Zambian kwacha","symbol":"ZK","currencyCode":"ZMW"}],"flag":"🇿🇲","codes":{"cca2":"ZM","cca3":"ZMB","ccn3":"894"},"coordinates":{"latitude":-15,"longitude":30}}}
+{
+    "title": "Zambia",
+    "slug": "zambia",
+    "baseInfo": {
+        "name": {
+            "common": "Zambia",
+            "official": "Republic of Zambia",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Zambia",
+                    "common": "Zambia"
+                }
+            ]
+        },
+        "capital": "Lusaka",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Zambijská republika",
+                "common": "Zambie"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Sambia",
+                "common": "Sambia"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de Zambie",
+                "common": "Zambie"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Zambija",
+                "common": "Zambija"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Zambia",
+                "common": "Zambia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ザンビア共和国",
+                "common": "ザンビア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Zambia",
+                "common": "Zambia"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Zâmbia",
+                "common": "Zâmbia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Замбия",
+                "common": "Замбия"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Zambijská republika",
+                "common": "Zambia"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Zambia",
+                "common": "Zambia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Sambian tasavalta",
+                "common": "Sambia"
+            },
+            {
+                "languageCode": "et",
+                "official": "Sambia Vabariik",
+                "common": "Sambia"
+            },
+            {
+                "languageCode": "zh",
+                "official": "赞比亚共和国",
+                "common": "赞比亚"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Zambii",
+                "common": "Zambia"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ زیمبیا",
+                "common": "زیمبیا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "잠비아 공화국",
+                "common": "잠비아"
+            },
+            { "official": "جمهوری زامبیا", "common": "زامبیا" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Zambija",
+                "common": "Zambija"
+            }
+        ],
+        "currencies": [
+            { "name": "Zambian kwacha", "symbol": "ZK", "currencyCode": "ZMW" }
+        ],
+        "flag": "🇿🇲",
+        "codes": { "cca2": "ZM", "cca3": "ZMB", "ccn3": "894" },
+        "coordinates": { "latitude": -15, "longitude": 30 }
+    }
+}

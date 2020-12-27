@@ -1,1 +1,104 @@
-{"title":"Greenland","slug":"greenland","baseInfo":{"name":{"common":"Greenland","official":"Greenland","native":[{"languageCode":"kl","official":"Kalaallit Nunaat","common":"Kalaallit Nunaat"}]},"capital":"Nuuk","region":"Americas","subregion":"North America","languages":[{"languageCode":"kl","name":"Greenlandic"}],"translations":[{"languageCode":"cs","official":"Grónsko","common":"Grónsko"},{"languageCode":"de","official":"Grönland","common":"Grönland"},{"languageCode":"fr","official":"Groenland","common":"Groenland"},{"languageCode":"hr","official":"Grenland","common":"Grenland"},{"languageCode":"it","official":"Groenlandia","common":"Groenlandia"},{"languageCode":"ja","official":"グリーンランド","common":"グリーンランド"},{"languageCode":"nl","official":"Groenland","common":"Groenland"},{"languageCode":"pt","official":"Groenlândia","common":"Gronelândia"},{"languageCode":"ru","official":"Гренландия","common":"Гренландия"},{"languageCode":"sk","official":"Grónsko","common":"Grónsko"},{"languageCode":"es","official":"Groenlandia","common":"Groenlandia"},{"languageCode":"fi","official":"Groönlanti","common":"Groönlanti"},{"languageCode":"et","official":"Gröönimaa","common":"Gröönimaa"},{"languageCode":"zh","official":"格陵兰","common":"格陵兰"},{"languageCode":"pl","official":"Grenlandia","common":"Grenlandia"},{"languageCode":"ur","official":"گرین لینڈ","common":"گرین لینڈ"},{"languageCode":"ko","official":"그린란드","common":"그린란드"},{"official":"گروئنلند","common":"گرینلند"}],"currencies":[{"name":"krone","symbol":"kr.","currencyCode":"DKK"}],"flag":"🇬🇱","codes":{"cca2":"GL","cca3":"GRL","ccn3":"304"},"coordinates":{"latitude":72,"longitude":-40}}}
+{
+    "title": "Greenland",
+    "slug": "greenland",
+    "baseInfo": {
+        "name": {
+            "common": "Greenland",
+            "official": "Greenland",
+            "native": [
+                {
+                    "languageCode": "kl",
+                    "official": "Kalaallit Nunaat",
+                    "common": "Kalaallit Nunaat"
+                }
+            ]
+        },
+        "capital": "Nuuk",
+        "region": "Americas",
+        "subregion": "North America",
+        "languages": [{ "languageCode": "kl", "name": "Greenlandic" }],
+        "translations": [
+            { "languageCode": "cs", "official": "Grónsko", "common": "Grónsko" },
+            {
+                "languageCode": "de",
+                "official": "Grönland",
+                "common": "Grönland"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Groenland",
+                "common": "Groenland"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Grenland",
+                "common": "Grenland"
+            },
+            {
+                "languageCode": "it",
+                "official": "Groenlandia",
+                "common": "Groenlandia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "グリーンランド",
+                "common": "グリーンランド"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Groenland",
+                "common": "Groenland"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Groenlândia",
+                "common": "Gronelândia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Гренландия",
+                "common": "Гренландия"
+            },
+            { "languageCode": "sk", "official": "Grónsko", "common": "Grónsko" },
+            {
+                "languageCode": "es",
+                "official": "Groenlandia",
+                "common": "Groenlandia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Groönlanti",
+                "common": "Groönlanti"
+            },
+            {
+                "languageCode": "et",
+                "official": "Gröönimaa",
+                "common": "Gröönimaa"
+            },
+            { "languageCode": "zh", "official": "格陵兰", "common": "格陵兰" },
+            {
+                "languageCode": "pl",
+                "official": "Grenlandia",
+                "common": "Grenlandia"
+            },
+            {
+                "languageCode": "ur",
+                "official": "گرین لینڈ",
+                "common": "گرین لینڈ"
+            },
+            {
+                "languageCode": "ko",
+                "official": "그린란드",
+                "common": "그린란드"
+            },
+            { "official": "گروئنلند", "common": "گرینلند" },
+            { "languageCode": "hr", "official": "Grenland", "common": "Grenland" }
+        ],
+        "currencies": [
+            { "name": "krone", "symbol": "kr.", "currencyCode": "DKK" }
+        ],
+        "flag": "🇬🇱",
+        "codes": { "cca2": "GL", "cca3": "GRL", "ccn3": "304" },
+        "coordinates": { "latitude": 72, "longitude": -40 }
+    }
+}

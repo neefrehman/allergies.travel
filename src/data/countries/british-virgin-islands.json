@@ -1,1 +1,127 @@
-{"title":"British Virgin Islands","slug":"british-virgin-islands","baseInfo":{"name":{"common":"British Virgin Islands","official":"Virgin Islands","native":[{"languageCode":"en","official":"Virgin Islands","common":"British Virgin Islands"}]},"capital":"Road Town","region":"Americas","subregion":"Caribbean","languages":[{"languageCode":"en","name":"English"}],"translations":[{"languageCode":"cs","official":"Britské Panenské ostrovy","common":"Britské Panenské ostrovy"},{"languageCode":"de","official":"Jungferninseln","common":"Britische Jungferninseln"},{"languageCode":"fr","official":"îles Vierges","common":"Îles Vierges britanniques"},{"languageCode":"hr","official":"Djevičanski Otoci","common":"Britanski Djevičanski Otoci"},{"languageCode":"it","official":"Isole Vergini","common":"Isole Vergini Britanniche"},{"languageCode":"ja","official":"バージン諸島","common":"イギリス領ヴァージン諸島"},{"languageCode":"nl","official":"Maagdeneilanden","common":"Britse Maagdeneilanden"},{"languageCode":"pt","official":"Ilhas Virgens","common":"Ilhas Virgens"},{"languageCode":"ru","official":"Виргинские острова","common":"Британские Виргинские острова"},{"languageCode":"sk","official":"Panenské ostrovy","common":"Panenské ostrovy"},{"languageCode":"es","official":"Islas Vírgenes","common":"Islas Vírgenes del Reino Unido"},{"languageCode":"fi","official":"Brittiläiset Neitsytsaaret","common":"Neitsytsaaret"},{"languageCode":"et","official":"Neitsisaared","common":"Briti Neitsisaared"},{"languageCode":"zh","official":"英属维尔京群岛","common":"英属维尔京群岛"},{"languageCode":"pl","official":"Brytyjskie Wyspy Dziewicze","common":"Brytyjskie Wyspy Dziewicze"},{"languageCode":"ur","official":"برطانوی جزائر ورجن","common":"برطانوی جزائر ورجن"},{"languageCode":"ko","official":"영국령 버진아일랜드","common":"영국령 버진아일랜드"},{"official":"جزایر ویرجین بریتانیا","common":"جزایر ویرجین بریتانیا"}],"currencies":[{"name":"United States dollar","symbol":"$","currencyCode":"USD"}],"flag":"🇻🇬","codes":{"cca2":"VG","cca3":"VGB","ccn3":"092"},"coordinates":{"latitude":18.431383,"longitude":-64.62305}}}
+{
+    "title": "British Virgin Islands",
+    "slug": "british-virgin-islands",
+    "baseInfo": {
+        "name": {
+            "common": "British Virgin Islands",
+            "official": "Virgin Islands",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Virgin Islands",
+                    "common": "British Virgin Islands"
+                }
+            ]
+        },
+        "capital": "Road Town",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Britské Panenské ostrovy",
+                "common": "Britské Panenské ostrovy"
+            },
+            {
+                "languageCode": "de",
+                "official": "Jungferninseln",
+                "common": "Britische Jungferninseln"
+            },
+            {
+                "languageCode": "fr",
+                "official": "îles Vierges",
+                "common": "Îles Vierges britanniques"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Djevičanski Otoci",
+                "common": "Britanski Djevičanski Otoci"
+            },
+            {
+                "languageCode": "it",
+                "official": "Isole Vergini",
+                "common": "Isole Vergini Britanniche"
+            },
+            {
+                "languageCode": "ja",
+                "official": "バージン諸島",
+                "common": "イギリス領ヴァージン諸島"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Maagdeneilanden",
+                "common": "Britse Maagdeneilanden"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Ilhas Virgens",
+                "common": "Ilhas Virgens"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Виргинские острова",
+                "common": "Британские Виргинские острова"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Panenské ostrovy",
+                "common": "Panenské ostrovy"
+            },
+            {
+                "languageCode": "es",
+                "official": "Islas Vírgenes",
+                "common": "Islas Vírgenes del Reino Unido"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Brittiläiset Neitsytsaaret",
+                "common": "Neitsytsaaret"
+            },
+            {
+                "languageCode": "et",
+                "official": "Neitsisaared",
+                "common": "Briti Neitsisaared"
+            },
+            {
+                "languageCode": "zh",
+                "official": "英属维尔京群岛",
+                "common": "英属维尔京群岛"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Brytyjskie Wyspy Dziewicze",
+                "common": "Brytyjskie Wyspy Dziewicze"
+            },
+            {
+                "languageCode": "ur",
+                "official": "برطانوی جزائر ورجن",
+                "common": "برطانوی جزائر ورجن"
+            },
+            {
+                "languageCode": "ko",
+                "official": "영국령 버진아일랜드",
+                "common": "영국령 버진아일랜드"
+            },
+            {
+                "official": "جزایر ویرجین بریتانیا",
+                "common": "جزایر ویرجین بریتانیا"
+            },
+            {
+                "languageCode": "hr",
+                "official": "Djevičanski Otoci",
+                "common": "Britanski Djevičanski Otoci"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "United States dollar",
+                "symbol": "$",
+                "currencyCode": "USD"
+            }
+        ],
+        "flag": "🇻🇬",
+        "codes": { "cca2": "VG", "cca3": "VGB", "ccn3": "092" },
+        "coordinates": { "latitude": 18.431383, "longitude": -64.62305 }
+    }
+}

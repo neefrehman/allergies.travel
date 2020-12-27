@@ -1,1 +1,123 @@
-{"title":"United Kingdom","slug":"united-kingdom","baseInfo":{"name":{"common":"United Kingdom","official":"United Kingdom of Great Britain and Northern Ireland","native":[{"languageCode":"en","official":"United Kingdom of Great Britain and Northern Ireland","common":"United Kingdom"}]},"capital":"London","region":"Europe","subregion":"Northern Europe","languages":[{"languageCode":"en","name":"English"}],"translations":[{"languageCode":"cs","official":"Spojené království Velké Británie a Severního Irska","common":"Spojené království"},{"languageCode":"de","official":"Vereinigtes Königreich Großbritannien und Nordirland","common":"Vereinigtes Königreich"},{"languageCode":"fr","official":"Royaume-Uni de Grande-Bretagne et d'Irlande du Nord","common":"Royaume-Uni"},{"languageCode":"hr","official":"Ujedinjeno Kraljevstvo Velike Britanije i Sjeverne Irske","common":"Ujedinjeno Kraljevstvo"},{"languageCode":"it","official":"Regno Unito di Gran Bretagna e Irlanda del Nord","common":"Regno Unito"},{"languageCode":"ja","official":"グレート·ブリテンおよび北アイルランド連合王国","common":"イギリス"},{"languageCode":"nl","official":"Verenigd Koninkrijk van Groot-Brittannië en Noord-Ierland","common":"Verenigd Koninkrijk"},{"languageCode":"pt","official":"Reino Unido da Grã-Bretanha e Irlanda do Norte","common":"Reino Unido"},{"languageCode":"ru","official":"Соединенное Королевство Великобритании и Северной Ирландии","common":"Великобритания"},{"languageCode":"sk","official":"Spojené kráľovstvo Veľkej Británie a SevernéhoÌrska","common":"Veľká Británia (Spojené kráľovstvo)"},{"languageCode":"es","official":"Reino Unido de Gran Bretaña e Irlanda del Norte","common":"Reino Unido"},{"languageCode":"fi","official":"Ison-Britannian ja Pohjois-Irlannin yhdistynyt kuningaskunta","common":"Yhdistynyt kuningaskunta"},{"languageCode":"et","official":"Suurbritannia ja Põhja-Iiri Ühendkuningriik","common":"Suurbritannia"},{"languageCode":"zh","official":"大不列颠及北爱尔兰联合王国","common":"英国"},{"languageCode":"pl","official":"Zjednoczone Królestwo Wielkiej Brytanii i Irlandii Północnej","common":"Zjednoczone Krłlestwo"},{"languageCode":"ur","official":"مملکتِ متحدہ برطانیہ عظمی و شمالی آئرلینڈ","common":"مملکتِ متحدہ"},{"languageCode":"ko","official":"그레이트브리튼 북아일랜드 연합 왕국","common":"영국"},{"official":"پادشاهی متحد بریتانیای کبیر و ایرلند شمالی","common":"انگلیس"}],"currencies":[{"name":"British pound","symbol":"£","currencyCode":"GBP"}],"flag":"🇬🇧","codes":{"cca2":"GB","cca3":"GBR","ccn3":"826"},"coordinates":{"latitude":54,"longitude":-2}}}
+{
+    "title": "United Kingdom",
+    "slug": "united-kingdom",
+    "baseInfo": {
+        "name": {
+            "common": "United Kingdom",
+            "official": "United Kingdom of Great Britain and Northern Ireland",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "United Kingdom of Great Britain and Northern Ireland",
+                    "common": "United Kingdom"
+                }
+            ]
+        },
+        "capital": "London",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Spojené království Velké Británie a Severního Irska",
+                "common": "Spojené království"
+            },
+            {
+                "languageCode": "de",
+                "official": "Vereinigtes Königreich Großbritannien und Nordirland",
+                "common": "Vereinigtes Königreich"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord",
+                "common": "Royaume-Uni"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Ujedinjeno Kraljevstvo Velike Britanije i Sjeverne Irske",
+                "common": "Ujedinjeno Kraljevstvo"
+            },
+            {
+                "languageCode": "it",
+                "official": "Regno Unito di Gran Bretagna e Irlanda del Nord",
+                "common": "Regno Unito"
+            },
+            {
+                "languageCode": "ja",
+                "official": "グレート·ブリテンおよび北アイルランド連合王国",
+                "common": "イギリス"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Verenigd Koninkrijk van Groot-Brittannië en Noord-Ierland",
+                "common": "Verenigd Koninkrijk"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Reino Unido da Grã-Bretanha e Irlanda do Norte",
+                "common": "Reino Unido"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Соединенное Королевство Великобритании и Северной Ирландии",
+                "common": "Великобритания"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Spojené kráľovstvo Veľkej Británie a SevernéhoÌrska",
+                "common": "Veľká Británia (Spojené kráľovstvo)"
+            },
+            {
+                "languageCode": "es",
+                "official": "Reino Unido de Gran Bretaña e Irlanda del Norte",
+                "common": "Reino Unido"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Ison-Britannian ja Pohjois-Irlannin yhdistynyt kuningaskunta",
+                "common": "Yhdistynyt kuningaskunta"
+            },
+            {
+                "languageCode": "et",
+                "official": "Suurbritannia ja Põhja-Iiri Ühendkuningriik",
+                "common": "Suurbritannia"
+            },
+            {
+                "languageCode": "zh",
+                "official": "大不列颠及北爱尔兰联合王国",
+                "common": "英国"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Zjednoczone Królestwo Wielkiej Brytanii i Irlandii Północnej",
+                "common": "Zjednoczone Krłlestwo"
+            },
+            {
+                "languageCode": "ur",
+                "official": "مملکتِ متحدہ برطانیہ عظمی و شمالی آئرلینڈ",
+                "common": "مملکتِ متحدہ"
+            },
+            {
+                "languageCode": "ko",
+                "official": "그레이트브리튼 북아일랜드 연합 왕국",
+                "common": "영국"
+            },
+            {
+                "official": "پادشاهی متحد بریتانیای کبیر و ایرلند شمالی",
+                "common": "انگلیس"
+            },
+            {
+                "languageCode": "hr",
+                "official": "Ujedinjeno Kraljevstvo Velike Britanije i Sjeverne Irske",
+                "common": "Ujedinjeno Kraljevstvo"
+            }
+        ],
+        "currencies": [
+            { "name": "British pound", "symbol": "£", "currencyCode": "GBP" }
+        ],
+        "flag": "🇬🇧",
+        "codes": { "cca2": "GB", "cca3": "GBR", "ccn3": "826" },
+        "coordinates": { "latitude": 54, "longitude": -2 }
+    }
+}

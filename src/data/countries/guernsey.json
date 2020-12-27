@@ -1,1 +1,123 @@
-{"title":"Guernsey","slug":"guernsey","baseInfo":{"name":{"common":"Guernsey","official":"Bailiwick of Guernsey","native":[{"languageCode":"en","official":"Bailiwick of Guernsey","common":"Guernsey"},{"languageCode":"fr","official":"Bailliage de Guernesey","common":"Guernesey"},{"official":"Dgèrnésiais","common":"Dgèrnésiais"}]},"capital":"St. Peter Port","region":"Europe","subregion":"Northern Europe","languages":[{"languageCode":"en","name":"English"},{"languageCode":"fr","name":"French"},{"name":"Guernésiais"}],"translations":[{"languageCode":"cs","official":"Rychtářství Guernsey","common":"Guernsey"},{"languageCode":"de","official":"Vogtei Guernsey","common":"Guernsey"},{"languageCode":"fr","official":"Bailliage de Guernesey","common":"Guernesey"},{"languageCode":"hr","official":"Struka Guernsey","common":"Guernsey"},{"languageCode":"it","official":"Baliato di Guernsey","common":"Guernsey"},{"languageCode":"ja","official":"ガーンジーの得意分野","common":"ガーンジー"},{"languageCode":"nl","official":"Baljuwschap Guernsey","common":"Guernsey"},{"languageCode":"pt","official":"Bailiado de Guernsey","common":"Guernsey"},{"languageCode":"ru","official":"Коронное владение Гернси","common":"Гернси"},{"languageCode":"sk","official":"Guernsey","common":"Guernsey"},{"languageCode":"es","official":"Bailía de Guernsey","common":"Guernsey"},{"languageCode":"fi","official":"Guernsey","common":"Guernsey"},{"languageCode":"et","official":"Guernsey foogtkond","common":"Guernsey"},{"languageCode":"zh","official":"根西岛","common":"根西岛"},{"languageCode":"pl","official":"Baliwat Guernsey","common":"Guernsey"},{"languageCode":"ur","official":"گرنزی رودبار","common":"گرنزی"},{"languageCode":"ko","official":"건지 섬","common":"건지 섬"},{"official":"گرنزی","common":"گرنزی"}],"currencies":[{"name":"British pound","symbol":"£","currencyCode":"GBP"},{"name":"Guernsey pound","symbol":"£","currencyCode":"GGP"}],"flag":"🇬🇬","codes":{"cca2":"GG","cca3":"GGY","ccn3":"831"},"coordinates":{"latitude":49.46666666,"longitude":-2.58333333}}}
+{
+    "title": "Guernsey",
+    "slug": "guernsey",
+    "baseInfo": {
+        "name": {
+            "common": "Guernsey",
+            "official": "Bailiwick of Guernsey",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Bailiwick of Guernsey",
+                    "common": "Guernsey"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "Bailliage de Guernesey",
+                    "common": "Guernesey"
+                },
+                { "official": "Dgèrnésiais", "common": "Dgèrnésiais" }
+            ]
+        },
+        "capital": "St. Peter Port",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "fr", "name": "French" },
+            { "name": "Guernésiais" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Rychtářství Guernsey",
+                "common": "Guernsey"
+            },
+            {
+                "languageCode": "de",
+                "official": "Vogtei Guernsey",
+                "common": "Guernsey"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Bailliage de Guernesey",
+                "common": "Guernesey"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Struka Guernsey",
+                "common": "Guernsey"
+            },
+            {
+                "languageCode": "it",
+                "official": "Baliato di Guernsey",
+                "common": "Guernsey"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ガーンジーの得意分野",
+                "common": "ガーンジー"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Baljuwschap Guernsey",
+                "common": "Guernsey"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Bailiado de Guernsey",
+                "common": "Guernsey"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Коронное владение Гернси",
+                "common": "Гернси"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Guernsey",
+                "common": "Guernsey"
+            },
+            {
+                "languageCode": "es",
+                "official": "Bailía de Guernsey",
+                "common": "Guernsey"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Guernsey",
+                "common": "Guernsey"
+            },
+            {
+                "languageCode": "et",
+                "official": "Guernsey foogtkond",
+                "common": "Guernsey"
+            },
+            { "languageCode": "zh", "official": "根西岛", "common": "根西岛" },
+            {
+                "languageCode": "pl",
+                "official": "Baliwat Guernsey",
+                "common": "Guernsey"
+            },
+            {
+                "languageCode": "ur",
+                "official": "گرنزی رودبار",
+                "common": "گرنزی"
+            },
+            { "languageCode": "ko", "official": "건지 섬", "common": "건지 섬" },
+            { "official": "گرنزی", "common": "گرنزی" },
+            {
+                "languageCode": "hr",
+                "official": "Struka Guernsey",
+                "common": "Guernsey"
+            }
+        ],
+        "currencies": [
+            { "name": "British pound", "symbol": "£", "currencyCode": "GBP" },
+            { "name": "Guernsey pound", "symbol": "£", "currencyCode": "GGP" }
+        ],
+        "flag": "🇬🇬",
+        "codes": { "cca2": "GG", "cca3": "GGY", "ccn3": "831" },
+        "coordinates": { "latitude": 49.46666666, "longitude": -2.58333333 }
+    }
+}

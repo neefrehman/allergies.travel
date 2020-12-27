@@ -1,1 +1,59 @@
-{"title":"Belize","slug":"belize","baseInfo":{"name":{"common":"Belize","official":"Belize","native":[{"official":"Belize","common":"Belize"},{"languageCode":"en","official":"Belize","common":"Belize"},{"languageCode":"es","official":"Belice","common":"Belice"}]},"capital":"Belmopan","region":"Americas","subregion":"Central America","languages":[{"name":"Belizean Creole"},{"languageCode":"en","name":"English"},{"languageCode":"es","name":"Spanish"}],"translations":[{"languageCode":"cs","official":"Belize","common":"Belize"},{"languageCode":"cy","official":"Belîs","common":"Belîs"},{"languageCode":"de","official":"Belize","common":"Belize"},{"languageCode":"fr","official":"Belize","common":"Belize"},{"languageCode":"hr","official":"Belize","common":"Belize"},{"languageCode":"it","official":"Belize","common":"Belize"},{"languageCode":"ja","official":"ベリーズ","common":"ベリーズ"},{"languageCode":"nl","official":"Belize","common":"Belize"},{"languageCode":"pt","official":"Belize","common":"Belize"},{"languageCode":"ru","official":"Белиз","common":"Белиз"},{"languageCode":"sk","official":"Belize","common":"Belize"},{"languageCode":"es","official":"Belice","common":"Belice"},{"languageCode":"fi","official":"Belize","common":"Belize"},{"languageCode":"et","official":"Belize","common":"Belize"},{"languageCode":"zh","official":"伯利兹","common":"伯利兹"},{"languageCode":"pl","official":"Belize","common":"Belize"},{"languageCode":"ur","official":"بیلیز","common":"بیلیز"},{"languageCode":"ko","official":"벨리즈","common":"벨리즈"},{"official":"بلیز","common":"بلیز"}],"currencies":[{"name":"Belize dollar","symbol":"$","currencyCode":"BZD"}],"flag":"🇧🇿","codes":{"cca2":"BZ","cca3":"BLZ","ccn3":"084"},"coordinates":{"latitude":17.25,"longitude":-88.75}}}
+{
+    "title": "Belize",
+    "slug": "belize",
+    "baseInfo": {
+        "name": {
+            "common": "Belize",
+            "official": "Belize",
+            "native": [
+                { "official": "Belize", "common": "Belize" },
+                {
+                    "languageCode": "en",
+                    "official": "Belize",
+                    "common": "Belize"
+                },
+                { "languageCode": "es", "official": "Belice", "common": "Belice" }
+            ]
+        },
+        "capital": "Belmopan",
+        "region": "Americas",
+        "subregion": "Central America",
+        "languages": [
+            { "name": "Belizean Creole" },
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "es", "name": "Spanish" }
+        ],
+        "translations": [
+            { "languageCode": "cs", "official": "Belize", "common": "Belize" },
+            { "languageCode": "cy", "official": "Belîs", "common": "Belîs" },
+            { "languageCode": "de", "official": "Belize", "common": "Belize" },
+            { "languageCode": "fr", "official": "Belize", "common": "Belize" },
+            { "languageCode": "sh", "official": "Belize", "common": "Belize" },
+            { "languageCode": "it", "official": "Belize", "common": "Belize" },
+            {
+                "languageCode": "ja",
+                "official": "ベリーズ",
+                "common": "ベリーズ"
+            },
+            { "languageCode": "nl", "official": "Belize", "common": "Belize" },
+            { "languageCode": "pt", "official": "Belize", "common": "Belize" },
+            { "languageCode": "ru", "official": "Белиз", "common": "Белиз" },
+            { "languageCode": "sk", "official": "Belize", "common": "Belize" },
+            { "languageCode": "es", "official": "Belice", "common": "Belice" },
+            { "languageCode": "fi", "official": "Belize", "common": "Belize" },
+            { "languageCode": "et", "official": "Belize", "common": "Belize" },
+            { "languageCode": "zh", "official": "伯利兹", "common": "伯利兹" },
+            { "languageCode": "pl", "official": "Belize", "common": "Belize" },
+            { "languageCode": "ur", "official": "بیلیز", "common": "بیلیز" },
+            { "languageCode": "ko", "official": "벨리즈", "common": "벨리즈" },
+            { "official": "بلیز", "common": "بلیز" },
+            { "languageCode": "hr", "official": "Belize", "common": "Belize" }
+        ],
+        "currencies": [
+            { "name": "Belize dollar", "symbol": "$", "currencyCode": "BZD" }
+        ],
+        "flag": "🇧🇿",
+        "codes": { "cca2": "BZ", "cca3": "BLZ", "ccn3": "084" },
+        "coordinates": { "latitude": 17.25, "longitude": -88.75 }
+    }
+}

@@ -1,1 +1,135 @@
-{"title":"Sri Lanka","slug":"sri-lanka","baseInfo":{"name":{"common":"Sri Lanka","official":"Democratic Socialist Republic of Sri Lanka","native":[{"languageCode":"si","official":"ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය","common":"ශ්‍රී ලංකාව"},{"languageCode":"ta","official":"இலங்கை சனநாயக சோசலிசக் குடியரசு","common":"இலங்கை"}]},"capital":"Colombo","region":"Asia","subregion":"Southern Asia","languages":[{"languageCode":"si","name":"Sinhala"},{"languageCode":"ta","name":"Tamil"}],"translations":[{"languageCode":"cs","official":"Srílanská demokratická socialistická republika","common":"Srí Lanka"},{"languageCode":"de","official":"Demokratische Sozialistische Republik Sri Lanka","common":"Sri Lanka"},{"languageCode":"fr","official":"République démocratique socialiste du Sri Lanka","common":"Sri Lanka"},{"languageCode":"hr","official":"Demokratska Socijalističke Republike Šri Lanke","common":"Šri Lanka"},{"languageCode":"it","official":"Repubblica democratica socialista dello Sri Lanka","common":"Sri Lanka"},{"languageCode":"ja","official":"スリランカ民主社会主義共和国","common":"スリランカ"},{"languageCode":"nl","official":"Democratische Socialistische Republiek Sri Lanka","common":"Sri Lanka"},{"languageCode":"pt","official":"República Democrática Socialista do Sri Lanka","common":"Sri Lanka"},{"languageCode":"ru","official":"Демократическая Социалистическая Республика Шри-Ланка","common":"Шри-Ланка"},{"languageCode":"sk","official":"Srílanská demokratická socialistická republika","common":"Srí Lanka"},{"languageCode":"es","official":"República Democrática Socialista de Sri Lanka","common":"Sri Lanka"},{"languageCode":"fi","official":"Sri Lankan demokraattinen sosialistinen tasavalta","common":"Sri Lanka"},{"languageCode":"et","official":"Sri Lanka Demokraatlik Sotsialistlik Vabariik","common":"Sri Lanka"},{"languageCode":"zh","official":"斯里兰卡民主社会主义共和国","common":"斯里兰卡"},{"languageCode":"pl","official":"Demokratyczno-Socjalistyczna Republika Sri Lanki","common":"Sri Lanka"},{"languageCode":"ur","official":"جمہوری و اشتراکی جمہوریہ سری لنکا","common":"سری لنکا"},{"languageCode":"ko","official":"스리랑카 민주 사회주의 공화국","common":"스리랑카"},{"official":"جمهوری دموکراتیک سوسیالیستی سری‌لانکا","common":"سری‌لانکا"}],"currencies":[{"name":"Sri Lankan rupee","symbol":"Rs  රු","currencyCode":"LKR"}],"flag":"🇱🇰","codes":{"cca2":"LK","cca3":"LKA","ccn3":"144"},"coordinates":{"latitude":7,"longitude":81}}}
+{
+    "title": "Sri Lanka",
+    "slug": "sri-lanka",
+    "baseInfo": {
+        "name": {
+            "common": "Sri Lanka",
+            "official": "Democratic Socialist Republic of Sri Lanka",
+            "native": [
+                {
+                    "languageCode": "si",
+                    "official": "ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය",
+                    "common": "ශ්‍රී ලංකාව"
+                },
+                {
+                    "languageCode": "ta",
+                    "official": "இலங்கை சனநாயக சோசலிசக் குடியரசு",
+                    "common": "இலங்கை"
+                }
+            ]
+        },
+        "capital": "Colombo",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "languages": [
+            { "languageCode": "si", "name": "Sinhala" },
+            { "languageCode": "ta", "name": "Tamil" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Srílanská demokratická socialistická republika",
+                "common": "Srí Lanka"
+            },
+            {
+                "languageCode": "de",
+                "official": "Demokratische Sozialistische Republik Sri Lanka",
+                "common": "Sri Lanka"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République démocratique socialiste du Sri Lanka",
+                "common": "Sri Lanka"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Demokratska Socijalističke Republike Šri Lanke",
+                "common": "Šri Lanka"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica democratica socialista dello Sri Lanka",
+                "common": "Sri Lanka"
+            },
+            {
+                "languageCode": "ja",
+                "official": "スリランカ民主社会主義共和国",
+                "common": "スリランカ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Democratische Socialistische Republiek Sri Lanka",
+                "common": "Sri Lanka"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República Democrática Socialista do Sri Lanka",
+                "common": "Sri Lanka"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Демократическая Социалистическая Республика Шри-Ланка",
+                "common": "Шри-Ланка"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Srílanská demokratická socialistická republika",
+                "common": "Srí Lanka"
+            },
+            {
+                "languageCode": "es",
+                "official": "República Democrática Socialista de Sri Lanka",
+                "common": "Sri Lanka"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Sri Lankan demokraattinen sosialistinen tasavalta",
+                "common": "Sri Lanka"
+            },
+            {
+                "languageCode": "et",
+                "official": "Sri Lanka Demokraatlik Sotsialistlik Vabariik",
+                "common": "Sri Lanka"
+            },
+            {
+                "languageCode": "zh",
+                "official": "斯里兰卡民主社会主义共和国",
+                "common": "斯里兰卡"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Demokratyczno-Socjalistyczna Republika Sri Lanki",
+                "common": "Sri Lanka"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوری و اشتراکی جمہوریہ سری لنکا",
+                "common": "سری لنکا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "스리랑카 민주 사회주의 공화국",
+                "common": "스리랑카"
+            },
+            {
+                "official": "جمهوری دموکراتیک سوسیالیستی سری‌لانکا",
+                "common": "سری‌لانکا"
+            },
+            {
+                "languageCode": "hr",
+                "official": "Demokratska Socijalističke Republike Šri Lanke",
+                "common": "Šri Lanka"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "Sri Lankan rupee",
+                "symbol": "Rs  රු",
+                "currencyCode": "LKR"
+            }
+        ],
+        "flag": "🇱🇰",
+        "codes": { "cca2": "LK", "cca3": "LKA", "ccn3": "144" },
+        "coordinates": { "latitude": 7, "longitude": 81 }
+    }
+}

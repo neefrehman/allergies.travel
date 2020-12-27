@@ -1,1 +1,120 @@
-{"title":"Tonga","slug":"tonga","baseInfo":{"name":{"common":"Tonga","official":"Kingdom of Tonga","native":[{"languageCode":"en","official":"Kingdom of Tonga","common":"Tonga"},{"languageCode":"to","official":"Kingdom of Tonga","common":"Tonga"}]},"capital":"Nuku'alofa","region":"Oceania","subregion":"Polynesia","languages":[{"languageCode":"en","name":"English"},{"languageCode":"to","name":"Tongan"}],"translations":[{"languageCode":"cs","official":"Království Tonga","common":"Tonga"},{"languageCode":"de","official":"Königreich Tonga","common":"Tonga"},{"languageCode":"fr","official":"Royaume des Tonga","common":"Tonga"},{"languageCode":"hr","official":"Kraljevina Tonga","common":"Tonga"},{"languageCode":"it","official":"Regno di Tonga","common":"Tonga"},{"languageCode":"ja","official":"トンガ王国","common":"トンガ"},{"languageCode":"nl","official":"Koninkrijk Tonga","common":"Tonga"},{"languageCode":"pt","official":"Reino de Tonga","common":"Tonga"},{"languageCode":"ru","official":"Королевство Тонга","common":"Тонга"},{"languageCode":"sk","official":"Tongské kráľovstvo","common":"Tonga"},{"languageCode":"es","official":"Reino de Tonga","common":"Tonga"},{"languageCode":"fi","official":"Tongan kuningaskunta","common":"Tonga"},{"languageCode":"et","official":"Tonga Kuningriik","common":"Tonga"},{"languageCode":"zh","official":"汤加王国","common":"汤加"},{"languageCode":"pl","official":"Królestwo Tonga","common":"Tonga"},{"languageCode":"ur","official":"مملکتِ ٹونگا","common":"ٹونگا"},{"languageCode":"ko","official":"통가 왕국","common":"통가"},{"official":"پادشاهی تونگا","common":"تونگا"}],"currencies":[{"name":"Tongan paʻanga","symbol":"T$","currencyCode":"TOP"}],"flag":"🇹🇴","codes":{"cca2":"TO","cca3":"TON","ccn3":"776"},"coordinates":{"latitude":-20,"longitude":-175}}}
+{
+    "title": "Tonga",
+    "slug": "tonga",
+    "baseInfo": {
+        "name": {
+            "common": "Tonga",
+            "official": "Kingdom of Tonga",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Kingdom of Tonga",
+                    "common": "Tonga"
+                },
+                {
+                    "languageCode": "to",
+                    "official": "Kingdom of Tonga",
+                    "common": "Tonga"
+                }
+            ]
+        },
+        "capital": "Nuku'alofa",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "to", "name": "Tongan" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Království Tonga",
+                "common": "Tonga"
+            },
+            {
+                "languageCode": "de",
+                "official": "Königreich Tonga",
+                "common": "Tonga"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Royaume des Tonga",
+                "common": "Tonga"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Kraljevina Tonga",
+                "common": "Tonga"
+            },
+            {
+                "languageCode": "it",
+                "official": "Regno di Tonga",
+                "common": "Tonga"
+            },
+            {
+                "languageCode": "ja",
+                "official": "トンガ王国",
+                "common": "トンガ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Koninkrijk Tonga",
+                "common": "Tonga"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Reino de Tonga",
+                "common": "Tonga"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Королевство Тонга",
+                "common": "Тонга"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Tongské kráľovstvo",
+                "common": "Tonga"
+            },
+            {
+                "languageCode": "es",
+                "official": "Reino de Tonga",
+                "common": "Tonga"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Tongan kuningaskunta",
+                "common": "Tonga"
+            },
+            {
+                "languageCode": "et",
+                "official": "Tonga Kuningriik",
+                "common": "Tonga"
+            },
+            { "languageCode": "zh", "official": "汤加王国", "common": "汤加" },
+            {
+                "languageCode": "pl",
+                "official": "Królestwo Tonga",
+                "common": "Tonga"
+            },
+            {
+                "languageCode": "ur",
+                "official": "مملکتِ ٹونگا",
+                "common": "ٹونگا"
+            },
+            { "languageCode": "ko", "official": "통가 왕국", "common": "통가" },
+            { "official": "پادشاهی تونگا", "common": "تونگا" },
+            {
+                "languageCode": "hr",
+                "official": "Kraljevina Tonga",
+                "common": "Tonga"
+            }
+        ],
+        "currencies": [
+            { "name": "Tongan paʻanga", "symbol": "T$", "currencyCode": "TOP" }
+        ],
+        "flag": "🇹🇴",
+        "codes": { "cca2": "TO", "cca3": "TON", "ccn3": "776" },
+        "coordinates": { "latitude": -20, "longitude": -175 }
+    }
+}

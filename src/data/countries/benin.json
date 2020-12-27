@@ -1,1 +1,117 @@
-{"title":"Benin","slug":"benin","baseInfo":{"name":{"common":"Benin","official":"Republic of Benin","native":[{"languageCode":"fr","official":"République du Bénin","common":"Bénin"}]},"capital":"Porto-Novo","region":"Africa","subregion":"Western Africa","languages":[{"languageCode":"fr","name":"French"}],"translations":[{"languageCode":"cs","official":"Beninská republika","common":"Benin"},{"languageCode":"cy","official":"Gweriniaeth Benin","common":"Benin"},{"languageCode":"de","official":"Republik Benin","common":"Benin"},{"languageCode":"fr","official":"République du Bénin","common":"Bénin"},{"languageCode":"hr","official":"Republika Benin","common":"Benin"},{"languageCode":"it","official":"Repubblica del Benin","common":"Benin"},{"languageCode":"ja","official":"ベナン共和国","common":"ベナン"},{"languageCode":"nl","official":"Republiek Benin","common":"Benin"},{"languageCode":"pt","official":"República do Benin","common":"Benin"},{"languageCode":"ru","official":"Республика Бенин","common":"Бенин"},{"languageCode":"sk","official":"Beninská republika","common":"Benin"},{"languageCode":"es","official":"República de Benin","common":"Benín"},{"languageCode":"fi","official":"Beninin tasavalta","common":"Benin"},{"languageCode":"et","official":"Benini Vabariik","common":"Benin"},{"languageCode":"zh","official":"贝宁共和国","common":"贝宁"},{"languageCode":"pl","official":"Benin","common":"Benin"},{"languageCode":"ur","official":"جمہوریہ بینن","common":"بینن"},{"languageCode":"ko","official":"베냉 공화국","common":"베냉"},{"official":"جمهوری بنین","common":"بنین"}],"currencies":[{"name":"West African CFA franc","symbol":"Fr","currencyCode":"XOF"}],"flag":"🇧🇯","codes":{"cca2":"BJ","cca3":"BEN","ccn3":"204"},"coordinates":{"latitude":9.5,"longitude":2.25}}}
+{
+    "title": "Benin",
+    "slug": "benin",
+    "baseInfo": {
+        "name": {
+            "common": "Benin",
+            "official": "Republic of Benin",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République du Bénin",
+                    "common": "Bénin"
+                }
+            ]
+        },
+        "capital": "Porto-Novo",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "fr", "name": "French" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Beninská republika",
+                "common": "Benin"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Benin",
+                "common": "Benin"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Benin",
+                "common": "Benin"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Bénin",
+                "common": "Bénin"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Benin",
+                "common": "Benin"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Benin",
+                "common": "Benin"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ベナン共和国",
+                "common": "ベナン"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Benin",
+                "common": "Benin"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Benin",
+                "common": "Benin"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Бенин",
+                "common": "Бенин"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Beninská republika",
+                "common": "Benin"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Benin",
+                "common": "Benín"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Beninin tasavalta",
+                "common": "Benin"
+            },
+            {
+                "languageCode": "et",
+                "official": "Benini Vabariik",
+                "common": "Benin"
+            },
+            { "languageCode": "zh", "official": "贝宁共和国", "common": "贝宁" },
+            { "languageCode": "pl", "official": "Benin", "common": "Benin" },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ بینن",
+                "common": "بینن"
+            },
+            { "languageCode": "ko", "official": "베냉 공화국", "common": "베냉" },
+            { "official": "جمهوری بنین", "common": "بنین" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Benin",
+                "common": "Benin"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "West African CFA franc",
+                "symbol": "Fr",
+                "currencyCode": "XOF"
+            }
+        ],
+        "flag": "🇧🇯",
+        "codes": { "cca2": "BJ", "cca3": "BEN", "ccn3": "204" },
+        "coordinates": { "latitude": 9.5, "longitude": 2.25 }
+    }
+}

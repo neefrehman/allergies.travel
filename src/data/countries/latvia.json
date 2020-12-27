@@ -1,1 +1,118 @@
-{"title":"Latvia","slug":"latvia","baseInfo":{"name":{"common":"Latvia","official":"Republic of Latvia","native":[{"languageCode":"lv","official":"Latvijas Republikas","common":"Latvija"}]},"capital":"Riga","region":"Europe","subregion":"Northern Europe","languages":[{"languageCode":"lv","name":"Latvian"}],"translations":[{"languageCode":"cs","official":"Lotyšská republika","common":"Lotyšsko"},{"languageCode":"de","official":"Republik Lettland","common":"Lettland"},{"languageCode":"fr","official":"République de Lettonie","common":"Lettonie"},{"languageCode":"hr","official":"Republika Latvija","common":"Latvija"},{"languageCode":"it","official":"Repubblica di Lettonia","common":"Lettonia"},{"languageCode":"ja","official":"ラトビア共和国","common":"ラトビア"},{"languageCode":"nl","official":"Republiek Letland","common":"Letland"},{"languageCode":"pt","official":"República da Letónia","common":"Letónia"},{"languageCode":"ru","official":"Латвийская Республика","common":"Латвия"},{"languageCode":"sk","official":"Lotyšská republika","common":"Lotyšsko"},{"languageCode":"es","official":"República de Letonia","common":"Letonia"},{"languageCode":"fi","official":"Latvian tasavalta","common":"Latvia"},{"languageCode":"et","official":"Läti Vabariik","common":"Läti"},{"languageCode":"zh","official":"拉脱维亚共和国","common":"拉脱维亚"},{"languageCode":"pl","official":"Republika Łotewska","common":"Łotwa"},{"languageCode":"ur","official":"جمہوریہ لٹویا","common":"لٹویا"},{"languageCode":"ko","official":"라트비아 공화국","common":"라트비아"},{"official":"جمهوری لتونی","common":"لتونی"}],"currencies":[{"name":"Euro","symbol":"€","currencyCode":"EUR"}],"flag":"🇱🇻","codes":{"cca2":"LV","cca3":"LVA","ccn3":"428"},"coordinates":{"latitude":57,"longitude":25}}}
+{
+    "title": "Latvia",
+    "slug": "latvia",
+    "baseInfo": {
+        "name": {
+            "common": "Latvia",
+            "official": "Republic of Latvia",
+            "native": [
+                {
+                    "languageCode": "lv",
+                    "official": "Latvijas Republikas",
+                    "common": "Latvija"
+                }
+            ]
+        },
+        "capital": "Riga",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [{ "languageCode": "lv", "name": "Latvian" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Lotyšská republika",
+                "common": "Lotyšsko"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Lettland",
+                "common": "Lettland"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de Lettonie",
+                "common": "Lettonie"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Latvija",
+                "common": "Latvija"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Lettonia",
+                "common": "Lettonia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ラトビア共和国",
+                "common": "ラトビア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Letland",
+                "common": "Letland"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Letónia",
+                "common": "Letónia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Латвийская Республика",
+                "common": "Латвия"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Lotyšská republika",
+                "common": "Lotyšsko"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Letonia",
+                "common": "Letonia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Latvian tasavalta",
+                "common": "Latvia"
+            },
+            {
+                "languageCode": "et",
+                "official": "Läti Vabariik",
+                "common": "Läti"
+            },
+            {
+                "languageCode": "zh",
+                "official": "拉脱维亚共和国",
+                "common": "拉脱维亚"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Łotewska",
+                "common": "Łotwa"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ لٹویا",
+                "common": "لٹویا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "라트비아 공화국",
+                "common": "라트비아"
+            },
+            { "official": "جمهوری لتونی", "common": "لتونی" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Latvija",
+                "common": "Latvija"
+            }
+        ],
+        "currencies": [{ "name": "Euro", "symbol": "€", "currencyCode": "EUR" }],
+        "flag": "🇱🇻",
+        "codes": { "cca2": "LV", "cca3": "LVA", "ccn3": "428" },
+        "coordinates": { "latitude": 57, "longitude": 25 }
+    }
+}

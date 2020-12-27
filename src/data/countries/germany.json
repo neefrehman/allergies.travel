@@ -1,1 +1,118 @@
-{"title":"Germany","slug":"germany","baseInfo":{"name":{"common":"Germany","official":"Federal Republic of Germany","native":[{"languageCode":"de","official":"Bundesrepublik Deutschland","common":"Deutschland"}]},"capital":"Berlin","region":"Europe","subregion":"Western Europe","languages":[{"languageCode":"de","name":"German"}],"translations":[{"languageCode":"cs","official":"Spolková republika Německo","common":"Německo"},{"languageCode":"de","official":"Bundesrepublik Deutschland","common":"Deutschland"},{"languageCode":"fr","official":"République fédérale d'Allemagne","common":"Allemagne"},{"languageCode":"hr","official":"Njemačka Federativna Republika","common":"Njemačka"},{"languageCode":"it","official":"Repubblica federale di Germania","common":"Germania"},{"languageCode":"ja","official":"ドイツ連邦共和国","common":"ドイツ"},{"languageCode":"nl","official":"Bondsrepubliek Duitsland","common":"Duitsland"},{"languageCode":"pt","official":"República Federal da Alemanha","common":"Alemanha"},{"languageCode":"ru","official":"Федеративная Республика Германия","common":"Германия"},{"languageCode":"sk","official":"Nemecká spolková republika","common":"Nemecko"},{"languageCode":"es","official":"República Federal de Alemania","common":"Alemania"},{"languageCode":"fi","official":"Saksan liittotasavalta","common":"Saksa"},{"languageCode":"et","official":"Saksamaa Liitvabariik","common":"Saksamaa"},{"languageCode":"zh","official":"德意志联邦共和国","common":"德国"},{"languageCode":"pl","official":"Republika Federalna Niemiec","common":"Niemcy"},{"languageCode":"ur","official":"وفاقی جمہوریہ جرمنی","common":"جرمنی"},{"languageCode":"ko","official":"독일 연방 공화국","common":"독일"},{"official":"جمهوری فدرال آلمان","common":"آلمان"}],"currencies":[{"name":"Euro","symbol":"€","currencyCode":"EUR"}],"flag":"🇩🇪","codes":{"cca2":"DE","cca3":"DEU","ccn3":"276"},"coordinates":{"latitude":51,"longitude":9}}}
+{
+    "title": "Germany",
+    "slug": "germany",
+    "baseInfo": {
+        "name": {
+            "common": "Germany",
+            "official": "Federal Republic of Germany",
+            "native": [
+                {
+                    "languageCode": "de",
+                    "official": "Bundesrepublik Deutschland",
+                    "common": "Deutschland"
+                }
+            ]
+        },
+        "capital": "Berlin",
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "languages": [{ "languageCode": "de", "name": "German" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Spolková republika Německo",
+                "common": "Německo"
+            },
+            {
+                "languageCode": "de",
+                "official": "Bundesrepublik Deutschland",
+                "common": "Deutschland"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République fédérale d'Allemagne",
+                "common": "Allemagne"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Njemačka Federativna Republika",
+                "common": "Njemačka"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica federale di Germania",
+                "common": "Germania"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ドイツ連邦共和国",
+                "common": "ドイツ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Bondsrepubliek Duitsland",
+                "common": "Duitsland"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República Federal da Alemanha",
+                "common": "Alemanha"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Федеративная Республика Германия",
+                "common": "Германия"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Nemecká spolková republika",
+                "common": "Nemecko"
+            },
+            {
+                "languageCode": "es",
+                "official": "República Federal de Alemania",
+                "common": "Alemania"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Saksan liittotasavalta",
+                "common": "Saksa"
+            },
+            {
+                "languageCode": "et",
+                "official": "Saksamaa Liitvabariik",
+                "common": "Saksamaa"
+            },
+            {
+                "languageCode": "zh",
+                "official": "德意志联邦共和国",
+                "common": "德国"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Federalna Niemiec",
+                "common": "Niemcy"
+            },
+            {
+                "languageCode": "ur",
+                "official": "وفاقی جمہوریہ جرمنی",
+                "common": "جرمنی"
+            },
+            {
+                "languageCode": "ko",
+                "official": "독일 연방 공화국",
+                "common": "독일"
+            },
+            { "official": "جمهوری فدرال آلمان", "common": "آلمان" },
+            {
+                "languageCode": "hr",
+                "official": "Njemačka Federativna Republika",
+                "common": "Njemačka"
+            }
+        ],
+        "currencies": [{ "name": "Euro", "symbol": "€", "currencyCode": "EUR" }],
+        "flag": "🇩🇪",
+        "codes": { "cca2": "DE", "cca3": "DEU", "ccn3": "276" },
+        "coordinates": { "latitude": 51, "longitude": 9 }
+    }
+}

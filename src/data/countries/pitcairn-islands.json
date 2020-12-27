@@ -1,1 +1,120 @@
-{"title":"Pitcairn Islands","slug":"pitcairn-islands","baseInfo":{"name":{"common":"Pitcairn Islands","official":"Pitcairn Group of Islands","native":[{"languageCode":"en","official":"Pitcairn Group of Islands","common":"Pitcairn Islands"}]},"capital":"Adamstown","region":"Oceania","subregion":"Polynesia","languages":[{"languageCode":"en","name":"English"}],"translations":[{"languageCode":"cs","official":"Pitcairnovy ostrovy","common":"Pitcairnovy ostrovy"},{"languageCode":"de","official":"Pitcairninseln","common":"Pitcairninseln"},{"languageCode":"fr","official":"Groupe d'îles Pitcairn","common":"Îles Pitcairn"},{"languageCode":"hr","official":"Pitcairn skupine otoka","common":"Pitcairnovo otočje"},{"languageCode":"it","official":"Pitcairn gruppo di isole","common":"Isole Pitcairn"},{"languageCode":"ja","official":"島のピトケアングループ","common":"ピトケアン"},{"languageCode":"nl","official":"Pitcairn groep eilanden","common":"Pitcairneilanden"},{"languageCode":"pt","official":"Pitcairn grupo de ilhas","common":"Ilhas Pitcairn"},{"languageCode":"ru","official":"Питкэрн группа островов","common":"Острова Питкэрн"},{"languageCode":"sk","official":"Pitcairnove ostrovy","common":"Pitcairnove ostrovy"},{"languageCode":"es","official":"Grupo de Islas Pitcairn","common":"Islas Pitcairn"},{"languageCode":"fi","official":"Pitcairn","common":"Pitcairn"},{"languageCode":"et","official":"Pitcairni, Hendersoni, Ducie ja Oeno saar","common":"Pitcairn"},{"languageCode":"zh","official":"皮特凯恩群岛","common":"皮特凯恩群岛"},{"languageCode":"pl","official":"Wyspy Pitcairn, Henderson, Ducie i Oeno","common":"Pitcairn"},{"languageCode":"ur","official":"پٹکیرن جزائر","common":"جزائر پٹکیرن"},{"languageCode":"ko","official":"핏케언 제도","common":"핏케언 제도"},{"official":"جزایر پیت‌کرن","common":"جزایر پیت‌کرن"}],"currencies":[{"name":"New Zealand dollar","symbol":"$","currencyCode":"NZD"}],"flag":"🇵🇳","codes":{"cca2":"PN","cca3":"PCN","ccn3":"612"},"coordinates":{"latitude":-25.06666666,"longitude":-130.1}}}
+{
+    "title": "Pitcairn Islands",
+    "slug": "pitcairn-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Pitcairn Islands",
+            "official": "Pitcairn Group of Islands",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Pitcairn Group of Islands",
+                    "common": "Pitcairn Islands"
+                }
+            ]
+        },
+        "capital": "Adamstown",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Pitcairnovy ostrovy",
+                "common": "Pitcairnovy ostrovy"
+            },
+            {
+                "languageCode": "de",
+                "official": "Pitcairninseln",
+                "common": "Pitcairninseln"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Groupe d'îles Pitcairn",
+                "common": "Îles Pitcairn"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Pitcairn skupine otoka",
+                "common": "Pitcairnovo otočje"
+            },
+            {
+                "languageCode": "it",
+                "official": "Pitcairn gruppo di isole",
+                "common": "Isole Pitcairn"
+            },
+            {
+                "languageCode": "ja",
+                "official": "島のピトケアングループ",
+                "common": "ピトケアン"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Pitcairn groep eilanden",
+                "common": "Pitcairneilanden"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Pitcairn grupo de ilhas",
+                "common": "Ilhas Pitcairn"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Питкэрн группа островов",
+                "common": "Острова Питкэрн"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Pitcairnove ostrovy",
+                "common": "Pitcairnove ostrovy"
+            },
+            {
+                "languageCode": "es",
+                "official": "Grupo de Islas Pitcairn",
+                "common": "Islas Pitcairn"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Pitcairn",
+                "common": "Pitcairn"
+            },
+            {
+                "languageCode": "et",
+                "official": "Pitcairni, Hendersoni, Ducie ja Oeno saar",
+                "common": "Pitcairn"
+            },
+            {
+                "languageCode": "zh",
+                "official": "皮特凯恩群岛",
+                "common": "皮特凯恩群岛"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Wyspy Pitcairn, Henderson, Ducie i Oeno",
+                "common": "Pitcairn"
+            },
+            {
+                "languageCode": "ur",
+                "official": "پٹکیرن جزائر",
+                "common": "جزائر پٹکیرن"
+            },
+            {
+                "languageCode": "ko",
+                "official": "핏케언 제도",
+                "common": "핏케언 제도"
+            },
+            { "official": "جزایر پیت‌کرن", "common": "جزایر پیت‌کرن" },
+            {
+                "languageCode": "hr",
+                "official": "Pitcairn skupine otoka",
+                "common": "Pitcairnovo otočje"
+            }
+        ],
+        "currencies": [
+            { "name": "New Zealand dollar", "symbol": "$", "currencyCode": "NZD" }
+        ],
+        "flag": "🇵🇳",
+        "codes": { "cca2": "PN", "cca3": "PCN", "ccn3": "612" },
+        "coordinates": { "latitude": -25.06666666, "longitude": -130.1 }
+    }
+}

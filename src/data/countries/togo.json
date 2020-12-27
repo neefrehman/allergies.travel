@@ -1,1 +1,116 @@
-{"title":"Togo","slug":"togo","baseInfo":{"name":{"common":"Togo","official":"Togolese Republic","native":[{"languageCode":"fr","official":"République togolaise","common":"Togo"}]},"capital":"Lomé","region":"Africa","subregion":"Western Africa","languages":[{"languageCode":"fr","name":"French"}],"translations":[{"languageCode":"cs","official":"Republika Togo","common":"Togo"},{"languageCode":"de","official":"Republik Togo","common":"Togo"},{"languageCode":"fr","official":"République togolaise","common":"Togo"},{"languageCode":"hr","official":"Togolese Republika","common":"Togo"},{"languageCode":"it","official":"Repubblica del Togo","common":"Togo"},{"languageCode":"ja","official":"トーゴ共和国","common":"トーゴ"},{"languageCode":"nl","official":"Republiek Togo","common":"Togo"},{"languageCode":"pt","official":"República do Togo","common":"Togo"},{"languageCode":"ru","official":"Того Республика","common":"Того"},{"languageCode":"sk","official":"Togská republika","common":"Togo"},{"languageCode":"es","official":"República de Togo","common":"Togo"},{"languageCode":"fi","official":"Togon tasavalta","common":"Togo"},{"languageCode":"et","official":"Togo Vabariik","common":"Togo"},{"languageCode":"zh","official":"多哥共和国","common":"多哥"},{"languageCode":"pl","official":"Republika Togijska","common":"Togo"},{"languageCode":"ur","official":"جمہوریہ ٹوگو","common":"ٹوگو"},{"languageCode":"ko","official":"토고 공화국","common":"토고"},{"official":"جمهوری توگو","common":"توگو"}],"currencies":[{"name":"West African CFA franc","symbol":"Fr","currencyCode":"XOF"}],"flag":"🇹🇬","codes":{"cca2":"TG","cca3":"TGO","ccn3":"768"},"coordinates":{"latitude":8,"longitude":1.16666666}}}
+{
+    "title": "Togo",
+    "slug": "togo",
+    "baseInfo": {
+        "name": {
+            "common": "Togo",
+            "official": "Togolese Republic",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République togolaise",
+                    "common": "Togo"
+                }
+            ]
+        },
+        "capital": "Lomé",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "fr", "name": "French" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Republika Togo",
+                "common": "Togo"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Togo",
+                "common": "Togo"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République togolaise",
+                "common": "Togo"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Togolese Republika",
+                "common": "Togo"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Togo",
+                "common": "Togo"
+            },
+            {
+                "languageCode": "ja",
+                "official": "トーゴ共和国",
+                "common": "トーゴ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Togo",
+                "common": "Togo"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Togo",
+                "common": "Togo"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Того Республика",
+                "common": "Того"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Togská republika",
+                "common": "Togo"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Togo",
+                "common": "Togo"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Togon tasavalta",
+                "common": "Togo"
+            },
+            {
+                "languageCode": "et",
+                "official": "Togo Vabariik",
+                "common": "Togo"
+            },
+            { "languageCode": "zh", "official": "多哥共和国", "common": "多哥" },
+            {
+                "languageCode": "pl",
+                "official": "Republika Togijska",
+                "common": "Togo"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ ٹوگو",
+                "common": "ٹوگو"
+            },
+            { "languageCode": "ko", "official": "토고 공화국", "common": "토고" },
+            { "official": "جمهوری توگو", "common": "توگو" },
+            {
+                "languageCode": "hr",
+                "official": "Togolese Republika",
+                "common": "Togo"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "West African CFA franc",
+                "symbol": "Fr",
+                "currencyCode": "XOF"
+            }
+        ],
+        "flag": "🇹🇬",
+        "codes": { "cca2": "TG", "cca3": "TGO", "ccn3": "768" },
+        "coordinates": { "latitude": 8, "longitude": 1.16666666 }
+    }
+}

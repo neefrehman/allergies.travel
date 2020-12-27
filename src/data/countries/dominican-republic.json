@@ -1,1 +1,125 @@
-{"title":"Dominican Republic","slug":"dominican-republic","baseInfo":{"name":{"common":"Dominican Republic","official":"Dominican Republic","native":[{"languageCode":"es","official":"República Dominicana","common":"República Dominicana"}]},"capital":"Santo Domingo","region":"Americas","subregion":"Caribbean","languages":[{"languageCode":"es","name":"Spanish"}],"translations":[{"languageCode":"cs","official":"Dominikánská republika","common":"Dominikánská republika"},{"languageCode":"cy","official":"Gweriniaeth Dominica","common":"Gweriniaeth Dominica"},{"languageCode":"de","official":"Dominikanische Republik","common":"Dominikanische Republik"},{"languageCode":"fr","official":"République Dominicaine","common":"République dominicaine"},{"languageCode":"hr","official":"Dominikanska Republika","common":"Dominikanska Republika"},{"languageCode":"it","official":"Repubblica Dominicana","common":"Repubblica Dominicana"},{"languageCode":"ja","official":"ドミニカ共和国","common":"ドミニカ共和国"},{"languageCode":"nl","official":"Dominicaanse Republiek","common":"Dominicaanse Republiek"},{"languageCode":"pt","official":"República Dominicana","common":"República Dominicana"},{"languageCode":"ru","official":"Доминиканская Республика","common":"Доминиканская Республика"},{"languageCode":"sk","official":"Dominikánska republika","common":"Dominikánska republika"},{"languageCode":"es","official":"República Dominicana","common":"República Dominicana"},{"languageCode":"fi","official":"Dominikaaninen tasavalta","common":"Dominikaaninen tasavalta"},{"languageCode":"et","official":"Dominikaani Vabariik","common":"Dominikaani Vabariik"},{"languageCode":"zh","official":"多明尼加共和国","common":"多明尼加"},{"languageCode":"pl","official":"Republika Dominikańska","common":"Dominikana"},{"languageCode":"ur","official":"جمہوریہ ڈومینیکن","common":"ڈومینیکن"},{"languageCode":"ko","official":"도미니카 공화국","common":"도미니카 공화국"},{"official":"جمهوری دومینیکن","common":"جمهوری دومینیکن"}],"currencies":[{"name":"Dominican peso","symbol":"$","currencyCode":"DOP"}],"flag":"🇩🇴","codes":{"cca2":"DO","cca3":"DOM","ccn3":"214"},"coordinates":{"latitude":19,"longitude":-70.66666666}}}
+{
+    "title": "Dominican Republic",
+    "slug": "dominican-republic",
+    "baseInfo": {
+        "name": {
+            "common": "Dominican Republic",
+            "official": "Dominican Republic",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República Dominicana",
+                    "common": "República Dominicana"
+                }
+            ]
+        },
+        "capital": "Santo Domingo",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "es", "name": "Spanish" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Dominikánská republika",
+                "common": "Dominikánská republika"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Dominica",
+                "common": "Gweriniaeth Dominica"
+            },
+            {
+                "languageCode": "de",
+                "official": "Dominikanische Republik",
+                "common": "Dominikanische Republik"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République Dominicaine",
+                "common": "République dominicaine"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Dominikanska Republika",
+                "common": "Dominikanska Republika"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica Dominicana",
+                "common": "Repubblica Dominicana"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ドミニカ共和国",
+                "common": "ドミニカ共和国"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Dominicaanse Republiek",
+                "common": "Dominicaanse Republiek"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República Dominicana",
+                "common": "República Dominicana"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Доминиканская Республика",
+                "common": "Доминиканская Республика"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Dominikánska republika",
+                "common": "Dominikánska republika"
+            },
+            {
+                "languageCode": "es",
+                "official": "República Dominicana",
+                "common": "República Dominicana"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Dominikaaninen tasavalta",
+                "common": "Dominikaaninen tasavalta"
+            },
+            {
+                "languageCode": "et",
+                "official": "Dominikaani Vabariik",
+                "common": "Dominikaani Vabariik"
+            },
+            {
+                "languageCode": "zh",
+                "official": "多明尼加共和国",
+                "common": "多明尼加"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Dominikańska",
+                "common": "Dominikana"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ ڈومینیکن",
+                "common": "ڈومینیکن"
+            },
+            {
+                "languageCode": "ko",
+                "official": "도미니카 공화국",
+                "common": "도미니카 공화국"
+            },
+            { "official": "جمهوری دومینیکن", "common": "جمهوری دومینیکن" },
+            {
+                "languageCode": "hr",
+                "official": "Dominikanska Republika",
+                "common": "Dominikanska Republika"
+            }
+        ],
+        "currencies": [
+            { "name": "Dominican peso", "symbol": "$", "currencyCode": "DOP" }
+        ],
+        "flag": "🇩🇴",
+        "codes": { "cca2": "DO", "cca3": "DOM", "ccn3": "214" },
+        "coordinates": { "latitude": 19, "longitude": -70.66666666 }
+    }
+}

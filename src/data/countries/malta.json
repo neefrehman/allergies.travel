@@ -1,1 +1,122 @@
-{"title":"Malta","slug":"malta","baseInfo":{"name":{"common":"Malta","official":"Republic of Malta","native":[{"languageCode":"en","official":"Republic of Malta","common":"Malta"},{"languageCode":"mt","official":"Repubblika ta ' Malta","common":"Malta"}]},"capital":"Valletta","region":"Europe","subregion":"Southern Europe","languages":[{"languageCode":"en","name":"English"},{"languageCode":"mt","name":"Maltese"}],"translations":[{"languageCode":"cs","official":"Maltská republika","common":"Malta"},{"languageCode":"de","official":"Republik Malta","common":"Malta"},{"languageCode":"fr","official":"République de Malte","common":"Malte"},{"languageCode":"hr","official":"Republika Malta","common":"Malta"},{"languageCode":"it","official":"Repubblica di Malta","common":"Malta"},{"languageCode":"ja","official":"マルタ共和国","common":"マルタ"},{"languageCode":"nl","official":"Republiek Malta","common":"Malta"},{"languageCode":"pt","official":"República de Malta","common":"Malta"},{"languageCode":"ru","official":"Республика Мальта","common":"Мальта"},{"languageCode":"sk","official":"Maltská republika","common":"Malta"},{"languageCode":"es","official":"República de Malta","common":"Malta"},{"languageCode":"fi","official":"Maltan tasavalta","common":"Malta"},{"languageCode":"et","official":"Malta Vabariik","common":"Malta"},{"languageCode":"zh","official":"马耳他共和国","common":"马耳他"},{"languageCode":"pl","official":"Republika Malty","common":"Malta"},{"languageCode":"ur","official":"جمہوریہ مالٹا","common":"مالٹا"},{"languageCode":"ko","official":"몰타 공화국","common":"몰타"},{"official":"جمهوری مالت","common":"مالت"}],"currencies":[{"name":"Euro","symbol":"€","currencyCode":"EUR"}],"flag":"🇲🇹","codes":{"cca2":"MT","cca3":"MLT","ccn3":"470"},"coordinates":{"latitude":35.83333333,"longitude":14.58333333}}}
+{
+    "title": "Malta",
+    "slug": "malta",
+    "baseInfo": {
+        "name": {
+            "common": "Malta",
+            "official": "Republic of Malta",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Malta",
+                    "common": "Malta"
+                },
+                {
+                    "languageCode": "mt",
+                    "official": "Repubblika ta ' Malta",
+                    "common": "Malta"
+                }
+            ]
+        },
+        "capital": "Valletta",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "mt", "name": "Maltese" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Maltská republika",
+                "common": "Malta"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Malta",
+                "common": "Malta"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de Malte",
+                "common": "Malte"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Malta",
+                "common": "Malta"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Malta",
+                "common": "Malta"
+            },
+            {
+                "languageCode": "ja",
+                "official": "マルタ共和国",
+                "common": "マルタ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Malta",
+                "common": "Malta"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República de Malta",
+                "common": "Malta"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Мальта",
+                "common": "Мальта"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Maltská republika",
+                "common": "Malta"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Malta",
+                "common": "Malta"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Maltan tasavalta",
+                "common": "Malta"
+            },
+            {
+                "languageCode": "et",
+                "official": "Malta Vabariik",
+                "common": "Malta"
+            },
+            {
+                "languageCode": "zh",
+                "official": "马耳他共和国",
+                "common": "马耳他"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Malty",
+                "common": "Malta"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ مالٹا",
+                "common": "مالٹا"
+            },
+            { "languageCode": "ko", "official": "몰타 공화국", "common": "몰타" },
+            { "official": "جمهوری مالت", "common": "مالت" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Malta",
+                "common": "Malta"
+            }
+        ],
+        "currencies": [{ "name": "Euro", "symbol": "€", "currencyCode": "EUR" }],
+        "flag": "🇲🇹",
+        "codes": { "cca2": "MT", "cca3": "MLT", "ccn3": "470" },
+        "coordinates": { "latitude": 35.83333333, "longitude": 14.58333333 }
+    }
+}

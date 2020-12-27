@@ -1,1 +1,128 @@
-{"title":"Botswana","slug":"botswana","baseInfo":{"name":{"common":"Botswana","official":"Republic of Botswana","native":[{"languageCode":"en","official":"Republic of Botswana","common":"Botswana"},{"languageCode":"tn","official":"Lefatshe la Botswana","common":"Botswana"}]},"capital":"Gaborone","region":"Africa","subregion":"Southern Africa","languages":[{"languageCode":"en","name":"English"},{"languageCode":"tn","name":"Tswana"}],"translations":[{"languageCode":"cs","official":"Botswanská republika","common":"Botswana"},{"languageCode":"de","official":"Republik Botsuana","common":"Botswana"},{"languageCode":"fr","official":"République du Botswana","common":"Botswana"},{"languageCode":"hr","official":"Republika Bocvana","common":"Bocvana"},{"languageCode":"it","official":"Repubblica del Botswana","common":"Botswana"},{"languageCode":"ja","official":"ボツワナ共和国","common":"ボツワナ"},{"languageCode":"nl","official":"Republiek Botswana","common":"Botswana"},{"languageCode":"pt","official":"República do Botswana","common":"Botswana"},{"languageCode":"ru","official":"Республика Ботсвана","common":"Ботсвана"},{"languageCode":"sk","official":"Botswanská republika","common":"Botswana"},{"languageCode":"es","official":"República de Botswana","common":"Botswana"},{"languageCode":"fi","official":"Botswanan tasavalta","common":"Botswana"},{"languageCode":"et","official":"Botswana Vabariik","common":"Botswana"},{"languageCode":"zh","official":"博茨瓦纳共和国","common":"博茨瓦纳"},{"languageCode":"pl","official":"Republika Botswany","common":"Botswana"},{"languageCode":"ur","official":"جمہوریہ بوٹسوانا","common":"بوٹسوانا"},{"languageCode":"ko","official":"보츠와나 공화국","common":"보츠와나"},{"official":"جمهوری بوتسوانا","common":"بوتسوانا"}],"currencies":[{"name":"Botswana pula","symbol":"P","currencyCode":"BWP"}],"flag":"🇧🇼","codes":{"cca2":"BW","cca3":"BWA","ccn3":"072"},"coordinates":{"latitude":-22,"longitude":24}}}
+{
+    "title": "Botswana",
+    "slug": "botswana",
+    "baseInfo": {
+        "name": {
+            "common": "Botswana",
+            "official": "Republic of Botswana",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Botswana",
+                    "common": "Botswana"
+                },
+                {
+                    "languageCode": "tn",
+                    "official": "Lefatshe la Botswana",
+                    "common": "Botswana"
+                }
+            ]
+        },
+        "capital": "Gaborone",
+        "region": "Africa",
+        "subregion": "Southern Africa",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "tn", "name": "Tswana" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Botswanská republika",
+                "common": "Botswana"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Botsuana",
+                "common": "Botswana"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Botswana",
+                "common": "Botswana"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Bocvana",
+                "common": "Bocvana"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Botswana",
+                "common": "Botswana"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ボツワナ共和国",
+                "common": "ボツワナ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Botswana",
+                "common": "Botswana"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Botswana",
+                "common": "Botswana"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Ботсвана",
+                "common": "Ботсвана"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Botswanská republika",
+                "common": "Botswana"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Botswana",
+                "common": "Botswana"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Botswanan tasavalta",
+                "common": "Botswana"
+            },
+            {
+                "languageCode": "et",
+                "official": "Botswana Vabariik",
+                "common": "Botswana"
+            },
+            {
+                "languageCode": "zh",
+                "official": "博茨瓦纳共和国",
+                "common": "博茨瓦纳"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Botswany",
+                "common": "Botswana"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ بوٹسوانا",
+                "common": "بوٹسوانا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "보츠와나 공화국",
+                "common": "보츠와나"
+            },
+            { "official": "جمهوری بوتسوانا", "common": "بوتسوانا" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Bocvana",
+                "common": "Bocvana"
+            }
+        ],
+        "currencies": [
+            { "name": "Botswana pula", "symbol": "P", "currencyCode": "BWP" }
+        ],
+        "flag": "🇧🇼",
+        "codes": { "cca2": "BW", "cca3": "BWA", "ccn3": "072" },
+        "coordinates": { "latitude": -22, "longitude": 24 }
+    }
+}

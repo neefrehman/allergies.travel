@@ -1,1 +1,48 @@
-{"title":"Niue","slug":"niue","baseInfo":{"name":{"common":"Niue","official":"Niue","native":[{"languageCode":"en","official":"Niue","common":"Niue"},{"official":"Niuē","common":"Niuē"}]},"capital":"Alofi","region":"Oceania","subregion":"Polynesia","languages":[{"languageCode":"en","name":"English"},{"name":"Niuean"}],"translations":[{"languageCode":"cs","official":"Niue","common":"Niue"},{"languageCode":"de","official":"Niue","common":"Niue"},{"languageCode":"fr","official":"Niue","common":"Niue"},{"languageCode":"hr","official":"Niue","common":"Niue"},{"languageCode":"it","official":"Niue","common":"Niue"},{"languageCode":"ja","official":"ニウエ","common":"ニウエ"},{"languageCode":"nl","official":"Niue","common":"Niue"},{"languageCode":"pt","official":"Niue","common":"Niue"},{"languageCode":"ru","official":"Ниуэ","common":"Ниуэ"},{"languageCode":"sk","official":"Niue","common":"Niue"},{"languageCode":"es","official":"Niue","common":"Niue"},{"languageCode":"fi","official":"Niue","common":"Niue"},{"languageCode":"et","official":"Niue","common":"Niue"},{"languageCode":"zh","official":"纽埃","common":"纽埃"},{"languageCode":"pl","official":"Niue","common":"Niue"},{"languageCode":"ur","official":"نیووے","common":"نیووے"},{"languageCode":"ko","official":"니우에","common":"니우에"},{"official":"نیووی","common":"نیووی"}],"currencies":[{"name":"New Zealand dollar","symbol":"$","currencyCode":"NZD"}],"flag":"🇳🇺","codes":{"cca2":"NU","cca3":"NIU","ccn3":"570"},"coordinates":{"latitude":-19.03333333,"longitude":-169.86666666}}}
+{
+    "title": "Niue",
+    "slug": "niue",
+    "baseInfo": {
+        "name": {
+            "common": "Niue",
+            "official": "Niue",
+            "native": [
+                { "languageCode": "en", "official": "Niue", "common": "Niue" },
+                { "official": "Niuē", "common": "Niuē" }
+            ]
+        },
+        "capital": "Alofi",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "name": "Niuean" }
+        ],
+        "translations": [
+            { "languageCode": "cs", "official": "Niue", "common": "Niue" },
+            { "languageCode": "de", "official": "Niue", "common": "Niue" },
+            { "languageCode": "fr", "official": "Niue", "common": "Niue" },
+            { "languageCode": "sh", "official": "Niue", "common": "Niue" },
+            { "languageCode": "it", "official": "Niue", "common": "Niue" },
+            { "languageCode": "ja", "official": "ニウエ", "common": "ニウエ" },
+            { "languageCode": "nl", "official": "Niue", "common": "Niue" },
+            { "languageCode": "pt", "official": "Niue", "common": "Niue" },
+            { "languageCode": "ru", "official": "Ниуэ", "common": "Ниуэ" },
+            { "languageCode": "sk", "official": "Niue", "common": "Niue" },
+            { "languageCode": "es", "official": "Niue", "common": "Niue" },
+            { "languageCode": "fi", "official": "Niue", "common": "Niue" },
+            { "languageCode": "et", "official": "Niue", "common": "Niue" },
+            { "languageCode": "zh", "official": "纽埃", "common": "纽埃" },
+            { "languageCode": "pl", "official": "Niue", "common": "Niue" },
+            { "languageCode": "ur", "official": "نیووے", "common": "نیووے" },
+            { "languageCode": "ko", "official": "니우에", "common": "니우에" },
+            { "official": "نیووی", "common": "نیووی" },
+            { "languageCode": "hr", "official": "Niue", "common": "Niue" }
+        ],
+        "currencies": [
+            { "name": "New Zealand dollar", "symbol": "$", "currencyCode": "NZD" }
+        ],
+        "flag": "🇳🇺",
+        "codes": { "cca2": "NU", "cca3": "NIU", "ccn3": "570" },
+        "coordinates": { "latitude": -19.03333333, "longitude": -169.86666666 }
+    }
+}

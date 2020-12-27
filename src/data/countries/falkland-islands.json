@@ -1,1 +1,124 @@
-{"title":"Falkland Islands","slug":"falkland-islands","baseInfo":{"name":{"common":"Falkland Islands","official":"Falkland Islands","native":[{"languageCode":"en","official":"Falkland Islands","common":"Falkland Islands"}]},"capital":"Stanley","region":"Americas","subregion":"South America","languages":[{"languageCode":"en","name":"English"}],"translations":[{"languageCode":"cs","official":"Falklandské ostrovy","common":"Falklandy"},{"languageCode":"de","official":"Falklandinseln","common":"Falklandinseln"},{"languageCode":"fr","official":"Îles Malouines","common":"Îles Malouines"},{"languageCode":"hr","official":"Falklandski otoci","common":"Falklandski Otoci"},{"languageCode":"it","official":"Isole Falkland","common":"Isole Falkland o Isole Malvine"},{"languageCode":"ja","official":"フォークランド","common":"フォークランド（マルビナス）諸島"},{"languageCode":"nl","official":"Falkland eilanden","common":"Falklandeilanden"},{"languageCode":"pt","official":"Ilhas Malvinas","common":"Ilhas Malvinas"},{"languageCode":"ru","official":"Фолклендские острова","common":"Фолклендские острова"},{"languageCode":"sk","official":"Falklandské ostrovy","common":"Falklandy"},{"languageCode":"es","official":"islas Malvinas","common":"Islas Malvinas"},{"languageCode":"fi","official":"Falkandinsaaret","common":"Falkandinsaaret"},{"languageCode":"et","official":"Falklandi saared","common":"Falklandi saared"},{"languageCode":"zh","official":"福克兰群岛","common":"福克兰群岛"},{"languageCode":"pl","official":"Falklandy","common":"Falklandy"},{"languageCode":"ur","official":"جزائر فاکلینڈ","common":"جزائر فاکلینڈ"},{"languageCode":"ko","official":"포클랜드 제도","common":"포클랜드 제도"},{"official":"جزایر فالکلند","common":"جزایر فالکلند"}],"currencies":[{"name":"Falkland Islands pound","symbol":"£","currencyCode":"FKP"}],"flag":"🇫🇰","codes":{"cca2":"FK","cca3":"FLK","ccn3":"238"},"coordinates":{"latitude":-51.75,"longitude":-59}}}
+{
+    "title": "Falkland Islands",
+    "slug": "falkland-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Falkland Islands",
+            "official": "Falkland Islands",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Falkland Islands",
+                    "common": "Falkland Islands"
+                }
+            ]
+        },
+        "capital": "Stanley",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Falklandské ostrovy",
+                "common": "Falklandy"
+            },
+            {
+                "languageCode": "de",
+                "official": "Falklandinseln",
+                "common": "Falklandinseln"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Îles Malouines",
+                "common": "Îles Malouines"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Falklandski otoci",
+                "common": "Falklandski Otoci"
+            },
+            {
+                "languageCode": "it",
+                "official": "Isole Falkland",
+                "common": "Isole Falkland o Isole Malvine"
+            },
+            {
+                "languageCode": "ja",
+                "official": "フォークランド",
+                "common": "フォークランド（マルビナス）諸島"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Falkland eilanden",
+                "common": "Falklandeilanden"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Ilhas Malvinas",
+                "common": "Ilhas Malvinas"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Фолклендские острова",
+                "common": "Фолклендские острова"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Falklandské ostrovy",
+                "common": "Falklandy"
+            },
+            {
+                "languageCode": "es",
+                "official": "islas Malvinas",
+                "common": "Islas Malvinas"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Falkandinsaaret",
+                "common": "Falkandinsaaret"
+            },
+            {
+                "languageCode": "et",
+                "official": "Falklandi saared",
+                "common": "Falklandi saared"
+            },
+            {
+                "languageCode": "zh",
+                "official": "福克兰群岛",
+                "common": "福克兰群岛"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Falklandy",
+                "common": "Falklandy"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جزائر فاکلینڈ",
+                "common": "جزائر فاکلینڈ"
+            },
+            {
+                "languageCode": "ko",
+                "official": "포클랜드 제도",
+                "common": "포클랜드 제도"
+            },
+            { "official": "جزایر فالکلند", "common": "جزایر فالکلند" },
+            {
+                "languageCode": "hr",
+                "official": "Falklandski otoci",
+                "common": "Falklandski Otoci"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "Falkland Islands pound",
+                "symbol": "£",
+                "currencyCode": "FKP"
+            }
+        ],
+        "flag": "🇫🇰",
+        "codes": { "cca2": "FK", "cca3": "FLK", "ccn3": "238" },
+        "coordinates": { "latitude": -51.75, "longitude": -59 }
+    }
+}

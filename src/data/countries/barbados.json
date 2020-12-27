@@ -1,1 +1,117 @@
-{"title":"Barbados","slug":"barbados","baseInfo":{"name":{"common":"Barbados","official":"Barbados","native":[{"languageCode":"en","official":"Barbados","common":"Barbados"}]},"capital":"Bridgetown","region":"Americas","subregion":"Caribbean","languages":[{"languageCode":"en","name":"English"}],"translations":[{"languageCode":"cs","official":"Barbados","common":"Barbados"},{"languageCode":"cy","official":"Barbados","common":"Barbados"},{"languageCode":"de","official":"Barbados","common":"Barbados"},{"languageCode":"fr","official":"Barbade","common":"Barbade"},{"languageCode":"hr","official":"Barbados","common":"Barbados"},{"languageCode":"it","official":"Barbados","common":"Barbados"},{"languageCode":"ja","official":"バルバドス","common":"バルバドス"},{"languageCode":"nl","official":"Barbados","common":"Barbados"},{"languageCode":"pt","official":"Barbados","common":"Barbados"},{"languageCode":"ru","official":"Барбадос","common":"Барбадос"},{"languageCode":"sk","official":"Barbados","common":"Barbados"},{"languageCode":"es","official":"Barbados","common":"Barbados"},{"languageCode":"fi","official":"Barbados","common":"Barbados"},{"languageCode":"et","official":"Barbados","common":"Barbados"},{"languageCode":"zh","official":"巴巴多斯","common":"巴巴多斯"},{"languageCode":"pl","official":"Barbados","common":"Barbados"},{"languageCode":"ur","official":"بارباڈوس","common":"بارباڈوس"},{"languageCode":"ko","official":"바베이도스","common":"바베이도스"},{"official":"باربادوس","common":"باربادوس"}],"currencies":[{"name":"Barbadian dollar","symbol":"$","currencyCode":"BBD"}],"flag":"🇧🇧","codes":{"cca2":"BB","cca3":"BRB","ccn3":"052"},"coordinates":{"latitude":13.16666666,"longitude":-59.53333333}}}
+{
+    "title": "Barbados",
+    "slug": "barbados",
+    "baseInfo": {
+        "name": {
+            "common": "Barbados",
+            "official": "Barbados",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Barbados",
+                    "common": "Barbados"
+                }
+            ]
+        },
+        "capital": "Bridgetown",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Barbados",
+                "common": "Barbados"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Barbados",
+                "common": "Barbados"
+            },
+            {
+                "languageCode": "de",
+                "official": "Barbados",
+                "common": "Barbados"
+            },
+            { "languageCode": "fr", "official": "Barbade", "common": "Barbade" },
+            {
+                "languageCode": "sh",
+                "official": "Barbados",
+                "common": "Barbados"
+            },
+            {
+                "languageCode": "it",
+                "official": "Barbados",
+                "common": "Barbados"
+            },
+            {
+                "languageCode": "ja",
+                "official": "バルバドス",
+                "common": "バルバドス"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Barbados",
+                "common": "Barbados"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Barbados",
+                "common": "Barbados"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Барбадос",
+                "common": "Барбадос"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Barbados",
+                "common": "Barbados"
+            },
+            {
+                "languageCode": "es",
+                "official": "Barbados",
+                "common": "Barbados"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Barbados",
+                "common": "Barbados"
+            },
+            {
+                "languageCode": "et",
+                "official": "Barbados",
+                "common": "Barbados"
+            },
+            {
+                "languageCode": "zh",
+                "official": "巴巴多斯",
+                "common": "巴巴多斯"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Barbados",
+                "common": "Barbados"
+            },
+            {
+                "languageCode": "ur",
+                "official": "بارباڈوس",
+                "common": "بارباڈوس"
+            },
+            {
+                "languageCode": "ko",
+                "official": "바베이도스",
+                "common": "바베이도스"
+            },
+            { "official": "باربادوس", "common": "باربادوس" },
+            { "languageCode": "hr", "official": "Barbados", "common": "Barbados" }
+        ],
+        "currencies": [
+            { "name": "Barbadian dollar", "symbol": "$", "currencyCode": "BBD" }
+        ],
+        "flag": "🇧🇧",
+        "codes": { "cca2": "BB", "cca3": "BRB", "ccn3": "052" },
+        "coordinates": { "latitude": 13.16666666, "longitude": -59.53333333 }
+    }
+}

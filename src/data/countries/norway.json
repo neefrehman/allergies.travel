@@ -1,1 +1,138 @@
-{"title":"Norway","slug":"norway","baseInfo":{"name":{"common":"Norway","official":"Kingdom of Norway","native":[{"languageCode":"nn","official":"Kongeriket Noreg","common":"Noreg"},{"languageCode":"nb","official":"Kongeriket Norge","common":"Norge"},{"official":"Norgga gonagasriika","common":"Norgga"}]},"capital":"Oslo","region":"Europe","subregion":"Northern Europe","languages":[{"languageCode":"nn","name":"Norwegian Nynorsk"},{"languageCode":"nb","name":"Norwegian Bokmål"},{"name":"Sami"}],"translations":[{"languageCode":"cs","official":"Norské království","common":"Norsko"},{"languageCode":"de","official":"Königreich Norwegen","common":"Norwegen"},{"languageCode":"fr","official":"Royaume de Norvège","common":"Norvège"},{"languageCode":"hr","official":"Kraljevina Norveška","common":"Norveška"},{"languageCode":"it","official":"Regno di Norvegia","common":"Norvegia"},{"languageCode":"ja","official":"ノルウェー王国","common":"ノルウェー"},{"languageCode":"nl","official":"Koninkrijk Noorwegen","common":"Noorwegen"},{"languageCode":"pt","official":"Reino da Noruega","common":"Noruega"},{"languageCode":"ru","official":"Королевство Норвегия","common":"Норвегия"},{"languageCode":"sk","official":"Nórske kráľovstvo","common":"Nórsko"},{"languageCode":"es","official":"Reino de Noruega","common":"Noruega"},{"languageCode":"fi","official":"Norjan kuningaskunta","common":"Norja"},{"languageCode":"et","official":"Norra Kuningriik","common":"Norra"},{"languageCode":"zh","official":"挪威王国","common":"挪威"},{"languageCode":"pl","official":"Królestwo Norwegii","common":"Norwegia"},{"languageCode":"ur","official":"مملکتِ ناروے","common":"ناروے"},{"languageCode":"ko","official":"노르웨이 왕국","common":"노르웨이"},{"official":"پادشاهی نروژ","common":"نروژ"}],"currencies":[{"name":"Norwegian krone","symbol":"kr","currencyCode":"NOK"}],"flag":"🇳🇴","codes":{"cca2":"NO","cca3":"NOR","ccn3":"578"},"coordinates":{"latitude":62,"longitude":10}}}
+{
+    "title": "Norway",
+    "slug": "norway",
+    "baseInfo": {
+        "name": {
+            "common": "Norway",
+            "official": "Kingdom of Norway",
+            "native": [
+                {
+                    "languageCode": "no",
+                    "official": "Kongeriket Noreg",
+                    "common": "Noreg"
+                },
+                {
+                    "languageCode": "no",
+                    "official": "Kongeriket Norge",
+                    "common": "Norge"
+                },
+                { "official": "Norgga gonagasriika", "common": "Norgga" },
+                {
+                    "languageCode": "nn",
+                    "official": "Kongeriket Noreg",
+                    "common": "Noreg"
+                },
+                {
+                    "languageCode": "nb",
+                    "official": "Kongeriket Norge",
+                    "common": "Norge"
+                }
+            ]
+        },
+        "capital": "Oslo",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [
+            { "languageCode": "no", "name": "Norwegian Nynorsk" },
+            { "languageCode": "no", "name": "Norwegian Bokmål" },
+            { "name": "Sami" },
+            { "languageCode": "nn", "name": "Norwegian Nynorsk" },
+            { "languageCode": "nb", "name": "Norwegian Bokmål" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Norské království",
+                "common": "Norsko"
+            },
+            {
+                "languageCode": "de",
+                "official": "Königreich Norwegen",
+                "common": "Norwegen"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Royaume de Norvège",
+                "common": "Norvège"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Kraljevina Norveška",
+                "common": "Norveška"
+            },
+            {
+                "languageCode": "it",
+                "official": "Regno di Norvegia",
+                "common": "Norvegia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ノルウェー王国",
+                "common": "ノルウェー"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Koninkrijk Noorwegen",
+                "common": "Noorwegen"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Reino da Noruega",
+                "common": "Noruega"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Королевство Норвегия",
+                "common": "Норвегия"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Nórske kráľovstvo",
+                "common": "Nórsko"
+            },
+            {
+                "languageCode": "es",
+                "official": "Reino de Noruega",
+                "common": "Noruega"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Norjan kuningaskunta",
+                "common": "Norja"
+            },
+            {
+                "languageCode": "et",
+                "official": "Norra Kuningriik",
+                "common": "Norra"
+            },
+            { "languageCode": "zh", "official": "挪威王国", "common": "挪威" },
+            {
+                "languageCode": "pl",
+                "official": "Królestwo Norwegii",
+                "common": "Norwegia"
+            },
+            {
+                "languageCode": "ur",
+                "official": "مملکتِ ناروے",
+                "common": "ناروے"
+            },
+            {
+                "languageCode": "ko",
+                "official": "노르웨이 왕국",
+                "common": "노르웨이"
+            },
+            { "official": "پادشاهی نروژ", "common": "نروژ" },
+            {
+                "languageCode": "hr",
+                "official": "Kraljevina Norveška",
+                "common": "Norveška"
+            }
+        ],
+        "currencies": [
+            { "name": "Norwegian krone", "symbol": "kr", "currencyCode": "NOK" }
+        ],
+        "flag": "🇳🇴",
+        "codes": { "cca2": "NO", "cca3": "NOR", "ccn3": "578" },
+        "coordinates": { "latitude": 62, "longitude": 10 }
+    }
+}

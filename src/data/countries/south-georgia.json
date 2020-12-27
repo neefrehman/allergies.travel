@@ -1,1 +1,119 @@
-{"title":"South Georgia","slug":"south-georgia","baseInfo":{"name":{"common":"South Georgia","official":"South Georgia and the South Sandwich Islands","native":[{"languageCode":"en","official":"South Georgia and the South Sandwich Islands","common":"South Georgia"}]},"capital":"King Edward Point","region":"Antarctic","subregion":"","languages":[{"languageCode":"en","name":"English"}],"translations":[{"languageCode":"cs","official":"Jižní Georgie a Jižní Sandwichovy ostrovy","common":"Jižní Georgie a Jižní Sandwichovy ostrovy"},{"languageCode":"de","official":"Südgeorgien und die Südlichen Sandwichinseln","common":"Südgeorgien und die Südlichen Sandwichinseln"},{"languageCode":"fr","official":"Géorgie du Sud et les îles Sandwich du Sud","common":"Géorgie du Sud-et-les Îles Sandwich du Sud"},{"languageCode":"hr","official":"Južna Džordžija i Otoci Južni Sendvič","common":"Južna Georgija i otočje Južni Sandwich"},{"languageCode":"it","official":"Georgia del Sud e isole Sandwich del Sud","common":"Georgia del Sud e Isole Sandwich Meridionali"},{"languageCode":"ja","official":"サウスジョージア·サウスサンドウィッチ諸島","common":"サウスジョージア・サウスサンドウィッチ諸島"},{"languageCode":"nl","official":"Zuid-Georgië en de Zuidelijke Sandwich-eilanden","common":"Zuid-Georgia en Zuidelijke Sandwicheilanden"},{"languageCode":"pt","official":"Geórgia do Sul e Sandwich do Sul","common":"Ilhas Geórgia do Sul e Sandwich do Sul"},{"languageCode":"ru","official":"Южная Георгия и Южные Сандвичевы острова","common":"Южная Георгия и Южные Сандвичевы острова"},{"languageCode":"sk","official":"Južná Georgia a Južné Sandwichove ostrovy","common":"Južná Georgia a Južné Sandwichove ostrovy"},{"languageCode":"es","official":"Georgia del Sur y las Islas Sandwich del Sur","common":"Islas Georgias del Sur y Sandwich del Sur"},{"languageCode":"fi","official":"Etelä-Georgia ja Eteläiset Sandwichsaaret","common":"Etelä-Georgia ja Eteläiset Sandwichsaaret"},{"languageCode":"et","official":"Lõuna-Georgia ja Lõuna-Sandwichi saared","common":"Lõuna-Georgia ja Lõuna-Sandwichi saared"},{"languageCode":"zh","official":"南乔治亚岛和南桑威奇群岛","common":"南乔治亚"},{"languageCode":"pl","official":"Georgia Południowa i Sandwich Południowy","common":"Georgia Południowa i Sandwich Południowy"},{"languageCode":"ur","official":"جنوبی جارجیا و جزائر جنوبی سینڈوچ","common":"جنوبی جارجیا"},{"languageCode":"ko","official":"조지아","common":"조지아"},{"official":"جزایر جورجیای جنوبی و ساندویچ جنوبی","common":"جزایر جورجیای جنوبی و ساندویچ جنوبی"}],"currencies":[{"name":"Saint Helena pound","symbol":"£","currencyCode":"SHP"}],"flag":"🇬🇸","codes":{"cca2":"GS","cca3":"SGS","ccn3":"239"},"coordinates":{"latitude":-54.5,"longitude":-37}}}
+{
+    "title": "South Georgia",
+    "slug": "south-georgia",
+    "baseInfo": {
+        "name": {
+            "common": "South Georgia",
+            "official": "South Georgia and the South Sandwich Islands",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "South Georgia and the South Sandwich Islands",
+                    "common": "South Georgia"
+                }
+            ]
+        },
+        "capital": "King Edward Point",
+        "region": "Antarctic",
+        "subregion": "",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Jižní Georgie a Jižní Sandwichovy ostrovy",
+                "common": "Jižní Georgie a Jižní Sandwichovy ostrovy"
+            },
+            {
+                "languageCode": "de",
+                "official": "Südgeorgien und die Südlichen Sandwichinseln",
+                "common": "Südgeorgien und die Südlichen Sandwichinseln"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Géorgie du Sud et les îles Sandwich du Sud",
+                "common": "Géorgie du Sud-et-les Îles Sandwich du Sud"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Južna Džordžija i Otoci Južni Sendvič",
+                "common": "Južna Georgija i otočje Južni Sandwich"
+            },
+            {
+                "languageCode": "it",
+                "official": "Georgia del Sud e isole Sandwich del Sud",
+                "common": "Georgia del Sud e Isole Sandwich Meridionali"
+            },
+            {
+                "languageCode": "ja",
+                "official": "サウスジョージア·サウスサンドウィッチ諸島",
+                "common": "サウスジョージア・サウスサンドウィッチ諸島"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Zuid-Georgië en de Zuidelijke Sandwich-eilanden",
+                "common": "Zuid-Georgia en Zuidelijke Sandwicheilanden"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Geórgia do Sul e Sandwich do Sul",
+                "common": "Ilhas Geórgia do Sul e Sandwich do Sul"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Южная Георгия и Южные Сандвичевы острова",
+                "common": "Южная Георгия и Южные Сандвичевы острова"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Južná Georgia a Južné Sandwichove ostrovy",
+                "common": "Južná Georgia a Južné Sandwichove ostrovy"
+            },
+            {
+                "languageCode": "es",
+                "official": "Georgia del Sur y las Islas Sandwich del Sur",
+                "common": "Islas Georgias del Sur y Sandwich del Sur"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Etelä-Georgia ja Eteläiset Sandwichsaaret",
+                "common": "Etelä-Georgia ja Eteläiset Sandwichsaaret"
+            },
+            {
+                "languageCode": "et",
+                "official": "Lõuna-Georgia ja Lõuna-Sandwichi saared",
+                "common": "Lõuna-Georgia ja Lõuna-Sandwichi saared"
+            },
+            {
+                "languageCode": "zh",
+                "official": "南乔治亚岛和南桑威奇群岛",
+                "common": "南乔治亚"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Georgia Południowa i Sandwich Południowy",
+                "common": "Georgia Południowa i Sandwich Południowy"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جنوبی جارجیا و جزائر جنوبی سینڈوچ",
+                "common": "جنوبی جارجیا"
+            },
+            { "languageCode": "ko", "official": "조지아", "common": "조지아" },
+            {
+                "official": "جزایر جورجیای جنوبی و ساندویچ جنوبی",
+                "common": "جزایر جورجیای جنوبی و ساندویچ جنوبی"
+            },
+            {
+                "languageCode": "hr",
+                "official": "Južna Džordžija i Otoci Južni Sendvič",
+                "common": "Južna Georgija i otočje Južni Sandwich"
+            }
+        ],
+        "currencies": [
+            { "name": "Saint Helena pound", "symbol": "£", "currencyCode": "SHP" }
+        ],
+        "flag": "🇬🇸",
+        "codes": { "cca2": "GS", "cca3": "SGS", "ccn3": "239" },
+        "coordinates": { "latitude": -54.5, "longitude": -37 }
+    }
+}

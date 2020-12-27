@@ -1,1 +1,125 @@
-{"title":"Brazil","slug":"brazil","baseInfo":{"name":{"common":"Brazil","official":"Federative Republic of Brazil","native":[{"languageCode":"pt","official":"República Federativa do Brasil","common":"Brasil"}]},"capital":"Brasília","region":"Americas","subregion":"South America","languages":[{"languageCode":"pt","name":"Portuguese"}],"translations":[{"languageCode":"cs","official":"Brazilská federativní republika","common":"Brazílie"},{"languageCode":"cy","official":"Gweriniaeth Ffederal Brasil","common":"Brasil"},{"languageCode":"de","official":"Föderative Republik Brasilien","common":"Brasilien"},{"languageCode":"fr","official":"République fédérative du Brésil","common":"Brésil"},{"languageCode":"hr","official":"Savezne Republike Brazil","common":"Brazil"},{"languageCode":"it","official":"Repubblica federativa del Brasile","common":"Brasile"},{"languageCode":"ja","official":"ブラジル連邦共和国","common":"ブラジル"},{"languageCode":"nl","official":"Federale Republiek Brazilië","common":"Brazilië"},{"languageCode":"pt","official":"República Federativa do Brasil","common":"Brasil"},{"languageCode":"ru","official":"Федеративная Республика Бразилия","common":"Бразилия"},{"languageCode":"sk","official":"Brazílska federatívna republika","common":"Brazília"},{"languageCode":"es","official":"República Federativa del Brasil","common":"Brasil"},{"languageCode":"fi","official":"Brasilian liittotasavalta","common":"Brasilia"},{"languageCode":"et","official":"Brasiilia Liitvabariik","common":"Brasiilia"},{"languageCode":"zh","official":"巴西联邦共和国","common":"巴西"},{"languageCode":"pl","official":"Federacyjna Republika Brazylii","common":"Brazylia"},{"languageCode":"ur","official":"وفاقی جمہوریہ برازیل","common":"برازیل"},{"languageCode":"ko","official":"브라질 연방 공화국","common":"브라질"},{"official":"جمهوری فدراتیو برزیل","common":"برزیل"}],"currencies":[{"name":"Brazilian real","symbol":"R$","currencyCode":"BRL"}],"flag":"🇧🇷","codes":{"cca2":"BR","cca3":"BRA","ccn3":"076"},"coordinates":{"latitude":-10,"longitude":-55}}}
+{
+    "title": "Brazil",
+    "slug": "brazil",
+    "baseInfo": {
+        "name": {
+            "common": "Brazil",
+            "official": "Federative Republic of Brazil",
+            "native": [
+                {
+                    "languageCode": "pt",
+                    "official": "República Federativa do Brasil",
+                    "common": "Brasil"
+                }
+            ]
+        },
+        "capital": "Brasília",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [{ "languageCode": "pt", "name": "Portuguese" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Brazilská federativní republika",
+                "common": "Brazílie"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Ffederal Brasil",
+                "common": "Brasil"
+            },
+            {
+                "languageCode": "de",
+                "official": "Föderative Republik Brasilien",
+                "common": "Brasilien"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République fédérative du Brésil",
+                "common": "Brésil"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Savezne Republike Brazil",
+                "common": "Brazil"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica federativa del Brasile",
+                "common": "Brasile"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ブラジル連邦共和国",
+                "common": "ブラジル"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Federale Republiek Brazilië",
+                "common": "Brazilië"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República Federativa do Brasil",
+                "common": "Brasil"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Федеративная Республика Бразилия",
+                "common": "Бразилия"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Brazílska federatívna republika",
+                "common": "Brazília"
+            },
+            {
+                "languageCode": "es",
+                "official": "República Federativa del Brasil",
+                "common": "Brasil"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Brasilian liittotasavalta",
+                "common": "Brasilia"
+            },
+            {
+                "languageCode": "et",
+                "official": "Brasiilia Liitvabariik",
+                "common": "Brasiilia"
+            },
+            {
+                "languageCode": "zh",
+                "official": "巴西联邦共和国",
+                "common": "巴西"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Federacyjna Republika Brazylii",
+                "common": "Brazylia"
+            },
+            {
+                "languageCode": "ur",
+                "official": "وفاقی جمہوریہ برازیل",
+                "common": "برازیل"
+            },
+            {
+                "languageCode": "ko",
+                "official": "브라질 연방 공화국",
+                "common": "브라질"
+            },
+            { "official": "جمهوری فدراتیو برزیل", "common": "برزیل" },
+            {
+                "languageCode": "hr",
+                "official": "Savezne Republike Brazil",
+                "common": "Brazil"
+            }
+        ],
+        "currencies": [
+            { "name": "Brazilian real", "symbol": "R$", "currencyCode": "BRL" }
+        ],
+        "flag": "🇧🇷",
+        "codes": { "cca2": "BR", "cca3": "BRA", "ccn3": "076" },
+        "coordinates": { "latitude": -10, "longitude": -55 }
+    }
+}

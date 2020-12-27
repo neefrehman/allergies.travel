@@ -1,1 +1,129 @@
-{"title":"Cape Verde","slug":"cape-verde","baseInfo":{"name":{"common":"Cape Verde","official":"Republic of Cabo Verde","native":[{"languageCode":"pt","official":"República de Cabo Verde","common":"Cabo Verde"}]},"capital":"Praia","region":"Africa","subregion":"Western Africa","languages":[{"languageCode":"pt","name":"Portuguese"}],"translations":[{"languageCode":"cs","official":"Kapverdská republika","common":"Kapverdy"},{"languageCode":"cy","official":"Gweriniaeth Cabo Verde","common":"Penrhyn Verde"},{"languageCode":"de","official":"Republik Cabo Verde","common":"Kap Verde"},{"languageCode":"fr","official":"République du Cap-Vert","common":"Îles du Cap-Vert"},{"languageCode":"hr","official":"Republika Cabo Verde","common":"Zelenortska Republika"},{"languageCode":"it","official":"Repubblica di Capo Verde","common":"Capo Verde"},{"languageCode":"ja","official":"カーボベルデ共和国","common":"カーボベルデ"},{"languageCode":"nl","official":"Republiek van Cabo Verde","common":"Kaapverdië"},{"languageCode":"pt","official":"República de Cabo Verde","common":"Cabo Verde"},{"languageCode":"ru","official":"Республика Кабо -Верде","common":"Кабо-Верде"},{"languageCode":"sk","official":"Kapverdská republika","common":"Kapverdy"},{"languageCode":"es","official":"República de Cabo Verde","common":"Cabo Verde"},{"languageCode":"fi","official":"Kap Verden tasavalta","common":"Kap Verde"},{"languageCode":"et","official":"Cabo Verde Vabariik","common":"Roheneemesaared"},{"languageCode":"zh","official":"佛得角共和国","common":"佛得角"},{"languageCode":"pl","official":"Republika Zielonego Przylądka","common":"Republika Zielonego Przylądka"},{"languageCode":"ur","official":"جمہوریہ کیپ ورڈی","common":"کیپ ورڈی"},{"languageCode":"ko","official":"카보베르데 공화국","common":"카보베르데"},{"official":"جمهوری کبو ورد","common":"دماغهٔ سبز"}],"currencies":[{"name":"Cape Verdean escudo","symbol":"Esc","currencyCode":"CVE"}],"flag":"🇨🇻","codes":{"cca2":"CV","cca3":"CPV","ccn3":"132"},"coordinates":{"latitude":16,"longitude":-24}}}
+{
+    "title": "Cape Verde",
+    "slug": "cape-verde",
+    "baseInfo": {
+        "name": {
+            "common": "Cape Verde",
+            "official": "Republic of Cabo Verde",
+            "native": [
+                {
+                    "languageCode": "pt",
+                    "official": "República de Cabo Verde",
+                    "common": "Cabo Verde"
+                }
+            ]
+        },
+        "capital": "Praia",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "pt", "name": "Portuguese" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Kapverdská republika",
+                "common": "Kapverdy"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Cabo Verde",
+                "common": "Penrhyn Verde"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Cabo Verde",
+                "common": "Kap Verde"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Cap-Vert",
+                "common": "Îles du Cap-Vert"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Cabo Verde",
+                "common": "Zelenortska Republika"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Capo Verde",
+                "common": "Capo Verde"
+            },
+            {
+                "languageCode": "ja",
+                "official": "カーボベルデ共和国",
+                "common": "カーボベルデ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek van Cabo Verde",
+                "common": "Kaapverdië"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República de Cabo Verde",
+                "common": "Cabo Verde"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Кабо -Верде",
+                "common": "Кабо-Верде"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Kapverdská republika",
+                "common": "Kapverdy"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Cabo Verde",
+                "common": "Cabo Verde"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Kap Verden tasavalta",
+                "common": "Kap Verde"
+            },
+            {
+                "languageCode": "et",
+                "official": "Cabo Verde Vabariik",
+                "common": "Roheneemesaared"
+            },
+            {
+                "languageCode": "zh",
+                "official": "佛得角共和国",
+                "common": "佛得角"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Zielonego Przylądka",
+                "common": "Republika Zielonego Przylądka"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ کیپ ورڈی",
+                "common": "کیپ ورڈی"
+            },
+            {
+                "languageCode": "ko",
+                "official": "카보베르데 공화국",
+                "common": "카보베르데"
+            },
+            { "official": "جمهوری کبو ورد", "common": "دماغهٔ سبز" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Cabo Verde",
+                "common": "Zelenortska Republika"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "Cape Verdean escudo",
+                "symbol": "Esc",
+                "currencyCode": "CVE"
+            }
+        ],
+        "flag": "🇨🇻",
+        "codes": { "cca2": "CV", "cca3": "CPV", "ccn3": "132" },
+        "coordinates": { "latitude": 16, "longitude": -24 }
+    }
+}

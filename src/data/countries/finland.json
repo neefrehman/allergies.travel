@@ -1,1 +1,122 @@
-{"title":"Finland","slug":"finland","baseInfo":{"name":{"common":"Finland","official":"Republic of Finland","native":[{"languageCode":"fi","official":"Suomen tasavalta","common":"Suomi"},{"languageCode":"sv","official":"Republiken Finland","common":"Finland"}]},"capital":"Helsinki","region":"Europe","subregion":"Northern Europe","languages":[{"languageCode":"fi","name":"Finnish"},{"languageCode":"sv","name":"Swedish"}],"translations":[{"languageCode":"cs","official":"Finská republika","common":"Finsko"},{"languageCode":"de","official":"Republik Finnland","common":"Finnland"},{"languageCode":"fr","official":"République de Finlande","common":"Finlande"},{"languageCode":"hr","official":"Republika Finska","common":"Finska"},{"languageCode":"it","official":"Repubblica di Finlandia","common":"Finlandia"},{"languageCode":"ja","official":"フィンランド共和国","common":"フィンランド"},{"languageCode":"nl","official":"Republiek Finland","common":"Finland"},{"languageCode":"pt","official":"República da Finlândia","common":"Finlândia"},{"languageCode":"ru","official":"Финляндская Республика","common":"Финляндия"},{"languageCode":"sk","official":"Fínska republika","common":"Fínsko"},{"languageCode":"es","official":"República de Finlandia","common":"Finlandia"},{"languageCode":"fi","official":"Suomen tasavalta","common":"Suomi"},{"languageCode":"et","official":"Soome Vabariik","common":"Soome"},{"languageCode":"zh","official":"芬兰共和国","common":"芬兰"},{"languageCode":"pl","official":"Republika Finlandii","common":"Finlandia"},{"languageCode":"ur","official":"جمہوریہ فن لینڈ","common":"فن لینڈ"},{"languageCode":"ko","official":"핀란드 공화국","common":"핀란드"},{"official":"جمهوری فنلاند","common":"فنلاند"}],"currencies":[{"name":"Euro","symbol":"€","currencyCode":"EUR"}],"flag":"🇫🇮","codes":{"cca2":"FI","cca3":"FIN","ccn3":"246"},"coordinates":{"latitude":64,"longitude":26}}}
+{
+    "title": "Finland",
+    "slug": "finland",
+    "baseInfo": {
+        "name": {
+            "common": "Finland",
+            "official": "Republic of Finland",
+            "native": [
+                {
+                    "languageCode": "fi",
+                    "official": "Suomen tasavalta",
+                    "common": "Suomi"
+                },
+                {
+                    "languageCode": "sv",
+                    "official": "Republiken Finland",
+                    "common": "Finland"
+                }
+            ]
+        },
+        "capital": "Helsinki",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [
+            { "languageCode": "fi", "name": "Finnish" },
+            { "languageCode": "sv", "name": "Swedish" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Finská republika",
+                "common": "Finsko"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Finnland",
+                "common": "Finnland"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de Finlande",
+                "common": "Finlande"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Finska",
+                "common": "Finska"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Finlandia",
+                "common": "Finlandia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "フィンランド共和国",
+                "common": "フィンランド"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Finland",
+                "common": "Finland"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Finlândia",
+                "common": "Finlândia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Финляндская Республика",
+                "common": "Финляндия"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Fínska republika",
+                "common": "Fínsko"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Finlandia",
+                "common": "Finlandia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Suomen tasavalta",
+                "common": "Suomi"
+            },
+            {
+                "languageCode": "et",
+                "official": "Soome Vabariik",
+                "common": "Soome"
+            },
+            { "languageCode": "zh", "official": "芬兰共和国", "common": "芬兰" },
+            {
+                "languageCode": "pl",
+                "official": "Republika Finlandii",
+                "common": "Finlandia"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ فن لینڈ",
+                "common": "فن لینڈ"
+            },
+            {
+                "languageCode": "ko",
+                "official": "핀란드 공화국",
+                "common": "핀란드"
+            },
+            { "official": "جمهوری فنلاند", "common": "فنلاند" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Finska",
+                "common": "Finska"
+            }
+        ],
+        "currencies": [{ "name": "Euro", "symbol": "€", "currencyCode": "EUR" }],
+        "flag": "🇫🇮",
+        "codes": { "cca2": "FI", "cca3": "FIN", "ccn3": "246" },
+        "coordinates": { "latitude": 64, "longitude": 26 }
+    }
+}

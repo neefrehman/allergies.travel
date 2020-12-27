@@ -1,1 +1,132 @@
-{"title":"Tajikistan","slug":"tajikistan","baseInfo":{"name":{"common":"Tajikistan","official":"Republic of Tajikistan","native":[{"languageCode":"ru","official":"Республика Таджикистан","common":"Таджикистан"},{"languageCode":"tg","official":"Ҷумҳурии Тоҷикистон","common":"Тоҷикистон"}]},"capital":"Dushanbe","region":"Asia","subregion":"Central Asia","languages":[{"languageCode":"ru","name":"Russian"},{"languageCode":"tg","name":"Tajik"}],"translations":[{"languageCode":"cs","official":"Republika Tádžikistán","common":"Tádžikistán"},{"languageCode":"de","official":"Republik Tadschikistan","common":"Tadschikistan"},{"languageCode":"fr","official":"République du Tadjikistan","common":"Tadjikistan"},{"languageCode":"hr","official":"Republika Tadžikistan","common":"Tađikistan"},{"languageCode":"it","official":"Repubblica del Tajikistan","common":"Tagikistan"},{"languageCode":"ja","official":"タジキスタン共和国","common":"タジキスタン"},{"languageCode":"nl","official":"Tadzjikistan","common":"Tadzjikistan"},{"languageCode":"pt","official":"República do Tajiquistão","common":"Tajiquistão"},{"languageCode":"ru","official":"Республика Таджикистан","common":"Таджикистан"},{"languageCode":"sk","official":"Taǆická republika","common":"Taǆikistan"},{"languageCode":"es","official":"República de Tayikistán","common":"Tayikistán"},{"languageCode":"fi","official":"Tadžikistanin tasavalta","common":"Tadžikistan"},{"languageCode":"et","official":"Tadžikistani Vabariik","common":"Tadžikistan"},{"languageCode":"zh","official":"塔吉克斯坦共和国","common":"塔吉克斯坦"},{"languageCode":"pl","official":"Republika Tadżykistanu","common":"Tadżykistan"},{"languageCode":"ur","official":"جمہوریہ تاجکستان","common":"تاجکستان"},{"languageCode":"ko","official":"타지키스탄 공화국","common":"타지키스탄"},{"official":"جمهوری تاجیکستان","common":"تاجیکِستان"}],"currencies":[{"name":"Tajikistani somoni","symbol":"ЅМ","currencyCode":"TJS"}],"flag":"🇹🇯","codes":{"cca2":"TJ","cca3":"TJK","ccn3":"762"},"coordinates":{"latitude":39,"longitude":71}}}
+{
+    "title": "Tajikistan",
+    "slug": "tajikistan",
+    "baseInfo": {
+        "name": {
+            "common": "Tajikistan",
+            "official": "Republic of Tajikistan",
+            "native": [
+                {
+                    "languageCode": "ru",
+                    "official": "Республика Таджикистан",
+                    "common": "Таджикистан"
+                },
+                {
+                    "languageCode": "tg",
+                    "official": "Ҷумҳурии Тоҷикистон",
+                    "common": "Тоҷикистон"
+                }
+            ]
+        },
+        "capital": "Dushanbe",
+        "region": "Asia",
+        "subregion": "Central Asia",
+        "languages": [
+            { "languageCode": "ru", "name": "Russian" },
+            { "languageCode": "tg", "name": "Tajik" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Republika Tádžikistán",
+                "common": "Tádžikistán"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Tadschikistan",
+                "common": "Tadschikistan"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Tadjikistan",
+                "common": "Tadjikistan"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Tadžikistan",
+                "common": "Tađikistan"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Tajikistan",
+                "common": "Tagikistan"
+            },
+            {
+                "languageCode": "ja",
+                "official": "タジキスタン共和国",
+                "common": "タジキスタン"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Tadzjikistan",
+                "common": "Tadzjikistan"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Tajiquistão",
+                "common": "Tajiquistão"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Таджикистан",
+                "common": "Таджикистан"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Taǆická republika",
+                "common": "Taǆikistan"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Tayikistán",
+                "common": "Tayikistán"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Tadžikistanin tasavalta",
+                "common": "Tadžikistan"
+            },
+            {
+                "languageCode": "et",
+                "official": "Tadžikistani Vabariik",
+                "common": "Tadžikistan"
+            },
+            {
+                "languageCode": "zh",
+                "official": "塔吉克斯坦共和国",
+                "common": "塔吉克斯坦"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Tadżykistanu",
+                "common": "Tadżykistan"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ تاجکستان",
+                "common": "تاجکستان"
+            },
+            {
+                "languageCode": "ko",
+                "official": "타지키스탄 공화국",
+                "common": "타지키스탄"
+            },
+            { "official": "جمهوری تاجیکستان", "common": "تاجیکِستان" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Tadžikistan",
+                "common": "Tađikistan"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "Tajikistani somoni",
+                "symbol": "ЅМ",
+                "currencyCode": "TJS"
+            }
+        ],
+        "flag": "🇹🇯",
+        "codes": { "cca2": "TJ", "cca3": "TJK", "ccn3": "762" },
+        "coordinates": { "latitude": 39, "longitude": 71 }
+    }
+}

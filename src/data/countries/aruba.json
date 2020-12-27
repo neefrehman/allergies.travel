@@ -1,1 +1,48 @@
-{"title":"Aruba","slug":"aruba","baseInfo":{"name":{"common":"Aruba","official":"Aruba","native":[{"languageCode":"nl","official":"Aruba","common":"Aruba"},{"official":"Aruba","common":"Aruba"}]},"capital":"Oranjestad","region":"Americas","subregion":"Caribbean","languages":[{"languageCode":"nl","name":"Dutch"},{"name":"Papiamento"}],"translations":[{"languageCode":"cs","official":"Aruba","common":"Aruba"},{"languageCode":"de","official":"Aruba","common":"Aruba"},{"languageCode":"fr","official":"Aruba","common":"Aruba"},{"languageCode":"hr","official":"Aruba","common":"Aruba"},{"languageCode":"it","official":"Aruba","common":"Aruba"},{"languageCode":"ja","official":"アルバ","common":"アルバ"},{"languageCode":"nl","official":"Aruba","common":"Aruba"},{"languageCode":"pt","official":"Aruba","common":"Aruba"},{"languageCode":"ru","official":"Аруба","common":"Аруба"},{"languageCode":"sk","official":"Aruba","common":"Aruba"},{"languageCode":"es","official":"Aruba","common":"Aruba"},{"languageCode":"fi","official":"Aruba","common":"Aruba"},{"languageCode":"et","official":"Aruba","common":"Aruba"},{"languageCode":"zh","official":"阿鲁巴","common":"阿鲁巴"},{"languageCode":"pl","official":"Aruba","common":"Aruba"},{"languageCode":"ur","official":"اروبا","common":"اروبا"},{"languageCode":"ko","official":"아루바","common":"아루바"},{"official":"آروبا","common":"آروبا"}],"currencies":[{"name":"Aruban florin","symbol":"ƒ","currencyCode":"AWG"}],"flag":"🇦🇼","codes":{"cca2":"AW","cca3":"ABW","ccn3":"533"},"coordinates":{"latitude":12.5,"longitude":-69.96666666}}}
+{
+    "title": "Aruba",
+    "slug": "aruba",
+    "baseInfo": {
+        "name": {
+            "common": "Aruba",
+            "official": "Aruba",
+            "native": [
+                { "languageCode": "nl", "official": "Aruba", "common": "Aruba" },
+                { "official": "Aruba", "common": "Aruba" }
+            ]
+        },
+        "capital": "Oranjestad",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [
+            { "languageCode": "nl", "name": "Dutch" },
+            { "name": "Papiamento" }
+        ],
+        "translations": [
+            { "languageCode": "cs", "official": "Aruba", "common": "Aruba" },
+            { "languageCode": "de", "official": "Aruba", "common": "Aruba" },
+            { "languageCode": "fr", "official": "Aruba", "common": "Aruba" },
+            { "languageCode": "sh", "official": "Aruba", "common": "Aruba" },
+            { "languageCode": "it", "official": "Aruba", "common": "Aruba" },
+            { "languageCode": "ja", "official": "アルバ", "common": "アルバ" },
+            { "languageCode": "nl", "official": "Aruba", "common": "Aruba" },
+            { "languageCode": "pt", "official": "Aruba", "common": "Aruba" },
+            { "languageCode": "ru", "official": "Аруба", "common": "Аруба" },
+            { "languageCode": "sk", "official": "Aruba", "common": "Aruba" },
+            { "languageCode": "es", "official": "Aruba", "common": "Aruba" },
+            { "languageCode": "fi", "official": "Aruba", "common": "Aruba" },
+            { "languageCode": "et", "official": "Aruba", "common": "Aruba" },
+            { "languageCode": "zh", "official": "阿鲁巴", "common": "阿鲁巴" },
+            { "languageCode": "pl", "official": "Aruba", "common": "Aruba" },
+            { "languageCode": "ur", "official": "اروبا", "common": "اروبا" },
+            { "languageCode": "ko", "official": "아루바", "common": "아루바" },
+            { "official": "آروبا", "common": "آروبا" },
+            { "languageCode": "hr", "official": "Aruba", "common": "Aruba" }
+        ],
+        "currencies": [
+            { "name": "Aruban florin", "symbol": "ƒ", "currencyCode": "AWG" }
+        ],
+        "flag": "🇦🇼",
+        "codes": { "cca2": "AW", "cca3": "ABW", "ccn3": "533" },
+        "coordinates": { "latitude": 12.5, "longitude": -69.96666666 }
+    }
+}

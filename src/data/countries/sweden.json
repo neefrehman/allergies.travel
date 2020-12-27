@@ -1,1 +1,116 @@
-{"title":"Sweden","slug":"sweden","baseInfo":{"name":{"common":"Sweden","official":"Kingdom of Sweden","native":[{"languageCode":"sv","official":"Konungariket Sverige","common":"Sverige"}]},"capital":"Stockholm","region":"Europe","subregion":"Northern Europe","languages":[{"languageCode":"sv","name":"Swedish"}],"translations":[{"languageCode":"cs","official":"Švédské království","common":"Švédsko"},{"languageCode":"de","official":"Königreich Schweden","common":"Schweden"},{"languageCode":"fr","official":"Royaume de Suède","common":"Suède"},{"languageCode":"hr","official":"Kraljevina Švedska","common":"Švedska"},{"languageCode":"it","official":"Regno di Svezia","common":"Svezia"},{"languageCode":"ja","official":"スウェーデン王国","common":"スウェーデン"},{"languageCode":"nl","official":"Koninkrijk Zweden","common":"Zweden"},{"languageCode":"pt","official":"Reino da Suécia","common":"Suécia"},{"languageCode":"ru","official":"Королевство Швеция","common":"Швеция"},{"languageCode":"sk","official":"Švédske kráľovstvo","common":"Švédsko"},{"languageCode":"es","official":"Reino de Suecia","common":"Suecia"},{"languageCode":"fi","official":"Ruotsin kuningaskunta","common":"Ruotsi"},{"languageCode":"et","official":"Rootsi Kuningriik","common":"Rootsi"},{"languageCode":"zh","official":"瑞典王国","common":"瑞典"},{"languageCode":"pl","official":"Królestwo Szwecji","common":"Szwecja"},{"languageCode":"ur","official":"مملکتِ سویڈن","common":"سویڈن"},{"languageCode":"ko","official":"스웨덴 왕국","common":"스웨덴"},{"official":"پادشاهی سوئد","common":"سوئد"}],"currencies":[{"name":"Swedish krona","symbol":"kr","currencyCode":"SEK"}],"flag":"🇸🇪","codes":{"cca2":"SE","cca3":"SWE","ccn3":"752"},"coordinates":{"latitude":62,"longitude":15}}}
+{
+    "title": "Sweden",
+    "slug": "sweden",
+    "baseInfo": {
+        "name": {
+            "common": "Sweden",
+            "official": "Kingdom of Sweden",
+            "native": [
+                {
+                    "languageCode": "sv",
+                    "official": "Konungariket Sverige",
+                    "common": "Sverige"
+                }
+            ]
+        },
+        "capital": "Stockholm",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [{ "languageCode": "sv", "name": "Swedish" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Švédské království",
+                "common": "Švédsko"
+            },
+            {
+                "languageCode": "de",
+                "official": "Königreich Schweden",
+                "common": "Schweden"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Royaume de Suède",
+                "common": "Suède"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Kraljevina Švedska",
+                "common": "Švedska"
+            },
+            {
+                "languageCode": "it",
+                "official": "Regno di Svezia",
+                "common": "Svezia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "スウェーデン王国",
+                "common": "スウェーデン"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Koninkrijk Zweden",
+                "common": "Zweden"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Reino da Suécia",
+                "common": "Suécia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Королевство Швеция",
+                "common": "Швеция"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Švédske kráľovstvo",
+                "common": "Švédsko"
+            },
+            {
+                "languageCode": "es",
+                "official": "Reino de Suecia",
+                "common": "Suecia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Ruotsin kuningaskunta",
+                "common": "Ruotsi"
+            },
+            {
+                "languageCode": "et",
+                "official": "Rootsi Kuningriik",
+                "common": "Rootsi"
+            },
+            { "languageCode": "zh", "official": "瑞典王国", "common": "瑞典" },
+            {
+                "languageCode": "pl",
+                "official": "Królestwo Szwecji",
+                "common": "Szwecja"
+            },
+            {
+                "languageCode": "ur",
+                "official": "مملکتِ سویڈن",
+                "common": "سویڈن"
+            },
+            {
+                "languageCode": "ko",
+                "official": "스웨덴 왕국",
+                "common": "스웨덴"
+            },
+            { "official": "پادشاهی سوئد", "common": "سوئد" },
+            {
+                "languageCode": "hr",
+                "official": "Kraljevina Švedska",
+                "common": "Švedska"
+            }
+        ],
+        "currencies": [
+            { "name": "Swedish krona", "symbol": "kr", "currencyCode": "SEK" }
+        ],
+        "flag": "🇸🇪",
+        "codes": { "cca2": "SE", "cca3": "SWE", "ccn3": "752" },
+        "coordinates": { "latitude": 62, "longitude": 15 }
+    }
+}

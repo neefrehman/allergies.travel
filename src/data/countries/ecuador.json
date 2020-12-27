@@ -1,1 +1,125 @@
-{"title":"Ecuador","slug":"ecuador","baseInfo":{"name":{"common":"Ecuador","official":"Republic of Ecuador","native":[{"languageCode":"es","official":"República del Ecuador","common":"Ecuador"}]},"capital":"Quito","region":"Americas","subregion":"South America","languages":[{"languageCode":"es","name":"Spanish"}],"translations":[{"languageCode":"cs","official":"Ekvádorská republika","common":"Ekvádor"},{"languageCode":"cy","official":"Gweriniaeth Ecwador","common":"Ecwador"},{"languageCode":"de","official":"Republik Ecuador","common":"Ecuador"},{"languageCode":"fr","official":"République de l'Équateur","common":"Équateur"},{"languageCode":"hr","official":"Republika Ekvador","common":"Ekvador"},{"languageCode":"it","official":"Repubblica dell'Ecuador","common":"Ecuador"},{"languageCode":"ja","official":"エクアドル共和国","common":"エクアドル"},{"languageCode":"nl","official":"Republiek Ecuador","common":"Ecuador"},{"languageCode":"pt","official":"República do Equador","common":"Equador"},{"languageCode":"ru","official":"Республика Эквадор","common":"Эквадор"},{"languageCode":"sk","official":"Ekvádorská republika","common":"Ekvádor"},{"languageCode":"es","official":"República del Ecuador","common":"Ecuador"},{"languageCode":"fi","official":"Ecuadorin tasavalta","common":"Ecuador"},{"languageCode":"et","official":"Ecuadori Vabariik","common":"Ecuador"},{"languageCode":"zh","official":"厄瓜多尔共和国","common":"厄瓜多尔"},{"languageCode":"pl","official":"Ekwador","common":"Ekwador"},{"languageCode":"ur","official":"جمہوریہ ایکوڈور","common":"ایکواڈور"},{"languageCode":"ko","official":"에콰도르 공화국","common":"에콰도르"},{"official":"جمهوری اکوادور","common":"اکوادور"}],"currencies":[{"name":"United States dollar","symbol":"$","currencyCode":"USD"}],"flag":"🇪🇨","codes":{"cca2":"EC","cca3":"ECU","ccn3":"218"},"coordinates":{"latitude":-2,"longitude":-77.5}}}
+{
+    "title": "Ecuador",
+    "slug": "ecuador",
+    "baseInfo": {
+        "name": {
+            "common": "Ecuador",
+            "official": "Republic of Ecuador",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República del Ecuador",
+                    "common": "Ecuador"
+                }
+            ]
+        },
+        "capital": "Quito",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [{ "languageCode": "es", "name": "Spanish" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Ekvádorská republika",
+                "common": "Ekvádor"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Ecwador",
+                "common": "Ecwador"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Ecuador",
+                "common": "Ecuador"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de l'Équateur",
+                "common": "Équateur"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Ekvador",
+                "common": "Ekvador"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica dell'Ecuador",
+                "common": "Ecuador"
+            },
+            {
+                "languageCode": "ja",
+                "official": "エクアドル共和国",
+                "common": "エクアドル"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Ecuador",
+                "common": "Ecuador"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Equador",
+                "common": "Equador"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Эквадор",
+                "common": "Эквадор"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Ekvádorská republika",
+                "common": "Ekvádor"
+            },
+            {
+                "languageCode": "es",
+                "official": "República del Ecuador",
+                "common": "Ecuador"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Ecuadorin tasavalta",
+                "common": "Ecuador"
+            },
+            {
+                "languageCode": "et",
+                "official": "Ecuadori Vabariik",
+                "common": "Ecuador"
+            },
+            {
+                "languageCode": "zh",
+                "official": "厄瓜多尔共和国",
+                "common": "厄瓜多尔"
+            },
+            { "languageCode": "pl", "official": "Ekwador", "common": "Ekwador" },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ ایکوڈور",
+                "common": "ایکواڈور"
+            },
+            {
+                "languageCode": "ko",
+                "official": "에콰도르 공화국",
+                "common": "에콰도르"
+            },
+            { "official": "جمهوری اکوادور", "common": "اکوادور" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Ekvador",
+                "common": "Ekvador"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "United States dollar",
+                "symbol": "$",
+                "currencyCode": "USD"
+            }
+        ],
+        "flag": "🇪🇨",
+        "codes": { "cca2": "EC", "cca3": "ECU", "ccn3": "218" },
+        "coordinates": { "latitude": -2, "longitude": -77.5 }
+    }
+}

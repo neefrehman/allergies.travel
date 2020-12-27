@@ -1,1 +1,124 @@
-{"title":"Samoa","slug":"samoa","baseInfo":{"name":{"common":"Samoa","official":"Independent State of Samoa","native":[{"languageCode":"en","official":"Independent State of Samoa","common":"Samoa"},{"languageCode":"sm","official":"Malo Saʻoloto Tutoʻatasi o Sāmoa","common":"Sāmoa"}]},"capital":"Apia","region":"Oceania","subregion":"Polynesia","languages":[{"languageCode":"en","name":"English"},{"languageCode":"sm","name":"Samoan"}],"translations":[{"languageCode":"cs","official":"Nezávislý stát Samoa","common":"Samoa"},{"languageCode":"de","official":"Unabhängige Staat Samoa","common":"Samoa"},{"languageCode":"fr","official":"Samoa","common":"Samoa"},{"languageCode":"hr","official":"Nezavisna Država Samoa","common":"Samoa"},{"languageCode":"it","official":"Stato indipendente di Samoa","common":"Samoa"},{"languageCode":"ja","official":"サモア独立国","common":"サモア"},{"languageCode":"nl","official":"Onafhankelijke Staat Samoa","common":"Samoa"},{"languageCode":"pt","official":"Estado Independente de Samoa","common":"Samoa"},{"languageCode":"ru","official":"Независимое Государство Самоа","common":"Самоа"},{"languageCode":"sk","official":"Nezávislý štátSamoa","common":"Samoa"},{"languageCode":"es","official":"Estado Independiente de Samoa","common":"Samoa"},{"languageCode":"fi","official":"Samoan itsenäinen valtio","common":"Samoa"},{"languageCode":"et","official":"Samoa Iseseisvusriik","common":"Samoa"},{"languageCode":"zh","official":"萨摩亚独立国","common":"萨摩亚"},{"languageCode":"pl","official":"Niezależne Państwo Samoa","common":"Samoa"},{"languageCode":"ur","official":"آزاد سلطنتِ ساموا","common":"سامووا"},{"languageCode":"ko","official":"사모아 독립국","common":"사모아"},{"official":"ایالت مستقل ساموآ","common":"ساموآ"}],"currencies":[{"name":"Samoan tālā","symbol":"T","currencyCode":"WST"}],"flag":"🇼🇸","codes":{"cca2":"WS","cca3":"WSM","ccn3":"882"},"coordinates":{"latitude":-13.58333333,"longitude":-172.33333333}}}
+{
+    "title": "Samoa",
+    "slug": "samoa",
+    "baseInfo": {
+        "name": {
+            "common": "Samoa",
+            "official": "Independent State of Samoa",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Independent State of Samoa",
+                    "common": "Samoa"
+                },
+                {
+                    "languageCode": "sm",
+                    "official": "Malo Saʻoloto Tutoʻatasi o Sāmoa",
+                    "common": "Sāmoa"
+                }
+            ]
+        },
+        "capital": "Apia",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "sm", "name": "Samoan" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Nezávislý stát Samoa",
+                "common": "Samoa"
+            },
+            {
+                "languageCode": "de",
+                "official": "Unabhängige Staat Samoa",
+                "common": "Samoa"
+            },
+            { "languageCode": "fr", "official": "Samoa", "common": "Samoa" },
+            {
+                "languageCode": "sh",
+                "official": "Nezavisna Država Samoa",
+                "common": "Samoa"
+            },
+            {
+                "languageCode": "it",
+                "official": "Stato indipendente di Samoa",
+                "common": "Samoa"
+            },
+            {
+                "languageCode": "ja",
+                "official": "サモア独立国",
+                "common": "サモア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Onafhankelijke Staat Samoa",
+                "common": "Samoa"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Estado Independente de Samoa",
+                "common": "Samoa"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Независимое Государство Самоа",
+                "common": "Самоа"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Nezávislý štátSamoa",
+                "common": "Samoa"
+            },
+            {
+                "languageCode": "es",
+                "official": "Estado Independiente de Samoa",
+                "common": "Samoa"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Samoan itsenäinen valtio",
+                "common": "Samoa"
+            },
+            {
+                "languageCode": "et",
+                "official": "Samoa Iseseisvusriik",
+                "common": "Samoa"
+            },
+            {
+                "languageCode": "zh",
+                "official": "萨摩亚独立国",
+                "common": "萨摩亚"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Niezależne Państwo Samoa",
+                "common": "Samoa"
+            },
+            {
+                "languageCode": "ur",
+                "official": "آزاد سلطنتِ ساموا",
+                "common": "سامووا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "사모아 독립국",
+                "common": "사모아"
+            },
+            { "official": "ایالت مستقل ساموآ", "common": "ساموآ" },
+            {
+                "languageCode": "hr",
+                "official": "Nezavisna Država Samoa",
+                "common": "Samoa"
+            }
+        ],
+        "currencies": [
+            { "name": "Samoan tālā", "symbol": "T", "currencyCode": "WST" }
+        ],
+        "flag": "🇼🇸",
+        "codes": { "cca2": "WS", "cca3": "WSM", "ccn3": "882" },
+        "coordinates": { "latitude": -13.58333333, "longitude": -172.33333333 }
+    }
+}

@@ -1,1 +1,120 @@
-{"title":"Honduras","slug":"honduras","baseInfo":{"name":{"common":"Honduras","official":"Republic of Honduras","native":[{"languageCode":"es","official":"República de Honduras","common":"Honduras"}]},"capital":"Tegucigalpa","region":"Americas","subregion":"Central America","languages":[{"languageCode":"es","name":"Spanish"}],"translations":[{"languageCode":"cs","official":"Honduraská republika","common":"Honduras"},{"languageCode":"de","official":"Republik Honduras","common":"Honduras"},{"languageCode":"fr","official":"République du Honduras","common":"Honduras"},{"languageCode":"hr","official":"Republika Honduras","common":"Honduras"},{"languageCode":"it","official":"Repubblica di Honduras","common":"Honduras"},{"languageCode":"ja","official":"ホンジュラス共和国","common":"ホンジュラス"},{"languageCode":"nl","official":"Republiek Honduras","common":"Honduras"},{"languageCode":"pt","official":"República de Honduras","common":"Honduras"},{"languageCode":"ru","official":"Республика Гондурас","common":"Гондурас"},{"languageCode":"sk","official":"Honduraská republika","common":"Honduras"},{"languageCode":"es","official":"República de Honduras","common":"Honduras"},{"languageCode":"fi","official":"Hondurasin tasavalta","common":"Honduras"},{"languageCode":"et","official":"Hondurase Vabariik","common":"Honduras"},{"languageCode":"zh","official":"洪都拉斯共和国","common":"洪都拉斯"},{"languageCode":"pl","official":"Republika Hondurasu","common":"Honduras"},{"languageCode":"ur","official":"جمہوریہ ہونڈوراس","common":"ہونڈوراس"},{"languageCode":"ko","official":"온두라스 공화국","common":"온두라스"},{"official":"جمهوری هندوراس","common":"هُندوراس"}],"currencies":[{"name":"Honduran lempira","symbol":"L","currencyCode":"HNL"}],"flag":"🇭🇳","codes":{"cca2":"HN","cca3":"HND","ccn3":"340"},"coordinates":{"latitude":15,"longitude":-86.5}}}
+{
+    "title": "Honduras",
+    "slug": "honduras",
+    "baseInfo": {
+        "name": {
+            "common": "Honduras",
+            "official": "Republic of Honduras",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República de Honduras",
+                    "common": "Honduras"
+                }
+            ]
+        },
+        "capital": "Tegucigalpa",
+        "region": "Americas",
+        "subregion": "Central America",
+        "languages": [{ "languageCode": "es", "name": "Spanish" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Honduraská republika",
+                "common": "Honduras"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Honduras",
+                "common": "Honduras"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Honduras",
+                "common": "Honduras"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Honduras",
+                "common": "Honduras"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Honduras",
+                "common": "Honduras"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ホンジュラス共和国",
+                "common": "ホンジュラス"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Honduras",
+                "common": "Honduras"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República de Honduras",
+                "common": "Honduras"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Гондурас",
+                "common": "Гондурас"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Honduraská republika",
+                "common": "Honduras"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Honduras",
+                "common": "Honduras"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Hondurasin tasavalta",
+                "common": "Honduras"
+            },
+            {
+                "languageCode": "et",
+                "official": "Hondurase Vabariik",
+                "common": "Honduras"
+            },
+            {
+                "languageCode": "zh",
+                "official": "洪都拉斯共和国",
+                "common": "洪都拉斯"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Hondurasu",
+                "common": "Honduras"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ ہونڈوراس",
+                "common": "ہونڈوراس"
+            },
+            {
+                "languageCode": "ko",
+                "official": "온두라스 공화국",
+                "common": "온두라스"
+            },
+            { "official": "جمهوری هندوراس", "common": "هُندوراس" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Honduras",
+                "common": "Honduras"
+            }
+        ],
+        "currencies": [
+            { "name": "Honduran lempira", "symbol": "L", "currencyCode": "HNL" }
+        ],
+        "flag": "🇭🇳",
+        "codes": { "cca2": "HN", "cca3": "HND", "ccn3": "340" },
+        "coordinates": { "latitude": 15, "longitude": -86.5 }
+    }
+}

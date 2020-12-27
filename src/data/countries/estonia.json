@@ -1,1 +1,123 @@
-{"title":"Estonia","slug":"estonia","baseInfo":{"name":{"common":"Estonia","official":"Republic of Estonia","native":[{"languageCode":"et","official":"Eesti Vabariik","common":"Eesti"}]},"capital":"Tallinn","region":"Europe","subregion":"Northern Europe","languages":[{"languageCode":"et","name":"Estonian"}],"translations":[{"languageCode":"cs","official":"Estonská republika","common":"Estonsko"},{"languageCode":"cy","official":"Gweriniaeth Estonia","common":"Estonia"},{"languageCode":"de","official":"Republik Estland","common":"Estland"},{"languageCode":"fr","official":"République d'Estonie","common":"Estonie"},{"languageCode":"hr","official":"Republika Estonija","common":"Estonija"},{"languageCode":"it","official":"Repubblica di Estonia","common":"Estonia"},{"languageCode":"ja","official":"エストニア共和国","common":"エストニア"},{"languageCode":"nl","official":"Republiek Estland","common":"Estland"},{"languageCode":"pt","official":"República da Estónia","common":"Estónia"},{"languageCode":"ru","official":"Эстонская Республика","common":"Эстония"},{"languageCode":"sk","official":"Estónska republika","common":"Estónsko"},{"languageCode":"es","official":"República de Estonia","common":"Estonia"},{"languageCode":"fi","official":"Viron tasavalta","common":"Viro"},{"languageCode":"et","official":"Eesti Vabariik","common":"Eesti"},{"languageCode":"zh","official":"爱沙尼亚共和国","common":"爱沙尼亚"},{"languageCode":"pl","official":"Republika Estońska","common":"Estonia"},{"languageCode":"ur","official":"جمہوریہ اسٹونیا","common":"اسٹونیا"},{"languageCode":"ko","official":"에스토니아 공화국","common":"에스토니아"},{"official":"جمهوری استونی","common":"اِستونی"}],"currencies":[{"name":"Euro","symbol":"€","currencyCode":"EUR"}],"flag":"🇪🇪","codes":{"cca2":"EE","cca3":"EST","ccn3":"233"},"coordinates":{"latitude":59,"longitude":26}}}
+{
+    "title": "Estonia",
+    "slug": "estonia",
+    "baseInfo": {
+        "name": {
+            "common": "Estonia",
+            "official": "Republic of Estonia",
+            "native": [
+                {
+                    "languageCode": "et",
+                    "official": "Eesti Vabariik",
+                    "common": "Eesti"
+                }
+            ]
+        },
+        "capital": "Tallinn",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [{ "languageCode": "et", "name": "Estonian" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Estonská republika",
+                "common": "Estonsko"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Estonia",
+                "common": "Estonia"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Estland",
+                "common": "Estland"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République d'Estonie",
+                "common": "Estonie"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Estonija",
+                "common": "Estonija"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Estonia",
+                "common": "Estonia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "エストニア共和国",
+                "common": "エストニア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Estland",
+                "common": "Estland"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Estónia",
+                "common": "Estónia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Эстонская Республика",
+                "common": "Эстония"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Estónska republika",
+                "common": "Estónsko"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Estonia",
+                "common": "Estonia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Viron tasavalta",
+                "common": "Viro"
+            },
+            {
+                "languageCode": "et",
+                "official": "Eesti Vabariik",
+                "common": "Eesti"
+            },
+            {
+                "languageCode": "zh",
+                "official": "爱沙尼亚共和国",
+                "common": "爱沙尼亚"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Estońska",
+                "common": "Estonia"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ اسٹونیا",
+                "common": "اسٹونیا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "에스토니아 공화국",
+                "common": "에스토니아"
+            },
+            { "official": "جمهوری استونی", "common": "اِستونی" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Estonija",
+                "common": "Estonija"
+            }
+        ],
+        "currencies": [{ "name": "Euro", "symbol": "€", "currencyCode": "EUR" }],
+        "flag": "🇪🇪",
+        "codes": { "cca2": "EE", "cca3": "EST", "ccn3": "233" },
+        "coordinates": { "latitude": 59, "longitude": 26 }
+    }
+}

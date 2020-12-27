@@ -1,1 +1,177 @@
-{"title":"South Africa","slug":"south-africa","baseInfo":{"name":{"common":"South Africa","official":"Republic of South Africa","native":[{"languageCode":"af","official":"Republiek van Suid-Afrika","common":"South Africa"},{"languageCode":"en","official":"Republic of South Africa","common":"South Africa"},{"languageCode":"nr","official":"IRiphabliki yeSewula Afrika","common":"Sewula Afrika"},{"official":"Rephaboliki ya Afrika-Borwa ","common":"Afrika-Borwa"},{"languageCode":"st","official":"Rephaboliki ya Afrika Borwa","common":"Afrika Borwa"},{"languageCode":"ss","official":"IRiphabhulikhi yeNingizimu Afrika","common":"Ningizimu Afrika"},{"languageCode":"tn","official":"Rephaboliki ya Aforika Borwa","common":"Aforika Borwa"},{"languageCode":"ts","official":"Riphabliki ra Afrika Dzonga","common":"Afrika Dzonga"},{"languageCode":"ve","official":"Riphabuḽiki ya Afurika Tshipembe","common":"Afurika Tshipembe"},{"languageCode":"xh","official":"IRiphabliki yaseMzantsi Afrika","common":"Mzantsi Afrika"},{"languageCode":"zu","official":"IRiphabliki yaseNingizimu Afrika","common":"Ningizimu Afrika"}]},"capital":"Pretoria","region":"Africa","subregion":"Southern Africa","languages":[{"languageCode":"af","name":"Afrikaans"},{"languageCode":"en","name":"English"},{"languageCode":"nr","name":"Southern Ndebele"},{"name":"Northern Sotho"},{"languageCode":"st","name":"Southern Sotho"},{"languageCode":"ss","name":"Swazi"},{"languageCode":"tn","name":"Tswana"},{"languageCode":"ts","name":"Tsonga"},{"languageCode":"ve","name":"Venda"},{"languageCode":"xh","name":"Xhosa"},{"languageCode":"zu","name":"Zulu"}],"translations":[{"languageCode":"cs","official":"Jihoafrická republika","common":"Jihoafrická republika"},{"languageCode":"de","official":"Republik Südafrika","common":"Südafrika"},{"languageCode":"fr","official":"République d'Afrique du Sud","common":"Afrique du Sud"},{"languageCode":"hr","official":"Južnoafrička Republika","common":"Južnoafrička Republika"},{"languageCode":"it","official":"Repubblica del Sud Africa","common":"Sud Africa"},{"languageCode":"ja","official":"南アフリカ共和国","common":"南アフリカ"},{"languageCode":"nl","official":"Republiek Zuid-Afrika","common":"Zuid-Afrika"},{"languageCode":"pt","official":"República da África do Sul","common":"África do Sul"},{"languageCode":"ru","official":"Южно-Африканская Республика","common":"Южно-Африканская Республика"},{"languageCode":"sk","official":"Juhoafrická republika","common":"Juhoafrická republika"},{"languageCode":"es","official":"República de Sudáfrica","common":"República de Sudáfrica"},{"languageCode":"fi","official":"Etelä-Afrikan tasavalta","common":"Etelä-Afrikka"},{"languageCode":"et","official":"Lõuna-Aafrika Vabariik","common":"Lõuna-Aafrika Vabariik"},{"languageCode":"zh","official":"南非共和国","common":"南非"},{"languageCode":"pl","official":"Republika Południowej Afryki","common":"Południowa Afryka"},{"languageCode":"ur","official":"جمہوریہ جنوبی افریقا","common":"جنوبی افریقا"},{"languageCode":"ko","official":"남아프리카 공화국","common":"남아프리카"},{"official":"جمهوری آفریقای جنوبی","common":"آفریقای جنوبی"}],"currencies":[{"name":"South African rand","symbol":"R","currencyCode":"ZAR"}],"flag":"🇿🇦","codes":{"cca2":"ZA","cca3":"ZAF","ccn3":"710"},"coordinates":{"latitude":-29,"longitude":24}}}
+{
+    "title": "South Africa",
+    "slug": "south-africa",
+    "baseInfo": {
+        "name": {
+            "common": "South Africa",
+            "official": "Republic of South Africa",
+            "native": [
+                {
+                    "languageCode": "af",
+                    "official": "Republiek van Suid-Afrika",
+                    "common": "South Africa"
+                },
+                {
+                    "languageCode": "en",
+                    "official": "Republic of South Africa",
+                    "common": "South Africa"
+                },
+                {
+                    "languageCode": "nr",
+                    "official": "IRiphabliki yeSewula Afrika",
+                    "common": "Sewula Afrika"
+                },
+                {
+                    "official": "Rephaboliki ya Afrika-Borwa ",
+                    "common": "Afrika-Borwa"
+                },
+                {
+                    "languageCode": "st",
+                    "official": "Rephaboliki ya Afrika Borwa",
+                    "common": "Afrika Borwa"
+                },
+                {
+                    "languageCode": "ss",
+                    "official": "IRiphabhulikhi yeNingizimu Afrika",
+                    "common": "Ningizimu Afrika"
+                },
+                {
+                    "languageCode": "tn",
+                    "official": "Rephaboliki ya Aforika Borwa",
+                    "common": "Aforika Borwa"
+                },
+                {
+                    "languageCode": "ts",
+                    "official": "Riphabliki ra Afrika Dzonga",
+                    "common": "Afrika Dzonga"
+                },
+                {
+                    "languageCode": "ve",
+                    "official": "Riphabuḽiki ya Afurika Tshipembe",
+                    "common": "Afurika Tshipembe"
+                },
+                {
+                    "languageCode": "xh",
+                    "official": "IRiphabliki yaseMzantsi Afrika",
+                    "common": "Mzantsi Afrika"
+                },
+                {
+                    "languageCode": "zu",
+                    "official": "IRiphabliki yaseNingizimu Afrika",
+                    "common": "Ningizimu Afrika"
+                }
+            ]
+        },
+        "capital": "Pretoria",
+        "region": "Africa",
+        "subregion": "Southern Africa",
+        "languages": [
+            { "languageCode": "af", "name": "Afrikaans" },
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "nr", "name": "Southern Ndebele" },
+            { "name": "Northern Sotho" },
+            { "languageCode": "st", "name": "Southern Sotho" },
+            { "languageCode": "ss", "name": "Swazi" },
+            { "languageCode": "tn", "name": "Tswana" },
+            { "languageCode": "ts", "name": "Tsonga" },
+            { "languageCode": "ve", "name": "Venda" },
+            { "languageCode": "xh", "name": "Xhosa" },
+            { "languageCode": "zu", "name": "Zulu" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Jihoafrická republika",
+                "common": "Jihoafrická republika"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Südafrika",
+                "common": "Südafrika"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République d'Afrique du Sud",
+                "common": "Afrique du Sud"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Južnoafrička Republika",
+                "common": "Južnoafrička Republika"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Sud Africa",
+                "common": "Sud Africa"
+            },
+            {
+                "languageCode": "ja",
+                "official": "南アフリカ共和国",
+                "common": "南アフリカ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Zuid-Afrika",
+                "common": "Zuid-Afrika"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da África do Sul",
+                "common": "África do Sul"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Южно-Африканская Республика",
+                "common": "Южно-Африканская Республика"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Juhoafrická republika",
+                "common": "Juhoafrická republika"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Sudáfrica",
+                "common": "República de Sudáfrica"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Etelä-Afrikan tasavalta",
+                "common": "Etelä-Afrikka"
+            },
+            {
+                "languageCode": "et",
+                "official": "Lõuna-Aafrika Vabariik",
+                "common": "Lõuna-Aafrika Vabariik"
+            },
+            { "languageCode": "zh", "official": "南非共和国", "common": "南非" },
+            {
+                "languageCode": "pl",
+                "official": "Republika Południowej Afryki",
+                "common": "Południowa Afryka"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ جنوبی افریقا",
+                "common": "جنوبی افریقا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "남아프리카 공화국",
+                "common": "남아프리카"
+            },
+            { "official": "جمهوری آفریقای جنوبی", "common": "آفریقای جنوبی" },
+            {
+                "languageCode": "hr",
+                "official": "Južnoafrička Republika",
+                "common": "Južnoafrička Republika"
+            }
+        ],
+        "currencies": [
+            { "name": "South African rand", "symbol": "R", "currencyCode": "ZAR" }
+        ],
+        "flag": "🇿🇦",
+        "codes": { "cca2": "ZA", "cca3": "ZAF", "ccn3": "710" },
+        "coordinates": { "latitude": -29, "longitude": 24 }
+    }
+}

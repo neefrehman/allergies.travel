@@ -1,1 +1,116 @@
-{"title":"Poland","slug":"poland","baseInfo":{"name":{"common":"Poland","official":"Republic of Poland","native":[{"languageCode":"pl","official":"Rzeczpospolita Polska","common":"Polska"}]},"capital":"Warsaw","region":"Europe","subregion":"Eastern Europe","languages":[{"languageCode":"pl","name":"Polish"}],"translations":[{"languageCode":"cs","official":"Polská republika","common":"Polsko"},{"languageCode":"de","official":"Republik Polen","common":"Polen"},{"languageCode":"fr","official":"République de Pologne","common":"Pologne"},{"languageCode":"hr","official":"Republika Poljska","common":"Poljska"},{"languageCode":"it","official":"Repubblica di Polonia","common":"Polonia"},{"languageCode":"ja","official":"ポーランド共和国","common":"ポーランド"},{"languageCode":"nl","official":"Republiek Polen","common":"Polen"},{"languageCode":"pt","official":"República da Polónia","common":"Polónia"},{"languageCode":"ru","official":"Республика Польша","common":"Польша"},{"languageCode":"sk","official":"Poľská republika","common":"Poľsko"},{"languageCode":"es","official":"República de Polonia","common":"Polonia"},{"languageCode":"fi","official":"Puolan tasavalta","common":"Puola"},{"languageCode":"et","official":"Poola Vabariik","common":"Poola"},{"languageCode":"zh","official":"波兰共和国","common":"波兰"},{"languageCode":"pl","official":"Rzeczpospolita Polska","common":"Polska"},{"languageCode":"ur","official":"جمہوریہ پولینڈ","common":"پولینڈ"},{"languageCode":"ko","official":"폴란드 공화국","common":"폴란드"},{"official":"جمهوری لهستان","common":"لهستان"}],"currencies":[{"name":"Polish złoty","symbol":"zł","currencyCode":"PLN"}],"flag":"🇵🇱","codes":{"cca2":"PL","cca3":"POL","ccn3":"616"},"coordinates":{"latitude":52,"longitude":20}}}
+{
+    "title": "Poland",
+    "slug": "poland",
+    "baseInfo": {
+        "name": {
+            "common": "Poland",
+            "official": "Republic of Poland",
+            "native": [
+                {
+                    "languageCode": "pl",
+                    "official": "Rzeczpospolita Polska",
+                    "common": "Polska"
+                }
+            ]
+        },
+        "capital": "Warsaw",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [{ "languageCode": "pl", "name": "Polish" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Polská republika",
+                "common": "Polsko"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Polen",
+                "common": "Polen"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de Pologne",
+                "common": "Pologne"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Poljska",
+                "common": "Poljska"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Polonia",
+                "common": "Polonia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ポーランド共和国",
+                "common": "ポーランド"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Polen",
+                "common": "Polen"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Polónia",
+                "common": "Polónia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Польша",
+                "common": "Польша"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Poľská republika",
+                "common": "Poľsko"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Polonia",
+                "common": "Polonia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Puolan tasavalta",
+                "common": "Puola"
+            },
+            {
+                "languageCode": "et",
+                "official": "Poola Vabariik",
+                "common": "Poola"
+            },
+            { "languageCode": "zh", "official": "波兰共和国", "common": "波兰" },
+            {
+                "languageCode": "pl",
+                "official": "Rzeczpospolita Polska",
+                "common": "Polska"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ پولینڈ",
+                "common": "پولینڈ"
+            },
+            {
+                "languageCode": "ko",
+                "official": "폴란드 공화국",
+                "common": "폴란드"
+            },
+            { "official": "جمهوری لهستان", "common": "لهستان" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Poljska",
+                "common": "Poljska"
+            }
+        ],
+        "currencies": [
+            { "name": "Polish złoty", "symbol": "zł", "currencyCode": "PLN" }
+        ],
+        "flag": "🇵🇱",
+        "codes": { "cca2": "PL", "cca3": "POL", "ccn3": "616" },
+        "coordinates": { "latitude": 52, "longitude": 20 }
+    }
+}

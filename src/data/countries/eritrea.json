@@ -1,1 +1,135 @@
-{"title":"Eritrea","slug":"eritrea","baseInfo":{"name":{"common":"Eritrea","official":"State of Eritrea","native":[{"languageCode":"ar","official":"دولة إرتريا","common":"إرتريا‎"},{"languageCode":"en","official":"State of Eritrea","common":"Eritrea"},{"languageCode":"ti","official":"ሃገረ ኤርትራ","common":"ኤርትራ"}]},"capital":"Asmara","region":"Africa","subregion":"Eastern Africa","languages":[{"languageCode":"ar","name":"Arabic"},{"languageCode":"en","name":"English"},{"languageCode":"ti","name":"Tigrinya"}],"translations":[{"languageCode":"cs","official":"Stát Eritrea","common":"Eritrea"},{"languageCode":"cy","official":"Gwladwriaeth Eritrea","common":"Eritrea"},{"languageCode":"de","official":"Staat Eritrea","common":"Eritrea"},{"languageCode":"fr","official":"État d'Érythrée","common":"Érythrée"},{"languageCode":"hr","official":"Država Eritreji","common":"Eritreja"},{"languageCode":"it","official":"Stato di Eritrea","common":"Eritrea"},{"languageCode":"ja","official":"エリトリア国","common":"エリトリア"},{"languageCode":"nl","official":"Staat Eritrea","common":"Eritrea"},{"languageCode":"pt","official":"Estado da Eritreia","common":"Eritreia"},{"languageCode":"ru","official":"Государство Эритрея","common":"Эритрея"},{"languageCode":"sk","official":"Eritrejský štát","common":"Eritrea"},{"languageCode":"es","official":"Estado de Eritrea","common":"Eritrea"},{"languageCode":"fi","official":"Eritrean valtio","common":"Eritrea"},{"languageCode":"et","official":"Eritrea Riik","common":"Eritrea"},{"languageCode":"zh","official":"厄立特里亚","common":"厄立特里亚"},{"languageCode":"pl","official":"Państwo Erytrea","common":"Erytrea"},{"languageCode":"ur","official":"ریاستِ ارتریا","common":"ارتریا"},{"languageCode":"ko","official":"에리트레아국","common":"에리트레아"},{"official":"جمهوری اریتره","common":"اریتره"}],"currencies":[{"name":"Eritrean nakfa","symbol":"Nfk","currencyCode":"ERN"}],"flag":"🇪🇷","codes":{"cca2":"ER","cca3":"ERI","ccn3":"232"},"coordinates":{"latitude":15,"longitude":39}}}
+{
+    "title": "Eritrea",
+    "slug": "eritrea",
+    "baseInfo": {
+        "name": {
+            "common": "Eritrea",
+            "official": "State of Eritrea",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "دولة إرتريا",
+                    "common": "إرتريا‎"
+                },
+                {
+                    "languageCode": "en",
+                    "official": "State of Eritrea",
+                    "common": "Eritrea"
+                },
+                { "languageCode": "ti", "official": "ሃገረ ኤርትራ", "common": "ኤርትራ" }
+            ]
+        },
+        "capital": "Asmara",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "languageCode": "ar", "name": "Arabic" },
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "ti", "name": "Tigrinya" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Stát Eritrea",
+                "common": "Eritrea"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gwladwriaeth Eritrea",
+                "common": "Eritrea"
+            },
+            {
+                "languageCode": "de",
+                "official": "Staat Eritrea",
+                "common": "Eritrea"
+            },
+            {
+                "languageCode": "fr",
+                "official": "État d'Érythrée",
+                "common": "Érythrée"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Država Eritreji",
+                "common": "Eritreja"
+            },
+            {
+                "languageCode": "it",
+                "official": "Stato di Eritrea",
+                "common": "Eritrea"
+            },
+            {
+                "languageCode": "ja",
+                "official": "エリトリア国",
+                "common": "エリトリア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Staat Eritrea",
+                "common": "Eritrea"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Estado da Eritreia",
+                "common": "Eritreia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Государство Эритрея",
+                "common": "Эритрея"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Eritrejský štát",
+                "common": "Eritrea"
+            },
+            {
+                "languageCode": "es",
+                "official": "Estado de Eritrea",
+                "common": "Eritrea"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Eritrean valtio",
+                "common": "Eritrea"
+            },
+            {
+                "languageCode": "et",
+                "official": "Eritrea Riik",
+                "common": "Eritrea"
+            },
+            {
+                "languageCode": "zh",
+                "official": "厄立特里亚",
+                "common": "厄立特里亚"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Państwo Erytrea",
+                "common": "Erytrea"
+            },
+            {
+                "languageCode": "ur",
+                "official": "ریاستِ ارتریا",
+                "common": "ارتریا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "에리트레아국",
+                "common": "에리트레아"
+            },
+            { "official": "جمهوری اریتره", "common": "اریتره" },
+            {
+                "languageCode": "hr",
+                "official": "Država Eritreji",
+                "common": "Eritreja"
+            }
+        ],
+        "currencies": [
+            { "name": "Eritrean nakfa", "symbol": "Nfk", "currencyCode": "ERN" }
+        ],
+        "flag": "🇪🇷",
+        "codes": { "cca2": "ER", "cca3": "ERI", "ccn3": "232" },
+        "coordinates": { "latitude": 15, "longitude": 39 }
+    }
+}

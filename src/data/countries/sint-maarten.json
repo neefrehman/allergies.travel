@@ -1,1 +1,138 @@
-{"title":"Sint Maarten","slug":"sint-maarten","baseInfo":{"name":{"common":"Sint Maarten","official":"Sint Maarten","native":[{"languageCode":"en","official":"Sint Maarten","common":"Sint Maarten"},{"languageCode":"fr","official":"Saint-Martin","common":"Saint-Martin"},{"languageCode":"nl","official":"Sint Maarten","common":"Sint Maarten"}]},"capital":"Philipsburg","region":"Americas","subregion":"Caribbean","languages":[{"languageCode":"en","name":"English"},{"languageCode":"fr","name":"French"},{"languageCode":"nl","name":"Dutch"}],"translations":[{"languageCode":"cs","official":"Svatý Martin","common":"Svatý Martin (Nizozemsko)"},{"languageCode":"de","official":"Sint Maarten","common":"Sint Maarten"},{"languageCode":"fr","official":"Sint Maarten","common":"Saint-Martin"},{"languageCode":"hr","official":"Sveti Martin","common":"Sveti Martin"},{"languageCode":"it","official":"Sint Maarten","common":"Sint Maarten"},{"languageCode":"ja","official":"シントマールテン島","common":"シント・マールテン"},{"languageCode":"nl","official":"Sint Maarten","common":"Sint Maarten"},{"languageCode":"pt","official":"Sint Maarten","common":"São Martinho"},{"languageCode":"ru","official":"Синт-Маартен","common":"Синт-Мартен"},{"languageCode":"sk","official":"Sint Maarten","common":"Sint Maarten"},{"languageCode":"es","official":"Sint Maarten","common":"Sint Maarten"},{"languageCode":"fi","official":"Sint Maarten","common":"Sint Maarten"},{"languageCode":"et","official":"Sint Maarten","common":"Sint Maarten"},{"languageCode":"zh","official":"圣马丁岛","common":"圣马丁岛"},{"languageCode":"pl","official":"Sint Maarten","common":"Sint Maarten"},{"languageCode":"ur","official":"سنٹ مارٹن","common":"سنٹ مارٹن"},{"languageCode":"ko","official":"신트마르턴","common":"신트마르턴"},{"official":"سن مارتن","common":"سن مارتن"}],"currencies":[{"name":"Netherlands Antillean guilder","symbol":"ƒ","currencyCode":"ANG"}],"flag":"🇸🇽","codes":{"cca2":"SX","cca3":"SXM","ccn3":"534"},"coordinates":{"latitude":18.033333,"longitude":-63.05}}}
+{
+    "title": "Sint Maarten",
+    "slug": "sint-maarten",
+    "baseInfo": {
+        "name": {
+            "common": "Sint Maarten",
+            "official": "Sint Maarten",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Sint Maarten",
+                    "common": "Sint Maarten"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "Saint-Martin",
+                    "common": "Saint-Martin"
+                },
+                {
+                    "languageCode": "nl",
+                    "official": "Sint Maarten",
+                    "common": "Sint Maarten"
+                }
+            ]
+        },
+        "capital": "Philipsburg",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "fr", "name": "French" },
+            { "languageCode": "nl", "name": "Dutch" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Svatý Martin",
+                "common": "Svatý Martin (Nizozemsko)"
+            },
+            {
+                "languageCode": "de",
+                "official": "Sint Maarten",
+                "common": "Sint Maarten"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Sint Maarten",
+                "common": "Saint-Martin"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Sveti Martin",
+                "common": "Sveti Martin"
+            },
+            {
+                "languageCode": "it",
+                "official": "Sint Maarten",
+                "common": "Sint Maarten"
+            },
+            {
+                "languageCode": "ja",
+                "official": "シントマールテン島",
+                "common": "シント・マールテン"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Sint Maarten",
+                "common": "Sint Maarten"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Sint Maarten",
+                "common": "São Martinho"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Синт-Маартен",
+                "common": "Синт-Мартен"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Sint Maarten",
+                "common": "Sint Maarten"
+            },
+            {
+                "languageCode": "es",
+                "official": "Sint Maarten",
+                "common": "Sint Maarten"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Sint Maarten",
+                "common": "Sint Maarten"
+            },
+            {
+                "languageCode": "et",
+                "official": "Sint Maarten",
+                "common": "Sint Maarten"
+            },
+            {
+                "languageCode": "zh",
+                "official": "圣马丁岛",
+                "common": "圣马丁岛"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Sint Maarten",
+                "common": "Sint Maarten"
+            },
+            {
+                "languageCode": "ur",
+                "official": "سنٹ مارٹن",
+                "common": "سنٹ مارٹن"
+            },
+            {
+                "languageCode": "ko",
+                "official": "신트마르턴",
+                "common": "신트마르턴"
+            },
+            { "official": "سن مارتن", "common": "سن مارتن" },
+            {
+                "languageCode": "hr",
+                "official": "Sveti Martin",
+                "common": "Sveti Martin"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "Netherlands Antillean guilder",
+                "symbol": "ƒ",
+                "currencyCode": "ANG"
+            }
+        ],
+        "flag": "🇸🇽",
+        "codes": { "cca2": "SX", "cca3": "SXM", "ccn3": "534" },
+        "coordinates": { "latitude": 18.033333, "longitude": -63.05 }
+    }
+}

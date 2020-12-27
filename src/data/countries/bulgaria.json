@@ -1,1 +1,125 @@
-{"title":"Bulgaria","slug":"bulgaria","baseInfo":{"name":{"common":"Bulgaria","official":"Republic of Bulgaria","native":[{"languageCode":"bg","official":"Република България","common":"България"}]},"capital":"Sofia","region":"Europe","subregion":"Eastern Europe","languages":[{"languageCode":"bg","name":"Bulgarian"}],"translations":[{"languageCode":"cs","official":"Bulharská republika","common":"Bulharsko"},{"languageCode":"cy","official":"Gweriniaeth Bwlgaria","common":"Bwlgaria"},{"languageCode":"de","official":"Republik Bulgarien","common":"Bulgarien"},{"languageCode":"fr","official":"République de Bulgarie","common":"Bulgarie"},{"languageCode":"hr","official":"Republika Bugarska","common":"Bugarska"},{"languageCode":"it","official":"Repubblica di Bulgaria","common":"Bulgaria"},{"languageCode":"ja","official":"ブルガリア共和国","common":"ブルガリア"},{"languageCode":"nl","official":"Republiek Bulgarije","common":"Bulgarije"},{"languageCode":"pt","official":"República da Bulgária","common":"Bulgária"},{"languageCode":"ru","official":"Республика Болгария","common":"Болгария"},{"languageCode":"sk","official":"Bulharská republika","common":"Bulharsko"},{"languageCode":"es","official":"República de Bulgaria","common":"Bulgaria"},{"languageCode":"fi","official":"Bulgarian tasavalta","common":"Bulgaria"},{"languageCode":"et","official":"Bulgaaria Vabariik","common":"Bulgaaria"},{"languageCode":"zh","official":"保加利亚共和国","common":"保加利亚"},{"languageCode":"pl","official":"Republika Bułgarii","common":"Bułgaria"},{"languageCode":"ur","official":"جمہوریہ بلغاریہ","common":"بلغاریہ"},{"languageCode":"ko","official":"불가리아 공화국","common":"불가리아"},{"official":"جمهوری بلغارستان","common":"بلغارستان"}],"currencies":[{"name":"Bulgarian lev","symbol":"лв","currencyCode":"BGN"}],"flag":"🇧🇬","codes":{"cca2":"BG","cca3":"BGR","ccn3":"100"},"coordinates":{"latitude":43,"longitude":25}}}
+{
+    "title": "Bulgaria",
+    "slug": "bulgaria",
+    "baseInfo": {
+        "name": {
+            "common": "Bulgaria",
+            "official": "Republic of Bulgaria",
+            "native": [
+                {
+                    "languageCode": "bg",
+                    "official": "Република България",
+                    "common": "България"
+                }
+            ]
+        },
+        "capital": "Sofia",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [{ "languageCode": "bg", "name": "Bulgarian" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Bulharská republika",
+                "common": "Bulharsko"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Bwlgaria",
+                "common": "Bwlgaria"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Bulgarien",
+                "common": "Bulgarien"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de Bulgarie",
+                "common": "Bulgarie"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Bugarska",
+                "common": "Bugarska"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Bulgaria",
+                "common": "Bulgaria"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ブルガリア共和国",
+                "common": "ブルガリア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Bulgarije",
+                "common": "Bulgarije"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Bulgária",
+                "common": "Bulgária"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Болгария",
+                "common": "Болгария"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Bulharská republika",
+                "common": "Bulharsko"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Bulgaria",
+                "common": "Bulgaria"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Bulgarian tasavalta",
+                "common": "Bulgaria"
+            },
+            {
+                "languageCode": "et",
+                "official": "Bulgaaria Vabariik",
+                "common": "Bulgaaria"
+            },
+            {
+                "languageCode": "zh",
+                "official": "保加利亚共和国",
+                "common": "保加利亚"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Bułgarii",
+                "common": "Bułgaria"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ بلغاریہ",
+                "common": "بلغاریہ"
+            },
+            {
+                "languageCode": "ko",
+                "official": "불가리아 공화국",
+                "common": "불가리아"
+            },
+            { "official": "جمهوری بلغارستان", "common": "بلغارستان" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Bugarska",
+                "common": "Bugarska"
+            }
+        ],
+        "currencies": [
+            { "name": "Bulgarian lev", "symbol": "лв", "currencyCode": "BGN" }
+        ],
+        "flag": "🇧🇬",
+        "codes": { "cca2": "BG", "cca3": "BGR", "ccn3": "100" },
+        "coordinates": { "latitude": 43, "longitude": 25 }
+    }
+}

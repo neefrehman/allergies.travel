@@ -1,1 +1,123 @@
-{"title":"Norfolk Island","slug":"norfolk-island","baseInfo":{"name":{"common":"Norfolk Island","official":"Territory of Norfolk Island","native":[{"languageCode":"en","official":"Territory of Norfolk Island","common":"Norfolk Island"},{"official":"Teratri of Norf'k Ailen","common":"Norf'k Ailen"}]},"capital":"Kingston","region":"Oceania","subregion":"Australia and New Zealand","languages":[{"languageCode":"en","name":"English"},{"name":"Norfuk"}],"translations":[{"languageCode":"cs","official":"Teritorium ostrova Norfolk","common":"Norfolk"},{"languageCode":"de","official":"Gebiet der Norfolkinsel","common":"Norfolkinsel"},{"languageCode":"fr","official":"Territoire de l'île Norfolk","common":"Île Norfolk"},{"languageCode":"hr","official":"Teritorij Norfolk Island","common":"Otok Norfolk"},{"languageCode":"it","official":"Territorio di Norfolk Island","common":"Isola Norfolk"},{"languageCode":"ja","official":"ノーフォーク島の領土","common":"ノーフォーク島"},{"languageCode":"nl","official":"Grondgebied van Norfolk Island","common":"Norfolkeiland"},{"languageCode":"pt","official":"Território da Ilha Norfolk","common":"Ilha Norfolk"},{"languageCode":"ru","official":"Территория острова Норфолк","common":"Норфолк"},{"languageCode":"sk","official":"Teritórium ostrova Norfolk","common":"Norfolk"},{"languageCode":"es","official":"Territorio de la Isla Norfolk","common":"Isla de Norfolk"},{"languageCode":"fi","official":"Norfolkinsaaren territorio","common":"Norfolkinsaari"},{"languageCode":"et","official":"Norfolki saare ala","common":"Norfolk"},{"languageCode":"zh","official":"诺福克岛","common":"诺福克岛"},{"languageCode":"pl","official":"Terytorium Wyspy Norfolk","common":"Wyspa Norfolk"},{"languageCode":"ur","official":"جزیرہ نورفک خطہ","common":"جزیرہ نورفک"},{"languageCode":"ko","official":"노퍽 섬","common":"노퍽 섬"},{"official":"قلمرو جزایر نورفک","common":"جزیره نورفک"}],"currencies":[{"name":"Australian dollar","symbol":"$","currencyCode":"AUD"}],"flag":"🇳🇫","codes":{"cca2":"NF","cca3":"NFK","ccn3":"574"},"coordinates":{"latitude":-29.03333333,"longitude":167.95}}}
+{
+    "title": "Norfolk Island",
+    "slug": "norfolk-island",
+    "baseInfo": {
+        "name": {
+            "common": "Norfolk Island",
+            "official": "Territory of Norfolk Island",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Territory of Norfolk Island",
+                    "common": "Norfolk Island"
+                },
+                {
+                    "official": "Teratri of Norf'k Ailen",
+                    "common": "Norf'k Ailen"
+                }
+            ]
+        },
+        "capital": "Kingston",
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "name": "Norfuk" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Teritorium ostrova Norfolk",
+                "common": "Norfolk"
+            },
+            {
+                "languageCode": "de",
+                "official": "Gebiet der Norfolkinsel",
+                "common": "Norfolkinsel"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Territoire de l'île Norfolk",
+                "common": "Île Norfolk"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Teritorij Norfolk Island",
+                "common": "Otok Norfolk"
+            },
+            {
+                "languageCode": "it",
+                "official": "Territorio di Norfolk Island",
+                "common": "Isola Norfolk"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ノーフォーク島の領土",
+                "common": "ノーフォーク島"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Grondgebied van Norfolk Island",
+                "common": "Norfolkeiland"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Território da Ilha Norfolk",
+                "common": "Ilha Norfolk"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Территория острова Норфолк",
+                "common": "Норфолк"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Teritórium ostrova Norfolk",
+                "common": "Norfolk"
+            },
+            {
+                "languageCode": "es",
+                "official": "Territorio de la Isla Norfolk",
+                "common": "Isla de Norfolk"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Norfolkinsaaren territorio",
+                "common": "Norfolkinsaari"
+            },
+            {
+                "languageCode": "et",
+                "official": "Norfolki saare ala",
+                "common": "Norfolk"
+            },
+            {
+                "languageCode": "zh",
+                "official": "诺福克岛",
+                "common": "诺福克岛"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Terytorium Wyspy Norfolk",
+                "common": "Wyspa Norfolk"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جزیرہ نورفک خطہ",
+                "common": "جزیرہ نورفک"
+            },
+            { "languageCode": "ko", "official": "노퍽 섬", "common": "노퍽 섬" },
+            { "official": "قلمرو جزایر نورفک", "common": "جزیره نورفک" },
+            {
+                "languageCode": "hr",
+                "official": "Teritorij Norfolk Island",
+                "common": "Otok Norfolk"
+            }
+        ],
+        "currencies": [
+            { "name": "Australian dollar", "symbol": "$", "currencyCode": "AUD" }
+        ],
+        "flag": "🇳🇫",
+        "codes": { "cca2": "NF", "cca3": "NFK", "ccn3": "574" },
+        "coordinates": { "latitude": -29.03333333, "longitude": 167.95 }
+    }
+}

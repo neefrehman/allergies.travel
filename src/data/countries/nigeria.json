@@ -1,1 +1,120 @@
-{"title":"Nigeria","slug":"nigeria","baseInfo":{"name":{"common":"Nigeria","official":"Federal Republic of Nigeria","native":[{"languageCode":"en","official":"Federal Republic of Nigeria","common":"Nigeria"}]},"capital":"Abuja","region":"Africa","subregion":"Western Africa","languages":[{"languageCode":"en","name":"English"}],"translations":[{"languageCode":"cs","official":"Nigerijská federativní republika","common":"Nigérie"},{"languageCode":"de","official":"Bundesrepublik Nigeria","common":"Nigeria"},{"languageCode":"fr","official":"République fédérale du Nigeria","common":"Nigéria"},{"languageCode":"hr","official":"Savezna Republika Nigerija","common":"Nigerija"},{"languageCode":"it","official":"Repubblica federale di Nigeria","common":"Nigeria"},{"languageCode":"ja","official":"ナイジェリア連邦共和国","common":"ナイジェリア"},{"languageCode":"nl","official":"Federale Republiek Nigeria","common":"Nigeria"},{"languageCode":"pt","official":"República Federal da Nigéria","common":"Nigéria"},{"languageCode":"ru","official":"Федеративная Республика Нигерия","common":"Нигерия"},{"languageCode":"sk","official":"Nigérijská federatívna republika","common":"Nigéria"},{"languageCode":"es","official":"República Federal de Nigeria","common":"Nigeria"},{"languageCode":"fi","official":"Nigerian liittotasavalta","common":"Nigeria"},{"languageCode":"et","official":"Nigeeria Liitvabariik","common":"Nigeeria"},{"languageCode":"zh","official":"尼日利亚联邦共和国","common":"尼日利亚"},{"languageCode":"pl","official":"Federalna Republika Nigerii","common":"Nigeria"},{"languageCode":"ur","official":"وفاقی جمہوریہ نائجیریا","common":"نائجیریا"},{"languageCode":"ko","official":"나이지리아 연방 공화국","common":"나이지리아"},{"official":"جمهوری فدرال نیجریه","common":"نیجریه"}],"currencies":[{"name":"Nigerian naira","symbol":"₦","currencyCode":"NGN"}],"flag":"🇳🇬","codes":{"cca2":"NG","cca3":"NGA","ccn3":"566"},"coordinates":{"latitude":10,"longitude":8}}}
+{
+    "title": "Nigeria",
+    "slug": "nigeria",
+    "baseInfo": {
+        "name": {
+            "common": "Nigeria",
+            "official": "Federal Republic of Nigeria",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Federal Republic of Nigeria",
+                    "common": "Nigeria"
+                }
+            ]
+        },
+        "capital": "Abuja",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Nigerijská federativní republika",
+                "common": "Nigérie"
+            },
+            {
+                "languageCode": "de",
+                "official": "Bundesrepublik Nigeria",
+                "common": "Nigeria"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République fédérale du Nigeria",
+                "common": "Nigéria"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Savezna Republika Nigerija",
+                "common": "Nigerija"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica federale di Nigeria",
+                "common": "Nigeria"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ナイジェリア連邦共和国",
+                "common": "ナイジェリア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Federale Republiek Nigeria",
+                "common": "Nigeria"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República Federal da Nigéria",
+                "common": "Nigéria"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Федеративная Республика Нигерия",
+                "common": "Нигерия"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Nigérijská federatívna republika",
+                "common": "Nigéria"
+            },
+            {
+                "languageCode": "es",
+                "official": "República Federal de Nigeria",
+                "common": "Nigeria"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Nigerian liittotasavalta",
+                "common": "Nigeria"
+            },
+            {
+                "languageCode": "et",
+                "official": "Nigeeria Liitvabariik",
+                "common": "Nigeeria"
+            },
+            {
+                "languageCode": "zh",
+                "official": "尼日利亚联邦共和国",
+                "common": "尼日利亚"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Federalna Republika Nigerii",
+                "common": "Nigeria"
+            },
+            {
+                "languageCode": "ur",
+                "official": "وفاقی جمہوریہ نائجیریا",
+                "common": "نائجیریا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "나이지리아 연방 공화국",
+                "common": "나이지리아"
+            },
+            { "official": "جمهوری فدرال نیجریه", "common": "نیجریه" },
+            {
+                "languageCode": "hr",
+                "official": "Savezna Republika Nigerija",
+                "common": "Nigerija"
+            }
+        ],
+        "currencies": [
+            { "name": "Nigerian naira", "symbol": "₦", "currencyCode": "NGN" }
+        ],
+        "flag": "🇳🇬",
+        "codes": { "cca2": "NG", "cca3": "NGA", "ccn3": "566" },
+        "coordinates": { "latitude": 10, "longitude": 8 }
+    }
+}

@@ -1,1 +1,133 @@
-{"title":"Belarus","slug":"belarus","baseInfo":{"name":{"common":"Belarus","official":"Republic of Belarus","native":[{"languageCode":"be","official":"Рэспубліка Беларусь","common":"Белару́сь"},{"languageCode":"ru","official":"Республика Беларусь","common":"Беларусь"}]},"capital":"Minsk","region":"Europe","subregion":"Eastern Europe","languages":[{"languageCode":"be","name":"Belarusian"},{"languageCode":"ru","name":"Russian"}],"translations":[{"languageCode":"cs","official":"Běloruská republika","common":"Bělorusko"},{"languageCode":"cy","official":"Gweriniaeth Belarws","common":"Belarws"},{"languageCode":"de","official":"Republik Belarus","common":"Weißrussland"},{"languageCode":"fr","official":"République de Biélorussie","common":"Biélorussie"},{"languageCode":"hr","official":"Republika Bjelorusija","common":"Bjelorusija"},{"languageCode":"it","official":"Repubblica di Belarus","common":"Bielorussia"},{"languageCode":"ja","official":"ベラルーシ共和国","common":"ベラルーシ"},{"languageCode":"nl","official":"Republiek Belarus","common":"Wit-Rusland"},{"languageCode":"pt","official":"República da Bielorrússia","common":"Bielorússia"},{"languageCode":"ru","official":"Республика Беларусь","common":"Беларусь"},{"languageCode":"sk","official":"Bieloruská republika","common":"Bielorusko"},{"languageCode":"es","official":"República de Belarús","common":"Bielorrusia"},{"languageCode":"fi","official":"Valko-Venäjän tasavalta","common":"Valko-Venäjä"},{"languageCode":"et","official":"Valgevene Vabariik","common":"Valgevene"},{"languageCode":"zh","official":"白俄罗斯共和国","common":"白俄罗斯"},{"languageCode":"pl","official":"Republika Białorusi","common":"Białoruś"},{"languageCode":"ur","official":"جمہوریہ بیلاروس","common":"بیلاروس"},{"languageCode":"ko","official":"벨라루스 공화국","common":"벨라루스"},{"official":"جمهوری بلاروس","common":"بلاروس"}],"currencies":[{"name":"Belarusian ruble","symbol":"Br","currencyCode":"BYN"}],"flag":"🇧🇾","codes":{"cca2":"BY","cca3":"BLR","ccn3":"112"},"coordinates":{"latitude":53,"longitude":28}}}
+{
+    "title": "Belarus",
+    "slug": "belarus",
+    "baseInfo": {
+        "name": {
+            "common": "Belarus",
+            "official": "Republic of Belarus",
+            "native": [
+                {
+                    "languageCode": "be",
+                    "official": "Рэспубліка Беларусь",
+                    "common": "Белару́сь"
+                },
+                {
+                    "languageCode": "ru",
+                    "official": "Республика Беларусь",
+                    "common": "Беларусь"
+                }
+            ]
+        },
+        "capital": "Minsk",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [
+            { "languageCode": "be", "name": "Belarusian" },
+            { "languageCode": "ru", "name": "Russian" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Běloruská republika",
+                "common": "Bělorusko"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Belarws",
+                "common": "Belarws"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Belarus",
+                "common": "Weißrussland"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de Biélorussie",
+                "common": "Biélorussie"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Bjelorusija",
+                "common": "Bjelorusija"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Belarus",
+                "common": "Bielorussia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ベラルーシ共和国",
+                "common": "ベラルーシ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Belarus",
+                "common": "Wit-Rusland"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Bielorrússia",
+                "common": "Bielorússia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Беларусь",
+                "common": "Беларусь"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Bieloruská republika",
+                "common": "Bielorusko"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Belarús",
+                "common": "Bielorrusia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Valko-Venäjän tasavalta",
+                "common": "Valko-Venäjä"
+            },
+            {
+                "languageCode": "et",
+                "official": "Valgevene Vabariik",
+                "common": "Valgevene"
+            },
+            {
+                "languageCode": "zh",
+                "official": "白俄罗斯共和国",
+                "common": "白俄罗斯"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Białorusi",
+                "common": "Białoruś"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ بیلاروس",
+                "common": "بیلاروس"
+            },
+            {
+                "languageCode": "ko",
+                "official": "벨라루스 공화국",
+                "common": "벨라루스"
+            },
+            { "official": "جمهوری بلاروس", "common": "بلاروس" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Bjelorusija",
+                "common": "Bjelorusija"
+            }
+        ],
+        "currencies": [
+            { "name": "Belarusian ruble", "symbol": "Br", "currencyCode": "BYN" }
+        ],
+        "flag": "🇧🇾",
+        "codes": { "cca2": "BY", "cca3": "BLR", "ccn3": "112" },
+        "coordinates": { "latitude": 53, "longitude": 28 }
+    }
+}

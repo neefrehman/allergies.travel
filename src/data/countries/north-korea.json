@@ -1,1 +1,120 @@
-{"title":"North Korea","slug":"north-korea","baseInfo":{"name":{"common":"North Korea","official":"Democratic People's Republic of Korea","native":[{"languageCode":"ko","official":"조선민주주의인민공화국","common":"조선"}]},"capital":"Pyongyang","region":"Asia","subregion":"Eastern Asia","languages":[{"languageCode":"ko","name":"Korean"}],"translations":[{"languageCode":"cs","official":"Korejská lidově demokratická republika","common":"Severní Korea"},{"languageCode":"de","official":"Demokratische Volksrepublik Korea","common":"Nordkorea"},{"languageCode":"fr","official":"République populaire démocratique de Corée","common":"Corée du Nord"},{"languageCode":"hr","official":"Demokratska Narodna Republika Koreja","common":"Sjeverna Koreja"},{"languageCode":"it","official":"Repubblica democratica popolare di Corea","common":"Corea del Nord"},{"languageCode":"ja","official":"朝鮮民主主義人民共和国","common":"朝鮮民主主義人民共和国"},{"languageCode":"nl","official":"Democratische Volksrepubliek Korea","common":"Noord-Korea"},{"languageCode":"pt","official":"República Popular Democrática da Coreia","common":"Coreia do Norte"},{"languageCode":"ru","official":"Корейская Народно-Демократическая Республика Корея","common":"Северная Корея"},{"languageCode":"sk","official":"Kórejská ľudovodemokratická republika","common":"Kórejská ľudovodemokratická republika (KĽR, Severná Kórea)"},{"languageCode":"es","official":"República Popular Democrática de Corea","common":"Corea del Norte"},{"languageCode":"fi","official":"Korean demokraattinen kansantasavalta","common":"Pohjois-Korea"},{"languageCode":"et","official":"Korea Rahvademokraatlik Vabariik","common":"Põhja-Korea"},{"languageCode":"zh","official":"朝鲜人民民主共和国","common":"朝鲜"},{"languageCode":"pl","official":"Koreańska Republika Ludowo-Demokratyczna","common":"Korea Północna"},{"languageCode":"ur","official":"جمہوری عوامی جمہوریہ کوریا","common":"شمالی کوریا"},{"languageCode":"ko","official":"조선민주주의인민공화국","common":"조선"},{"official":"جمهوری دموکراتیک خلق کره","common":"کُره شمالی"}],"currencies":[{"name":"North Korean won","symbol":"₩","currencyCode":"KPW"}],"flag":"🇰🇵","codes":{"cca2":"KP","cca3":"PRK","ccn3":"408"},"coordinates":{"latitude":40,"longitude":127}}}
+{
+    "title": "North Korea",
+    "slug": "north-korea",
+    "baseInfo": {
+        "name": {
+            "common": "North Korea",
+            "official": "Democratic People's Republic of Korea",
+            "native": [
+                {
+                    "languageCode": "ko",
+                    "official": "조선민주주의인민공화국",
+                    "common": "조선"
+                }
+            ]
+        },
+        "capital": "Pyongyang",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "languages": [{ "languageCode": "ko", "name": "Korean" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Korejská lidově demokratická republika",
+                "common": "Severní Korea"
+            },
+            {
+                "languageCode": "de",
+                "official": "Demokratische Volksrepublik Korea",
+                "common": "Nordkorea"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République populaire démocratique de Corée",
+                "common": "Corée du Nord"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Demokratska Narodna Republika Koreja",
+                "common": "Sjeverna Koreja"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica democratica popolare di Corea",
+                "common": "Corea del Nord"
+            },
+            {
+                "languageCode": "ja",
+                "official": "朝鮮民主主義人民共和国",
+                "common": "朝鮮民主主義人民共和国"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Democratische Volksrepubliek Korea",
+                "common": "Noord-Korea"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República Popular Democrática da Coreia",
+                "common": "Coreia do Norte"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Корейская Народно-Демократическая Республика Корея",
+                "common": "Северная Корея"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Kórejská ľudovodemokratická republika",
+                "common": "Kórejská ľudovodemokratická republika (KĽR, Severná Kórea)"
+            },
+            {
+                "languageCode": "es",
+                "official": "República Popular Democrática de Corea",
+                "common": "Corea del Norte"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Korean demokraattinen kansantasavalta",
+                "common": "Pohjois-Korea"
+            },
+            {
+                "languageCode": "et",
+                "official": "Korea Rahvademokraatlik Vabariik",
+                "common": "Põhja-Korea"
+            },
+            {
+                "languageCode": "zh",
+                "official": "朝鲜人民民主共和国",
+                "common": "朝鲜"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Koreańska Republika Ludowo-Demokratyczna",
+                "common": "Korea Północna"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوری عوامی جمہوریہ کوریا",
+                "common": "شمالی کوریا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "조선민주주의인민공화국",
+                "common": "조선"
+            },
+            { "official": "جمهوری دموکراتیک خلق کره", "common": "کُره شمالی" },
+            {
+                "languageCode": "hr",
+                "official": "Demokratska Narodna Republika Koreja",
+                "common": "Sjeverna Koreja"
+            }
+        ],
+        "currencies": [
+            { "name": "North Korean won", "symbol": "₩", "currencyCode": "KPW" }
+        ],
+        "flag": "🇰🇵",
+        "codes": { "cca2": "KP", "cca3": "PRK", "ccn3": "408" },
+        "coordinates": { "latitude": 40, "longitude": 127 }
+    }
+}

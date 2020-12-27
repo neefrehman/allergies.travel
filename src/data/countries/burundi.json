@@ -1,1 +1,121 @@
-{"title":"Burundi","slug":"burundi","baseInfo":{"name":{"common":"Burundi","official":"Republic of Burundi","native":[{"languageCode":"fr","official":"République du Burundi","common":"Burundi"},{"languageCode":"rn","official":"Republika y'Uburundi ","common":"Uburundi"}]},"capital":"Bujumbura","region":"Africa","subregion":"Eastern Africa","languages":[{"languageCode":"fr","name":"French"},{"languageCode":"rn","name":"Kirundi"}],"translations":[{"languageCode":"cs","official":"Burundská republika","common":"Burundi"},{"languageCode":"cy","official":"Gweriniaeth Bwrwndi","common":"Bwrwndi"},{"languageCode":"de","official":"Republik Burundi","common":"Burundi"},{"languageCode":"fr","official":"République du Burundi","common":"Burundi"},{"languageCode":"hr","official":"Burundi","common":"Burundi"},{"languageCode":"it","official":"Repubblica del Burundi","common":"Burundi"},{"languageCode":"ja","official":"ブルンジ共和国","common":"ブルンジ"},{"languageCode":"nl","official":"Republiek Burundi","common":"Burundi"},{"languageCode":"pt","official":"República do Burundi","common":"Burundi"},{"languageCode":"ru","official":"Республика Бурунди","common":"Бурунди"},{"languageCode":"sk","official":"Burundská republika","common":"Burundi"},{"languageCode":"es","official":"República de Burundi","common":"Burundi"},{"languageCode":"fi","official":"Burundin tasavalta","common":"Burundi"},{"languageCode":"et","official":"Burundi Vabariik","common":"Burundi"},{"languageCode":"zh","official":"布隆迪共和国","common":"布隆迪"},{"languageCode":"pl","official":"Republika Burundi","common":"Burundi"},{"languageCode":"ur","official":"جمہوریہ برونڈی","common":"برونڈی"},{"languageCode":"ko","official":"부룬디","common":"부룬디"},{"official":"جمهوری بوروندی","common":"بوروندی"}],"currencies":[{"name":"Burundian franc","symbol":"Fr","currencyCode":"BIF"}],"flag":"🇧🇮","codes":{"cca2":"BI","cca3":"BDI","ccn3":"108"},"coordinates":{"latitude":-3.5,"longitude":30}}}
+{
+    "title": "Burundi",
+    "slug": "burundi",
+    "baseInfo": {
+        "name": {
+            "common": "Burundi",
+            "official": "Republic of Burundi",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République du Burundi",
+                    "common": "Burundi"
+                },
+                {
+                    "languageCode": "rn",
+                    "official": "Republika y'Uburundi ",
+                    "common": "Uburundi"
+                }
+            ]
+        },
+        "capital": "Bujumbura",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "languageCode": "fr", "name": "French" },
+            { "languageCode": "rn", "name": "Kirundi" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Burundská republika",
+                "common": "Burundi"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Bwrwndi",
+                "common": "Bwrwndi"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Burundi",
+                "common": "Burundi"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Burundi",
+                "common": "Burundi"
+            },
+            { "languageCode": "sh", "official": "Burundi", "common": "Burundi" },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Burundi",
+                "common": "Burundi"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ブルンジ共和国",
+                "common": "ブルンジ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Burundi",
+                "common": "Burundi"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Burundi",
+                "common": "Burundi"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Бурунди",
+                "common": "Бурунди"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Burundská republika",
+                "common": "Burundi"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Burundi",
+                "common": "Burundi"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Burundin tasavalta",
+                "common": "Burundi"
+            },
+            {
+                "languageCode": "et",
+                "official": "Burundi Vabariik",
+                "common": "Burundi"
+            },
+            {
+                "languageCode": "zh",
+                "official": "布隆迪共和国",
+                "common": "布隆迪"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Burundi",
+                "common": "Burundi"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ برونڈی",
+                "common": "برونڈی"
+            },
+            { "languageCode": "ko", "official": "부룬디", "common": "부룬디" },
+            { "official": "جمهوری بوروندی", "common": "بوروندی" },
+            { "languageCode": "hr", "official": "Burundi", "common": "Burundi" }
+        ],
+        "currencies": [
+            { "name": "Burundian franc", "symbol": "Fr", "currencyCode": "BIF" }
+        ],
+        "flag": "🇧🇮",
+        "codes": { "cca2": "BI", "cca3": "BDI", "ccn3": "108" },
+        "coordinates": { "latitude": -3.5, "longitude": 30 }
+    }
+}

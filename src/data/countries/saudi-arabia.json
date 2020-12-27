@@ -1,1 +1,120 @@
-{"title":"Saudi Arabia","slug":"saudi-arabia","baseInfo":{"name":{"common":"Saudi Arabia","official":"Kingdom of Saudi Arabia","native":[{"languageCode":"ar","official":"المملكة العربية السعودية","common":"العربية السعودية"}]},"capital":"Riyadh","region":"Asia","subregion":"Western Asia","languages":[{"languageCode":"ar","name":"Arabic"}],"translations":[{"languageCode":"cs","official":"Saúdskoarabské království","common":"Saúdská Arábie"},{"languageCode":"de","official":"Königreich Saudi-Arabien","common":"Saudi-Arabien"},{"languageCode":"fr","official":"Royaume d'Arabie Saoudite","common":"Arabie Saoudite"},{"languageCode":"hr","official":"Kraljevina Saudijska Arabija","common":"Saudijska Arabija"},{"languageCode":"it","official":"Arabia Saudita","common":"Arabia Saudita"},{"languageCode":"ja","official":"サウジアラビア王国","common":"サウジアラビア"},{"languageCode":"nl","official":"Koninkrijk van Saoedi-Arabië","common":"Saoedi-Arabië"},{"languageCode":"pt","official":"Reino da Arábia Saudita","common":"Arábia Saudita"},{"languageCode":"ru","official":"Королевство Саудовская Аравия","common":"Саудовская Аравия"},{"languageCode":"sk","official":"Saudskoarabské kráľovstvo","common":"Saudská Arábia"},{"languageCode":"es","official":"Reino de Arabia Saudita","common":"Arabia Saudí"},{"languageCode":"fi","official":"Saudi-Arabian kuningaskunta","common":"Saudi-Arabia"},{"languageCode":"et","official":"Saudi Araabia Kuningriik","common":"Saudi Araabia"},{"languageCode":"zh","official":"沙特阿拉伯王国","common":"沙特阿拉伯"},{"languageCode":"pl","official":"Królestwo Arabii Saudyjskiej","common":"Arabia Saudyjska"},{"languageCode":"ur","official":"مملکتِ سعودی عرب","common":"سعودی عرب"},{"languageCode":"ko","official":"사우디아라비아 왕국","common":"사우디아라비아"},{"official":"پادشاهی عربی سَعودی","common":"عربستان سعودی"}],"currencies":[{"name":"Saudi riyal","symbol":"ر.س","currencyCode":"SAR"}],"flag":"🇸🇦","codes":{"cca2":"SA","cca3":"SAU","ccn3":"682"},"coordinates":{"latitude":25,"longitude":45}}}
+{
+    "title": "Saudi Arabia",
+    "slug": "saudi-arabia",
+    "baseInfo": {
+        "name": {
+            "common": "Saudi Arabia",
+            "official": "Kingdom of Saudi Arabia",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "المملكة العربية السعودية",
+                    "common": "العربية السعودية"
+                }
+            ]
+        },
+        "capital": "Riyadh",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [{ "languageCode": "ar", "name": "Arabic" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Saúdskoarabské království",
+                "common": "Saúdská Arábie"
+            },
+            {
+                "languageCode": "de",
+                "official": "Königreich Saudi-Arabien",
+                "common": "Saudi-Arabien"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Royaume d'Arabie Saoudite",
+                "common": "Arabie Saoudite"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Kraljevina Saudijska Arabija",
+                "common": "Saudijska Arabija"
+            },
+            {
+                "languageCode": "it",
+                "official": "Arabia Saudita",
+                "common": "Arabia Saudita"
+            },
+            {
+                "languageCode": "ja",
+                "official": "サウジアラビア王国",
+                "common": "サウジアラビア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Koninkrijk van Saoedi-Arabië",
+                "common": "Saoedi-Arabië"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Reino da Arábia Saudita",
+                "common": "Arábia Saudita"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Королевство Саудовская Аравия",
+                "common": "Саудовская Аравия"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Saudskoarabské kráľovstvo",
+                "common": "Saudská Arábia"
+            },
+            {
+                "languageCode": "es",
+                "official": "Reino de Arabia Saudita",
+                "common": "Arabia Saudí"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Saudi-Arabian kuningaskunta",
+                "common": "Saudi-Arabia"
+            },
+            {
+                "languageCode": "et",
+                "official": "Saudi Araabia Kuningriik",
+                "common": "Saudi Araabia"
+            },
+            {
+                "languageCode": "zh",
+                "official": "沙特阿拉伯王国",
+                "common": "沙特阿拉伯"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Królestwo Arabii Saudyjskiej",
+                "common": "Arabia Saudyjska"
+            },
+            {
+                "languageCode": "ur",
+                "official": "مملکتِ سعودی عرب",
+                "common": "سعودی عرب"
+            },
+            {
+                "languageCode": "ko",
+                "official": "사우디아라비아 왕국",
+                "common": "사우디아라비아"
+            },
+            { "official": "پادشاهی عربی سَعودی", "common": "عربستان سعودی" },
+            {
+                "languageCode": "hr",
+                "official": "Kraljevina Saudijska Arabija",
+                "common": "Saudijska Arabija"
+            }
+        ],
+        "currencies": [
+            { "name": "Saudi riyal", "symbol": "ر.س", "currencyCode": "SAR" }
+        ],
+        "flag": "🇸🇦",
+        "codes": { "cca2": "SA", "cca3": "SAU", "ccn3": "682" },
+        "coordinates": { "latitude": 25, "longitude": 45 }
+    }
+}

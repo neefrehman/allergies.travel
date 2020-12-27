@@ -1,1 +1,120 @@
-{"title":"Gibraltar","slug":"gibraltar","baseInfo":{"name":{"common":"Gibraltar","official":"Gibraltar","native":[{"languageCode":"en","official":"Gibraltar","common":"Gibraltar"}]},"capital":"Gibraltar","region":"Europe","subregion":"Southern Europe","languages":[{"languageCode":"en","name":"English"}],"translations":[{"languageCode":"cs","official":"Gibraltar","common":"Gibraltar"},{"languageCode":"de","official":"Gibraltar","common":"Gibraltar"},{"languageCode":"fr","official":"Gibraltar","common":"Gibraltar"},{"languageCode":"hr","official":"Gibraltar","common":"Gibraltar"},{"languageCode":"it","official":"Gibilterra","common":"Gibilterra"},{"languageCode":"ja","official":"ジブラルタル","common":"ジブラルタル"},{"languageCode":"nl","official":"Gibraltar","common":"Gibraltar"},{"languageCode":"pt","official":"Gibraltar","common":"Gibraltar"},{"languageCode":"ru","official":"Гибралтар","common":"Гибралтар"},{"languageCode":"sk","official":"Gibraltár","common":"Gibraltár"},{"languageCode":"es","official":"Gibraltar","common":"Gibraltar"},{"languageCode":"fi","official":"Gibraltar","common":"Gibraltar"},{"languageCode":"et","official":"Gibraltar","common":"Gibraltar"},{"languageCode":"zh","official":"直布罗陀","common":"直布罗陀"},{"languageCode":"pl","official":"Gibraltar","common":"Gibraltar"},{"languageCode":"ur","official":"جبل الطارق","common":"جبل الطارق"},{"languageCode":"ko","official":"지브롤터","common":"지브롤터"},{"official":"جبل طارق","common":"جبل طارق"}],"currencies":[{"name":"Gibraltar pound","symbol":"£","currencyCode":"GIP"}],"flag":"🇬🇮","codes":{"cca2":"GI","cca3":"GIB","ccn3":"292"},"coordinates":{"latitude":36.13333333,"longitude":-5.35}}}
+{
+    "title": "Gibraltar",
+    "slug": "gibraltar",
+    "baseInfo": {
+        "name": {
+            "common": "Gibraltar",
+            "official": "Gibraltar",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Gibraltar",
+                    "common": "Gibraltar"
+                }
+            ]
+        },
+        "capital": "Gibraltar",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            {
+                "languageCode": "de",
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            {
+                "languageCode": "it",
+                "official": "Gibilterra",
+                "common": "Gibilterra"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ジブラルタル",
+                "common": "ジブラルタル"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Гибралтар",
+                "common": "Гибралтар"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Gibraltár",
+                "common": "Gibraltár"
+            },
+            {
+                "languageCode": "es",
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            {
+                "languageCode": "et",
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            {
+                "languageCode": "zh",
+                "official": "直布罗陀",
+                "common": "直布罗陀"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جبل الطارق",
+                "common": "جبل الطارق"
+            },
+            {
+                "languageCode": "ko",
+                "official": "지브롤터",
+                "common": "지브롤터"
+            },
+            { "official": "جبل طارق", "common": "جبل طارق" },
+            {
+                "languageCode": "hr",
+                "official": "Gibraltar",
+                "common": "Gibraltar"
+            }
+        ],
+        "currencies": [
+            { "name": "Gibraltar pound", "symbol": "£", "currencyCode": "GIP" }
+        ],
+        "flag": "🇬🇮",
+        "codes": { "cca2": "GI", "cca3": "GIB", "ccn3": "292" },
+        "coordinates": { "latitude": 36.13333333, "longitude": -5.35 }
+    }
+}

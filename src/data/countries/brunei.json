@@ -1,1 +1,126 @@
-{"title":"Brunei","slug":"brunei","baseInfo":{"name":{"common":"Brunei","official":"Nation of Brunei, Abode of Peace","native":[{"languageCode":"ms","official":"Nation of Brunei, Abode Damai","common":"Negara Brunei Darussalam"}]},"capital":"Bandar Seri Begawan","region":"Asia","subregion":"South-Eastern Asia","languages":[{"languageCode":"ms","name":"Malay"}],"translations":[{"languageCode":"cs","official":"Sultanát Brunej","common":"Brunej"},{"languageCode":"cy","official":"Teyrnas Brwnei","common":"Brunei"},{"languageCode":"de","official":"Sultanat Brunei Darussalam","common":"Brunei"},{"languageCode":"fr","official":"État de Brunei Darussalam","common":"Brunei"},{"languageCode":"hr","official":"Nacija od Bruneja, Kuću Mira","common":"Brunej"},{"languageCode":"it","official":"Nazione di Brunei, Dimora della Pace","common":"Brunei"},{"languageCode":"ja","official":"ブルネイ、平和の精舎の国家","common":"ブルネイ・ダルサラーム"},{"languageCode":"nl","official":"Natie van Brunei, de verblijfplaats van de Vrede","common":"Brunei"},{"languageCode":"pt","official":"Nação do Brunei, Morada da Paz","common":"Brunei"},{"languageCode":"ru","official":"Нация Бруней, обитель мира","common":"Бруней"},{"languageCode":"sk","official":"Brunejský sultanât","common":"Brunej"},{"languageCode":"es","official":"Nación de Brunei, Morada de la Paz","common":"Brunei"},{"languageCode":"fi","official":"Brunei Darussalamin valtio","common":"Brunei"},{"languageCode":"et","official":"Brunei Darussalami Riik","common":"Brunei"},{"languageCode":"zh","official":"文莱和平之国","common":"文莱"},{"languageCode":"pl","official":"Państwo Brunei Darussalam","common":"Brunei"},{"languageCode":"ur","official":"ریاستِ برونائی دارالسلام","common":"برونائی"},{"languageCode":"ko","official":"브루나이 다루살람국","common":"브루나이"},{"official":"برونئی سرای صلح","common":"برونئی"}],"currencies":[{"name":"Brunei dollar","symbol":"$","currencyCode":"BND"},{"name":"Singapore dollar","symbol":"$","currencyCode":"SGD"}],"flag":"🇧🇳","codes":{"cca2":"BN","cca3":"BRN","ccn3":"096"},"coordinates":{"latitude":4.5,"longitude":114.66666666}}}
+{
+    "title": "Brunei",
+    "slug": "brunei",
+    "baseInfo": {
+        "name": {
+            "common": "Brunei",
+            "official": "Nation of Brunei, Abode of Peace",
+            "native": [
+                {
+                    "languageCode": "ms",
+                    "official": "Nation of Brunei, Abode Damai",
+                    "common": "Negara Brunei Darussalam"
+                }
+            ]
+        },
+        "capital": "Bandar Seri Begawan",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": [{ "languageCode": "ms", "name": "Malay" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Sultanát Brunej",
+                "common": "Brunej"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Teyrnas Brwnei",
+                "common": "Brunei"
+            },
+            {
+                "languageCode": "de",
+                "official": "Sultanat Brunei Darussalam",
+                "common": "Brunei"
+            },
+            {
+                "languageCode": "fr",
+                "official": "État de Brunei Darussalam",
+                "common": "Brunei"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Nacija od Bruneja, Kuću Mira",
+                "common": "Brunej"
+            },
+            {
+                "languageCode": "it",
+                "official": "Nazione di Brunei, Dimora della Pace",
+                "common": "Brunei"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ブルネイ、平和の精舎の国家",
+                "common": "ブルネイ・ダルサラーム"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Natie van Brunei, de verblijfplaats van de Vrede",
+                "common": "Brunei"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Nação do Brunei, Morada da Paz",
+                "common": "Brunei"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Нация Бруней, обитель мира",
+                "common": "Бруней"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Brunejský sultanât",
+                "common": "Brunej"
+            },
+            {
+                "languageCode": "es",
+                "official": "Nación de Brunei, Morada de la Paz",
+                "common": "Brunei"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Brunei Darussalamin valtio",
+                "common": "Brunei"
+            },
+            {
+                "languageCode": "et",
+                "official": "Brunei Darussalami Riik",
+                "common": "Brunei"
+            },
+            {
+                "languageCode": "zh",
+                "official": "文莱和平之国",
+                "common": "文莱"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Państwo Brunei Darussalam",
+                "common": "Brunei"
+            },
+            {
+                "languageCode": "ur",
+                "official": "ریاستِ برونائی دارالسلام",
+                "common": "برونائی"
+            },
+            {
+                "languageCode": "ko",
+                "official": "브루나이 다루살람국",
+                "common": "브루나이"
+            },
+            { "official": "برونئی سرای صلح", "common": "برونئی" },
+            {
+                "languageCode": "hr",
+                "official": "Nacija od Bruneja, Kuću Mira",
+                "common": "Brunej"
+            }
+        ],
+        "currencies": [
+            { "name": "Brunei dollar", "symbol": "$", "currencyCode": "BND" },
+            { "name": "Singapore dollar", "symbol": "$", "currencyCode": "SGD" }
+        ],
+        "flag": "🇧🇳",
+        "codes": { "cca2": "BN", "cca3": "BRN", "ccn3": "096" },
+        "coordinates": { "latitude": 4.5, "longitude": 114.66666666 }
+    }
+}

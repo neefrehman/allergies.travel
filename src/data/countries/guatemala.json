@@ -1,1 +1,120 @@
-{"title":"Guatemala","slug":"guatemala","baseInfo":{"name":{"common":"Guatemala","official":"Republic of Guatemala","native":[{"languageCode":"es","official":"República de Guatemala","common":"Guatemala"}]},"capital":"Guatemala City","region":"Americas","subregion":"Central America","languages":[{"languageCode":"es","name":"Spanish"}],"translations":[{"languageCode":"cs","official":"Republika Guatemala","common":"Guatemala"},{"languageCode":"de","official":"Republik Guatemala","common":"Guatemala"},{"languageCode":"fr","official":"République du Guatemala","common":"Guatemala"},{"languageCode":"hr","official":"Republika Gvatemala","common":"Gvatemala"},{"languageCode":"it","official":"Repubblica del Guatemala","common":"Guatemala"},{"languageCode":"ja","official":"グアテマラ共和国","common":"グアテマラ"},{"languageCode":"nl","official":"Republiek Guatemala","common":"Guatemala"},{"languageCode":"pt","official":"República da Guatemala","common":"Guatemala"},{"languageCode":"ru","official":"Республика Гватемала","common":"Гватемала"},{"languageCode":"sk","official":"Guatemalská republika","common":"Guatemala"},{"languageCode":"es","official":"República de Guatemala","common":"Guatemala"},{"languageCode":"fi","official":"Guatemalan tasavalta","common":"Guatemala"},{"languageCode":"et","official":"Guatemala Vabariik","common":"Guatemala"},{"languageCode":"zh","official":"危地马拉共和国","common":"危地马拉"},{"languageCode":"pl","official":"Republika Gwatemali","common":"Gwatemala"},{"languageCode":"ur","official":"جمہوریہ گواتیمالا","common":"گواتیمالا"},{"languageCode":"ko","official":"과테말라 공화국","common":"과테말라"},{"official":"جمهوری گواتِمالا","common":"گواتِمالا"}],"currencies":[{"name":"Guatemalan quetzal","symbol":"Q","currencyCode":"GTQ"}],"flag":"🇬🇹","codes":{"cca2":"GT","cca3":"GTM","ccn3":"320"},"coordinates":{"latitude":15.5,"longitude":-90.25}}}
+{
+    "title": "Guatemala",
+    "slug": "guatemala",
+    "baseInfo": {
+        "name": {
+            "common": "Guatemala",
+            "official": "Republic of Guatemala",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República de Guatemala",
+                    "common": "Guatemala"
+                }
+            ]
+        },
+        "capital": "Guatemala City",
+        "region": "Americas",
+        "subregion": "Central America",
+        "languages": [{ "languageCode": "es", "name": "Spanish" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Republika Guatemala",
+                "common": "Guatemala"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Guatemala",
+                "common": "Guatemala"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Guatemala",
+                "common": "Guatemala"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Gvatemala",
+                "common": "Gvatemala"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Guatemala",
+                "common": "Guatemala"
+            },
+            {
+                "languageCode": "ja",
+                "official": "グアテマラ共和国",
+                "common": "グアテマラ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Guatemala",
+                "common": "Guatemala"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Guatemala",
+                "common": "Guatemala"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Гватемала",
+                "common": "Гватемала"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Guatemalská republika",
+                "common": "Guatemala"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Guatemala",
+                "common": "Guatemala"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Guatemalan tasavalta",
+                "common": "Guatemala"
+            },
+            {
+                "languageCode": "et",
+                "official": "Guatemala Vabariik",
+                "common": "Guatemala"
+            },
+            {
+                "languageCode": "zh",
+                "official": "危地马拉共和国",
+                "common": "危地马拉"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Gwatemali",
+                "common": "Gwatemala"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ گواتیمالا",
+                "common": "گواتیمالا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "과테말라 공화국",
+                "common": "과테말라"
+            },
+            { "official": "جمهوری گواتِمالا", "common": "گواتِمالا" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Gvatemala",
+                "common": "Gvatemala"
+            }
+        ],
+        "currencies": [
+            { "name": "Guatemalan quetzal", "symbol": "Q", "currencyCode": "GTQ" }
+        ],
+        "flag": "🇬🇹",
+        "codes": { "cca2": "GT", "cca3": "GTM", "ccn3": "320" },
+        "coordinates": { "latitude": 15.5, "longitude": -90.25 }
+    }
+}

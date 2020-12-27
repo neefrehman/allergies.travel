@@ -1,1 +1,131 @@
-{"title":"Guinea-Bissau","slug":"guinea-bissau","baseInfo":{"name":{"common":"Guinea-Bissau","official":"Republic of Guinea-Bissau","native":[{"languageCode":"pt","official":"República da Guiné-Bissau","common":"Guiné-Bissau"},{"official":"República da Guiné-Bissau","common":"Guiné-Bissau"}]},"capital":"Bissau","region":"Africa","subregion":"Western Africa","languages":[{"languageCode":"pt","name":"Portuguese"},{"name":"Upper Guinea Creole"}],"translations":[{"languageCode":"cs","official":"Republika Guinea-Bissau","common":"Guinea-Bissau"},{"languageCode":"de","official":"Republik Guinea-Bissau","common":"Guinea-Bissau"},{"languageCode":"fr","official":"République de Guinée-Bissau","common":"Guinée-Bissau"},{"languageCode":"hr","official":"Republika Gvineja Bisau","common":"Gvineja Bisau"},{"languageCode":"it","official":"Repubblica di Guinea-Bissau","common":"Guinea-Bissau"},{"languageCode":"ja","official":"ギニアビサウ共和国","common":"ギニアビサウ"},{"languageCode":"nl","official":"Republiek Guinee-Bissau","common":"Guinee-Bissau"},{"languageCode":"pt","official":"República da Guiné-Bissau","common":"Guiné-Bissau"},{"languageCode":"ru","official":"Республика Гвинея -Бисау","common":"Гвинея-Бисау"},{"languageCode":"sk","official":"Guinejsko-bissauská republika","common":"Guinea-Bissau"},{"languageCode":"es","official":"República de Guinea-Bissau","common":"Guinea-Bisáu"},{"languageCode":"fi","official":"Guinea-Bissaun tasavalta","common":"Guinea-Bissau"},{"languageCode":"et","official":"Guinea-Bissau Vabariik","common":"Guinea-Bissau"},{"languageCode":"zh","official":"几内亚比绍共和国","common":"几内亚比绍"},{"languageCode":"pl","official":"Republika Gwinei Bissau","common":"Gwinea Bissau"},{"languageCode":"ur","official":"جمہوریہ گنی بساؤ","common":"گنی بساؤ"},{"languageCode":"ko","official":"기니비사우 공화국","common":"기니비사우"},{"official":"جمهوری گینه بیسائو","common":"گینه بیسائو"}],"currencies":[{"name":"West African CFA franc","symbol":"Fr","currencyCode":"XOF"}],"flag":"🇬🇼","codes":{"cca2":"GW","cca3":"GNB","ccn3":"624"},"coordinates":{"latitude":12,"longitude":-15}}}
+{
+    "title": "Guinea-Bissau",
+    "slug": "guinea-bissau",
+    "baseInfo": {
+        "name": {
+            "common": "Guinea-Bissau",
+            "official": "Republic of Guinea-Bissau",
+            "native": [
+                {
+                    "languageCode": "pt",
+                    "official": "República da Guiné-Bissau",
+                    "common": "Guiné-Bissau"
+                },
+                {
+                    "official": "República da Guiné-Bissau",
+                    "common": "Guiné-Bissau"
+                }
+            ]
+        },
+        "capital": "Bissau",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [
+            { "languageCode": "pt", "name": "Portuguese" },
+            { "name": "Upper Guinea Creole" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Republika Guinea-Bissau",
+                "common": "Guinea-Bissau"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Guinea-Bissau",
+                "common": "Guinea-Bissau"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de Guinée-Bissau",
+                "common": "Guinée-Bissau"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Gvineja Bisau",
+                "common": "Gvineja Bisau"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Guinea-Bissau",
+                "common": "Guinea-Bissau"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ギニアビサウ共和国",
+                "common": "ギニアビサウ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Guinee-Bissau",
+                "common": "Guinee-Bissau"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Guiné-Bissau",
+                "common": "Guiné-Bissau"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Гвинея -Бисау",
+                "common": "Гвинея-Бисау"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Guinejsko-bissauská republika",
+                "common": "Guinea-Bissau"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Guinea-Bissau",
+                "common": "Guinea-Bisáu"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Guinea-Bissaun tasavalta",
+                "common": "Guinea-Bissau"
+            },
+            {
+                "languageCode": "et",
+                "official": "Guinea-Bissau Vabariik",
+                "common": "Guinea-Bissau"
+            },
+            {
+                "languageCode": "zh",
+                "official": "几内亚比绍共和国",
+                "common": "几内亚比绍"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Gwinei Bissau",
+                "common": "Gwinea Bissau"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ گنی بساؤ",
+                "common": "گنی بساؤ"
+            },
+            {
+                "languageCode": "ko",
+                "official": "기니비사우 공화국",
+                "common": "기니비사우"
+            },
+            { "official": "جمهوری گینه بیسائو", "common": "گینه بیسائو" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Gvineja Bisau",
+                "common": "Gvineja Bisau"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "West African CFA franc",
+                "symbol": "Fr",
+                "currencyCode": "XOF"
+            }
+        ],
+        "flag": "🇬🇼",
+        "codes": { "cca2": "GW", "cca3": "GNB", "ccn3": "624" },
+        "coordinates": { "latitude": 12, "longitude": -15 }
+    }
+}

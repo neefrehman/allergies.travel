@@ -1,1 +1,198 @@
-{"title":"Zimbabwe","slug":"zimbabwe","baseInfo":{"name":{"common":"Zimbabwe","official":"Republic of Zimbabwe","native":[{"official":"Republic of Zimbabwe","common":"Zimbabwe"},{"languageCode":"en","official":"Republic of Zimbabwe","common":"Zimbabwe"},{"official":"Republic of Zimbabwe","common":"Zimbabwe"},{"official":"Republic of Zimbabwe","common":"Zimbabwe"},{"official":"Republic of Zimbabwe","common":"Zimbabwe"},{"languageCode":"nd","official":"Republic of Zimbabwe","common":"Zimbabwe"},{"languageCode":"ny","official":"Republic of Zimbabwe","common":"Zimbabwe"},{"languageCode":"sn","official":"Republic of Zimbabwe","common":"Zimbabwe"},{"languageCode":"st","official":"Republic of Zimbabwe","common":"Zimbabwe"},{"official":"Republic of Zimbabwe","common":"Zimbabwe"},{"languageCode":"tn","official":"Republic of Zimbabwe","common":"Zimbabwe"},{"languageCode":"ts","official":"Republic of Zimbabwe","common":"Zimbabwe"},{"languageCode":"ve","official":"Republic of Zimbabwe","common":"Zimbabwe"},{"languageCode":"xh","official":"Republic of Zimbabwe","common":"Zimbabwe"},{"official":"Republic of Zimbabwe","common":"Zimbabwe"}]},"capital":"Harare","region":"Africa","subregion":"Eastern Africa","languages":[{"name":"Chibarwe"},{"languageCode":"en","name":"English"},{"name":"Kalanga"},{"name":"Khoisan"},{"name":"Ndau"},{"languageCode":"nd","name":"Northern Ndebele"},{"languageCode":"ny","name":"Chewa"},{"languageCode":"sn","name":"Shona"},{"languageCode":"st","name":"Sotho"},{"name":"Tonga"},{"languageCode":"tn","name":"Tswana"},{"languageCode":"ts","name":"Tsonga"},{"languageCode":"ve","name":"Venda"},{"languageCode":"xh","name":"Xhosa"},{"name":"Zimbabwean Sign Language"}],"translations":[{"languageCode":"cs","official":"Zimbabwská republika","common":"Zimbabwe"},{"languageCode":"de","official":"Republik Simbabwe","common":"Simbabwe"},{"languageCode":"fr","official":"République du Zimbabwe","common":"Zimbabwe"},{"languageCode":"hr","official":"Republika Zimbabve","common":"Zimbabve"},{"languageCode":"it","official":"Repubblica dello Zimbabwe","common":"Zimbabwe"},{"languageCode":"ja","official":"ジンバブエ共和国","common":"ジンバブエ"},{"languageCode":"nl","official":"Republiek Zimbabwe","common":"Zimbabwe"},{"languageCode":"pt","official":"República do Zimbabwe","common":"Zimbabwe"},{"languageCode":"ru","official":"Республика Зимбабве","common":"Зимбабве"},{"languageCode":"sk","official":"Zimbabwianska republika","common":"Zimbabwe"},{"languageCode":"es","official":"República de Zimbabue","common":"Zimbabue"},{"languageCode":"fi","official":"Zimbabwen tasavalta","common":"Zimbabwe"},{"languageCode":"et","official":"Zimbabwe Vabariik","common":"Zimbabwe"},{"languageCode":"zh","official":"津巴布韦共和国","common":"津巴布韦"},{"languageCode":"pl","official":"Republika Zimbabwe","common":"Zimbabwe"},{"languageCode":"ur","official":"جمہوریہ زمبابوے","common":"زمبابوے"},{"languageCode":"ko","official":"짐바브웨 공화국","common":"짐바브웨"},{"official":"جمهوری زیمبابوه","common":"زیمبابوه"}],"currencies":[{"name":"Botswana pula","symbol":"P","currencyCode":"BWP"},{"name":"Chinese yuan","symbol":"¥","currencyCode":"CNY"},{"name":"Euro","symbol":"€","currencyCode":"EUR"},{"name":"British pound","symbol":"£","currencyCode":"GBP"},{"name":"Indian rupee","symbol":"₹","currencyCode":"INR"},{"name":"Japanese yen","symbol":"¥","currencyCode":"JPY"},{"name":"United States dollar","symbol":"$","currencyCode":"USD"},{"name":"South African rand","symbol":"Rs","currencyCode":"ZAR"},{"name":"Zimbabwean bonds","symbol":"$","currencyCode":"ZWB"}],"flag":"🇿🇼","codes":{"cca2":"ZW","cca3":"ZWE","ccn3":"716"},"coordinates":{"latitude":-20,"longitude":30}}}
+{
+    "title": "Zimbabwe",
+    "slug": "zimbabwe",
+    "baseInfo": {
+        "name": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe",
+            "native": [
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+                {
+                    "languageCode": "nd",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "ny",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "sn",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "st",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+                {
+                    "languageCode": "tn",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "ts",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "ve",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "xh",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" }
+            ]
+        },
+        "capital": "Harare",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "name": "Chibarwe" },
+            { "languageCode": "en", "name": "English" },
+            { "name": "Kalanga" },
+            { "name": "Khoisan" },
+            { "name": "Ndau" },
+            { "languageCode": "nd", "name": "Northern Ndebele" },
+            { "languageCode": "ny", "name": "Chewa" },
+            { "languageCode": "sn", "name": "Shona" },
+            { "languageCode": "st", "name": "Sotho" },
+            { "name": "Tonga" },
+            { "languageCode": "tn", "name": "Tswana" },
+            { "languageCode": "ts", "name": "Tsonga" },
+            { "languageCode": "ve", "name": "Venda" },
+            { "languageCode": "xh", "name": "Xhosa" },
+            { "name": "Zimbabwean Sign Language" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Zimbabwská republika",
+                "common": "Zimbabwe"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Simbabwe",
+                "common": "Simbabwe"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Zimbabwe",
+                "common": "Zimbabwe"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Zimbabve",
+                "common": "Zimbabve"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica dello Zimbabwe",
+                "common": "Zimbabwe"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ジンバブエ共和国",
+                "common": "ジンバブエ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Zimbabwe",
+                "common": "Zimbabwe"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Zimbabwe",
+                "common": "Zimbabwe"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Зимбабве",
+                "common": "Зимбабве"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Zimbabwianska republika",
+                "common": "Zimbabwe"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Zimbabue",
+                "common": "Zimbabue"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Zimbabwen tasavalta",
+                "common": "Zimbabwe"
+            },
+            {
+                "languageCode": "et",
+                "official": "Zimbabwe Vabariik",
+                "common": "Zimbabwe"
+            },
+            {
+                "languageCode": "zh",
+                "official": "津巴布韦共和国",
+                "common": "津巴布韦"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Zimbabwe",
+                "common": "Zimbabwe"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ زمبابوے",
+                "common": "زمبابوے"
+            },
+            {
+                "languageCode": "ko",
+                "official": "짐바브웨 공화국",
+                "common": "짐바브웨"
+            },
+            { "official": "جمهوری زیمبابوه", "common": "زیمبابوه" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Zimbabve",
+                "common": "Zimbabve"
+            }
+        ],
+        "currencies": [
+            { "name": "Botswana pula", "symbol": "P", "currencyCode": "BWP" },
+            { "name": "Chinese yuan", "symbol": "¥", "currencyCode": "CNY" },
+            { "name": "Euro", "symbol": "€", "currencyCode": "EUR" },
+            { "name": "British pound", "symbol": "£", "currencyCode": "GBP" },
+            { "name": "Indian rupee", "symbol": "₹", "currencyCode": "INR" },
+            { "name": "Japanese yen", "symbol": "¥", "currencyCode": "JPY" },
+            {
+                "name": "United States dollar",
+                "symbol": "$",
+                "currencyCode": "USD"
+            },
+            {
+                "name": "South African rand",
+                "symbol": "Rs",
+                "currencyCode": "ZAR"
+            },
+            { "name": "Zimbabwean bonds", "symbol": "$", "currencyCode": "ZWB" }
+        ],
+        "flag": "🇿🇼",
+        "codes": { "cca2": "ZW", "cca3": "ZWE", "ccn3": "716" },
+        "coordinates": { "latitude": -20, "longitude": 30 }
+    }
+}

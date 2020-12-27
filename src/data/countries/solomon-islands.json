@@ -1,1 +1,124 @@
-{"title":"Solomon Islands","slug":"solomon-islands","baseInfo":{"name":{"common":"Solomon Islands","official":"Solomon Islands","native":[{"languageCode":"en","official":"Solomon Islands","common":"Solomon Islands"}]},"capital":"Honiara","region":"Oceania","subregion":"Melanesia","languages":[{"languageCode":"en","name":"English"}],"translations":[{"languageCode":"cs","official":"Šalamounovy ostrovy","common":"Šalamounovy ostrovy"},{"languageCode":"de","official":"Salomonen","common":"Salomonen"},{"languageCode":"fr","official":"Îles Salomon","common":"Îles Salomon"},{"languageCode":"hr","official":"Solomonski Otoci","common":"Solomonski Otoci"},{"languageCode":"it","official":"Isole Salomone","common":"Isole Salomone"},{"languageCode":"ja","official":"ソロモン諸島","common":"ソロモン諸島"},{"languageCode":"nl","official":"Solomon eilanden","common":"Salomonseilanden"},{"languageCode":"pt","official":"Ilhas Salomão","common":"Ilhas Salomão"},{"languageCode":"ru","official":"Соломоновы острова","common":"Соломоновы Острова"},{"languageCode":"sk","official":"Salomonove ostrovy","common":"Salomonove ostrovy"},{"languageCode":"es","official":"islas Salomón","common":"Islas Salomón"},{"languageCode":"fi","official":"Salomonsaaret","common":"Salomonsaaret"},{"languageCode":"et","official":"Saalomoni Saared","common":"Saalomoni Saared"},{"languageCode":"zh","official":"所罗门群岛","common":"所罗门群岛"},{"languageCode":"pl","official":"Wyspy Salomona","common":"Wyspy Salomona"},{"languageCode":"ur","official":"جزائر سلیمان","common":"جزائر سلیمان"},{"languageCode":"ko","official":"솔로몬 제도","common":"솔로몬 제도"},{"official":"جزایر سلیمان","common":"جزایر سلیمان"}],"currencies":[{"name":"Solomon Islands dollar","symbol":"$","currencyCode":"SBD"}],"flag":"🇸🇧","codes":{"cca2":"SB","cca3":"SLB","ccn3":"090"},"coordinates":{"latitude":-8,"longitude":159}}}
+{
+    "title": "Solomon Islands",
+    "slug": "solomon-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Solomon Islands",
+            "official": "Solomon Islands",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Solomon Islands",
+                    "common": "Solomon Islands"
+                }
+            ]
+        },
+        "capital": "Honiara",
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Šalamounovy ostrovy",
+                "common": "Šalamounovy ostrovy"
+            },
+            {
+                "languageCode": "de",
+                "official": "Salomonen",
+                "common": "Salomonen"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Îles Salomon",
+                "common": "Îles Salomon"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Solomonski Otoci",
+                "common": "Solomonski Otoci"
+            },
+            {
+                "languageCode": "it",
+                "official": "Isole Salomone",
+                "common": "Isole Salomone"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ソロモン諸島",
+                "common": "ソロモン諸島"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Solomon eilanden",
+                "common": "Salomonseilanden"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Ilhas Salomão",
+                "common": "Ilhas Salomão"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Соломоновы острова",
+                "common": "Соломоновы Острова"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Salomonove ostrovy",
+                "common": "Salomonove ostrovy"
+            },
+            {
+                "languageCode": "es",
+                "official": "islas Salomón",
+                "common": "Islas Salomón"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Salomonsaaret",
+                "common": "Salomonsaaret"
+            },
+            {
+                "languageCode": "et",
+                "official": "Saalomoni Saared",
+                "common": "Saalomoni Saared"
+            },
+            {
+                "languageCode": "zh",
+                "official": "所罗门群岛",
+                "common": "所罗门群岛"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Wyspy Salomona",
+                "common": "Wyspy Salomona"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جزائر سلیمان",
+                "common": "جزائر سلیمان"
+            },
+            {
+                "languageCode": "ko",
+                "official": "솔로몬 제도",
+                "common": "솔로몬 제도"
+            },
+            { "official": "جزایر سلیمان", "common": "جزایر سلیمان" },
+            {
+                "languageCode": "hr",
+                "official": "Solomonski Otoci",
+                "common": "Solomonski Otoci"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "Solomon Islands dollar",
+                "symbol": "$",
+                "currencyCode": "SBD"
+            }
+        ],
+        "flag": "🇸🇧",
+        "codes": { "cca2": "SB", "cca3": "SLB", "ccn3": "090" },
+        "coordinates": { "latitude": -8, "longitude": 159 }
+    }
+}

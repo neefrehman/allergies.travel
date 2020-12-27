@@ -1,1 +1,120 @@
-{"title":"Jordan","slug":"jordan","baseInfo":{"name":{"common":"Jordan","official":"Hashemite Kingdom of Jordan","native":[{"languageCode":"ar","official":"المملكة الأردنية الهاشمية","common":"الأردن"}]},"capital":"Amman","region":"Asia","subregion":"Western Asia","languages":[{"languageCode":"ar","name":"Arabic"}],"translations":[{"languageCode":"cs","official":"Jordánské hášimovské království","common":"Jordánsko"},{"languageCode":"de","official":"Haschemitisches Königreich Jordanien","common":"Jordanien"},{"languageCode":"fr","official":"Royaume hachémite de Jordanie","common":"Jordanie"},{"languageCode":"hr","official":"Hašemitske Kraljevine Jordan","common":"Jordan"},{"languageCode":"it","official":"Regno hascemita di Giordania","common":"Giordania"},{"languageCode":"ja","official":"ヨルダン·ハシミテ王国","common":"ヨルダン"},{"languageCode":"nl","official":"Hasjemitisch Koninkrijk Jordanië","common":"Jordanië"},{"languageCode":"pt","official":"Reino Hachemita da Jordânia","common":"Jordânia"},{"languageCode":"ru","official":"Иорданского Хашимитского Королевства","common":"Иордания"},{"languageCode":"sk","official":"Jordánske hášimovské kráľovstvo","common":"Jordánsko"},{"languageCode":"es","official":"Reino Hachemita de Jordania","common":"Jordania"},{"languageCode":"fi","official":"Jordanian hašemiittinen kunigaskunta","common":"Jordania"},{"languageCode":"et","official":"Jordaania Hašimiidi Kuningriik","common":"Jordaania"},{"languageCode":"zh","official":"约旦哈希姆王国","common":"约旦"},{"languageCode":"pl","official":"Jordańskie Królestwo Haszymidzkie","common":"Jordania"},{"languageCode":"ur","official":"ھاشمی مملکتِ اردن","common":"اردن"},{"languageCode":"ko","official":"요르단 하심 왕국","common":"요르단"},{"official":"پادشاهی اُردُن هاشمی","common":"اردن"}],"currencies":[{"name":"Jordanian dinar","symbol":"د.ا","currencyCode":"JOD"}],"flag":"🇯🇴","codes":{"cca2":"JO","cca3":"JOR","ccn3":"400"},"coordinates":{"latitude":31,"longitude":36}}}
+{
+    "title": "Jordan",
+    "slug": "jordan",
+    "baseInfo": {
+        "name": {
+            "common": "Jordan",
+            "official": "Hashemite Kingdom of Jordan",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "المملكة الأردنية الهاشمية",
+                    "common": "الأردن"
+                }
+            ]
+        },
+        "capital": "Amman",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [{ "languageCode": "ar", "name": "Arabic" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Jordánské hášimovské království",
+                "common": "Jordánsko"
+            },
+            {
+                "languageCode": "de",
+                "official": "Haschemitisches Königreich Jordanien",
+                "common": "Jordanien"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Royaume hachémite de Jordanie",
+                "common": "Jordanie"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Hašemitske Kraljevine Jordan",
+                "common": "Jordan"
+            },
+            {
+                "languageCode": "it",
+                "official": "Regno hascemita di Giordania",
+                "common": "Giordania"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ヨルダン·ハシミテ王国",
+                "common": "ヨルダン"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Hasjemitisch Koninkrijk Jordanië",
+                "common": "Jordanië"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Reino Hachemita da Jordânia",
+                "common": "Jordânia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Иорданского Хашимитского Королевства",
+                "common": "Иордания"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Jordánske hášimovské kráľovstvo",
+                "common": "Jordánsko"
+            },
+            {
+                "languageCode": "es",
+                "official": "Reino Hachemita de Jordania",
+                "common": "Jordania"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Jordanian hašemiittinen kunigaskunta",
+                "common": "Jordania"
+            },
+            {
+                "languageCode": "et",
+                "official": "Jordaania Hašimiidi Kuningriik",
+                "common": "Jordaania"
+            },
+            {
+                "languageCode": "zh",
+                "official": "约旦哈希姆王国",
+                "common": "约旦"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Jordańskie Królestwo Haszymidzkie",
+                "common": "Jordania"
+            },
+            {
+                "languageCode": "ur",
+                "official": "ھاشمی مملکتِ اردن",
+                "common": "اردن"
+            },
+            {
+                "languageCode": "ko",
+                "official": "요르단 하심 왕국",
+                "common": "요르단"
+            },
+            { "official": "پادشاهی اُردُن هاشمی", "common": "اردن" },
+            {
+                "languageCode": "hr",
+                "official": "Hašemitske Kraljevine Jordan",
+                "common": "Jordan"
+            }
+        ],
+        "currencies": [
+            { "name": "Jordanian dinar", "symbol": "د.ا", "currencyCode": "JOD" }
+        ],
+        "flag": "🇯🇴",
+        "codes": { "cca2": "JO", "cca3": "JOR", "ccn3": "400" },
+        "coordinates": { "latitude": 31, "longitude": 36 }
+    }
+}

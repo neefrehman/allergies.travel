@@ -1,1 +1,116 @@
-{"title":"Russia","slug":"russia","baseInfo":{"name":{"common":"Russia","official":"Russian Federation","native":[{"languageCode":"ru","official":"Российская Федерация","common":"Россия"}]},"capital":"Moscow","region":"Europe","subregion":"Eastern Europe","languages":[{"languageCode":"ru","name":"Russian"}],"translations":[{"languageCode":"cs","official":"Ruská federace","common":"Rusko"},{"languageCode":"de","official":"Russische Föderation","common":"Russland"},{"languageCode":"fr","official":"Fédération de Russie","common":"Russie"},{"languageCode":"hr","official":"Ruska Federacija","common":"Rusija"},{"languageCode":"it","official":"Federazione russa","common":"Russia"},{"languageCode":"ja","official":"ロシア連邦","common":"ロシア連邦"},{"languageCode":"nl","official":"Russische Federatie","common":"Rusland"},{"languageCode":"pt","official":"Federação Russa","common":"Rússia"},{"languageCode":"ru","official":"Российская Федерация","common":"Россия"},{"languageCode":"sk","official":"Ruská federácia","common":"Rusko"},{"languageCode":"es","official":"Federación de Rusia","common":"Rusia"},{"languageCode":"fi","official":"Venäjän federaatio","common":"Venäjä"},{"languageCode":"et","official":"Venemaa Föderatsioon","common":"Venemaa"},{"languageCode":"zh","official":"俄罗斯联邦","common":"俄罗斯"},{"languageCode":"pl","official":"Federacja Rosyjska","common":"Rosja"},{"languageCode":"ur","official":"روسی وفاق","common":"روس"},{"languageCode":"ko","official":"러시아 연방","common":"러시아"},{"official":"فدراسیون روسیه","common":"روسیه"}],"currencies":[{"name":"Russian ruble","symbol":"₽","currencyCode":"RUB"}],"flag":"🇷🇺","codes":{"cca2":"RU","cca3":"RUS","ccn3":"643"},"coordinates":{"latitude":60,"longitude":100}}}
+{
+    "title": "Russia",
+    "slug": "russia",
+    "baseInfo": {
+        "name": {
+            "common": "Russia",
+            "official": "Russian Federation",
+            "native": [
+                {
+                    "languageCode": "ru",
+                    "official": "Российская Федерация",
+                    "common": "Россия"
+                }
+            ]
+        },
+        "capital": "Moscow",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [{ "languageCode": "ru", "name": "Russian" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Ruská federace",
+                "common": "Rusko"
+            },
+            {
+                "languageCode": "de",
+                "official": "Russische Föderation",
+                "common": "Russland"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Fédération de Russie",
+                "common": "Russie"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Ruska Federacija",
+                "common": "Rusija"
+            },
+            {
+                "languageCode": "it",
+                "official": "Federazione russa",
+                "common": "Russia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ロシア連邦",
+                "common": "ロシア連邦"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Russische Federatie",
+                "common": "Rusland"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Federação Russa",
+                "common": "Rússia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Российская Федерация",
+                "common": "Россия"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Ruská federácia",
+                "common": "Rusko"
+            },
+            {
+                "languageCode": "es",
+                "official": "Federación de Rusia",
+                "common": "Rusia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Venäjän federaatio",
+                "common": "Venäjä"
+            },
+            {
+                "languageCode": "et",
+                "official": "Venemaa Föderatsioon",
+                "common": "Venemaa"
+            },
+            {
+                "languageCode": "zh",
+                "official": "俄罗斯联邦",
+                "common": "俄罗斯"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Federacja Rosyjska",
+                "common": "Rosja"
+            },
+            { "languageCode": "ur", "official": "روسی وفاق", "common": "روس" },
+            {
+                "languageCode": "ko",
+                "official": "러시아 연방",
+                "common": "러시아"
+            },
+            { "official": "فدراسیون روسیه", "common": "روسیه" },
+            {
+                "languageCode": "hr",
+                "official": "Ruska Federacija",
+                "common": "Rusija"
+            }
+        ],
+        "currencies": [
+            { "name": "Russian ruble", "symbol": "₽", "currencyCode": "RUB" }
+        ],
+        "flag": "🇷🇺",
+        "codes": { "cca2": "RU", "cca3": "RUS", "ccn3": "643" },
+        "coordinates": { "latitude": 60, "longitude": 100 }
+    }
+}

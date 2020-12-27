@@ -1,1 +1,108 @@
-{"title":"Mongolia","slug":"mongolia","baseInfo":{"name":{"common":"Mongolia","official":"Mongolia","native":[{"languageCode":"mn","official":"Монгол улс","common":"Монгол улс"}]},"capital":"Ulan Bator","region":"Asia","subregion":"Eastern Asia","languages":[{"languageCode":"mn","name":"Mongolian"}],"translations":[{"languageCode":"cs","official":"Stát Mongolsko","common":"Mongolsko"},{"languageCode":"de","official":"Mongolei","common":"Mongolei"},{"languageCode":"fr","official":"Mongolie","common":"Mongolie"},{"languageCode":"hr","official":"Mongolija","common":"Mongolija"},{"languageCode":"it","official":"Mongolia","common":"Mongolia"},{"languageCode":"ja","official":"モンゴル","common":"モンゴル"},{"languageCode":"nl","official":"Mongolië","common":"Mongolië"},{"languageCode":"pt","official":"Mongólia","common":"Mongólia"},{"languageCode":"ru","official":"Монголия","common":"Монголия"},{"languageCode":"sk","official":"Mongolsko","common":"Mongolsko"},{"languageCode":"es","official":"Mongolia","common":"Mongolia"},{"languageCode":"fi","official":"Mongolian tasavalta","common":"Mongolia"},{"languageCode":"et","official":"Mongoolia","common":"Mongoolia"},{"languageCode":"zh","official":"蒙古","common":"蒙古"},{"languageCode":"pl","official":"Mongolia","common":"Mongolia"},{"languageCode":"ur","official":"منگولیا","common":"منگولیا"},{"languageCode":"ko","official":"몽골","common":"몽골국"},{"official":"مغولستان","common":"مغولستان"}],"currencies":[{"name":"Mongolian tögrög","symbol":"₮","currencyCode":"MNT"}],"flag":"🇲🇳","codes":{"cca2":"MN","cca3":"MNG","ccn3":"496"},"coordinates":{"latitude":46,"longitude":105}}}
+{
+    "title": "Mongolia",
+    "slug": "mongolia",
+    "baseInfo": {
+        "name": {
+            "common": "Mongolia",
+            "official": "Mongolia",
+            "native": [
+                {
+                    "languageCode": "mn",
+                    "official": "Монгол улс",
+                    "common": "Монгол улс"
+                }
+            ]
+        },
+        "capital": "Ulan Bator",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "languages": [{ "languageCode": "mn", "name": "Mongolian" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Stát Mongolsko",
+                "common": "Mongolsko"
+            },
+            {
+                "languageCode": "de",
+                "official": "Mongolei",
+                "common": "Mongolei"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Mongolie",
+                "common": "Mongolie"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Mongolija",
+                "common": "Mongolija"
+            },
+            {
+                "languageCode": "it",
+                "official": "Mongolia",
+                "common": "Mongolia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "モンゴル",
+                "common": "モンゴル"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Mongolië",
+                "common": "Mongolië"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Mongólia",
+                "common": "Mongólia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Монголия",
+                "common": "Монголия"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Mongolsko",
+                "common": "Mongolsko"
+            },
+            {
+                "languageCode": "es",
+                "official": "Mongolia",
+                "common": "Mongolia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Mongolian tasavalta",
+                "common": "Mongolia"
+            },
+            {
+                "languageCode": "et",
+                "official": "Mongoolia",
+                "common": "Mongoolia"
+            },
+            { "languageCode": "zh", "official": "蒙古", "common": "蒙古" },
+            {
+                "languageCode": "pl",
+                "official": "Mongolia",
+                "common": "Mongolia"
+            },
+            { "languageCode": "ur", "official": "منگولیا", "common": "منگولیا" },
+            { "languageCode": "ko", "official": "몽골", "common": "몽골국" },
+            { "official": "مغولستان", "common": "مغولستان" },
+            {
+                "languageCode": "hr",
+                "official": "Mongolija",
+                "common": "Mongolija"
+            }
+        ],
+        "currencies": [
+            { "name": "Mongolian tögrög", "symbol": "₮", "currencyCode": "MNT" }
+        ],
+        "flag": "🇲🇳",
+        "codes": { "cca2": "MN", "cca3": "MNG", "ccn3": "496" },
+        "coordinates": { "latitude": 46, "longitude": 105 }
+    }
+}

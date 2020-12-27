@@ -1,1 +1,117 @@
-{"title":"Chad","slug":"chad","baseInfo":{"name":{"common":"Chad","official":"Republic of Chad","native":[{"languageCode":"ar","official":"جمهورية تشاد","common":"تشاد‎"},{"languageCode":"fr","official":"République du Tchad","common":"Tchad"}]},"capital":"N'Djamena","region":"Africa","subregion":"Middle Africa","languages":[{"languageCode":"ar","name":"Arabic"},{"languageCode":"fr","name":"French"}],"translations":[{"languageCode":"cs","official":"Čadská republika","common":"Čad"},{"languageCode":"cy","official":"Gweriniaeth Tsiad","common":"Tsiad"},{"languageCode":"de","official":"Republik Tschad","common":"Tschad"},{"languageCode":"fr","official":"République du Tchad","common":"Tchad"},{"languageCode":"hr","official":"Čadu","common":"Čad"},{"languageCode":"it","official":"Repubblica del Ciad","common":"Ciad"},{"languageCode":"ja","official":"チャド共和国","common":"チャド"},{"languageCode":"nl","official":"Republiek Tsjaad","common":"Tsjaad"},{"languageCode":"pt","official":"República do Chade","common":"Chade"},{"languageCode":"ru","official":"Республика Чад","common":"Чад"},{"languageCode":"sk","official":"Čadská republika","common":"Čad"},{"languageCode":"es","official":"República de Chad","common":"Chad"},{"languageCode":"fi","official":"Tšadin tasavalta","common":"Tšad"},{"languageCode":"et","official":"Tšaadi Vabariik","common":"Tšaad"},{"languageCode":"zh","official":"乍得共和国","common":"乍得"},{"languageCode":"pl","official":"Republika Czadu","common":"Czad"},{"languageCode":"ur","official":"جمہوریہ چاڈ","common":"چاڈ"},{"languageCode":"ko","official":"차드 공화국","common":"차드"},{"official":"جمهوری چاد","common":"چاد"}],"currencies":[{"name":"Central African CFA franc","symbol":"Fr","currencyCode":"XAF"}],"flag":"🇹🇩","codes":{"cca2":"TD","cca3":"TCD","ccn3":"148"},"coordinates":{"latitude":15,"longitude":19}}}
+{
+    "title": "Chad",
+    "slug": "chad",
+    "baseInfo": {
+        "name": {
+            "common": "Chad",
+            "official": "Republic of Chad",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "جمهورية تشاد",
+                    "common": "تشاد‎"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "République du Tchad",
+                    "common": "Tchad"
+                }
+            ]
+        },
+        "capital": "N'Djamena",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "languages": [
+            { "languageCode": "ar", "name": "Arabic" },
+            { "languageCode": "fr", "name": "French" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Čadská republika",
+                "common": "Čad"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Tsiad",
+                "common": "Tsiad"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Tschad",
+                "common": "Tschad"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Tchad",
+                "common": "Tchad"
+            },
+            { "languageCode": "sh", "official": "Čadu", "common": "Čad" },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Ciad",
+                "common": "Ciad"
+            },
+            {
+                "languageCode": "ja",
+                "official": "チャド共和国",
+                "common": "チャド"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Tsjaad",
+                "common": "Tsjaad"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Chade",
+                "common": "Chade"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Чад",
+                "common": "Чад"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Čadská republika",
+                "common": "Čad"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Chad",
+                "common": "Chad"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Tšadin tasavalta",
+                "common": "Tšad"
+            },
+            {
+                "languageCode": "et",
+                "official": "Tšaadi Vabariik",
+                "common": "Tšaad"
+            },
+            { "languageCode": "zh", "official": "乍得共和国", "common": "乍得" },
+            {
+                "languageCode": "pl",
+                "official": "Republika Czadu",
+                "common": "Czad"
+            },
+            { "languageCode": "ur", "official": "جمہوریہ چاڈ", "common": "چاڈ" },
+            { "languageCode": "ko", "official": "차드 공화국", "common": "차드" },
+            { "official": "جمهوری چاد", "common": "چاد" },
+            { "languageCode": "hr", "official": "Čadu", "common": "Čad" }
+        ],
+        "currencies": [
+            {
+                "name": "Central African CFA franc",
+                "symbol": "Fr",
+                "currencyCode": "XAF"
+            }
+        ],
+        "flag": "🇹🇩",
+        "codes": { "cca2": "TD", "cca3": "TCD", "ccn3": "148" },
+        "coordinates": { "latitude": 15, "longitude": 19 }
+    }
+}

@@ -1,1 +1,143 @@
-{"title":"Equatorial Guinea","slug":"equatorial-guinea","baseInfo":{"name":{"common":"Equatorial Guinea","official":"Republic of Equatorial Guinea","native":[{"languageCode":"fr","official":"République de la Guinée Équatoriale","common":"Guinée équatoriale"},{"languageCode":"pt","official":"República da Guiné Equatorial","common":"Guiné Equatorial"},{"languageCode":"es","official":"República de Guinea Ecuatorial","common":"Guinea Ecuatorial"}]},"capital":"Malabo","region":"Africa","subregion":"Middle Africa","languages":[{"languageCode":"fr","name":"French"},{"languageCode":"pt","name":"Portuguese"},{"languageCode":"es","name":"Spanish"}],"translations":[{"languageCode":"cs","official":"Republika Rovníková Guinea","common":"Rovníková Guinea"},{"languageCode":"cy","official":"Gweriniaeth Gini Gyhydeddol","common":"Gini Gyhydeddol"},{"languageCode":"de","official":"Republik Äquatorialguinea","common":"Äquatorialguinea"},{"languageCode":"fr","official":"République de Guinée équatoriale","common":"Guinée équatoriale"},{"languageCode":"hr","official":"Republika Ekvatorska Gvineja","common":"Ekvatorijalna Gvineja"},{"languageCode":"it","official":"Repubblica della Guinea Equatoriale","common":"Guinea Equatoriale"},{"languageCode":"ja","official":"赤道ギニア共和国","common":"赤道ギニア"},{"languageCode":"nl","official":"Republiek Equatoriaal-Guinea","common":"Equatoriaal-Guinea"},{"languageCode":"pt","official":"República da Guiné Equatorial","common":"Guiné Equatorial"},{"languageCode":"ru","official":"Республика Экваториальная Гвинея","common":"Экваториальная Гвинея"},{"languageCode":"sk","official":"Republika rovníkovej Guiney","common":"Rovníková Guinea"},{"languageCode":"es","official":"República de Guinea Ecuatorial","common":"Guinea Ecuatorial"},{"languageCode":"fi","official":"Päiväntasaajan Guinean tasavalta","common":"Päiväntasaajan Guinea"},{"languageCode":"et","official":"Ekvatoriaal-Guinea Vabariik","common":"Ekvatoriaal-Guinea"},{"languageCode":"zh","official":"赤道几内亚共和国","common":"赤道几内亚"},{"languageCode":"pl","official":"Republika Gwinei Równikowej","common":"Gwinea Równikowa"},{"languageCode":"ur","official":"جمہوریہ استوائی گنی","common":"استوائی گنی"},{"languageCode":"ko","official":"적도 기니 공화국","common":"적도 기니"},{"official":"جمهوری گینه استوایی","common":"گینه استوایی"}],"currencies":[{"name":"Central African CFA franc","symbol":"Fr","currencyCode":"XAF"}],"flag":"🇬🇶","codes":{"cca2":"GQ","cca3":"GNQ","ccn3":"226"},"coordinates":{"latitude":2,"longitude":10}}}
+{
+    "title": "Equatorial Guinea",
+    "slug": "equatorial-guinea",
+    "baseInfo": {
+        "name": {
+            "common": "Equatorial Guinea",
+            "official": "Republic of Equatorial Guinea",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République de la Guinée Équatoriale",
+                    "common": "Guinée équatoriale"
+                },
+                {
+                    "languageCode": "pt",
+                    "official": "República da Guiné Equatorial",
+                    "common": "Guiné Equatorial"
+                },
+                {
+                    "languageCode": "es",
+                    "official": "República de Guinea Ecuatorial",
+                    "common": "Guinea Ecuatorial"
+                }
+            ]
+        },
+        "capital": "Malabo",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "languages": [
+            { "languageCode": "fr", "name": "French" },
+            { "languageCode": "pt", "name": "Portuguese" },
+            { "languageCode": "es", "name": "Spanish" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Republika Rovníková Guinea",
+                "common": "Rovníková Guinea"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Gini Gyhydeddol",
+                "common": "Gini Gyhydeddol"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Äquatorialguinea",
+                "common": "Äquatorialguinea"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de Guinée équatoriale",
+                "common": "Guinée équatoriale"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Ekvatorska Gvineja",
+                "common": "Ekvatorijalna Gvineja"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica della Guinea Equatoriale",
+                "common": "Guinea Equatoriale"
+            },
+            {
+                "languageCode": "ja",
+                "official": "赤道ギニア共和国",
+                "common": "赤道ギニア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Equatoriaal-Guinea",
+                "common": "Equatoriaal-Guinea"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Guiné Equatorial",
+                "common": "Guiné Equatorial"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Экваториальная Гвинея",
+                "common": "Экваториальная Гвинея"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Republika rovníkovej Guiney",
+                "common": "Rovníková Guinea"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Guinea Ecuatorial",
+                "common": "Guinea Ecuatorial"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Päiväntasaajan Guinean tasavalta",
+                "common": "Päiväntasaajan Guinea"
+            },
+            {
+                "languageCode": "et",
+                "official": "Ekvatoriaal-Guinea Vabariik",
+                "common": "Ekvatoriaal-Guinea"
+            },
+            {
+                "languageCode": "zh",
+                "official": "赤道几内亚共和国",
+                "common": "赤道几内亚"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Gwinei Równikowej",
+                "common": "Gwinea Równikowa"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ استوائی گنی",
+                "common": "استوائی گنی"
+            },
+            {
+                "languageCode": "ko",
+                "official": "적도 기니 공화국",
+                "common": "적도 기니"
+            },
+            { "official": "جمهوری گینه استوایی", "common": "گینه استوایی" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Ekvatorska Gvineja",
+                "common": "Ekvatorijalna Gvineja"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "Central African CFA franc",
+                "symbol": "Fr",
+                "currencyCode": "XAF"
+            }
+        ],
+        "flag": "🇬🇶",
+        "codes": { "cca2": "GQ", "cca3": "GNQ", "ccn3": "226" },
+        "coordinates": { "latitude": 2, "longitude": 10 }
+    }
+}

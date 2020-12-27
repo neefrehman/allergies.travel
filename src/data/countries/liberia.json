@@ -1,1 +1,120 @@
-{"title":"Liberia","slug":"liberia","baseInfo":{"name":{"common":"Liberia","official":"Republic of Liberia","native":[{"languageCode":"en","official":"Republic of Liberia","common":"Liberia"}]},"capital":"Monrovia","region":"Africa","subregion":"Western Africa","languages":[{"languageCode":"en","name":"English"}],"translations":[{"languageCode":"cs","official":"Liberijská republika","common":"Libérie"},{"languageCode":"de","official":"Republik Liberia","common":"Liberia"},{"languageCode":"fr","official":"République du Libéria","common":"Liberia"},{"languageCode":"hr","official":"Republika Liberija","common":"Liberija"},{"languageCode":"it","official":"Repubblica di Liberia","common":"Liberia"},{"languageCode":"ja","official":"リベリア共和国","common":"リベリア"},{"languageCode":"nl","official":"Republiek Liberia","common":"Liberia"},{"languageCode":"pt","official":"República da Libéria","common":"Libéria"},{"languageCode":"ru","official":"Республика Либерия","common":"Либерия"},{"languageCode":"sk","official":"Libérijská republika","common":"Libéria"},{"languageCode":"es","official":"República de Liberia","common":"Liberia"},{"languageCode":"fi","official":"Liberian tasavalta","common":"Liberia"},{"languageCode":"et","official":"Libeeria Vabariik","common":"Libeeria"},{"languageCode":"zh","official":"利比里亚共和国","common":"利比里亚"},{"languageCode":"pl","official":"Republika Liberii","common":"Liberia"},{"languageCode":"ur","official":"جمہوریہ لائبیریا","common":"لائبیریا"},{"languageCode":"ko","official":"라이베리아 공화국","common":"라이베리아"},{"official":"جمهوری لیبریا","common":"لیبـِریا"}],"currencies":[{"name":"Liberian dollar","symbol":"$","currencyCode":"LRD"}],"flag":"🇱🇷","codes":{"cca2":"LR","cca3":"LBR","ccn3":"430"},"coordinates":{"latitude":6.5,"longitude":-9.5}}}
+{
+    "title": "Liberia",
+    "slug": "liberia",
+    "baseInfo": {
+        "name": {
+            "common": "Liberia",
+            "official": "Republic of Liberia",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Liberia",
+                    "common": "Liberia"
+                }
+            ]
+        },
+        "capital": "Monrovia",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Liberijská republika",
+                "common": "Libérie"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Liberia",
+                "common": "Liberia"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Libéria",
+                "common": "Liberia"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Liberija",
+                "common": "Liberija"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Liberia",
+                "common": "Liberia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "リベリア共和国",
+                "common": "リベリア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Liberia",
+                "common": "Liberia"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Libéria",
+                "common": "Libéria"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Либерия",
+                "common": "Либерия"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Libérijská republika",
+                "common": "Libéria"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Liberia",
+                "common": "Liberia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Liberian tasavalta",
+                "common": "Liberia"
+            },
+            {
+                "languageCode": "et",
+                "official": "Libeeria Vabariik",
+                "common": "Libeeria"
+            },
+            {
+                "languageCode": "zh",
+                "official": "利比里亚共和国",
+                "common": "利比里亚"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Liberii",
+                "common": "Liberia"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ لائبیریا",
+                "common": "لائبیریا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "라이베리아 공화국",
+                "common": "라이베리아"
+            },
+            { "official": "جمهوری لیبریا", "common": "لیبـِریا" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Liberija",
+                "common": "Liberija"
+            }
+        ],
+        "currencies": [
+            { "name": "Liberian dollar", "symbol": "$", "currencyCode": "LRD" }
+        ],
+        "flag": "🇱🇷",
+        "codes": { "cca2": "LR", "cca3": "LBR", "ccn3": "430" },
+        "coordinates": { "latitude": 6.5, "longitude": -9.5 }
+    }
+}

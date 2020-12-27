@@ -1,1 +1,92 @@
-{"title":"Romania","slug":"romania","baseInfo":{"name":{"common":"Romania","official":"Romania","native":[{"languageCode":"ro","official":"România","common":"România"}]},"capital":"Bucharest","region":"Europe","subregion":"Eastern Europe","languages":[{"languageCode":"ro","name":"Romanian"}],"translations":[{"languageCode":"cs","official":"Rumunsko","common":"Rumunsko"},{"languageCode":"de","official":"Rumänien","common":"Rumänien"},{"languageCode":"fr","official":"Roumanie","common":"Roumanie"},{"languageCode":"hr","official":"Rumunija","common":"Rumunjska"},{"languageCode":"it","official":"Romania","common":"Romania"},{"languageCode":"ja","official":"ルーマニア","common":"ルーマニア"},{"languageCode":"nl","official":"Roemenië","common":"Roemenië"},{"languageCode":"pt","official":"Romênia","common":"Roménia"},{"languageCode":"ru","official":"Румыния","common":"Румыния"},{"languageCode":"sk","official":"Rumunsko","common":"Rumunsko"},{"languageCode":"es","official":"Rumania","common":"Rumania"},{"languageCode":"fi","official":"Romania","common":"Romania"},{"languageCode":"et","official":"Rumeenia","common":"Rumeenia"},{"languageCode":"zh","official":"罗马尼亚","common":"罗马尼亚"},{"languageCode":"pl","official":"Rumunia","common":"Rumunia"},{"languageCode":"ur","official":"رومانیہ","common":"رومانیہ"},{"languageCode":"ko","official":"루마니아","common":"루마니아"},{"official":"رومانی","common":"رومانی"}],"currencies":[{"name":"Romanian leu","symbol":"lei","currencyCode":"RON"}],"flag":"🇷🇴","codes":{"cca2":"RO","cca3":"ROU","ccn3":"642"},"coordinates":{"latitude":46,"longitude":25}}}
+{
+    "title": "Romania",
+    "slug": "romania",
+    "baseInfo": {
+        "name": {
+            "common": "Romania",
+            "official": "Romania",
+            "native": [
+                {
+                    "languageCode": "ro",
+                    "official": "România",
+                    "common": "România"
+                }
+            ]
+        },
+        "capital": "Bucharest",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [{ "languageCode": "ro", "name": "Romanian" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Rumunsko",
+                "common": "Rumunsko"
+            },
+            {
+                "languageCode": "de",
+                "official": "Rumänien",
+                "common": "Rumänien"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Roumanie",
+                "common": "Roumanie"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Rumunija",
+                "common": "Rumunjska"
+            },
+            { "languageCode": "it", "official": "Romania", "common": "Romania" },
+            {
+                "languageCode": "ja",
+                "official": "ルーマニア",
+                "common": "ルーマニア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Roemenië",
+                "common": "Roemenië"
+            },
+            { "languageCode": "pt", "official": "Romênia", "common": "Roménia" },
+            { "languageCode": "ru", "official": "Румыния", "common": "Румыния" },
+            {
+                "languageCode": "sk",
+                "official": "Rumunsko",
+                "common": "Rumunsko"
+            },
+            { "languageCode": "es", "official": "Rumania", "common": "Rumania" },
+            { "languageCode": "fi", "official": "Romania", "common": "Romania" },
+            {
+                "languageCode": "et",
+                "official": "Rumeenia",
+                "common": "Rumeenia"
+            },
+            {
+                "languageCode": "zh",
+                "official": "罗马尼亚",
+                "common": "罗马尼亚"
+            },
+            { "languageCode": "pl", "official": "Rumunia", "common": "Rumunia" },
+            { "languageCode": "ur", "official": "رومانیہ", "common": "رومانیہ" },
+            {
+                "languageCode": "ko",
+                "official": "루마니아",
+                "common": "루마니아"
+            },
+            { "official": "رومانی", "common": "رومانی" },
+            {
+                "languageCode": "hr",
+                "official": "Rumunija",
+                "common": "Rumunjska"
+            }
+        ],
+        "currencies": [
+            { "name": "Romanian leu", "symbol": "lei", "currencyCode": "RON" }
+        ],
+        "flag": "🇷🇴",
+        "codes": { "cca2": "RO", "cca3": "ROU", "ccn3": "642" },
+        "coordinates": { "latitude": 46, "longitude": 25 }
+    }
+}

@@ -1,1 +1,124 @@
-{"title":"Nicaragua","slug":"nicaragua","baseInfo":{"name":{"common":"Nicaragua","official":"Republic of Nicaragua","native":[{"languageCode":"es","official":"República de Nicaragua","common":"Nicaragua"}]},"capital":"Managua","region":"Americas","subregion":"Central America","languages":[{"languageCode":"es","name":"Spanish"}],"translations":[{"languageCode":"cs","official":"Republika Nikaragua","common":"Nikaragua"},{"languageCode":"de","official":"Republik Nicaragua","common":"Nicaragua"},{"languageCode":"fr","official":"République du Nicaragua","common":"Nicaragua"},{"languageCode":"hr","official":"Republika Nikaragva","common":"Nikaragva"},{"languageCode":"it","official":"Repubblica del Nicaragua","common":"Nicaragua"},{"languageCode":"ja","official":"ニカラグア共和国","common":"ニカラグア"},{"languageCode":"nl","official":"Republiek Nicaragua","common":"Nicaragua"},{"languageCode":"pt","official":"República da Nicarágua","common":"Nicarágua"},{"languageCode":"ru","official":"Республика Никарагуа","common":"Никарагуа"},{"languageCode":"sk","official":"Nikaragujská republika","common":"Nikaragua"},{"languageCode":"es","official":"República de Nicaragua","common":"Nicaragua"},{"languageCode":"fi","official":"Nicaraguan tasavalta","common":"Nicaragua"},{"languageCode":"et","official":"Nicaragua Vabariik","common":"Nicaragua"},{"languageCode":"zh","official":"尼加拉瓜共和国","common":"尼加拉瓜"},{"languageCode":"pl","official":"Republika Nikaragui","common":"Nikaragua"},{"languageCode":"ur","official":"جمہوریہ نکاراگوا","common":"نکاراگوا"},{"languageCode":"ko","official":"니카라과 공화국","common":"니카라과"},{"official":"جمهوری نیکاراگوئه","common":"نیکاراگوئه"}],"currencies":[{"name":"Nicaraguan córdoba","symbol":"C$","currencyCode":"NIO"}],"flag":"🇳🇮","codes":{"cca2":"NI","cca3":"NIC","ccn3":"558"},"coordinates":{"latitude":13,"longitude":-85}}}
+{
+    "title": "Nicaragua",
+    "slug": "nicaragua",
+    "baseInfo": {
+        "name": {
+            "common": "Nicaragua",
+            "official": "Republic of Nicaragua",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República de Nicaragua",
+                    "common": "Nicaragua"
+                }
+            ]
+        },
+        "capital": "Managua",
+        "region": "Americas",
+        "subregion": "Central America",
+        "languages": [{ "languageCode": "es", "name": "Spanish" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Republika Nikaragua",
+                "common": "Nikaragua"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Nicaragua",
+                "common": "Nicaragua"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Nicaragua",
+                "common": "Nicaragua"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Nikaragva",
+                "common": "Nikaragva"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Nicaragua",
+                "common": "Nicaragua"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ニカラグア共和国",
+                "common": "ニカラグア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Nicaragua",
+                "common": "Nicaragua"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Nicarágua",
+                "common": "Nicarágua"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Никарагуа",
+                "common": "Никарагуа"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Nikaragujská republika",
+                "common": "Nikaragua"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Nicaragua",
+                "common": "Nicaragua"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Nicaraguan tasavalta",
+                "common": "Nicaragua"
+            },
+            {
+                "languageCode": "et",
+                "official": "Nicaragua Vabariik",
+                "common": "Nicaragua"
+            },
+            {
+                "languageCode": "zh",
+                "official": "尼加拉瓜共和国",
+                "common": "尼加拉瓜"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Nikaragui",
+                "common": "Nikaragua"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ نکاراگوا",
+                "common": "نکاراگوا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "니카라과 공화국",
+                "common": "니카라과"
+            },
+            { "official": "جمهوری نیکاراگوئه", "common": "نیکاراگوئه" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Nikaragva",
+                "common": "Nikaragva"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "Nicaraguan córdoba",
+                "symbol": "C$",
+                "currencyCode": "NIO"
+            }
+        ],
+        "flag": "🇳🇮",
+        "codes": { "cca2": "NI", "cca3": "NIC", "ccn3": "558" },
+        "coordinates": { "latitude": 13, "longitude": -85 }
+    }
+}

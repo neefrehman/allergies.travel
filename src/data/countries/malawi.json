@@ -1,1 +1,128 @@
-{"title":"Malawi","slug":"malawi","baseInfo":{"name":{"common":"Malawi","official":"Republic of Malawi","native":[{"languageCode":"en","official":"Republic of Malawi","common":"Malawi"},{"languageCode":"ny","official":"Chalo cha Malawi, Dziko la Malaŵi","common":"Malaŵi"}]},"capital":"Lilongwe","region":"Africa","subregion":"Eastern Africa","languages":[{"languageCode":"en","name":"English"},{"languageCode":"ny","name":"Chewa"}],"translations":[{"languageCode":"cs","official":"Malawiská republika","common":"Malawi"},{"languageCode":"de","official":"Republik Malawi","common":"Malawi"},{"languageCode":"fr","official":"République du Malawi","common":"Malawi"},{"languageCode":"hr","official":"Republika Malavi","common":"Malavi"},{"languageCode":"it","official":"Repubblica del Malawi","common":"Malawi"},{"languageCode":"ja","official":"マラウイ共和国","common":"マラウイ"},{"languageCode":"nl","official":"Republiek Malawi","common":"Malawi"},{"languageCode":"pt","official":"República do Malawi","common":"Malawi"},{"languageCode":"ru","official":"Республика Малави","common":"Малави"},{"languageCode":"sk","official":"Malawijská republika","common":"Malawi"},{"languageCode":"es","official":"República de Malawi","common":"Malawi"},{"languageCode":"fi","official":"Malawin tasavalta","common":"Malawi"},{"languageCode":"et","official":"Malawi Vabariik","common":"Malawi"},{"languageCode":"zh","official":"马拉维共和国","common":"马拉维"},{"languageCode":"pl","official":"Republika Malawi","common":"Malawi"},{"languageCode":"ur","official":"جمہوریہ ملاوی","common":"ملاوی"},{"languageCode":"ko","official":"말라위 공화국","common":"말라위"},{"official":"جمهوری مالاوی","common":"مالاوی"}],"currencies":[{"name":"Malawian kwacha","symbol":"MK","currencyCode":"MWK"}],"flag":"🇲🇼","codes":{"cca2":"MW","cca3":"MWI","ccn3":"454"},"coordinates":{"latitude":-13.5,"longitude":34}}}
+{
+    "title": "Malawi",
+    "slug": "malawi",
+    "baseInfo": {
+        "name": {
+            "common": "Malawi",
+            "official": "Republic of Malawi",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Malawi",
+                    "common": "Malawi"
+                },
+                {
+                    "languageCode": "ny",
+                    "official": "Chalo cha Malawi, Dziko la Malaŵi",
+                    "common": "Malaŵi"
+                }
+            ]
+        },
+        "capital": "Lilongwe",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "ny", "name": "Chewa" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Malawiská republika",
+                "common": "Malawi"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Malawi",
+                "common": "Malawi"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Malawi",
+                "common": "Malawi"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Malavi",
+                "common": "Malavi"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Malawi",
+                "common": "Malawi"
+            },
+            {
+                "languageCode": "ja",
+                "official": "マラウイ共和国",
+                "common": "マラウイ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Malawi",
+                "common": "Malawi"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Malawi",
+                "common": "Malawi"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Малави",
+                "common": "Малави"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Malawijská republika",
+                "common": "Malawi"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Malawi",
+                "common": "Malawi"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Malawin tasavalta",
+                "common": "Malawi"
+            },
+            {
+                "languageCode": "et",
+                "official": "Malawi Vabariik",
+                "common": "Malawi"
+            },
+            {
+                "languageCode": "zh",
+                "official": "马拉维共和国",
+                "common": "马拉维"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Malawi",
+                "common": "Malawi"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ ملاوی",
+                "common": "ملاوی"
+            },
+            {
+                "languageCode": "ko",
+                "official": "말라위 공화국",
+                "common": "말라위"
+            },
+            { "official": "جمهوری مالاوی", "common": "مالاوی" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Malavi",
+                "common": "Malavi"
+            }
+        ],
+        "currencies": [
+            { "name": "Malawian kwacha", "symbol": "MK", "currencyCode": "MWK" }
+        ],
+        "flag": "🇲🇼",
+        "codes": { "cca2": "MW", "cca3": "MWI", "ccn3": "454" },
+        "coordinates": { "latitude": -13.5, "longitude": 34 }
+    }
+}

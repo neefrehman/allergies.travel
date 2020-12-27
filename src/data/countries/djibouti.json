@@ -1,1 +1,133 @@
-{"title":"Djibouti","slug":"djibouti","baseInfo":{"name":{"common":"Djibouti","official":"Republic of Djibouti","native":[{"languageCode":"ar","official":"جمهورية جيبوتي","common":"جيبوتي‎"},{"languageCode":"fr","official":"République de Djibouti","common":"Djibouti"}]},"capital":"Djibouti","region":"Africa","subregion":"Eastern Africa","languages":[{"languageCode":"ar","name":"Arabic"},{"languageCode":"fr","name":"French"}],"translations":[{"languageCode":"cs","official":"Džibutská republika","common":"Džibutsko"},{"languageCode":"cy","official":"Gweriniaeth Jibwti","common":"Jibwti"},{"languageCode":"de","official":"Republik Dschibuti","common":"Dschibuti"},{"languageCode":"fr","official":"République de Djibouti","common":"Djibouti"},{"languageCode":"hr","official":"Republika Džibuti","common":"Džibuti"},{"languageCode":"it","official":"Repubblica di Gibuti","common":"Gibuti"},{"languageCode":"ja","official":"ジブチ共和国","common":"ジブチ"},{"languageCode":"nl","official":"Republiek Djibouti","common":"Djibouti"},{"languageCode":"pt","official":"República do Djibouti","common":"Djibouti"},{"languageCode":"ru","official":"Республика Джибути","common":"Джибути"},{"languageCode":"sk","official":"ǅibutská republika","common":"ǅibutsko"},{"languageCode":"es","official":"República de Djibouti","common":"Djibouti"},{"languageCode":"fi","official":"Dijiboutin tasavalta","common":"Dijibouti"},{"languageCode":"et","official":"Djibouti Vabariik","common":"Djibouti"},{"languageCode":"zh","official":"吉布提共和国","common":"吉布提"},{"languageCode":"pl","official":"Republika Dżibuti","common":"Dżibuti"},{"languageCode":"ur","official":"جمہوریہ جبوتی","common":"جبوتی"},{"languageCode":"ko","official":"지부티 공화국","common":"지부티"},{"official":"جمهوری جیبوتی","common":"جیبوتی"}],"currencies":[{"name":"Djiboutian franc","symbol":"Fr","currencyCode":"DJF"}],"flag":"🇩🇯","codes":{"cca2":"DJ","cca3":"DJI","ccn3":"262"},"coordinates":{"latitude":11.5,"longitude":43}}}
+{
+    "title": "Djibouti",
+    "slug": "djibouti",
+    "baseInfo": {
+        "name": {
+            "common": "Djibouti",
+            "official": "Republic of Djibouti",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "جمهورية جيبوتي",
+                    "common": "جيبوتي‎"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "République de Djibouti",
+                    "common": "Djibouti"
+                }
+            ]
+        },
+        "capital": "Djibouti",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "languageCode": "ar", "name": "Arabic" },
+            { "languageCode": "fr", "name": "French" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Džibutská republika",
+                "common": "Džibutsko"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Jibwti",
+                "common": "Jibwti"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Dschibuti",
+                "common": "Dschibuti"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de Djibouti",
+                "common": "Djibouti"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Džibuti",
+                "common": "Džibuti"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Gibuti",
+                "common": "Gibuti"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ジブチ共和国",
+                "common": "ジブチ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Djibouti",
+                "common": "Djibouti"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Djibouti",
+                "common": "Djibouti"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Джибути",
+                "common": "Джибути"
+            },
+            {
+                "languageCode": "sk",
+                "official": "ǅibutská republika",
+                "common": "ǅibutsko"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Djibouti",
+                "common": "Djibouti"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Dijiboutin tasavalta",
+                "common": "Dijibouti"
+            },
+            {
+                "languageCode": "et",
+                "official": "Djibouti Vabariik",
+                "common": "Djibouti"
+            },
+            {
+                "languageCode": "zh",
+                "official": "吉布提共和国",
+                "common": "吉布提"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Dżibuti",
+                "common": "Dżibuti"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ جبوتی",
+                "common": "جبوتی"
+            },
+            {
+                "languageCode": "ko",
+                "official": "지부티 공화국",
+                "common": "지부티"
+            },
+            { "official": "جمهوری جیبوتی", "common": "جیبوتی" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Džibuti",
+                "common": "Džibuti"
+            }
+        ],
+        "currencies": [
+            { "name": "Djiboutian franc", "symbol": "Fr", "currencyCode": "DJF" }
+        ],
+        "flag": "🇩🇯",
+        "codes": { "cca2": "DJ", "cca3": "DJI", "ccn3": "262" },
+        "coordinates": { "latitude": 11.5, "longitude": 43 }
+    }
+}

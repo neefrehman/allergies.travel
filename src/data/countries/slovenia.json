@@ -1,1 +1,118 @@
-{"title":"Slovenia","slug":"slovenia","baseInfo":{"name":{"common":"Slovenia","official":"Republic of Slovenia","native":[{"languageCode":"sl","official":"Republika Slovenija","common":"Slovenija"}]},"capital":"Ljubljana","region":"Europe","subregion":"Southern Europe","languages":[{"languageCode":"sl","name":"Slovene"}],"translations":[{"languageCode":"cs","official":"Slovinská republika","common":"Slovinsko"},{"languageCode":"de","official":"Republik Slowenien","common":"Slowenien"},{"languageCode":"fr","official":"République de Slovénie","common":"Slovénie"},{"languageCode":"hr","official":"Republika Slovenija","common":"Slovenija"},{"languageCode":"it","official":"Repubblica di Slovenia","common":"Slovenia"},{"languageCode":"ja","official":"スロベニア共和国","common":"スロベニア"},{"languageCode":"nl","official":"Republiek Slovenië","common":"Slovenië"},{"languageCode":"pt","official":"República da Eslovénia","common":"Eslovénia"},{"languageCode":"ru","official":"Республика Словения","common":"Словения"},{"languageCode":"sk","official":"Slovinská republika","common":"Slovinsko"},{"languageCode":"es","official":"República de Eslovenia","common":"Eslovenia"},{"languageCode":"fi","official":"Slovenian tasavalta","common":"Slovenia"},{"languageCode":"et","official":"Sloveenia Vabariik","common":"Sloveenia"},{"languageCode":"zh","official":"斯洛文尼亚共和国","common":"斯洛文尼亚"},{"languageCode":"pl","official":"Republika Słowenii","common":"Słowenia"},{"languageCode":"ur","official":"جمہوریہ سلووینیا","common":"سلووینیا"},{"languageCode":"ko","official":"슬로베니아 공화국","common":"슬로베니아"},{"official":"جمهوری اسلوونی","common":"اسلوونی"}],"currencies":[{"name":"Euro","symbol":"€","currencyCode":"EUR"}],"flag":"🇸🇮","codes":{"cca2":"SI","cca3":"SVN","ccn3":"705"},"coordinates":{"latitude":46.11666666,"longitude":14.81666666}}}
+{
+    "title": "Slovenia",
+    "slug": "slovenia",
+    "baseInfo": {
+        "name": {
+            "common": "Slovenia",
+            "official": "Republic of Slovenia",
+            "native": [
+                {
+                    "languageCode": "sl",
+                    "official": "Republika Slovenija",
+                    "common": "Slovenija"
+                }
+            ]
+        },
+        "capital": "Ljubljana",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": [{ "languageCode": "sl", "name": "Slovene" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Slovinská republika",
+                "common": "Slovinsko"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Slowenien",
+                "common": "Slowenien"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de Slovénie",
+                "common": "Slovénie"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Slovenija",
+                "common": "Slovenija"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Slovenia",
+                "common": "Slovenia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "スロベニア共和国",
+                "common": "スロベニア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Slovenië",
+                "common": "Slovenië"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Eslovénia",
+                "common": "Eslovénia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Словения",
+                "common": "Словения"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Slovinská republika",
+                "common": "Slovinsko"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Eslovenia",
+                "common": "Eslovenia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Slovenian tasavalta",
+                "common": "Slovenia"
+            },
+            {
+                "languageCode": "et",
+                "official": "Sloveenia Vabariik",
+                "common": "Sloveenia"
+            },
+            {
+                "languageCode": "zh",
+                "official": "斯洛文尼亚共和国",
+                "common": "斯洛文尼亚"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Słowenii",
+                "common": "Słowenia"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ سلووینیا",
+                "common": "سلووینیا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "슬로베니아 공화국",
+                "common": "슬로베니아"
+            },
+            { "official": "جمهوری اسلوونی", "common": "اسلوونی" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Slovenija",
+                "common": "Slovenija"
+            }
+        ],
+        "currencies": [{ "name": "Euro", "symbol": "€", "currencyCode": "EUR" }],
+        "flag": "🇸🇮",
+        "codes": { "cca2": "SI", "cca3": "SVN", "ccn3": "705" },
+        "coordinates": { "latitude": 46.11666666, "longitude": 14.81666666 }
+    }
+}

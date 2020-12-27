@@ -1,1 +1,112 @@
-{"title":"Moldova","slug":"moldova","baseInfo":{"name":{"common":"Moldova","official":"Republic of Moldova","native":[{"languageCode":"ro","official":"Republica Moldova","common":"Moldova"}]},"capital":"Chișinău","region":"Europe","subregion":"Eastern Europe","languages":[{"languageCode":"ro","name":"Moldavian"}],"translations":[{"languageCode":"cs","official":"Moldavská republika","common":"Moldavsko"},{"languageCode":"de","official":"Republik Moldau","common":"Moldawien"},{"languageCode":"fr","official":"République de Moldavie","common":"Moldavie"},{"languageCode":"hr","official":"Moldavija","common":"Moldova"},{"languageCode":"it","official":"Repubblica di Moldova","common":"Moldavia"},{"languageCode":"ja","official":"モルドバ共和国","common":"モルドバ共和国"},{"languageCode":"nl","official":"Republiek Moldavië","common":"Moldavië"},{"languageCode":"pt","official":"República da Moldávia","common":"Moldávia"},{"languageCode":"ru","official":"Молдова","common":"Молдавия"},{"languageCode":"sk","official":"Moldavská republika","common":"Moldavsko"},{"languageCode":"es","official":"República de Moldova","common":"Moldavia"},{"languageCode":"fi","official":"Moldovan tasavalta","common":"Moldova"},{"languageCode":"et","official":"Moldova Vabariik","common":"Moldova"},{"languageCode":"zh","official":"摩尔多瓦共和国","common":"摩尔多瓦"},{"languageCode":"pl","official":"Republika Mołdawii","common":"Mołdawia"},{"languageCode":"ur","official":"جمہوریہ مالدووا","common":"مالدووا"},{"languageCode":"ko","official":"몰도바 공화국","common":"몰도바"},{"official":"جمهوری مولداوی","common":"مولداوی"}],"currencies":[{"name":"Moldovan leu","symbol":"L","currencyCode":"MDL"}],"flag":"🇲🇩","codes":{"cca2":"MD","cca3":"MDA","ccn3":"498"},"coordinates":{"latitude":47,"longitude":29}}}
+{
+    "title": "Moldova",
+    "slug": "moldova",
+    "baseInfo": {
+        "name": {
+            "common": "Moldova",
+            "official": "Republic of Moldova",
+            "native": [
+                {
+                    "languageCode": "ro",
+                    "official": "Republica Moldova",
+                    "common": "Moldova"
+                }
+            ]
+        },
+        "capital": "Chișinău",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [{ "languageCode": "ro", "name": "Moldavian" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Moldavská republika",
+                "common": "Moldavsko"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Moldau",
+                "common": "Moldawien"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de Moldavie",
+                "common": "Moldavie"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Moldavija",
+                "common": "Moldova"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Moldova",
+                "common": "Moldavia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "モルドバ共和国",
+                "common": "モルドバ共和国"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Moldavië",
+                "common": "Moldavië"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Moldávia",
+                "common": "Moldávia"
+            },
+            { "languageCode": "ru", "official": "Молдова", "common": "Молдавия" },
+            {
+                "languageCode": "sk",
+                "official": "Moldavská republika",
+                "common": "Moldavsko"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Moldova",
+                "common": "Moldavia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Moldovan tasavalta",
+                "common": "Moldova"
+            },
+            {
+                "languageCode": "et",
+                "official": "Moldova Vabariik",
+                "common": "Moldova"
+            },
+            {
+                "languageCode": "zh",
+                "official": "摩尔多瓦共和国",
+                "common": "摩尔多瓦"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Mołdawii",
+                "common": "Mołdawia"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ مالدووا",
+                "common": "مالدووا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "몰도바 공화국",
+                "common": "몰도바"
+            },
+            { "official": "جمهوری مولداوی", "common": "مولداوی" },
+            { "languageCode": "hr", "official": "Moldavija", "common": "Moldova" }
+        ],
+        "currencies": [
+            { "name": "Moldovan leu", "symbol": "L", "currencyCode": "MDL" }
+        ],
+        "flag": "🇲🇩",
+        "codes": { "cca2": "MD", "cca3": "MDA", "ccn3": "498" },
+        "coordinates": { "latitude": 47, "longitude": 29 }
+    }
+}

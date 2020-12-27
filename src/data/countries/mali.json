@@ -1,1 +1,112 @@
-{"title":"Mali","slug":"mali","baseInfo":{"name":{"common":"Mali","official":"Republic of Mali","native":[{"languageCode":"fr","official":"République du Mali","common":"Mali"}]},"capital":"Bamako","region":"Africa","subregion":"Western Africa","languages":[{"languageCode":"fr","name":"French"}],"translations":[{"languageCode":"cs","official":"Republika Mali","common":"Mali"},{"languageCode":"de","official":"Republik Mali","common":"Mali"},{"languageCode":"fr","official":"République du Mali","common":"Mali"},{"languageCode":"hr","official":"Republika Mali","common":"Mali"},{"languageCode":"it","official":"Repubblica del Mali","common":"Mali"},{"languageCode":"ja","official":"マリ共和国","common":"マリ"},{"languageCode":"nl","official":"Republiek Mali","common":"Mali"},{"languageCode":"pt","official":"República do Mali","common":"Mali"},{"languageCode":"ru","official":"Республика Мали","common":"Мали"},{"languageCode":"sk","official":"Malijská republika","common":"Mali"},{"languageCode":"es","official":"República de Malí","common":"Mali"},{"languageCode":"fi","official":"Malin tasavalta","common":"Mali"},{"languageCode":"et","official":"Mali Vabariik","common":"Mali"},{"languageCode":"zh","official":"马里共和国","common":"马里"},{"languageCode":"pl","official":"Republika Mali","common":"Mali"},{"languageCode":"ur","official":"جمہوریہ مالی","common":"مالی"},{"languageCode":"ko","official":"말리 공화국","common":"말리"},{"official":"جمهوری مالی","common":"مالی"}],"currencies":[{"name":"West African CFA franc","symbol":"Fr","currencyCode":"XOF"}],"flag":"🇲🇱","codes":{"cca2":"ML","cca3":"MLI","ccn3":"466"},"coordinates":{"latitude":17,"longitude":-4}}}
+{
+    "title": "Mali",
+    "slug": "mali",
+    "baseInfo": {
+        "name": {
+            "common": "Mali",
+            "official": "Republic of Mali",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République du Mali",
+                    "common": "Mali"
+                }
+            ]
+        },
+        "capital": "Bamako",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "fr", "name": "French" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Republika Mali",
+                "common": "Mali"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Mali",
+                "common": "Mali"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Mali",
+                "common": "Mali"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Mali",
+                "common": "Mali"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Mali",
+                "common": "Mali"
+            },
+            { "languageCode": "ja", "official": "マリ共和国", "common": "マリ" },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Mali",
+                "common": "Mali"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Mali",
+                "common": "Mali"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Мали",
+                "common": "Мали"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Malijská republika",
+                "common": "Mali"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Malí",
+                "common": "Mali"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Malin tasavalta",
+                "common": "Mali"
+            },
+            {
+                "languageCode": "et",
+                "official": "Mali Vabariik",
+                "common": "Mali"
+            },
+            { "languageCode": "zh", "official": "马里共和国", "common": "马里" },
+            {
+                "languageCode": "pl",
+                "official": "Republika Mali",
+                "common": "Mali"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ مالی",
+                "common": "مالی"
+            },
+            { "languageCode": "ko", "official": "말리 공화국", "common": "말리" },
+            { "official": "جمهوری مالی", "common": "مالی" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Mali",
+                "common": "Mali"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "West African CFA franc",
+                "symbol": "Fr",
+                "currencyCode": "XOF"
+            }
+        ],
+        "flag": "🇲🇱",
+        "codes": { "cca2": "ML", "cca3": "MLI", "ccn3": "466" },
+        "coordinates": { "latitude": 17, "longitude": -4 }
+    }
+}

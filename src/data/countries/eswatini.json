@@ -1,1 +1,128 @@
-{"title":"Eswatini","slug":"eswatini","baseInfo":{"name":{"common":"Eswatini","official":"Kingdom of Eswatini","native":[{"languageCode":"en","official":"Kingdom of Eswatini","common":"Eswatini"},{"languageCode":"ss","official":"Umbuso weSwatini","common":"eSwatini"}]},"capital":"Lobamba","region":"Africa","subregion":"Southern Africa","languages":[{"languageCode":"en","name":"English"},{"languageCode":"ss","name":"Swazi"}],"translations":[{"languageCode":"cs","official":"Svazijské království","common":"Svazijsko"},{"languageCode":"de","official":"Königreich Eswatini","common":"Swasiland"},{"languageCode":"fr","official":"Royaume d’Eswatini","common":"Swaziland"},{"languageCode":"hr","official":"Kraljevina eSwatini","common":"Svazi"},{"languageCode":"it","official":"Regno di eSwatini","common":"Swaziland"},{"languageCode":"ja","official":"スワジランド王国","common":"スワジランド"},{"languageCode":"nl","official":"Koninkrijk eSwatini","common":"Swaziland"},{"languageCode":"pt","official":"Reino de eSwatini","common":"Suazilândia"},{"languageCode":"ru","official":"Королевство Свазиленд","common":"Свазиленд"},{"languageCode":"sk","official":"Svazijské kráľovstvo","common":"Svazijsko"},{"languageCode":"es","official":"Reino de eSwatini","common":"Suazilandia"},{"languageCode":"fi","official":"Swazimaan kuningaskunta","common":"Swazimaa"},{"languageCode":"et","official":"eSwatini Kuningriik","common":"Svaasimaa"},{"languageCode":"pl","official":"Królestwo Suazi","common":"Suazi"},{"languageCode":"zh","official":"斯威士兰王国","common":"斯威士兰"},{"languageCode":"ur","official":"مملکتِ سوازی لینڈ","common":"سوازی لینڈ"},{"languageCode":"ko","official":"에스와티니 왕국","common":"에스와티니"},{"official":"پادشاهی سوازیلند","common":"اسواتینی"}],"currencies":[{"name":"Swazi lilangeni","symbol":"L","currencyCode":"SZL"}],"flag":"🇸🇿","codes":{"cca2":"SZ","cca3":"SWZ","ccn3":"748"},"coordinates":{"latitude":-26.5,"longitude":31.5}}}
+{
+    "title": "Eswatini",
+    "slug": "eswatini",
+    "baseInfo": {
+        "name": {
+            "common": "Eswatini",
+            "official": "Kingdom of Eswatini",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Kingdom of Eswatini",
+                    "common": "Eswatini"
+                },
+                {
+                    "languageCode": "ss",
+                    "official": "Umbuso weSwatini",
+                    "common": "eSwatini"
+                }
+            ]
+        },
+        "capital": "Lobamba",
+        "region": "Africa",
+        "subregion": "Southern Africa",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "ss", "name": "Swazi" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Svazijské království",
+                "common": "Svazijsko"
+            },
+            {
+                "languageCode": "de",
+                "official": "Königreich Eswatini",
+                "common": "Swasiland"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Royaume d’Eswatini",
+                "common": "Swaziland"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Kraljevina eSwatini",
+                "common": "Svazi"
+            },
+            {
+                "languageCode": "it",
+                "official": "Regno di eSwatini",
+                "common": "Swaziland"
+            },
+            {
+                "languageCode": "ja",
+                "official": "スワジランド王国",
+                "common": "スワジランド"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Koninkrijk eSwatini",
+                "common": "Swaziland"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Reino de eSwatini",
+                "common": "Suazilândia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Королевство Свазиленд",
+                "common": "Свазиленд"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Svazijské kráľovstvo",
+                "common": "Svazijsko"
+            },
+            {
+                "languageCode": "es",
+                "official": "Reino de eSwatini",
+                "common": "Suazilandia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Swazimaan kuningaskunta",
+                "common": "Swazimaa"
+            },
+            {
+                "languageCode": "et",
+                "official": "eSwatini Kuningriik",
+                "common": "Svaasimaa"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Królestwo Suazi",
+                "common": "Suazi"
+            },
+            {
+                "languageCode": "zh",
+                "official": "斯威士兰王国",
+                "common": "斯威士兰"
+            },
+            {
+                "languageCode": "ur",
+                "official": "مملکتِ سوازی لینڈ",
+                "common": "سوازی لینڈ"
+            },
+            {
+                "languageCode": "ko",
+                "official": "에스와티니 왕국",
+                "common": "에스와티니"
+            },
+            { "official": "پادشاهی سوازیلند", "common": "اسواتینی" },
+            {
+                "languageCode": "hr",
+                "official": "Kraljevina eSwatini",
+                "common": "Svazi"
+            }
+        ],
+        "currencies": [
+            { "name": "Swazi lilangeni", "symbol": "L", "currencyCode": "SZL" }
+        ],
+        "flag": "🇸🇿",
+        "codes": { "cca2": "SZ", "cca3": "SWZ", "ccn3": "748" },
+        "coordinates": { "latitude": -26.5, "longitude": 31.5 }
+    }
+}

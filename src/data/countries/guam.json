@@ -1,1 +1,62 @@
-{"title":"Guam","slug":"guam","baseInfo":{"name":{"common":"Guam","official":"Guam","native":[{"languageCode":"ch","official":"Guåhån","common":"Guåhån"},{"languageCode":"en","official":"Guam","common":"Guam"},{"languageCode":"es","official":"Guam","common":"Guam"}]},"capital":"Hagåtña","region":"Oceania","subregion":"Micronesia","languages":[{"languageCode":"ch","name":"Chamorro"},{"languageCode":"en","name":"English"},{"languageCode":"es","name":"Spanish"}],"translations":[{"languageCode":"cs","official":"Guam","common":"Guam"},{"languageCode":"de","official":"Guam","common":"Guam"},{"languageCode":"fr","official":"Guam","common":"Guam"},{"languageCode":"hr","official":"Guam","common":"Guam"},{"languageCode":"it","official":"Guam","common":"Guam"},{"languageCode":"ja","official":"グアム","common":"グアム"},{"languageCode":"nl","official":"Guam","common":"Guam"},{"languageCode":"pt","official":"Guam","common":"Guam"},{"languageCode":"ru","official":"Гуам","common":"Гуам"},{"languageCode":"sk","official":"Guam","common":"Guam"},{"languageCode":"es","official":"Guam","common":"Guam"},{"languageCode":"fi","official":"Guam","common":"Guam"},{"languageCode":"et","official":"Guami ala","common":"Guam"},{"languageCode":"zh","official":"关岛","common":"关岛"},{"languageCode":"pl","official":"Terytorium Guamu","common":"Guam"},{"languageCode":"ur","official":"گوام","common":"گوام"},{"languageCode":"ko","official":"괌","common":"괌"},{"official":"گوآم","common":"گوآم"}],"currencies":[{"name":"United States dollar","symbol":"$","currencyCode":"USD"}],"flag":"🇬🇺","codes":{"cca2":"GU","cca3":"GUM","ccn3":"316"},"coordinates":{"latitude":13.46666666,"longitude":144.78333333}}}
+{
+    "title": "Guam",
+    "slug": "guam",
+    "baseInfo": {
+        "name": {
+            "common": "Guam",
+            "official": "Guam",
+            "native": [
+                {
+                    "languageCode": "ch",
+                    "official": "Guåhån",
+                    "common": "Guåhån"
+                },
+                { "languageCode": "en", "official": "Guam", "common": "Guam" },
+                { "languageCode": "es", "official": "Guam", "common": "Guam" }
+            ]
+        },
+        "capital": "Hagåtña",
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "languages": [
+            { "languageCode": "ch", "name": "Chamorro" },
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "es", "name": "Spanish" }
+        ],
+        "translations": [
+            { "languageCode": "cs", "official": "Guam", "common": "Guam" },
+            { "languageCode": "de", "official": "Guam", "common": "Guam" },
+            { "languageCode": "fr", "official": "Guam", "common": "Guam" },
+            { "languageCode": "sh", "official": "Guam", "common": "Guam" },
+            { "languageCode": "it", "official": "Guam", "common": "Guam" },
+            { "languageCode": "ja", "official": "グアム", "common": "グアム" },
+            { "languageCode": "nl", "official": "Guam", "common": "Guam" },
+            { "languageCode": "pt", "official": "Guam", "common": "Guam" },
+            { "languageCode": "ru", "official": "Гуам", "common": "Гуам" },
+            { "languageCode": "sk", "official": "Guam", "common": "Guam" },
+            { "languageCode": "es", "official": "Guam", "common": "Guam" },
+            { "languageCode": "fi", "official": "Guam", "common": "Guam" },
+            { "languageCode": "et", "official": "Guami ala", "common": "Guam" },
+            { "languageCode": "zh", "official": "关岛", "common": "关岛" },
+            {
+                "languageCode": "pl",
+                "official": "Terytorium Guamu",
+                "common": "Guam"
+            },
+            { "languageCode": "ur", "official": "گوام", "common": "گوام" },
+            { "languageCode": "ko", "official": "괌", "common": "괌" },
+            { "official": "گوآم", "common": "گوآم" },
+            { "languageCode": "hr", "official": "Guam", "common": "Guam" }
+        ],
+        "currencies": [
+            {
+                "name": "United States dollar",
+                "symbol": "$",
+                "currencyCode": "USD"
+            }
+        ],
+        "flag": "🇬🇺",
+        "codes": { "cca2": "GU", "cca3": "GUM", "ccn3": "316" },
+        "coordinates": { "latitude": 13.46666666, "longitude": 144.78333333 }
+    }
+}

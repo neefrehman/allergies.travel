@@ -1,1 +1,82 @@
-{"title":"Tokelau","slug":"tokelau","baseInfo":{"name":{"common":"Tokelau","official":"Tokelau","native":[{"languageCode":"en","official":"Tokelau","common":"Tokelau"},{"languageCode":"sm","official":"Tokelau","common":"Tokelau"},{"official":"Tokelau","common":"Tokelau"}]},"capital":"Fakaofo","region":"Oceania","subregion":"Polynesia","languages":[{"languageCode":"en","name":"English"},{"languageCode":"sm","name":"Samoan"},{"name":"Tokelauan"}],"translations":[{"languageCode":"cs","official":"Tokelau","common":"Tokelau"},{"languageCode":"de","official":"Tokelau","common":"Tokelau"},{"languageCode":"fr","official":"Îles Tokelau","common":"Tokelau"},{"languageCode":"hr","official":"Tokelau","common":"Tokelau"},{"languageCode":"it","official":"Tokelau","common":"Isole Tokelau"},{"languageCode":"ja","official":"トケラウ諸島","common":"トケラウ"},{"languageCode":"nl","official":"Tokelau","common":"Tokelau"},{"languageCode":"pt","official":"Tokelau","common":"Tokelau"},{"languageCode":"ru","official":"Токелау","common":"Токелау"},{"languageCode":"sk","official":"Tokelauské ostrovy","common":"Tokelau"},{"languageCode":"es","official":"Tokelau","common":"Islas Tokelau"},{"languageCode":"fi","official":"Tokelau","common":"Tokelau"},{"languageCode":"et","official":"Tokelau","common":"Tokelau"},{"languageCode":"zh","official":"托克劳","common":"托克劳"},{"languageCode":"pl","official":"Tokelau","common":"Tokelau"},{"languageCode":"ur","official":"ٹوکیلاؤ","common":"ٹوکیلاؤ"},{"languageCode":"ko","official":"토켈라우","common":"토켈라우"},{"official":"توکلائو","common":"توکلائو"}],"currencies":[{"name":"New Zealand dollar","symbol":"$","currencyCode":"NZD"}],"flag":"🇹🇰","codes":{"cca2":"TK","cca3":"TKL","ccn3":"772"},"coordinates":{"latitude":-9,"longitude":-172}}}
+{
+    "title": "Tokelau",
+    "slug": "tokelau",
+    "baseInfo": {
+        "name": {
+            "common": "Tokelau",
+            "official": "Tokelau",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Tokelau",
+                    "common": "Tokelau"
+                },
+                {
+                    "languageCode": "sm",
+                    "official": "Tokelau",
+                    "common": "Tokelau"
+                },
+                { "official": "Tokelau", "common": "Tokelau" }
+            ]
+        },
+        "capital": "Fakaofo",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "sm", "name": "Samoan" },
+            { "name": "Tokelauan" }
+        ],
+        "translations": [
+            { "languageCode": "cs", "official": "Tokelau", "common": "Tokelau" },
+            { "languageCode": "de", "official": "Tokelau", "common": "Tokelau" },
+            {
+                "languageCode": "fr",
+                "official": "Îles Tokelau",
+                "common": "Tokelau"
+            },
+            { "languageCode": "sh", "official": "Tokelau", "common": "Tokelau" },
+            {
+                "languageCode": "it",
+                "official": "Tokelau",
+                "common": "Isole Tokelau"
+            },
+            {
+                "languageCode": "ja",
+                "official": "トケラウ諸島",
+                "common": "トケラウ"
+            },
+            { "languageCode": "nl", "official": "Tokelau", "common": "Tokelau" },
+            { "languageCode": "pt", "official": "Tokelau", "common": "Tokelau" },
+            { "languageCode": "ru", "official": "Токелау", "common": "Токелау" },
+            {
+                "languageCode": "sk",
+                "official": "Tokelauské ostrovy",
+                "common": "Tokelau"
+            },
+            {
+                "languageCode": "es",
+                "official": "Tokelau",
+                "common": "Islas Tokelau"
+            },
+            { "languageCode": "fi", "official": "Tokelau", "common": "Tokelau" },
+            { "languageCode": "et", "official": "Tokelau", "common": "Tokelau" },
+            { "languageCode": "zh", "official": "托克劳", "common": "托克劳" },
+            { "languageCode": "pl", "official": "Tokelau", "common": "Tokelau" },
+            { "languageCode": "ur", "official": "ٹوکیلاؤ", "common": "ٹوکیلاؤ" },
+            {
+                "languageCode": "ko",
+                "official": "토켈라우",
+                "common": "토켈라우"
+            },
+            { "official": "توکلائو", "common": "توکلائو" },
+            { "languageCode": "hr", "official": "Tokelau", "common": "Tokelau" }
+        ],
+        "currencies": [
+            { "name": "New Zealand dollar", "symbol": "$", "currencyCode": "NZD" }
+        ],
+        "flag": "🇹🇰",
+        "codes": { "cca2": "TK", "cca3": "TKL", "ccn3": "772" },
+        "coordinates": { "latitude": -9, "longitude": -172 }
+    }
+}

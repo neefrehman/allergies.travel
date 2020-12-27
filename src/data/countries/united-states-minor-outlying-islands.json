@@ -1,1 +1,127 @@
-{"title":"United States Minor Outlying Islands","slug":"united-states-minor-outlying-islands","baseInfo":{"name":{"common":"United States Minor Outlying Islands","official":"United States Minor Outlying Islands","native":[{"languageCode":"en","official":"United States Minor Outlying Islands","common":"United States Minor Outlying Islands"}]},"capital":"","region":"Americas","subregion":"North America","languages":[{"languageCode":"en","name":"English"}],"translations":[{"languageCode":"cs","official":"Menší odlehlé ostrovy Spojených států amerických","common":"Menší odlehlé ostrovy USA"},{"languageCode":"de","official":"USA, kleinere ausgelagerte Inseln","common":"Kleinere Inselbesitzungen der Vereinigten Staaten"},{"languageCode":"fr","official":"Îles mineures éloignées des États-Unis","common":"Îles mineures éloignées des États-Unis"},{"languageCode":"hr","official":"Mali udaljeni otoci SAD-a","common":"Mali udaljeni otoci SAD-a"},{"languageCode":"it","official":"Stati Uniti Isole Minori","common":"Isole minori esterne degli Stati Uniti d'America"},{"languageCode":"ja","official":"アメリカ合衆国外諸島","common":"合衆国領有小離島"},{"languageCode":"nl","official":"Kleine afgelegen eilanden van de Verenigde Staten","common":"Kleine afgelegen eilanden van de Verenigde Staten"},{"languageCode":"pt","official":"Estados Unidos Ilhas Menores Distantes","common":"Ilhas Menores Distantes dos Estados Unidos"},{"languageCode":"ru","official":"Внешние малые острова США","common":"Внешние малые острова США"},{"languageCode":"sk","official":"Menšie odľahlé ostrovy Spjoených štátov","common":"Menšie odľahlé ostrovy USA"},{"languageCode":"es","official":"Estados Unidos Islas menores alejadas de","common":"Islas Ultramarinas Menores de Estados Unidos"},{"languageCode":"fi","official":"Yhdysvaltain asumattomat saaret","common":"Yhdysvaltain asumattomat saaret"},{"languageCode":"et","official":"Ühendriikide väikesed hajasaared","common":"Ühendriikide hajasaared"},{"languageCode":"zh","official":"美国本土外小岛屿","common":"美国本土外小岛屿"},{"languageCode":"pl","official":"Dalekie Wyspy Mniejsze Stanów Zjednoczonych","common":"Dalekie Wyspy Mniejsze Stanów Zjednoczonych"},{"languageCode":"ur","official":"امریکی چھوٹے بیرونی جزائر","common":"امریکی چھوٹے بیرونی جزائر"},{"languageCode":"ko","official":"미국령 군소 제도","common":"미국령 군소 제도"},{"official":"جزایر کوچک حاشیه‌ای ایالات متحده آمریکا","common":"جزایر کوچک حاشیه‌ای ایالات متحده آمریکا"}],"currencies":[{"name":"United States dollar","symbol":"$","currencyCode":"USD"}],"flag":"🇺🇲","codes":{"cca2":"UM","cca3":"UMI","ccn3":"581"},"coordinates":{"latitude":19.3,"longitude":166.633333}}}
+{
+    "title": "United States Minor Outlying Islands",
+    "slug": "united-states-minor-outlying-islands",
+    "baseInfo": {
+        "name": {
+            "common": "United States Minor Outlying Islands",
+            "official": "United States Minor Outlying Islands",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "United States Minor Outlying Islands",
+                    "common": "United States Minor Outlying Islands"
+                }
+            ]
+        },
+        "capital": "",
+        "region": "Americas",
+        "subregion": "North America",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Menší odlehlé ostrovy Spojených států amerických",
+                "common": "Menší odlehlé ostrovy USA"
+            },
+            {
+                "languageCode": "de",
+                "official": "USA, kleinere ausgelagerte Inseln",
+                "common": "Kleinere Inselbesitzungen der Vereinigten Staaten"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Îles mineures éloignées des États-Unis",
+                "common": "Îles mineures éloignées des États-Unis"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Mali udaljeni otoci SAD-a",
+                "common": "Mali udaljeni otoci SAD-a"
+            },
+            {
+                "languageCode": "it",
+                "official": "Stati Uniti Isole Minori",
+                "common": "Isole minori esterne degli Stati Uniti d'America"
+            },
+            {
+                "languageCode": "ja",
+                "official": "アメリカ合衆国外諸島",
+                "common": "合衆国領有小離島"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Kleine afgelegen eilanden van de Verenigde Staten",
+                "common": "Kleine afgelegen eilanden van de Verenigde Staten"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Estados Unidos Ilhas Menores Distantes",
+                "common": "Ilhas Menores Distantes dos Estados Unidos"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Внешние малые острова США",
+                "common": "Внешние малые острова США"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Menšie odľahlé ostrovy Spjoených štátov",
+                "common": "Menšie odľahlé ostrovy USA"
+            },
+            {
+                "languageCode": "es",
+                "official": "Estados Unidos Islas menores alejadas de",
+                "common": "Islas Ultramarinas Menores de Estados Unidos"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Yhdysvaltain asumattomat saaret",
+                "common": "Yhdysvaltain asumattomat saaret"
+            },
+            {
+                "languageCode": "et",
+                "official": "Ühendriikide väikesed hajasaared",
+                "common": "Ühendriikide hajasaared"
+            },
+            {
+                "languageCode": "zh",
+                "official": "美国本土外小岛屿",
+                "common": "美国本土外小岛屿"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Dalekie Wyspy Mniejsze Stanów Zjednoczonych",
+                "common": "Dalekie Wyspy Mniejsze Stanów Zjednoczonych"
+            },
+            {
+                "languageCode": "ur",
+                "official": "امریکی چھوٹے بیرونی جزائر",
+                "common": "امریکی چھوٹے بیرونی جزائر"
+            },
+            {
+                "languageCode": "ko",
+                "official": "미국령 군소 제도",
+                "common": "미국령 군소 제도"
+            },
+            {
+                "official": "جزایر کوچک حاشیه‌ای ایالات متحده آمریکا",
+                "common": "جزایر کوچک حاشیه‌ای ایالات متحده آمریکا"
+            },
+            {
+                "languageCode": "hr",
+                "official": "Mali udaljeni otoci SAD-a",
+                "common": "Mali udaljeni otoci SAD-a"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "United States dollar",
+                "symbol": "$",
+                "currencyCode": "USD"
+            }
+        ],
+        "flag": "🇺🇲",
+        "codes": { "cca2": "UM", "cca3": "UMI", "ccn3": "581" },
+        "coordinates": { "latitude": 19.3, "longitude": 166.633333 }
+    }
+}

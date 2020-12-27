@@ -1,1 +1,128 @@
-{"title":"Pakistan","slug":"pakistan","baseInfo":{"name":{"common":"Pakistan","official":"Islamic Republic of Pakistan","native":[{"languageCode":"en","official":"Islamic Republic of Pakistan","common":"Pakistan"},{"languageCode":"ur","official":"اسلامی جمہوریۂ پاكستان","common":"پاكستان"}]},"capital":"Islamabad","region":"Asia","subregion":"Southern Asia","languages":[{"languageCode":"en","name":"English"},{"languageCode":"ur","name":"Urdu"}],"translations":[{"languageCode":"cs","official":"Pákistánská islámská republika","common":"Pákistán"},{"languageCode":"de","official":"Islamische Republik Pakistan","common":"Pakistan"},{"languageCode":"fr","official":"République islamique du Pakistan","common":"Pakistan"},{"languageCode":"hr","official":"Islamska Republika Pakistan","common":"Pakistan"},{"languageCode":"it","official":"Repubblica islamica del Pakistan","common":"Pakistan"},{"languageCode":"ja","official":"パキスタン","common":"パキスタン"},{"languageCode":"nl","official":"Islamitische Republiek Pakistan","common":"Pakistan"},{"languageCode":"pt","official":"República Islâmica do Paquistão","common":"Paquistão"},{"languageCode":"ru","official":"Исламская Республика Пакистан","common":"Пакистан"},{"languageCode":"sk","official":"Pakistanská islamská republika","common":"Pakistan"},{"languageCode":"es","official":"República Islámica de Pakistán","common":"Pakistán"},{"languageCode":"fi","official":"Pakistanin islamilainen tasavalta","common":"Pakistan"},{"languageCode":"et","official":"Pakistani Islamivabariik","common":"Pakistan"},{"languageCode":"zh","official":"巴基斯坦伊斯兰共和国","common":"巴基斯坦"},{"languageCode":"pl","official":"Islamska Republika Pakistanu","common":"Pakistan"},{"languageCode":"ur","official":"اسلامی جمہوریہ پاکستان","common":"پاکستان"},{"languageCode":"ko","official":"파키스탄 이슬람 공화국","common":"파키스탄"},{"official":"جمهوری اسلامی پاکستان","common":"پاکستان"}],"currencies":[{"name":"Pakistani rupee","symbol":"₨","currencyCode":"PKR"}],"flag":"🇵🇰","codes":{"cca2":"PK","cca3":"PAK","ccn3":"586"},"coordinates":{"latitude":30,"longitude":70}}}
+{
+    "title": "Pakistan",
+    "slug": "pakistan",
+    "baseInfo": {
+        "name": {
+            "common": "Pakistan",
+            "official": "Islamic Republic of Pakistan",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Islamic Republic of Pakistan",
+                    "common": "Pakistan"
+                },
+                {
+                    "languageCode": "ur",
+                    "official": "اسلامی جمہوریۂ پاكستان",
+                    "common": "پاكستان"
+                }
+            ]
+        },
+        "capital": "Islamabad",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "ur", "name": "Urdu" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Pákistánská islámská republika",
+                "common": "Pákistán"
+            },
+            {
+                "languageCode": "de",
+                "official": "Islamische Republik Pakistan",
+                "common": "Pakistan"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République islamique du Pakistan",
+                "common": "Pakistan"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Islamska Republika Pakistan",
+                "common": "Pakistan"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica islamica del Pakistan",
+                "common": "Pakistan"
+            },
+            {
+                "languageCode": "ja",
+                "official": "パキスタン",
+                "common": "パキスタン"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Islamitische Republiek Pakistan",
+                "common": "Pakistan"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República Islâmica do Paquistão",
+                "common": "Paquistão"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Исламская Республика Пакистан",
+                "common": "Пакистан"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Pakistanská islamská republika",
+                "common": "Pakistan"
+            },
+            {
+                "languageCode": "es",
+                "official": "República Islámica de Pakistán",
+                "common": "Pakistán"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Pakistanin islamilainen tasavalta",
+                "common": "Pakistan"
+            },
+            {
+                "languageCode": "et",
+                "official": "Pakistani Islamivabariik",
+                "common": "Pakistan"
+            },
+            {
+                "languageCode": "zh",
+                "official": "巴基斯坦伊斯兰共和国",
+                "common": "巴基斯坦"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Islamska Republika Pakistanu",
+                "common": "Pakistan"
+            },
+            {
+                "languageCode": "ur",
+                "official": "اسلامی جمہوریہ پاکستان",
+                "common": "پاکستان"
+            },
+            {
+                "languageCode": "ko",
+                "official": "파키스탄 이슬람 공화국",
+                "common": "파키스탄"
+            },
+            { "official": "جمهوری اسلامی پاکستان", "common": "پاکستان" },
+            {
+                "languageCode": "hr",
+                "official": "Islamska Republika Pakistan",
+                "common": "Pakistan"
+            }
+        ],
+        "currencies": [
+            { "name": "Pakistani rupee", "symbol": "₨", "currencyCode": "PKR" }
+        ],
+        "flag": "🇵🇰",
+        "codes": { "cca2": "PK", "cca3": "PAK", "ccn3": "586" },
+        "coordinates": { "latitude": 30, "longitude": 70 }
+    }
+}

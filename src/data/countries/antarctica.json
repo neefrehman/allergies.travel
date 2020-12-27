@@ -1,1 +1,105 @@
-{"title":"Antarctica","slug":"antarctica","baseInfo":{"name":{"common":"Antarctica","official":"Antarctica","native":[]},"capital":"","region":"Antarctic","subregion":"","languages":[],"translations":[{"languageCode":"cs","official":"Antarktida","common":"Antarktida"},{"languageCode":"cy","official":"Yr Antarctig","common":"Yr Antarctig"},{"languageCode":"de","official":"Antarktika","common":"Antarktis"},{"languageCode":"fr","official":"Antarctique","common":"Antarctique"},{"languageCode":"hr","official":"Antarktika","common":"Antarktika"},{"languageCode":"it","official":"Antartide","common":"Antartide"},{"languageCode":"ja","official":"南極大陸","common":"南極"},{"languageCode":"nl","official":"Antarctica","common":"Antarctica"},{"languageCode":"pt","official":"Antártica","common":"Antártida"},{"languageCode":"ru","official":"Антарктида","common":"Антарктида"},{"languageCode":"sk","official":"Antarktída","common":"Antarktída"},{"languageCode":"es","official":"Antártida","common":"Antártida"},{"languageCode":"fi","official":"Etelämanner","common":"Etelämanner"},{"languageCode":"et","official":"Antarktika","common":"Antarktika"},{"languageCode":"zh","official":"南极洲","common":"南极洲"},{"languageCode":"pl","official":"Antarktyka","common":"Antarktyka"},{"languageCode":"ur","official":"انٹارکٹکا","common":"انٹارکٹکا"},{"languageCode":"ko","official":"남극","common":"남극"},{"official":"جنوبگان","common":"جنوبگان"}],"currencies":[],"flag":"🇦🇶","codes":{"cca2":"AQ","cca3":"ATA","ccn3":"010"},"coordinates":{"latitude":-90,"longitude":0}}}
+{
+    "title": "Antarctica",
+    "slug": "antarctica",
+    "baseInfo": {
+        "name": {
+            "common": "Antarctica",
+            "official": "Antarctica",
+            "native": []
+        },
+        "capital": "",
+        "region": "Antarctic",
+        "subregion": "",
+        "languages": [],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Antarktida",
+                "common": "Antarktida"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Yr Antarctig",
+                "common": "Yr Antarctig"
+            },
+            {
+                "languageCode": "de",
+                "official": "Antarktika",
+                "common": "Antarktis"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Antarctique",
+                "common": "Antarctique"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Antarktika",
+                "common": "Antarktika"
+            },
+            {
+                "languageCode": "it",
+                "official": "Antartide",
+                "common": "Antartide"
+            },
+            { "languageCode": "ja", "official": "南極大陸", "common": "南極" },
+            {
+                "languageCode": "nl",
+                "official": "Antarctica",
+                "common": "Antarctica"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Antártica",
+                "common": "Antártida"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Антарктида",
+                "common": "Антарктида"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Antarktída",
+                "common": "Antarktída"
+            },
+            {
+                "languageCode": "es",
+                "official": "Antártida",
+                "common": "Antártida"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Etelämanner",
+                "common": "Etelämanner"
+            },
+            {
+                "languageCode": "et",
+                "official": "Antarktika",
+                "common": "Antarktika"
+            },
+            { "languageCode": "zh", "official": "南极洲", "common": "南极洲" },
+            {
+                "languageCode": "pl",
+                "official": "Antarktyka",
+                "common": "Antarktyka"
+            },
+            {
+                "languageCode": "ur",
+                "official": "انٹارکٹکا",
+                "common": "انٹارکٹکا"
+            },
+            { "languageCode": "ko", "official": "남극", "common": "남극" },
+            { "official": "جنوبگان", "common": "جنوبگان" },
+            {
+                "languageCode": "hr",
+                "official": "Antarktika",
+                "common": "Antarktika"
+            }
+        ],
+        "currencies": [],
+        "flag": "🇦🇶",
+        "codes": { "cca2": "AQ", "cca3": "ATA", "ccn3": "010" },
+        "coordinates": { "latitude": -90, "longitude": 0 }
+    }
+}

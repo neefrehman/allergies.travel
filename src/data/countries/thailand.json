@@ -1,1 +1,108 @@
-{"title":"Thailand","slug":"thailand","baseInfo":{"name":{"common":"Thailand","official":"Kingdom of Thailand","native":[{"languageCode":"th","official":"ราชอาณาจักรไทย","common":"ประเทศไทย"}]},"capital":"Bangkok","region":"Asia","subregion":"South-Eastern Asia","languages":[{"languageCode":"th","name":"Thai"}],"translations":[{"languageCode":"cs","official":"Thajské království","common":"Thajsko"},{"languageCode":"de","official":"Königreich Thailand","common":"Thailand"},{"languageCode":"fr","official":"Royaume de Thaïlande","common":"Thaïlande"},{"languageCode":"hr","official":"Kraljevina Tajland","common":"Tajland"},{"languageCode":"it","official":"Regno di Thailandia","common":"Tailandia"},{"languageCode":"ja","official":"タイ王国","common":"タイ"},{"languageCode":"nl","official":"Koninkrijk Thailand","common":"Thailand"},{"languageCode":"pt","official":"Reino da Tailândia","common":"Tailândia"},{"languageCode":"ru","official":"Королевство Таиланд","common":"Таиланд"},{"languageCode":"sk","official":"Thajské kráľovstvo","common":"Thajsko"},{"languageCode":"es","official":"Reino de Tailandia","common":"Tailandia"},{"languageCode":"fi","official":"Thaimaan kuningaskunta","common":"Thaimaa"},{"languageCode":"et","official":"Tai Kuningriik","common":"Tai"},{"languageCode":"zh","official":"泰王国","common":"泰国"},{"languageCode":"pl","official":"Królestwo Tajlandii","common":"Tajlandia"},{"languageCode":"ur","official":"مملکتِ تھائی لینڈ","common":"تھائی لینڈ"},{"languageCode":"ko","official":"타이 왕국","common":"태국"},{"official":"پادشاهی تایلند","common":"تایلند"}],"currencies":[{"name":"Thai baht","symbol":"฿","currencyCode":"THB"}],"flag":"🇹🇭","codes":{"cca2":"TH","cca3":"THA","ccn3":"764"},"coordinates":{"latitude":15,"longitude":100}}}
+{
+    "title": "Thailand",
+    "slug": "thailand",
+    "baseInfo": {
+        "name": {
+            "common": "Thailand",
+            "official": "Kingdom of Thailand",
+            "native": [
+                {
+                    "languageCode": "th",
+                    "official": "ราชอาณาจักรไทย",
+                    "common": "ประเทศไทย"
+                }
+            ]
+        },
+        "capital": "Bangkok",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": [{ "languageCode": "th", "name": "Thai" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Thajské království",
+                "common": "Thajsko"
+            },
+            {
+                "languageCode": "de",
+                "official": "Königreich Thailand",
+                "common": "Thailand"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Royaume de Thaïlande",
+                "common": "Thaïlande"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Kraljevina Tajland",
+                "common": "Tajland"
+            },
+            {
+                "languageCode": "it",
+                "official": "Regno di Thailandia",
+                "common": "Tailandia"
+            },
+            { "languageCode": "ja", "official": "タイ王国", "common": "タイ" },
+            {
+                "languageCode": "nl",
+                "official": "Koninkrijk Thailand",
+                "common": "Thailand"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Reino da Tailândia",
+                "common": "Tailândia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Королевство Таиланд",
+                "common": "Таиланд"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Thajské kráľovstvo",
+                "common": "Thajsko"
+            },
+            {
+                "languageCode": "es",
+                "official": "Reino de Tailandia",
+                "common": "Tailandia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Thaimaan kuningaskunta",
+                "common": "Thaimaa"
+            },
+            {
+                "languageCode": "et",
+                "official": "Tai Kuningriik",
+                "common": "Tai"
+            },
+            { "languageCode": "zh", "official": "泰王国", "common": "泰国" },
+            {
+                "languageCode": "pl",
+                "official": "Królestwo Tajlandii",
+                "common": "Tajlandia"
+            },
+            {
+                "languageCode": "ur",
+                "official": "مملکتِ تھائی لینڈ",
+                "common": "تھائی لینڈ"
+            },
+            { "languageCode": "ko", "official": "타이 왕국", "common": "태국" },
+            { "official": "پادشاهی تایلند", "common": "تایلند" },
+            {
+                "languageCode": "hr",
+                "official": "Kraljevina Tajland",
+                "common": "Tajland"
+            }
+        ],
+        "currencies": [
+            { "name": "Thai baht", "symbol": "฿", "currencyCode": "THB" }
+        ],
+        "flag": "🇹🇭",
+        "codes": { "cca2": "TH", "cca3": "THA", "ccn3": "764" },
+        "coordinates": { "latitude": 15, "longitude": 100 }
+    }
+}

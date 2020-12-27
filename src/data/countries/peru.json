@@ -1,1 +1,126 @@
-{"title":"Peru","slug":"peru","baseInfo":{"name":{"common":"Peru","official":"Republic of Peru","native":[{"languageCode":"ay","official":"Piruw Suyu","common":"Piruw"},{"languageCode":"qu","official":"Piruw Ripuwlika","common":"Piruw"},{"languageCode":"es","official":"República del Perú","common":"Perú"}]},"capital":"Lima","region":"Americas","subregion":"South America","languages":[{"languageCode":"ay","name":"Aymara"},{"languageCode":"qu","name":"Quechua"},{"languageCode":"es","name":"Spanish"}],"translations":[{"languageCode":"cs","official":"Peruánská republika","common":"Peru"},{"languageCode":"de","official":"Republik Peru","common":"Peru"},{"languageCode":"fr","official":"République du Pérou","common":"Pérou"},{"languageCode":"hr","official":"Republika Peru","common":"Peru"},{"languageCode":"it","official":"Repubblica del Perù","common":"Perù"},{"languageCode":"ja","official":"ペルー共和国","common":"ペルー"},{"languageCode":"nl","official":"Republiek Peru","common":"Peru"},{"languageCode":"pt","official":"República do Peru","common":"Perú"},{"languageCode":"ru","official":"Республика Перу","common":"Перу"},{"languageCode":"sk","official":"Peruánska republika","common":"Peru"},{"languageCode":"es","official":"República de Perú","common":"Perú"},{"languageCode":"fi","official":"Perun tasavalta","common":"Peru"},{"languageCode":"et","official":"Peruu Vabariik","common":"Peruu"},{"languageCode":"zh","official":"秘鲁共和国","common":"秘鲁"},{"languageCode":"pl","official":"Republika Peru","common":"Peru"},{"languageCode":"ur","official":"جمہوریہ پیرو","common":"پیرو"},{"languageCode":"ko","official":"페루 공화국","common":"페루"},{"official":"جمهوری پرو","common":"پرو"}],"currencies":[{"name":"Peruvian sol","symbol":"S/.","currencyCode":"PEN"}],"flag":"🇵🇪","codes":{"cca2":"PE","cca3":"PER","ccn3":"604"},"coordinates":{"latitude":-10,"longitude":-76}}}
+{
+    "title": "Peru",
+    "slug": "peru",
+    "baseInfo": {
+        "name": {
+            "common": "Peru",
+            "official": "Republic of Peru",
+            "native": [
+                {
+                    "languageCode": "ay",
+                    "official": "Piruw Suyu",
+                    "common": "Piruw"
+                },
+                {
+                    "languageCode": "qu",
+                    "official": "Piruw Ripuwlika",
+                    "common": "Piruw"
+                },
+                {
+                    "languageCode": "es",
+                    "official": "República del Perú",
+                    "common": "Perú"
+                }
+            ]
+        },
+        "capital": "Lima",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [
+            { "languageCode": "ay", "name": "Aymara" },
+            { "languageCode": "qu", "name": "Quechua" },
+            { "languageCode": "es", "name": "Spanish" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Peruánská republika",
+                "common": "Peru"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Peru",
+                "common": "Peru"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Pérou",
+                "common": "Pérou"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Peru",
+                "common": "Peru"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Perù",
+                "common": "Perù"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ペルー共和国",
+                "common": "ペルー"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Peru",
+                "common": "Peru"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Peru",
+                "common": "Perú"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Перу",
+                "common": "Перу"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Peruánska republika",
+                "common": "Peru"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Perú",
+                "common": "Perú"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Perun tasavalta",
+                "common": "Peru"
+            },
+            {
+                "languageCode": "et",
+                "official": "Peruu Vabariik",
+                "common": "Peruu"
+            },
+            { "languageCode": "zh", "official": "秘鲁共和国", "common": "秘鲁" },
+            {
+                "languageCode": "pl",
+                "official": "Republika Peru",
+                "common": "Peru"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ پیرو",
+                "common": "پیرو"
+            },
+            { "languageCode": "ko", "official": "페루 공화국", "common": "페루" },
+            { "official": "جمهوری پرو", "common": "پرو" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Peru",
+                "common": "Peru"
+            }
+        ],
+        "currencies": [
+            { "name": "Peruvian sol", "symbol": "S/.", "currencyCode": "PEN" }
+        ],
+        "flag": "🇵🇪",
+        "codes": { "cca2": "PE", "cca3": "PER", "ccn3": "604" },
+        "coordinates": { "latitude": -10, "longitude": -76 }
+    }
+}

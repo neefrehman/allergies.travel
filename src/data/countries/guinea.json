@@ -1,1 +1,115 @@
-{"title":"Guinea","slug":"guinea","baseInfo":{"name":{"common":"Guinea","official":"Republic of Guinea","native":[{"languageCode":"fr","official":"République de Guinée","common":"Guinée"}]},"capital":"Conakry","region":"Africa","subregion":"Western Africa","languages":[{"languageCode":"fr","name":"French"}],"translations":[{"languageCode":"cs","official":"Guinejská republika","common":"Guinea"},{"languageCode":"de","official":"Republik Guinea","common":"Guinea"},{"languageCode":"fr","official":"République de Guinée","common":"Guinée"},{"languageCode":"hr","official":"Republika Gvineja","common":"Gvineja"},{"languageCode":"it","official":"Repubblica di Guinea","common":"Guinea"},{"languageCode":"ja","official":"ギニア共和国","common":"ギニア"},{"languageCode":"nl","official":"Republiek Guinee","common":"Guinee"},{"languageCode":"pt","official":"República da Guiné","common":"Guiné"},{"languageCode":"ru","official":"Республика Гвинея","common":"Гвинея"},{"languageCode":"sk","official":"Guinejská republika","common":"Guinea"},{"languageCode":"es","official":"República de Guinea","common":"Guinea"},{"languageCode":"fi","official":"Guinean tasavalta","common":"Guinea"},{"languageCode":"et","official":"Guinea Vabariik","common":"Guinea"},{"languageCode":"zh","official":"几内亚共和国","common":"几内亚"},{"languageCode":"pl","official":"Republika Gwinei","common":"Gwinea"},{"languageCode":"ur","official":"جمہوریہ گنی","common":"گنی"},{"languageCode":"ko","official":"기니 공화국","common":"기니"},{"official":"مملکت مستقل پاپوآ گینه نو","common":"پاپوآ گینه نو"}],"currencies":[{"name":"Guinean franc","symbol":"Fr","currencyCode":"GNF"}],"flag":"🇬🇳","codes":{"cca2":"GN","cca3":"GIN","ccn3":"324"},"coordinates":{"latitude":11,"longitude":-10}}}
+{
+    "title": "Guinea",
+    "slug": "guinea",
+    "baseInfo": {
+        "name": {
+            "common": "Guinea",
+            "official": "Republic of Guinea",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République de Guinée",
+                    "common": "Guinée"
+                }
+            ]
+        },
+        "capital": "Conakry",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "fr", "name": "French" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Guinejská republika",
+                "common": "Guinea"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Guinea",
+                "common": "Guinea"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République de Guinée",
+                "common": "Guinée"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Gvineja",
+                "common": "Gvineja"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Guinea",
+                "common": "Guinea"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ギニア共和国",
+                "common": "ギニア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Guinee",
+                "common": "Guinee"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Guiné",
+                "common": "Guiné"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Гвинея",
+                "common": "Гвинея"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Guinejská republika",
+                "common": "Guinea"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Guinea",
+                "common": "Guinea"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Guinean tasavalta",
+                "common": "Guinea"
+            },
+            {
+                "languageCode": "et",
+                "official": "Guinea Vabariik",
+                "common": "Guinea"
+            },
+            {
+                "languageCode": "zh",
+                "official": "几内亚共和国",
+                "common": "几内亚"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Gwinei",
+                "common": "Gwinea"
+            },
+            { "languageCode": "ur", "official": "جمہوریہ گنی", "common": "گنی" },
+            { "languageCode": "ko", "official": "기니 공화국", "common": "기니" },
+            {
+                "official": "مملکت مستقل پاپوآ گینه نو",
+                "common": "پاپوآ گینه نو"
+            },
+            {
+                "languageCode": "hr",
+                "official": "Republika Gvineja",
+                "common": "Gvineja"
+            }
+        ],
+        "currencies": [
+            { "name": "Guinean franc", "symbol": "Fr", "currencyCode": "GNF" }
+        ],
+        "flag": "🇬🇳",
+        "codes": { "cca2": "GN", "cca3": "GIN", "ccn3": "324" },
+        "coordinates": { "latitude": 11, "longitude": -10 }
+    }
+}

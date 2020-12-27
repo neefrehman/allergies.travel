@@ -1,1 +1,135 @@
-{"title":"Comoros","slug":"comoros","baseInfo":{"name":{"common":"Comoros","official":"Union of the Comoros","native":[{"languageCode":"ar","official":"الاتحاد القمري","common":"القمر‎"},{"languageCode":"fr","official":"Union des Comores","common":"Comores"},{"official":"Udzima wa Komori","common":"Komori"}]},"capital":"Moroni","region":"Africa","subregion":"Eastern Africa","languages":[{"languageCode":"ar","name":"Arabic"},{"languageCode":"fr","name":"French"},{"name":"Comorian"}],"translations":[{"languageCode":"cs","official":"Komorský svaz","common":"Komory"},{"languageCode":"cy","official":"Undeb y Comoros","common":"Y Comoros"},{"languageCode":"de","official":"Union der Komoren","common":"Komoren"},{"languageCode":"fr","official":"Union des Comores","common":"Comores"},{"languageCode":"hr","official":"Savez Komori","common":"Komori"},{"languageCode":"it","official":"Unione delle Comore","common":"Comore"},{"languageCode":"ja","official":"コモロ連合","common":"コモロ"},{"languageCode":"nl","official":"Unie van de Comoren","common":"Comoren"},{"languageCode":"pt","official":"União das Comores","common":"Comores"},{"languageCode":"ru","official":"Союз Коморских Островов","common":"Коморы"},{"languageCode":"sk","official":"Komorská únia","common":"Komory"},{"languageCode":"es","official":"Unión de las Comoras","common":"Comoras"},{"languageCode":"fi","official":"Komorien liitto","common":"Komorit"},{"languageCode":"et","official":"Komoori Liit","common":"Komoorid"},{"languageCode":"zh","official":"科摩罗联盟","common":"科摩罗"},{"languageCode":"pl","official":"Związek Komorów","common":"Komory"},{"languageCode":"ur","official":"اتحاد القمری","common":"القمری"},{"languageCode":"ko","official":"코모로 연방","common":"코모로"},{"official":"مجمع‌الجزایر قمر","common":"اتحاد قُمُر"}],"currencies":[{"name":"Comorian franc","symbol":"Fr","currencyCode":"KMF"}],"flag":"🇰🇲","codes":{"cca2":"KM","cca3":"COM","ccn3":"174"},"coordinates":{"latitude":-12.16666666,"longitude":44.25}}}
+{
+    "title": "Comoros",
+    "slug": "comoros",
+    "baseInfo": {
+        "name": {
+            "common": "Comoros",
+            "official": "Union of the Comoros",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "الاتحاد القمري",
+                    "common": "القمر‎"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "Union des Comores",
+                    "common": "Comores"
+                },
+                { "official": "Udzima wa Komori", "common": "Komori" }
+            ]
+        },
+        "capital": "Moroni",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "languageCode": "ar", "name": "Arabic" },
+            { "languageCode": "fr", "name": "French" },
+            { "name": "Comorian" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Komorský svaz",
+                "common": "Komory"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Undeb y Comoros",
+                "common": "Y Comoros"
+            },
+            {
+                "languageCode": "de",
+                "official": "Union der Komoren",
+                "common": "Komoren"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Union des Comores",
+                "common": "Comores"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Savez Komori",
+                "common": "Komori"
+            },
+            {
+                "languageCode": "it",
+                "official": "Unione delle Comore",
+                "common": "Comore"
+            },
+            {
+                "languageCode": "ja",
+                "official": "コモロ連合",
+                "common": "コモロ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Unie van de Comoren",
+                "common": "Comoren"
+            },
+            {
+                "languageCode": "pt",
+                "official": "União das Comores",
+                "common": "Comores"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Союз Коморских Островов",
+                "common": "Коморы"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Komorská únia",
+                "common": "Komory"
+            },
+            {
+                "languageCode": "es",
+                "official": "Unión de las Comoras",
+                "common": "Comoras"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Komorien liitto",
+                "common": "Komorit"
+            },
+            {
+                "languageCode": "et",
+                "official": "Komoori Liit",
+                "common": "Komoorid"
+            },
+            {
+                "languageCode": "zh",
+                "official": "科摩罗联盟",
+                "common": "科摩罗"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Związek Komorów",
+                "common": "Komory"
+            },
+            {
+                "languageCode": "ur",
+                "official": "اتحاد القمری",
+                "common": "القمری"
+            },
+            {
+                "languageCode": "ko",
+                "official": "코모로 연방",
+                "common": "코모로"
+            },
+            { "official": "مجمع‌الجزایر قمر", "common": "اتحاد قُمُر" },
+            {
+                "languageCode": "hr",
+                "official": "Savez Komori",
+                "common": "Komori"
+            }
+        ],
+        "currencies": [
+            { "name": "Comorian franc", "symbol": "Fr", "currencyCode": "KMF" }
+        ],
+        "flag": "🇰🇲",
+        "codes": { "cca2": "KM", "cca3": "COM", "ccn3": "174" },
+        "coordinates": { "latitude": -12.16666666, "longitude": 44.25 }
+    }
+}

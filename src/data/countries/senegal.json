@@ -1,1 +1,120 @@
-{"title":"Senegal","slug":"senegal","baseInfo":{"name":{"common":"Senegal","official":"Republic of Senegal","native":[{"languageCode":"fr","official":"République du Sénégal","common":"Sénégal"}]},"capital":"Dakar","region":"Africa","subregion":"Western Africa","languages":[{"languageCode":"fr","name":"French"}],"translations":[{"languageCode":"cs","official":"Senegalská republika","common":"Senegal"},{"languageCode":"de","official":"Republik Senegal","common":"Senegal"},{"languageCode":"fr","official":"République du Sénégal","common":"Sénégal"},{"languageCode":"hr","official":"Republika Senegal","common":"Senegal"},{"languageCode":"it","official":"Repubblica del Senegal","common":"Senegal"},{"languageCode":"ja","official":"セネガル共和国","common":"セネガル"},{"languageCode":"nl","official":"Republiek Senegal","common":"Senegal"},{"languageCode":"pt","official":"República do Senegal","common":"Senegal"},{"languageCode":"ru","official":"Республика Сенегал","common":"Сенегал"},{"languageCode":"sk","official":"Senegalská republika","common":"Senegal"},{"languageCode":"es","official":"República de Senegal","common":"Senegal"},{"languageCode":"fi","official":"Senegalin tasavalta","common":"Senegal"},{"languageCode":"et","official":"Senegali Vabariik","common":"Senegal"},{"languageCode":"zh","official":"塞内加尔共和国","common":"塞内加尔"},{"languageCode":"pl","official":"Senegal","common":"Senegal"},{"languageCode":"ur","official":"جمہوریہ سینیگال","common":"سینیگال"},{"languageCode":"ko","official":"세네갈 공화국","common":"세네갈"},{"official":"جمهوری سنگال","common":"سنگال"}],"currencies":[{"name":"West African CFA franc","symbol":"Fr","currencyCode":"XOF"}],"flag":"🇸🇳","codes":{"cca2":"SN","cca3":"SEN","ccn3":"686"},"coordinates":{"latitude":14,"longitude":-14}}}
+{
+    "title": "Senegal",
+    "slug": "senegal",
+    "baseInfo": {
+        "name": {
+            "common": "Senegal",
+            "official": "Republic of Senegal",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République du Sénégal",
+                    "common": "Sénégal"
+                }
+            ]
+        },
+        "capital": "Dakar",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "fr", "name": "French" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Senegalská republika",
+                "common": "Senegal"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Senegal",
+                "common": "Senegal"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Sénégal",
+                "common": "Sénégal"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Senegal",
+                "common": "Senegal"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Senegal",
+                "common": "Senegal"
+            },
+            {
+                "languageCode": "ja",
+                "official": "セネガル共和国",
+                "common": "セネガル"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Senegal",
+                "common": "Senegal"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Senegal",
+                "common": "Senegal"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Сенегал",
+                "common": "Сенегал"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Senegalská republika",
+                "common": "Senegal"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Senegal",
+                "common": "Senegal"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Senegalin tasavalta",
+                "common": "Senegal"
+            },
+            {
+                "languageCode": "et",
+                "official": "Senegali Vabariik",
+                "common": "Senegal"
+            },
+            {
+                "languageCode": "zh",
+                "official": "塞内加尔共和国",
+                "common": "塞内加尔"
+            },
+            { "languageCode": "pl", "official": "Senegal", "common": "Senegal" },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ سینیگال",
+                "common": "سینیگال"
+            },
+            {
+                "languageCode": "ko",
+                "official": "세네갈 공화국",
+                "common": "세네갈"
+            },
+            { "official": "جمهوری سنگال", "common": "سنگال" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Senegal",
+                "common": "Senegal"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "West African CFA franc",
+                "symbol": "Fr",
+                "currencyCode": "XOF"
+            }
+        ],
+        "flag": "🇸🇳",
+        "codes": { "cca2": "SN", "cca3": "SEN", "ccn3": "686" },
+        "coordinates": { "latitude": 14, "longitude": -14 }
+    }
+}

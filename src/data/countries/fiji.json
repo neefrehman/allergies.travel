@@ -1,1 +1,118 @@
-{"title":"Fiji","slug":"fiji","baseInfo":{"name":{"common":"Fiji","official":"Republic of Fiji","native":[{"languageCode":"en","official":"Republic of Fiji","common":"Fiji"},{"languageCode":"fj","official":"Matanitu Tugalala o Viti","common":"Viti"},{"official":"रिपब्लिक ऑफ फीजी","common":"फिजी"}]},"capital":"Suva","region":"Oceania","subregion":"Melanesia","languages":[{"languageCode":"en","name":"English"},{"languageCode":"fj","name":"Fijian"},{"name":"Fiji Hindi"}],"translations":[{"languageCode":"cs","official":"Republika Fidžijských ostrovů","common":"Fidži"},{"languageCode":"de","official":"Republik Fidschi","common":"Fidschi"},{"languageCode":"fr","official":"République des Fidji","common":"Fidji"},{"languageCode":"hr","official":"Republika Fidži","common":"Fiđi"},{"languageCode":"it","official":"Repubblica di Figi","common":"Figi"},{"languageCode":"ja","official":"フィジー共和国","common":"フィジー"},{"languageCode":"nl","official":"Republiek Fiji","common":"Fiji"},{"languageCode":"pt","official":"República de Fiji","common":"Fiji"},{"languageCode":"ru","official":"Республика Фиджи","common":"Фиджи"},{"languageCode":"sk","official":"Fiǆijská republika","common":"Fiǆi"},{"languageCode":"es","official":"República de Fiji","common":"Fiyi"},{"languageCode":"fi","official":"Fidžin tasavalta","common":"Fidži"},{"languageCode":"et","official":"Fidži Vabariik","common":"Fidži"},{"languageCode":"zh","official":"斐济共和国","common":"斐济"},{"languageCode":"pl","official":"Republika Fidżi","common":"Fidżi"},{"languageCode":"ur","official":"جمہوریہ فجی","common":"فجی"},{"languageCode":"ko","official":"피지 공화국","common":"피지"},{"official":"جمهوری جزایر فیجی","common":"فیجی"}],"currencies":[{"name":"Fijian dollar","symbol":"$","currencyCode":"FJD"}],"flag":"🇫🇯","codes":{"cca2":"FJ","cca3":"FJI","ccn3":"242"},"coordinates":{"latitude":-18,"longitude":175}}}
+{
+    "title": "Fiji",
+    "slug": "fiji",
+    "baseInfo": {
+        "name": {
+            "common": "Fiji",
+            "official": "Republic of Fiji",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Fiji",
+                    "common": "Fiji"
+                },
+                {
+                    "languageCode": "fj",
+                    "official": "Matanitu Tugalala o Viti",
+                    "common": "Viti"
+                },
+                { "official": "रिपब्लिक ऑफ फीजी", "common": "फिजी" }
+            ]
+        },
+        "capital": "Suva",
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "fj", "name": "Fijian" },
+            { "name": "Fiji Hindi" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Republika Fidžijských ostrovů",
+                "common": "Fidži"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Fidschi",
+                "common": "Fidschi"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République des Fidji",
+                "common": "Fidji"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Fidži",
+                "common": "Fiđi"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Figi",
+                "common": "Figi"
+            },
+            {
+                "languageCode": "ja",
+                "official": "フィジー共和国",
+                "common": "フィジー"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Fiji",
+                "common": "Fiji"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República de Fiji",
+                "common": "Fiji"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Фиджи",
+                "common": "Фиджи"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Fiǆijská republika",
+                "common": "Fiǆi"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Fiji",
+                "common": "Fiyi"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Fidžin tasavalta",
+                "common": "Fidži"
+            },
+            {
+                "languageCode": "et",
+                "official": "Fidži Vabariik",
+                "common": "Fidži"
+            },
+            { "languageCode": "zh", "official": "斐济共和国", "common": "斐济" },
+            {
+                "languageCode": "pl",
+                "official": "Republika Fidżi",
+                "common": "Fidżi"
+            },
+            { "languageCode": "ur", "official": "جمہوریہ فجی", "common": "فجی" },
+            { "languageCode": "ko", "official": "피지 공화국", "common": "피지" },
+            { "official": "جمهوری جزایر فیجی", "common": "فیجی" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Fidži",
+                "common": "Fiđi"
+            }
+        ],
+        "currencies": [
+            { "name": "Fijian dollar", "symbol": "$", "currencyCode": "FJD" }
+        ],
+        "flag": "🇫🇯",
+        "codes": { "cca2": "FJ", "cca3": "FJI", "ccn3": "242" },
+        "coordinates": { "latitude": -18, "longitude": 175 }
+    }
+}

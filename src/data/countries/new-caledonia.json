@@ -1,1 +1,120 @@
-{"title":"New Caledonia","slug":"new-caledonia","baseInfo":{"name":{"common":"New Caledonia","official":"New Caledonia","native":[{"languageCode":"fr","official":"Nouvelle-Calédonie","common":"Nouvelle-Calédonie"}]},"capital":"Nouméa","region":"Oceania","subregion":"Melanesia","languages":[{"languageCode":"fr","name":"French"}],"translations":[{"languageCode":"cs","official":"Nová Kaledonie","common":"Nová Kaledonie"},{"languageCode":"de","official":"Neukaledonien","common":"Neukaledonien"},{"languageCode":"fr","official":"Nouvelle-Calédonie","common":"Nouvelle-Calédonie"},{"languageCode":"hr","official":"Nova Kaledonija","common":"Nova Kaledonija"},{"languageCode":"it","official":"Nuova Caledonia","common":"Nuova Caledonia"},{"languageCode":"ja","official":"ニューカレドニア","common":"ニューカレドニア"},{"languageCode":"nl","official":"nieuw -Caledonië","common":"Nieuw-Caledonië"},{"languageCode":"pt","official":"New Caledonia","common":"Nova Caledónia"},{"languageCode":"ru","official":"Новая Каледония","common":"Новая Каледония"},{"languageCode":"sk","official":"Nová Kaledónia","common":"Nová Kaledónia"},{"languageCode":"es","official":"nueva Caledonia","common":"Nueva Caledonia"},{"languageCode":"fi","official":"Uusi-Kaledonia","common":"Uusi-Kaledonia"},{"languageCode":"et","official":"Uus-Kaledoonia","common":"Uus-Kaledoonia"},{"languageCode":"zh","official":"新喀里多尼亚","common":"新喀里多尼亚"},{"languageCode":"pl","official":"Nowa Kaledonia","common":"Nowa Kaledonia"},{"languageCode":"ur","official":"نیو کیلیڈونیا","common":"نیو کیلیڈونیا"},{"languageCode":"ko","official":"누벨칼레도니","common":"누벨칼레도니"},{"official":"کالدونیای جدید","common":"کالدونیای جدید"}],"currencies":[{"name":"CFP franc","symbol":"₣","currencyCode":"XPF"}],"flag":"🇳🇨","codes":{"cca2":"NC","cca3":"NCL","ccn3":"540"},"coordinates":{"latitude":-21.5,"longitude":165.5}}}
+{
+    "title": "New Caledonia",
+    "slug": "new-caledonia",
+    "baseInfo": {
+        "name": {
+            "common": "New Caledonia",
+            "official": "New Caledonia",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Nouvelle-Calédonie",
+                    "common": "Nouvelle-Calédonie"
+                }
+            ]
+        },
+        "capital": "Nouméa",
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "languages": [{ "languageCode": "fr", "name": "French" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Nová Kaledonie",
+                "common": "Nová Kaledonie"
+            },
+            {
+                "languageCode": "de",
+                "official": "Neukaledonien",
+                "common": "Neukaledonien"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Nouvelle-Calédonie",
+                "common": "Nouvelle-Calédonie"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Nova Kaledonija",
+                "common": "Nova Kaledonija"
+            },
+            {
+                "languageCode": "it",
+                "official": "Nuova Caledonia",
+                "common": "Nuova Caledonia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ニューカレドニア",
+                "common": "ニューカレドニア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "nieuw -Caledonië",
+                "common": "Nieuw-Caledonië"
+            },
+            {
+                "languageCode": "pt",
+                "official": "New Caledonia",
+                "common": "Nova Caledónia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Новая Каледония",
+                "common": "Новая Каледония"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Nová Kaledónia",
+                "common": "Nová Kaledónia"
+            },
+            {
+                "languageCode": "es",
+                "official": "nueva Caledonia",
+                "common": "Nueva Caledonia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Uusi-Kaledonia",
+                "common": "Uusi-Kaledonia"
+            },
+            {
+                "languageCode": "et",
+                "official": "Uus-Kaledoonia",
+                "common": "Uus-Kaledoonia"
+            },
+            {
+                "languageCode": "zh",
+                "official": "新喀里多尼亚",
+                "common": "新喀里多尼亚"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Nowa Kaledonia",
+                "common": "Nowa Kaledonia"
+            },
+            {
+                "languageCode": "ur",
+                "official": "نیو کیلیڈونیا",
+                "common": "نیو کیلیڈونیا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "누벨칼레도니",
+                "common": "누벨칼레도니"
+            },
+            { "official": "کالدونیای جدید", "common": "کالدونیای جدید" },
+            {
+                "languageCode": "hr",
+                "official": "Nova Kaledonija",
+                "common": "Nova Kaledonija"
+            }
+        ],
+        "currencies": [
+            { "name": "CFP franc", "symbol": "₣", "currencyCode": "XPF" }
+        ],
+        "flag": "🇳🇨",
+        "codes": { "cca2": "NC", "cca3": "NCL", "ccn3": "540" },
+        "coordinates": { "latitude": -21.5, "longitude": 165.5 }
+    }
+}

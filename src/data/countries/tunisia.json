@@ -1,1 +1,120 @@
-{"title":"Tunisia","slug":"tunisia","baseInfo":{"name":{"common":"Tunisia","official":"Tunisian Republic","native":[{"languageCode":"ar","official":"الجمهورية التونسية","common":"تونس"}]},"capital":"Tunis","region":"Africa","subregion":"Northern Africa","languages":[{"languageCode":"ar","name":"Arabic"}],"translations":[{"languageCode":"cs","official":"Tuniská republika","common":"Tunisko"},{"languageCode":"de","official":"Tunesische Republik","common":"Tunesien"},{"languageCode":"fr","official":"République tunisienne","common":"Tunisie"},{"languageCode":"hr","official":"Tuniski Republika","common":"Tunis"},{"languageCode":"it","official":"Repubblica tunisina","common":"Tunisia"},{"languageCode":"ja","official":"チュニジア共和国","common":"チュニジア"},{"languageCode":"nl","official":"Republiek Tunesië","common":"Tunesië"},{"languageCode":"pt","official":"República da Tunísia","common":"Tunísia"},{"languageCode":"ru","official":"Тунисской Республики","common":"Тунис"},{"languageCode":"sk","official":"Tuniská republika","common":"Tunisko"},{"languageCode":"es","official":"República de Túnez","common":"Túnez"},{"languageCode":"fi","official":"Tunisian tasavalta","common":"Tunisia"},{"languageCode":"et","official":"Tuneesia Vabariik","common":"Tuneesia"},{"languageCode":"zh","official":"突尼斯共和国","common":"突尼斯"},{"languageCode":"pl","official":"Republika Tunezyjska","common":"Tunezja"},{"languageCode":"ur","official":"جمہوریہ تونس","common":"تونس"},{"languageCode":"ko","official":"튀니지 공화국","common":"튀니지"},{"official":"جمهوری تونس","common":"تونس"}],"currencies":[{"name":"Tunisian dinar","symbol":"د.ت","currencyCode":"TND"}],"flag":"🇹🇳","codes":{"cca2":"TN","cca3":"TUN","ccn3":"788"},"coordinates":{"latitude":34,"longitude":9}}}
+{
+    "title": "Tunisia",
+    "slug": "tunisia",
+    "baseInfo": {
+        "name": {
+            "common": "Tunisia",
+            "official": "Tunisian Republic",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "الجمهورية التونسية",
+                    "common": "تونس"
+                }
+            ]
+        },
+        "capital": "Tunis",
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "languages": [{ "languageCode": "ar", "name": "Arabic" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Tuniská republika",
+                "common": "Tunisko"
+            },
+            {
+                "languageCode": "de",
+                "official": "Tunesische Republik",
+                "common": "Tunesien"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République tunisienne",
+                "common": "Tunisie"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Tuniski Republika",
+                "common": "Tunis"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica tunisina",
+                "common": "Tunisia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "チュニジア共和国",
+                "common": "チュニジア"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Tunesië",
+                "common": "Tunesië"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Tunísia",
+                "common": "Tunísia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Тунисской Республики",
+                "common": "Тунис"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Tuniská republika",
+                "common": "Tunisko"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Túnez",
+                "common": "Túnez"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Tunisian tasavalta",
+                "common": "Tunisia"
+            },
+            {
+                "languageCode": "et",
+                "official": "Tuneesia Vabariik",
+                "common": "Tuneesia"
+            },
+            {
+                "languageCode": "zh",
+                "official": "突尼斯共和国",
+                "common": "突尼斯"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Tunezyjska",
+                "common": "Tunezja"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ تونس",
+                "common": "تونس"
+            },
+            {
+                "languageCode": "ko",
+                "official": "튀니지 공화국",
+                "common": "튀니지"
+            },
+            { "official": "جمهوری تونس", "common": "تونس" },
+            {
+                "languageCode": "hr",
+                "official": "Tuniski Republika",
+                "common": "Tunis"
+            }
+        ],
+        "currencies": [
+            { "name": "Tunisian dinar", "symbol": "د.ت", "currencyCode": "TND" }
+        ],
+        "flag": "🇹🇳",
+        "codes": { "cca2": "TN", "cca3": "TUN", "ccn3": "788" },
+        "coordinates": { "latitude": 34, "longitude": 9 }
+    }
+}

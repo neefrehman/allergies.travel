@@ -1,1 +1,120 @@
-{"title":"Suriname","slug":"suriname","baseInfo":{"name":{"common":"Suriname","official":"Republic of Suriname","native":[{"languageCode":"nl","official":"Republiek Suriname","common":"Suriname"}]},"capital":"Paramaribo","region":"Americas","subregion":"South America","languages":[{"languageCode":"nl","name":"Dutch"}],"translations":[{"languageCode":"cs","official":"Republika Surinam","common":"Surinam"},{"languageCode":"de","official":"Republik Suriname","common":"Suriname"},{"languageCode":"fr","official":"République du Suriname","common":"Surinam"},{"languageCode":"hr","official":"Republika Surinam","common":"Surinam"},{"languageCode":"it","official":"Repubblica del Suriname","common":"Suriname"},{"languageCode":"ja","official":"スリナム共和国","common":"スリナム"},{"languageCode":"nl","official":"Republiek Suriname","common":"Suriname"},{"languageCode":"pt","official":"República do Suriname","common":"Suriname"},{"languageCode":"ru","official":"Республика Суринам","common":"Суринам"},{"languageCode":"sk","official":"Surinamská republika","common":"Surinam"},{"languageCode":"es","official":"República de Suriname","common":"Surinam"},{"languageCode":"fi","official":"Surinamen tasavalta","common":"Suriname"},{"languageCode":"et","official":"Suriname Vabariik","common":"Suriname"},{"languageCode":"zh","official":"苏里南共和国","common":"苏里南"},{"languageCode":"pl","official":"Republika Surinamu","common":"Surinam"},{"languageCode":"ur","official":"جمہوریہ سرینام","common":"سرینام"},{"languageCode":"ko","official":"수리남 공화국","common":"수리남"},{"official":"جمهوری سورینام","common":"سورینام"}],"currencies":[{"name":"Surinamese dollar","symbol":"$","currencyCode":"SRD"}],"flag":"🇸🇷","codes":{"cca2":"SR","cca3":"SUR","ccn3":"740"},"coordinates":{"latitude":4,"longitude":-56}}}
+{
+    "title": "Suriname",
+    "slug": "suriname",
+    "baseInfo": {
+        "name": {
+            "common": "Suriname",
+            "official": "Republic of Suriname",
+            "native": [
+                {
+                    "languageCode": "nl",
+                    "official": "Republiek Suriname",
+                    "common": "Suriname"
+                }
+            ]
+        },
+        "capital": "Paramaribo",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [{ "languageCode": "nl", "name": "Dutch" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Republika Surinam",
+                "common": "Surinam"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Suriname",
+                "common": "Suriname"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Suriname",
+                "common": "Surinam"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Surinam",
+                "common": "Surinam"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Suriname",
+                "common": "Suriname"
+            },
+            {
+                "languageCode": "ja",
+                "official": "スリナム共和国",
+                "common": "スリナム"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Suriname",
+                "common": "Suriname"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Suriname",
+                "common": "Suriname"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Суринам",
+                "common": "Суринам"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Surinamská republika",
+                "common": "Surinam"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Suriname",
+                "common": "Surinam"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Surinamen tasavalta",
+                "common": "Suriname"
+            },
+            {
+                "languageCode": "et",
+                "official": "Suriname Vabariik",
+                "common": "Suriname"
+            },
+            {
+                "languageCode": "zh",
+                "official": "苏里南共和国",
+                "common": "苏里南"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Surinamu",
+                "common": "Surinam"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ سرینام",
+                "common": "سرینام"
+            },
+            {
+                "languageCode": "ko",
+                "official": "수리남 공화국",
+                "common": "수리남"
+            },
+            { "official": "جمهوری سورینام", "common": "سورینام" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Surinam",
+                "common": "Surinam"
+            }
+        ],
+        "currencies": [
+            { "name": "Surinamese dollar", "symbol": "$", "currencyCode": "SRD" }
+        ],
+        "flag": "🇸🇷",
+        "codes": { "cca2": "SR", "cca3": "SUR", "ccn3": "740" },
+        "coordinates": { "latitude": 4, "longitude": -56 }
+    }
+}

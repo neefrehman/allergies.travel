@@ -1,1 +1,134 @@
-{"title":"Rwanda","slug":"rwanda","baseInfo":{"name":{"common":"Rwanda","official":"Republic of Rwanda","native":[{"languageCode":"en","official":"Republic of Rwanda","common":"Rwanda"},{"languageCode":"fr","official":"République rwandaise","common":"Rwanda"},{"languageCode":"rw","official":"Repubulika y'u Rwanda","common":"Rwanda"}]},"capital":"Kigali","region":"Africa","subregion":"Eastern Africa","languages":[{"languageCode":"en","name":"English"},{"languageCode":"fr","name":"French"},{"languageCode":"rw","name":"Kinyarwanda"}],"translations":[{"languageCode":"cs","official":"Rwandská republika","common":"Rwanda"},{"languageCode":"de","official":"Republik Ruanda","common":"Ruanda"},{"languageCode":"fr","official":"République rwandaise","common":"Rwanda"},{"languageCode":"hr","official":"Republika Ruandi","common":"Ruanda"},{"languageCode":"it","official":"Repubblica del Ruanda","common":"Ruanda"},{"languageCode":"ja","official":"ルワンダ共和国","common":"ルワンダ"},{"languageCode":"nl","official":"Republiek Rwanda","common":"Rwanda"},{"languageCode":"pt","official":"República do Ruanda","common":"Ruanda"},{"languageCode":"ru","official":"Республика Руанда","common":"Руанда"},{"languageCode":"sk","official":"Rwandská republika","common":"Rwanda"},{"languageCode":"es","official":"República de Rwanda","common":"Ruanda"},{"languageCode":"fi","official":"Ruandan tasavalta","common":"Ruanda"},{"languageCode":"et","official":"Rwanda Vabariik","common":"Rwanda"},{"languageCode":"zh","official":"卢旺达共和国","common":"卢旺达"},{"languageCode":"pl","official":"Republika Rwandy","common":"Rwanda"},{"languageCode":"ur","official":"جمہوریہ روانڈا","common":"روانڈا"},{"languageCode":"ko","official":"르완다 공화국","common":"르완다"},{"official":"جمهوری رواندا","common":"رواندا"}],"currencies":[{"name":"Rwandan franc","symbol":"Fr","currencyCode":"RWF"}],"flag":"🇷🇼","codes":{"cca2":"RW","cca3":"RWA","ccn3":"646"},"coordinates":{"latitude":-2,"longitude":30}}}
+{
+    "title": "Rwanda",
+    "slug": "rwanda",
+    "baseInfo": {
+        "name": {
+            "common": "Rwanda",
+            "official": "Republic of Rwanda",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Rwanda",
+                    "common": "Rwanda"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "République rwandaise",
+                    "common": "Rwanda"
+                },
+                {
+                    "languageCode": "rw",
+                    "official": "Repubulika y'u Rwanda",
+                    "common": "Rwanda"
+                }
+            ]
+        },
+        "capital": "Kigali",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "fr", "name": "French" },
+            { "languageCode": "rw", "name": "Kinyarwanda" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Rwandská republika",
+                "common": "Rwanda"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Ruanda",
+                "common": "Ruanda"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République rwandaise",
+                "common": "Rwanda"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Ruandi",
+                "common": "Ruanda"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Ruanda",
+                "common": "Ruanda"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ルワンダ共和国",
+                "common": "ルワンダ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Rwanda",
+                "common": "Rwanda"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Ruanda",
+                "common": "Ruanda"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Руанда",
+                "common": "Руанда"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Rwandská republika",
+                "common": "Rwanda"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Rwanda",
+                "common": "Ruanda"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Ruandan tasavalta",
+                "common": "Ruanda"
+            },
+            {
+                "languageCode": "et",
+                "official": "Rwanda Vabariik",
+                "common": "Rwanda"
+            },
+            {
+                "languageCode": "zh",
+                "official": "卢旺达共和国",
+                "common": "卢旺达"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Rwandy",
+                "common": "Rwanda"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ روانڈا",
+                "common": "روانڈا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "르완다 공화국",
+                "common": "르완다"
+            },
+            { "official": "جمهوری رواندا", "common": "رواندا" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Ruandi",
+                "common": "Ruanda"
+            }
+        ],
+        "currencies": [
+            { "name": "Rwandan franc", "symbol": "Fr", "currencyCode": "RWF" }
+        ],
+        "flag": "🇷🇼",
+        "codes": { "cca2": "RW", "cca3": "RWA", "ccn3": "646" },
+        "coordinates": { "latitude": -2, "longitude": 30 }
+    }
+}

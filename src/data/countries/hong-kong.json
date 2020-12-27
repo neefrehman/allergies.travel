@@ -1,1 +1,123 @@
-{"title":"Hong Kong","slug":"hong-kong","baseInfo":{"name":{"common":"Hong Kong","official":"Hong Kong Special Administrative Region of the People's Republic of China","native":[{"languageCode":"en","official":"Hong Kong Special Administrative Region of the People's Republic of China","common":"Hong Kong"},{"languageCode":"zh","official":"中华人民共和国香港特别行政区","common":"香港"}]},"capital":"City of Victoria","region":"Asia","subregion":"Eastern Asia","languages":[{"languageCode":"en","name":"English"},{"languageCode":"zh","name":"Chinese"}],"translations":[{"languageCode":"cs","official":"Zvláštní administrativní oblast Čínské lidové republiky Hongkong","common":"Hongkong"},{"languageCode":"de","official":"Sonderverwaltungszone Hongkong der Volksrepublik China","common":"Hongkong"},{"languageCode":"fr","official":"Région administrative spéciale de Hong Kong de la République populaire de Chine","common":"Hong Kong"},{"languageCode":"hr","official":"Hong Kong Posebnog upravnog područjaNarodne Republike Kine","common":"Hong Kong"},{"languageCode":"it","official":"Hong Kong Regione amministrativa speciale della Repubblica Popolare Cinese","common":"Hong Kong"},{"languageCode":"ja","official":"中華人民共和国香港特別行政区","common":"香港"},{"languageCode":"nl","official":"Hong Kong Speciale Administratieve Regio van de Volksrepubliek China","common":"Hongkong"},{"languageCode":"pt","official":"Hong Kong Região Administrativa Especial da República Popular da China","common":"Hong Kong"},{"languageCode":"ru","official":"Hong Kong Специальный административный район Китайской Народной Республики Китая","common":"Гонконг"},{"languageCode":"sk","official":"Špeciálna administratívna oblasťČínskej ľudovej republiky Hongkong","common":"Hongkong"},{"languageCode":"es","official":"Hong Kong Región Administrativa Especial de la República Popular China","common":"Hong Kong"},{"languageCode":"fi","official":"Hong Kongin erityishallintoalue","common":"Hongkong"},{"languageCode":"et","official":"Hongkongi erihalduspiirkond","common":"Hongkong"},{"languageCode":"pl","official":"Specjalny Region Administracyjny Chińskiej Republiki Ludowej Hongkong","common":"Hongkong"},{"languageCode":"ur","official":"ہانگ کانگ عوامی جمہوریہ چین کا خصوصی انتظامی علاقہ","common":"ہانگ کانگ"},{"languageCode":"ko","official":"중화인민공화국 홍콩 특별행정구","common":"홍콩"},{"official":"هُنگ کُنگ","common":"هُنگ کُنگ"}],"currencies":[{"name":"Hong Kong dollar","symbol":"$","currencyCode":"HKD"}],"flag":"🇭🇰","codes":{"cca2":"HK","cca3":"HKG","ccn3":"344"},"coordinates":{"latitude":22.267,"longitude":114.188}}}
+{
+    "title": "Hong Kong",
+    "slug": "hong-kong",
+    "baseInfo": {
+        "name": {
+            "common": "Hong Kong",
+            "official": "Hong Kong Special Administrative Region of the People's Republic of China",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Hong Kong Special Administrative Region of the People's Republic of China",
+                    "common": "Hong Kong"
+                },
+                {
+                    "languageCode": "zh",
+                    "official": "中华人民共和国香港特别行政区",
+                    "common": "香港"
+                }
+            ]
+        },
+        "capital": "City of Victoria",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "zh", "name": "Chinese" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Zvláštní administrativní oblast Čínské lidové republiky Hongkong",
+                "common": "Hongkong"
+            },
+            {
+                "languageCode": "de",
+                "official": "Sonderverwaltungszone Hongkong der Volksrepublik China",
+                "common": "Hongkong"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Région administrative spéciale de Hong Kong de la République populaire de Chine",
+                "common": "Hong Kong"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Hong Kong Posebnog upravnog područjaNarodne Republike Kine",
+                "common": "Hong Kong"
+            },
+            {
+                "languageCode": "it",
+                "official": "Hong Kong Regione amministrativa speciale della Repubblica Popolare Cinese",
+                "common": "Hong Kong"
+            },
+            {
+                "languageCode": "ja",
+                "official": "中華人民共和国香港特別行政区",
+                "common": "香港"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Hong Kong Speciale Administratieve Regio van de Volksrepubliek China",
+                "common": "Hongkong"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Hong Kong Região Administrativa Especial da República Popular da China",
+                "common": "Hong Kong"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Hong Kong Специальный административный район Китайской Народной Республики Китая",
+                "common": "Гонконг"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Špeciálna administratívna oblasťČínskej ľudovej republiky Hongkong",
+                "common": "Hongkong"
+            },
+            {
+                "languageCode": "es",
+                "official": "Hong Kong Región Administrativa Especial de la República Popular China",
+                "common": "Hong Kong"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Hong Kongin erityishallintoalue",
+                "common": "Hongkong"
+            },
+            {
+                "languageCode": "et",
+                "official": "Hongkongi erihalduspiirkond",
+                "common": "Hongkong"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Specjalny Region Administracyjny Chińskiej Republiki Ludowej Hongkong",
+                "common": "Hongkong"
+            },
+            {
+                "languageCode": "ur",
+                "official": "ہانگ کانگ عوامی جمہوریہ چین کا خصوصی انتظامی علاقہ",
+                "common": "ہانگ کانگ"
+            },
+            {
+                "languageCode": "ko",
+                "official": "중화인민공화국 홍콩 특별행정구",
+                "common": "홍콩"
+            },
+            { "official": "هُنگ کُنگ", "common": "هُنگ کُنگ" },
+            {
+                "languageCode": "hr",
+                "official": "Hong Kong Posebnog upravnog područjaNarodne Republike Kine",
+                "common": "Hong Kong"
+            }
+        ],
+        "currencies": [
+            { "name": "Hong Kong dollar", "symbol": "$", "currencyCode": "HKD" }
+        ],
+        "flag": "🇭🇰",
+        "codes": { "cca2": "HK", "cca3": "HKG", "ccn3": "344" },
+        "coordinates": { "latitude": 22.267, "longitude": 114.188 }
+    }
+}

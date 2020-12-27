@@ -1,1 +1,80 @@
-{"title":"Hungary","slug":"hungary","baseInfo":{"name":{"common":"Hungary","official":"Hungary","native":[{"languageCode":"hu","official":"Magyarország","common":"Magyarország"}]},"capital":"Budapest","region":"Europe","subregion":"Eastern Europe","languages":[{"languageCode":"hu","name":"Hungarian"}],"translations":[{"languageCode":"cs","official":"Maďarsko","common":"Maďarsko"},{"languageCode":"de","official":"Ungarn","common":"Ungarn"},{"languageCode":"fr","official":"Hongrie","common":"Hongrie"},{"languageCode":"hr","official":"Madžarska","common":"Mađarska"},{"languageCode":"it","official":"Ungheria","common":"Ungheria"},{"languageCode":"ja","official":"ハンガリー","common":"ハンガリー"},{"languageCode":"nl","official":"Hongarije","common":"Hongarije"},{"languageCode":"pt","official":"Hungria","common":"Hungria"},{"languageCode":"ru","official":"Венгрия","common":"Венгрия"},{"languageCode":"sk","official":"Maďarsko","common":"Maďarsko"},{"languageCode":"es","official":"Hungría","common":"Hungría"},{"languageCode":"fi","official":"Unkari","common":"Unkari"},{"languageCode":"et","official":"Ungari","common":"Ungari"},{"languageCode":"zh","official":"匈牙利","common":"匈牙利"},{"languageCode":"pl","official":"Węgry","common":"Węgry"},{"languageCode":"ur","official":"مجارستان","common":"مجارستان"},{"languageCode":"ko","official":"헝가리","common":"헝가리"},{"official":"مجارستان","common":"مجارستان"}],"currencies":[{"name":"Hungarian forint","symbol":"Ft","currencyCode":"HUF"}],"flag":"🇭🇺","codes":{"cca2":"HU","cca3":"HUN","ccn3":"348"},"coordinates":{"latitude":47,"longitude":20}}}
+{
+    "title": "Hungary",
+    "slug": "hungary",
+    "baseInfo": {
+        "name": {
+            "common": "Hungary",
+            "official": "Hungary",
+            "native": [
+                {
+                    "languageCode": "hu",
+                    "official": "Magyarország",
+                    "common": "Magyarország"
+                }
+            ]
+        },
+        "capital": "Budapest",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [{ "languageCode": "hu", "name": "Hungarian" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Maďarsko",
+                "common": "Maďarsko"
+            },
+            { "languageCode": "de", "official": "Ungarn", "common": "Ungarn" },
+            { "languageCode": "fr", "official": "Hongrie", "common": "Hongrie" },
+            {
+                "languageCode": "sh",
+                "official": "Madžarska",
+                "common": "Mađarska"
+            },
+            {
+                "languageCode": "it",
+                "official": "Ungheria",
+                "common": "Ungheria"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ハンガリー",
+                "common": "ハンガリー"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Hongarije",
+                "common": "Hongarije"
+            },
+            { "languageCode": "pt", "official": "Hungria", "common": "Hungria" },
+            { "languageCode": "ru", "official": "Венгрия", "common": "Венгрия" },
+            {
+                "languageCode": "sk",
+                "official": "Maďarsko",
+                "common": "Maďarsko"
+            },
+            { "languageCode": "es", "official": "Hungría", "common": "Hungría" },
+            { "languageCode": "fi", "official": "Unkari", "common": "Unkari" },
+            { "languageCode": "et", "official": "Ungari", "common": "Ungari" },
+            { "languageCode": "zh", "official": "匈牙利", "common": "匈牙利" },
+            { "languageCode": "pl", "official": "Węgry", "common": "Węgry" },
+            {
+                "languageCode": "ur",
+                "official": "مجارستان",
+                "common": "مجارستان"
+            },
+            { "languageCode": "ko", "official": "헝가리", "common": "헝가리" },
+            { "official": "مجارستان", "common": "مجارستان" },
+            {
+                "languageCode": "hr",
+                "official": "Madžarska",
+                "common": "Mađarska"
+            }
+        ],
+        "currencies": [
+            { "name": "Hungarian forint", "symbol": "Ft", "currencyCode": "HUF" }
+        ],
+        "flag": "🇭🇺",
+        "codes": { "cca2": "HU", "cca3": "HUN", "ccn3": "348" },
+        "coordinates": { "latitude": 47, "longitude": 20 }
+    }
+}

@@ -1,1 +1,113 @@
-{"title":"Isle of Man","slug":"isle-of-man","baseInfo":{"name":{"common":"Isle of Man","official":"Isle of Man","native":[{"languageCode":"en","official":"Isle of Man","common":"Isle of Man"},{"languageCode":"gv","official":"Ellan Vannin or Mannin","common":"Mannin"}]},"capital":"Douglas","region":"Europe","subregion":"Northern Europe","languages":[{"languageCode":"en","name":"English"},{"languageCode":"gv","name":"Manx"}],"translations":[{"languageCode":"cs","official":"Ostrov Man","common":"Ostrov Man"},{"languageCode":"de","official":"Isle of Man","common":"Insel Man"},{"languageCode":"fr","official":"Isle of Man","common":"Île de Man"},{"languageCode":"hr","official":"Mana ostrvo","common":"Otok Man"},{"languageCode":"it","official":"Isola di Man","common":"Isola di Man"},{"languageCode":"ja","official":"マン島","common":"マン島"},{"languageCode":"nl","official":"Isle of Man","common":"Isle of Man"},{"languageCode":"pt","official":"Isle of Man","common":"Ilha de Man"},{"languageCode":"ru","official":"Остров Мэн","common":"Остров Мэн"},{"languageCode":"sk","official":"Ostrov Man","common":"Man"},{"languageCode":"es","official":"Isla de Man","common":"Isla de Man"},{"languageCode":"fi","official":"Mansaari","common":"Mansaari"},{"languageCode":"et","official":"Mani saar","common":"Mani saar"},{"languageCode":"zh","official":"马恩岛","common":"马恩岛"},{"languageCode":"pl","official":"Wyspa Man","common":"Wyspa Man"},{"languageCode":"ur","official":"آئل آف مین","common":"آئل آف مین"},{"languageCode":"ko","official":"맨섬","common":"맨섬"},{"official":"جزیرهٔ مَن","common":"جزیرهٔ مَن"}],"currencies":[{"name":"British pound","symbol":"£","currencyCode":"GBP"},{"name":"Manx pound","symbol":"£","currencyCode":"IMP"}],"flag":"🇮🇲","codes":{"cca2":"IM","cca3":"IMN","ccn3":"833"},"coordinates":{"latitude":54.25,"longitude":-4.5}}}
+{
+    "title": "Isle of Man",
+    "slug": "isle-of-man",
+    "baseInfo": {
+        "name": {
+            "common": "Isle of Man",
+            "official": "Isle of Man",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Isle of Man",
+                    "common": "Isle of Man"
+                },
+                {
+                    "languageCode": "gv",
+                    "official": "Ellan Vannin or Mannin",
+                    "common": "Mannin"
+                }
+            ]
+        },
+        "capital": "Douglas",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "gv", "name": "Manx" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Ostrov Man",
+                "common": "Ostrov Man"
+            },
+            {
+                "languageCode": "de",
+                "official": "Isle of Man",
+                "common": "Insel Man"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Isle of Man",
+                "common": "Île de Man"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Mana ostrvo",
+                "common": "Otok Man"
+            },
+            {
+                "languageCode": "it",
+                "official": "Isola di Man",
+                "common": "Isola di Man"
+            },
+            { "languageCode": "ja", "official": "マン島", "common": "マン島" },
+            {
+                "languageCode": "nl",
+                "official": "Isle of Man",
+                "common": "Isle of Man"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Isle of Man",
+                "common": "Ilha de Man"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Остров Мэн",
+                "common": "Остров Мэн"
+            },
+            { "languageCode": "sk", "official": "Ostrov Man", "common": "Man" },
+            {
+                "languageCode": "es",
+                "official": "Isla de Man",
+                "common": "Isla de Man"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Mansaari",
+                "common": "Mansaari"
+            },
+            {
+                "languageCode": "et",
+                "official": "Mani saar",
+                "common": "Mani saar"
+            },
+            { "languageCode": "zh", "official": "马恩岛", "common": "马恩岛" },
+            {
+                "languageCode": "pl",
+                "official": "Wyspa Man",
+                "common": "Wyspa Man"
+            },
+            {
+                "languageCode": "ur",
+                "official": "آئل آف مین",
+                "common": "آئل آف مین"
+            },
+            { "languageCode": "ko", "official": "맨섬", "common": "맨섬" },
+            { "official": "جزیرهٔ مَن", "common": "جزیرهٔ مَن" },
+            {
+                "languageCode": "hr",
+                "official": "Mana ostrvo",
+                "common": "Otok Man"
+            }
+        ],
+        "currencies": [
+            { "name": "British pound", "symbol": "£", "currencyCode": "GBP" },
+            { "name": "Manx pound", "symbol": "£", "currencyCode": "IMP" }
+        ],
+        "flag": "🇮🇲",
+        "codes": { "cca2": "IM", "cca3": "IMN", "ccn3": "833" },
+        "coordinates": { "latitude": 54.25, "longitude": -4.5 }
+    }
+}

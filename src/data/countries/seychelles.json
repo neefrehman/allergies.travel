@@ -1,1 +1,130 @@
-{"title":"Seychelles","slug":"seychelles","baseInfo":{"name":{"common":"Seychelles","official":"Republic of Seychelles","native":[{"official":"Repiblik Sesel","common":"Sesel"},{"languageCode":"en","official":"Republic of Seychelles","common":"Seychelles"},{"languageCode":"fr","official":"République des Seychelles","common":"Seychelles"}]},"capital":"Victoria","region":"Africa","subregion":"Eastern Africa","languages":[{"name":"Seychellois Creole"},{"languageCode":"en","name":"English"},{"languageCode":"fr","name":"French"}],"translations":[{"languageCode":"cs","official":"Seychelská republika","common":"Seychely"},{"languageCode":"de","official":"Republik der Seychellen","common":"Seychellen"},{"languageCode":"fr","official":"République des Seychelles","common":"Seychelles"},{"languageCode":"hr","official":"Republika Sejšeli","common":"Sejšeli"},{"languageCode":"it","official":"Repubblica delle Seychelles","common":"Seychelles"},{"languageCode":"ja","official":"セイシェル共和国","common":"セーシェル"},{"languageCode":"nl","official":"Republiek der Seychellen","common":"Seychellen"},{"languageCode":"pt","official":"República das Seychelles","common":"Seicheles"},{"languageCode":"ru","official":"Республика Сейшельские Острова","common":"Сейшельские Острова"},{"languageCode":"sk","official":"Seychelská republika","common":"Seychely"},{"languageCode":"es","official":"República de las Seychelles","common":"Seychelles"},{"languageCode":"fi","official":"Seychellien tasavalta","common":"Seychellit"},{"languageCode":"et","official":"Seišelli Vabariik","common":"Seišellid"},{"languageCode":"zh","official":"塞舌尔共和国","common":"塞舌尔"},{"languageCode":"pl","official":"Republika Seszeli","common":"Seszele"},{"languageCode":"ur","official":"جمہوریہ سیچیلیس","common":"سیچیلیس"},{"languageCode":"ko","official":"세이셸 공화국","common":"세이셸"},{"official":"جمهوری سیشل","common":"سیشل"}],"currencies":[{"name":"Seychellois rupee","symbol":"₨","currencyCode":"SCR"}],"flag":"🇸🇨","codes":{"cca2":"SC","cca3":"SYC","ccn3":"690"},"coordinates":{"latitude":-4.58333333,"longitude":55.66666666}}}
+{
+    "title": "Seychelles",
+    "slug": "seychelles",
+    "baseInfo": {
+        "name": {
+            "common": "Seychelles",
+            "official": "Republic of Seychelles",
+            "native": [
+                { "official": "Repiblik Sesel", "common": "Sesel" },
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Seychelles",
+                    "common": "Seychelles"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "République des Seychelles",
+                    "common": "Seychelles"
+                }
+            ]
+        },
+        "capital": "Victoria",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "name": "Seychellois Creole" },
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "fr", "name": "French" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Seychelská republika",
+                "common": "Seychely"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik der Seychellen",
+                "common": "Seychellen"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République des Seychelles",
+                "common": "Seychelles"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Sejšeli",
+                "common": "Sejšeli"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica delle Seychelles",
+                "common": "Seychelles"
+            },
+            {
+                "languageCode": "ja",
+                "official": "セイシェル共和国",
+                "common": "セーシェル"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek der Seychellen",
+                "common": "Seychellen"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República das Seychelles",
+                "common": "Seicheles"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Сейшельские Острова",
+                "common": "Сейшельские Острова"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Seychelská republika",
+                "common": "Seychely"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de las Seychelles",
+                "common": "Seychelles"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Seychellien tasavalta",
+                "common": "Seychellit"
+            },
+            {
+                "languageCode": "et",
+                "official": "Seišelli Vabariik",
+                "common": "Seišellid"
+            },
+            {
+                "languageCode": "zh",
+                "official": "塞舌尔共和国",
+                "common": "塞舌尔"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Seszeli",
+                "common": "Seszele"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ سیچیلیس",
+                "common": "سیچیلیس"
+            },
+            {
+                "languageCode": "ko",
+                "official": "세이셸 공화국",
+                "common": "세이셸"
+            },
+            { "official": "جمهوری سیشل", "common": "سیشل" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Sejšeli",
+                "common": "Sejšeli"
+            }
+        ],
+        "currencies": [
+            { "name": "Seychellois rupee", "symbol": "₨", "currencyCode": "SCR" }
+        ],
+        "flag": "🇸🇨",
+        "codes": { "cca2": "SC", "cca3": "SYC", "ccn3": "690" },
+        "coordinates": { "latitude": -4.58333333, "longitude": 55.66666666 }
+    }
+}

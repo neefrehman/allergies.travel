@@ -1,1 +1,125 @@
-{"title":"Angola","slug":"angola","baseInfo":{"name":{"common":"Angola","official":"Republic of Angola","native":[{"languageCode":"pt","official":"República de Angola","common":"Angola"}]},"capital":"Luanda","region":"Africa","subregion":"Middle Africa","languages":[{"languageCode":"pt","name":"Portuguese"}],"translations":[{"languageCode":"cs","official":"Angolská republika","common":"Angola"},{"languageCode":"cy","official":"Gweriniaeth Angola","common":"Angola"},{"languageCode":"de","official":"Republik Angola","common":"Angola"},{"languageCode":"fr","official":"République d'Angola","common":"Angola"},{"languageCode":"hr","official":"Republika Angola","common":"Angola"},{"languageCode":"it","official":"Repubblica dell'Angola","common":"Angola"},{"languageCode":"ja","official":"アンゴラ共和国","common":"アンゴラ"},{"languageCode":"nl","official":"Republiek Angola","common":"Angola"},{"languageCode":"pt","official":"República de Angola","common":"Angola"},{"languageCode":"ru","official":"Республика Ангола","common":"Ангола"},{"languageCode":"sk","official":"Angolská republika","common":"Angola"},{"languageCode":"es","official":"República de Angola","common":"Angola"},{"languageCode":"fi","official":"Angolan tasavalta","common":"Angola"},{"languageCode":"et","official":"Angola Vabariik","common":"Angola"},{"languageCode":"zh","official":"安哥拉共和国","common":"安哥拉"},{"languageCode":"pl","official":"Republika Angoli","common":"Angola"},{"languageCode":"ur","official":"جمہوریہ انگولہ","common":"انگولہ"},{"languageCode":"ko","official":"앙골라 공화국","common":"앙골라"},{"official":"جمهوری آنگولا","common":"آنگولا"}],"currencies":[{"name":"Angolan kwanza","symbol":"Kz","currencyCode":"AOA"}],"flag":"🇦🇴","codes":{"cca2":"AO","cca3":"AGO","ccn3":"024"},"coordinates":{"latitude":-12.5,"longitude":18.5}}}
+{
+    "title": "Angola",
+    "slug": "angola",
+    "baseInfo": {
+        "name": {
+            "common": "Angola",
+            "official": "Republic of Angola",
+            "native": [
+                {
+                    "languageCode": "pt",
+                    "official": "República de Angola",
+                    "common": "Angola"
+                }
+            ]
+        },
+        "capital": "Luanda",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "languages": [{ "languageCode": "pt", "name": "Portuguese" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Angolská republika",
+                "common": "Angola"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Angola",
+                "common": "Angola"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Angola",
+                "common": "Angola"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République d'Angola",
+                "common": "Angola"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Angola",
+                "common": "Angola"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica dell'Angola",
+                "common": "Angola"
+            },
+            {
+                "languageCode": "ja",
+                "official": "アンゴラ共和国",
+                "common": "アンゴラ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Angola",
+                "common": "Angola"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República de Angola",
+                "common": "Angola"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Ангола",
+                "common": "Ангола"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Angolská republika",
+                "common": "Angola"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Angola",
+                "common": "Angola"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Angolan tasavalta",
+                "common": "Angola"
+            },
+            {
+                "languageCode": "et",
+                "official": "Angola Vabariik",
+                "common": "Angola"
+            },
+            {
+                "languageCode": "zh",
+                "official": "安哥拉共和国",
+                "common": "安哥拉"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Angoli",
+                "common": "Angola"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ انگولہ",
+                "common": "انگولہ"
+            },
+            {
+                "languageCode": "ko",
+                "official": "앙골라 공화국",
+                "common": "앙골라"
+            },
+            { "official": "جمهوری آنگولا", "common": "آنگولا" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Angola",
+                "common": "Angola"
+            }
+        ],
+        "currencies": [
+            { "name": "Angolan kwanza", "symbol": "Kz", "currencyCode": "AOA" }
+        ],
+        "flag": "🇦🇴",
+        "codes": { "cca2": "AO", "cca3": "AGO", "ccn3": "024" },
+        "coordinates": { "latitude": -12.5, "longitude": 18.5 }
+    }
+}

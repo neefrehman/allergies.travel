@@ -1,1 +1,120 @@
-{"title":"Maldives","slug":"maldives","baseInfo":{"name":{"common":"Maldives","official":"Republic of the Maldives","native":[{"languageCode":"dv","official":"ދިވެހިރާއްޖޭގެ ޖުމްހޫރިއްޔާ","common":"ދިވެހިރާއްޖޭގެ"}]},"capital":"Malé","region":"Asia","subregion":"Southern Asia","languages":[{"languageCode":"dv","name":"Maldivian"}],"translations":[{"languageCode":"cs","official":"Maledivská republika","common":"Maledivy"},{"languageCode":"de","official":"Republik Malediven","common":"Malediven"},{"languageCode":"fr","official":"République des Maldives","common":"Maldives"},{"languageCode":"hr","official":"Republika Maldivi","common":"Maldivi"},{"languageCode":"it","official":"Repubblica delle Maldive","common":"Maldive"},{"languageCode":"ja","official":"モルディブ共和国","common":"モルディブ"},{"languageCode":"nl","official":"Republiek van de Malediven","common":"Maldiven"},{"languageCode":"pt","official":"República das Maldivas","common":"Maldivas"},{"languageCode":"es","official":"República de las Maldivas","common":"Maldivas"},{"languageCode":"ru","official":"Республика Мальдивы","common":"Мальдивы"},{"languageCode":"sk","official":"Maldivská republika","common":"Maldivy"},{"languageCode":"fi","official":"Malediivien tasavalta","common":"Malediivit"},{"languageCode":"et","official":"Maldiivi Vabariik","common":"Maldiivid"},{"languageCode":"zh","official":"马尔代夫共和国","common":"马尔代夫"},{"languageCode":"pl","official":"Republika Malediwów","common":"Malediwy"},{"languageCode":"ur","official":"جمہوریہ مالدیپ","common":"مالدیپ"},{"languageCode":"ko","official":"몰디브 공화국","common":"몰디브"},{"official":"جمهوری مالدیو","common":"مالدیو"}],"currencies":[{"name":"Maldivian rufiyaa","symbol":".ރ","currencyCode":"MVR"}],"flag":"🇲🇻","codes":{"cca2":"MV","cca3":"MDV","ccn3":"462"},"coordinates":{"latitude":3.25,"longitude":73}}}
+{
+    "title": "Maldives",
+    "slug": "maldives",
+    "baseInfo": {
+        "name": {
+            "common": "Maldives",
+            "official": "Republic of the Maldives",
+            "native": [
+                {
+                    "languageCode": "dv",
+                    "official": "ދިވެހިރާއްޖޭގެ ޖުމްހޫރިއްޔާ",
+                    "common": "ދިވެހިރާއްޖޭގެ"
+                }
+            ]
+        },
+        "capital": "Malé",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "languages": [{ "languageCode": "dv", "name": "Maldivian" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Maledivská republika",
+                "common": "Maledivy"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Malediven",
+                "common": "Malediven"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République des Maldives",
+                "common": "Maldives"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Maldivi",
+                "common": "Maldivi"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica delle Maldive",
+                "common": "Maldive"
+            },
+            {
+                "languageCode": "ja",
+                "official": "モルディブ共和国",
+                "common": "モルディブ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek van de Malediven",
+                "common": "Maldiven"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República das Maldivas",
+                "common": "Maldivas"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de las Maldivas",
+                "common": "Maldivas"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Мальдивы",
+                "common": "Мальдивы"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Maldivská republika",
+                "common": "Maldivy"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Malediivien tasavalta",
+                "common": "Malediivit"
+            },
+            {
+                "languageCode": "et",
+                "official": "Maldiivi Vabariik",
+                "common": "Maldiivid"
+            },
+            {
+                "languageCode": "zh",
+                "official": "马尔代夫共和国",
+                "common": "马尔代夫"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Malediwów",
+                "common": "Malediwy"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ مالدیپ",
+                "common": "مالدیپ"
+            },
+            {
+                "languageCode": "ko",
+                "official": "몰디브 공화국",
+                "common": "몰디브"
+            },
+            { "official": "جمهوری مالدیو", "common": "مالدیو" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Maldivi",
+                "common": "Maldivi"
+            }
+        ],
+        "currencies": [
+            { "name": "Maldivian rufiyaa", "symbol": ".ރ", "currencyCode": "MVR" }
+        ],
+        "flag": "🇲🇻",
+        "codes": { "cca2": "MV", "cca3": "MDV", "ccn3": "462" },
+        "coordinates": { "latitude": 3.25, "longitude": 73 }
+    }
+}

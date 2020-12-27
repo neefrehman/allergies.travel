@@ -1,1 +1,149 @@
-{"title":"Bolivia","slug":"bolivia","baseInfo":{"name":{"common":"Bolivia","official":"Plurinational State of Bolivia","native":[{"languageCode":"ay","official":"Wuliwya Suyu","common":"Wuliwya"},{"languageCode":"gn","official":"Tetã Volívia","common":"Volívia"},{"languageCode":"qu","official":"Buliwya Mamallaqta","common":"Buliwya"},{"languageCode":"es","official":"Estado Plurinacional de Bolivia","common":"Bolivia"}]},"capital":"Sucre","region":"Americas","subregion":"South America","languages":[{"languageCode":"ay","name":"Aymara"},{"languageCode":"gn","name":"Guaraní"},{"languageCode":"qu","name":"Quechua"},{"languageCode":"es","name":"Spanish"}],"translations":[{"languageCode":"cs","official":"Mnohonárodnostní stát Bolívie","common":"Bolívie"},{"languageCode":"cy","official":"Gweriniaeth Bolifia","common":"Bolifia"},{"languageCode":"de","official":"Plurinationaler Staat Bolivien","common":"Bolivien"},{"languageCode":"fr","official":"État plurinational de Bolivie","common":"Bolivie"},{"languageCode":"hr","official":"Plurinational State of Bolivia","common":"Bolivija"},{"languageCode":"it","official":"Stato Plurinazionale della Bolivia","common":"Bolivia"},{"languageCode":"ja","official":"ボリビアの多民族国","common":"ボリビア多民族国"},{"languageCode":"nl","official":"Plurinationale Staat van Bolivia","common":"Bolivia"},{"languageCode":"pt","official":"Estado Plurinacional da Bolívia","common":"Bolívia"},{"languageCode":"ru","official":"Многонациональное Государство Боливия","common":"Боливия"},{"languageCode":"sk","official":"Bolívijská republika","common":"Bolívia"},{"languageCode":"es","official":"Estado Plurinacional de Bolivia","common":"Bolivia"},{"languageCode":"fi","official":"Bolivian monikansainen valtio","common":"Bolivia"},{"languageCode":"et","official":"Boliivia Paljurahvuseline Riik","common":"Boliivia"},{"languageCode":"zh","official":"多民族玻利维亚国","common":"玻利维亚"},{"languageCode":"pl","official":"Wielonarodowe Państwo Boliwia","common":"Boliwia"},{"languageCode":"ur","official":"جمہوریہ بولیویا","common":"بولیویا"},{"languageCode":"ko","official":"볼리비아 다민족국","common":"볼리비아"},{"official":"جمهوری بولیوی","common":"بولیوی"}],"currencies":[{"name":"Bolivian boliviano","symbol":"Bs.","currencyCode":"BOB"}],"flag":"🇧🇴","codes":{"cca2":"BO","cca3":"BOL","ccn3":"068"},"coordinates":{"latitude":-17,"longitude":-65}}}
+{
+    "title": "Bolivia",
+    "slug": "bolivia",
+    "baseInfo": {
+        "name": {
+            "common": "Bolivia",
+            "official": "Plurinational State of Bolivia",
+            "native": [
+                {
+                    "languageCode": "ay",
+                    "official": "Wuliwya Suyu",
+                    "common": "Wuliwya"
+                },
+                {
+                    "languageCode": "gn",
+                    "official": "Tetã Volívia",
+                    "common": "Volívia"
+                },
+                {
+                    "languageCode": "qu",
+                    "official": "Buliwya Mamallaqta",
+                    "common": "Buliwya"
+                },
+                {
+                    "languageCode": "es",
+                    "official": "Estado Plurinacional de Bolivia",
+                    "common": "Bolivia"
+                }
+            ]
+        },
+        "capital": "Sucre",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [
+            { "languageCode": "ay", "name": "Aymara" },
+            { "languageCode": "gn", "name": "Guaraní" },
+            { "languageCode": "qu", "name": "Quechua" },
+            { "languageCode": "es", "name": "Spanish" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Mnohonárodnostní stát Bolívie",
+                "common": "Bolívie"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Bolifia",
+                "common": "Bolifia"
+            },
+            {
+                "languageCode": "de",
+                "official": "Plurinationaler Staat Bolivien",
+                "common": "Bolivien"
+            },
+            {
+                "languageCode": "fr",
+                "official": "État plurinational de Bolivie",
+                "common": "Bolivie"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Plurinational State of Bolivia",
+                "common": "Bolivija"
+            },
+            {
+                "languageCode": "it",
+                "official": "Stato Plurinazionale della Bolivia",
+                "common": "Bolivia"
+            },
+            {
+                "languageCode": "ja",
+                "official": "ボリビアの多民族国",
+                "common": "ボリビア多民族国"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Plurinationale Staat van Bolivia",
+                "common": "Bolivia"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Estado Plurinacional da Bolívia",
+                "common": "Bolívia"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Многонациональное Государство Боливия",
+                "common": "Боливия"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Bolívijská republika",
+                "common": "Bolívia"
+            },
+            {
+                "languageCode": "es",
+                "official": "Estado Plurinacional de Bolivia",
+                "common": "Bolivia"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Bolivian monikansainen valtio",
+                "common": "Bolivia"
+            },
+            {
+                "languageCode": "et",
+                "official": "Boliivia Paljurahvuseline Riik",
+                "common": "Boliivia"
+            },
+            {
+                "languageCode": "zh",
+                "official": "多民族玻利维亚国",
+                "common": "玻利维亚"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Wielonarodowe Państwo Boliwia",
+                "common": "Boliwia"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ بولیویا",
+                "common": "بولیویا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "볼리비아 다민족국",
+                "common": "볼리비아"
+            },
+            { "official": "جمهوری بولیوی", "common": "بولیوی" },
+            {
+                "languageCode": "hr",
+                "official": "Plurinational State of Bolivia",
+                "common": "Bolivija"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "Bolivian boliviano",
+                "symbol": "Bs.",
+                "currencyCode": "BOB"
+            }
+        ],
+        "flag": "🇧🇴",
+        "codes": { "cca2": "BO", "cca3": "BOL", "ccn3": "068" },
+        "coordinates": { "latitude": -17, "longitude": -65 }
+    }
+}

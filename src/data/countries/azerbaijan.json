@@ -1,1 +1,133 @@
-{"title":"Azerbaijan","slug":"azerbaijan","baseInfo":{"name":{"common":"Azerbaijan","official":"Republic of Azerbaijan","native":[{"languageCode":"az","official":"Azərbaycan Respublikası","common":"Azərbaycan"},{"languageCode":"ru","official":"Азербайджанская Республика","common":"Азербайджан"}]},"capital":"Baku","region":"Asia","subregion":"Western Asia","languages":[{"languageCode":"az","name":"Azerbaijani"},{"languageCode":"ru","name":"Russian"}],"translations":[{"languageCode":"cs","official":"Ázerbájdžánská republika","common":"Ázerbájdžán"},{"languageCode":"cy","official":"Gweriniaeth Aserbaijan","common":"Aserbaijan"},{"languageCode":"de","official":"Republik Aserbaidschan","common":"Aserbaidschan"},{"languageCode":"fr","official":"République d'Azerbaïdjan","common":"Azerbaïdjan"},{"languageCode":"hr","official":"Republika Azerbajdžan","common":"Azerbajdžan"},{"languageCode":"it","official":"Repubblica dell'Azerbaigian","common":"Azerbaijan"},{"languageCode":"ja","official":"アゼルバイジャン共和国","common":"アゼルバイジャン"},{"languageCode":"nl","official":"Republiek Azerbeidzjan","common":"Azerbeidzjan"},{"languageCode":"pt","official":"República do Azerbaijão","common":"Azerbeijão"},{"languageCode":"ru","official":"Азербайджанская Республика","common":"Азербайджан"},{"languageCode":"sk","official":"Azerbajǆanská republika","common":"AzerbajǇan"},{"languageCode":"es","official":"República de Azerbaiyán","common":"Azerbaiyán"},{"languageCode":"fi","official":"Azerbaidzanin tasavalta","common":"Azerbaidzan"},{"languageCode":"et","official":"Aserbaidžaani Vabariik","common":"Aserbaidžaan"},{"languageCode":"zh","official":"阿塞拜疆共和国","common":"阿塞拜疆"},{"languageCode":"pl","official":"Republika Azerbejdżanu","common":"Azerbejdżan"},{"languageCode":"ur","official":"جمہوریہ آذربائیجان","common":"آذربائیجان"},{"languageCode":"ko","official":"아제르바이잔 공화국","common":"아제르바이잔"},{"official":"جمهوری آذربایجان","common":"جمهوری آذربایجان"}],"currencies":[{"name":"Azerbaijani manat","symbol":"₼","currencyCode":"AZN"}],"flag":"🇦🇿","codes":{"cca2":"AZ","cca3":"AZE","ccn3":"031"},"coordinates":{"latitude":40.5,"longitude":47.5}}}
+{
+    "title": "Azerbaijan",
+    "slug": "azerbaijan",
+    "baseInfo": {
+        "name": {
+            "common": "Azerbaijan",
+            "official": "Republic of Azerbaijan",
+            "native": [
+                {
+                    "languageCode": "az",
+                    "official": "Azərbaycan Respublikası",
+                    "common": "Azərbaycan"
+                },
+                {
+                    "languageCode": "ru",
+                    "official": "Азербайджанская Республика",
+                    "common": "Азербайджан"
+                }
+            ]
+        },
+        "capital": "Baku",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [
+            { "languageCode": "az", "name": "Azerbaijani" },
+            { "languageCode": "ru", "name": "Russian" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Ázerbájdžánská republika",
+                "common": "Ázerbájdžán"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Aserbaijan",
+                "common": "Aserbaijan"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Aserbaidschan",
+                "common": "Aserbaidschan"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République d'Azerbaïdjan",
+                "common": "Azerbaïdjan"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Azerbajdžan",
+                "common": "Azerbajdžan"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica dell'Azerbaigian",
+                "common": "Azerbaijan"
+            },
+            {
+                "languageCode": "ja",
+                "official": "アゼルバイジャン共和国",
+                "common": "アゼルバイジャン"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Azerbeidzjan",
+                "common": "Azerbeidzjan"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Azerbaijão",
+                "common": "Azerbeijão"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Азербайджанская Республика",
+                "common": "Азербайджан"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Azerbajǆanská republika",
+                "common": "AzerbajǇan"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Azerbaiyán",
+                "common": "Azerbaiyán"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Azerbaidzanin tasavalta",
+                "common": "Azerbaidzan"
+            },
+            {
+                "languageCode": "et",
+                "official": "Aserbaidžaani Vabariik",
+                "common": "Aserbaidžaan"
+            },
+            {
+                "languageCode": "zh",
+                "official": "阿塞拜疆共和国",
+                "common": "阿塞拜疆"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Azerbejdżanu",
+                "common": "Azerbejdżan"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ آذربائیجان",
+                "common": "آذربائیجان"
+            },
+            {
+                "languageCode": "ko",
+                "official": "아제르바이잔 공화국",
+                "common": "아제르바이잔"
+            },
+            { "official": "جمهوری آذربایجان", "common": "جمهوری آذربایجان" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Azerbajdžan",
+                "common": "Azerbajdžan"
+            }
+        ],
+        "currencies": [
+            { "name": "Azerbaijani manat", "symbol": "₼", "currencyCode": "AZN" }
+        ],
+        "flag": "🇦🇿",
+        "codes": { "cca2": "AZ", "cca3": "AZE", "ccn3": "031" },
+        "coordinates": { "latitude": 40.5, "longitude": 47.5 }
+    }
+}

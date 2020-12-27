@@ -1,1 +1,129 @@
-{"title":"Lesotho","slug":"lesotho","baseInfo":{"name":{"common":"Lesotho","official":"Kingdom of Lesotho","native":[{"languageCode":"en","official":"Kingdom of Lesotho","common":"Lesotho"},{"languageCode":"st","official":"Kingdom of Lesotho","common":"Lesotho"}]},"capital":"Maseru","region":"Africa","subregion":"Southern Africa","languages":[{"languageCode":"en","name":"English"},{"languageCode":"st","name":"Sotho"}],"translations":[{"languageCode":"cs","official":"Lesothské království","common":"Lesotho"},{"languageCode":"de","official":"Königreich Lesotho","common":"Lesotho"},{"languageCode":"fr","official":"Royaume du Lesotho","common":"Lesotho"},{"languageCode":"hr","official":"Kraljevina Lesoto","common":"Lesoto"},{"languageCode":"it","official":"Regno del Lesotho","common":"Lesotho"},{"languageCode":"ja","official":"レソト王国","common":"レソト"},{"languageCode":"nl","official":"Koninkrijk Lesotho","common":"Lesotho"},{"languageCode":"pt","official":"Reino do Lesoto","common":"Lesoto"},{"languageCode":"ru","official":"Королевство Лесото","common":"Лесото"},{"languageCode":"sk","official":"Lesothské kráľovstvo","common":"Lesotho"},{"languageCode":"es","official":"Reino de Lesotho","common":"Lesotho"},{"languageCode":"fi","official":"Lesothon kuningaskunta","common":"Lesotho"},{"languageCode":"et","official":"Lesotho Kuningriik","common":"Lesotho"},{"languageCode":"zh","official":"莱索托王国","common":"莱索托"},{"languageCode":"pl","official":"Królestwo Lesotho","common":"Lesotho"},{"languageCode":"ur","official":"مملکتِ لیسوتھو","common":"لیسوتھو"},{"languageCode":"ko","official":"레소토 왕국","common":"레소토"},{"official":"پادشاهی لسوتو","common":"لسوتو"}],"currencies":[{"name":"Lesotho loti","symbol":"L","currencyCode":"LSL"},{"name":"South African rand","symbol":"R","currencyCode":"ZAR"}],"flag":"🇱🇸","codes":{"cca2":"LS","cca3":"LSO","ccn3":"426"},"coordinates":{"latitude":-29.5,"longitude":28.5}}}
+{
+    "title": "Lesotho",
+    "slug": "lesotho",
+    "baseInfo": {
+        "name": {
+            "common": "Lesotho",
+            "official": "Kingdom of Lesotho",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Kingdom of Lesotho",
+                    "common": "Lesotho"
+                },
+                {
+                    "languageCode": "st",
+                    "official": "Kingdom of Lesotho",
+                    "common": "Lesotho"
+                }
+            ]
+        },
+        "capital": "Maseru",
+        "region": "Africa",
+        "subregion": "Southern Africa",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "st", "name": "Sotho" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Lesothské království",
+                "common": "Lesotho"
+            },
+            {
+                "languageCode": "de",
+                "official": "Königreich Lesotho",
+                "common": "Lesotho"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Royaume du Lesotho",
+                "common": "Lesotho"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Kraljevina Lesoto",
+                "common": "Lesoto"
+            },
+            {
+                "languageCode": "it",
+                "official": "Regno del Lesotho",
+                "common": "Lesotho"
+            },
+            {
+                "languageCode": "ja",
+                "official": "レソト王国",
+                "common": "レソト"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Koninkrijk Lesotho",
+                "common": "Lesotho"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Reino do Lesoto",
+                "common": "Lesoto"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Королевство Лесото",
+                "common": "Лесото"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Lesothské kráľovstvo",
+                "common": "Lesotho"
+            },
+            {
+                "languageCode": "es",
+                "official": "Reino de Lesotho",
+                "common": "Lesotho"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Lesothon kuningaskunta",
+                "common": "Lesotho"
+            },
+            {
+                "languageCode": "et",
+                "official": "Lesotho Kuningriik",
+                "common": "Lesotho"
+            },
+            {
+                "languageCode": "zh",
+                "official": "莱索托王国",
+                "common": "莱索托"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Królestwo Lesotho",
+                "common": "Lesotho"
+            },
+            {
+                "languageCode": "ur",
+                "official": "مملکتِ لیسوتھو",
+                "common": "لیسوتھو"
+            },
+            {
+                "languageCode": "ko",
+                "official": "레소토 왕국",
+                "common": "레소토"
+            },
+            { "official": "پادشاهی لسوتو", "common": "لسوتو" },
+            {
+                "languageCode": "hr",
+                "official": "Kraljevina Lesoto",
+                "common": "Lesoto"
+            }
+        ],
+        "currencies": [
+            { "name": "Lesotho loti", "symbol": "L", "currencyCode": "LSL" },
+            { "name": "South African rand", "symbol": "R", "currencyCode": "ZAR" }
+        ],
+        "flag": "🇱🇸",
+        "codes": { "cca2": "LS", "cca3": "LSO", "ccn3": "426" },
+        "coordinates": { "latitude": -29.5, "longitude": 28.5 }
+    }
+}

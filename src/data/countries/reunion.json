@@ -1,1 +1,90 @@
-{"title":"Réunion","slug":"reunion","baseInfo":{"name":{"common":"Réunion","official":"Réunion Island","native":[{"languageCode":"fr","official":"Ile de la Réunion","common":"La Réunion"}]},"capital":"Saint-Denis","region":"Africa","subregion":"Eastern Africa","languages":[{"languageCode":"fr","name":"French"}],"translations":[{"languageCode":"cs","official":"Réunion","common":"Réunion"},{"languageCode":"de","official":"Réunion","common":"Réunion"},{"languageCode":"fr","official":"Ile de la Réunion","common":"Réunion"},{"languageCode":"hr","official":"Réunion Island","common":"Réunion"},{"languageCode":"it","official":"Réunion","common":"Riunione"},{"languageCode":"ja","official":"レユニオン島","common":"レユニオン"},{"languageCode":"nl","official":"Réunion","common":"Réunion"},{"languageCode":"pt","official":"Ilha da Reunião","common":"Reunião"},{"languageCode":"ru","official":"Реюньон","common":"Реюньон"},{"languageCode":"sk","official":"Réunionský zámorský departmán","common":"Réunion"},{"languageCode":"es","official":"Isla de la Reunión","common":"Reunión"},{"languageCode":"fi","official":"Réunion","common":"Réunion"},{"languageCode":"et","official":"Réunioni departemang","common":"Réunion"},{"languageCode":"zh","official":"留尼旺岛","common":"留尼旺岛"},{"languageCode":"pl","official":"Reunion","common":"Reunion"},{"languageCode":"ur","official":"رے یونیوں جزیرہ","common":"رے یونیوں"},{"languageCode":"ko","official":"레위니옹","common":"레위니옹"},{"official":"رئونیون","common":"رئونیون"}],"currencies":[{"name":"Euro","symbol":"€","currencyCode":"EUR"}],"flag":"🇷🇪","codes":{"cca2":"RE","cca3":"REU","ccn3":"638"},"coordinates":{"latitude":-21.15,"longitude":55.5}}}
+{
+    "title": "Réunion",
+    "slug": "reunion",
+    "baseInfo": {
+        "name": {
+            "common": "Réunion",
+            "official": "Réunion Island",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Ile de la Réunion",
+                    "common": "La Réunion"
+                }
+            ]
+        },
+        "capital": "Saint-Denis",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [{ "languageCode": "fr", "name": "French" }],
+        "translations": [
+            { "languageCode": "cs", "official": "Réunion", "common": "Réunion" },
+            { "languageCode": "de", "official": "Réunion", "common": "Réunion" },
+            {
+                "languageCode": "fr",
+                "official": "Ile de la Réunion",
+                "common": "Réunion"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Réunion Island",
+                "common": "Réunion"
+            },
+            { "languageCode": "it", "official": "Réunion", "common": "Riunione" },
+            {
+                "languageCode": "ja",
+                "official": "レユニオン島",
+                "common": "レユニオン"
+            },
+            { "languageCode": "nl", "official": "Réunion", "common": "Réunion" },
+            {
+                "languageCode": "pt",
+                "official": "Ilha da Reunião",
+                "common": "Reunião"
+            },
+            { "languageCode": "ru", "official": "Реюньон", "common": "Реюньон" },
+            {
+                "languageCode": "sk",
+                "official": "Réunionský zámorský departmán",
+                "common": "Réunion"
+            },
+            {
+                "languageCode": "es",
+                "official": "Isla de la Reunión",
+                "common": "Reunión"
+            },
+            { "languageCode": "fi", "official": "Réunion", "common": "Réunion" },
+            {
+                "languageCode": "et",
+                "official": "Réunioni departemang",
+                "common": "Réunion"
+            },
+            {
+                "languageCode": "zh",
+                "official": "留尼旺岛",
+                "common": "留尼旺岛"
+            },
+            { "languageCode": "pl", "official": "Reunion", "common": "Reunion" },
+            {
+                "languageCode": "ur",
+                "official": "رے یونیوں جزیرہ",
+                "common": "رے یونیوں"
+            },
+            {
+                "languageCode": "ko",
+                "official": "레위니옹",
+                "common": "레위니옹"
+            },
+            { "official": "رئونیون", "common": "رئونیون" },
+            {
+                "languageCode": "hr",
+                "official": "Réunion Island",
+                "common": "Réunion"
+            }
+        ],
+        "currencies": [{ "name": "Euro", "symbol": "€", "currencyCode": "EUR" }],
+        "flag": "🇷🇪",
+        "codes": { "cca2": "RE", "cca3": "REU", "ccn3": "638" },
+        "coordinates": { "latitude": -21.15, "longitude": 55.5 }
+    }
+}

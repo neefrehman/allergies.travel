@@ -1,1 +1,122 @@
-{"title":"Bahamas","slug":"bahamas","baseInfo":{"name":{"common":"Bahamas","official":"Commonwealth of the Bahamas","native":[{"languageCode":"en","official":"Commonwealth of the Bahamas","common":"Bahamas"}]},"capital":"Nassau","region":"Americas","subregion":"Caribbean","languages":[{"languageCode":"en","name":"English"}],"translations":[{"languageCode":"cs","official":"Bahamské společenství","common":"Bahamy"},{"languageCode":"cy","official":"Cymanwlad y Bahamas","common":"Bahamas"},{"languageCode":"de","official":"Commonwealth der Bahamas","common":"Bahamas"},{"languageCode":"fr","official":"Commonwealth des Bahamas","common":"Bahamas"},{"languageCode":"hr","official":"Zajednica Bahama","common":"Bahami"},{"languageCode":"it","official":"Commonwealth delle Bahamas","common":"Bahamas"},{"languageCode":"ja","official":"バハマ","common":"バハマ"},{"languageCode":"nl","official":"Gemenebest van de Bahama's","common":"Bahama’s"},{"languageCode":"pt","official":"Comunidade das Bahamas","common":"Bahamas"},{"languageCode":"ru","official":"Содружество Багамских Островов","common":"Багамские Острова"},{"languageCode":"sk","official":"Bahamské spoločenstvo","common":"Bahamy"},{"languageCode":"es","official":"Commonwealth de las Bahamas","common":"Bahamas"},{"languageCode":"fi","official":"Bahaman liittovaltio","common":"Bahamasaaret"},{"languageCode":"et","official":"Bahama Ühendus","common":"Bahama"},{"languageCode":"zh","official":"巴哈马联邦","common":"巴哈马"},{"languageCode":"pl","official":"Bahamy","common":"Bahamy"},{"languageCode":"ur","official":"دولتِ مشترکہ بہاماس","common":"بہاماس"},{"languageCode":"ko","official":"바하마 연방","common":"바하마"},{"official":"قلمرو همسود باهاما","common":"باهاما"}],"currencies":[{"name":"Bahamian dollar","symbol":"$","currencyCode":"BSD"},{"name":"United States dollar","symbol":"$","currencyCode":"USD"}],"flag":"🇧🇸","codes":{"cca2":"BS","cca3":"BHS","ccn3":"044"},"coordinates":{"latitude":24.25,"longitude":-76}}}
+{
+    "title": "Bahamas",
+    "slug": "bahamas",
+    "baseInfo": {
+        "name": {
+            "common": "Bahamas",
+            "official": "Commonwealth of the Bahamas",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Commonwealth of the Bahamas",
+                    "common": "Bahamas"
+                }
+            ]
+        },
+        "capital": "Nassau",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Bahamské společenství",
+                "common": "Bahamy"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Cymanwlad y Bahamas",
+                "common": "Bahamas"
+            },
+            {
+                "languageCode": "de",
+                "official": "Commonwealth der Bahamas",
+                "common": "Bahamas"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Commonwealth des Bahamas",
+                "common": "Bahamas"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Zajednica Bahama",
+                "common": "Bahami"
+            },
+            {
+                "languageCode": "it",
+                "official": "Commonwealth delle Bahamas",
+                "common": "Bahamas"
+            },
+            { "languageCode": "ja", "official": "バハマ", "common": "バハマ" },
+            {
+                "languageCode": "nl",
+                "official": "Gemenebest van de Bahama's",
+                "common": "Bahama’s"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Comunidade das Bahamas",
+                "common": "Bahamas"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Содружество Багамских Островов",
+                "common": "Багамские Острова"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Bahamské spoločenstvo",
+                "common": "Bahamy"
+            },
+            {
+                "languageCode": "es",
+                "official": "Commonwealth de las Bahamas",
+                "common": "Bahamas"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Bahaman liittovaltio",
+                "common": "Bahamasaaret"
+            },
+            {
+                "languageCode": "et",
+                "official": "Bahama Ühendus",
+                "common": "Bahama"
+            },
+            {
+                "languageCode": "zh",
+                "official": "巴哈马联邦",
+                "common": "巴哈马"
+            },
+            { "languageCode": "pl", "official": "Bahamy", "common": "Bahamy" },
+            {
+                "languageCode": "ur",
+                "official": "دولتِ مشترکہ بہاماس",
+                "common": "بہاماس"
+            },
+            {
+                "languageCode": "ko",
+                "official": "바하마 연방",
+                "common": "바하마"
+            },
+            { "official": "قلمرو همسود باهاما", "common": "باهاما" },
+            {
+                "languageCode": "hr",
+                "official": "Zajednica Bahama",
+                "common": "Bahami"
+            }
+        ],
+        "currencies": [
+            { "name": "Bahamian dollar", "symbol": "$", "currencyCode": "BSD" },
+            {
+                "name": "United States dollar",
+                "symbol": "$",
+                "currencyCode": "USD"
+            }
+        ],
+        "flag": "🇧🇸",
+        "codes": { "cca2": "BS", "cca3": "BHS", "ccn3": "044" },
+        "coordinates": { "latitude": 24.25, "longitude": -76 }
+    }
+}

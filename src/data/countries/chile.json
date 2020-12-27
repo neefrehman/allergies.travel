@@ -1,1 +1,109 @@
-{"title":"Chile","slug":"chile","baseInfo":{"name":{"common":"Chile","official":"Republic of Chile","native":[{"languageCode":"es","official":"República de Chile","common":"Chile"}]},"capital":"Santiago","region":"Americas","subregion":"South America","languages":[{"languageCode":"es","name":"Spanish"}],"translations":[{"languageCode":"cs","official":"Chilská republika","common":"Chile"},{"languageCode":"cy","official":"Gweriniaeth Chile","common":"Chile"},{"languageCode":"de","official":"Republik Chile","common":"Chile"},{"languageCode":"fr","official":"République du Chili","common":"Chili"},{"languageCode":"hr","official":"Republika Čile","common":"Čile"},{"languageCode":"it","official":"Repubblica del Cile","common":"Cile"},{"languageCode":"ja","official":"チリ共和国","common":"チリ"},{"languageCode":"nl","official":"Republiek Chili","common":"Chili"},{"languageCode":"pt","official":"República do Chile","common":"Chile"},{"languageCode":"ru","official":"Республика Чили","common":"Чили"},{"languageCode":"sk","official":"Čílska republika","common":"Čile"},{"languageCode":"es","official":"República de Chile","common":"Chile"},{"languageCode":"fi","official":"Chilen tasavalta","common":"Chile"},{"languageCode":"et","official":"Tšiili Vabariik","common":"Tšiili"},{"languageCode":"zh","official":"智利共和国","common":"智利"},{"languageCode":"pl","official":"Republika Chile","common":"Chile"},{"languageCode":"ur","official":"جمہوریہ چلی","common":"چلی"},{"languageCode":"ko","official":"칠레 공화국","common":"칠레"},{"official":"جمهوری شیلی","common":"شیلی"}],"currencies":[{"name":"Chilean peso","symbol":"$","currencyCode":"CLP"}],"flag":"🇨🇱","codes":{"cca2":"CL","cca3":"CHL","ccn3":"152"},"coordinates":{"latitude":-30,"longitude":-71}}}
+{
+    "title": "Chile",
+    "slug": "chile",
+    "baseInfo": {
+        "name": {
+            "common": "Chile",
+            "official": "Republic of Chile",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República de Chile",
+                    "common": "Chile"
+                }
+            ]
+        },
+        "capital": "Santiago",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [{ "languageCode": "es", "name": "Spanish" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Chilská republika",
+                "common": "Chile"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Chile",
+                "common": "Chile"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Chile",
+                "common": "Chile"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Chili",
+                "common": "Chili"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Čile",
+                "common": "Čile"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica del Cile",
+                "common": "Cile"
+            },
+            { "languageCode": "ja", "official": "チリ共和国", "common": "チリ" },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Chili",
+                "common": "Chili"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República do Chile",
+                "common": "Chile"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Чили",
+                "common": "Чили"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Čílska republika",
+                "common": "Čile"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Chile",
+                "common": "Chile"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Chilen tasavalta",
+                "common": "Chile"
+            },
+            {
+                "languageCode": "et",
+                "official": "Tšiili Vabariik",
+                "common": "Tšiili"
+            },
+            { "languageCode": "zh", "official": "智利共和国", "common": "智利" },
+            {
+                "languageCode": "pl",
+                "official": "Republika Chile",
+                "common": "Chile"
+            },
+            { "languageCode": "ur", "official": "جمہوریہ چلی", "common": "چلی" },
+            { "languageCode": "ko", "official": "칠레 공화국", "common": "칠레" },
+            { "official": "جمهوری شیلی", "common": "شیلی" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Čile",
+                "common": "Čile"
+            }
+        ],
+        "currencies": [
+            { "name": "Chilean peso", "symbol": "$", "currencyCode": "CLP" }
+        ],
+        "flag": "🇨🇱",
+        "codes": { "cca2": "CL", "cca3": "CHL", "ccn3": "152" },
+        "coordinates": { "latitude": -30, "longitude": -71 }
+    }
+}

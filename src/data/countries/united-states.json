@@ -1,1 +1,127 @@
-{"title":"United States","slug":"united-states","baseInfo":{"name":{"common":"United States","official":"United States of America","native":[{"languageCode":"en","official":"United States of America","common":"United States"}]},"capital":"Washington D.C.","region":"Americas","subregion":"North America","languages":[{"languageCode":"en","name":"English"}],"translations":[{"languageCode":"cs","official":"Spojené státy americké","common":"Spojené státy"},{"languageCode":"de","official":"Vereinigte Staaten von Amerika","common":"Vereinigte Staaten"},{"languageCode":"fr","official":"Les états-unis d'Amérique","common":"États-Unis"},{"languageCode":"hr","official":"Sjedinjene Države Amerike","common":"Sjedinjene Američke Države"},{"languageCode":"it","official":"Stati Uniti d'America","common":"Stati Uniti d'America"},{"languageCode":"ja","official":"アメリカ合衆国","common":"アメリカ合衆国"},{"languageCode":"nl","official":"Verenigde Staten van Amerika","common":"Verenigde Staten"},{"languageCode":"pt","official":"Estados Unidos da América","common":"Estados Unidos"},{"languageCode":"ru","official":"Соединенные Штаты Америки","common":"Соединённые Штаты Америки"},{"languageCode":"sk","official":"Spojené štáty Americké","common":"Spojené štáty americké"},{"languageCode":"es","official":"Estados Unidos de América","common":"Estados Unidos"},{"languageCode":"fi","official":"Amerikan yhdysvallat","common":"Yhdysvallat"},{"languageCode":"et","official":"Ameerika Ühendriigid","common":"Ameerika Ühendriigid"},{"languageCode":"zh","official":"美利坚合众国","common":"美国"},{"languageCode":"pl","official":"Stany Zjednoczone Ameryki","common":"Stany Zjednoczone"},{"languageCode":"ur","official":"ریاستہائے متحدہ امریکا","common":"ریاستہائے متحدہ"},{"languageCode":"ko","official":"아메리카 합중국","common":"미국"},{"official":"ایالات متحده آمریکا","common":"ایالات متحده آمریکا"}],"currencies":[{"name":"United States dollar","symbol":"$","currencyCode":"USD"}],"flag":"🇺🇸","codes":{"cca2":"US","cca3":"USA","ccn3":"840"},"coordinates":{"latitude":38,"longitude":-97}}}
+{
+    "title": "United States",
+    "slug": "united-states",
+    "baseInfo": {
+        "name": {
+            "common": "United States",
+            "official": "United States of America",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "United States of America",
+                    "common": "United States"
+                }
+            ]
+        },
+        "capital": "Washington D.C.",
+        "region": "Americas",
+        "subregion": "North America",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Spojené státy americké",
+                "common": "Spojené státy"
+            },
+            {
+                "languageCode": "de",
+                "official": "Vereinigte Staaten von Amerika",
+                "common": "Vereinigte Staaten"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Les états-unis d'Amérique",
+                "common": "États-Unis"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Sjedinjene Države Amerike",
+                "common": "Sjedinjene Američke Države"
+            },
+            {
+                "languageCode": "it",
+                "official": "Stati Uniti d'America",
+                "common": "Stati Uniti d'America"
+            },
+            {
+                "languageCode": "ja",
+                "official": "アメリカ合衆国",
+                "common": "アメリカ合衆国"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Verenigde Staten van Amerika",
+                "common": "Verenigde Staten"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Estados Unidos da América",
+                "common": "Estados Unidos"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Соединенные Штаты Америки",
+                "common": "Соединённые Штаты Америки"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Spojené štáty Americké",
+                "common": "Spojené štáty americké"
+            },
+            {
+                "languageCode": "es",
+                "official": "Estados Unidos de América",
+                "common": "Estados Unidos"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Amerikan yhdysvallat",
+                "common": "Yhdysvallat"
+            },
+            {
+                "languageCode": "et",
+                "official": "Ameerika Ühendriigid",
+                "common": "Ameerika Ühendriigid"
+            },
+            {
+                "languageCode": "zh",
+                "official": "美利坚合众国",
+                "common": "美国"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Stany Zjednoczone Ameryki",
+                "common": "Stany Zjednoczone"
+            },
+            {
+                "languageCode": "ur",
+                "official": "ریاستہائے متحدہ امریکا",
+                "common": "ریاستہائے متحدہ"
+            },
+            {
+                "languageCode": "ko",
+                "official": "아메리카 합중국",
+                "common": "미국"
+            },
+            {
+                "official": "ایالات متحده آمریکا",
+                "common": "ایالات متحده آمریکا"
+            },
+            {
+                "languageCode": "hr",
+                "official": "Sjedinjene Države Amerike",
+                "common": "Sjedinjene Američke Države"
+            }
+        ],
+        "currencies": [
+            {
+                "name": "United States dollar",
+                "symbol": "$",
+                "currencyCode": "USD"
+            }
+        ],
+        "flag": "🇺🇸",
+        "codes": { "cca2": "US", "cca3": "USA", "ccn3": "840" },
+        "coordinates": { "latitude": 38, "longitude": -97 }
+    }
+}

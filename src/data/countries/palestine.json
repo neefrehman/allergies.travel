@@ -1,1 +1,126 @@
-{"title":"Palestine","slug":"palestine","baseInfo":{"name":{"common":"Palestine","official":"State of Palestine","native":[{"languageCode":"ar","official":"دولة فلسطين","common":"فلسطين"}]},"capital":"Ramallah","region":"Asia","subregion":"Western Asia","languages":[{"languageCode":"ar","name":"Arabic"}],"translations":[{"languageCode":"cs","official":"Stát Palestina","common":"Palestina"},{"languageCode":"de","official":"Staat Palästina","common":"Palästina"},{"languageCode":"fr","official":"État de Palestine","common":"Palestine"},{"languageCode":"hr","official":"State of Palestine","common":"Palestina"},{"languageCode":"it","official":"Stato di Palestina","common":"Palestina"},{"languageCode":"ja","official":"パレスチナ自治政府","common":"パレスチナ"},{"languageCode":"nl","official":"Staat Palestina","common":"Palestijnse gebieden"},{"languageCode":"pt","official":"Estado da Palestina","common":"Palestina"},{"languageCode":"ru","official":"Государство Палестина","common":"Палестина"},{"languageCode":"sk","official":"Palestínsky štát","common":"Palestína"},{"languageCode":"es","official":"Estado de Palestina","common":"Palestina"},{"languageCode":"fi","official":"Palestiinan valtio","common":"Palestiina"},{"languageCode":"et","official":"Palestiina Riik","common":"Palestiina"},{"languageCode":"zh","official":"巴勒斯坦国","common":"巴勒斯坦"},{"languageCode":"pl","official":"Państwo Palestyna","common":"Palestyna"},{"languageCode":"ur","official":"ریاستِ فلسطین","common":"فلسطین"},{"languageCode":"ko","official":"팔레스타인국","common":"팔레스타인"},{"official":"دولت فلسطین","common":"فلسطین"}],"currencies":[{"name":"Egyptian pound","symbol":"E£","currencyCode":"EGP"},{"name":"Israeli new shekel","symbol":"₪","currencyCode":"ILS"},{"name":"Jordanian dinar","symbol":"JD","currencyCode":"JOD"}],"flag":"🇵🇸","codes":{"cca2":"PS","cca3":"PSE","ccn3":"275"},"coordinates":{"latitude":31.9,"longitude":35.2}}}
+{
+    "title": "Palestine",
+    "slug": "palestine",
+    "baseInfo": {
+        "name": {
+            "common": "Palestine",
+            "official": "State of Palestine",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "دولة فلسطين",
+                    "common": "فلسطين"
+                }
+            ]
+        },
+        "capital": "Ramallah",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [{ "languageCode": "ar", "name": "Arabic" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Stát Palestina",
+                "common": "Palestina"
+            },
+            {
+                "languageCode": "de",
+                "official": "Staat Palästina",
+                "common": "Palästina"
+            },
+            {
+                "languageCode": "fr",
+                "official": "État de Palestine",
+                "common": "Palestine"
+            },
+            {
+                "languageCode": "sh",
+                "official": "State of Palestine",
+                "common": "Palestina"
+            },
+            {
+                "languageCode": "it",
+                "official": "Stato di Palestina",
+                "common": "Palestina"
+            },
+            {
+                "languageCode": "ja",
+                "official": "パレスチナ自治政府",
+                "common": "パレスチナ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Staat Palestina",
+                "common": "Palestijnse gebieden"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Estado da Palestina",
+                "common": "Palestina"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Государство Палестина",
+                "common": "Палестина"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Palestínsky štát",
+                "common": "Palestína"
+            },
+            {
+                "languageCode": "es",
+                "official": "Estado de Palestina",
+                "common": "Palestina"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Palestiinan valtio",
+                "common": "Palestiina"
+            },
+            {
+                "languageCode": "et",
+                "official": "Palestiina Riik",
+                "common": "Palestiina"
+            },
+            {
+                "languageCode": "zh",
+                "official": "巴勒斯坦国",
+                "common": "巴勒斯坦"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Państwo Palestyna",
+                "common": "Palestyna"
+            },
+            {
+                "languageCode": "ur",
+                "official": "ریاستِ فلسطین",
+                "common": "فلسطین"
+            },
+            {
+                "languageCode": "ko",
+                "official": "팔레스타인국",
+                "common": "팔레스타인"
+            },
+            { "official": "دولت فلسطین", "common": "فلسطین" },
+            {
+                "languageCode": "hr",
+                "official": "State of Palestine",
+                "common": "Palestina"
+            }
+        ],
+        "currencies": [
+            { "name": "Egyptian pound", "symbol": "E£", "currencyCode": "EGP" },
+            {
+                "name": "Israeli new shekel",
+                "symbol": "₪",
+                "currencyCode": "ILS"
+            },
+            { "name": "Jordanian dinar", "symbol": "JD", "currencyCode": "JOD" }
+        ],
+        "flag": "🇵🇸",
+        "codes": { "cca2": "PS", "cca3": "PSE", "ccn3": "275" },
+        "coordinates": { "latitude": 31.9, "longitude": 35.2 }
+    }
+}

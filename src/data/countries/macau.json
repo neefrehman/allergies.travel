@@ -1,1 +1,123 @@
-{"title":"Macau","slug":"macau","baseInfo":{"name":{"common":"Macau","official":"Macao Special Administrative Region of the People's Republic of China","native":[{"languageCode":"pt","official":"Região Administrativa Especial de Macau da República Popular da China","common":"Macau"},{"languageCode":"zh","official":"中华人民共和国澳门特别行政区","common":"澳门"}]},"capital":"","region":"Asia","subregion":"Eastern Asia","languages":[{"languageCode":"pt","name":"Portuguese"},{"languageCode":"zh","name":"Chinese"}],"translations":[{"languageCode":"cs","official":"Zvláštní správní oblast Čínské lidové republiky Macao","common":"Macao"},{"languageCode":"de","official":"Sonderverwaltungsregion Macau der Volksrepublik China","common":"Macao"},{"languageCode":"fr","official":"Région administrative spéciale de Macao de la République populaire de Chine","common":"Macao"},{"languageCode":"hr","official":"Makao Posebnog upravnog područjaNarodne Republike Kine","common":"Makao"},{"languageCode":"it","official":"Macao Regione amministrativa speciale della Repubblica Popolare Cinese","common":"Macao"},{"languageCode":"ja","official":"中華人民共和国マカオ特別行政区","common":"マカオ"},{"languageCode":"nl","official":"Speciale Administratieve Regio Macau van de Volksrepubliek China","common":"Macao"},{"languageCode":"pt","official":"Macau Região Administrativa Especial da República Popular da China","common":"Macau"},{"languageCode":"ru","official":"Специальный административный район Макао Китайской Народной Республики Китай","common":"Макао"},{"languageCode":"sk","official":"Macao, Špeciàlna administratívna oblasŦ","common":"Macao"},{"languageCode":"es","official":"Macao, Región Administrativa Especial de la República Popular China","common":"Macao"},{"languageCode":"fi","official":"Macaon Kiinan kansantasavallan erityishallintoalue","common":"Macao"},{"languageCode":"et","official":"Macau erihalduspiirkond","common":"Macau"},{"languageCode":"pl","official":"Specjalny Region Administracyjny Chińskiej Republiki Ludowej Makau","common":"Makau"},{"languageCode":"ur","official":"مکاؤ عوامی جمہوریہ چین کا خصوصی انتظامی علاقہ","common":"مکاؤ"},{"languageCode":"ko","official":"중화인민공화국 마카오 특별행정구","common":"마카오"},{"official":"ماکائو","common":"ماکائو"}],"currencies":[{"name":"Macanese pataca","symbol":"P","currencyCode":"MOP"}],"flag":"🇲🇴","codes":{"cca2":"MO","cca3":"MAC","ccn3":"446"},"coordinates":{"latitude":22.16666666,"longitude":113.55}}}
+{
+    "title": "Macau",
+    "slug": "macau",
+    "baseInfo": {
+        "name": {
+            "common": "Macau",
+            "official": "Macao Special Administrative Region of the People's Republic of China",
+            "native": [
+                {
+                    "languageCode": "pt",
+                    "official": "Região Administrativa Especial de Macau da República Popular da China",
+                    "common": "Macau"
+                },
+                {
+                    "languageCode": "zh",
+                    "official": "中华人民共和国澳门特别行政区",
+                    "common": "澳门"
+                }
+            ]
+        },
+        "capital": "",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "languages": [
+            { "languageCode": "pt", "name": "Portuguese" },
+            { "languageCode": "zh", "name": "Chinese" }
+        ],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Zvláštní správní oblast Čínské lidové republiky Macao",
+                "common": "Macao"
+            },
+            {
+                "languageCode": "de",
+                "official": "Sonderverwaltungsregion Macau der Volksrepublik China",
+                "common": "Macao"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Région administrative spéciale de Macao de la République populaire de Chine",
+                "common": "Macao"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Makao Posebnog upravnog područjaNarodne Republike Kine",
+                "common": "Makao"
+            },
+            {
+                "languageCode": "it",
+                "official": "Macao Regione amministrativa speciale della Repubblica Popolare Cinese",
+                "common": "Macao"
+            },
+            {
+                "languageCode": "ja",
+                "official": "中華人民共和国マカオ特別行政区",
+                "common": "マカオ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Speciale Administratieve Regio Macau van de Volksrepubliek China",
+                "common": "Macao"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Macau Região Administrativa Especial da República Popular da China",
+                "common": "Macau"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Специальный административный район Макао Китайской Народной Республики Китай",
+                "common": "Макао"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Macao, Špeciàlna administratívna oblasŦ",
+                "common": "Macao"
+            },
+            {
+                "languageCode": "es",
+                "official": "Macao, Región Administrativa Especial de la República Popular China",
+                "common": "Macao"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Macaon Kiinan kansantasavallan erityishallintoalue",
+                "common": "Macao"
+            },
+            {
+                "languageCode": "et",
+                "official": "Macau erihalduspiirkond",
+                "common": "Macau"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Specjalny Region Administracyjny Chińskiej Republiki Ludowej Makau",
+                "common": "Makau"
+            },
+            {
+                "languageCode": "ur",
+                "official": "مکاؤ عوامی جمہوریہ چین کا خصوصی انتظامی علاقہ",
+                "common": "مکاؤ"
+            },
+            {
+                "languageCode": "ko",
+                "official": "중화인민공화국 마카오 특별행정구",
+                "common": "마카오"
+            },
+            { "official": "ماکائو", "common": "ماکائو" },
+            {
+                "languageCode": "hr",
+                "official": "Makao Posebnog upravnog područjaNarodne Republike Kine",
+                "common": "Makao"
+            }
+        ],
+        "currencies": [
+            { "name": "Macanese pataca", "symbol": "P", "currencyCode": "MOP" }
+        ],
+        "flag": "🇲🇴",
+        "codes": { "cca2": "MO", "cca3": "MAC", "ccn3": "446" },
+        "coordinates": { "latitude": 22.16666666, "longitude": 113.55 }
+    }
+}

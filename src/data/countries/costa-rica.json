@@ -1,1 +1,125 @@
-{"title":"Costa Rica","slug":"costa-rica","baseInfo":{"name":{"common":"Costa Rica","official":"Republic of Costa Rica","native":[{"languageCode":"es","official":"República de Costa Rica","common":"Costa Rica"}]},"capital":"San José","region":"Americas","subregion":"Central America","languages":[{"languageCode":"es","name":"Spanish"}],"translations":[{"languageCode":"cs","official":"Kostarická republika","common":"Kostarika"},{"languageCode":"cy","official":"Gweriniaeth Costa Rica","common":"Costa Rica"},{"languageCode":"de","official":"Republik Costa Rica","common":"Costa Rica"},{"languageCode":"fr","official":"République du Costa Rica","common":"Costa Rica"},{"languageCode":"hr","official":"Republika Kostarika","common":"Kostarika"},{"languageCode":"it","official":"Repubblica di Costa Rica","common":"Costa Rica"},{"languageCode":"ja","official":"コスタリカ共和国","common":"コスタリカ"},{"languageCode":"nl","official":"Republiek Costa Rica","common":"Costa Rica"},{"languageCode":"pt","official":"República da Costa Rica","common":"Costa Rica"},{"languageCode":"ru","official":"Республика Коста-Рика","common":"Коста-Рика"},{"languageCode":"sk","official":"Kostarická republika","common":"Kostarika"},{"languageCode":"es","official":"República de Costa Rica","common":"Costa Rica"},{"languageCode":"fi","official":"Costa Rican tasavalta","common":"Costa Rica"},{"languageCode":"et","official":"Costa Rica Vabariik","common":"Costa Rica"},{"languageCode":"zh","official":"哥斯达黎加共和国","common":"哥斯达黎加"},{"languageCode":"pl","official":"Republika Kostaryki","common":"Kostaryka"},{"languageCode":"ur","official":"جمہوریہ کوسٹاریکا","common":"کوسٹاریکا"},{"languageCode":"ko","official":"코스타리카 공화국","common":"코스타리카"},{"official":"جمهوری کاستاریکا","common":"کاستاریکا"}],"currencies":[{"name":"Costa Rican colón","symbol":"₡","currencyCode":"CRC"}],"flag":"🇨🇷","codes":{"cca2":"CR","cca3":"CRI","ccn3":"188"},"coordinates":{"latitude":10,"longitude":-84}}}
+{
+    "title": "Costa Rica",
+    "slug": "costa-rica",
+    "baseInfo": {
+        "name": {
+            "common": "Costa Rica",
+            "official": "Republic of Costa Rica",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República de Costa Rica",
+                    "common": "Costa Rica"
+                }
+            ]
+        },
+        "capital": "San José",
+        "region": "Americas",
+        "subregion": "Central America",
+        "languages": [{ "languageCode": "es", "name": "Spanish" }],
+        "translations": [
+            {
+                "languageCode": "cs",
+                "official": "Kostarická republika",
+                "common": "Kostarika"
+            },
+            {
+                "languageCode": "cy",
+                "official": "Gweriniaeth Costa Rica",
+                "common": "Costa Rica"
+            },
+            {
+                "languageCode": "de",
+                "official": "Republik Costa Rica",
+                "common": "Costa Rica"
+            },
+            {
+                "languageCode": "fr",
+                "official": "République du Costa Rica",
+                "common": "Costa Rica"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Republika Kostarika",
+                "common": "Kostarika"
+            },
+            {
+                "languageCode": "it",
+                "official": "Repubblica di Costa Rica",
+                "common": "Costa Rica"
+            },
+            {
+                "languageCode": "ja",
+                "official": "コスタリカ共和国",
+                "common": "コスタリカ"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Republiek Costa Rica",
+                "common": "Costa Rica"
+            },
+            {
+                "languageCode": "pt",
+                "official": "República da Costa Rica",
+                "common": "Costa Rica"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Республика Коста-Рика",
+                "common": "Коста-Рика"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Kostarická republika",
+                "common": "Kostarika"
+            },
+            {
+                "languageCode": "es",
+                "official": "República de Costa Rica",
+                "common": "Costa Rica"
+            },
+            {
+                "languageCode": "fi",
+                "official": "Costa Rican tasavalta",
+                "common": "Costa Rica"
+            },
+            {
+                "languageCode": "et",
+                "official": "Costa Rica Vabariik",
+                "common": "Costa Rica"
+            },
+            {
+                "languageCode": "zh",
+                "official": "哥斯达黎加共和国",
+                "common": "哥斯达黎加"
+            },
+            {
+                "languageCode": "pl",
+                "official": "Republika Kostaryki",
+                "common": "Kostaryka"
+            },
+            {
+                "languageCode": "ur",
+                "official": "جمہوریہ کوسٹاریکا",
+                "common": "کوسٹاریکا"
+            },
+            {
+                "languageCode": "ko",
+                "official": "코스타리카 공화국",
+                "common": "코스타리카"
+            },
+            { "official": "جمهوری کاستاریکا", "common": "کاستاریکا" },
+            {
+                "languageCode": "hr",
+                "official": "Republika Kostarika",
+                "common": "Kostarika"
+            }
+        ],
+        "currencies": [
+            { "name": "Costa Rican colón", "symbol": "₡", "currencyCode": "CRC" }
+        ],
+        "flag": "🇨🇷",
+        "codes": { "cca2": "CR", "cca3": "CRI", "ccn3": "188" },
+        "coordinates": { "latitude": 10, "longitude": -84 }
+    }
+}

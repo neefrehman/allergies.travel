@@ -1,1 +1,90 @@
-{"title":"Mayotte","slug":"mayotte","baseInfo":{"name":{"common":"Mayotte","official":"Department of Mayotte","native":[{"languageCode":"fr","official":"Département de Mayotte","common":"Mayotte"}]},"capital":"Mamoudzou","region":"Africa","subregion":"Eastern Africa","languages":[{"languageCode":"fr","name":"French"}],"translations":[{"languageCode":"cs","official":"Mayotte","common":"Mayotte"},{"languageCode":"de","official":"Übersee-Département Mayotte","common":"Mayotte"},{"languageCode":"fr","official":"Département de Mayotte","common":"Mayotte"},{"languageCode":"hr","official":"Odjel Mayotte","common":"Mayotte"},{"languageCode":"it","official":"Dipartimento di Mayotte","common":"Mayotte"},{"languageCode":"ja","official":"マヨット科","common":"マヨット"},{"languageCode":"nl","official":"Afdeling Mayotte","common":"Mayotte"},{"languageCode":"pt","official":"Departamento de Mayotte","common":"Mayotte"},{"languageCode":"ru","official":"Департамент Майотта","common":"Майотта"},{"languageCode":"sk","official":"Department Mayotte","common":"Mayotte"},{"languageCode":"es","official":"Departamento de Mayotte","common":"Mayotte"},{"languageCode":"fi","official":"Mayotte","common":"Mayotte"},{"languageCode":"et","official":"Mayotte","common":"Mayotte"},{"languageCode":"zh","official":"马约特","common":"马约特"},{"languageCode":"pl","official":"Majotta","common":"Majotta"},{"languageCode":"ur","official":"مایوٹ","common":"مایوٹ"},{"languageCode":"ko","official":"마요트","common":"마요트"},{"official":"مجموعه شهرستانی مایوت","common":"مایوت"}],"currencies":[{"name":"Euro","symbol":"€","currencyCode":"EUR"}],"flag":"🇾🇹","codes":{"cca2":"YT","cca3":"MYT","ccn3":"175"},"coordinates":{"latitude":-12.83333333,"longitude":45.16666666}}}
+{
+    "title": "Mayotte",
+    "slug": "mayotte",
+    "baseInfo": {
+        "name": {
+            "common": "Mayotte",
+            "official": "Department of Mayotte",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Département de Mayotte",
+                    "common": "Mayotte"
+                }
+            ]
+        },
+        "capital": "Mamoudzou",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [{ "languageCode": "fr", "name": "French" }],
+        "translations": [
+            { "languageCode": "cs", "official": "Mayotte", "common": "Mayotte" },
+            {
+                "languageCode": "de",
+                "official": "Übersee-Département Mayotte",
+                "common": "Mayotte"
+            },
+            {
+                "languageCode": "fr",
+                "official": "Département de Mayotte",
+                "common": "Mayotte"
+            },
+            {
+                "languageCode": "sh",
+                "official": "Odjel Mayotte",
+                "common": "Mayotte"
+            },
+            {
+                "languageCode": "it",
+                "official": "Dipartimento di Mayotte",
+                "common": "Mayotte"
+            },
+            {
+                "languageCode": "ja",
+                "official": "マヨット科",
+                "common": "マヨット"
+            },
+            {
+                "languageCode": "nl",
+                "official": "Afdeling Mayotte",
+                "common": "Mayotte"
+            },
+            {
+                "languageCode": "pt",
+                "official": "Departamento de Mayotte",
+                "common": "Mayotte"
+            },
+            {
+                "languageCode": "ru",
+                "official": "Департамент Майотта",
+                "common": "Майотта"
+            },
+            {
+                "languageCode": "sk",
+                "official": "Department Mayotte",
+                "common": "Mayotte"
+            },
+            {
+                "languageCode": "es",
+                "official": "Departamento de Mayotte",
+                "common": "Mayotte"
+            },
+            { "languageCode": "fi", "official": "Mayotte", "common": "Mayotte" },
+            { "languageCode": "et", "official": "Mayotte", "common": "Mayotte" },
+            { "languageCode": "zh", "official": "马约特", "common": "马约特" },
+            { "languageCode": "pl", "official": "Majotta", "common": "Majotta" },
+            { "languageCode": "ur", "official": "مایوٹ", "common": "مایوٹ" },
+            { "languageCode": "ko", "official": "마요트", "common": "마요트" },
+            { "official": "مجموعه شهرستانی مایوت", "common": "مایوت" },
+            {
+                "languageCode": "hr",
+                "official": "Odjel Mayotte",
+                "common": "Mayotte"
+            }
+        ],
+        "currencies": [{ "name": "Euro", "symbol": "€", "currencyCode": "EUR" }],
+        "flag": "🇾🇹",
+        "codes": { "cca2": "YT", "cca3": "MYT", "ccn3": "175" },
+        "coordinates": { "latitude": -12.83333333, "longitude": 45.16666666 }
+    }
+}
