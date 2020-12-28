@@ -53,13 +53,13 @@ collections:
         widget: list
         i18n: true
         fields:
-          - { label: "Allergen Name", name: allergenName, widget: relation, collection: allergens, value_field: slug, search_fields: [name] }
+          - { label: "Allergen Name", name: name, widget: relation, collection: allergens, value_field: slug, search_fields: [name] }
           - { label: "Description", name: descriptionInCuisine, widget: text, hint: "A short piece of informaiton about the use of this ingredient in the country's cuisine", required: false, i18n: true }
           - label: "Found in"
             name: "foundIn"
             widget: list
             fields:
-              - { label: "Food Name", name: foodName, widget: string, i18n: true }
+              - { label: "Food Name", name: name, widget: string, i18n: true }
               - { label: "Food Description", name: description, widget: text, i18n: true }
               - { label: "Info url", name: infoUrl, widget: string, i18n: duplicate }
 

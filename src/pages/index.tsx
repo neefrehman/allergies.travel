@@ -25,9 +25,9 @@ const CountryCardGrid = styled.ul`
     margin-top: 3em;
     list-style: none;
     display: grid;
-    gap: 2em;
+    gap: 3em;
     grid-template-columns: repeat(4, 1fr);
-    padding: 0 40px;
+    padding: 0 10em;
 `;
 
 interface HomePageProps {
@@ -38,6 +38,13 @@ interface HomePageProps {
 const HomePage = ({ countryData }: HomePageProps) => {
     const [titleIsVisible, setTitleIsVisible] = useState(false);
     const hasMounted = useHasMounted();
+
+    const locallySortedCountryData = countryData.sort((a, b) => {
+        const nameA = a.name.toUpperCase();
+        const nameB = b.name.toUpperCase();
+        // eslint-disable-next-line no-nested-ternary
+        return nameA < nameB ? -1 : nameA > nameB ? 1 : 0; // Only works here, not in getStaticProps 🤔
+    });
 
     return (
         <>
@@ -54,7 +61,7 @@ const HomePage = ({ countryData }: HomePageProps) => {
 
             <div>
                 <CountryCardGrid>
-                    {countryData.map(({ name, flag, slug }) => (
+                    {locallySortedCountryData.map(({ name, flag, slug }) => (
                         <CountryCard name={name} flag={flag} slug={slug} />
                     ))}
                 </CountryCardGrid>
@@ -74,13 +81,6 @@ export const getStaticProps: GetStaticProps = async ({ locale, locales }) => {
         countryData.push({ name, flag: data.baseInfo.flag, slug: data.slug });
     });
 
-    const locallyAlphabetisedCountryData = countryData.sort((a, b) => {
-        const nameA = a.name.toUpperCase();
-        const nameB = b.name.toUpperCase();
-        // eslint-disable-next-line no-nested-ternary
-        return nameA < nameB ? -1 : nameA > nameB ? 1 : 0; // FIXME: not working here but does work in the client?
-    });
-
     // TODO fetch public posts only ("published" boolean in CMS schema?)
 
     // if (process.env.NODE_ENV === "production") {
@@ -88,8 +88,8 @@ export const getStaticProps: GetStaticProps = async ({ locale, locales }) => {
     // }
 
     return {
-        props: { countryData: locallyAlphabetisedCountryData, locales },
+        props: { countryData, locales },
     };
-};;
+};
 
 export default HomePage;

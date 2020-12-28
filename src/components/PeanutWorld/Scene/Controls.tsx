@@ -40,7 +40,8 @@ export const Controls = ({
         from: { z: initialCameraZ },
         config: { mass: 5.2, tension: 320, friction: 150 }, // TODO: more experimentation with config
         onFrame: ({ z }: { z: number }) => {
-            if (camera.position?.z !== 20) camera.position.z = z; // Will be deprecated in v9 https://github.com/react-spring/react-three-fiber/discussions/505
+            if (camera.position && camera.position?.z !== 20)
+                camera.position.z = z; // Will be deprecated in v9 https://github.com/react-spring/react-three-fiber/discussions/505
         },
         onRest: () => setTitleIsVisible(true),
     });

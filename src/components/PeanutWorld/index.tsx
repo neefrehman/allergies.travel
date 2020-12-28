@@ -1,6 +1,5 @@
 import React, { lazy, memo, Suspense } from "react";
 import type { LazyExoticComponent, FC } from "react";
-import { useDetectGPU } from "@react-three/drei";
 
 export interface PeanutWorldProps {
     setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
@@ -8,8 +7,8 @@ export interface PeanutWorldProps {
 
 const PeanutWorld = memo(
     ({ setTitleIsVisible }: PeanutWorldProps) => {
-        const gpu = useDetectGPU();
-        const isLowPerformance = (gpu?.tier ?? 2) < 1;
+        const cpuCoreCount = navigator?.hardwareConcurrency ?? 6;
+        const isLowPerformance = cpuCoreCount < 4;
 
         // @ts-expect-error: connection does exist
         const connection = navigator?.connection?.effectiveType ?? "4g"; // fallback for safari, which should be fast?

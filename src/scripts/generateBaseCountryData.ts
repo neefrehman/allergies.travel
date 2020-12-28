@@ -167,14 +167,14 @@ export type BaseCountryData = Pick<Country, "region" | "subregion" | "flag"> & {
 };
 
 export interface Allergen {
-    allergenName: string;
+    name: string;
     slug: string;
     descriptionInCuisine: string;
     foundIn: Food[];
 }
 
 export interface Food {
-    foodName: string;
+    name: string;
     description: string;
     infoUrl: string;
 }

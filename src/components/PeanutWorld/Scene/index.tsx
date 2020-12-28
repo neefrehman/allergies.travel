@@ -41,7 +41,7 @@ const PeanutWorldScene = memo(
                 style={{
                     backgroundColor: colors.spaceNavy,
                     transition: "opacity 3000ms",
-                    opacity: prefersReducedMotion && !hasMounted ? "0" : "1",
+                    opacity: prefersReducedMotion && hasMounted ? "0" : "1",
                     pointerEvents: isDebug ? "initial" : "none",
                 }}
             >

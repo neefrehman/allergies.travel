@@ -11,6 +11,16 @@ const StyledCard = styled.a`
     padding: 2em;
     text-decoration: none;
     text-align: center;
+    font-size: 1.3rem;
+
+    > p {
+        margin-top: 1em;
+        font-size: 4rem;
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
 `;
 
 interface CountryCardProps {
