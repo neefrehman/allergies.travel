@@ -23,12 +23,14 @@ collections:
     extension: "json"
     format: "json"
     create: true
+    i18n: true
     editor:
       preview: false
 
     fields:
-      - { label: Name, name: name, widget: string }
-      - { label: "Last Modified", name: "lastModified", widget: "hidden" }
+      - { label: "Name", name: name, widget: string, i18n: true }
+      - { label: "Slug", name: slug, widget: string, hint: "A URL-friendly version of the name. e.g. 'mutter-paneer'", i18n: duplicate  }
+      - { label: "Last Modified", name: "lastModified", widget: "hidden", i18n: true }
 
 
   - name: countries
@@ -44,15 +46,14 @@ collections:
     fields:
       - { label: "Title", name: title, widget: "string", i18n: true }
       - { label: "Slug", name: slug, widget: "string", hint: "A URL-friendly version of the name. e.g. 'papua-new-guinea'", i18n: duplicate }
-      - { label: "Last Modified", name: lastModified, widget: "hidden", i18n: duplicate }
+      - { label: "Last Modified", name: lastModified, widget: "hidden", i18n: true }
 
       - name: allergens
         label: "Allergens"
         widget: list
         i18n: true
         fields:
-          - { label: "Allergen Name", name: allergenName, widget: relation, collection: allergens, value_field: name, search_fields: [name] }
-          - { label: "Slug", name: slug, widget: string, hint: "A URL-friendly version of the name. e.g. 'mutter-paneer'", i18n: duplicate  }
+          - { label: "Allergen Name", name: allergenName, widget: relation, collection: allergens, value_field: slug, search_fields: [name] }
           - { label: "Description", name: descriptionInCuisine, widget: text, hint: "A short piece of informaiton about the use of this ingredient in the country's cuisine", required: false, i18n: true }
           - label: "Found in"
             name: "foundIn"

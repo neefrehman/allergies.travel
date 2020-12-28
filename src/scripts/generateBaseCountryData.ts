@@ -12,6 +12,8 @@ import type { ISO_639_1, ISO_639_3 } from "../utils/languageCodeMap";
 const prettier = require("prettier");
 const countryData: Country[] = require("world-countries"); // require needed to avoid `world_countries_1["default"]` error
 
+const supportedLocales: ISO_639_1[] = require("../../next.config").i18n.locales;
+
 // eslint-disable-next-line @typescript-eslint/no-namespace
 declare namespace Intl {
     class DisplayNames {
@@ -38,9 +40,11 @@ declare namespace Intl {
 const generateBaseCountryData = async () => {
     const prettierConfig = await prettier.resolveConfig("./.prettierrc");
 
-    const locales: ISO_639_1[] = ["en", "de", "es"]; // TODO: standardise location of this array
+    if (!fs.existsSync(`src/data/countries`)) {
+        fs.mkdirSync(`src/data/countries`);
+    }
 
-    locales.forEach(locale => {
+    supportedLocales.forEach(locale => {
         const regionName = new Intl.DisplayNames(locale, { type: "region" });
         const languageName = new Intl.DisplayNames(locale, { type: "language" });
         const currencyName = new Intl.DisplayNames(locale, { type: "currency" });
@@ -93,7 +97,7 @@ const generateBaseCountryData = async () => {
                             symbol,
                         })
                     ),
-                    flag: country.flag,
+                    flag: country.flag, // TODO: fallback for no emoji devices (windows)?: https://github.com/danalloway/detect-emoji-support
                     codes: {
                         cca2: country.cca2,
                         cca3: country.cca3,
