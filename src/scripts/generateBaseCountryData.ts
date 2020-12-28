@@ -5,7 +5,8 @@ import type { Country } from "world-countries";
 
 import { kebabCaseWithDiacriticHandling } from "../utils/kebabCase";
 import { deepMerge } from "../utils/deepMerge";
-import { ISO_639_1_TO_3_MAP, ISO_639_3_TO_1_MAP } from "../utils/languageCodeMap";
+import { ISO_639_1_TO_3, ISO_639_3_TO_1 } from "../utils/languageCodeMap";
+import type { ISO_639_1, ISO_639_3 } from "../utils/languageCodeMap";
 
 // eslint-disable-next-line import/no-extraneous-dependencies
 const prettier = require("prettier");
@@ -14,17 +15,22 @@ const countryData: Country[] = require("world-countries"); // require needed to 
 // eslint-disable-next-line @typescript-eslint/no-namespace
 declare namespace Intl {
     class DisplayNames {
-        constructor(locales: string | string[], options: { type: string });
+        constructor(
+            locales: string | string[],
+            options: { type: "region" | "language" | "currency" | "script" }
+        );
+
         public of: (code: string) => string;
     }
 }
 
 /**
  * Generates the base country data we will use in the site, from the
- * world-countries package.
+ * world-countries package. This happens for each locale, and adheres to
+ * the CMS schema defined in admin/config.yml
  *
  * @remarks
- * Requires node >= 12.0 & and full-icu support to enable `Intl.DisplayNames`
+ * Requires node >= 12.0 and full-icu support to enable `Intl.DisplayNames`
  *
  * This file must be compiled to js and then run, (ts-node has bugs with
  * import statements). Use `npm run generateCountryData` to do this easily.
@@ -32,23 +38,19 @@ declare namespace Intl {
 const generateBaseCountryData = async () => {
     const prettierConfig = await prettier.resolveConfig("./.prettierrc");
 
-    const locales = ["en", "de", "es"]; // TODO: standardise location of this array
+    const locales: ISO_639_1[] = ["en", "de", "es"]; // TODO: standardise location of this array
 
     locales.forEach(locale => {
-        const regionName = new Intl.DisplayNames([locale], { type: "region" });
-        const currencyName = new Intl.DisplayNames([locale], {
-            type: "currency",
-        });
-        const languageName = new Intl.DisplayNames([locale], {
-            type: "language",
-        });
+        const regionName = new Intl.DisplayNames(locale, { type: "region" });
+        const languageName = new Intl.DisplayNames(locale, { type: "language" });
+        const currencyName = new Intl.DisplayNames(locale, { type: "currency" });
 
         const transformedCountryData: Pick<
             CountryContent,
             "title" | "slug" | "baseInfo"
         >[] = countryData.map(country => {
             const localisedCountryName = country.translations[
-                ISO_639_1_TO_3_MAP[locale]
+                ISO_639_1_TO_3[locale]
             ] ?? {
                 common: regionName.of(country.cca2),
                 official: country.name.official,
@@ -63,18 +65,18 @@ const generateBaseCountryData = async () => {
                         official: localisedCountryName.official,
                         native: Object.entries(country.name.native).map(
                             ([code, { official, common }]) => ({
-                                languageCode: ISO_639_3_TO_1_MAP[code],
+                                languageCode: ISO_639_3_TO_1[code as ISO_639_3],
                                 official,
                                 common,
                             })
                         ),
                     },
-                    capital: country.capital[0],
-                    region: country.region,
-                    subregion: country.subregion,
+                    capital: country.capital[0], // Need automated i18n somehow?
+                    region: country.region, // Need automated i18n somehow?
+                    subregion: country.subregion, // Need automated i18n somehow?
                     languages: Object.entries(country.languages).map(
                         ([code, name]) => ({
-                            languageCode: ISO_639_3_TO_1_MAP[code],
+                            languageCode: ISO_639_3_TO_1[code as ISO_639_3],
                             name:
                                 languageName.of(code).length >= 2
                                     ? languageName.of(code)
@@ -114,17 +116,17 @@ const generateBaseCountryData = async () => {
         transformedCountryData.forEach(country => {
             const fileName = `${directory}/${country.slug}.json`;
 
-            let dataToSend: Partial<CountryContent> = country;
+            let finalisedData = country;
 
             if (fs.existsSync(fileName)) {
                 // Merge new base data into existing data, while keeping additions from the CMS
                 const previousData: CountryContent = JSON.parse(
                     fs.readFileSync(fileName, "utf8")
                 );
-                dataToSend = deepMerge(previousData, country);
+                finalisedData = deepMerge(previousData, country);
             }
 
-            const formattedData = prettier.format(JSON.stringify(dataToSend), {
+            const formattedData = prettier.format(JSON.stringify(finalisedData), {
                 ...prettierConfig,
                 parser: "json",
             });
@@ -132,7 +134,7 @@ const generateBaseCountryData = async () => {
             fs.writeFileSync(fileName, formattedData);
         });
     });
-};
+};;
 
 generateBaseCountryData();
 
