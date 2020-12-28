@@ -134,7 +134,7 @@ const generateBaseCountryData = async () => {
             fs.writeFileSync(fileName, formattedData);
         });
     });
-};;
+};
 
 generateBaseCountryData();
 
@@ -144,15 +144,15 @@ fs.unlinkSync("src/utils/invertObject.js");
 fs.unlinkSync("src/utils/languageCodeMap.js");
 fs.unlinkSync("src/scripts/generateBaseCountryData.js");
 
-// TODO: find better home for these - types/index.ts
+// TODO: find better home for these - types/content.ts?
 export type BaseCountryData = Pick<Country, "region" | "subregion" | "flag"> & {
     name: {
         common: string;
         official: string;
-        native: { languageCode: string; common: string; official: string }[];
+        native: { languageCode: ISO_639_1; common: string; official: string }[];
     };
     capital: string;
-    languages: { languageCode: string; name: string }[];
+    languages: { languageCode: ISO_639_1; name: string }[];
     currencies?: { name: string; symbol: string; currencyCode: string }[];
     coordinates: { latitude: number; longitude: number };
     codes?: {
