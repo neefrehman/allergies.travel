@@ -1,0 +1,35 @@
+{
+    "title": "Uzbekistán",
+    "slug": "uzbekistan",
+    "baseInfo": {
+        "name": {
+            "common": "Uzbekistán",
+            "official": "República de Uzbekistán",
+            "native": [
+                {
+                    "languageCode": "ru",
+                    "official": "Республика Узбекистан",
+                    "common": "Узбекистан"
+                },
+                {
+                    "languageCode": "uz",
+                    "official": "O'zbekiston Respublikasi",
+                    "common": "O‘zbekiston"
+                }
+            ]
+        },
+        "capital": "Tashkent",
+        "region": "Asia",
+        "subregion": "Central Asia",
+        "languages": [
+            { "languageCode": "ru", "name": "ruso" },
+            { "languageCode": "uz", "name": "uzbeko" }
+        ],
+        "currencies": [
+            { "currencyCode": "UZS", "name": "sum", "symbol": "so'm" }
+        ],
+        "flag": "🇺🇿",
+        "codes": { "cca2": "UZ", "cca3": "UZB", "ccn3": "860" },
+        "coordinates": { "latitude": 41, "longitude": 64 }
+    }
+}

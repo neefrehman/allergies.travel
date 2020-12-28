@@ -1,0 +1,25 @@
+{
+    "title": "Italy",
+    "slug": "italy",
+    "baseInfo": {
+        "name": {
+            "common": "Italy",
+            "official": "Italian Republic",
+            "native": [
+                {
+                    "languageCode": "it",
+                    "official": "Repubblica italiana",
+                    "common": "Italia"
+                }
+            ]
+        },
+        "capital": "Rome",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": [{ "languageCode": "it", "name": "Italian" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
+        "flag": "🇮🇹",
+        "codes": { "cca2": "IT", "cca3": "ITA", "ccn3": "380" },
+        "coordinates": { "latitude": 42.83333333, "longitude": 12.83333333 }
+    }
+}

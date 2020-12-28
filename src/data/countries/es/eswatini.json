@@ -1,0 +1,35 @@
+{
+    "title": "Suazilandia",
+    "slug": "eswatini",
+    "baseInfo": {
+        "name": {
+            "common": "Suazilandia",
+            "official": "Reino de eSwatini",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Kingdom of Eswatini",
+                    "common": "Eswatini"
+                },
+                {
+                    "languageCode": "ss",
+                    "official": "Umbuso weSwatini",
+                    "common": "eSwatini"
+                }
+            ]
+        },
+        "capital": "Lobamba",
+        "region": "Africa",
+        "subregion": "Southern Africa",
+        "languages": [
+            { "languageCode": "en", "name": "inglés" },
+            { "languageCode": "ss", "name": "suazi" }
+        ],
+        "currencies": [
+            { "currencyCode": "SZL", "name": "lilangeni", "symbol": "L" }
+        ],
+        "flag": "🇸🇿",
+        "codes": { "cca2": "SZ", "cca3": "SWZ", "ccn3": "748" },
+        "coordinates": { "latitude": -26.5, "longitude": 31.5 }
+    }
+}

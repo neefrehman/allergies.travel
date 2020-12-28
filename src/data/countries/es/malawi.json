@@ -1,0 +1,35 @@
+{
+    "title": "Malawi",
+    "slug": "malawi",
+    "baseInfo": {
+        "name": {
+            "common": "Malawi",
+            "official": "República de Malawi",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Malawi",
+                    "common": "Malawi"
+                },
+                {
+                    "languageCode": "ny",
+                    "official": "Chalo cha Malawi, Dziko la Malaŵi",
+                    "common": "Malaŵi"
+                }
+            ]
+        },
+        "capital": "Lilongwe",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "languageCode": "en", "name": "inglés" },
+            { "languageCode": "ny", "name": "nyanja" }
+        ],
+        "currencies": [
+            { "currencyCode": "MWK", "name": "kuacha malauí", "symbol": "MK" }
+        ],
+        "flag": "🇲🇼",
+        "codes": { "cca2": "MW", "cca3": "MWI", "ccn3": "454" },
+        "coordinates": { "latitude": -13.5, "longitude": 34 }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "title": "Sambia",
+    "slug": "zambia",
+    "baseInfo": {
+        "name": {
+            "common": "Sambia",
+            "official": "Republik Sambia",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Zambia",
+                    "common": "Zambia"
+                }
+            ]
+        },
+        "capital": "Lusaka",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [{ "languageCode": "en", "name": "Englisch" }],
+        "currencies": [
+            { "currencyCode": "ZMW", "name": "Kwacha", "symbol": "ZK" }
+        ],
+        "flag": "🇿🇲",
+        "codes": { "cca2": "ZM", "cca3": "ZMB", "ccn3": "894" },
+        "coordinates": { "latitude": -15, "longitude": 30 }
+    }
+}

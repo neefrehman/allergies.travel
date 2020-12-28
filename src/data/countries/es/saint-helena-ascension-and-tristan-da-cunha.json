@@ -1,0 +1,32 @@
+{
+    "title": "Santa Elena, Ascensión y Tristán de Acuña",
+    "slug": "saint-helena-ascension-and-tristan-da-cunha",
+    "baseInfo": {
+        "name": {
+            "common": "Santa Elena, Ascensión y Tristán de Acuña",
+            "official": "Santa Elena, Ascensión y Tristán de Acuña",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Saint Helena, Ascension and Tristan da Cunha",
+                    "common": "Saint Helena, Ascension and Tristan da Cunha"
+                }
+            ]
+        },
+        "capital": "Jamestown",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            { "currencyCode": "GBP", "name": "libra esterlina", "symbol": "£" },
+            {
+                "currencyCode": "SHP",
+                "name": "libra de Santa Elena",
+                "symbol": "£"
+            }
+        ],
+        "flag": "🇸🇭",
+        "codes": { "cca2": "SH", "cca3": "SHN", "ccn3": "654" },
+        "coordinates": { "latitude": -15.95, "longitude": -5.72 }
+    }
+}

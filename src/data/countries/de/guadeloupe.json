@@ -1,0 +1,25 @@
+{
+    "title": "Guadeloupe",
+    "slug": "guadeloupe",
+    "baseInfo": {
+        "name": {
+            "common": "Guadeloupe",
+            "official": "Guadeloupe",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Guadeloupe",
+                    "common": "Guadeloupe"
+                }
+            ]
+        },
+        "capital": "Basse-Terre",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "fr", "name": "Französisch" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
+        "flag": "🇬🇵",
+        "codes": { "cca2": "GP", "cca3": "GLP", "ccn3": "312" },
+        "coordinates": { "latitude": 16.25, "longitude": -61.583333 }
+    }
+}

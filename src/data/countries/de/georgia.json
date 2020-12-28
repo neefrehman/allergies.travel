@@ -1,0 +1,27 @@
+{
+    "title": "Georgien",
+    "slug": "georgia",
+    "baseInfo": {
+        "name": {
+            "common": "Georgien",
+            "official": "Georgien",
+            "native": [
+                {
+                    "languageCode": "ka",
+                    "official": "საქართველო",
+                    "common": "საქართველო"
+                }
+            ]
+        },
+        "capital": "Tbilisi",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [{ "languageCode": "ka", "name": "Georgisch" }],
+        "currencies": [
+            { "currencyCode": "GEL", "name": "Georgischer Lari", "symbol": "₾" }
+        ],
+        "flag": "🇬🇪",
+        "codes": { "cca2": "GE", "cca3": "GEO", "ccn3": "268" },
+        "coordinates": { "latitude": 42, "longitude": 43.5 }
+    }
+}

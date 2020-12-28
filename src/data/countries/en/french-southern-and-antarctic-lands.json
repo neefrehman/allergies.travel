@@ -1,0 +1,25 @@
+{
+    "title": "French Southern Territories",
+    "slug": "french-southern-and-antarctic-lands",
+    "baseInfo": {
+        "name": {
+            "common": "French Southern Territories",
+            "official": "Territory of the French Southern and Antarctic Lands",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Territoire des Terres australes et antarctiques françaises",
+                    "common": "Terres australes et antarctiques françaises"
+                }
+            ]
+        },
+        "capital": "Port-aux-Français",
+        "region": "Antarctic",
+        "subregion": "",
+        "languages": [{ "languageCode": "fr", "name": "French" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
+        "flag": "🇹🇫",
+        "codes": { "cca2": "TF", "cca3": "ATF", "ccn3": "260" },
+        "coordinates": { "latitude": -49.25, "longitude": 69.167 }
+    }
+}

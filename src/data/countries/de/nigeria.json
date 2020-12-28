@@ -1,0 +1,31 @@
+{
+    "title": "Nigeria",
+    "slug": "nigeria",
+    "baseInfo": {
+        "name": {
+            "common": "Nigeria",
+            "official": "Bundesrepublik Nigeria",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Federal Republic of Nigeria",
+                    "common": "Nigeria"
+                }
+            ]
+        },
+        "capital": "Abuja",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "en", "name": "Englisch" }],
+        "currencies": [
+            {
+                "currencyCode": "NGN",
+                "name": "Nigerianischer Naira",
+                "symbol": "₦"
+            }
+        ],
+        "flag": "🇳🇬",
+        "codes": { "cca2": "NG", "cca3": "NGA", "ccn3": "566" },
+        "coordinates": { "latitude": 10, "longitude": 8 }
+    }
+}

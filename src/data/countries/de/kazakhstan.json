@@ -1,0 +1,35 @@
+{
+    "title": "Kasachstan",
+    "slug": "kazakhstan",
+    "baseInfo": {
+        "name": {
+            "common": "Kasachstan",
+            "official": "Republik Kasachstan",
+            "native": [
+                {
+                    "languageCode": "kk",
+                    "official": "Қазақстан Республикасы",
+                    "common": "Қазақстан"
+                },
+                {
+                    "languageCode": "ru",
+                    "official": "Республика Казахстан",
+                    "common": "Казахстан"
+                }
+            ]
+        },
+        "capital": "Astana",
+        "region": "Asia",
+        "subregion": "Central Asia",
+        "languages": [
+            { "languageCode": "kk", "name": "Kasachisch" },
+            { "languageCode": "ru", "name": "Russisch" }
+        ],
+        "currencies": [
+            { "currencyCode": "KZT", "name": "Kasachischer Tenge", "symbol": "₸" }
+        ],
+        "flag": "🇰🇿",
+        "codes": { "cca2": "KZ", "cca3": "KAZ", "ccn3": "398" },
+        "coordinates": { "latitude": 48, "longitude": 68 }
+    }
+}

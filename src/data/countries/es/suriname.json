@@ -1,0 +1,27 @@
+{
+    "title": "Surinam",
+    "slug": "suriname",
+    "baseInfo": {
+        "name": {
+            "common": "Surinam",
+            "official": "República de Suriname",
+            "native": [
+                {
+                    "languageCode": "nl",
+                    "official": "Republiek Suriname",
+                    "common": "Suriname"
+                }
+            ]
+        },
+        "capital": "Paramaribo",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [{ "languageCode": "nl", "name": "neerlandés" }],
+        "currencies": [
+            { "currencyCode": "SRD", "name": "dólar surinamés", "symbol": "$" }
+        ],
+        "flag": "🇸🇷",
+        "codes": { "cca2": "SR", "cca3": "SUR", "ccn3": "740" },
+        "coordinates": { "latitude": 4, "longitude": -56 }
+    }
+}

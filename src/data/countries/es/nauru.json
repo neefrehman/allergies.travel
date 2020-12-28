@@ -1,0 +1,35 @@
+{
+    "title": "Nauru",
+    "slug": "nauru",
+    "baseInfo": {
+        "name": {
+            "common": "Nauru",
+            "official": "República de Nauru",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Nauru",
+                    "common": "Nauru"
+                },
+                {
+                    "languageCode": "na",
+                    "official": "Republic of Nauru",
+                    "common": "Nauru"
+                }
+            ]
+        },
+        "capital": "Yaren",
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "languages": [
+            { "languageCode": "en", "name": "inglés" },
+            { "languageCode": "na", "name": "nauruano" }
+        ],
+        "currencies": [
+            { "currencyCode": "AUD", "name": "dólar australiano", "symbol": "$" }
+        ],
+        "flag": "🇳🇷",
+        "codes": { "cca2": "NR", "cca3": "NRU", "ccn3": "520" },
+        "coordinates": { "latitude": -0.53333333, "longitude": 166.91666666 }
+    }
+}

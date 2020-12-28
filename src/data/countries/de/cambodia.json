@@ -1,0 +1,32 @@
+{
+    "title": "Kambodscha",
+    "slug": "cambodia",
+    "baseInfo": {
+        "name": {
+            "common": "Kambodscha",
+            "official": "Königreich Kambodscha",
+            "native": [
+                {
+                    "languageCode": "km",
+                    "official": "ព្រះរាជាណាចក្រកម្ពុជា",
+                    "common": "Kâmpŭchéa"
+                }
+            ]
+        },
+        "capital": "Phnom Penh",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": [{ "languageCode": "km", "name": "Khmer" }],
+        "currencies": [
+            {
+                "currencyCode": "KHR",
+                "name": "Kambodschanischer Riel",
+                "symbol": "៛"
+            },
+            { "currencyCode": "USD", "name": "US-Dollar", "symbol": "$" }
+        ],
+        "flag": "🇰🇭",
+        "codes": { "cca2": "KH", "cca3": "KHM", "ccn3": "116" },
+        "coordinates": { "latitude": 13, "longitude": 105 }
+    }
+}

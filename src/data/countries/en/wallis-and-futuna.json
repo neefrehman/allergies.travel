@@ -1,0 +1,27 @@
+{
+    "title": "Wallis & Futuna",
+    "slug": "wallis-and-futuna",
+    "baseInfo": {
+        "name": {
+            "common": "Wallis & Futuna",
+            "official": "Territory of the Wallis and Futuna Islands",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Territoire des îles Wallis et Futuna",
+                    "common": "Wallis et Futuna"
+                }
+            ]
+        },
+        "capital": "Mata-Utu",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": [{ "languageCode": "fr", "name": "French" }],
+        "currencies": [
+            { "currencyCode": "XPF", "name": "CFP Franc", "symbol": "₣" }
+        ],
+        "flag": "🇼🇫",
+        "codes": { "cca2": "WF", "cca3": "WLF", "ccn3": "876" },
+        "coordinates": { "latitude": -13.3, "longitude": -176.2 }
+    }
+}

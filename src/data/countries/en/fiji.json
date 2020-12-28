@@ -1,0 +1,37 @@
+{
+    "title": "Fiji",
+    "slug": "fiji",
+    "baseInfo": {
+        "name": {
+            "common": "Fiji",
+            "official": "Republic of Fiji",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Fiji",
+                    "common": "Fiji"
+                },
+                {
+                    "languageCode": "fj",
+                    "official": "Matanitu Tugalala o Viti",
+                    "common": "Viti"
+                },
+                { "official": "रिपब्लिक ऑफ फीजी", "common": "फिजी" }
+            ]
+        },
+        "capital": "Suva",
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "fj", "name": "Fijian" },
+            { "name": "Fiji Hindi" }
+        ],
+        "currencies": [
+            { "currencyCode": "FJD", "name": "Fijian Dollar", "symbol": "$" }
+        ],
+        "flag": "🇫🇯",
+        "codes": { "cca2": "FJ", "cca3": "FJI", "ccn3": "242" },
+        "coordinates": { "latitude": -18, "longitude": 175 }
+    }
+}

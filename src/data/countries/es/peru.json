@@ -1,0 +1,41 @@
+{
+    "title": "Perú",
+    "slug": "peru",
+    "baseInfo": {
+        "name": {
+            "common": "Perú",
+            "official": "República de Perú",
+            "native": [
+                {
+                    "languageCode": "ay",
+                    "official": "Piruw Suyu",
+                    "common": "Piruw"
+                },
+                {
+                    "languageCode": "qu",
+                    "official": "Piruw Ripuwlika",
+                    "common": "Piruw"
+                },
+                {
+                    "languageCode": "es",
+                    "official": "República del Perú",
+                    "common": "Perú"
+                }
+            ]
+        },
+        "capital": "Lima",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [
+            { "languageCode": "ay", "name": "aimara" },
+            { "languageCode": "qu", "name": "quechua" },
+            { "languageCode": "es", "name": "español" }
+        ],
+        "currencies": [
+            { "currencyCode": "PEN", "name": "sol peruano", "symbol": "S/." }
+        ],
+        "flag": "🇵🇪",
+        "codes": { "cca2": "PE", "cca3": "PER", "ccn3": "604" },
+        "coordinates": { "latitude": -10, "longitude": -76 }
+    }
+}

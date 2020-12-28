@@ -1,0 +1,25 @@
+{
+    "title": "Bouvetinsel",
+    "slug": "bouvet-island",
+    "baseInfo": {
+        "name": {
+            "common": "Bouvetinsel",
+            "official": "Bouvetinsel",
+            "native": [
+                {
+                    "languageCode": "no",
+                    "official": "Bouvetøya",
+                    "common": "Bouvetøya"
+                }
+            ]
+        },
+        "capital": "",
+        "region": "Antarctic",
+        "subregion": "",
+        "languages": [{ "languageCode": "no", "name": "Norwegisch" }],
+        "currencies": [],
+        "flag": "🇧🇻",
+        "codes": { "cca2": "BV", "cca3": "BVT", "ccn3": "074" },
+        "coordinates": { "latitude": -54.43333333, "longitude": 3.4 }
+    }
+}

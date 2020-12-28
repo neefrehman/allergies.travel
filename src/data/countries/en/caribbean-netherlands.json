@@ -1,0 +1,34 @@
+{
+    "title": "Caribbean Netherlands",
+    "slug": "caribbean-netherlands",
+    "baseInfo": {
+        "name": {
+            "common": "Caribbean Netherlands",
+            "official": "Bonaire, Sint Eustatius and Saba",
+            "native": [
+                {
+                    "languageCode": "nl",
+                    "official": "Bonaire, Sint Eustatius en Saba",
+                    "common": "Caribisch Nederland"
+                },
+                {
+                    "official": "Boneiru, Sint Eustatius y Saba",
+                    "common": "Boneiru, Sint Eustatius y Saba"
+                }
+            ]
+        },
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "nl", "name": "Dutch" },
+            { "name": "Papiamento" }
+        ],
+        "currencies": [
+            { "currencyCode": "USD", "name": "US Dollar", "symbol": "$" }
+        ],
+        "flag": "",
+        "codes": { "cca2": "BQ", "cca3": "BES", "ccn3": "535" },
+        "coordinates": { "latitude": 12.18, "longitude": -68.25 }
+    }
+}

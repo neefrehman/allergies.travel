@@ -1,0 +1,35 @@
+{
+    "title": "Tonga",
+    "slug": "tonga",
+    "baseInfo": {
+        "name": {
+            "common": "Tonga",
+            "official": "Reino de Tonga",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Kingdom of Tonga",
+                    "common": "Tonga"
+                },
+                {
+                    "languageCode": "to",
+                    "official": "Kingdom of Tonga",
+                    "common": "Tonga"
+                }
+            ]
+        },
+        "capital": "Nuku'alofa",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": [
+            { "languageCode": "en", "name": "inglés" },
+            { "languageCode": "to", "name": "tongano" }
+        ],
+        "currencies": [
+            { "currencyCode": "TOP", "name": "paanga", "symbol": "T$" }
+        ],
+        "flag": "🇹🇴",
+        "codes": { "cca2": "TO", "cca3": "TON", "ccn3": "776" },
+        "coordinates": { "latitude": -20, "longitude": -175 }
+    }
+}

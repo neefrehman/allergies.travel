@@ -1,0 +1,27 @@
+{
+    "title": "Siria",
+    "slug": "syria",
+    "baseInfo": {
+        "name": {
+            "common": "Siria",
+            "official": "República Árabe Siria",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "الجمهورية العربية السورية",
+                    "common": "سوريا"
+                }
+            ]
+        },
+        "capital": "Damascus",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [{ "languageCode": "ar", "name": "árabe" }],
+        "currencies": [
+            { "currencyCode": "SYP", "name": "libra siria", "symbol": "£" }
+        ],
+        "flag": "🇸🇾",
+        "codes": { "cca2": "SY", "cca3": "SYR", "ccn3": "760" },
+        "coordinates": { "latitude": 35, "longitude": 38 }
+    }
+}

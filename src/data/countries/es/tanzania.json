@@ -1,0 +1,35 @@
+{
+    "title": "Tanzania",
+    "slug": "tanzania",
+    "baseInfo": {
+        "name": {
+            "common": "Tanzania",
+            "official": "República Unida de Tanzania",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "United Republic of Tanzania",
+                    "common": "Tanzania"
+                },
+                {
+                    "languageCode": "sw",
+                    "official": "Jamhuri ya Muungano wa Tanzania",
+                    "common": "Tanzania"
+                }
+            ]
+        },
+        "capital": "Dodoma",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "languageCode": "en", "name": "inglés" },
+            { "languageCode": "sw", "name": "suajili" }
+        ],
+        "currencies": [
+            { "currencyCode": "TZS", "name": "chelín tanzano", "symbol": "Sh" }
+        ],
+        "flag": "🇹🇿",
+        "codes": { "cca2": "TZ", "cca3": "TZA", "ccn3": "834" },
+        "coordinates": { "latitude": -6, "longitude": 35 }
+    }
+}

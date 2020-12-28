@@ -1,0 +1,27 @@
+{
+    "title": "Islas Salomón",
+    "slug": "solomon-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Islas Salomón",
+            "official": "islas Salomón",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Solomon Islands",
+                    "common": "Solomon Islands"
+                }
+            ]
+        },
+        "capital": "Honiara",
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            { "currencyCode": "SBD", "name": "dólar salomonense", "symbol": "$" }
+        ],
+        "flag": "🇸🇧",
+        "codes": { "cca2": "SB", "cca3": "SLB", "ccn3": "090" },
+        "coordinates": { "latitude": -8, "longitude": 159 }
+    }
+}

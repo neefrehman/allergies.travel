@@ -1,0 +1,41 @@
+{
+    "title": "Curaçao",
+    "slug": "curacao",
+    "baseInfo": {
+        "name": {
+            "common": "Curaçao",
+            "official": "Country of Curaçao",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Country of Curaçao",
+                    "common": "Curaçao"
+                },
+                {
+                    "languageCode": "nl",
+                    "official": "Land Curaçao",
+                    "common": "Curaçao"
+                },
+                { "official": "Pais Kòrsou", "common": "Pais Kòrsou" }
+            ]
+        },
+        "capital": "Willemstad",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "nl", "name": "Dutch" },
+            { "name": "Papiamento" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "ANG",
+                "name": "Netherlands Antillean Guilder",
+                "symbol": "ƒ"
+            }
+        ],
+        "flag": "🇨🇼",
+        "codes": { "cca2": "CW", "cca3": "CUW", "ccn3": "531" },
+        "coordinates": { "latitude": 12.116667, "longitude": -68.933333 }
+    }
+}

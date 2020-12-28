@@ -1,0 +1,35 @@
+{
+    "title": "Turkmenistán",
+    "slug": "turkmenistan",
+    "baseInfo": {
+        "name": {
+            "common": "Turkmenistán",
+            "official": "Turkmenistán",
+            "native": [
+                {
+                    "languageCode": "ru",
+                    "official": "Туркменистан",
+                    "common": "Туркмения"
+                },
+                {
+                    "languageCode": "tk",
+                    "official": "Türkmenistan",
+                    "common": "Türkmenistan"
+                }
+            ]
+        },
+        "capital": "Ashgabat",
+        "region": "Asia",
+        "subregion": "Central Asia",
+        "languages": [
+            { "languageCode": "ru", "name": "ruso" },
+            { "languageCode": "tk", "name": "turcomano" }
+        ],
+        "currencies": [
+            { "currencyCode": "TMT", "name": "manat turcomano", "symbol": "m" }
+        ],
+        "flag": "🇹🇲",
+        "codes": { "cca2": "TM", "cca3": "TKM", "ccn3": "795" },
+        "coordinates": { "latitude": 40, "longitude": 60 }
+    }
+}

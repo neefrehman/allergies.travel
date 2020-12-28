@@ -1,0 +1,27 @@
+{
+    "title": "Moldawien",
+    "slug": "moldova",
+    "baseInfo": {
+        "name": {
+            "common": "Moldawien",
+            "official": "Republik Moldau",
+            "native": [
+                {
+                    "languageCode": "ro",
+                    "official": "Republica Moldova",
+                    "common": "Moldova"
+                }
+            ]
+        },
+        "capital": "Chișinău",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [{ "languageCode": "ro", "name": "Rumänisch" }],
+        "currencies": [
+            { "currencyCode": "MDL", "name": "Moldau-Leu", "symbol": "L" }
+        ],
+        "flag": "🇲🇩",
+        "codes": { "cca2": "MD", "cca3": "MDA", "ccn3": "498" },
+        "coordinates": { "latitude": 47, "longitude": 29 }
+    }
+}

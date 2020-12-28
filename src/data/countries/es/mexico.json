@@ -1,0 +1,27 @@
+{
+    "title": "México",
+    "slug": "mexico",
+    "baseInfo": {
+        "name": {
+            "common": "México",
+            "official": "Estados Unidos Mexicanos",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "Estados Unidos Mexicanos",
+                    "common": "México"
+                }
+            ]
+        },
+        "capital": "Mexico City",
+        "region": "Americas",
+        "subregion": "North America",
+        "languages": [{ "languageCode": "es", "name": "español" }],
+        "currencies": [
+            { "currencyCode": "MXN", "name": "peso mexicano", "symbol": "$" }
+        ],
+        "flag": "🇲🇽",
+        "codes": { "cca2": "MX", "cca3": "MEX", "ccn3": "484" },
+        "coordinates": { "latitude": 23, "longitude": -102 }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "title": "Sierra Leone",
+    "slug": "sierra-leone",
+    "baseInfo": {
+        "name": {
+            "common": "Sierra Leone",
+            "official": "Republik Sierra Leone",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Sierra Leone",
+                    "common": "Sierra Leone"
+                }
+            ]
+        },
+        "capital": "Freetown",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "en", "name": "Englisch" }],
+        "currencies": [
+            {
+                "currencyCode": "SLL",
+                "name": "Sierra-leonischer Leone",
+                "symbol": "Le"
+            }
+        ],
+        "flag": "🇸🇱",
+        "codes": { "cca2": "SL", "cca3": "SLE", "ccn3": "694" },
+        "coordinates": { "latitude": 8.5, "longitude": -11.5 }
+    }
+}

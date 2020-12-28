@@ -1,0 +1,52 @@
+{
+    "title": "Congo - Kinshasa",
+    "slug": "dr-congo",
+    "baseInfo": {
+        "name": {
+            "common": "Congo - Kinshasa",
+            "official": "Democratic Republic of the Congo",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République démocratique du Congo",
+                    "common": "RD Congo"
+                },
+                {
+                    "languageCode": "kg",
+                    "official": "Repubilika ya Kongo Demokratiki",
+                    "common": "Repubilika ya Kongo Demokratiki"
+                },
+                {
+                    "languageCode": "ln",
+                    "official": "Republiki ya Kongó Demokratiki",
+                    "common": "Republiki ya Kongó Demokratiki"
+                },
+                {
+                    "official": "Ditunga dia Kongu wa Mungalaata",
+                    "common": "Ditunga dia Kongu wa Mungalaata"
+                },
+                {
+                    "languageCode": "sw",
+                    "official": "Jamhuri ya Kidemokrasia ya Kongo",
+                    "common": "Jamhuri ya Kidemokrasia ya Kongo"
+                }
+            ]
+        },
+        "capital": "Kinshasa",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "languages": [
+            { "languageCode": "fr", "name": "French" },
+            { "languageCode": "kg", "name": "Kongo" },
+            { "languageCode": "ln", "name": "Lingala" },
+            { "name": "Luba-Lulua" },
+            { "languageCode": "sw", "name": "Swahili" }
+        ],
+        "currencies": [
+            { "currencyCode": "CDF", "name": "Congolese Franc", "symbol": "FC" }
+        ],
+        "flag": "🇨🇩",
+        "codes": { "cca2": "CD", "cca3": "COD", "ccn3": "180" },
+        "coordinates": { "latitude": 0, "longitude": 25 }
+    }
+}

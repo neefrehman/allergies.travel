@@ -1,0 +1,27 @@
+{
+    "title": "Vereinigte Arabische Emirate",
+    "slug": "united-arab-emirates",
+    "baseInfo": {
+        "name": {
+            "common": "Vereinigte Arabische Emirate",
+            "official": "Vereinigte Arabische Emirate",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "الإمارات العربية المتحدة",
+                    "common": "دولة الإمارات العربية المتحدة"
+                }
+            ]
+        },
+        "capital": "Abu Dhabi",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [{ "languageCode": "ar", "name": "Arabisch" }],
+        "currencies": [
+            { "currencyCode": "AED", "name": "VAE-Dirham", "symbol": "د.إ" }
+        ],
+        "flag": "🇦🇪",
+        "codes": { "cca2": "AE", "cca3": "ARE", "ccn3": "784" },
+        "coordinates": { "latitude": 24, "longitude": 54 }
+    }
+}

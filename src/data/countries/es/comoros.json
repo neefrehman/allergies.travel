@@ -1,0 +1,37 @@
+{
+    "title": "Comoras",
+    "slug": "comoros",
+    "baseInfo": {
+        "name": {
+            "common": "Comoras",
+            "official": "Unión de las Comoras",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "الاتحاد القمري",
+                    "common": "القمر‎"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "Union des Comores",
+                    "common": "Comores"
+                },
+                { "official": "Udzima wa Komori", "common": "Komori" }
+            ]
+        },
+        "capital": "Moroni",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "languageCode": "ar", "name": "árabe" },
+            { "languageCode": "fr", "name": "francés" },
+            { "name": "zdj" }
+        ],
+        "currencies": [
+            { "currencyCode": "KMF", "name": "franco comorense", "symbol": "Fr" }
+        ],
+        "flag": "🇰🇲",
+        "codes": { "cca2": "KM", "cca3": "COM", "ccn3": "174" },
+        "coordinates": { "latitude": -12.16666666, "longitude": 44.25 }
+    }
+}

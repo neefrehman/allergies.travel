@@ -1,0 +1,35 @@
+{
+    "title": "Zentralafrikanische Republik",
+    "slug": "central-african-republic",
+    "baseInfo": {
+        "name": {
+            "common": "Zentralafrikanische Republik",
+            "official": "Zentralafrikanische Republik",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République centrafricaine",
+                    "common": "République centrafricaine"
+                },
+                {
+                    "languageCode": "sg",
+                    "official": "Ködörösêse tî Bêafrîka",
+                    "common": "Bêafrîka"
+                }
+            ]
+        },
+        "capital": "Bangui",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "languages": [
+            { "languageCode": "fr", "name": "Französisch" },
+            { "languageCode": "sg", "name": "Sango" }
+        ],
+        "currencies": [
+            { "currencyCode": "XAF", "name": "CFA-Franc (BEAC)", "symbol": "Fr" }
+        ],
+        "flag": "🇨🇫",
+        "codes": { "cca2": "CF", "cca3": "CAF", "ccn3": "140" },
+        "coordinates": { "latitude": 7, "longitude": 21 }
+    }
+}

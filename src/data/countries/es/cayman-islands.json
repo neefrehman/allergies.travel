@@ -1,0 +1,31 @@
+{
+    "title": "Islas Caimán",
+    "slug": "cayman-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Islas Caimán",
+            "official": "Islas Caimán",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Cayman Islands",
+                    "common": "Cayman Islands"
+                }
+            ]
+        },
+        "capital": "George Town",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            {
+                "currencyCode": "KYD",
+                "name": "dólar de las Islas Caimán",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇰🇾",
+        "codes": { "cca2": "KY", "cca3": "CYM", "ccn3": "136" },
+        "coordinates": { "latitude": 19.5, "longitude": -80.5 }
+    }
+}

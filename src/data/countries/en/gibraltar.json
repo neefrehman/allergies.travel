@@ -1,0 +1,27 @@
+{
+    "title": "Gibraltar",
+    "slug": "gibraltar",
+    "baseInfo": {
+        "name": {
+            "common": "Gibraltar",
+            "official": "Gibraltar",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Gibraltar",
+                    "common": "Gibraltar"
+                }
+            ]
+        },
+        "capital": "Gibraltar",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "currencies": [
+            { "currencyCode": "GIP", "name": "Gibraltar Pound", "symbol": "£" }
+        ],
+        "flag": "🇬🇮",
+        "codes": { "cca2": "GI", "cca3": "GIB", "ccn3": "292" },
+        "coordinates": { "latitude": 36.13333333, "longitude": -5.35 }
+    }
+}

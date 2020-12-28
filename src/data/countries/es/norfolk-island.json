@@ -1,0 +1,34 @@
+{
+    "title": "Isla de Norfolk",
+    "slug": "norfolk-island",
+    "baseInfo": {
+        "name": {
+            "common": "Isla de Norfolk",
+            "official": "Territorio de la Isla Norfolk",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Territory of Norfolk Island",
+                    "common": "Norfolk Island"
+                },
+                {
+                    "official": "Teratri of Norf'k Ailen",
+                    "common": "Norf'k Ailen"
+                }
+            ]
+        },
+        "capital": "Kingston",
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "languages": [
+            { "languageCode": "en", "name": "inglés" },
+            { "name": "pih" }
+        ],
+        "currencies": [
+            { "currencyCode": "AUD", "name": "dólar australiano", "symbol": "$" }
+        ],
+        "flag": "🇳🇫",
+        "codes": { "cca2": "NF", "cca3": "NFK", "ccn3": "574" },
+        "coordinates": { "latitude": -29.03333333, "longitude": 167.95 }
+    }
+}

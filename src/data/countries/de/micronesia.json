@@ -1,0 +1,25 @@
+{
+    "title": "Mikronesien",
+    "slug": "micronesia",
+    "baseInfo": {
+        "name": {
+            "common": "Mikronesien",
+            "official": "Föderierte Staaten von Mikronesien",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Federated States of Micronesia",
+                    "common": "Micronesia"
+                }
+            ]
+        },
+        "capital": "Palikir",
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "languages": [{ "languageCode": "en", "name": "Englisch" }],
+        "currencies": [],
+        "flag": "🇫🇲",
+        "codes": { "cca2": "FM", "cca3": "FSM", "ccn3": "583" },
+        "coordinates": { "latitude": 6.91666666, "longitude": 158.25 }
+    }
+}

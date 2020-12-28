@@ -1,0 +1,32 @@
+{
+    "title": "Panamá",
+    "slug": "panama",
+    "baseInfo": {
+        "name": {
+            "common": "Panamá",
+            "official": "República de Panamá",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República de Panamá",
+                    "common": "Panamá"
+                }
+            ]
+        },
+        "capital": "Panama City",
+        "region": "Americas",
+        "subregion": "Central America",
+        "languages": [{ "languageCode": "es", "name": "español" }],
+        "currencies": [
+            { "currencyCode": "PAB", "name": "balboa panameño", "symbol": "B/." },
+            {
+                "currencyCode": "USD",
+                "name": "dólar estadounidense",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇵🇦",
+        "codes": { "cca2": "PA", "cca3": "PAN", "ccn3": "591" },
+        "coordinates": { "latitude": 9, "longitude": -80 }
+    }
+}

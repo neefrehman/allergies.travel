@@ -1,0 +1,31 @@
+{
+    "title": "Islas Vírgenes del Reino Unido",
+    "slug": "british-virgin-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Islas Vírgenes del Reino Unido",
+            "official": "Islas Vírgenes",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Virgin Islands",
+                    "common": "British Virgin Islands"
+                }
+            ]
+        },
+        "capital": "Road Town",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            {
+                "currencyCode": "USD",
+                "name": "dólar estadounidense",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇻🇬",
+        "codes": { "cca2": "VG", "cca3": "VGB", "ccn3": "092" },
+        "coordinates": { "latitude": 18.431383, "longitude": -64.62305 }
+    }
+}

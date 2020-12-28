@@ -1,0 +1,31 @@
+{
+    "title": "Kokosinseln",
+    "slug": "cocos-keeling-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Kokosinseln",
+            "official": "Gebiet der Kokos- (Keeling-) Inseln",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Territory of the Cocos (Keeling) Islands",
+                    "common": "Cocos (Keeling) Islands"
+                }
+            ]
+        },
+        "capital": "West Island",
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "languages": [{ "languageCode": "en", "name": "Englisch" }],
+        "currencies": [
+            {
+                "currencyCode": "AUD",
+                "name": "Australischer Dollar",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇨🇨",
+        "codes": { "cca2": "CC", "cca3": "CCK", "ccn3": "166" },
+        "coordinates": { "latitude": -12.5, "longitude": 96.83333333 }
+    }
+}

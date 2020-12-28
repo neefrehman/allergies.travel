@@ -1,0 +1,41 @@
+{
+    "title": "Rwanda",
+    "slug": "rwanda",
+    "baseInfo": {
+        "name": {
+            "common": "Rwanda",
+            "official": "Republic of Rwanda",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Rwanda",
+                    "common": "Rwanda"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "République rwandaise",
+                    "common": "Rwanda"
+                },
+                {
+                    "languageCode": "rw",
+                    "official": "Repubulika y'u Rwanda",
+                    "common": "Rwanda"
+                }
+            ]
+        },
+        "capital": "Kigali",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "fr", "name": "French" },
+            { "languageCode": "rw", "name": "Kinyarwanda" }
+        ],
+        "currencies": [
+            { "currencyCode": "RWF", "name": "Rwandan Franc", "symbol": "Fr" }
+        ],
+        "flag": "🇷🇼",
+        "codes": { "cca2": "RW", "cca3": "RWA", "ccn3": "646" },
+        "coordinates": { "latitude": -2, "longitude": 30 }
+    }
+}

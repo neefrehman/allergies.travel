@@ -1,0 +1,34 @@
+{
+    "title": "Guinea-Bissau",
+    "slug": "guinea-bissau",
+    "baseInfo": {
+        "name": {
+            "common": "Guinea-Bissau",
+            "official": "Republik Guinea-Bissau",
+            "native": [
+                {
+                    "languageCode": "pt",
+                    "official": "República da Guiné-Bissau",
+                    "common": "Guiné-Bissau"
+                },
+                {
+                    "official": "República da Guiné-Bissau",
+                    "common": "Guiné-Bissau"
+                }
+            ]
+        },
+        "capital": "Bissau",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [
+            { "languageCode": "pt", "name": "Portugiesisch" },
+            { "name": "pov" }
+        ],
+        "currencies": [
+            { "currencyCode": "XOF", "name": "CFA-Franc (BCEAO)", "symbol": "Fr" }
+        ],
+        "flag": "🇬🇼",
+        "codes": { "cca2": "GW", "cca3": "GNB", "ccn3": "624" },
+        "coordinates": { "latitude": 12, "longitude": -15 }
+    }
+}

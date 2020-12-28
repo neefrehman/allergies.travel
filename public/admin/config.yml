@@ -9,7 +9,10 @@ backend:
 media_folder: public/static/uploads
 public_folder: /uploads
 
-# TODO: 18n support: https://www.netlifycms.org/docs/beta-features/#i18n-support
+i18n:
+  structure: multiple_folders
+  locales: ["en", "de", "es"]
+  default_locale: "en"
 
 
 collections:
@@ -26,13 +29,6 @@ collections:
     fields:
       - { label: Name, name: name, widget: string }
       - { label: "Last Modified", name: "lastModified", widget: "hidden" }
-      # - label: Translations
-      #   name: translations
-      #   widget: list
-      #   required: false
-      #   fields:
-      #     - { label: ISO 639-1 code, name: languageCode, widget: string, hint: the two-letter ISO 639-1 code. e.g. "en" }
-      #     - { label: Name, name: name, widget: string }
 
 
   - name: "countries"
@@ -41,19 +37,22 @@ collections:
     extension: "json"
     format: "json"
     create: false
+    i18n: true
     editor:
       preview: false
 
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Last Modified", name: "lastModified", widget: "hidden" }
+      - { label: "Slug", name: "slug", widget: "string", hint: "A URL-friendly version of the name. e.g. 'papua-new-guinea'", i18n: duplicate }
+      - { label: "Last Modified", name: "lastModified", widget: "hidden", i18n: duplicate }
 
       - name: Allergens
         label: allergens
         widget: list
+        i18n: true
         fields:
           - { label: "Allergen Name", name: "allergenName", widget: relation, collection: allergens, value_field: name, search_fields: [name] }
-          - { label: "Slug", name: "slug", widget: string, hint: "A URL-friendly version of the name. e.g. 'mutter-paneer'" }
+          - { label: "Slug", name: "slug", widget: string, hint: "A URL-friendly version of the name. e.g. 'mutter-paneer'", i18n: duplicate  }
           - { label: "Description", name: "descriptionInCuisine", widget: text, hint: "A short piece of informaiton about the use of this ingredient in the country's cuisine", required: false }
           - label: "Found in"
             name: "foundIn"
@@ -69,6 +68,7 @@ collections:
         collapsed: true
         summary: Information about the countries cuisine
         required: false
+        i18n: true
         fields:
           - { label: "Description", name: "description", widget: "text", required: false }
           - { label: "Source url", name: "sourceUrl", widget: "string", required: false }
@@ -78,11 +78,13 @@ collections:
         widget: "object"
         collapsed: true
         summary: Basic info about the country
+        i18n: true
         fields: 
           - name: name
             label: Name
             widget: object
             collapsed: false
+            i18n: true
             fields:
               - { label: "Common", name: "common", widget: "string" }
               - { label: "Official", name: "official", widget: "string" }
@@ -91,34 +93,27 @@ collections:
                 widget: list
                 collapsed: true
                 minimize_collapsed: true
+                i18n: duplicate
                 fields:
                   - { label: "Common", name: "common", widget: "string" }
                   - { label: "Official", name: "official", widget: "string" }
                   - { label: ISO 639-1 code, name: languageCode, widget: string, hint: the two-letter ISO 639-1 code. e.g. "eng" }
-          - { label: "Flag", name: "flag", widget: "string" }
-          - { label: "Capital", name: "capital", widget: "string" }
-          - { label: "Region", name: "region", widget: "string" }
-          - { label: "Subregion", name: "subregion", widget: "string" }
+          - { label: "Flag", name: "flag", widget: "string", i18n: duplicate }
+          - { label: "Capital", name: "capital", widget: "string", i18n: true }
+          - { label: "Region", name: "region", widget: "string", i18n: true }
+          - { label: "Subregion", name: "subregion", widget: "string", i18n: true }
           - label: "Languages"
             name: "languages"
             widget: list
+            i18n: true
             fields:
               - { label: Name, name: name, widget: string }
               - { label: ISO 639-1 code, name: languageCode, widget: string, hint: the two-letter ISO 639-1 code. e.g. "eng" }
-          # - label: "Translations"
-          #   name: "translations"
-          #   widget: list
-          #   collapsed: true
-          #   minimize_collapsed: true
-          #   required: false
-          #   fields:
-          #     - { label: "Common", name: "common", widget: "string" }
-          #     - { label: "Official", name: "official", widget: "string" }
-          #     - { label: ISO 639-1 code, name: languageCode, widget: string, hint: the two-letter ISO 639-1 code. e.g. "eng" }
           - label: "Currencies"
             name: "currencies"
             widget: list
             required: false
+            i18n: true
             fields:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "Symbol", name: "symbol", widget: "string" }
@@ -127,6 +122,7 @@ collections:
             label: Coordinates
             widget: object
             collapsed: false
+            i18n: duplicate
             fields:
               - { label: "Latitude", name: "latitude", widget: "number", step: 0.000001 }
               - { label: "Longitude", name: "longitude", widget: "number", step: 0.000001 }
@@ -135,6 +131,7 @@ collections:
             widget: object
             collapsed: true
             required: false
+            i18n: duplicate
             fields:
               - { label: "cca2", name: "cca2", widget: "string", required: false }
               - { label: "cca3", name: "cca3", widget: "string", required: false }

@@ -1,0 +1,31 @@
+{
+    "title": "Mosambik",
+    "slug": "mozambique",
+    "baseInfo": {
+        "name": {
+            "common": "Mosambik",
+            "official": "Republik Mosambik",
+            "native": [
+                {
+                    "languageCode": "pt",
+                    "official": "República de Moçambique",
+                    "common": "Moçambique"
+                }
+            ]
+        },
+        "capital": "Maputo",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [{ "languageCode": "pt", "name": "Portugiesisch" }],
+        "currencies": [
+            {
+                "currencyCode": "MZN",
+                "name": "Mosambikanischer Metical",
+                "symbol": "MT"
+            }
+        ],
+        "flag": "🇲🇿",
+        "codes": { "cca2": "MZ", "cca3": "MOZ", "ccn3": "508" },
+        "coordinates": { "latitude": -18.25, "longitude": 35 }
+    }
+}

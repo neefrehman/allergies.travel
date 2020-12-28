@@ -1,0 +1,36 @@
+{
+    "title": "Tuvalu",
+    "slug": "tuvalu",
+    "baseInfo": {
+        "name": {
+            "common": "Tuvalu",
+            "official": "Tuvalu",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Tuvalu",
+                    "common": "Tuvalu"
+                },
+                { "official": "Tuvalu", "common": "Tuvalu" }
+            ]
+        },
+        "capital": "Funafuti",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": [
+            { "languageCode": "en", "name": "Englisch" },
+            { "name": "Tuvaluisch" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "AUD",
+                "name": "Australischer Dollar",
+                "symbol": "$"
+            },
+            { "currencyCode": "TVD", "name": "TVD", "symbol": "$" }
+        ],
+        "flag": "🇹🇻",
+        "codes": { "cca2": "TV", "cca3": "TUV", "ccn3": "798" },
+        "coordinates": { "latitude": -8, "longitude": 178 }
+    }
+}

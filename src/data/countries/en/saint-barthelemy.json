@@ -1,0 +1,25 @@
+{
+    "title": "St. Barthélemy",
+    "slug": "saint-barthelemy",
+    "baseInfo": {
+        "name": {
+            "common": "St. Barthélemy",
+            "official": "Collectivity of Saint Barthélemy",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Collectivité de Saint-Barthélemy",
+                    "common": "Saint-Barthélemy"
+                }
+            ]
+        },
+        "capital": "Gustavia",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "fr", "name": "French" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
+        "flag": "🇧🇱",
+        "codes": { "cca2": "BL", "cca3": "BLM", "ccn3": "652" },
+        "coordinates": { "latitude": 18.5, "longitude": -63.41666666 }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "title": "Colombia",
+    "slug": "colombia",
+    "baseInfo": {
+        "name": {
+            "common": "Colombia",
+            "official": "República de Colombia",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República de Colombia",
+                    "common": "Colombia"
+                }
+            ]
+        },
+        "capital": "Bogotá",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [{ "languageCode": "es", "name": "español" }],
+        "currencies": [
+            { "currencyCode": "COP", "name": "peso colombiano", "symbol": "$" }
+        ],
+        "flag": "🇨🇴",
+        "codes": { "cca2": "CO", "cca3": "COL", "ccn3": "170" },
+        "coordinates": { "latitude": 4, "longitude": -72 }
+    }
+}

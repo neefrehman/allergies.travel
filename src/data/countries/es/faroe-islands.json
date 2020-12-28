@@ -1,0 +1,36 @@
+{
+    "title": "Islas Faroe",
+    "slug": "faroe-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Islas Faroe",
+            "official": "Islas Feroe",
+            "native": [
+                {
+                    "languageCode": "da",
+                    "official": "Færøerne",
+                    "common": "Færøerne"
+                },
+                {
+                    "languageCode": "fo",
+                    "official": "Føroyar",
+                    "common": "Føroyar"
+                }
+            ]
+        },
+        "capital": "Tórshavn",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [
+            { "languageCode": "da", "name": "danés" },
+            { "languageCode": "fo", "name": "feroés" }
+        ],
+        "currencies": [
+            { "currencyCode": "DKK", "name": "corona danesa", "symbol": "kr" },
+            { "currencyCode": "FOK", "name": "FOK", "symbol": "kr" }
+        ],
+        "flag": "🇫🇴",
+        "codes": { "cca2": "FO", "cca3": "FRO", "ccn3": "234" },
+        "coordinates": { "latitude": 62, "longitude": -7 }
+    }
+}

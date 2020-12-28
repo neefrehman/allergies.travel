@@ -1,0 +1,27 @@
+{
+    "title": "Uruguay",
+    "slug": "uruguay",
+    "baseInfo": {
+        "name": {
+            "common": "Uruguay",
+            "official": "Oriental Republic of Uruguay",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República Oriental del Uruguay",
+                    "common": "Uruguay"
+                }
+            ]
+        },
+        "capital": "Montevideo",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [{ "languageCode": "es", "name": "Spanish" }],
+        "currencies": [
+            { "currencyCode": "UYU", "name": "Uruguayan Peso", "symbol": "$" }
+        ],
+        "flag": "🇺🇾",
+        "codes": { "cca2": "UY", "cca3": "URY", "ccn3": "858" },
+        "coordinates": { "latitude": -33, "longitude": -56 }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "title": "Madagaskar",
+    "slug": "madagascar",
+    "baseInfo": {
+        "name": {
+            "common": "Madagaskar",
+            "official": "Republik Madagaskar",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République de Madagascar",
+                    "common": "Madagascar"
+                },
+                {
+                    "languageCode": "mg",
+                    "official": "Repoblikan'i Madagasikara",
+                    "common": "Madagasikara"
+                }
+            ]
+        },
+        "capital": "Antananarivo",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "languageCode": "fr", "name": "Französisch" },
+            { "languageCode": "mg", "name": "Madagassisch" }
+        ],
+        "currencies": [
+            { "currencyCode": "MGA", "name": "Madagaskar-Ariary", "symbol": "Ar" }
+        ],
+        "flag": "🇲🇬",
+        "codes": { "cca2": "MG", "cca3": "MDG", "ccn3": "450" },
+        "coordinates": { "latitude": -20, "longitude": 47 }
+    }
+}

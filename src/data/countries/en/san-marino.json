@@ -1,0 +1,25 @@
+{
+    "title": "San Marino",
+    "slug": "san-marino",
+    "baseInfo": {
+        "name": {
+            "common": "San Marino",
+            "official": "Most Serene Republic of San Marino",
+            "native": [
+                {
+                    "languageCode": "it",
+                    "official": "Serenissima Repubblica di San Marino",
+                    "common": "San Marino"
+                }
+            ]
+        },
+        "capital": "City of San Marino",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": [{ "languageCode": "it", "name": "Italian" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
+        "flag": "🇸🇲",
+        "codes": { "cca2": "SM", "cca3": "SMR", "ccn3": "674" },
+        "coordinates": { "latitude": 43.76666666, "longitude": 12.41666666 }
+    }
+}

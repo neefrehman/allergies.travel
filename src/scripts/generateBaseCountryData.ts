@@ -5,18 +5,26 @@ import type { Country } from "world-countries";
 
 import { kebabCaseWithDiacriticHandling } from "../utils/kebabCase";
 import { deepMerge } from "../utils/deepMerge";
-import { ISO_639_3_TO_1_MAP } from "../utils/languageCodeMap";
+import { ISO_639_1_TO_3_MAP, ISO_639_3_TO_1_MAP } from "../utils/languageCodeMap";
 
 // eslint-disable-next-line import/no-extraneous-dependencies
 const prettier = require("prettier");
 const countryData: Country[] = require("world-countries"); // require needed to avoid `world_countries_1["default"]` error
+
+// eslint-disable-next-line @typescript-eslint/no-namespace
+declare namespace Intl {
+    class DisplayNames {
+        constructor(locales: string | string[], options: { type: string });
+        public of: (code: string) => string;
+    }
+}
 
 /**
  * Generates the base country data we will use in the site, from the
  * world-countries package.
  *
  * @remarks
- * Requires node >= 12.0 --- (and maybe full-icu for i18n?)
+ * Requires node >= 12.0 & and full-icu support to enable `Intl.DisplayNames`
  *
  * This file must be compiled to js and then run, (ts-node has bugs with
  * import statements). Use `npm run generateCountryData` to do this easily.
@@ -24,93 +32,105 @@ const countryData: Country[] = require("world-countries"); // require needed to 
 const generateBaseCountryData = async () => {
     const prettierConfig = await prettier.resolveConfig("./.prettierrc");
 
-    // locales.forEach(locale => {
-    //     const regionNamesInLocale = new Intl.DisplayNames([locale], { type: 'region' });
-    //     const currencyNamesInLocale = new Intl.DisplayNames([locale], { type: 'currency' });
-    //     const languageNamesInLocale = new Intl.DisplayNames([locale], { type: 'language' });
-    //
-    //     transformedCountryData.forEach(country => {
-    //          ...
-    //          name: regionNamesInLocale.of(country.cca2) ?? [if length ===2] country.name.common
-    //          ...
-    //          const directory = "src/data/countries/${locale}";
-    const transformedCountryData: Pick<
-        CountryContent,
-        "title" | "slug" | "baseInfo"
-    >[] = countryData.map(country => ({
-        title: country.name.common,
-        slug: kebabCaseWithDiacriticHandling(country.name.common),
-        baseInfo: {
-            name: {
-                ...country.name,
-                native: Object.entries(country.name.native).map(
-                    ([code, { official, common }]) => ({
-                        languageCode: ISO_639_3_TO_1_MAP[code],
-                        official,
-                        common,
-                    })
-                ),
-            },
-            capital: country.capital[0],
-            region: country.region,
-            subregion: country.subregion,
-            languages: Object.entries(country.languages).map(([code, name]) => ({
-                languageCode: ISO_639_3_TO_1_MAP[code],
-                name,
-            })),
-            // replace below with Intl.DisplayNames with full-icu? https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames
-            // translations: Object.entries(country.translations).map(
-            //     ([code, { official, common }]) => ({
-            //         languageCode: ISO_639_3_TO_1_MAP[code],
-            //         official,
-            //         common,
-            //     })
-            // ),
-            currencies: Object.entries(country.currencies).map(
-                ([code, { name, symbol }]) => ({
-                    name,
-                    symbol,
-                    currencyCode: code,
-                })
-            ),
-            flag: country.flag,
-            codes: {
-                cca2: country.cca2,
-                cca3: country.cca3,
-                ccn3: country.ccn3,
-            },
-            coordinates: {
-                latitude: country.latlng[0],
-                longitude: country.latlng[1],
-            },
-        },
-    }));
+    const locales = ["en", "de", "es"]; // TODO: standardise location of this array
 
-    const directory = "src/data/countries";
-
-    if (!fs.existsSync(directory)) {
-        fs.mkdirSync(directory);
-    }
-
-    transformedCountryData.forEach(country => {
-        const fileName = `${directory}/${country.slug}.json`;
-
-        let dataToSend: Partial<CountryContent> = country;
-
-        if (fs.existsSync(fileName)) {
-            // Merge new base data into existing data, while keeping additions from the CMS
-            const previousData: CountryContent = JSON.parse(
-                fs.readFileSync(fileName, "utf8")
-            );
-            dataToSend = deepMerge(previousData, country);
-        }
-
-        const formattedData = prettier.format(JSON.stringify(dataToSend), {
-            ...prettierConfig,
-            parser: "json",
+    locales.forEach(locale => {
+        const regionName = new Intl.DisplayNames([locale], { type: "region" });
+        const currencyName = new Intl.DisplayNames([locale], {
+            type: "currency",
+        });
+        const languageName = new Intl.DisplayNames([locale], {
+            type: "language",
         });
 
-        fs.writeFileSync(fileName, formattedData);
+        const transformedCountryData: Pick<
+            CountryContent,
+            "title" | "slug" | "baseInfo"
+        >[] = countryData.map(country => {
+            const localisedCountryName = country.translations[
+                ISO_639_1_TO_3_MAP[locale]
+            ] ?? {
+                common: regionName.of(country.cca2),
+                official: country.name.official,
+            };
+
+            return {
+                title: localisedCountryName.common,
+                slug: kebabCaseWithDiacriticHandling(country.name.common),
+                baseInfo: {
+                    name: {
+                        common: localisedCountryName.common,
+                        official: localisedCountryName.official,
+                        native: Object.entries(country.name.native).map(
+                            ([code, { official, common }]) => ({
+                                languageCode: ISO_639_3_TO_1_MAP[code],
+                                official,
+                                common,
+                            })
+                        ),
+                    },
+                    capital: country.capital[0],
+                    region: country.region,
+                    subregion: country.subregion,
+                    languages: Object.entries(country.languages).map(
+                        ([code, name]) => ({
+                            languageCode: ISO_639_3_TO_1_MAP[code],
+                            name:
+                                languageName.of(code).length >= 2
+                                    ? languageName.of(code)
+                                    : name,
+                        })
+                    ),
+                    currencies: Object.entries(country.currencies).map(
+                        ([code, { name, symbol }]) => ({
+                            currencyCode: code,
+                            name:
+                                currencyName.of(code).length >= 3
+                                    ? currencyName.of(code)
+                                    : name,
+                            symbol,
+                        })
+                    ),
+                    flag: country.flag,
+                    codes: {
+                        cca2: country.cca2,
+                        cca3: country.cca3,
+                        ccn3: country.ccn3,
+                    },
+                    coordinates: {
+                        latitude: country.latlng[0],
+                        longitude: country.latlng[1],
+                    },
+                },
+            };
+        });
+
+        const directory = `src/data/countries/${locale}`;
+
+        if (!fs.existsSync(directory)) {
+            fs.mkdirSync(directory);
+        }
+
+        transformedCountryData.forEach(country => {
+            const fileName = `${directory}/${country.slug}.json`;
+
+            let dataToSend: Partial<CountryContent> = country;
+
+            if (fs.existsSync(fileName)) {
+                // Merge new base data into existing data, while keeping additions from the CMS
+                const previousData: CountryContent = JSON.parse(
+                    fs.readFileSync(fileName, "utf8")
+                );
+                dataToSend = deepMerge(previousData, country);
+            }
+
+            const formattedData = prettier.format(JSON.stringify(dataToSend), {
+                ...prettierConfig,
+                parser: "json",
+            });
+
+            fs.writeFileSync(fileName, formattedData);
+        });
     });
 };
 
@@ -131,7 +151,6 @@ export type BaseCountryData = Pick<Country, "region" | "subregion" | "flag"> & {
     };
     capital: string;
     languages: { languageCode: string; name: string }[];
-    // translations?: { languageCode: string; common: string; official: string }[];
     currencies?: { name: string; symbol: string; currencyCode: string }[];
     coordinates: { latitude: number; longitude: number };
     codes?: {

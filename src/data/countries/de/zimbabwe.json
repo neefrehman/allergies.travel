@@ -1,0 +1,105 @@
+{
+    "title": "Simbabwe",
+    "slug": "zimbabwe",
+    "baseInfo": {
+        "name": {
+            "common": "Simbabwe",
+            "official": "Republik Simbabwe",
+            "native": [
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+                {
+                    "languageCode": "nd",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "ny",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "sn",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "st",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+                {
+                    "languageCode": "tn",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "ts",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "ve",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "xh",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" }
+            ]
+        },
+        "capital": "Harare",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "name": "bwg" },
+            { "languageCode": "en", "name": "Englisch" },
+            { "name": "kck" },
+            { "name": "khi" },
+            { "name": "ndc" },
+            { "languageCode": "nd", "name": "Nord-Ndebele" },
+            { "languageCode": "ny", "name": "Nyanja" },
+            { "languageCode": "sn", "name": "Shona" },
+            { "languageCode": "st", "name": "Süd-Sotho" },
+            { "name": "toi" },
+            { "languageCode": "tn", "name": "Tswana" },
+            { "languageCode": "ts", "name": "Tsonga" },
+            { "languageCode": "ve", "name": "Venda" },
+            { "languageCode": "xh", "name": "Xhosa" },
+            { "name": "zib" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "BWP",
+                "name": "Botswanischer Pula",
+                "symbol": "P"
+            },
+            { "currencyCode": "CNY", "name": "Renminbi Yuan", "symbol": "¥" },
+            { "currencyCode": "EUR", "name": "Euro", "symbol": "€" },
+            { "currencyCode": "GBP", "name": "Britisches Pfund", "symbol": "£" },
+            { "currencyCode": "INR", "name": "Indische Rupie", "symbol": "₹" },
+            { "currencyCode": "JPY", "name": "Japanischer Yen", "symbol": "¥" },
+            { "currencyCode": "USD", "name": "US-Dollar", "symbol": "$" },
+            {
+                "currencyCode": "ZAR",
+                "name": "Südafrikanischer Rand",
+                "symbol": "Rs"
+            },
+            { "currencyCode": "ZWB", "name": "ZWB", "symbol": "$" }
+        ],
+        "flag": "🇿🇼",
+        "codes": { "cca2": "ZW", "cca3": "ZWE", "ccn3": "716" },
+        "coordinates": { "latitude": -20, "longitude": 30 }
+    }
+}

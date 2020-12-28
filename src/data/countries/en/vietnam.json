@@ -1,0 +1,27 @@
+{
+    "title": "Vietnam",
+    "slug": "vietnam",
+    "baseInfo": {
+        "name": {
+            "common": "Vietnam",
+            "official": "Socialist Republic of Vietnam",
+            "native": [
+                {
+                    "languageCode": "vi",
+                    "official": "Cộng hòa xã hội chủ nghĩa Việt Nam",
+                    "common": "Việt Nam"
+                }
+            ]
+        },
+        "capital": "Hanoi",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": [{ "languageCode": "vi", "name": "Vietnamese" }],
+        "currencies": [
+            { "currencyCode": "VND", "name": "Vietnamese Dong", "symbol": "₫" }
+        ],
+        "flag": "🇻🇳",
+        "codes": { "cca2": "VN", "cca3": "VNM", "ccn3": "704" },
+        "coordinates": { "latitude": 16.16666666, "longitude": 107.83333333 }
+    }
+}

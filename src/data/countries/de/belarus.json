@@ -1,0 +1,39 @@
+{
+    "title": "Weißrussland",
+    "slug": "belarus",
+    "baseInfo": {
+        "name": {
+            "common": "Weißrussland",
+            "official": "Republik Belarus",
+            "native": [
+                {
+                    "languageCode": "be",
+                    "official": "Рэспубліка Беларусь",
+                    "common": "Белару́сь"
+                },
+                {
+                    "languageCode": "ru",
+                    "official": "Республика Беларусь",
+                    "common": "Беларусь"
+                }
+            ]
+        },
+        "capital": "Minsk",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [
+            { "languageCode": "be", "name": "Weißrussisch" },
+            { "languageCode": "ru", "name": "Russisch" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "BYN",
+                "name": "Weißrussischer Rubel",
+                "symbol": "Br"
+            }
+        ],
+        "flag": "🇧🇾",
+        "codes": { "cca2": "BY", "cca3": "BLR", "ccn3": "112" },
+        "coordinates": { "latitude": 53, "longitude": 28 }
+    }
+}

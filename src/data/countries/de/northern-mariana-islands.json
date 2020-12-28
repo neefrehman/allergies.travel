@@ -1,0 +1,40 @@
+{
+    "title": "Nördliche Marianen",
+    "slug": "northern-mariana-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Nördliche Marianen",
+            "official": "Commonwealth der Nördlichen Marianen",
+            "native": [
+                {
+                    "official": "Commonwealth of the Northern Mariana Islands",
+                    "common": "Northern Mariana Islands"
+                },
+                {
+                    "languageCode": "ch",
+                    "official": "Sankattan Siha Na Islas Mariånas",
+                    "common": "Na Islas Mariånas"
+                },
+                {
+                    "languageCode": "en",
+                    "official": "Commonwealth of the Northern Mariana Islands",
+                    "common": "Northern Mariana Islands"
+                }
+            ]
+        },
+        "capital": "Saipan",
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "languages": [
+            { "name": "cal" },
+            { "languageCode": "ch", "name": "Chamorro" },
+            { "languageCode": "en", "name": "Englisch" }
+        ],
+        "currencies": [
+            { "currencyCode": "USD", "name": "US-Dollar", "symbol": "$" }
+        ],
+        "flag": "🇲🇵",
+        "codes": { "cca2": "MP", "cca3": "MNP", "ccn3": "580" },
+        "coordinates": { "latitude": 15.2, "longitude": 145.75 }
+    }
+}

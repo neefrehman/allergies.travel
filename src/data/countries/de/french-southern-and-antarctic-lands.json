@@ -1,0 +1,25 @@
+{
+    "title": "Französische Süd- und Antarktisgebiete",
+    "slug": "french-southern-and-antarctic-lands",
+    "baseInfo": {
+        "name": {
+            "common": "Französische Süd- und Antarktisgebiete",
+            "official": "Gebiet der Französisch Süd- und Antarktisgebiete",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Territoire des Terres australes et antarctiques françaises",
+                    "common": "Terres australes et antarctiques françaises"
+                }
+            ]
+        },
+        "capital": "Port-aux-Français",
+        "region": "Antarctic",
+        "subregion": "",
+        "languages": [{ "languageCode": "fr", "name": "Französisch" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
+        "flag": "🇹🇫",
+        "codes": { "cca2": "TF", "cca3": "ATF", "ccn3": "260" },
+        "coordinates": { "latitude": -49.25, "longitude": 69.167 }
+    }
+}

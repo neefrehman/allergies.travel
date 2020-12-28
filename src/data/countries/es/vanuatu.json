@@ -1,0 +1,39 @@
+{
+    "title": "Vanuatu",
+    "slug": "vanuatu",
+    "baseInfo": {
+        "name": {
+            "common": "Vanuatu",
+            "official": "República de Vanuatu",
+            "native": [
+                {
+                    "languageCode": "bi",
+                    "official": "Ripablik blong Vanuatu",
+                    "common": "Vanuatu"
+                },
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Vanuatu",
+                    "common": "Vanuatu"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "République de Vanuatu",
+                    "common": "Vanuatu"
+                }
+            ]
+        },
+        "capital": "Port Vila",
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "languages": [
+            { "languageCode": "bi", "name": "bislama" },
+            { "languageCode": "en", "name": "inglés" },
+            { "languageCode": "fr", "name": "francés" }
+        ],
+        "currencies": [{ "currencyCode": "VUV", "name": "vatu", "symbol": "Vt" }],
+        "flag": "🇻🇺",
+        "codes": { "cca2": "VU", "cca3": "VUT", "ccn3": "548" },
+        "coordinates": { "latitude": -16, "longitude": 167 }
+    }
+}

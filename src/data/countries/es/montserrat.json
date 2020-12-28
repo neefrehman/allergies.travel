@@ -1,0 +1,31 @@
+{
+    "title": "Montserrat",
+    "slug": "montserrat",
+    "baseInfo": {
+        "name": {
+            "common": "Montserrat",
+            "official": "Montserrat",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Montserrat",
+                    "common": "Montserrat"
+                }
+            ]
+        },
+        "capital": "Plymouth",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            {
+                "currencyCode": "XCD",
+                "name": "dólar del Caribe Oriental",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇲🇸",
+        "codes": { "cca2": "MS", "cca3": "MSR", "ccn3": "500" },
+        "coordinates": { "latitude": 16.75, "longitude": -62.2 }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "title": "Zypern",
+    "slug": "cyprus",
+    "baseInfo": {
+        "name": {
+            "common": "Zypern",
+            "official": "Republik Zypern",
+            "native": [
+                {
+                    "languageCode": "el",
+                    "official": "Δημοκρατία της Κύπρος",
+                    "common": "Κύπρος"
+                },
+                {
+                    "languageCode": "tr",
+                    "official": "Kıbrıs Cumhuriyeti",
+                    "common": "Kıbrıs"
+                }
+            ]
+        },
+        "capital": "Nicosia",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [
+            { "languageCode": "el", "name": "Griechisch" },
+            { "languageCode": "tr", "name": "Türkisch" }
+        ],
+        "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
+        "flag": "🇨🇾",
+        "codes": { "cca2": "CY", "cca3": "CYP", "ccn3": "196" },
+        "coordinates": { "latitude": 35, "longitude": 33 }
+    }
+}

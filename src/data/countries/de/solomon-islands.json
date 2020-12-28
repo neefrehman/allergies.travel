@@ -1,0 +1,27 @@
+{
+    "title": "Salomonen",
+    "slug": "solomon-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Salomonen",
+            "official": "Salomonen",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Solomon Islands",
+                    "common": "Solomon Islands"
+                }
+            ]
+        },
+        "capital": "Honiara",
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "languages": [{ "languageCode": "en", "name": "Englisch" }],
+        "currencies": [
+            { "currencyCode": "SBD", "name": "Salomonen-Dollar", "symbol": "$" }
+        ],
+        "flag": "🇸🇧",
+        "codes": { "cca2": "SB", "cca3": "SLB", "ccn3": "090" },
+        "coordinates": { "latitude": -8, "longitude": 159 }
+    }
+}

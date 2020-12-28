@@ -1,0 +1,27 @@
+{
+    "title": "Honduras",
+    "slug": "honduras",
+    "baseInfo": {
+        "name": {
+            "common": "Honduras",
+            "official": "República de Honduras",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República de Honduras",
+                    "common": "Honduras"
+                }
+            ]
+        },
+        "capital": "Tegucigalpa",
+        "region": "Americas",
+        "subregion": "Central America",
+        "languages": [{ "languageCode": "es", "name": "español" }],
+        "currencies": [
+            { "currencyCode": "HNL", "name": "lempira hondureño", "symbol": "L" }
+        ],
+        "flag": "🇭🇳",
+        "codes": { "cca2": "HN", "cca3": "HND", "ccn3": "340" },
+        "coordinates": { "latitude": 15, "longitude": -86.5 }
+    }
+}

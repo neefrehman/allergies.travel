@@ -1,0 +1,31 @@
+{
+    "title": "Trinidad y Tobago",
+    "slug": "trinidad-and-tobago",
+    "baseInfo": {
+        "name": {
+            "common": "Trinidad y Tobago",
+            "official": "República de Trinidad y Tobago",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Trinidad and Tobago",
+                    "common": "Trinidad and Tobago"
+                }
+            ]
+        },
+        "capital": "Port of Spain",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            {
+                "currencyCode": "TTD",
+                "name": "dólar de Trinidad y Tobago",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇹🇹",
+        "codes": { "cca2": "TT", "cca3": "TTO", "ccn3": "780" },
+        "coordinates": { "latitude": 11, "longitude": -61 }
+    }
+}

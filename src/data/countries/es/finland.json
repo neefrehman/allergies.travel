@@ -1,0 +1,33 @@
+{
+    "title": "Finlandia",
+    "slug": "finland",
+    "baseInfo": {
+        "name": {
+            "common": "Finlandia",
+            "official": "República de Finlandia",
+            "native": [
+                {
+                    "languageCode": "fi",
+                    "official": "Suomen tasavalta",
+                    "common": "Suomi"
+                },
+                {
+                    "languageCode": "sv",
+                    "official": "Republiken Finland",
+                    "common": "Finland"
+                }
+            ]
+        },
+        "capital": "Helsinki",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [
+            { "languageCode": "fi", "name": "finés" },
+            { "languageCode": "sv", "name": "sueco" }
+        ],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇫🇮",
+        "codes": { "cca2": "FI", "cca3": "FIN", "ccn3": "246" },
+        "coordinates": { "latitude": 64, "longitude": 26 }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "title": "St. Helena",
+    "slug": "saint-helena-ascension-and-tristan-da-cunha",
+    "baseInfo": {
+        "name": {
+            "common": "St. Helena",
+            "official": "Saint Helena, Ascension and Tristan da Cunha",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Saint Helena, Ascension and Tristan da Cunha",
+                    "common": "Saint Helena, Ascension and Tristan da Cunha"
+                }
+            ]
+        },
+        "capital": "Jamestown",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "currencies": [
+            { "currencyCode": "GBP", "name": "British Pound", "symbol": "£" },
+            { "currencyCode": "SHP", "name": "St. Helena Pound", "symbol": "£" }
+        ],
+        "flag": "🇸🇭",
+        "codes": { "cca2": "SH", "cca3": "SHN", "ccn3": "654" },
+        "coordinates": { "latitude": -15.95, "longitude": -5.72 }
+    }
+}

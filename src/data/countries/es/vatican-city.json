@@ -1,0 +1,33 @@
+{
+    "title": "Ciudad del Vaticano",
+    "slug": "vatican-city",
+    "baseInfo": {
+        "name": {
+            "common": "Ciudad del Vaticano",
+            "official": "Ciudad del Vaticano",
+            "native": [
+                {
+                    "languageCode": "it",
+                    "official": "Stato della Città del Vaticano",
+                    "common": "Vaticano"
+                },
+                {
+                    "languageCode": "la",
+                    "official": "Status Civitatis Vaticanæ",
+                    "common": "Vaticanæ"
+                }
+            ]
+        },
+        "capital": "Vatican City",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": [
+            { "languageCode": "it", "name": "italiano" },
+            { "languageCode": "la", "name": "latín" }
+        ],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇻🇦",
+        "codes": { "cca2": "VA", "cca3": "VAT", "ccn3": "336" },
+        "coordinates": { "latitude": 41.9, "longitude": 12.45 }
+    }
+}

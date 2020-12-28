@@ -1,0 +1,25 @@
+{
+    "title": "Slowakei",
+    "slug": "slovakia",
+    "baseInfo": {
+        "name": {
+            "common": "Slowakei",
+            "official": "Slowakische Republik",
+            "native": [
+                {
+                    "languageCode": "sk",
+                    "official": "Slovenská republika",
+                    "common": "Slovensko"
+                }
+            ]
+        },
+        "capital": "Bratislava",
+        "region": "Europe",
+        "subregion": "Central Europe",
+        "languages": [{ "languageCode": "sk", "name": "Slowakisch" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
+        "flag": "🇸🇰",
+        "codes": { "cca2": "SK", "cca3": "SVK", "ccn3": "703" },
+        "coordinates": { "latitude": 48.66666666, "longitude": 19.5 }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "title": "Isla de Navidad",
+    "slug": "christmas-island",
+    "baseInfo": {
+        "name": {
+            "common": "Isla de Navidad",
+            "official": "Territorio de la Isla de Navidad",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Territory of Christmas Island",
+                    "common": "Christmas Island"
+                }
+            ]
+        },
+        "capital": "Flying Fish Cove",
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            { "currencyCode": "AUD", "name": "dólar australiano", "symbol": "$" }
+        ],
+        "flag": "🇨🇽",
+        "codes": { "cca2": "CX", "cca3": "CXR", "ccn3": "162" },
+        "coordinates": { "latitude": -10.5, "longitude": 105.66666666 }
+    }
+}

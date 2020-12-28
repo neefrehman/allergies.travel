@@ -1,0 +1,31 @@
+{
+    "title": "Togo",
+    "slug": "togo",
+    "baseInfo": {
+        "name": {
+            "common": "Togo",
+            "official": "República de Togo",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République togolaise",
+                    "common": "Togo"
+                }
+            ]
+        },
+        "capital": "Lomé",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "fr", "name": "francés" }],
+        "currencies": [
+            {
+                "currencyCode": "XOF",
+                "name": "franco CFA de África Occidental",
+                "symbol": "Fr"
+            }
+        ],
+        "flag": "🇹🇬",
+        "codes": { "cca2": "TG", "cca3": "TGO", "ccn3": "768" },
+        "coordinates": { "latitude": 8, "longitude": 1.16666666 }
+    }
+}

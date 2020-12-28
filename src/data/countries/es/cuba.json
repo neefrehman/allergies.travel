@@ -1,0 +1,32 @@
+{
+    "title": "Cuba",
+    "slug": "cuba",
+    "baseInfo": {
+        "name": {
+            "common": "Cuba",
+            "official": "República de Cuba",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República de Cuba",
+                    "common": "Cuba"
+                }
+            ]
+        },
+        "capital": "Havana",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "es", "name": "español" }],
+        "currencies": [
+            {
+                "currencyCode": "CUC",
+                "name": "peso cubano convertible",
+                "symbol": "$"
+            },
+            { "currencyCode": "CUP", "name": "peso cubano", "symbol": "$" }
+        ],
+        "flag": "🇨🇺",
+        "codes": { "cca2": "CU", "cca3": "CUB", "ccn3": "192" },
+        "coordinates": { "latitude": 21.5, "longitude": -80 }
+    }
+}

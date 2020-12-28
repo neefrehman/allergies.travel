@@ -1,0 +1,28 @@
+{
+    "title": "Brunei",
+    "slug": "brunei",
+    "baseInfo": {
+        "name": {
+            "common": "Brunei",
+            "official": "Nación de Brunei, Morada de la Paz",
+            "native": [
+                {
+                    "languageCode": "ms",
+                    "official": "Nation of Brunei, Abode Damai",
+                    "common": "Negara Brunei Darussalam"
+                }
+            ]
+        },
+        "capital": "Bandar Seri Begawan",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": [{ "languageCode": "ms", "name": "malayo" }],
+        "currencies": [
+            { "currencyCode": "BND", "name": "dólar bruneano", "symbol": "$" },
+            { "currencyCode": "SGD", "name": "dólar singapurense", "symbol": "$" }
+        ],
+        "flag": "🇧🇳",
+        "codes": { "cca2": "BN", "cca3": "BRN", "ccn3": "096" },
+        "coordinates": { "latitude": 4.5, "longitude": 114.66666666 }
+    }
+}

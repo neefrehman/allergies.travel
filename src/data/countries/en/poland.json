@@ -1,0 +1,27 @@
+{
+    "title": "Poland",
+    "slug": "poland",
+    "baseInfo": {
+        "name": {
+            "common": "Poland",
+            "official": "Republic of Poland",
+            "native": [
+                {
+                    "languageCode": "pl",
+                    "official": "Rzeczpospolita Polska",
+                    "common": "Polska"
+                }
+            ]
+        },
+        "capital": "Warsaw",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [{ "languageCode": "pl", "name": "Polish" }],
+        "currencies": [
+            { "currencyCode": "PLN", "name": "Polish Zloty", "symbol": "zł" }
+        ],
+        "flag": "🇵🇱",
+        "codes": { "cca2": "PL", "cca3": "POL", "ccn3": "616" },
+        "coordinates": { "latitude": 52, "longitude": 20 }
+    }
+}

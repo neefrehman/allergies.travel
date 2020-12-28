@@ -1,0 +1,41 @@
+{
+    "title": "Kongo",
+    "slug": "republic-of-the-congo",
+    "baseInfo": {
+        "name": {
+            "common": "Kongo",
+            "official": "Republik Kongo",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République du Congo",
+                    "common": "République du Congo"
+                },
+                {
+                    "languageCode": "kg",
+                    "official": "Repubilika ya Kongo",
+                    "common": "Repubilika ya Kongo"
+                },
+                {
+                    "languageCode": "ln",
+                    "official": "Republíki ya Kongó",
+                    "common": "Republíki ya Kongó"
+                }
+            ]
+        },
+        "capital": "Brazzaville",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "languages": [
+            { "languageCode": "fr", "name": "Französisch" },
+            { "languageCode": "kg", "name": "Kongolesisch" },
+            { "languageCode": "ln", "name": "Lingala" }
+        ],
+        "currencies": [
+            { "currencyCode": "XAF", "name": "CFA-Franc (BEAC)", "symbol": "Fr" }
+        ],
+        "flag": "🇨🇬",
+        "codes": { "cca2": "CG", "cca3": "COG", "ccn3": "178" },
+        "coordinates": { "latitude": -1, "longitude": 15 }
+    }
+}

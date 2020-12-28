@@ -1,0 +1,27 @@
+{
+    "title": "Guinea",
+    "slug": "guinea",
+    "baseInfo": {
+        "name": {
+            "common": "Guinea",
+            "official": "Republic of Guinea",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République de Guinée",
+                    "common": "Guinée"
+                }
+            ]
+        },
+        "capital": "Conakry",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "fr", "name": "French" }],
+        "currencies": [
+            { "currencyCode": "GNF", "name": "Guinean Franc", "symbol": "Fr" }
+        ],
+        "flag": "🇬🇳",
+        "codes": { "cca2": "GN", "cca3": "GIN", "ccn3": "324" },
+        "coordinates": { "latitude": 11, "longitude": -10 }
+    }
+}

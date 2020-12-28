@@ -1,0 +1,31 @@
+{
+    "title": "San Cristóbal y Nieves",
+    "slug": "saint-kitts-and-nevis",
+    "baseInfo": {
+        "name": {
+            "common": "San Cristóbal y Nieves",
+            "official": "Federación de San Cristóbal y Nevis",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Federation of Saint Christopher and Nevis",
+                    "common": "Saint Kitts and Nevis"
+                }
+            ]
+        },
+        "capital": "Basseterre",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            {
+                "currencyCode": "XCD",
+                "name": "dólar del Caribe Oriental",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇰🇳",
+        "codes": { "cca2": "KN", "cca3": "KNA", "ccn3": "659" },
+        "coordinates": { "latitude": 17.33333333, "longitude": -62.75 }
+    }
+}

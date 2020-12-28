@@ -1,0 +1,33 @@
+{
+    "title": "Palestina",
+    "slug": "palestine",
+    "baseInfo": {
+        "name": {
+            "common": "Palestina",
+            "official": "Estado de Palestina",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "دولة فلسطين",
+                    "common": "فلسطين"
+                }
+            ]
+        },
+        "capital": "Ramallah",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [{ "languageCode": "ar", "name": "árabe" }],
+        "currencies": [
+            { "currencyCode": "EGP", "name": "libra egipcia", "symbol": "E£" },
+            {
+                "currencyCode": "ILS",
+                "name": "nuevo séquel israelí",
+                "symbol": "₪"
+            },
+            { "currencyCode": "JOD", "name": "dinar jordano", "symbol": "JD" }
+        ],
+        "flag": "🇵🇸",
+        "codes": { "cca2": "PS", "cca3": "PSE", "ccn3": "275" },
+        "coordinates": { "latitude": 31.9, "longitude": 35.2 }
+    }
+}

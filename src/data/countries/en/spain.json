@@ -1,0 +1,25 @@
+{
+    "title": "Spain",
+    "slug": "spain",
+    "baseInfo": {
+        "name": {
+            "common": "Spain",
+            "official": "Kingdom of Spain",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "Reino de España",
+                    "common": "España"
+                }
+            ]
+        },
+        "capital": "Madrid",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": [{ "languageCode": "es", "name": "Spanish" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
+        "flag": "🇪🇸",
+        "codes": { "cca2": "ES", "cca3": "ESP", "ccn3": "724" },
+        "coordinates": { "latitude": 40, "longitude": -4 }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "title": "British Indian Ocean Territory",
+    "slug": "british-indian-ocean-territory",
+    "baseInfo": {
+        "name": {
+            "common": "British Indian Ocean Territory",
+            "official": "British Indian Ocean Territory",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "British Indian Ocean Territory",
+                    "common": "British Indian Ocean Territory"
+                }
+            ]
+        },
+        "capital": "Diego Garcia",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "currencies": [
+            { "currencyCode": "USD", "name": "US Dollar", "symbol": "$" }
+        ],
+        "flag": "🇮🇴",
+        "codes": { "cca2": "IO", "cca3": "IOT", "ccn3": "086" },
+        "coordinates": { "latitude": -6, "longitude": 71.5 }
+    }
+}

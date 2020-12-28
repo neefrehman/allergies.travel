@@ -1,0 +1,35 @@
+{
+    "title": "Sudán",
+    "slug": "sudan",
+    "baseInfo": {
+        "name": {
+            "common": "Sudán",
+            "official": "República de Sudán",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "جمهورية السودان",
+                    "common": "السودان"
+                },
+                {
+                    "languageCode": "en",
+                    "official": "Republic of the Sudan",
+                    "common": "Sudan"
+                }
+            ]
+        },
+        "capital": "Khartoum",
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "languages": [
+            { "languageCode": "ar", "name": "árabe" },
+            { "languageCode": "en", "name": "inglés" }
+        ],
+        "currencies": [
+            { "currencyCode": "SDG", "name": "libra sudanesa", "symbol": "" }
+        ],
+        "flag": "🇸🇩",
+        "codes": { "cca2": "SD", "cca3": "SDN", "ccn3": "729" },
+        "coordinates": { "latitude": 15, "longitude": 30 }
+    }
+}

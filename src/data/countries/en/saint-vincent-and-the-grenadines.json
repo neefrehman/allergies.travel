@@ -1,0 +1,31 @@
+{
+    "title": "St. Vincent & Grenadines",
+    "slug": "saint-vincent-and-the-grenadines",
+    "baseInfo": {
+        "name": {
+            "common": "St. Vincent & Grenadines",
+            "official": "Saint Vincent and the Grenadines",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Saint Vincent and the Grenadines",
+                    "common": "Saint Vincent and the Grenadines"
+                }
+            ]
+        },
+        "capital": "Kingstown",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "currencies": [
+            {
+                "currencyCode": "XCD",
+                "name": "East Caribbean Dollar",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇻🇨",
+        "codes": { "cca2": "VC", "cca3": "VCT", "ccn3": "670" },
+        "coordinates": { "latitude": 13.25, "longitude": -61.2 }
+    }
+}

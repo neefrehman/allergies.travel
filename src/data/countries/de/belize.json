@@ -1,0 +1,33 @@
+{
+    "title": "Belize",
+    "slug": "belize",
+    "baseInfo": {
+        "name": {
+            "common": "Belize",
+            "official": "Belize",
+            "native": [
+                { "official": "Belize", "common": "Belize" },
+                {
+                    "languageCode": "en",
+                    "official": "Belize",
+                    "common": "Belize"
+                },
+                { "languageCode": "es", "official": "Belice", "common": "Belice" }
+            ]
+        },
+        "capital": "Belmopan",
+        "region": "Americas",
+        "subregion": "Central America",
+        "languages": [
+            { "name": "bjz" },
+            { "languageCode": "en", "name": "Englisch" },
+            { "languageCode": "es", "name": "Spanisch" }
+        ],
+        "currencies": [
+            { "currencyCode": "BZD", "name": "Belize-Dollar", "symbol": "$" }
+        ],
+        "flag": "🇧🇿",
+        "codes": { "cca2": "BZ", "cca3": "BLZ", "ccn3": "084" },
+        "coordinates": { "latitude": 17.25, "longitude": -88.75 }
+    }
+}

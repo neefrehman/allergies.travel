@@ -1,0 +1,27 @@
+{
+    "title": "Islas Cocos o Islas Keeling",
+    "slug": "cocos-keeling-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Islas Cocos o Islas Keeling",
+            "official": "Territorio de los (Keeling) Islas Cocos",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Territory of the Cocos (Keeling) Islands",
+                    "common": "Cocos (Keeling) Islands"
+                }
+            ]
+        },
+        "capital": "West Island",
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            { "currencyCode": "AUD", "name": "dólar australiano", "symbol": "$" }
+        ],
+        "flag": "🇨🇨",
+        "codes": { "cca2": "CC", "cca3": "CCK", "ccn3": "166" },
+        "coordinates": { "latitude": -12.5, "longitude": 96.83333333 }
+    }
+}

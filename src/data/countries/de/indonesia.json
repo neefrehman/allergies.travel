@@ -1,0 +1,31 @@
+{
+    "title": "Indonesien",
+    "slug": "indonesia",
+    "baseInfo": {
+        "name": {
+            "common": "Indonesien",
+            "official": "Republik Indonesien",
+            "native": [
+                {
+                    "languageCode": "ms",
+                    "official": "Republik Indonesia",
+                    "common": "Indonesia"
+                }
+            ]
+        },
+        "capital": "Jakarta",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": [{ "languageCode": "ms", "name": "Indonesisch" }],
+        "currencies": [
+            {
+                "currencyCode": "IDR",
+                "name": "Indonesische Rupiah",
+                "symbol": "Rp"
+            }
+        ],
+        "flag": "🇮🇩",
+        "codes": { "cca2": "ID", "cca3": "IDN", "ccn3": "360" },
+        "coordinates": { "latitude": -5, "longitude": 120 }
+    }
+}

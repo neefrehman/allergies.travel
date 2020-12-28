@@ -1,0 +1,38 @@
+{
+    "title": "Papúa Nueva Guinea",
+    "slug": "papua-new-guinea",
+    "baseInfo": {
+        "name": {
+            "common": "Papúa Nueva Guinea",
+            "official": "Estado Independiente de Papúa Nueva Guinea",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Independent State of Papua New Guinea",
+                    "common": "Papua New Guinea"
+                },
+                {
+                    "languageCode": "ho",
+                    "official": "Independen Stet bilong Papua Niugini",
+                    "common": "Papua Niu Gini"
+                },
+                {
+                    "official": "Independen Stet bilong Papua Niugini",
+                    "common": "Papua Niugini"
+                }
+            ]
+        },
+        "capital": "Port Moresby",
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "languages": [
+            { "languageCode": "en", "name": "inglés" },
+            { "languageCode": "ho", "name": "hiri motu" },
+            { "name": "tok pisin" }
+        ],
+        "currencies": [{ "currencyCode": "PGK", "name": "kina", "symbol": "K" }],
+        "flag": "🇵🇬",
+        "codes": { "cca2": "PG", "cca3": "PNG", "ccn3": "598" },
+        "coordinates": { "latitude": -6, "longitude": 147 }
+    }
+}

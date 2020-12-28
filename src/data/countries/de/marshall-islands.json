@@ -1,0 +1,35 @@
+{
+    "title": "Marshallinseln",
+    "slug": "marshall-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Marshallinseln",
+            "official": "Republik Marshallinseln",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of the Marshall Islands",
+                    "common": "Marshall Islands"
+                },
+                {
+                    "languageCode": "mh",
+                    "official": "Republic of the Marshall Islands",
+                    "common": "M̧ajeļ"
+                }
+            ]
+        },
+        "capital": "Majuro",
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "languages": [
+            { "languageCode": "en", "name": "Englisch" },
+            { "languageCode": "mh", "name": "Marschallesisch" }
+        ],
+        "currencies": [
+            { "currencyCode": "USD", "name": "US-Dollar", "symbol": "$" }
+        ],
+        "flag": "🇲🇭",
+        "codes": { "cca2": "MH", "cca3": "MHL", "ccn3": "584" },
+        "coordinates": { "latitude": 9, "longitude": 168 }
+    }
+}

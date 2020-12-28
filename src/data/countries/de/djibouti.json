@@ -1,0 +1,35 @@
+{
+    "title": "Dschibuti",
+    "slug": "djibouti",
+    "baseInfo": {
+        "name": {
+            "common": "Dschibuti",
+            "official": "Republik Dschibuti",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "جمهورية جيبوتي",
+                    "common": "جيبوتي‎"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "République de Djibouti",
+                    "common": "Djibouti"
+                }
+            ]
+        },
+        "capital": "Djibouti",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "languageCode": "ar", "name": "Arabisch" },
+            { "languageCode": "fr", "name": "Französisch" }
+        ],
+        "currencies": [
+            { "currencyCode": "DJF", "name": "Dschibuti-Franc", "symbol": "Fr" }
+        ],
+        "flag": "🇩🇯",
+        "codes": { "cca2": "DJ", "cca3": "DJI", "ccn3": "262" },
+        "coordinates": { "latitude": 11.5, "longitude": 43 }
+    }
+}

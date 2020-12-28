@@ -1,0 +1,27 @@
+{
+    "title": "Türkei",
+    "slug": "turkey",
+    "baseInfo": {
+        "name": {
+            "common": "Türkei",
+            "official": "Republik Türkei",
+            "native": [
+                {
+                    "languageCode": "tr",
+                    "official": "Türkiye Cumhuriyeti",
+                    "common": "Türkiye"
+                }
+            ]
+        },
+        "capital": "Ankara",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [{ "languageCode": "tr", "name": "Türkisch" }],
+        "currencies": [
+            { "currencyCode": "TRY", "name": "Türkische Lira", "symbol": "₺" }
+        ],
+        "flag": "🇹🇷",
+        "codes": { "cca2": "TR", "cca3": "TUR", "ccn3": "792" },
+        "coordinates": { "latitude": 39, "longitude": 35 }
+    }
+}

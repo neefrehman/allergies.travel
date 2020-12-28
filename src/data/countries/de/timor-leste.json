@@ -1,0 +1,34 @@
+{
+    "title": "Osttimor",
+    "slug": "timor-leste",
+    "baseInfo": {
+        "name": {
+            "common": "Osttimor",
+            "official": "Demokratische Republik Timor-Leste",
+            "native": [
+                {
+                    "languageCode": "pt",
+                    "official": "República Democrática de Timor-Leste",
+                    "common": "Timor-Leste"
+                },
+                {
+                    "official": "Repúblika Demokrátika Timór-Leste",
+                    "common": "Timór-Leste"
+                }
+            ]
+        },
+        "capital": "Dili",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": [
+            { "languageCode": "pt", "name": "Portugiesisch" },
+            { "name": "Tetum" }
+        ],
+        "currencies": [
+            { "currencyCode": "USD", "name": "US-Dollar", "symbol": "$" }
+        ],
+        "flag": "🇹🇱",
+        "codes": { "cca2": "TL", "cca3": "TLS", "ccn3": "626" },
+        "coordinates": { "latitude": -8.83333333, "longitude": 125.91666666 }
+    }
+}

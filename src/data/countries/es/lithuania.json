@@ -1,0 +1,25 @@
+{
+    "title": "Lituania",
+    "slug": "lithuania",
+    "baseInfo": {
+        "name": {
+            "common": "Lituania",
+            "official": "República de Lituania",
+            "native": [
+                {
+                    "languageCode": "lt",
+                    "official": "Lietuvos Respublikos",
+                    "common": "Lietuva"
+                }
+            ]
+        },
+        "capital": "Vilnius",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [{ "languageCode": "lt", "name": "lituano" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇱🇹",
+        "codes": { "cca2": "LT", "cca3": "LTU", "ccn3": "440" },
+        "coordinates": { "latitude": 56, "longitude": 24 }
+    }
+}

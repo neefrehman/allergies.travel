@@ -1,0 +1,27 @@
+{
+    "title": "Guyana",
+    "slug": "guyana",
+    "baseInfo": {
+        "name": {
+            "common": "Guyana",
+            "official": "Co-operative Republic of Guyana",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Co-operative Republic of Guyana",
+                    "common": "Guyana"
+                }
+            ]
+        },
+        "capital": "Georgetown",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "currencies": [
+            { "currencyCode": "GYD", "name": "Guyanaese Dollar", "symbol": "$" }
+        ],
+        "flag": "🇬🇾",
+        "codes": { "cca2": "GY", "cca3": "GUY", "ccn3": "328" },
+        "coordinates": { "latitude": 5, "longitude": -59 }
+    }
+}

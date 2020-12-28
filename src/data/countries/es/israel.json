@@ -1,0 +1,39 @@
+{
+    "title": "Israel",
+    "slug": "israel",
+    "baseInfo": {
+        "name": {
+            "common": "Israel",
+            "official": "Estado de Israel",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "دولة إسرائيل",
+                    "common": "إسرائيل"
+                },
+                {
+                    "languageCode": "he",
+                    "official": "מדינת ישראל",
+                    "common": "ישראל"
+                }
+            ]
+        },
+        "capital": "Jerusalem",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [
+            { "languageCode": "ar", "name": "árabe" },
+            { "languageCode": "he", "name": "hebreo" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "ILS",
+                "name": "nuevo séquel israelí",
+                "symbol": "₪"
+            }
+        ],
+        "flag": "🇮🇱",
+        "codes": { "cca2": "IL", "cca3": "ISR", "ccn3": "376" },
+        "coordinates": { "latitude": 31.47, "longitude": 35.13 }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "title": "Rumania",
+    "slug": "romania",
+    "baseInfo": {
+        "name": {
+            "common": "Rumania",
+            "official": "Rumania",
+            "native": [
+                {
+                    "languageCode": "ro",
+                    "official": "România",
+                    "common": "România"
+                }
+            ]
+        },
+        "capital": "Bucharest",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [{ "languageCode": "ro", "name": "rumano" }],
+        "currencies": [
+            { "currencyCode": "RON", "name": "leu rumano", "symbol": "lei" }
+        ],
+        "flag": "🇷🇴",
+        "codes": { "cca2": "RO", "cca3": "ROU", "ccn3": "642" },
+        "coordinates": { "latitude": 46, "longitude": 25 }
+    }
+}

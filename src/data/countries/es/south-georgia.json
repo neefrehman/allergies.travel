@@ -1,0 +1,31 @@
+{
+    "title": "Islas Georgias del Sur y Sandwich del Sur",
+    "slug": "south-georgia",
+    "baseInfo": {
+        "name": {
+            "common": "Islas Georgias del Sur y Sandwich del Sur",
+            "official": "Georgia del Sur y las Islas Sandwich del Sur",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "South Georgia and the South Sandwich Islands",
+                    "common": "South Georgia"
+                }
+            ]
+        },
+        "capital": "King Edward Point",
+        "region": "Antarctic",
+        "subregion": "",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            {
+                "currencyCode": "SHP",
+                "name": "libra de Santa Elena",
+                "symbol": "£"
+            }
+        ],
+        "flag": "🇬🇸",
+        "codes": { "cca2": "GS", "cca3": "SGS", "ccn3": "239" },
+        "coordinates": { "latitude": -54.5, "longitude": -37 }
+    }
+}

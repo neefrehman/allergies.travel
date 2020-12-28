@@ -1,0 +1,25 @@
+{
+    "title": "San Pedro y Miquelón",
+    "slug": "saint-pierre-and-miquelon",
+    "baseInfo": {
+        "name": {
+            "common": "San Pedro y Miquelón",
+            "official": "San Pedro y Miquelón",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Collectivité territoriale de Saint-Pierre-et-Miquelon",
+                    "common": "Saint-Pierre-et-Miquelon"
+                }
+            ]
+        },
+        "capital": "Saint-Pierre",
+        "region": "Americas",
+        "subregion": "North America",
+        "languages": [{ "languageCode": "fr", "name": "francés" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇵🇲",
+        "codes": { "cca2": "PM", "cca3": "SPM", "ccn3": "666" },
+        "coordinates": { "latitude": 46.83333333, "longitude": -56.33333333 }
+    }
+}

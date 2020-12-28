@@ -1,0 +1,27 @@
+{
+    "title": "Sudán del Sur",
+    "slug": "south-sudan",
+    "baseInfo": {
+        "name": {
+            "common": "Sudán del Sur",
+            "official": "República de Sudán del Sur",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of South Sudan",
+                    "common": "South Sudan"
+                }
+            ]
+        },
+        "capital": "Juba",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            { "currencyCode": "SSP", "name": "libra sursudanesa", "symbol": "£" }
+        ],
+        "flag": "🇸🇸",
+        "codes": { "cca2": "SS", "cca3": "SSD", "ccn3": "728" },
+        "coordinates": { "latitude": 7, "longitude": 30 }
+    }
+}

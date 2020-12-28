@@ -1,0 +1,35 @@
+{
+    "title": "Argentina",
+    "slug": "argentina",
+    "baseInfo": {
+        "name": {
+            "common": "Argentina",
+            "official": "República Argentina",
+            "native": [
+                {
+                    "languageCode": "gn",
+                    "official": "Argentine Republic",
+                    "common": "Argentina"
+                },
+                {
+                    "languageCode": "es",
+                    "official": "República Argentina",
+                    "common": "Argentina"
+                }
+            ]
+        },
+        "capital": "Buenos Aires",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [
+            { "languageCode": "gn", "name": "guaraní" },
+            { "languageCode": "es", "name": "español" }
+        ],
+        "currencies": [
+            { "currencyCode": "ARS", "name": "peso argentino", "symbol": "$" }
+        ],
+        "flag": "🇦🇷",
+        "codes": { "cca2": "AR", "cca3": "ARG", "ccn3": "032" },
+        "coordinates": { "latitude": -34, "longitude": -64 }
+    }
+}

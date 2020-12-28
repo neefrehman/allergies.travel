@@ -1,0 +1,27 @@
+{
+    "title": "Malediven",
+    "slug": "maldives",
+    "baseInfo": {
+        "name": {
+            "common": "Malediven",
+            "official": "Republik Malediven",
+            "native": [
+                {
+                    "languageCode": "dv",
+                    "official": "ދިވެހިރާއްޖޭގެ ޖުމްހޫރިއްޔާ",
+                    "common": "ދިވެހިރާއްޖޭގެ"
+                }
+            ]
+        },
+        "capital": "Malé",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "languages": [{ "languageCode": "dv", "name": "Dhivehi" }],
+        "currencies": [
+            { "currencyCode": "MVR", "name": "Malediven-Rufiyaa", "symbol": ".ރ" }
+        ],
+        "flag": "🇲🇻",
+        "codes": { "cca2": "MV", "cca3": "MDV", "ccn3": "462" },
+        "coordinates": { "latitude": 3.25, "longitude": 73 }
+    }
+}

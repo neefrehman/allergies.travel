@@ -1,0 +1,27 @@
+{
+    "title": "Polinesia Francesa",
+    "slug": "french-polynesia",
+    "baseInfo": {
+        "name": {
+            "common": "Polinesia Francesa",
+            "official": "Polinesia francés",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Polynésie française",
+                    "common": "Polynésie française"
+                }
+            ]
+        },
+        "capital": "Papeetē",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": [{ "languageCode": "fr", "name": "francés" }],
+        "currencies": [
+            { "currencyCode": "XPF", "name": "franco CFP", "symbol": "₣" }
+        ],
+        "flag": "🇵🇫",
+        "codes": { "cca2": "PF", "cca3": "PYF", "ccn3": "258" },
+        "coordinates": { "latitude": -15, "longitude": -140 }
+    }
+}

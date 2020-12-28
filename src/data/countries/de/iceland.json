@@ -1,0 +1,23 @@
+{
+    "title": "Island",
+    "slug": "iceland",
+    "baseInfo": {
+        "name": {
+            "common": "Island",
+            "official": "Island",
+            "native": [
+                { "languageCode": "is", "official": "Ísland", "common": "Ísland" }
+            ]
+        },
+        "capital": "Reykjavik",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [{ "languageCode": "is", "name": "Isländisch" }],
+        "currencies": [
+            { "currencyCode": "ISK", "name": "Isländische Krone", "symbol": "kr" }
+        ],
+        "flag": "🇮🇸",
+        "codes": { "cca2": "IS", "cca3": "ISL", "ccn3": "352" },
+        "coordinates": { "latitude": 65, "longitude": -18 }
+    }
+}

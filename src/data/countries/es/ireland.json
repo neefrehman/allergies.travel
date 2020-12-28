@@ -1,0 +1,33 @@
+{
+    "title": "Irlanda",
+    "slug": "ireland",
+    "baseInfo": {
+        "name": {
+            "common": "Irlanda",
+            "official": "República de Irlanda",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Ireland",
+                    "common": "Ireland"
+                },
+                {
+                    "languageCode": "ga",
+                    "official": "Poblacht na hÉireann",
+                    "common": "Éire"
+                }
+            ]
+        },
+        "capital": "Dublin",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [
+            { "languageCode": "en", "name": "inglés" },
+            { "languageCode": "ga", "name": "irlandés" }
+        ],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇮🇪",
+        "codes": { "cca2": "IE", "cca3": "IRL", "ccn3": "372" },
+        "coordinates": { "latitude": 53, "longitude": -8 }
+    }
+}

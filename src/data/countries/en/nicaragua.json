@@ -1,0 +1,31 @@
+{
+    "title": "Nicaragua",
+    "slug": "nicaragua",
+    "baseInfo": {
+        "name": {
+            "common": "Nicaragua",
+            "official": "Republic of Nicaragua",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República de Nicaragua",
+                    "common": "Nicaragua"
+                }
+            ]
+        },
+        "capital": "Managua",
+        "region": "Americas",
+        "subregion": "Central America",
+        "languages": [{ "languageCode": "es", "name": "Spanish" }],
+        "currencies": [
+            {
+                "currencyCode": "NIO",
+                "name": "Nicaraguan Córdoba",
+                "symbol": "C$"
+            }
+        ],
+        "flag": "🇳🇮",
+        "codes": { "cca2": "NI", "cca3": "NIC", "ccn3": "558" },
+        "coordinates": { "latitude": 13, "longitude": -85 }
+    }
+}

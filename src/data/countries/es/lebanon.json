@@ -1,0 +1,35 @@
+{
+    "title": "Líbano",
+    "slug": "lebanon",
+    "baseInfo": {
+        "name": {
+            "common": "Líbano",
+            "official": "República Libanesa",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "الجمهورية اللبنانية",
+                    "common": "لبنان"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "République libanaise",
+                    "common": "Liban"
+                }
+            ]
+        },
+        "capital": "Beirut",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [
+            { "languageCode": "ar", "name": "árabe" },
+            { "languageCode": "fr", "name": "francés" }
+        ],
+        "currencies": [
+            { "currencyCode": "LBP", "name": "libra libanesa", "symbol": "ل.ل" }
+        ],
+        "flag": "🇱🇧",
+        "codes": { "cca2": "LB", "cca3": "LBN", "ccn3": "422" },
+        "coordinates": { "latitude": 33.83333333, "longitude": 35.83333333 }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "title": "San Vicente y Granadinas",
+    "slug": "saint-vincent-and-the-grenadines",
+    "baseInfo": {
+        "name": {
+            "common": "San Vicente y Granadinas",
+            "official": "San Vicente y las Granadinas",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Saint Vincent and the Grenadines",
+                    "common": "Saint Vincent and the Grenadines"
+                }
+            ]
+        },
+        "capital": "Kingstown",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            {
+                "currencyCode": "XCD",
+                "name": "dólar del Caribe Oriental",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇻🇨",
+        "codes": { "cca2": "VC", "cca3": "VCT", "ccn3": "670" },
+        "coordinates": { "latitude": 13.25, "longitude": -61.2 }
+    }
+}

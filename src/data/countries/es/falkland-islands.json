@@ -1,0 +1,27 @@
+{
+    "title": "Islas Malvinas",
+    "slug": "falkland-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Islas Malvinas",
+            "official": "islas Malvinas",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Falkland Islands",
+                    "common": "Falkland Islands"
+                }
+            ]
+        },
+        "capital": "Stanley",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            { "currencyCode": "FKP", "name": "libra malvinense", "symbol": "£" }
+        ],
+        "flag": "🇫🇰",
+        "codes": { "cca2": "FK", "cca3": "FLK", "ccn3": "238" },
+        "coordinates": { "latitude": -51.75, "longitude": -59 }
+    }
+}

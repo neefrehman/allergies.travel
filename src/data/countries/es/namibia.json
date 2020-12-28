@@ -1,0 +1,66 @@
+{
+    "title": "Namibia",
+    "slug": "namibia",
+    "baseInfo": {
+        "name": {
+            "common": "Namibia",
+            "official": "República de Namibia",
+            "native": [
+                {
+                    "languageCode": "af",
+                    "official": "Republiek van Namibië",
+                    "common": "Namibië"
+                },
+                {
+                    "languageCode": "de",
+                    "official": "Republik Namibia",
+                    "common": "Namibia"
+                },
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Namibia",
+                    "common": "Namibia"
+                },
+                {
+                    "languageCode": "hz",
+                    "official": "Republic of Namibia",
+                    "common": "Namibia"
+                },
+                { "official": "Republic of Namibia", "common": "Namibia" },
+                { "official": "Republic of Namibia", "common": "Namibia" },
+                { "official": "Republic of Namibia", "common": "Namibia" },
+                {
+                    "languageCode": "ng",
+                    "official": "Republic of Namibia",
+                    "common": "Namibia"
+                },
+                {
+                    "languageCode": "tn",
+                    "official": "Lefatshe la Namibia",
+                    "common": "Namibia"
+                }
+            ]
+        },
+        "capital": "Windhoek",
+        "region": "Africa",
+        "subregion": "Southern Africa",
+        "languages": [
+            { "languageCode": "af", "name": "afrikáans" },
+            { "languageCode": "de", "name": "alemán" },
+            { "languageCode": "en", "name": "inglés" },
+            { "languageCode": "hz", "name": "herero" },
+            { "name": "hgm" },
+            { "name": "kwn" },
+            { "name": "lozi" },
+            { "languageCode": "ng", "name": "ndonga" },
+            { "languageCode": "tn", "name": "setsuana" }
+        ],
+        "currencies": [
+            { "currencyCode": "NAD", "name": "dólar namibio", "symbol": "$" },
+            { "currencyCode": "ZAR", "name": "rand", "symbol": "R" }
+        ],
+        "flag": "🇳🇦",
+        "codes": { "cca2": "NA", "cca3": "NAM", "ccn3": "516" },
+        "coordinates": { "latitude": -22, "longitude": 17 }
+    }
+}

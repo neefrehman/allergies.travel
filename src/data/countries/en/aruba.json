@@ -1,0 +1,27 @@
+{
+    "title": "Aruba",
+    "slug": "aruba",
+    "baseInfo": {
+        "name": {
+            "common": "Aruba",
+            "official": "Aruba",
+            "native": [
+                { "languageCode": "nl", "official": "Aruba", "common": "Aruba" },
+                { "official": "Aruba", "common": "Aruba" }
+            ]
+        },
+        "capital": "Oranjestad",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [
+            { "languageCode": "nl", "name": "Dutch" },
+            { "name": "Papiamento" }
+        ],
+        "currencies": [
+            { "currencyCode": "AWG", "name": "Aruban Florin", "symbol": "ƒ" }
+        ],
+        "flag": "🇦🇼",
+        "codes": { "cca2": "AW", "cca3": "ABW", "ccn3": "533" },
+        "coordinates": { "latitude": 12.5, "longitude": -69.96666666 }
+    }
+}

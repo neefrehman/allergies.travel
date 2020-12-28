@@ -1,0 +1,35 @@
+{
+    "title": "Chequia",
+    "slug": "czechia",
+    "baseInfo": {
+        "name": {
+            "common": "Chequia",
+            "official": "República Checa",
+            "native": [
+                {
+                    "languageCode": "cs",
+                    "official": "česká republika",
+                    "common": "Česko"
+                },
+                {
+                    "languageCode": "sk",
+                    "official": "Česká republika",
+                    "common": "Česko"
+                }
+            ]
+        },
+        "capital": "Prague",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [
+            { "languageCode": "cs", "name": "checo" },
+            { "languageCode": "sk", "name": "eslovaco" }
+        ],
+        "currencies": [
+            { "currencyCode": "CZK", "name": "corona checa", "symbol": "Kč" }
+        ],
+        "flag": "🇨🇿",
+        "codes": { "cca2": "CZ", "cca3": "CZE", "ccn3": "203" },
+        "coordinates": { "latitude": 49.75, "longitude": 15.5 }
+    }
+}

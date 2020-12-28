@@ -1,0 +1,25 @@
+{
+    "title": "Estland",
+    "slug": "estonia",
+    "baseInfo": {
+        "name": {
+            "common": "Estland",
+            "official": "Republik Estland",
+            "native": [
+                {
+                    "languageCode": "et",
+                    "official": "Eesti Vabariik",
+                    "common": "Eesti"
+                }
+            ]
+        },
+        "capital": "Tallinn",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [{ "languageCode": "et", "name": "Estnisch" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
+        "flag": "🇪🇪",
+        "codes": { "cca2": "EE", "cca3": "EST", "ccn3": "233" },
+        "coordinates": { "latitude": 59, "longitude": 26 }
+    }
+}

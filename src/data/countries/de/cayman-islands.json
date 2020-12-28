@@ -1,0 +1,27 @@
+{
+    "title": "Kaimaninseln",
+    "slug": "cayman-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Kaimaninseln",
+            "official": "Cayman-Inseln",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Cayman Islands",
+                    "common": "Cayman Islands"
+                }
+            ]
+        },
+        "capital": "George Town",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "Englisch" }],
+        "currencies": [
+            { "currencyCode": "KYD", "name": "Kaiman-Dollar", "symbol": "$" }
+        ],
+        "flag": "🇰🇾",
+        "codes": { "cca2": "KY", "cca3": "CYM", "ccn3": "136" },
+        "coordinates": { "latitude": 19.5, "longitude": -80.5 }
+    }
+}

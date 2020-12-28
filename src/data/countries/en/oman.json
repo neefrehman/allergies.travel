@@ -1,0 +1,27 @@
+{
+    "title": "Oman",
+    "slug": "oman",
+    "baseInfo": {
+        "name": {
+            "common": "Oman",
+            "official": "Sultanate of Oman",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "سلطنة عمان",
+                    "common": "عمان"
+                }
+            ]
+        },
+        "capital": "Muscat",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [{ "languageCode": "ar", "name": "Arabic" }],
+        "currencies": [
+            { "currencyCode": "OMR", "name": "Omani Rial", "symbol": "ر.ع." }
+        ],
+        "flag": "🇴🇲",
+        "codes": { "cca2": "OM", "cca3": "OMN", "ccn3": "512" },
+        "coordinates": { "latitude": 21, "longitude": 57 }
+    }
+}

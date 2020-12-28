@@ -1,0 +1,32 @@
+{
+    "title": "Bahamas",
+    "slug": "bahamas",
+    "baseInfo": {
+        "name": {
+            "common": "Bahamas",
+            "official": "Commonwealth de las Bahamas",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Commonwealth of the Bahamas",
+                    "common": "Bahamas"
+                }
+            ]
+        },
+        "capital": "Nassau",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            { "currencyCode": "BSD", "name": "dólar bahameño", "symbol": "$" },
+            {
+                "currencyCode": "USD",
+                "name": "dólar estadounidense",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇧🇸",
+        "codes": { "cca2": "BS", "cca3": "BHS", "ccn3": "044" },
+        "coordinates": { "latitude": 24.25, "longitude": -76 }
+    }
+}

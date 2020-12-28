@@ -1,0 +1,27 @@
+{
+    "title": "Tunisia",
+    "slug": "tunisia",
+    "baseInfo": {
+        "name": {
+            "common": "Tunisia",
+            "official": "Tunisian Republic",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "الجمهورية التونسية",
+                    "common": "تونس"
+                }
+            ]
+        },
+        "capital": "Tunis",
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "languages": [{ "languageCode": "ar", "name": "Arabic" }],
+        "currencies": [
+            { "currencyCode": "TND", "name": "Tunisian Dinar", "symbol": "د.ت" }
+        ],
+        "flag": "🇹🇳",
+        "codes": { "cca2": "TN", "cca3": "TUN", "ccn3": "788" },
+        "coordinates": { "latitude": 34, "longitude": 9 }
+    }
+}

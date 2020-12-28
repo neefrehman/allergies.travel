@@ -1,0 +1,23 @@
+{
+    "title": "Japan",
+    "slug": "japan",
+    "baseInfo": {
+        "name": {
+            "common": "Japan",
+            "official": "Japan",
+            "native": [
+                { "languageCode": "ja", "official": "日本", "common": "日本" }
+            ]
+        },
+        "capital": "Tokyo",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "languages": [{ "languageCode": "ja", "name": "Japanese" }],
+        "currencies": [
+            { "currencyCode": "JPY", "name": "Japanese Yen", "symbol": "¥" }
+        ],
+        "flag": "🇯🇵",
+        "codes": { "cca2": "JP", "cca3": "JPN", "ccn3": "392" },
+        "coordinates": { "latitude": 36, "longitude": 138 }
+    }
+}

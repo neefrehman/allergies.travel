@@ -1,0 +1,33 @@
+{
+    "title": "Chipre",
+    "slug": "cyprus",
+    "baseInfo": {
+        "name": {
+            "common": "Chipre",
+            "official": "República de Chipre",
+            "native": [
+                {
+                    "languageCode": "el",
+                    "official": "Δημοκρατία της Κύπρος",
+                    "common": "Κύπρος"
+                },
+                {
+                    "languageCode": "tr",
+                    "official": "Kıbrıs Cumhuriyeti",
+                    "common": "Kıbrıs"
+                }
+            ]
+        },
+        "capital": "Nicosia",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [
+            { "languageCode": "el", "name": "griego" },
+            { "languageCode": "tr", "name": "turco" }
+        ],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇨🇾",
+        "codes": { "cca2": "CY", "cca3": "CYP", "ccn3": "196" },
+        "coordinates": { "latitude": 35, "longitude": 33 }
+    }
+}

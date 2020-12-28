@@ -1,0 +1,39 @@
+{
+    "title": "Tajikistan",
+    "slug": "tajikistan",
+    "baseInfo": {
+        "name": {
+            "common": "Tajikistan",
+            "official": "Republic of Tajikistan",
+            "native": [
+                {
+                    "languageCode": "ru",
+                    "official": "Республика Таджикистан",
+                    "common": "Таджикистан"
+                },
+                {
+                    "languageCode": "tg",
+                    "official": "Ҷумҳурии Тоҷикистон",
+                    "common": "Тоҷикистон"
+                }
+            ]
+        },
+        "capital": "Dushanbe",
+        "region": "Asia",
+        "subregion": "Central Asia",
+        "languages": [
+            { "languageCode": "ru", "name": "Russian" },
+            { "languageCode": "tg", "name": "Tajik" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "TJS",
+                "name": "Tajikistani Somoni",
+                "symbol": "ЅМ"
+            }
+        ],
+        "flag": "🇹🇯",
+        "codes": { "cca2": "TJ", "cca3": "TJK", "ccn3": "762" },
+        "coordinates": { "latitude": 39, "longitude": 71 }
+    }
+}

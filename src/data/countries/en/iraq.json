@@ -1,0 +1,37 @@
+{
+    "title": "Iraq",
+    "slug": "iraq",
+    "baseInfo": {
+        "name": {
+            "common": "Iraq",
+            "official": "Republic of Iraq",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "جمهورية العراق",
+                    "common": "العراق"
+                },
+                { "official": "ܩܘܼܛܢܵܐ ܐܝܼܪܲܩ", "common": "ܩܘܼܛܢܵܐ" },
+                {
+                    "languageCode": "ku",
+                    "official": "کۆماری عێراق",
+                    "common": "کۆماری"
+                }
+            ]
+        },
+        "capital": "Baghdad",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [
+            { "languageCode": "ar", "name": "Arabic" },
+            { "name": "Aramaic" },
+            { "languageCode": "ku", "name": "Central Kurdish" }
+        ],
+        "currencies": [
+            { "currencyCode": "IQD", "name": "Iraqi Dinar", "symbol": "ع.د" }
+        ],
+        "flag": "🇮🇶",
+        "codes": { "cca2": "IQ", "cca3": "IRQ", "ccn3": "368" },
+        "coordinates": { "latitude": 33, "longitude": 44 }
+    }
+}

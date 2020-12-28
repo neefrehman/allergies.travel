@@ -1,0 +1,92 @@
+{
+    "title": "Südafrika",
+    "slug": "south-africa",
+    "baseInfo": {
+        "name": {
+            "common": "Südafrika",
+            "official": "Republik Südafrika",
+            "native": [
+                {
+                    "languageCode": "af",
+                    "official": "Republiek van Suid-Afrika",
+                    "common": "South Africa"
+                },
+                {
+                    "languageCode": "en",
+                    "official": "Republic of South Africa",
+                    "common": "South Africa"
+                },
+                {
+                    "languageCode": "nr",
+                    "official": "IRiphabliki yeSewula Afrika",
+                    "common": "Sewula Afrika"
+                },
+                {
+                    "official": "Rephaboliki ya Afrika-Borwa ",
+                    "common": "Afrika-Borwa"
+                },
+                {
+                    "languageCode": "st",
+                    "official": "Rephaboliki ya Afrika Borwa",
+                    "common": "Afrika Borwa"
+                },
+                {
+                    "languageCode": "ss",
+                    "official": "IRiphabhulikhi yeNingizimu Afrika",
+                    "common": "Ningizimu Afrika"
+                },
+                {
+                    "languageCode": "tn",
+                    "official": "Rephaboliki ya Aforika Borwa",
+                    "common": "Aforika Borwa"
+                },
+                {
+                    "languageCode": "ts",
+                    "official": "Riphabliki ra Afrika Dzonga",
+                    "common": "Afrika Dzonga"
+                },
+                {
+                    "languageCode": "ve",
+                    "official": "Riphabuḽiki ya Afurika Tshipembe",
+                    "common": "Afurika Tshipembe"
+                },
+                {
+                    "languageCode": "xh",
+                    "official": "IRiphabliki yaseMzantsi Afrika",
+                    "common": "Mzantsi Afrika"
+                },
+                {
+                    "languageCode": "zu",
+                    "official": "IRiphabliki yaseNingizimu Afrika",
+                    "common": "Ningizimu Afrika"
+                }
+            ]
+        },
+        "capital": "Pretoria",
+        "region": "Africa",
+        "subregion": "Southern Africa",
+        "languages": [
+            { "languageCode": "af", "name": "Afrikaans" },
+            { "languageCode": "en", "name": "Englisch" },
+            { "languageCode": "nr", "name": "Süd-Ndebele" },
+            { "name": "Nord-Sotho" },
+            { "languageCode": "st", "name": "Süd-Sotho" },
+            { "languageCode": "ss", "name": "Swazi" },
+            { "languageCode": "tn", "name": "Tswana" },
+            { "languageCode": "ts", "name": "Tsonga" },
+            { "languageCode": "ve", "name": "Venda" },
+            { "languageCode": "xh", "name": "Xhosa" },
+            { "languageCode": "zu", "name": "Zulu" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "ZAR",
+                "name": "Südafrikanischer Rand",
+                "symbol": "R"
+            }
+        ],
+        "flag": "🇿🇦",
+        "codes": { "cca2": "ZA", "cca3": "ZAF", "ccn3": "710" },
+        "coordinates": { "latitude": -29, "longitude": 24 }
+    }
+}

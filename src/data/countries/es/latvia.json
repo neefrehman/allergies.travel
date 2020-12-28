@@ -1,0 +1,25 @@
+{
+    "title": "Letonia",
+    "slug": "latvia",
+    "baseInfo": {
+        "name": {
+            "common": "Letonia",
+            "official": "República de Letonia",
+            "native": [
+                {
+                    "languageCode": "lv",
+                    "official": "Latvijas Republikas",
+                    "common": "Latvija"
+                }
+            ]
+        },
+        "capital": "Riga",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [{ "languageCode": "lv", "name": "letón" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇱🇻",
+        "codes": { "cca2": "LV", "cca3": "LVA", "ccn3": "428" },
+        "coordinates": { "latitude": 57, "longitude": 25 }
+    }
+}

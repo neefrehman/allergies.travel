@@ -1,0 +1,31 @@
+{
+    "title": "Jamaika",
+    "slug": "jamaica",
+    "baseInfo": {
+        "name": {
+            "common": "Jamaika",
+            "official": "Jamaika",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Jamaica",
+                    "common": "Jamaica"
+                },
+                { "official": "Jamaica", "common": "Jamaica" }
+            ]
+        },
+        "capital": "Kingston",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [
+            { "languageCode": "en", "name": "Englisch" },
+            { "name": "Jamaikanisch-Kreolisch" }
+        ],
+        "currencies": [
+            { "currencyCode": "JMD", "name": "Jamaika-Dollar", "symbol": "$" }
+        ],
+        "flag": "🇯🇲",
+        "codes": { "cca2": "JM", "cca3": "JAM", "ccn3": "388" },
+        "coordinates": { "latitude": 18.25, "longitude": -77.5 }
+    }
+}

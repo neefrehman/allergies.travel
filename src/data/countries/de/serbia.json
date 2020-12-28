@@ -1,0 +1,31 @@
+{
+    "title": "Serbien",
+    "slug": "serbia",
+    "baseInfo": {
+        "name": {
+            "common": "Serbien",
+            "official": "Republik Serbien",
+            "native": [
+                {
+                    "languageCode": "sh",
+                    "official": "Република Србија",
+                    "common": "Србија"
+                }
+            ]
+        },
+        "capital": "Belgrade",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": [{ "languageCode": "sh", "name": "Serbisch" }],
+        "currencies": [
+            {
+                "currencyCode": "RSD",
+                "name": "Serbischer Dinar",
+                "symbol": "дин."
+            }
+        ],
+        "flag": "🇷🇸",
+        "codes": { "cca2": "RS", "cca3": "SRB", "ccn3": "688" },
+        "coordinates": { "latitude": 44, "longitude": 21 }
+    }
+}

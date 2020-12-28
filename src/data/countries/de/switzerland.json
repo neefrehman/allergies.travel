@@ -1,0 +1,50 @@
+{
+    "title": "Schweiz",
+    "slug": "switzerland",
+    "baseInfo": {
+        "name": {
+            "common": "Schweiz",
+            "official": "Schweizerische Eidgenossenschaft",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Confédération suisse",
+                    "common": "Suisse"
+                },
+                {
+                    "official": "Schweizerische Eidgenossenschaft",
+                    "common": "Schweiz"
+                },
+                {
+                    "languageCode": "it",
+                    "official": "Confederazione Svizzera",
+                    "common": "Svizzera"
+                },
+                {
+                    "languageCode": "rm",
+                    "official": "Confederaziun svizra",
+                    "common": "Svizra"
+                }
+            ]
+        },
+        "capital": "Bern",
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "languages": [
+            { "languageCode": "fr", "name": "Französisch" },
+            { "name": "Schweizerdeutsch" },
+            { "languageCode": "it", "name": "Italienisch" },
+            { "languageCode": "rm", "name": "Rätoromanisch" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "CHF",
+                "name": "Schweizer Franken",
+                "symbol": "Fr."
+            }
+        ],
+        "flag": "🇨🇭",
+        "codes": { "cca2": "CH", "cca3": "CHE", "ccn3": "756" },
+        "coordinates": { "latitude": 47, "longitude": 8 }
+    }
+}

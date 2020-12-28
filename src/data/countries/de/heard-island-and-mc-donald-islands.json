@@ -1,0 +1,25 @@
+{
+    "title": "Heard und die McDonaldinseln",
+    "slug": "heard-island-and-mc-donald-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Heard und die McDonaldinseln",
+            "official": "Heard und McDonaldinseln",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Heard Island and McDonald Islands",
+                    "common": "Heard Island and McDonald Islands"
+                }
+            ]
+        },
+        "capital": "",
+        "region": "Antarctic",
+        "subregion": "",
+        "languages": [{ "languageCode": "en", "name": "Englisch" }],
+        "currencies": [],
+        "flag": "🇭🇲",
+        "codes": { "cca2": "HM", "cca3": "HMD", "ccn3": "334" },
+        "coordinates": { "latitude": -53.1, "longitude": 72.51666666 }
+    }
+}

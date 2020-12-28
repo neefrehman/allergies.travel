@@ -1,0 +1,31 @@
+{
+    "title": "Mali",
+    "slug": "mali",
+    "baseInfo": {
+        "name": {
+            "common": "Mali",
+            "official": "República de Malí",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République du Mali",
+                    "common": "Mali"
+                }
+            ]
+        },
+        "capital": "Bamako",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "fr", "name": "francés" }],
+        "currencies": [
+            {
+                "currencyCode": "XOF",
+                "name": "franco CFA de África Occidental",
+                "symbol": "Fr"
+            }
+        ],
+        "flag": "🇲🇱",
+        "codes": { "cca2": "ML", "cca3": "MLI", "ccn3": "466" },
+        "coordinates": { "latitude": 17, "longitude": -4 }
+    }
+}

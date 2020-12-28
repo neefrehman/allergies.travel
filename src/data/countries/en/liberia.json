@@ -1,0 +1,27 @@
+{
+    "title": "Liberia",
+    "slug": "liberia",
+    "baseInfo": {
+        "name": {
+            "common": "Liberia",
+            "official": "Republic of Liberia",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Liberia",
+                    "common": "Liberia"
+                }
+            ]
+        },
+        "capital": "Monrovia",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "currencies": [
+            { "currencyCode": "LRD", "name": "Liberian Dollar", "symbol": "$" }
+        ],
+        "flag": "🇱🇷",
+        "codes": { "cca2": "LR", "cca3": "LBR", "ccn3": "430" },
+        "coordinates": { "latitude": 6.5, "longitude": -9.5 }
+    }
+}

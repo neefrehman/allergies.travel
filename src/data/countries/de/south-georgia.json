@@ -1,0 +1,27 @@
+{
+    "title": "Südgeorgien und die Südlichen Sandwichinseln",
+    "slug": "south-georgia",
+    "baseInfo": {
+        "name": {
+            "common": "Südgeorgien und die Südlichen Sandwichinseln",
+            "official": "Südgeorgien und die Südlichen Sandwichinseln",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "South Georgia and the South Sandwich Islands",
+                    "common": "South Georgia"
+                }
+            ]
+        },
+        "capital": "King Edward Point",
+        "region": "Antarctic",
+        "subregion": "",
+        "languages": [{ "languageCode": "en", "name": "Englisch" }],
+        "currencies": [
+            { "currencyCode": "SHP", "name": "St. Helena-Pfund", "symbol": "£" }
+        ],
+        "flag": "🇬🇸",
+        "codes": { "cca2": "GS", "cca3": "SGS", "ccn3": "239" },
+        "coordinates": { "latitude": -54.5, "longitude": -37 }
+    }
+}

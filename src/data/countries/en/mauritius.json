@@ -1,0 +1,37 @@
+{
+    "title": "Mauritius",
+    "slug": "mauritius",
+    "baseInfo": {
+        "name": {
+            "common": "Mauritius",
+            "official": "Republic of Mauritius",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Mauritius",
+                    "common": "Mauritius"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "République de Maurice",
+                    "common": "Maurice"
+                },
+                { "official": "Republik Moris", "common": "Moris" }
+            ]
+        },
+        "capital": "Port Louis",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "fr", "name": "French" },
+            { "name": "Morisyen" }
+        ],
+        "currencies": [
+            { "currencyCode": "MUR", "name": "Mauritian Rupee", "symbol": "₨" }
+        ],
+        "flag": "🇲🇺",
+        "codes": { "cca2": "MU", "cca3": "MUS", "ccn3": "480" },
+        "coordinates": { "latitude": -20.28333333, "longitude": 57.55 }
+    }
+}

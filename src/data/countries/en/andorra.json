@@ -1,0 +1,25 @@
+{
+    "title": "Andorra",
+    "slug": "andorra",
+    "baseInfo": {
+        "name": {
+            "common": "Andorra",
+            "official": "Principality of Andorra",
+            "native": [
+                {
+                    "languageCode": "ca",
+                    "official": "Principat d'Andorra",
+                    "common": "Andorra"
+                }
+            ]
+        },
+        "capital": "Andorra la Vella",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": [{ "languageCode": "ca", "name": "Catalan" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
+        "flag": "🇦🇩",
+        "codes": { "cca2": "AD", "cca3": "AND", "ccn3": "020" },
+        "coordinates": { "latitude": 42.5, "longitude": 1.5 }
+    }
+}

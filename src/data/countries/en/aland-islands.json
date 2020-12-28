@@ -1,0 +1,25 @@
+{
+    "title": "Åland Islands",
+    "slug": "aland-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Åland Islands",
+            "official": "Åland Islands",
+            "native": [
+                {
+                    "languageCode": "sv",
+                    "official": "Landskapet Åland",
+                    "common": "Åland"
+                }
+            ]
+        },
+        "capital": "Mariehamn",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [{ "languageCode": "sv", "name": "Swedish" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
+        "flag": "🇦🇽",
+        "codes": { "cca2": "AX", "cca3": "ALA", "ccn3": "248" },
+        "coordinates": { "latitude": 60.116667, "longitude": 19.9 }
+    }
+}

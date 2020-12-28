@@ -1,0 +1,35 @@
+{
+    "title": "Azerbaiyán",
+    "slug": "azerbaijan",
+    "baseInfo": {
+        "name": {
+            "common": "Azerbaiyán",
+            "official": "República de Azerbaiyán",
+            "native": [
+                {
+                    "languageCode": "az",
+                    "official": "Azərbaycan Respublikası",
+                    "common": "Azərbaycan"
+                },
+                {
+                    "languageCode": "ru",
+                    "official": "Азербайджанская Республика",
+                    "common": "Азербайджан"
+                }
+            ]
+        },
+        "capital": "Baku",
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "languages": [
+            { "languageCode": "az", "name": "azerbaiyano" },
+            { "languageCode": "ru", "name": "ruso" }
+        ],
+        "currencies": [
+            { "currencyCode": "AZN", "name": "manat azerbaiyano", "symbol": "₼" }
+        ],
+        "flag": "🇦🇿",
+        "codes": { "cca2": "AZ", "cca3": "AZE", "ccn3": "031" },
+        "coordinates": { "latitude": 40.5, "longitude": 47.5 }
+    }
+}

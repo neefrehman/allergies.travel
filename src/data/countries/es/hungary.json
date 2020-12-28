@@ -1,0 +1,27 @@
+{
+    "title": "Hungría",
+    "slug": "hungary",
+    "baseInfo": {
+        "name": {
+            "common": "Hungría",
+            "official": "Hungría",
+            "native": [
+                {
+                    "languageCode": "hu",
+                    "official": "Magyarország",
+                    "common": "Magyarország"
+                }
+            ]
+        },
+        "capital": "Budapest",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [{ "languageCode": "hu", "name": "húngaro" }],
+        "currencies": [
+            { "currencyCode": "HUF", "name": "forinto húngaro", "symbol": "Ft" }
+        ],
+        "flag": "🇭🇺",
+        "codes": { "cca2": "HU", "cca3": "HUN", "ccn3": "348" },
+        "coordinates": { "latitude": 47, "longitude": 20 }
+    }
+}

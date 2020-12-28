@@ -1,0 +1,33 @@
+{
+    "title": "Malta",
+    "slug": "malta",
+    "baseInfo": {
+        "name": {
+            "common": "Malta",
+            "official": "República de Malta",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Malta",
+                    "common": "Malta"
+                },
+                {
+                    "languageCode": "mt",
+                    "official": "Repubblika ta ' Malta",
+                    "common": "Malta"
+                }
+            ]
+        },
+        "capital": "Valletta",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": [
+            { "languageCode": "en", "name": "inglés" },
+            { "languageCode": "mt", "name": "maltés" }
+        ],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇲🇹",
+        "codes": { "cca2": "MT", "cca3": "MLT", "ccn3": "470" },
+        "coordinates": { "latitude": 35.83333333, "longitude": 14.58333333 }
+    }
+}

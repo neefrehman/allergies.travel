@@ -1,0 +1,32 @@
+{
+    "title": "Kiribati",
+    "slug": "kiribati",
+    "baseInfo": {
+        "name": {
+            "common": "Kiribati",
+            "official": "Independent and Sovereign Republic of Kiribati",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Independent and Sovereign Republic of Kiribati",
+                    "common": "Kiribati"
+                },
+                { "official": "Ribaberiki Kiribati", "common": "Kiribati" }
+            ]
+        },
+        "capital": "South Tarawa",
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "name": "Gilbertese" }
+        ],
+        "currencies": [
+            { "currencyCode": "AUD", "name": "Australian Dollar", "symbol": "$" },
+            { "currencyCode": "KID", "name": "KID", "symbol": "$" }
+        ],
+        "flag": "🇰🇮",
+        "codes": { "cca2": "KI", "cca3": "KIR", "ccn3": "296" },
+        "coordinates": { "latitude": 1.41666666, "longitude": 173 }
+    }
+}

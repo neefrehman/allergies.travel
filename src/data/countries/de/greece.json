@@ -1,0 +1,25 @@
+{
+    "title": "Griechenland",
+    "slug": "greece",
+    "baseInfo": {
+        "name": {
+            "common": "Griechenland",
+            "official": "Hellenische Republik",
+            "native": [
+                {
+                    "languageCode": "el",
+                    "official": "Ελληνική Δημοκρατία",
+                    "common": "Ελλάδα"
+                }
+            ]
+        },
+        "capital": "Athens",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": [{ "languageCode": "el", "name": "Griechisch" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
+        "flag": "🇬🇷",
+        "codes": { "cca2": "GR", "cca3": "GRC", "ccn3": "300" },
+        "coordinates": { "latitude": 39, "longitude": 22 }
+    }
+}

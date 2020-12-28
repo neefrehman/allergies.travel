@@ -1,0 +1,37 @@
+{
+    "title": "Seychelles",
+    "slug": "seychelles",
+    "baseInfo": {
+        "name": {
+            "common": "Seychelles",
+            "official": "Republic of Seychelles",
+            "native": [
+                { "official": "Repiblik Sesel", "common": "Sesel" },
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Seychelles",
+                    "common": "Seychelles"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "République des Seychelles",
+                    "common": "Seychelles"
+                }
+            ]
+        },
+        "capital": "Victoria",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "name": "Seselwa Creole French" },
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "fr", "name": "French" }
+        ],
+        "currencies": [
+            { "currencyCode": "SCR", "name": "Seychellois Rupee", "symbol": "₨" }
+        ],
+        "flag": "🇸🇨",
+        "codes": { "cca2": "SC", "cca3": "SYC", "ccn3": "690" },
+        "coordinates": { "latitude": -4.58333333, "longitude": 55.66666666 }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "title": "Eslovenia",
+    "slug": "slovenia",
+    "baseInfo": {
+        "name": {
+            "common": "Eslovenia",
+            "official": "República de Eslovenia",
+            "native": [
+                {
+                    "languageCode": "sl",
+                    "official": "Republika Slovenija",
+                    "common": "Slovenija"
+                }
+            ]
+        },
+        "capital": "Ljubljana",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": [{ "languageCode": "sl", "name": "esloveno" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇸🇮",
+        "codes": { "cca2": "SI", "cca3": "SVN", "ccn3": "705" },
+        "coordinates": { "latitude": 46.11666666, "longitude": 14.81666666 }
+    }
+}

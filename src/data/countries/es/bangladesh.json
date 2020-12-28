@@ -1,0 +1,25 @@
+{
+    "title": "Bangladesh",
+    "slug": "bangladesh",
+    "baseInfo": {
+        "name": {
+            "common": "Bangladesh",
+            "official": "República Popular de Bangladesh",
+            "native": [
+                {
+                    "languageCode": "bn",
+                    "official": "বাংলাদেশ গণপ্রজাতন্ত্রী",
+                    "common": "বাংলাদেশ"
+                }
+            ]
+        },
+        "capital": "Dhaka",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "languages": [{ "languageCode": "bn", "name": "bengalí" }],
+        "currencies": [{ "currencyCode": "BDT", "name": "taka", "symbol": "৳" }],
+        "flag": "🇧🇩",
+        "codes": { "cca2": "BD", "cca3": "BGD", "ccn3": "050" },
+        "coordinates": { "latitude": 24, "longitude": 90 }
+    }
+}

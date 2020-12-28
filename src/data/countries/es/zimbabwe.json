@@ -1,0 +1,101 @@
+{
+    "title": "Zimbabue",
+    "slug": "zimbabwe",
+    "baseInfo": {
+        "name": {
+            "common": "Zimbabue",
+            "official": "República de Zimbabue",
+            "native": [
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+                {
+                    "languageCode": "nd",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "ny",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "sn",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "st",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+                {
+                    "languageCode": "tn",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "ts",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "ve",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                {
+                    "languageCode": "xh",
+                    "official": "Republic of Zimbabwe",
+                    "common": "Zimbabwe"
+                },
+                { "official": "Republic of Zimbabwe", "common": "Zimbabwe" }
+            ]
+        },
+        "capital": "Harare",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "name": "bwg" },
+            { "languageCode": "en", "name": "inglés" },
+            { "name": "kck" },
+            { "name": "khi" },
+            { "name": "ndc" },
+            { "languageCode": "nd", "name": "ndebele septentrional" },
+            { "languageCode": "ny", "name": "nyanja" },
+            { "languageCode": "sn", "name": "shona" },
+            { "languageCode": "st", "name": "sotho meridional" },
+            { "name": "toi" },
+            { "languageCode": "tn", "name": "setsuana" },
+            { "languageCode": "ts", "name": "tsonga" },
+            { "languageCode": "ve", "name": "venda" },
+            { "languageCode": "xh", "name": "xhosa" },
+            { "name": "zib" }
+        ],
+        "currencies": [
+            { "currencyCode": "BWP", "name": "pula", "symbol": "P" },
+            { "currencyCode": "CNY", "name": "yuan", "symbol": "¥" },
+            { "currencyCode": "EUR", "name": "euro", "symbol": "€" },
+            { "currencyCode": "GBP", "name": "libra esterlina", "symbol": "£" },
+            { "currencyCode": "INR", "name": "rupia india", "symbol": "₹" },
+            { "currencyCode": "JPY", "name": "yen", "symbol": "¥" },
+            {
+                "currencyCode": "USD",
+                "name": "dólar estadounidense",
+                "symbol": "$"
+            },
+            { "currencyCode": "ZAR", "name": "rand", "symbol": "Rs" },
+            { "currencyCode": "ZWB", "name": "ZWB", "symbol": "$" }
+        ],
+        "flag": "🇿🇼",
+        "codes": { "cca2": "ZW", "cca3": "ZWE", "ccn3": "716" },
+        "coordinates": { "latitude": -20, "longitude": 30 }
+    }
+}

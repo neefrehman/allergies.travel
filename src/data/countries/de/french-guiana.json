@@ -1,0 +1,25 @@
+{
+    "title": "Französisch-Guayana",
+    "slug": "french-guiana",
+    "baseInfo": {
+        "name": {
+            "common": "Französisch-Guayana",
+            "official": "Französisch-Guayana",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Guyane",
+                    "common": "Guyane française"
+                }
+            ]
+        },
+        "capital": "Cayenne",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [{ "languageCode": "fr", "name": "Französisch" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
+        "flag": "🇬🇫",
+        "codes": { "cca2": "GF", "cca3": "GUF", "ccn3": "254" },
+        "coordinates": { "latitude": 4, "longitude": -53 }
+    }
+}

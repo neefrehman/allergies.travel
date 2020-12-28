@@ -1,0 +1,31 @@
+{
+    "title": "St. Kitts und Nevis",
+    "slug": "saint-kitts-and-nevis",
+    "baseInfo": {
+        "name": {
+            "common": "St. Kitts und Nevis",
+            "official": "Föderation von St. Kitts und Nevis",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Federation of Saint Christopher and Nevis",
+                    "common": "Saint Kitts and Nevis"
+                }
+            ]
+        },
+        "capital": "Basseterre",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "Englisch" }],
+        "currencies": [
+            {
+                "currencyCode": "XCD",
+                "name": "Ostkaribischer Dollar",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇰🇳",
+        "codes": { "cca2": "KN", "cca3": "KNA", "ccn3": "659" },
+        "coordinates": { "latitude": 17.33333333, "longitude": -62.75 }
+    }
+}

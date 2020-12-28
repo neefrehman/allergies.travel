@@ -1,0 +1,27 @@
+{
+    "title": "Maldives",
+    "slug": "maldives",
+    "baseInfo": {
+        "name": {
+            "common": "Maldives",
+            "official": "Republic of the Maldives",
+            "native": [
+                {
+                    "languageCode": "dv",
+                    "official": "ދިވެހިރާއްޖޭގެ ޖުމްހޫރިއްޔާ",
+                    "common": "ދިވެހިރާއްޖޭގެ"
+                }
+            ]
+        },
+        "capital": "Malé",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "languages": [{ "languageCode": "dv", "name": "Divehi" }],
+        "currencies": [
+            { "currencyCode": "MVR", "name": "Maldivian Rufiyaa", "symbol": ".ރ" }
+        ],
+        "flag": "🇲🇻",
+        "codes": { "cca2": "MV", "cca3": "MDV", "ccn3": "462" },
+        "coordinates": { "latitude": 3.25, "longitude": 73 }
+    }
+}

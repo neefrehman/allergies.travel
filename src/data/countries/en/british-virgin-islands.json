@@ -1,0 +1,27 @@
+{
+    "title": "British Virgin Islands",
+    "slug": "british-virgin-islands",
+    "baseInfo": {
+        "name": {
+            "common": "British Virgin Islands",
+            "official": "Virgin Islands",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Virgin Islands",
+                    "common": "British Virgin Islands"
+                }
+            ]
+        },
+        "capital": "Road Town",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "currencies": [
+            { "currencyCode": "USD", "name": "US Dollar", "symbol": "$" }
+        ],
+        "flag": "🇻🇬",
+        "codes": { "cca2": "VG", "cca3": "VGB", "ccn3": "092" },
+        "coordinates": { "latitude": 18.431383, "longitude": -64.62305 }
+    }
+}

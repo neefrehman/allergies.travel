@@ -1,0 +1,25 @@
+{
+    "title": "Niederlande",
+    "slug": "netherlands",
+    "baseInfo": {
+        "name": {
+            "common": "Niederlande",
+            "official": "Niederlande",
+            "native": [
+                {
+                    "languageCode": "nl",
+                    "official": "Koninkrijk der Nederlanden",
+                    "common": "Nederland"
+                }
+            ]
+        },
+        "capital": "Amsterdam",
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "languages": [{ "languageCode": "nl", "name": "Niederländisch" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
+        "flag": "🇳🇱",
+        "codes": { "cca2": "NL", "cca3": "NLD", "ccn3": "528" },
+        "coordinates": { "latitude": 52.5, "longitude": 5.75 }
+    }
+}

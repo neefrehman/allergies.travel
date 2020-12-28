@@ -1,0 +1,47 @@
+{
+    "title": "Singapore",
+    "slug": "singapore",
+    "baseInfo": {
+        "name": {
+            "common": "Singapore",
+            "official": "Republic of Singapore",
+            "native": [
+                {
+                    "languageCode": "zh",
+                    "official": "新加坡共和国",
+                    "common": "新加坡"
+                },
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Singapore",
+                    "common": "Singapore"
+                },
+                {
+                    "languageCode": "ms",
+                    "official": "Republik Singapura",
+                    "common": "Singapura"
+                },
+                {
+                    "languageCode": "ta",
+                    "official": "சிங்கப்பூர் குடியரசு",
+                    "common": "சிங்கப்பூர்"
+                }
+            ]
+        },
+        "capital": "Singapore",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": [
+            { "languageCode": "zh", "name": "Chinese" },
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "ms", "name": "Malay" },
+            { "languageCode": "ta", "name": "Tamil" }
+        ],
+        "currencies": [
+            { "currencyCode": "SGD", "name": "Singapore Dollar", "symbol": "$" }
+        ],
+        "flag": "🇸🇬",
+        "codes": { "cca2": "SG", "cca3": "SGP", "ccn3": "702" },
+        "coordinates": { "latitude": 1.36666666, "longitude": 103.8 }
+    }
+}

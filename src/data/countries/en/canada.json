@@ -1,0 +1,31 @@
+{
+    "title": "Canada",
+    "slug": "canada",
+    "baseInfo": {
+        "name": {
+            "common": "Canada",
+            "official": "Canada",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Canada",
+                    "common": "Canada"
+                },
+                { "languageCode": "fr", "official": "Canada", "common": "Canada" }
+            ]
+        },
+        "capital": "Ottawa",
+        "region": "Americas",
+        "subregion": "North America",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "languageCode": "fr", "name": "French" }
+        ],
+        "currencies": [
+            { "currencyCode": "CAD", "name": "Canadian Dollar", "symbol": "$" }
+        ],
+        "flag": "🇨🇦",
+        "codes": { "cca2": "CA", "cca3": "CAN", "ccn3": "124" },
+        "coordinates": { "latitude": 60, "longitude": -95 }
+    }
+}

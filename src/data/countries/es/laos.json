@@ -1,0 +1,25 @@
+{
+    "title": "Laos",
+    "slug": "laos",
+    "baseInfo": {
+        "name": {
+            "common": "Laos",
+            "official": "República Democrática Popular Lao",
+            "native": [
+                {
+                    "languageCode": "lo",
+                    "official": "ສາທາລະນະ ຊາທິປະໄຕ ຄົນລາວ ຂອງ",
+                    "common": "ສປປລາວ"
+                }
+            ]
+        },
+        "capital": "Vientiane",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": [{ "languageCode": "lo", "name": "lao" }],
+        "currencies": [{ "currencyCode": "LAK", "name": "kip", "symbol": "₭" }],
+        "flag": "🇱🇦",
+        "codes": { "cca2": "LA", "cca3": "LAO", "ccn3": "418" },
+        "coordinates": { "latitude": 18, "longitude": 105 }
+    }
+}

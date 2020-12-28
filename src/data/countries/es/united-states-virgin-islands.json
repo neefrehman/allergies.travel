@@ -1,0 +1,31 @@
+{
+    "title": "Islas Vírgenes de los Estados Unidos",
+    "slug": "united-states-virgin-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Islas Vírgenes de los Estados Unidos",
+            "official": "Islas Vírgenes de los Estados Unidos",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Virgin Islands of the United States",
+                    "common": "United States Virgin Islands"
+                }
+            ]
+        },
+        "capital": "Charlotte Amalie",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            {
+                "currencyCode": "USD",
+                "name": "dólar estadounidense",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇻🇮",
+        "codes": { "cca2": "VI", "cca3": "VIR", "ccn3": "850" },
+        "coordinates": { "latitude": 18.35, "longitude": -64.933333 }
+    }
+}

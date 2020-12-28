@@ -1,0 +1,25 @@
+{
+    "title": "Croacia",
+    "slug": "croatia",
+    "baseInfo": {
+        "name": {
+            "common": "Croacia",
+            "official": "República de Croacia",
+            "native": [
+                {
+                    "languageCode": "sh",
+                    "official": "Republika Hrvatska",
+                    "common": "Hrvatska"
+                }
+            ]
+        },
+        "capital": "Zagreb",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": [{ "languageCode": "sh", "name": "croata" }],
+        "currencies": [{ "currencyCode": "HRK", "name": "kuna", "symbol": "kn" }],
+        "flag": "🇭🇷",
+        "codes": { "cca2": "HR", "cca3": "HRV", "ccn3": "191" },
+        "coordinates": { "latitude": 45.16666666, "longitude": 15.5 }
+    }
+}

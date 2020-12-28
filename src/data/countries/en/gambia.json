@@ -1,0 +1,27 @@
+{
+    "title": "Gambia",
+    "slug": "gambia",
+    "baseInfo": {
+        "name": {
+            "common": "Gambia",
+            "official": "Republic of the Gambia",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of the Gambia",
+                    "common": "Gambia"
+                }
+            ]
+        },
+        "capital": "Banjul",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "en", "name": "English" }],
+        "currencies": [
+            { "currencyCode": "GMD", "name": "Gambian Dalasi", "symbol": "D" }
+        ],
+        "flag": "🇬🇲",
+        "codes": { "cca2": "GM", "cca3": "GMB", "ccn3": "270" },
+        "coordinates": { "latitude": 13.46666666, "longitude": -16.56666666 }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "title": "North Macedonia",
+    "slug": "north-macedonia",
+    "baseInfo": {
+        "name": {
+            "common": "North Macedonia",
+            "official": "Republic of North Macedonia",
+            "native": [
+                {
+                    "languageCode": "mk",
+                    "official": "Република Северна Македонија",
+                    "common": "Македонија"
+                }
+            ]
+        },
+        "capital": "Skopje",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": [{ "languageCode": "mk", "name": "Macedonian" }],
+        "currencies": [
+            { "currencyCode": "MKD", "name": "Macedonian Denar", "symbol": "den" }
+        ],
+        "flag": "🇲🇰",
+        "codes": { "cca2": "MK", "cca3": "MKD", "ccn3": "807" },
+        "coordinates": { "latitude": 41.83333333, "longitude": 22 }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "title": "Philippines",
+    "slug": "philippines",
+    "baseInfo": {
+        "name": {
+            "common": "Philippines",
+            "official": "Republic of the Philippines",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of the Philippines",
+                    "common": "Philippines"
+                },
+                {
+                    "official": "Republic of the Philippines",
+                    "common": "Pilipinas"
+                }
+            ]
+        },
+        "capital": "Manila",
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": [
+            { "languageCode": "en", "name": "English" },
+            { "name": "Filipino" }
+        ],
+        "currencies": [
+            { "currencyCode": "PHP", "name": "Philippine Piso", "symbol": "₱" }
+        ],
+        "flag": "🇵🇭",
+        "codes": { "cca2": "PH", "cca3": "PHL", "ccn3": "608" },
+        "coordinates": { "latitude": 13, "longitude": 122 }
+    }
+}

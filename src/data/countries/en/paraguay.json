@@ -1,0 +1,35 @@
+{
+    "title": "Paraguay",
+    "slug": "paraguay",
+    "baseInfo": {
+        "name": {
+            "common": "Paraguay",
+            "official": "Republic of Paraguay",
+            "native": [
+                {
+                    "languageCode": "gn",
+                    "official": "Tetã Paraguái",
+                    "common": "Paraguái"
+                },
+                {
+                    "languageCode": "es",
+                    "official": "República de Paraguay",
+                    "common": "Paraguay"
+                }
+            ]
+        },
+        "capital": "Asunción",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [
+            { "languageCode": "gn", "name": "Guarani" },
+            { "languageCode": "es", "name": "Spanish" }
+        ],
+        "currencies": [
+            { "currencyCode": "PYG", "name": "Paraguayan Guarani", "symbol": "₲" }
+        ],
+        "flag": "🇵🇾",
+        "codes": { "cca2": "PY", "cca3": "PRY", "ccn3": "600" },
+        "coordinates": { "latitude": -23, "longitude": -58 }
+    }
+}

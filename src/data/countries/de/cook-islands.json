@@ -1,0 +1,32 @@
+{
+    "title": "Cookinseln",
+    "slug": "cook-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Cookinseln",
+            "official": "Cookinseln",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Cook Islands",
+                    "common": "Cook Islands"
+                },
+                { "official": "Kūki 'Āirani", "common": "Kūki 'Āirani" }
+            ]
+        },
+        "capital": "Avarua",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": [
+            { "languageCode": "en", "name": "Englisch" },
+            { "name": "Rarotonganisch" }
+        ],
+        "currencies": [
+            { "currencyCode": "CKD", "name": "CKD", "symbol": "$" },
+            { "currencyCode": "NZD", "name": "Neuseeland-Dollar", "symbol": "$" }
+        ],
+        "flag": "🇨🇰",
+        "codes": { "cca2": "CK", "cca3": "COK", "ccn3": "184" },
+        "coordinates": { "latitude": -21.23333333, "longitude": -159.76666666 }
+    }
+}

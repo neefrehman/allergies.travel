@@ -1,0 +1,35 @@
+{
+    "title": "Haití",
+    "slug": "haiti",
+    "baseInfo": {
+        "name": {
+            "common": "Haití",
+            "official": "República de Haití",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République d'Haïti",
+                    "common": "Haïti"
+                },
+                {
+                    "languageCode": "ht",
+                    "official": "Repiblik Ayiti",
+                    "common": "Ayiti"
+                }
+            ]
+        },
+        "capital": "Port-au-Prince",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [
+            { "languageCode": "fr", "name": "francés" },
+            { "languageCode": "ht", "name": "criollo haitiano" }
+        ],
+        "currencies": [
+            { "currencyCode": "HTG", "name": "gourde haitiano", "symbol": "G" }
+        ],
+        "flag": "🇭🇹",
+        "codes": { "cca2": "HT", "cca3": "HTI", "ccn3": "332" },
+        "coordinates": { "latitude": 19, "longitude": -72.41666666 }
+    }
+}

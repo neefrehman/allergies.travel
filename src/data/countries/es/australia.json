@@ -1,0 +1,27 @@
+{
+    "title": "Australia",
+    "slug": "australia",
+    "baseInfo": {
+        "name": {
+            "common": "Australia",
+            "official": "Mancomunidad de Australia",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Commonwealth of Australia",
+                    "common": "Australia"
+                }
+            ]
+        },
+        "capital": "Canberra",
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            { "currencyCode": "AUD", "name": "dólar australiano", "symbol": "$" }
+        ],
+        "flag": "🇦🇺",
+        "codes": { "cca2": "AU", "cca3": "AUS", "ccn3": "036" },
+        "coordinates": { "latitude": -27, "longitude": 133 }
+    }
+}

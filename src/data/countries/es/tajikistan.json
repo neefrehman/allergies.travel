@@ -1,0 +1,35 @@
+{
+    "title": "Tayikistán",
+    "slug": "tajikistan",
+    "baseInfo": {
+        "name": {
+            "common": "Tayikistán",
+            "official": "República de Tayikistán",
+            "native": [
+                {
+                    "languageCode": "ru",
+                    "official": "Республика Таджикистан",
+                    "common": "Таджикистан"
+                },
+                {
+                    "languageCode": "tg",
+                    "official": "Ҷумҳурии Тоҷикистон",
+                    "common": "Тоҷикистон"
+                }
+            ]
+        },
+        "capital": "Dushanbe",
+        "region": "Asia",
+        "subregion": "Central Asia",
+        "languages": [
+            { "languageCode": "ru", "name": "ruso" },
+            { "languageCode": "tg", "name": "tayiko" }
+        ],
+        "currencies": [
+            { "currencyCode": "TJS", "name": "somoni tayiko", "symbol": "ЅМ" }
+        ],
+        "flag": "🇹🇯",
+        "codes": { "cca2": "TJ", "cca3": "TJK", "ccn3": "762" },
+        "coordinates": { "latitude": 39, "longitude": 71 }
+    }
+}

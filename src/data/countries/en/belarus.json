@@ -1,0 +1,35 @@
+{
+    "title": "Belarus",
+    "slug": "belarus",
+    "baseInfo": {
+        "name": {
+            "common": "Belarus",
+            "official": "Republic of Belarus",
+            "native": [
+                {
+                    "languageCode": "be",
+                    "official": "Рэспубліка Беларусь",
+                    "common": "Белару́сь"
+                },
+                {
+                    "languageCode": "ru",
+                    "official": "Республика Беларусь",
+                    "common": "Беларусь"
+                }
+            ]
+        },
+        "capital": "Minsk",
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "languages": [
+            { "languageCode": "be", "name": "Belarusian" },
+            { "languageCode": "ru", "name": "Russian" }
+        ],
+        "currencies": [
+            { "currencyCode": "BYN", "name": "Belarusian Ruble", "symbol": "Br" }
+        ],
+        "flag": "🇧🇾",
+        "codes": { "cca2": "BY", "cca3": "BLR", "ccn3": "112" },
+        "coordinates": { "latitude": 53, "longitude": 28 }
+    }
+}

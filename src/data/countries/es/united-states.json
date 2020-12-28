@@ -1,0 +1,31 @@
+{
+    "title": "Estados Unidos",
+    "slug": "united-states",
+    "baseInfo": {
+        "name": {
+            "common": "Estados Unidos",
+            "official": "Estados Unidos de América",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "United States of America",
+                    "common": "United States"
+                }
+            ]
+        },
+        "capital": "Washington D.C.",
+        "region": "Americas",
+        "subregion": "North America",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            {
+                "currencyCode": "USD",
+                "name": "dólar estadounidense",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇺🇸",
+        "codes": { "cca2": "US", "cca3": "USA", "ccn3": "840" },
+        "coordinates": { "latitude": 38, "longitude": -97 }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "title": "Chad",
+    "slug": "chad",
+    "baseInfo": {
+        "name": {
+            "common": "Chad",
+            "official": "Republic of Chad",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "جمهورية تشاد",
+                    "common": "تشاد‎"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "République du Tchad",
+                    "common": "Tchad"
+                }
+            ]
+        },
+        "capital": "N'Djamena",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "languages": [
+            { "languageCode": "ar", "name": "Arabic" },
+            { "languageCode": "fr", "name": "French" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "XAF",
+                "name": "Central African CFA Franc",
+                "symbol": "Fr"
+            }
+        ],
+        "flag": "🇹🇩",
+        "codes": { "cca2": "TD", "cca3": "TCD", "ccn3": "148" },
+        "coordinates": { "latitude": 15, "longitude": 19 }
+    }
+}

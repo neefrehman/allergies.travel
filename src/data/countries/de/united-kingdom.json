@@ -1,0 +1,27 @@
+{
+    "title": "Vereinigtes Königreich",
+    "slug": "united-kingdom",
+    "baseInfo": {
+        "name": {
+            "common": "Vereinigtes Königreich",
+            "official": "Vereinigtes Königreich Großbritannien und Nordirland",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "United Kingdom of Great Britain and Northern Ireland",
+                    "common": "United Kingdom"
+                }
+            ]
+        },
+        "capital": "London",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [{ "languageCode": "en", "name": "Englisch" }],
+        "currencies": [
+            { "currencyCode": "GBP", "name": "Britisches Pfund", "symbol": "£" }
+        ],
+        "flag": "🇬🇧",
+        "codes": { "cca2": "GB", "cca3": "GBR", "ccn3": "826" },
+        "coordinates": { "latitude": 54, "longitude": -2 }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "title": "Samoa",
+    "slug": "samoa",
+    "baseInfo": {
+        "name": {
+            "common": "Samoa",
+            "official": "Estado Independiente de Samoa",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Independent State of Samoa",
+                    "common": "Samoa"
+                },
+                {
+                    "languageCode": "sm",
+                    "official": "Malo Saʻoloto Tutoʻatasi o Sāmoa",
+                    "common": "Sāmoa"
+                }
+            ]
+        },
+        "capital": "Apia",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": [
+            { "languageCode": "en", "name": "inglés" },
+            { "languageCode": "sm", "name": "samoano" }
+        ],
+        "currencies": [{ "currencyCode": "WST", "name": "tala", "symbol": "T" }],
+        "flag": "🇼🇸",
+        "codes": { "cca2": "WS", "cca3": "WSM", "ccn3": "882" },
+        "coordinates": { "latitude": -13.58333333, "longitude": -172.33333333 }
+    }
+}

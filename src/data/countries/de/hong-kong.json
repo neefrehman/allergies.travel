@@ -1,0 +1,35 @@
+{
+    "title": "Hongkong",
+    "slug": "hong-kong",
+    "baseInfo": {
+        "name": {
+            "common": "Hongkong",
+            "official": "Sonderverwaltungszone Hongkong der Volksrepublik China",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Hong Kong Special Administrative Region of the People's Republic of China",
+                    "common": "Hong Kong"
+                },
+                {
+                    "languageCode": "zh",
+                    "official": "中华人民共和国香港特别行政区",
+                    "common": "香港"
+                }
+            ]
+        },
+        "capital": "City of Victoria",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "languages": [
+            { "languageCode": "en", "name": "Englisch" },
+            { "languageCode": "zh", "name": "Chinesisch" }
+        ],
+        "currencies": [
+            { "currencyCode": "HKD", "name": "Hongkong-Dollar", "symbol": "$" }
+        ],
+        "flag": "🇭🇰",
+        "codes": { "cca2": "HK", "cca3": "HKG", "ccn3": "344" },
+        "coordinates": { "latitude": 22.267, "longitude": 114.188 }
+    }
+}

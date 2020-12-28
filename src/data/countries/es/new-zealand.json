@@ -1,0 +1,37 @@
+{
+    "title": "Nueva Zelanda",
+    "slug": "new-zealand",
+    "baseInfo": {
+        "name": {
+            "common": "Nueva Zelanda",
+            "official": "nueva Zelanda",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "New Zealand",
+                    "common": "New Zealand"
+                },
+                {
+                    "languageCode": "mi",
+                    "official": "Aotearoa",
+                    "common": "Aotearoa"
+                },
+                { "official": "New Zealand", "common": "New Zealand" }
+            ]
+        },
+        "capital": "Wellington",
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "languages": [
+            { "languageCode": "en", "name": "inglés" },
+            { "languageCode": "mi", "name": "maorí" },
+            { "name": "nzs" }
+        ],
+        "currencies": [
+            { "currencyCode": "NZD", "name": "dólar neozelandés", "symbol": "$" }
+        ],
+        "flag": "🇳🇿",
+        "codes": { "cca2": "NZ", "cca3": "NZL", "ccn3": "554" },
+        "coordinates": { "latitude": -41, "longitude": 174 }
+    }
+}

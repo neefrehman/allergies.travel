@@ -1,0 +1,35 @@
+{
+    "title": "Macao SAR China",
+    "slug": "macau",
+    "baseInfo": {
+        "name": {
+            "common": "Macao SAR China",
+            "official": "Macao Special Administrative Region of the People's Republic of China",
+            "native": [
+                {
+                    "languageCode": "pt",
+                    "official": "Região Administrativa Especial de Macau da República Popular da China",
+                    "common": "Macau"
+                },
+                {
+                    "languageCode": "zh",
+                    "official": "中华人民共和国澳门特别行政区",
+                    "common": "澳门"
+                }
+            ]
+        },
+        "capital": "",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "languages": [
+            { "languageCode": "pt", "name": "Portuguese" },
+            { "languageCode": "zh", "name": "Chinese" }
+        ],
+        "currencies": [
+            { "currencyCode": "MOP", "name": "Macanese Pataca", "symbol": "P" }
+        ],
+        "flag": "🇲🇴",
+        "codes": { "cca2": "MO", "cca3": "MAC", "ccn3": "446" },
+        "coordinates": { "latitude": 22.16666666, "longitude": 113.55 }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "title": "Puerto Rico",
+    "slug": "puerto-rico",
+    "baseInfo": {
+        "name": {
+            "common": "Puerto Rico",
+            "official": "Asociado de Puerto Rico",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Commonwealth of Puerto Rico",
+                    "common": "Puerto Rico"
+                },
+                {
+                    "languageCode": "es",
+                    "official": "Estado Libre Asociado de Puerto Rico",
+                    "common": "Puerto Rico"
+                }
+            ]
+        },
+        "capital": "San Juan",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [
+            { "languageCode": "en", "name": "inglés" },
+            { "languageCode": "es", "name": "español" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "USD",
+                "name": "dólar estadounidense",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇵🇷",
+        "codes": { "cca2": "PR", "cca3": "PRI", "ccn3": "630" },
+        "coordinates": { "latitude": 18.25, "longitude": -66.5 }
+    }
+}

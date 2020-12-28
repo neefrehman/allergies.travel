@@ -1,0 +1,31 @@
+{
+    "title": "Côte d’Ivoire",
+    "slug": "ivory-coast",
+    "baseInfo": {
+        "name": {
+            "common": "Côte d’Ivoire",
+            "official": "Republic of Côte d'Ivoire",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République de Côte d'Ivoire",
+                    "common": "Côte d'Ivoire"
+                }
+            ]
+        },
+        "capital": "Yamoussoukro",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "fr", "name": "French" }],
+        "currencies": [
+            {
+                "currencyCode": "XOF",
+                "name": "West African CFA Franc",
+                "symbol": "Fr"
+            }
+        ],
+        "flag": "🇨🇮",
+        "codes": { "cca2": "CI", "cca3": "CIV", "ccn3": "384" },
+        "coordinates": { "latitude": 8, "longitude": -5 }
+    }
+}

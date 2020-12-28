@@ -1,0 +1,36 @@
+{
+    "title": "Faroe Islands",
+    "slug": "faroe-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Faroe Islands",
+            "official": "Faroe Islands",
+            "native": [
+                {
+                    "languageCode": "da",
+                    "official": "Færøerne",
+                    "common": "Færøerne"
+                },
+                {
+                    "languageCode": "fo",
+                    "official": "Føroyar",
+                    "common": "Føroyar"
+                }
+            ]
+        },
+        "capital": "Tórshavn",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [
+            { "languageCode": "da", "name": "Danish" },
+            { "languageCode": "fo", "name": "Faroese" }
+        ],
+        "currencies": [
+            { "currencyCode": "DKK", "name": "Danish Krone", "symbol": "kr" },
+            { "currencyCode": "FOK", "name": "FOK", "symbol": "kr" }
+        ],
+        "flag": "🇫🇴",
+        "codes": { "cca2": "FO", "cca3": "FRO", "ccn3": "234" },
+        "coordinates": { "latitude": 62, "longitude": -7 }
+    }
+}

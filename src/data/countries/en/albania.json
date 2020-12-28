@@ -1,0 +1,27 @@
+{
+    "title": "Albania",
+    "slug": "albania",
+    "baseInfo": {
+        "name": {
+            "common": "Albania",
+            "official": "Republic of Albania",
+            "native": [
+                {
+                    "languageCode": "sq",
+                    "official": "Republika e Shqipërisë",
+                    "common": "Shqipëria"
+                }
+            ]
+        },
+        "capital": "Tirana",
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "languages": [{ "languageCode": "sq", "name": "Albanian" }],
+        "currencies": [
+            { "currencyCode": "ALL", "name": "Albanian Lek", "symbol": "L" }
+        ],
+        "flag": "🇦🇱",
+        "codes": { "cca2": "AL", "cca3": "ALB", "ccn3": "008" },
+        "coordinates": { "latitude": 41, "longitude": 20 }
+    }
+}

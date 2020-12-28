@@ -1,0 +1,27 @@
+{
+    "title": "Libia",
+    "slug": "libya",
+    "baseInfo": {
+        "name": {
+            "common": "Libia",
+            "official": "Estado de Libia",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "الدولة ليبيا",
+                    "common": "‏ليبيا"
+                }
+            ]
+        },
+        "capital": "Tripoli",
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "languages": [{ "languageCode": "ar", "name": "árabe" }],
+        "currencies": [
+            { "currencyCode": "LYD", "name": "dinar libio", "symbol": "ل.د" }
+        ],
+        "flag": "🇱🇾",
+        "codes": { "cca2": "LY", "cca3": "LBY", "ccn3": "434" },
+        "coordinates": { "latitude": 25, "longitude": 17 }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "title": "Uganda",
+    "slug": "uganda",
+    "baseInfo": {
+        "name": {
+            "common": "Uganda",
+            "official": "República de Uganda",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Uganda",
+                    "common": "Uganda"
+                },
+                {
+                    "languageCode": "sw",
+                    "official": "Republic of Uganda",
+                    "common": "Uganda"
+                }
+            ]
+        },
+        "capital": "Kampala",
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "languages": [
+            { "languageCode": "en", "name": "inglés" },
+            { "languageCode": "sw", "name": "suajili" }
+        ],
+        "currencies": [
+            { "currencyCode": "UGX", "name": "chelín ugandés", "symbol": "Sh" }
+        ],
+        "flag": "🇺🇬",
+        "codes": { "cca2": "UG", "cca3": "UGA", "ccn3": "800" },
+        "coordinates": { "latitude": 1, "longitude": 32 }
+    }
+}

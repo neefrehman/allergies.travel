@@ -1,0 +1,31 @@
+{
+    "title": "Costa de Marfil",
+    "slug": "ivory-coast",
+    "baseInfo": {
+        "name": {
+            "common": "Costa de Marfil",
+            "official": "República de Côte d'Ivoire",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République de Côte d'Ivoire",
+                    "common": "Côte d'Ivoire"
+                }
+            ]
+        },
+        "capital": "Yamoussoukro",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "languages": [{ "languageCode": "fr", "name": "francés" }],
+        "currencies": [
+            {
+                "currencyCode": "XOF",
+                "name": "franco CFA de África Occidental",
+                "symbol": "Fr"
+            }
+        ],
+        "flag": "🇨🇮",
+        "codes": { "cca2": "CI", "cca3": "CIV", "ccn3": "384" },
+        "coordinates": { "latitude": 8, "longitude": -5 }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "title": "Namibia",
+    "slug": "namibia",
+    "baseInfo": {
+        "name": {
+            "common": "Namibia",
+            "official": "Republik Namibia",
+            "native": [
+                {
+                    "languageCode": "af",
+                    "official": "Republiek van Namibië",
+                    "common": "Namibië"
+                },
+                {
+                    "languageCode": "de",
+                    "official": "Republik Namibia",
+                    "common": "Namibia"
+                },
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Namibia",
+                    "common": "Namibia"
+                },
+                {
+                    "languageCode": "hz",
+                    "official": "Republic of Namibia",
+                    "common": "Namibia"
+                },
+                { "official": "Republic of Namibia", "common": "Namibia" },
+                { "official": "Republic of Namibia", "common": "Namibia" },
+                { "official": "Republic of Namibia", "common": "Namibia" },
+                {
+                    "languageCode": "ng",
+                    "official": "Republic of Namibia",
+                    "common": "Namibia"
+                },
+                {
+                    "languageCode": "tn",
+                    "official": "Lefatshe la Namibia",
+                    "common": "Namibia"
+                }
+            ]
+        },
+        "capital": "Windhoek",
+        "region": "Africa",
+        "subregion": "Southern Africa",
+        "languages": [
+            { "languageCode": "af", "name": "Afrikaans" },
+            { "languageCode": "de", "name": "Deutsch" },
+            { "languageCode": "en", "name": "Englisch" },
+            { "languageCode": "hz", "name": "Herero" },
+            { "name": "hgm" },
+            { "name": "kwn" },
+            { "name": "Lozi" },
+            { "languageCode": "ng", "name": "Ndonga" },
+            { "languageCode": "tn", "name": "Tswana" }
+        ],
+        "currencies": [
+            { "currencyCode": "NAD", "name": "Namibia-Dollar", "symbol": "$" },
+            {
+                "currencyCode": "ZAR",
+                "name": "Südafrikanischer Rand",
+                "symbol": "R"
+            }
+        ],
+        "flag": "🇳🇦",
+        "codes": { "cca2": "NA", "cca3": "NAM", "ccn3": "516" },
+        "coordinates": { "latitude": -22, "longitude": 17 }
+    }
+}

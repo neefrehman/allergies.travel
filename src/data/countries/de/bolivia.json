@@ -1,0 +1,51 @@
+{
+    "title": "Bolivien",
+    "slug": "bolivia",
+    "baseInfo": {
+        "name": {
+            "common": "Bolivien",
+            "official": "Plurinationaler Staat Bolivien",
+            "native": [
+                {
+                    "languageCode": "ay",
+                    "official": "Wuliwya Suyu",
+                    "common": "Wuliwya"
+                },
+                {
+                    "languageCode": "gn",
+                    "official": "Tetã Volívia",
+                    "common": "Volívia"
+                },
+                {
+                    "languageCode": "qu",
+                    "official": "Buliwya Mamallaqta",
+                    "common": "Buliwya"
+                },
+                {
+                    "languageCode": "es",
+                    "official": "Estado Plurinacional de Bolivia",
+                    "common": "Bolivia"
+                }
+            ]
+        },
+        "capital": "Sucre",
+        "region": "Americas",
+        "subregion": "South America",
+        "languages": [
+            { "languageCode": "ay", "name": "Aymara" },
+            { "languageCode": "gn", "name": "Guaraní" },
+            { "languageCode": "qu", "name": "Quechua" },
+            { "languageCode": "es", "name": "Spanisch" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "BOB",
+                "name": "Bolivianischer Boliviano",
+                "symbol": "Bs."
+            }
+        ],
+        "flag": "🇧🇴",
+        "codes": { "cca2": "BO", "cca3": "BOL", "ccn3": "068" },
+        "coordinates": { "latitude": -17, "longitude": -65 }
+    }
+}

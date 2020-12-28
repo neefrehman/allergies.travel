@@ -1,0 +1,27 @@
+{
+    "title": "Nepal",
+    "slug": "nepal",
+    "baseInfo": {
+        "name": {
+            "common": "Nepal",
+            "official": "Demokratische Bundesrepublik Nepal",
+            "native": [
+                {
+                    "languageCode": "ne",
+                    "official": "नेपाल संघीय लोकतान्त्रिक गणतन्त्र",
+                    "common": "नेपाल"
+                }
+            ]
+        },
+        "capital": "Kathmandu",
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "languages": [{ "languageCode": "ne", "name": "Nepalesisch" }],
+        "currencies": [
+            { "currencyCode": "NPR", "name": "Nepalesische Rupie", "symbol": "₨" }
+        ],
+        "flag": "🇳🇵",
+        "codes": { "cca2": "NP", "cca3": "NPL", "ccn3": "524" },
+        "coordinates": { "latitude": 28, "longitude": 84 }
+    }
+}

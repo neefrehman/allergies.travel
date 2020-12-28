@@ -1,0 +1,25 @@
+{
+    "title": "St. Martin",
+    "slug": "saint-martin",
+    "baseInfo": {
+        "name": {
+            "common": "St. Martin",
+            "official": "Saint Martin",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Saint-Martin",
+                    "common": "Saint-Martin"
+                }
+            ]
+        },
+        "capital": "Marigot",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "fr", "name": "French" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
+        "flag": "🇲🇫",
+        "codes": { "cca2": "MF", "cca3": "MAF", "ccn3": "663" },
+        "coordinates": { "latitude": 18.08333333, "longitude": -63.95 }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "title": "Südsudan",
+    "slug": "south-sudan",
+    "baseInfo": {
+        "name": {
+            "common": "Südsudan",
+            "official": "Republik Südsudan",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of South Sudan",
+                    "common": "South Sudan"
+                }
+            ]
+        },
+        "capital": "Juba",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "languages": [{ "languageCode": "en", "name": "Englisch" }],
+        "currencies": [
+            {
+                "currencyCode": "SSP",
+                "name": "Südsudanesisches Pfund",
+                "symbol": "£"
+            }
+        ],
+        "flag": "🇸🇸",
+        "codes": { "cca2": "SS", "cca3": "SSD", "ccn3": "728" },
+        "coordinates": { "latitude": 7, "longitude": 30 }
+    }
+}

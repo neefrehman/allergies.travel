@@ -1,0 +1,31 @@
+{
+    "title": "Weihnachtsinsel",
+    "slug": "christmas-island",
+    "baseInfo": {
+        "name": {
+            "common": "Weihnachtsinsel",
+            "official": "Gebiet der Weihnachtsinsel",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Territory of Christmas Island",
+                    "common": "Christmas Island"
+                }
+            ]
+        },
+        "capital": "Flying Fish Cove",
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "languages": [{ "languageCode": "en", "name": "Englisch" }],
+        "currencies": [
+            {
+                "currencyCode": "AUD",
+                "name": "Australischer Dollar",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇨🇽",
+        "codes": { "cca2": "CX", "cca3": "CXR", "ccn3": "162" },
+        "coordinates": { "latitude": -10.5, "longitude": 105.66666666 }
+    }
+}

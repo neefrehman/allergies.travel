@@ -1,0 +1,27 @@
+{
+    "title": "Pitcairninseln",
+    "slug": "pitcairn-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Pitcairninseln",
+            "official": "Pitcairninseln",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Pitcairn Group of Islands",
+                    "common": "Pitcairn Islands"
+                }
+            ]
+        },
+        "capital": "Adamstown",
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": [{ "languageCode": "en", "name": "Englisch" }],
+        "currencies": [
+            { "currencyCode": "NZD", "name": "Neuseeland-Dollar", "symbol": "$" }
+        ],
+        "flag": "🇵🇳",
+        "codes": { "cca2": "PN", "cca3": "PCN", "ccn3": "612" },
+        "coordinates": { "latitude": -25.06666666, "longitude": -130.1 }
+    }
+}

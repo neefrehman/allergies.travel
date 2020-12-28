@@ -1,0 +1,27 @@
+{
+    "title": "Greenland",
+    "slug": "greenland",
+    "baseInfo": {
+        "name": {
+            "common": "Greenland",
+            "official": "Greenland",
+            "native": [
+                {
+                    "languageCode": "kl",
+                    "official": "Kalaallit Nunaat",
+                    "common": "Kalaallit Nunaat"
+                }
+            ]
+        },
+        "capital": "Nuuk",
+        "region": "Americas",
+        "subregion": "North America",
+        "languages": [{ "languageCode": "kl", "name": "Kalaallisut" }],
+        "currencies": [
+            { "currencyCode": "DKK", "name": "Danish Krone", "symbol": "kr." }
+        ],
+        "flag": "🇬🇱",
+        "codes": { "cca2": "GL", "cca3": "GRL", "ccn3": "304" },
+        "coordinates": { "latitude": 72, "longitude": -40 }
+    }
+}

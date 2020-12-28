@@ -1,0 +1,31 @@
+{
+    "title": "Anguilla",
+    "slug": "anguilla",
+    "baseInfo": {
+        "name": {
+            "common": "Anguilla",
+            "official": "Anguilla",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Anguilla",
+                    "common": "Anguilla"
+                }
+            ]
+        },
+        "capital": "The Valley",
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": [{ "languageCode": "en", "name": "Englisch" }],
+        "currencies": [
+            {
+                "currencyCode": "XCD",
+                "name": "Ostkaribischer Dollar",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇦🇮",
+        "codes": { "cca2": "AI", "cca3": "AIA", "ccn3": "660" },
+        "coordinates": { "latitude": 18.25, "longitude": -63.16666666 }
+    }
+}

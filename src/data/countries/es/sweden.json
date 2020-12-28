@@ -1,0 +1,27 @@
+{
+    "title": "Suecia",
+    "slug": "sweden",
+    "baseInfo": {
+        "name": {
+            "common": "Suecia",
+            "official": "Reino de Suecia",
+            "native": [
+                {
+                    "languageCode": "sv",
+                    "official": "Konungariket Sverige",
+                    "common": "Sverige"
+                }
+            ]
+        },
+        "capital": "Stockholm",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [{ "languageCode": "sv", "name": "sueco" }],
+        "currencies": [
+            { "currencyCode": "SEK", "name": "corona sueca", "symbol": "kr" }
+        ],
+        "flag": "🇸🇪",
+        "codes": { "cca2": "SE", "cca3": "SWE", "ccn3": "752" },
+        "coordinates": { "latitude": 62, "longitude": 15 }
+    }
+}

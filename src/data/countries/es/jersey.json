@@ -1,0 +1,38 @@
+{
+    "title": "Jersey",
+    "slug": "jersey",
+    "baseInfo": {
+        "name": {
+            "common": "Jersey",
+            "official": "Bailía de Jersey",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Bailiwick of Jersey",
+                    "common": "Jersey"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "Bailliage de Jersey",
+                    "common": "Jersey"
+                },
+                { "official": "Bailliage dé Jèrri", "common": "Jèrri" }
+            ]
+        },
+        "capital": "Saint Helier",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [
+            { "languageCode": "en", "name": "inglés" },
+            { "languageCode": "fr", "name": "francés" },
+            { "name": "nrf" }
+        ],
+        "currencies": [
+            { "currencyCode": "GBP", "name": "libra esterlina", "symbol": "£" },
+            { "currencyCode": "JEP", "name": "JEP", "symbol": "£" }
+        ],
+        "flag": "🇯🇪",
+        "codes": { "cca2": "JE", "cca3": "JEY", "ccn3": "832" },
+        "coordinates": { "latitude": 49.25, "longitude": -2.16666666 }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "title": "Südkorea",
+    "slug": "south-korea",
+    "baseInfo": {
+        "name": {
+            "common": "Südkorea",
+            "official": "Republik Korea",
+            "native": [
+                { "languageCode": "ko", "official": "대한민국", "common": "한국" }
+            ]
+        },
+        "capital": "Seoul",
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "languages": [{ "languageCode": "ko", "name": "Koreanisch" }],
+        "currencies": [
+            {
+                "currencyCode": "KRW",
+                "name": "Südkoreanischer Won",
+                "symbol": "₩"
+            }
+        ],
+        "flag": "🇰🇷",
+        "codes": { "cca2": "KR", "cca3": "KOR", "ccn3": "410" },
+        "coordinates": { "latitude": 37, "longitude": 127.5 }
+    }
+}

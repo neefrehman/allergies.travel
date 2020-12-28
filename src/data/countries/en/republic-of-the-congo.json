@@ -1,0 +1,45 @@
+{
+    "title": "Congo - Brazzaville",
+    "slug": "republic-of-the-congo",
+    "baseInfo": {
+        "name": {
+            "common": "Congo - Brazzaville",
+            "official": "Republic of the Congo",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République du Congo",
+                    "common": "République du Congo"
+                },
+                {
+                    "languageCode": "kg",
+                    "official": "Repubilika ya Kongo",
+                    "common": "Repubilika ya Kongo"
+                },
+                {
+                    "languageCode": "ln",
+                    "official": "Republíki ya Kongó",
+                    "common": "Republíki ya Kongó"
+                }
+            ]
+        },
+        "capital": "Brazzaville",
+        "region": "Africa",
+        "subregion": "Middle Africa",
+        "languages": [
+            { "languageCode": "fr", "name": "French" },
+            { "languageCode": "kg", "name": "Kongo" },
+            { "languageCode": "ln", "name": "Lingala" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "XAF",
+                "name": "Central African CFA Franc",
+                "symbol": "Fr"
+            }
+        ],
+        "flag": "🇨🇬",
+        "codes": { "cca2": "CG", "cca3": "COG", "ccn3": "178" },
+        "coordinates": { "latitude": -1, "longitude": 15 }
+    }
+}

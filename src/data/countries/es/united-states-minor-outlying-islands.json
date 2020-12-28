@@ -1,0 +1,31 @@
+{
+    "title": "Islas Ultramarinas Menores de Estados Unidos",
+    "slug": "united-states-minor-outlying-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Islas Ultramarinas Menores de Estados Unidos",
+            "official": "Estados Unidos Islas menores alejadas de",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "United States Minor Outlying Islands",
+                    "common": "United States Minor Outlying Islands"
+                }
+            ]
+        },
+        "capital": "",
+        "region": "Americas",
+        "subregion": "North America",
+        "languages": [{ "languageCode": "en", "name": "inglés" }],
+        "currencies": [
+            {
+                "currencyCode": "USD",
+                "name": "dólar estadounidense",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇺🇲",
+        "codes": { "cca2": "UM", "cca3": "UMI", "ccn3": "581" },
+        "coordinates": { "latitude": 19.3, "longitude": 166.633333 }
+    }
+}

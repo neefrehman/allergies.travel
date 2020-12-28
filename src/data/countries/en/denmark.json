@@ -1,0 +1,27 @@
+{
+    "title": "Denmark",
+    "slug": "denmark",
+    "baseInfo": {
+        "name": {
+            "common": "Denmark",
+            "official": "Kingdom of Denmark",
+            "native": [
+                {
+                    "languageCode": "da",
+                    "official": "Kongeriget Danmark",
+                    "common": "Danmark"
+                }
+            ]
+        },
+        "capital": "Copenhagen",
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": [{ "languageCode": "da", "name": "Danish" }],
+        "currencies": [
+            { "currencyCode": "DKK", "name": "Danish Krone", "symbol": "kr" }
+        ],
+        "flag": "🇩🇰",
+        "codes": { "cca2": "DK", "cca3": "DNK", "ccn3": "208" },
+        "coordinates": { "latitude": 56, "longitude": 10 }
+    }
+}
