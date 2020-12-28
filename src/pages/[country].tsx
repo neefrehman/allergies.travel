@@ -18,7 +18,7 @@ const CountryPage = ({ countryData }: CountryPageProps) => (
 );
 
 export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
-    const countryPaths: { params: ParsedUrlQuery; locale?: string }[] = [];
+    const countryPaths: { params: ParsedUrlQuery; locale: string }[] = [];
 
     locales?.forEach(locale => {
         fs.readdirSync(`src/data/countries/${locale}`).forEach(file => {

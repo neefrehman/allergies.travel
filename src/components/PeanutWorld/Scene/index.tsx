@@ -25,7 +25,8 @@ const PeanutWorldScene = memo(
         const [hasRunThisSession, setHasRunThisSession] = useContext(
             HomePageAnimationHasRunContext
         );
-        const isShortAnimation = prefersReducedMotion || hasRunThisSession;
+
+        const isShortAnimation = prefersReducedMotion || hasRunThisSession; // FIXME: rotation and orbit issues
 
         useTimeout(() => setHasRunThisSession(true), 3000); // TODO test hasRunThisSession
 
@@ -46,7 +47,7 @@ const PeanutWorldScene = memo(
             >
                 <Suspense fallback={null}>
                     <Lights />
-                    <Planet willRotate={!prefersReducedMotion} />
+                    <Planet willRotate={!isShortAnimation} />
                     <Stars count={1000} />
                     <Controls
                         initialCameraZ={INITIAL_CAMERA_Z}
