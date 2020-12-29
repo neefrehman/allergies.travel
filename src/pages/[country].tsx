@@ -28,7 +28,7 @@ const CountryPage = ({
 }: CountryPageProps) => (
     <>
         <h1>
-            {title} - {baseInfo.flag}
+            {title} {baseInfo.flag}
         </h1>
         {baseInfo.name.official && <p>{baseInfo.name.official}</p>}
         {allergens && allergens.map(allergen => <h3>{allergen.name}</h3>)}

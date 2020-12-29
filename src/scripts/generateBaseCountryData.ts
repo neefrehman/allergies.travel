@@ -1,14 +1,20 @@
+/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable @typescript-eslint/no-var-requires */
 import * as fs from "fs";
 
 import type { Country } from "world-countries";
 
-import { kebabCaseWithDiacriticHandling } from "../utils/kebabCase";
+import { sluggify } from "../utils/sluggify";
 import { deepMerge } from "../utils/deepMerge";
-import { ISO_639_1_TO_3, ISO_639_3_TO_1 } from "../utils/languageCodeMap";
-import type { ISO_639_1, ISO_639_3 } from "../utils/languageCodeMap";
+import {
+    ISO_639_1_TO_3,
+    ISO_639_3_TO_1,
+} from "../utils/i18n/languageCodeMappings";
+import type { ISO_639_1, ISO_639_3 } from "../utils/i18n/languageCodeMappings";
+import { subregionNameMappings } from "../utils/i18n/subregionNameMappings";
+import { regionNameMappings } from "../utils/i18n/regionNameMappings";
+import { capitalNameMappings } from "../utils/i18n/capitalNameMappings";
 
-// eslint-disable-next-line import/no-extraneous-dependencies
 const prettier = require("prettier");
 const countryData: Country[] = require("world-countries"); // require needed to avoid `world_countries_1["default"]` error
 
@@ -40,8 +46,8 @@ declare namespace Intl {
 const generateBaseCountryData = async () => {
     const prettierConfig = await prettier.resolveConfig("./.prettierrc");
 
-    if (!fs.existsSync(`src/data/countries`)) {
-        fs.mkdirSync(`src/data/countries`);
+    if (!fs.existsSync("src/data/countries")) {
+        fs.mkdirSync("src/data/countries");
     }
 
     supportedLocales.forEach(locale => {
@@ -62,7 +68,7 @@ const generateBaseCountryData = async () => {
 
             return {
                 title: localisedCountryName.common,
-                slug: kebabCaseWithDiacriticHandling(country.name.common),
+                slug: sluggify(country.name.common),
                 baseInfo: {
                     name: {
                         common: localisedCountryName.common,
@@ -75,9 +81,9 @@ const generateBaseCountryData = async () => {
                             })
                         ),
                     },
-                    capital: country.capital[0], // Need automated i18n somehow?
-                    region: country.region, // Need automated i18n somehow?
-                    subregion: country.subregion, // Need automated i18n somehow?
+                    capital: capitalNameMappings[country.capital[0]][locale],
+                    region: regionNameMappings[country.region][locale],
+                    subregion: subregionNameMappings[country.subregion][locale],
                     languages: Object.entries(country.languages).map(
                         ([code, name]) => ({
                             languageCode: ISO_639_3_TO_1[code as ISO_639_3],
@@ -143,9 +149,12 @@ const generateBaseCountryData = async () => {
 generateBaseCountryData();
 
 fs.unlinkSync("src/utils/deepMerge.js");
-fs.unlinkSync("src/utils/kebabCase.js");
+fs.unlinkSync("src/utils/sluggify.js");
 fs.unlinkSync("src/utils/invertObject.js");
-fs.unlinkSync("src/utils/languageCodeMap.js");
+fs.unlinkSync("src/utils/i18n/languageCodeMappings.js");
+fs.unlinkSync("src/utils/i18n/subregionNameMappings.js");
+fs.unlinkSync("src/utils/i18n/regionNameMappings.js");
+fs.unlinkSync("src/utils/i18n/capitalNameMappings.js");
 fs.unlinkSync("src/scripts/generateBaseCountryData.js");
 
 // TODO: find better home for these - types/content.ts?
