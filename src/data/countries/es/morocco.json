@@ -15,8 +15,8 @@
             ]
         },
         "capital": "Rabat",
-        "region": "Africa",
-        "subregion": "Northern Africa",
+        "region": "África",
+        "subregion": "África del Norte",
         "languages": [
             { "languageCode": "ar", "name": "árabe" },
             { "name": "ber" }

@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Hanoi",
+        "capital": "Hanói",
         "region": "Asia",
-        "subregion": "South-Eastern Asia",
+        "subregion": "Sudeste Asiático",
         "languages": [{ "languageCode": "vi", "name": "vietnamita" }],
         "currencies": [{ "currencyCode": "VND", "name": "dong", "symbol": "₫" }],
         "flag": "🇻🇳",

@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Panama City",
-        "region": "Americas",
-        "subregion": "Central America",
+        "capital": "Panamá",
+        "region": "Middle America",
+        "subregion": "América Central",
         "languages": [{ "languageCode": "es", "name": "español" }],
         "currencies": [
             { "currencyCode": "PAB", "name": "balboa panameño", "symbol": "B/." },

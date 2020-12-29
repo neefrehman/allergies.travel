@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "N'Djamena",
-        "region": "Africa",
-        "subregion": "Middle Africa",
+        "capital": "Indschamina",
+        "region": "Afrika",
+        "subregion": "Greater Cairo Area",
         "languages": [
             { "languageCode": "ar", "name": "Arabisch" },
             { "languageCode": "fr", "name": "Französisch" }

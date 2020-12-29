@@ -13,8 +13,8 @@
                 }
             ]
         },
-        "capital": "Warsaw",
-        "region": "Europe",
+        "capital": "Warschau",
+        "region": "Europa",
         "subregion": "Eastern Europe",
         "languages": [{ "languageCode": "pl", "name": "Polnisch" }],
         "currencies": [

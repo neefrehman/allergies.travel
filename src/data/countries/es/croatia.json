@@ -14,7 +14,7 @@
             ]
         },
         "capital": "Zagreb",
-        "region": "Europe",
+        "region": "Europa",
         "subregion": "Southern Europe",
         "languages": [{ "languageCode": "sh", "name": "croata" }],
         "currencies": [{ "currencyCode": "HRK", "name": "kuna", "symbol": "kn" }],

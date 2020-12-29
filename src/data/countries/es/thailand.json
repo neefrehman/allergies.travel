@@ -15,7 +15,7 @@
         },
         "capital": "Bangkok",
         "region": "Asia",
-        "subregion": "South-Eastern Asia",
+        "subregion": "Sudeste Asiático",
         "languages": [{ "languageCode": "th", "name": "tailandés" }],
         "currencies": [{ "currencyCode": "THB", "name": "bat", "symbol": "฿" }],
         "flag": "🇹🇭",

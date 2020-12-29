@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Georgetown",
-        "region": "Americas",
-        "subregion": "South America",
+        "region": "Middle America",
+        "subregion": "Sudamérica",
         "languages": [{ "languageCode": "en", "name": "inglés" }],
         "currencies": [
             { "currencyCode": "GYD", "name": "dólar guyanés", "symbol": "$" }

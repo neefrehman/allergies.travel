@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Hamilton",
-        "region": "Americas",
-        "subregion": "North America",
+        "region": "Middle America",
+        "subregion": "Norteamérica",
         "languages": [{ "languageCode": "en", "name": "inglés" }],
         "currencies": [
             { "currencyCode": "BMD", "name": "dólar de Bermudas", "symbol": "$" }

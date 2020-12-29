@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Bangui",
-        "region": "Africa",
-        "subregion": "Middle Africa",
+        "region": "Afrika",
+        "subregion": "Greater Cairo Area",
         "languages": [
             { "languageCode": "fr", "name": "Französisch" },
             { "languageCode": "sg", "name": "Sango" }

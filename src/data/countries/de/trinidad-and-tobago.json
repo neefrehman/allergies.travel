@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Port of Spain",
-        "region": "Americas",
-        "subregion": "Caribbean",
+        "capital": "Port-of-Spain",
+        "region": "Middle America",
+        "subregion": "Karibik",
         "languages": [{ "languageCode": "en", "name": "Englisch" }],
         "currencies": [
             {

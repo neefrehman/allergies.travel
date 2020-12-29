@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Maputo",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "region": "África",
+        "subregion": "África Oriental",
         "languages": [{ "languageCode": "pt", "name": "portugués" }],
         "currencies": [
             { "currencyCode": "MZN", "name": "metical", "symbol": "MT" }

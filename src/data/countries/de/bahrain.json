@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Manama",
-        "region": "Asia",
-        "subregion": "Western Asia",
+        "region": "Asien",
+        "subregion": "Vorderasien",
         "languages": [{ "languageCode": "ar", "name": "Arabisch" }],
         "currencies": [
             { "currencyCode": "BHD", "name": "Bahrain-Dinar", "symbol": ".د.ب" }

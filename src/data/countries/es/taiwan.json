@@ -9,9 +9,9 @@
                 { "languageCode": "zh", "official": "中華民國", "common": "台灣" }
             ]
         },
-        "capital": "Taipei",
+        "capital": "Taipéi",
         "region": "Asia",
-        "subregion": "Eastern Asia",
+        "subregion": "Asia Oriental",
         "languages": [{ "languageCode": "zh", "name": "chino" }],
         "currencies": [
             {

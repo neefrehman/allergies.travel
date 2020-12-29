@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Ankara",
-        "region": "Asia",
-        "subregion": "Western Asia",
+        "region": "Asien",
+        "subregion": "Vorderasien",
         "languages": [{ "languageCode": "tr", "name": "Türkisch" }],
         "currencies": [
             { "currencyCode": "TRY", "name": "Türkische Lira", "symbol": "₺" }

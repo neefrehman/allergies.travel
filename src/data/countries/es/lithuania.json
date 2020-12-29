@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Vilnius",
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "capital": "Vilna",
+        "region": "Europa",
+        "subregion": "Europa septentrional",
         "languages": [{ "languageCode": "lt", "name": "lituano" }],
         "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
         "flag": "🇱🇹",

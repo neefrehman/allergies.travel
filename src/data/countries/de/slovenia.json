@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Ljubljana",
-        "region": "Europe",
-        "subregion": "Southern Europe",
+        "region": "Europa",
+        "subregion": "Südeuropa",
         "languages": [{ "languageCode": "sl", "name": "Slowenisch" }],
         "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
         "flag": "🇸🇮",

@@ -15,7 +15,7 @@
         },
         "capital": "Malé",
         "region": "Asia",
-        "subregion": "Southern Asia",
+        "subregion": "Asia del Sur",
         "languages": [{ "languageCode": "dv", "name": "divehi" }],
         "currencies": [
             { "currencyCode": "MVR", "name": "rufiya", "symbol": ".ރ" }

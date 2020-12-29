@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Naypyidaw",
+        "capital": "Nay Pyi Taw",
         "region": "Asia",
-        "subregion": "South-Eastern Asia",
+        "subregion": "Sudeste Asiático",
         "languages": [{ "languageCode": "my", "name": "birmano" }],
         "currencies": [{ "currencyCode": "MMK", "name": "kiat", "symbol": "Ks" }],
         "flag": "🇲🇲",

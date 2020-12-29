@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Warsaw",
-        "region": "Europe",
-        "subregion": "Eastern Europe",
+        "capital": "Varsovia",
+        "region": "Europa",
+        "subregion": "Europa Oriental",
         "languages": [{ "languageCode": "pl", "name": "polaco" }],
         "currencies": [
             { "currencyCode": "PLN", "name": "esloti", "symbol": "zł" }

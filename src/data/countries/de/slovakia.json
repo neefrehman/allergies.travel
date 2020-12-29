@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Bratislava",
-        "region": "Europe",
-        "subregion": "Central Europe",
+        "region": "Europa",
+        "subregion": "Central",
         "languages": [{ "languageCode": "sk", "name": "Slowakisch" }],
         "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
         "flag": "🇸🇰",

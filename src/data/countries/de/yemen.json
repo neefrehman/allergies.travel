@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Sana'a",
-        "region": "Asia",
-        "subregion": "Western Asia",
+        "capital": "Sanaa",
+        "region": "Asien",
+        "subregion": "Vorderasien",
         "languages": [{ "languageCode": "ar", "name": "Arabisch" }],
         "currencies": [
             { "currencyCode": "YER", "name": "Jemen-Rial", "symbol": "﷼" }

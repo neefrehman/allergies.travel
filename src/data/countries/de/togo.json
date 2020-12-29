@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Lomé",
-        "region": "Africa",
-        "subregion": "Western Africa",
+        "region": "Afrika",
+        "subregion": "Westafrika",
         "languages": [{ "languageCode": "fr", "name": "Französisch" }],
         "currencies": [
             { "currencyCode": "XOF", "name": "CFA-Franc (BCEAO)", "symbol": "Fr" }

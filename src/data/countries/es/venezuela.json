@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Caracas",
-        "region": "Americas",
-        "subregion": "South America",
+        "region": "Middle America",
+        "subregion": "Sudamérica",
         "languages": [{ "languageCode": "es", "name": "español" }],
         "currencies": [
             {

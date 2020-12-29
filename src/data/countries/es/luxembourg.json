@@ -23,9 +23,9 @@
                 }
             ]
         },
-        "capital": "Luxembourg",
-        "region": "Europe",
-        "subregion": "Western Europe",
+        "capital": "Luxemburgo",
+        "region": "Europa",
+        "subregion": "Europa Occidental",
         "languages": [
             { "languageCode": "de", "name": "alemán" },
             { "languageCode": "fr", "name": "francés" },

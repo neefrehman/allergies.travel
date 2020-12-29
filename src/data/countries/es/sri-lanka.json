@@ -20,7 +20,7 @@
         },
         "capital": "Colombo",
         "region": "Asia",
-        "subregion": "Southern Asia",
+        "subregion": "Asia del Sur",
         "languages": [
             { "languageCode": "si", "name": "cingalés" },
             { "languageCode": "ta", "name": "tamil" }

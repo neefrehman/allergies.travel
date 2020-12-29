@@ -15,8 +15,8 @@
             ]
         },
         "capital": "Kingston",
-        "region": "Americas",
-        "subregion": "Caribbean",
+        "region": "Middle America",
+        "subregion": "Caribe",
         "languages": [
             { "languageCode": "en", "name": "inglés" },
             { "name": "jam" }

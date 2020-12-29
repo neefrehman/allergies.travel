@@ -15,8 +15,8 @@
             ]
         },
         "capital": "Ottawa",
-        "region": "Americas",
-        "subregion": "North America",
+        "region": "Middle America",
+        "subregion": "Nordamerika",
         "languages": [
             { "languageCode": "en", "name": "Englisch" },
             { "languageCode": "fr", "name": "Französisch" }

@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "London",
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "capital": "Londres",
+        "region": "Europa",
+        "subregion": "Europa septentrional",
         "languages": [{ "languageCode": "en", "name": "inglés" }],
         "currencies": [
             { "currencyCode": "GBP", "name": "libra esterlina", "symbol": "£" }

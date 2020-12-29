@@ -28,8 +28,8 @@
             ]
         },
         "capital": "Bern",
-        "region": "Europe",
-        "subregion": "Western Europe",
+        "region": "Europa",
+        "subregion": "Westeuropa",
         "languages": [
             { "languageCode": "fr", "name": "Französisch" },
             { "name": "Schweizerdeutsch" },

@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Addis Ababa",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "capital": "Addis Abeba",
+        "region": "África",
+        "subregion": "África Oriental",
         "languages": [{ "languageCode": "am", "name": "amárico" }],
         "currencies": [{ "currencyCode": "ETB", "name": "bir", "symbol": "Br" }],
         "flag": "🇪🇹",

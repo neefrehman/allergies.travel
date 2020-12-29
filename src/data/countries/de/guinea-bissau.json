@@ -18,8 +18,8 @@
             ]
         },
         "capital": "Bissau",
-        "region": "Africa",
-        "subregion": "Western Africa",
+        "region": "Afrika",
+        "subregion": "Westafrika",
         "languages": [
             { "languageCode": "pt", "name": "Portugiesisch" },
             { "name": "pov" }

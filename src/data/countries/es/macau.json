@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "",
+        "capital": "Fidalgo",
         "region": "Asia",
-        "subregion": "Eastern Asia",
+        "subregion": "Asia Oriental",
         "languages": [
             { "languageCode": "pt", "name": "portugués" },
             { "languageCode": "zh", "name": "chino" }

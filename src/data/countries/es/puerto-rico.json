@@ -19,8 +19,8 @@
             ]
         },
         "capital": "San Juan",
-        "region": "Americas",
-        "subregion": "Caribbean",
+        "region": "Middle America",
+        "subregion": "Caribe",
         "languages": [
             { "languageCode": "en", "name": "inglés" },
             { "languageCode": "es", "name": "español" }

@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Libreville",
-        "region": "Africa",
-        "subregion": "Middle Africa",
+        "region": "Afrika",
+        "subregion": "Greater Cairo Area",
         "languages": [{ "languageCode": "fr", "name": "Französisch" }],
         "currencies": [
             { "currencyCode": "XAF", "name": "CFA-Franc (BEAC)", "symbol": "Fr" }

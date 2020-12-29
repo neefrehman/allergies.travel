@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Andorra la Vella",
-        "region": "Europe",
-        "subregion": "Southern Europe",
+        "region": "Europa",
+        "subregion": "Südeuropa",
         "languages": [{ "languageCode": "ca", "name": "Katalanisch" }],
         "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
         "flag": "🇦🇩",

@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Conakry",
-        "region": "Africa",
-        "subregion": "Western Africa",
+        "region": "África",
+        "subregion": "África Occidental",
         "languages": [{ "languageCode": "fr", "name": "francés" }],
         "currencies": [
             { "currencyCode": "GNF", "name": "franco guineano", "symbol": "Fr" }

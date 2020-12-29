@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Colombo",
-        "region": "Asia",
-        "subregion": "Southern Asia",
+        "region": "Asien",
+        "subregion": "Südasien",
         "languages": [
             { "languageCode": "si", "name": "Singhalesisch" },
             { "languageCode": "ta", "name": "Tamil" }

@@ -23,9 +23,9 @@
                 }
             ]
         },
-        "capital": "New Delhi",
-        "region": "Asia",
-        "subregion": "Southern Asia",
+        "capital": "Delhi",
+        "region": "Asien",
+        "subregion": "Südasien",
         "languages": [
             { "languageCode": "en", "name": "Englisch" },
             { "languageCode": "hi", "name": "Hindi" },

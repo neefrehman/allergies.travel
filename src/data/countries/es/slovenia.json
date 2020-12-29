@@ -13,8 +13,8 @@
                 }
             ]
         },
-        "capital": "Ljubljana",
-        "region": "Europe",
+        "capital": "Liubliana",
+        "region": "Europa",
         "subregion": "Southern Europe",
         "languages": [{ "languageCode": "sl", "name": "esloveno" }],
         "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],

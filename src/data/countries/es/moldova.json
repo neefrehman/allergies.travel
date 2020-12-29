@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Chișinău",
-        "region": "Europe",
-        "subregion": "Eastern Europe",
+        "region": "Europa",
+        "subregion": "Europa Oriental",
         "languages": [{ "languageCode": "ro", "name": "rumano" }],
         "currencies": [
             { "currencyCode": "MDL", "name": "leu moldavo", "symbol": "L" }

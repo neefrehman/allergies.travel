@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Moscow",
-        "region": "Europe",
-        "subregion": "Eastern Europe",
+        "capital": "Moscú",
+        "region": "Europa",
+        "subregion": "Europa Oriental",
         "languages": [{ "languageCode": "ru", "name": "ruso" }],
         "currencies": [
             { "currencyCode": "RUB", "name": "rublo ruso", "symbol": "₽" }

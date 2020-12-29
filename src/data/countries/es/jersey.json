@@ -20,8 +20,8 @@
             ]
         },
         "capital": "Saint Helier",
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "region": "Europa",
+        "subregion": "Europa septentrional",
         "languages": [
             { "languageCode": "en", "name": "inglés" },
             { "languageCode": "fr", "name": "francés" },

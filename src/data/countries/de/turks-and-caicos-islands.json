@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Cockburn Town",
-        "region": "Americas",
-        "subregion": "Caribbean",
+        "region": "Middle America",
+        "subregion": "Karibik",
         "languages": [{ "languageCode": "en", "name": "Englisch" }],
         "currencies": [
             { "currencyCode": "USD", "name": "US-Dollar", "symbol": "$" }

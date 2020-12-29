@@ -24,8 +24,8 @@
             ]
         },
         "capital": "Kigali",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "region": "África",
+        "subregion": "África Oriental",
         "languages": [
             { "languageCode": "en", "name": "inglés" },
             { "languageCode": "fr", "name": "francés" },

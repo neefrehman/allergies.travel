@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Diego Garcia",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "capital": "Diego García",
+        "region": "África",
+        "subregion": "África Oriental",
         "languages": [{ "languageCode": "en", "name": "inglés" }],
         "currencies": [
             {

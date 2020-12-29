@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Tripoli",
-        "region": "Africa",
-        "subregion": "Northern Africa",
+        "capital": "Tripolis",
+        "region": "Afrika",
+        "subregion": "Nordafrika",
         "languages": [{ "languageCode": "ar", "name": "Arabisch" }],
         "currencies": [
             { "currencyCode": "LYD", "name": "Libyscher Dinar", "symbol": "ل.د" }

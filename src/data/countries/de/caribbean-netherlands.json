@@ -17,8 +17,8 @@
                 }
             ]
         },
-        "region": "Americas",
-        "subregion": "Caribbean",
+        "region": "Middle America",
+        "subregion": "Karibik",
         "languages": [
             { "languageCode": "en", "name": "Englisch" },
             { "languageCode": "nl", "name": "Niederländisch" },

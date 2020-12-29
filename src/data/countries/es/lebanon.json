@@ -20,7 +20,7 @@
         },
         "capital": "Beirut",
         "region": "Asia",
-        "subregion": "Western Asia",
+        "subregion": "Asia Occidental",
         "languages": [
             { "languageCode": "ar", "name": "árabe" },
             { "languageCode": "fr", "name": "francés" }

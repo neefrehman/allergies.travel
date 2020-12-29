@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Mogadishu",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "capital": "Mogadiscio",
+        "region": "África",
+        "subregion": "África Oriental",
         "languages": [
             { "languageCode": "ar", "name": "árabe" },
             { "languageCode": "so", "name": "somalí" }

@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Valletta",
-        "region": "Europe",
-        "subregion": "Southern Europe",
+        "region": "Europa",
+        "subregion": "Südeuropa",
         "languages": [
             { "languageCode": "en", "name": "Englisch" },
             { "languageCode": "mt", "name": "Maltesisch" }

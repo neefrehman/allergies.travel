@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Riyadh",
-        "region": "Asia",
-        "subregion": "Western Asia",
+        "capital": "Riad",
+        "region": "Asien",
+        "subregion": "Vorderasien",
         "languages": [{ "languageCode": "ar", "name": "Arabisch" }],
         "currencies": [
             { "currencyCode": "SAR", "name": "Saudi-Rial", "symbol": "ر.س" }

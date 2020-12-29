@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "St. George's",
-        "region": "Americas",
-        "subregion": "Caribbean",
+        "capital": "Saint George's",
+        "region": "Middle America",
+        "subregion": "Caribe",
         "languages": [{ "languageCode": "en", "name": "inglés" }],
         "currencies": [
             {

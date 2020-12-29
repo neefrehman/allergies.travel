@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Yerevan",
-        "region": "Asia",
-        "subregion": "Western Asia",
+        "capital": "Jerewan",
+        "region": "Asien",
+        "subregion": "Vorderasien",
         "languages": [{ "languageCode": "hy", "name": "Armenisch" }],
         "currencies": [
             { "currencyCode": "AMD", "name": "Armenischer Dram", "symbol": "֏" }

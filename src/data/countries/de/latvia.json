@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Riga",
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "region": "Europa",
+        "subregion": "Nordeuropa",
         "languages": [{ "languageCode": "lv", "name": "Lettisch" }],
         "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
         "flag": "🇱🇻",

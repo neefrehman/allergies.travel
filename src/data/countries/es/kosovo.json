@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Pristina",
-        "region": "Europe",
-        "subregion": "Eastern Europe",
+        "capital": "Priština",
+        "region": "Europa",
+        "subregion": "Europa Oriental",
         "languages": [
             { "languageCode": "sq", "name": "albanés" },
             { "languageCode": "sh", "name": "serbio" }

@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Tbilisi",
-        "region": "Asia",
-        "subregion": "Western Asia",
+        "capital": "Tiflis",
+        "region": "Asien",
+        "subregion": "Vorderasien",
         "languages": [{ "languageCode": "ka", "name": "Georgisch" }],
         "currencies": [
             { "currencyCode": "GEL", "name": "Georgischer Lari", "symbol": "₾" }

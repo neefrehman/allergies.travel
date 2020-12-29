@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Athens",
-        "region": "Europe",
-        "subregion": "Southern Europe",
+        "capital": "Athen",
+        "region": "Europa",
+        "subregion": "Südeuropa",
         "languages": [{ "languageCode": "el", "name": "Griechisch" }],
         "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
         "flag": "🇬🇷",

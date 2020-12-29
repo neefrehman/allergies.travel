@@ -9,9 +9,9 @@
                 { "languageCode": "is", "official": "Ísland", "common": "Ísland" }
             ]
         },
-        "capital": "Reykjavik",
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "capital": "Reikiavik",
+        "region": "Europa",
+        "subregion": "Europa septentrional",
         "languages": [{ "languageCode": "is", "name": "islandés" }],
         "currencies": [
             { "currencyCode": "ISK", "name": "corona islandesa", "symbol": "kr" }

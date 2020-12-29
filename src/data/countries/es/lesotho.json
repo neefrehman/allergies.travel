@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Maseru",
-        "region": "Africa",
-        "subregion": "Southern Africa",
+        "region": "África",
+        "subregion": "África austral",
         "languages": [
             { "languageCode": "en", "name": "inglés" },
             { "languageCode": "st", "name": "sotho meridional" }

@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Muscat",
+        "capital": "Mascate",
         "region": "Asia",
-        "subregion": "Western Asia",
+        "subregion": "Asia Occidental",
         "languages": [{ "languageCode": "ar", "name": "árabe" }],
         "currencies": [
             { "currencyCode": "OMR", "name": "rial omaní", "symbol": "ر.ع." }

@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "",
-        "region": "Americas",
-        "subregion": "North America",
+        "capital": "Fidalgo",
+        "region": "Middle America",
+        "subregion": "Norteamérica",
         "languages": [{ "languageCode": "en", "name": "inglés" }],
         "currencies": [
             {

@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Bujumbura",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "capital": "Buyumbura",
+        "region": "África",
+        "subregion": "África Oriental",
         "languages": [
             { "languageCode": "fr", "name": "francés" },
             { "languageCode": "rn", "name": "kirundi" }

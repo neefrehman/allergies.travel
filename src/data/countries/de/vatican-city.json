@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Vatican City",
-        "region": "Europe",
-        "subregion": "Southern Europe",
+        "capital": "Staat der Vatikanstadt",
+        "region": "Europa",
+        "subregion": "Südeuropa",
         "languages": [
             { "languageCode": "it", "name": "Italienisch" },
             { "languageCode": "la", "name": "Latein" }

@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Dodoma",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "region": "África",
+        "subregion": "África Oriental",
         "languages": [
             { "languageCode": "en", "name": "inglés" },
             { "languageCode": "sw", "name": "suajili" }

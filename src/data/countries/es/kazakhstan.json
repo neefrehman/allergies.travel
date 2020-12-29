@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Astana",
+        "capital": "Nur-Sultán",
         "region": "Asia",
-        "subregion": "Central Asia",
+        "subregion": "Asia Central",
         "languages": [
             { "languageCode": "kk", "name": "kazajo" },
             { "languageCode": "ru", "name": "ruso" }

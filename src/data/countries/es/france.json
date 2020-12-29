@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Paris",
-        "region": "Europe",
-        "subregion": "Western Europe",
+        "capital": "París",
+        "region": "Europa",
+        "subregion": "Europa Occidental",
         "languages": [{ "languageCode": "fr", "name": "francés" }],
         "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
         "flag": "🇫🇷",

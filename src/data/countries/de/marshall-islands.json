@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Majuro",
-        "region": "Oceania",
-        "subregion": "Micronesia",
+        "region": "Ozeanien",
+        "subregion": "Mikronesien",
         "languages": [
             { "languageCode": "en", "name": "Englisch" },
             { "languageCode": "mh", "name": "Marschallesisch" }

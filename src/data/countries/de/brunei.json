@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Bandar Seri Begawan",
-        "region": "Asia",
-        "subregion": "South-Eastern Asia",
+        "region": "Asien",
+        "subregion": "Südostasien",
         "languages": [{ "languageCode": "ms", "name": "Malaiisch" }],
         "currencies": [
             { "currencyCode": "BND", "name": "Brunei-Dollar", "symbol": "$" },

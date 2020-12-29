@@ -13,8 +13,8 @@
                 }
             ]
         },
-        "capital": "Rome",
-        "region": "Europe",
+        "capital": "Roma",
+        "region": "Europa",
         "subregion": "Southern Europe",
         "languages": [{ "languageCode": "it", "name": "italiano" }],
         "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],

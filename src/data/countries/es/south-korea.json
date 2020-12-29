@@ -9,9 +9,9 @@
                 { "languageCode": "ko", "official": "대한민국", "common": "한국" }
             ]
         },
-        "capital": "Seoul",
+        "capital": "Seúl",
         "region": "Asia",
-        "subregion": "Eastern Asia",
+        "subregion": "Asia Oriental",
         "languages": [{ "languageCode": "ko", "name": "coreano" }],
         "currencies": [
             { "currencyCode": "KRW", "name": "won surcoreano", "symbol": "₩" }

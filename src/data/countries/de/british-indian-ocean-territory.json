@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Diego Garcia",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "region": "Afrika",
+        "subregion": "Ostafrika",
         "languages": [{ "languageCode": "en", "name": "Englisch" }],
         "currencies": [
             { "currencyCode": "USD", "name": "US-Dollar", "symbol": "$" }

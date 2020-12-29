@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Stanley",
-        "region": "Americas",
-        "subregion": "South America",
+        "capital": "Puerto Stanley",
+        "region": "Middle America",
+        "subregion": "Sudamérica",
         "languages": [{ "languageCode": "en", "name": "inglés" }],
         "currencies": [
             { "currencyCode": "FKP", "name": "libra malvinense", "symbol": "£" }

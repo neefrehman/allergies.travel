@@ -18,8 +18,8 @@
             ]
         },
         "capital": "Manila",
-        "region": "Asia",
-        "subregion": "South-Eastern Asia",
+        "region": "Asien",
+        "subregion": "Südostasien",
         "languages": [
             { "languageCode": "en", "name": "Englisch" },
             { "name": "Filipino" }

@@ -63,8 +63,8 @@
             ]
         },
         "capital": "Pretoria",
-        "region": "Africa",
-        "subregion": "Southern Africa",
+        "region": "África",
+        "subregion": "África austral",
         "languages": [
             { "languageCode": "af", "name": "afrikáans" },
             { "languageCode": "en", "name": "inglés" },

@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Malé",
-        "region": "Asia",
-        "subregion": "Southern Asia",
+        "region": "Asien",
+        "subregion": "Südasien",
         "languages": [{ "languageCode": "dv", "name": "Dhivehi" }],
         "currencies": [
             { "currencyCode": "MVR", "name": "Malediven-Rufiyaa", "symbol": ".ރ" }

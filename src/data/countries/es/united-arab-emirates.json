@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Abu Dhabi",
+        "capital": "Abu Dabi",
         "region": "Asia",
-        "subregion": "Western Asia",
+        "subregion": "Asia Occidental",
         "languages": [{ "languageCode": "ar", "name": "árabe" }],
         "currencies": [
             {

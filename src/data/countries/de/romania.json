@@ -13,8 +13,8 @@
                 }
             ]
         },
-        "capital": "Bucharest",
-        "region": "Europe",
+        "capital": "Bukarest",
+        "region": "Europa",
         "subregion": "Eastern Europe",
         "languages": [{ "languageCode": "ro", "name": "Rumänisch" }],
         "currencies": [

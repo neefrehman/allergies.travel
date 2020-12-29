@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Dhaka",
+        "capital": "Daca",
         "region": "Asia",
-        "subregion": "Southern Asia",
+        "subregion": "Asia del Sur",
         "languages": [{ "languageCode": "bn", "name": "bengalí" }],
         "currencies": [{ "currencyCode": "BDT", "name": "taka", "symbol": "৳" }],
         "flag": "🇧🇩",

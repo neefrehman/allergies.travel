@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Berlin",
-        "region": "Europe",
-        "subregion": "Western Europe",
+        "capital": "Berlín",
+        "region": "Europa",
+        "subregion": "Europa Occidental",
         "languages": [{ "languageCode": "de", "name": "alemán" }],
         "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
         "flag": "🇩🇪",

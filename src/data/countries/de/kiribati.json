@@ -14,9 +14,9 @@
                 { "official": "Ribaberiki Kiribati", "common": "Kiribati" }
             ]
         },
-        "capital": "South Tarawa",
-        "region": "Oceania",
-        "subregion": "Micronesia",
+        "capital": "Tarawa",
+        "region": "Ozeanien",
+        "subregion": "Mikronesien",
         "languages": [
             { "languageCode": "en", "name": "Englisch" },
             { "name": "Kiribatisch" }

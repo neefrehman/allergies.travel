@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Ulan Bator",
-        "region": "Asia",
-        "subregion": "Eastern Asia",
+        "capital": "Ulaanbaatar",
+        "region": "Asien",
+        "subregion": "Ostasien",
         "languages": [{ "languageCode": "mn", "name": "Mongolisch" }],
         "currencies": [
             {

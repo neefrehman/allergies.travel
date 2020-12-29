@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Dhaka",
-        "region": "Asia",
-        "subregion": "Southern Asia",
+        "region": "Asien",
+        "subregion": "Südasien",
         "languages": [{ "languageCode": "bn", "name": "Bengalisch" }],
         "currencies": [
             { "currencyCode": "BDT", "name": "Bangladesch-Taka", "symbol": "৳" }

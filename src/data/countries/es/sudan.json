@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Khartoum",
-        "region": "Africa",
-        "subregion": "Northern Africa",
+        "capital": "Jartum",
+        "region": "África",
+        "subregion": "África del Norte",
         "languages": [
             { "languageCode": "ar", "name": "árabe" },
             { "languageCode": "en", "name": "inglés" }

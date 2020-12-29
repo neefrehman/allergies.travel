@@ -20,8 +20,8 @@
             ]
         },
         "capital": "Victoria",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "region": "Afrika",
+        "subregion": "Ostafrika",
         "languages": [
             { "name": "Seychellenkreol" },
             { "languageCode": "en", "name": "Englisch" },

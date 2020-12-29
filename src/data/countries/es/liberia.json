@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Monrovia",
-        "region": "Africa",
-        "subregion": "Western Africa",
+        "region": "África",
+        "subregion": "África Occidental",
         "languages": [{ "languageCode": "en", "name": "inglés" }],
         "currencies": [
             { "currencyCode": "LRD", "name": "dólar liberiano", "symbol": "$" }

@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Beijing",
-        "region": "Asia",
-        "subregion": "Eastern Asia",
+        "capital": "Peking",
+        "region": "Asien",
+        "subregion": "Ostasien",
         "languages": [{ "languageCode": "zh", "name": "Chinesisch" }],
         "currencies": [
             { "currencyCode": "CNY", "name": "Renminbi Yuan", "symbol": "¥" }

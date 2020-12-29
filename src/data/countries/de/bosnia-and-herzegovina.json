@@ -24,8 +24,8 @@
             ]
         },
         "capital": "Sarajevo",
-        "region": "Europe",
-        "subregion": "Southern Europe",
+        "region": "Europa",
+        "subregion": "Südeuropa",
         "languages": [
             { "languageCode": "sh", "name": "Bosnisch" },
             { "languageCode": "sh", "name": "Kroatisch" },

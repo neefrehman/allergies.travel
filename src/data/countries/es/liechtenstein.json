@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Vaduz",
-        "region": "Europe",
-        "subregion": "Western Europe",
+        "region": "Europa",
+        "subregion": "Europa Occidental",
         "languages": [{ "languageCode": "de", "name": "alemán" }],
         "currencies": [
             { "currencyCode": "CHF", "name": "franco suizo", "symbol": "Fr" }

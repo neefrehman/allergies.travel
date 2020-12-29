@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Marigot",
-        "region": "Americas",
-        "subregion": "Caribbean",
+        "region": "Middle America",
+        "subregion": "Karibik",
         "languages": [{ "languageCode": "fr", "name": "Französisch" }],
         "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
         "flag": "🇲🇫",

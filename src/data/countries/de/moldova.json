@@ -13,8 +13,8 @@
                 }
             ]
         },
-        "capital": "Chișinău",
-        "region": "Europe",
+        "capital": "Chişinău",
+        "region": "Europa",
         "subregion": "Eastern Europe",
         "languages": [{ "languageCode": "ro", "name": "Rumänisch" }],
         "currencies": [

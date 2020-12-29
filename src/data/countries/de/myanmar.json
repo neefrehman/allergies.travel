@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Naypyidaw",
-        "region": "Asia",
-        "subregion": "South-Eastern Asia",
+        "capital": "Nay Pyi Taw",
+        "region": "Asien",
+        "subregion": "Südostasien",
         "languages": [{ "languageCode": "my", "name": "Birmanisch" }],
         "currencies": [
             {

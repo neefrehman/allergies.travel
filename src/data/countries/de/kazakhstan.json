@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Astana",
-        "region": "Asia",
-        "subregion": "Central Asia",
+        "capital": "Nur-Sultan",
+        "region": "Asien",
+        "subregion": "Zentralasien",
         "languages": [
             { "languageCode": "kk", "name": "Kasachisch" },
             { "languageCode": "ru", "name": "Russisch" }

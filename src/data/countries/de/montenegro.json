@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Podgorica",
-        "region": "Europe",
-        "subregion": "Southern Europe",
+        "region": "Europa",
+        "subregion": "Südeuropa",
         "languages": [{ "languageCode": "sh", "name": "Serbisch" }],
         "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
         "flag": "🇲🇪",

@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Budapest",
-        "region": "Europe",
-        "subregion": "Eastern Europe",
+        "region": "Europa",
+        "subregion": "Europa Oriental",
         "languages": [{ "languageCode": "hu", "name": "húngaro" }],
         "currencies": [
             { "currencyCode": "HUF", "name": "forinto húngaro", "symbol": "Ft" }

@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Nuuk",
-        "region": "Americas",
-        "subregion": "North America",
+        "region": "Middle America",
+        "subregion": "Norteamérica",
         "languages": [{ "languageCode": "kl", "name": "groenlandés" }],
         "currencies": [
             { "currencyCode": "DKK", "name": "corona danesa", "symbol": "kr." }

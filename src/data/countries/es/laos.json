@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Vientiane",
+        "capital": "Vientián",
         "region": "Asia",
-        "subregion": "South-Eastern Asia",
+        "subregion": "Sudeste Asiático",
         "languages": [{ "languageCode": "lo", "name": "lao" }],
         "currencies": [{ "currencyCode": "LAK", "name": "kip", "symbol": "₭" }],
         "flag": "🇱🇦",

@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Freetown",
-        "region": "Africa",
-        "subregion": "Western Africa",
+        "region": "África",
+        "subregion": "África Occidental",
         "languages": [{ "languageCode": "en", "name": "inglés" }],
         "currencies": [
             { "currencyCode": "SLL", "name": "leona", "symbol": "Le" }

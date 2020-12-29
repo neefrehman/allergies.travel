@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Khartoum",
-        "region": "Africa",
-        "subregion": "Northern Africa",
+        "capital": "Khartum",
+        "region": "Afrika",
+        "subregion": "Nordafrika",
         "languages": [
             { "languageCode": "ar", "name": "Arabisch" },
             { "languageCode": "en", "name": "Englisch" }

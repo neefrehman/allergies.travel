@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Minsk",
-        "region": "Europe",
-        "subregion": "Eastern Europe",
+        "region": "Europa",
+        "subregion": "Europa Oriental",
         "languages": [
             { "languageCode": "be", "name": "bielorruso" },
             { "languageCode": "ru", "name": "ruso" }

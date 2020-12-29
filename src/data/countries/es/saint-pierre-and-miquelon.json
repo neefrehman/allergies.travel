@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Saint-Pierre",
-        "region": "Americas",
-        "subregion": "North America",
+        "capital": "San Petersburgo",
+        "region": "Middle America",
+        "subregion": "Norteamérica",
         "languages": [{ "languageCode": "fr", "name": "francés" }],
         "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
         "flag": "🇵🇲",

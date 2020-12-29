@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Managua",
-        "region": "Americas",
-        "subregion": "Central America",
+        "region": "Middle America",
+        "subregion": "Zentralamerika",
         "languages": [{ "languageCode": "es", "name": "Spanisch" }],
         "currencies": [
             { "currencyCode": "NIO", "name": "Nicaragua-Córdoba", "symbol": "C$" }

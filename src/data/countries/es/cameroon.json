@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Yaoundé",
-        "region": "Africa",
-        "subregion": "Middle Africa",
+        "region": "África",
+        "subregion": "Greater Cairo Area",
         "languages": [
             { "languageCode": "en", "name": "inglés" },
             { "languageCode": "fr", "name": "francés" }

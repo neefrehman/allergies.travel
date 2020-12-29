@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Bucharest",
-        "region": "Europe",
-        "subregion": "Eastern Europe",
+        "capital": "Bucarest",
+        "region": "Europa",
+        "subregion": "Europa Oriental",
         "languages": [{ "languageCode": "ro", "name": "rumano" }],
         "currencies": [
             { "currencyCode": "RON", "name": "leu rumano", "symbol": "lei" }

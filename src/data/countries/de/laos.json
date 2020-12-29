@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Vientiane",
-        "region": "Asia",
-        "subregion": "South-Eastern Asia",
+        "region": "Asien",
+        "subregion": "Südostasien",
         "languages": [{ "languageCode": "lo", "name": "Laotisch" }],
         "currencies": [
             { "currencyCode": "LAK", "name": "Laotischer Kip", "symbol": "₭" }

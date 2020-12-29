@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Tórshavn",
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "region": "Europa",
+        "subregion": "Europa septentrional",
         "languages": [
             { "languageCode": "da", "name": "danés" },
             { "languageCode": "fo", "name": "feroés" }

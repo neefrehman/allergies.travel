@@ -24,8 +24,8 @@
             ]
         },
         "capital": "Kabul",
-        "region": "Asia",
-        "subregion": "Southern Asia",
+        "region": "Asien",
+        "subregion": "Südasien",
         "languages": [
             { "languageCode": "fa", "name": "prs" },
             { "languageCode": "ps", "name": "Paschtu" },

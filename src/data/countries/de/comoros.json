@@ -20,8 +20,8 @@
             ]
         },
         "capital": "Moroni",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "region": "Afrika",
+        "subregion": "Ostafrika",
         "languages": [
             { "languageCode": "ar", "name": "Arabisch" },
             { "languageCode": "fr", "name": "Französisch" },

@@ -20,8 +20,8 @@
             ]
         },
         "capital": "Victoria",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "region": "África",
+        "subregion": "África Oriental",
         "languages": [
             { "name": "criollo seychelense" },
             { "languageCode": "en", "name": "inglés" },

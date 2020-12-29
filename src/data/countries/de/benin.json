@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Porto-Novo",
-        "region": "Africa",
-        "subregion": "Western Africa",
+        "capital": "Porto Novo",
+        "region": "Afrika",
+        "subregion": "Westafrika",
         "languages": [{ "languageCode": "fr", "name": "Französisch" }],
         "currencies": [
             { "currencyCode": "XOF", "name": "CFA-Franc (BCEAO)", "symbol": "Fr" }

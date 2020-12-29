@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Mariehamn",
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "region": "Europa",
+        "subregion": "Nordeuropa",
         "languages": [{ "languageCode": "sv", "name": "Schwedisch" }],
         "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
         "flag": "🇦🇽",

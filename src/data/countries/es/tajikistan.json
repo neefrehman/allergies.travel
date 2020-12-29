@@ -20,7 +20,7 @@
         },
         "capital": "Dushanbe",
         "region": "Asia",
-        "subregion": "Central Asia",
+        "subregion": "Asia Central",
         "languages": [
             { "languageCode": "ru", "name": "ruso" },
             { "languageCode": "tg", "name": "tayiko" }

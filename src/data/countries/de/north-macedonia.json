@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Skopje",
-        "region": "Europe",
-        "subregion": "Southern Europe",
+        "region": "Europa",
+        "subregion": "Südeuropa",
         "languages": [{ "languageCode": "mk", "name": "Mazedonisch" }],
         "currencies": [
             {

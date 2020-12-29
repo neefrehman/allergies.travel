@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "N'Djamena",
-        "region": "Africa",
-        "subregion": "Middle Africa",
+        "capital": "Yamena",
+        "region": "África",
+        "subregion": "Greater Cairo Area",
         "languages": [
             { "languageCode": "ar", "name": "árabe" },
             { "languageCode": "fr", "name": "francés" }

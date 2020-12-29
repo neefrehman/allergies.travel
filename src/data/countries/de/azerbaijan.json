@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Baku",
-        "region": "Asia",
-        "subregion": "Western Asia",
+        "region": "Asien",
+        "subregion": "Vorderasien",
         "languages": [
             { "languageCode": "az", "name": "Aserbaidschanisch" },
             { "languageCode": "ru", "name": "Russisch" }

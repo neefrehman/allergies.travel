@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Dodoma",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "region": "Afrika",
+        "subregion": "Ostafrika",
         "languages": [
             { "languageCode": "en", "name": "Englisch" },
             { "languageCode": "sw", "name": "Suaheli" }

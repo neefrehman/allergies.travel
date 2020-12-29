@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Antananarivo",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "region": "Afrika",
+        "subregion": "Ostafrika",
         "languages": [
             { "languageCode": "fr", "name": "Französisch" },
             { "languageCode": "mg", "name": "Madagassisch" }

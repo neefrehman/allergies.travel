@@ -20,8 +20,8 @@
             ]
         },
         "capital": "Oslo",
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "region": "Europa",
+        "subregion": "Nordeuropa",
         "languages": [
             { "languageCode": "no", "name": "Norwegisch Nynorsk" },
             { "languageCode": "no", "name": "Norwegisch Bokmål" },

@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Bishkek",
+        "capital": "Biskek",
         "region": "Asia",
-        "subregion": "Central Asia",
+        "subregion": "Asia Central",
         "languages": [
             { "languageCode": "ky", "name": "kirguís" },
             { "languageCode": "ru", "name": "ruso" }

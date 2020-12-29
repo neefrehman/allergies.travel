@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Washington D.C.",
-        "region": "Americas",
-        "subregion": "North America",
+        "capital": "Washington",
+        "region": "Middle America",
+        "subregion": "Norteamérica",
         "languages": [{ "languageCode": "en", "name": "inglés" }],
         "currencies": [
             {

@@ -14,9 +14,9 @@
                 { "official": "Tuvalu", "common": "Tuvalu" }
             ]
         },
-        "capital": "Funafuti",
-        "region": "Oceania",
-        "subregion": "Polynesia",
+        "capital": "Fongafale (atolón de Funafuti)",
+        "region": "Oceanía",
+        "subregion": "Polinesia",
         "languages": [
             { "languageCode": "en", "name": "inglés" },
             { "name": "tuvaluano" }

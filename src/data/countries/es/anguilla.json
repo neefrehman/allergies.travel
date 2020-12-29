@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "The Valley",
-        "region": "Americas",
-        "subregion": "Caribbean",
+        "capital": "El Valle",
+        "region": "Middle America",
+        "subregion": "Caribe",
         "languages": [{ "languageCode": "en", "name": "inglés" }],
         "currencies": [
             {

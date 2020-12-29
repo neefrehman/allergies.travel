@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Nuku'alofa",
-        "region": "Oceania",
-        "subregion": "Polynesia",
+        "capital": "Nuku’alofa",
+        "region": "Ozeanien",
+        "subregion": "Polynesien",
         "languages": [
             { "languageCode": "en", "name": "Englisch" },
             { "languageCode": "to", "name": "Tongaisch" }

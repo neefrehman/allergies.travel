@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Copenhagen",
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "capital": "Kopenhagen",
+        "region": "Europa",
+        "subregion": "Nordeuropa",
         "languages": [{ "languageCode": "da", "name": "Dänisch" }],
         "currencies": [
             { "currencyCode": "DKK", "name": "Dänische Krone", "symbol": "kr" }

@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Lilongwe",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "region": "África",
+        "subregion": "África Oriental",
         "languages": [
             { "languageCode": "en", "name": "inglés" },
             { "languageCode": "ny", "name": "nyanja" }

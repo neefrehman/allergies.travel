@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Mexico City",
-        "region": "Americas",
-        "subregion": "North America",
+        "capital": "Mexiko-Stadt",
+        "region": "Middle America",
+        "subregion": "Nordamerika",
         "languages": [{ "languageCode": "es", "name": "Spanisch" }],
         "currencies": [
             { "currencyCode": "MXN", "name": "Mexikanischer Peso", "symbol": "$" }

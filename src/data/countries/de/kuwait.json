@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Kuwait City",
-        "region": "Asia",
-        "subregion": "Western Asia",
+        "capital": "Kuwait-Stadt",
+        "region": "Asien",
+        "subregion": "Vorderasien",
         "languages": [{ "languageCode": "ar", "name": "Arabisch" }],
         "currencies": [
             { "currencyCode": "KWD", "name": "Kuwait-Dinar", "symbol": "د.ك" }

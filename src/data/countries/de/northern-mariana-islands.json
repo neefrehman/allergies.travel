@@ -23,8 +23,8 @@
             ]
         },
         "capital": "Saipan",
-        "region": "Oceania",
-        "subregion": "Micronesia",
+        "region": "Ozeanien",
+        "subregion": "Mikronesien",
         "languages": [
             { "name": "cal" },
             { "languageCode": "ch", "name": "Chamorro" },

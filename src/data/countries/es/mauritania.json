@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Nouakchott",
-        "region": "Africa",
-        "subregion": "Western Africa",
+        "capital": "Nuakchot",
+        "region": "África",
+        "subregion": "África Occidental",
         "languages": [{ "languageCode": "ar", "name": "árabe" }],
         "currencies": [
             { "currencyCode": "MRU", "name": "uguiya", "symbol": "UM" }

@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Helsinki",
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "region": "Europa",
+        "subregion": "Europa septentrional",
         "languages": [
             { "languageCode": "fi", "name": "finés" },
             { "languageCode": "sv", "name": "sueco" }

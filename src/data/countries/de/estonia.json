@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Tallinn",
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "region": "Europa",
+        "subregion": "Nordeuropa",
         "languages": [{ "languageCode": "et", "name": "Estnisch" }],
         "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
         "flag": "🇪🇪",

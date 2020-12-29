@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Kyiv",
-        "region": "Europe",
-        "subregion": "Eastern Europe",
+        "region": "Europa",
+        "subregion": "Europa Oriental",
         "languages": [{ "languageCode": "uk", "name": "ucraniano" }],
         "currencies": [
             { "currencyCode": "UAH", "name": "grivna", "symbol": "₴" }

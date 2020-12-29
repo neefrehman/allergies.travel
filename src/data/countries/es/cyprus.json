@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Nicosia",
-        "region": "Europe",
-        "subregion": "Eastern Europe",
+        "region": "Europa",
+        "subregion": "Europa Oriental",
         "languages": [
             { "languageCode": "el", "name": "griego" },
             { "languageCode": "tr", "name": "turco" }

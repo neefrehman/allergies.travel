@@ -15,7 +15,7 @@
         },
         "capital": "Bandar Seri Begawan",
         "region": "Asia",
-        "subregion": "South-Eastern Asia",
+        "subregion": "Sudeste Asiático",
         "languages": [{ "languageCode": "ms", "name": "malayo" }],
         "currencies": [
             { "currencyCode": "BND", "name": "dólar bruneano", "symbol": "$" },

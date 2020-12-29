@@ -10,8 +10,8 @@
             ]
         },
         "capital": "Seoul",
-        "region": "Asia",
-        "subregion": "Eastern Asia",
+        "region": "Asien",
+        "subregion": "Ostasien",
         "languages": [{ "languageCode": "ko", "name": "Koreanisch" }],
         "currencies": [
             {

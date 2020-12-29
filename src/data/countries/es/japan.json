@@ -9,9 +9,9 @@
                 { "languageCode": "ja", "official": "日本", "common": "日本" }
             ]
         },
-        "capital": "Tokyo",
+        "capital": "Tokio",
         "region": "Asia",
-        "subregion": "Eastern Asia",
+        "subregion": "Asia Oriental",
         "languages": [{ "languageCode": "ja", "name": "japonés" }],
         "currencies": [{ "currencyCode": "JPY", "name": "yen", "symbol": "¥" }],
         "flag": "🇯🇵",

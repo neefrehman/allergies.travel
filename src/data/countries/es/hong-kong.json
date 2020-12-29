@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "City of Victoria",
+        "capital": "Melbourne",
         "region": "Asia",
-        "subregion": "Eastern Asia",
+        "subregion": "Asia Oriental",
         "languages": [
             { "languageCode": "en", "name": "inglés" },
             { "languageCode": "zh", "name": "chino" }

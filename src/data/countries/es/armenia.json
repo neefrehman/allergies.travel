@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Yerevan",
+        "capital": "Ereván",
         "region": "Asia",
-        "subregion": "Western Asia",
+        "subregion": "Asia Occidental",
         "languages": [{ "languageCode": "hy", "name": "armenio" }],
         "currencies": [{ "currencyCode": "AMD", "name": "dram", "symbol": "֏" }],
         "flag": "🇦🇲",

@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Guatemala City",
-        "region": "Americas",
-        "subregion": "Central America",
+        "capital": "Guate",
+        "region": "Middle America",
+        "subregion": "América Central",
         "languages": [{ "languageCode": "es", "name": "español" }],
         "currencies": [
             {

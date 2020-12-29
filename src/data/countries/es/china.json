@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Beijing",
+        "capital": "Pekín",
         "region": "Asia",
-        "subregion": "Eastern Asia",
+        "subregion": "Asia Oriental",
         "languages": [{ "languageCode": "zh", "name": "chino" }],
         "currencies": [{ "currencyCode": "CNY", "name": "yuan", "symbol": "¥" }],
         "flag": "🇨🇳",

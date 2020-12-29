@@ -28,9 +28,9 @@
                 }
             ]
         },
-        "capital": "Singapore",
-        "region": "Asia",
-        "subregion": "South-Eastern Asia",
+        "capital": "Singapur",
+        "region": "Asien",
+        "subregion": "Südostasien",
         "languages": [
             { "languageCode": "zh", "name": "Chinesisch" },
             { "languageCode": "en", "name": "Englisch" },

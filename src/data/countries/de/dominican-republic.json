@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Santo Domingo",
-        "region": "Americas",
-        "subregion": "Caribbean",
+        "region": "Middle America",
+        "subregion": "Karibik",
         "languages": [{ "languageCode": "es", "name": "Spanisch" }],
         "currencies": [
             {

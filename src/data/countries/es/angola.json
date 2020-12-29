@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Luanda",
-        "region": "Africa",
-        "subregion": "Middle Africa",
+        "region": "África",
+        "subregion": "Greater Cairo Area",
         "languages": [{ "languageCode": "pt", "name": "portugués" }],
         "currencies": [
             { "currencyCode": "AOA", "name": "kuanza", "symbol": "Kz" }

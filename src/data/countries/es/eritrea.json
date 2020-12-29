@@ -20,8 +20,8 @@
             ]
         },
         "capital": "Asmara",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "region": "África",
+        "subregion": "África Oriental",
         "languages": [
             { "languageCode": "ar", "name": "árabe" },
             { "languageCode": "en", "name": "inglés" },

@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Bridgetown",
-        "region": "Americas",
-        "subregion": "Caribbean",
+        "region": "Middle America",
+        "subregion": "Karibik",
         "languages": [{ "languageCode": "en", "name": "Englisch" }],
         "currencies": [
             { "currencyCode": "BBD", "name": "Barbados-Dollar", "symbol": "$" }

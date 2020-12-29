@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Tashkent",
-        "region": "Asia",
-        "subregion": "Central Asia",
+        "capital": "Taschkent",
+        "region": "Asien",
+        "subregion": "Zentralasien",
         "languages": [
             { "languageCode": "ru", "name": "Russisch" },
             { "languageCode": "uz", "name": "Usbekisch" }

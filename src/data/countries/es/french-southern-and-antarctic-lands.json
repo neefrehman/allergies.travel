@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Port-aux-Français",
-        "region": "Antarctic",
-        "subregion": "",
+        "region": "Antarctic, The",
+        "subregion": "Pamoana",
         "languages": [{ "languageCode": "fr", "name": "francés" }],
         "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
         "flag": "🇹🇫",

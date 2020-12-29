@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Algiers",
-        "region": "Africa",
-        "subregion": "Northern Africa",
+        "capital": "Argel",
+        "region": "África",
+        "subregion": "África del Norte",
         "languages": [{ "languageCode": "ar", "name": "árabe" }],
         "currencies": [
             { "currencyCode": "DZD", "name": "dinar argelino", "symbol": "د.ج" }

@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Nassau",
-        "region": "Americas",
-        "subregion": "Caribbean",
+        "capital": "Nasáu",
+        "region": "Middle America",
+        "subregion": "Caribe",
         "languages": [{ "languageCode": "en", "name": "inglés" }],
         "currencies": [
             { "currencyCode": "BSD", "name": "dólar bahameño", "symbol": "$" },

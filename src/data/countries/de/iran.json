@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Tehran",
-        "region": "Asia",
-        "subregion": "Southern Asia",
+        "capital": "Teheran",
+        "region": "Asien",
+        "subregion": "Südasien",
         "languages": [{ "languageCode": "fa", "name": "Persisch" }],
         "currencies": [
             { "currencyCode": "IRR", "name": "Iranischer Rial", "symbol": "﷼" }

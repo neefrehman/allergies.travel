@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Juba",
-        "region": "Africa",
-        "subregion": "Middle Africa",
+        "region": "África",
+        "subregion": "Greater Cairo Area",
         "languages": [{ "languageCode": "en", "name": "inglés" }],
         "currencies": [
             { "currencyCode": "SSP", "name": "libra sursudanesa", "symbol": "£" }

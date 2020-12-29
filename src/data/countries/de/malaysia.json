@@ -15,8 +15,8 @@
             ]
         },
         "capital": "Kuala Lumpur",
-        "region": "Asia",
-        "subregion": "South-Eastern Asia",
+        "region": "Asien",
+        "subregion": "Südostasien",
         "languages": [
             { "languageCode": "en", "name": "Englisch" },
             { "languageCode": "ms", "name": "Malaiisch" }

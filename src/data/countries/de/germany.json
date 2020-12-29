@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Berlin",
-        "region": "Europe",
-        "subregion": "Western Europe",
+        "region": "Europa",
+        "subregion": "Westeuropa",
         "languages": [{ "languageCode": "de", "name": "Deutsch" }],
         "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
         "flag": "🇩🇪",

@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Longyearbyen",
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "region": "Europa",
+        "subregion": "Nordeuropa",
         "languages": [{ "languageCode": "no", "name": "Norwegisch" }],
         "currencies": [
             { "currencyCode": "NOK", "name": "Norwegische Krone", "symbol": "kr" }

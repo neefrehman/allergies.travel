@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Helsinki",
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "region": "Europa",
+        "subregion": "Nordeuropa",
         "languages": [
             { "languageCode": "fi", "name": "Finnisch" },
             { "languageCode": "sv", "name": "Schwedisch" }

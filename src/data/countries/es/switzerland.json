@@ -27,9 +27,9 @@
                 }
             ]
         },
-        "capital": "Bern",
-        "region": "Europe",
-        "subregion": "Western Europe",
+        "capital": "Berna",
+        "region": "Europa",
+        "subregion": "Europa Occidental",
         "languages": [
             { "languageCode": "fr", "name": "francés" },
             { "name": "alemán suizo" },

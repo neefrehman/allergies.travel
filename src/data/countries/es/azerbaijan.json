@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Baku",
+        "capital": "Bakú",
         "region": "Asia",
-        "subregion": "Western Asia",
+        "subregion": "Asia Occidental",
         "languages": [
             { "languageCode": "az", "name": "azerbaiyano" },
             { "languageCode": "ru", "name": "ruso" }

@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Cairo",
-        "region": "Africa",
-        "subregion": "Northern Africa",
+        "capital": "Kairo",
+        "region": "Afrika",
+        "subregion": "Nordafrika",
         "languages": [{ "languageCode": "ar", "name": "Arabisch" }],
         "currencies": [
             { "currencyCode": "EGP", "name": "Ägyptisches Pfund", "symbol": "£" }

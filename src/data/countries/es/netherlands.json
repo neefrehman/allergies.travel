@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Amsterdam",
-        "region": "Europe",
-        "subregion": "Western Europe",
+        "capital": "Ámsterdam",
+        "region": "Europa",
+        "subregion": "Europa Occidental",
         "languages": [{ "languageCode": "nl", "name": "neerlandés" }],
         "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
         "flag": "🇳🇱",

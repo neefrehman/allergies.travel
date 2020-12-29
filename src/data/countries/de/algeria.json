@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Algiers",
-        "region": "Africa",
-        "subregion": "Northern Africa",
+        "capital": "Algier",
+        "region": "Afrika",
+        "subregion": "Nordafrika",
         "languages": [{ "languageCode": "ar", "name": "Arabisch" }],
         "currencies": [
             {

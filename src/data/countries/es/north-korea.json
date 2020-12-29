@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Pyongyang",
+        "capital": "Pionyang",
         "region": "Asia",
-        "subregion": "Eastern Asia",
+        "subregion": "Asia Oriental",
         "languages": [{ "languageCode": "ko", "name": "coreano" }],
         "currencies": [
             { "currencyCode": "KPW", "name": "won norcoreano", "symbol": "₩" }

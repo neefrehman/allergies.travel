@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Tirana",
-        "region": "Europe",
-        "subregion": "Southern Europe",
+        "region": "Europa",
+        "subregion": "Südeuropa",
         "languages": [{ "languageCode": "sq", "name": "Albanisch" }],
         "currencies": [
             { "currencyCode": "ALL", "name": "Albanischer Lek", "symbol": "L" }

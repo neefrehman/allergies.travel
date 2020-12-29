@@ -20,8 +20,8 @@
             ]
         },
         "capital": "Wellington",
-        "region": "Oceania",
-        "subregion": "Australia and New Zealand",
+        "region": "Ozeanien",
+        "subregion": "Australien und Neuseeland",
         "languages": [
             { "languageCode": "en", "name": "Englisch" },
             { "languageCode": "mi", "name": "Maori" },

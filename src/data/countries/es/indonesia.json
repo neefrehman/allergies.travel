@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Jakarta",
+        "capital": "Yakarta",
         "region": "Asia",
-        "subregion": "South-Eastern Asia",
+        "subregion": "Sudeste Asiático",
         "languages": [{ "languageCode": "ms", "name": "indonesio" }],
         "currencies": [
             { "currencyCode": "IDR", "name": "rupia indonesia", "symbol": "Rp" }

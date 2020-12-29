@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Ashgabat",
+        "capital": "Asjabad",
         "region": "Asia",
-        "subregion": "Central Asia",
+        "subregion": "Asia Central",
         "languages": [
             { "languageCode": "ru", "name": "ruso" },
             { "languageCode": "tk", "name": "turcomano" }

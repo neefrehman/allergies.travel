@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Sofia",
-        "region": "Europe",
-        "subregion": "Eastern Europe",
+        "capital": "Sofía",
+        "region": "Europa",
+        "subregion": "Europa Oriental",
         "languages": [{ "languageCode": "bg", "name": "búlgaro" }],
         "currencies": [
             { "currencyCode": "BGN", "name": "lev búlgaro", "symbol": "лв" }

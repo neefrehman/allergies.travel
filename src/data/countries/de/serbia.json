@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Belgrade",
-        "region": "Europe",
-        "subregion": "Southern Europe",
+        "capital": "Belgrad",
+        "region": "Europa",
+        "subregion": "Südeuropa",
         "languages": [{ "languageCode": "sh", "name": "Serbisch" }],
         "currencies": [
             {

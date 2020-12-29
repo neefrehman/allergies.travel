@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Papeetē",
-        "region": "Oceania",
-        "subregion": "Polynesia",
+        "capital": "Papeete",
+        "region": "Ozeanien",
+        "subregion": "Polynesien",
         "languages": [{ "languageCode": "fr", "name": "Französisch" }],
         "currencies": [
             { "currencyCode": "XPF", "name": "CFP-Franc", "symbol": "₣" }

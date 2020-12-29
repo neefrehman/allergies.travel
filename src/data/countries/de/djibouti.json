@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Djibouti",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "capital": "Dschibuti",
+        "region": "Afrika",
+        "subregion": "Ostafrika",
         "languages": [
             { "languageCode": "ar", "name": "Arabisch" },
             { "languageCode": "fr", "name": "Französisch" }

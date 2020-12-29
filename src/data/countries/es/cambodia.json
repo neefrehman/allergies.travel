@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Phnom Penh",
+        "capital": "Nom Pen",
         "region": "Asia",
-        "subregion": "South-Eastern Asia",
+        "subregion": "Sudeste Asiático",
         "languages": [{ "languageCode": "km", "name": "jemer" }],
         "currencies": [
             { "currencyCode": "KHR", "name": "riel", "symbol": "៛" },

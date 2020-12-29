@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Buenos Aires",
-        "region": "Americas",
-        "subregion": "South America",
+        "region": "Middle America",
+        "subregion": "Sudamérica",
         "languages": [
             { "languageCode": "gn", "name": "guaraní" },
             { "languageCode": "es", "name": "español" }

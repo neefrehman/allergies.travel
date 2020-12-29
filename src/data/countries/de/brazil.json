@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Brasília",
-        "region": "Americas",
-        "subregion": "South America",
+        "capital": "Brasilien",
+        "region": "Middle America",
+        "subregion": "Südamerika",
         "languages": [{ "languageCode": "pt", "name": "Portugiesisch" }],
         "currencies": [
             {

@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Montevideo",
-        "region": "Americas",
-        "subregion": "South America",
+        "region": "Middle America",
+        "subregion": "Sudamérica",
         "languages": [{ "languageCode": "es", "name": "español" }],
         "currencies": [
             { "currencyCode": "UYU", "name": "peso uruguayo", "symbol": "$" }

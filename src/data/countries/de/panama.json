@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Panama City",
-        "region": "Americas",
-        "subregion": "Central America",
+        "capital": "Panama-Stadt",
+        "region": "Middle America",
+        "subregion": "Zentralamerika",
         "languages": [{ "languageCode": "es", "name": "Spanisch" }],
         "currencies": [
             {

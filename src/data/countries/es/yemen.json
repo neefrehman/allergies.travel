@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Sana'a",
+        "capital": "Sanaá",
         "region": "Asia",
-        "subregion": "Western Asia",
+        "subregion": "Asia Occidental",
         "languages": [{ "languageCode": "ar", "name": "árabe" }],
         "currencies": [
             { "currencyCode": "YER", "name": "rial yemení", "symbol": "﷼" }

@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Lobamba",
-        "region": "Africa",
-        "subregion": "Southern Africa",
+        "region": "África",
+        "subregion": "África austral",
         "languages": [
             { "languageCode": "en", "name": "inglés" },
             { "languageCode": "ss", "name": "suazi" }

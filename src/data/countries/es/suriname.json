@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Paramaribo",
-        "region": "Americas",
-        "subregion": "South America",
+        "region": "Middle America",
+        "subregion": "Sudamérica",
         "languages": [{ "languageCode": "nl", "name": "neerlandés" }],
         "currencies": [
             { "currencyCode": "SRD", "name": "dólar surinamés", "symbol": "$" }

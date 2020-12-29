@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Santo Domingo",
-        "region": "Americas",
-        "subregion": "Caribbean",
+        "region": "Middle America",
+        "subregion": "Caribe",
         "languages": [{ "languageCode": "es", "name": "español" }],
         "currencies": [
             { "currencyCode": "DOP", "name": "peso dominicano", "symbol": "$" }

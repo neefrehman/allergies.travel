@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "São Tomé",
-        "region": "Africa",
-        "subregion": "Middle Africa",
+        "capital": "São Paulo",
+        "region": "África",
+        "subregion": "Greater Cairo Area",
         "languages": [{ "languageCode": "pt", "name": "portugués" }],
         "currencies": [
             { "currencyCode": "STN", "name": "dobra", "symbol": "Db" }

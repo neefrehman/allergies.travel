@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Stockholm",
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "region": "Europa",
+        "subregion": "Nordeuropa",
         "languages": [{ "languageCode": "sv", "name": "Schwedisch" }],
         "currencies": [
             { "currencyCode": "SEK", "name": "Schwedische Krone", "symbol": "kr" }

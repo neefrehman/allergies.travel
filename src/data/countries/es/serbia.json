@@ -13,8 +13,8 @@
                 }
             ]
         },
-        "capital": "Belgrade",
-        "region": "Europe",
+        "capital": "Belgrado",
+        "region": "Europa",
         "subregion": "Southern Europe",
         "languages": [{ "languageCode": "sh", "name": "serbio" }],
         "currencies": [

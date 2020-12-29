@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Tegucigalpa",
-        "region": "Americas",
-        "subregion": "Central America",
+        "region": "Middle America",
+        "subregion": "América Central",
         "languages": [{ "languageCode": "es", "name": "español" }],
         "currencies": [
             { "currencyCode": "HNL", "name": "lempira hondureño", "symbol": "L" }

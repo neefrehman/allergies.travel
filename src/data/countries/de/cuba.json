@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Havana",
-        "region": "Americas",
-        "subregion": "Caribbean",
+        "capital": "Havanna",
+        "region": "Middle America",
+        "subregion": "Karibik",
         "languages": [{ "languageCode": "es", "name": "Spanisch" }],
         "currencies": [
             {

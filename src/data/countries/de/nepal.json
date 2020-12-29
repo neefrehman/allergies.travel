@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Kathmandu",
-        "region": "Asia",
-        "subregion": "Southern Asia",
+        "region": "Asien",
+        "subregion": "Südasien",
         "languages": [{ "languageCode": "ne", "name": "Nepalesisch" }],
         "currencies": [
             { "currencyCode": "NPR", "name": "Nepalesische Rupie", "symbol": "₨" }

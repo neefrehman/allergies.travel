@@ -32,9 +32,9 @@
                 }
             ]
         },
-        "capital": "Kinshasa",
-        "region": "Africa",
-        "subregion": "Middle Africa",
+        "capital": "Kinsasa",
+        "region": "África",
+        "subregion": "Greater Cairo Area",
         "languages": [
             { "languageCode": "fr", "name": "francés" },
             { "languageCode": "kg", "name": "kongo" },

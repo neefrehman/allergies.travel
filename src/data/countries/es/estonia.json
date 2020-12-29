@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Tallinn",
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "capital": "Tallin",
+        "region": "Europa",
+        "subregion": "Europa septentrional",
         "languages": [{ "languageCode": "et", "name": "estonio" }],
         "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
         "flag": "🇪🇪",

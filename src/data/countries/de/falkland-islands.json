@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Stanley",
-        "region": "Americas",
-        "subregion": "South America",
+        "capital": "Port Stanley",
+        "region": "Middle America",
+        "subregion": "Südamerika",
         "languages": [{ "languageCode": "en", "name": "Englisch" }],
         "currencies": [
             { "currencyCode": "FKP", "name": "Falkland-Pfund", "symbol": "£" }

@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Bogotá",
-        "region": "Americas",
-        "subregion": "South America",
+        "region": "Middle America",
+        "subregion": "Südamerika",
         "languages": [{ "languageCode": "es", "name": "Spanisch" }],
         "currencies": [
             {

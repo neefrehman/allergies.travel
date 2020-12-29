@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Damascus",
-        "region": "Asia",
-        "subregion": "Western Asia",
+        "capital": "Damaskus",
+        "region": "Asien",
+        "subregion": "Vorderasien",
         "languages": [{ "languageCode": "ar", "name": "Arabisch" }],
         "currencies": [
             { "currencyCode": "SYP", "name": "Syrisches Pfund", "symbol": "£" }

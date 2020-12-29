@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Santiago",
-        "region": "Americas",
-        "subregion": "South America",
+        "capital": "Santiago de Chile",
+        "region": "Middle America",
+        "subregion": "Südamerika",
         "languages": [{ "languageCode": "es", "name": "Spanisch" }],
         "currencies": [
             { "currencyCode": "CLP", "name": "Chilenischer Peso", "symbol": "$" }

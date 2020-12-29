@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Gibraltar",
-        "region": "Europe",
-        "subregion": "Southern Europe",
+        "region": "Europa",
+        "subregion": "Südeuropa",
         "languages": [{ "languageCode": "en", "name": "Englisch" }],
         "currencies": [
             { "currencyCode": "GIP", "name": "Gibraltar-Pfund", "symbol": "£" }

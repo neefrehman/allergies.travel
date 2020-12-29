@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Dushanbe",
-        "region": "Asia",
-        "subregion": "Central Asia",
+        "capital": "Duschanbe",
+        "region": "Asien",
+        "subregion": "Zentralasien",
         "languages": [
             { "languageCode": "ru", "name": "Russisch" },
             { "languageCode": "tg", "name": "Tadschikisch" }

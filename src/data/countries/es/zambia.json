@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Lusaka",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "region": "África",
+        "subregion": "África Oriental",
         "languages": [{ "languageCode": "en", "name": "inglés" }],
         "currencies": [
             { "currencyCode": "ZMW", "name": "kuacha zambiano", "symbol": "ZK" }

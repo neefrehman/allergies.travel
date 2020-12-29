@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Monaco",
-        "region": "Europe",
-        "subregion": "Western Europe",
+        "region": "Europa",
+        "subregion": "Westeuropa",
         "languages": [{ "languageCode": "fr", "name": "Französisch" }],
         "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
         "flag": "🇲🇨",

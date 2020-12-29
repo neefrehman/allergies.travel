@@ -24,8 +24,8 @@
             ]
         },
         "capital": "Lima",
-        "region": "Americas",
-        "subregion": "South America",
+        "region": "Middle America",
+        "subregion": "Südamerika",
         "languages": [
             { "languageCode": "ay", "name": "Aymara" },
             { "languageCode": "qu", "name": "Quechua" },

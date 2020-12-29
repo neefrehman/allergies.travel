@@ -14,8 +14,8 @@
             ]
         },
         "capital": "San José",
-        "region": "Americas",
-        "subregion": "Central America",
+        "region": "Middle America",
+        "subregion": "Zentralamerika",
         "languages": [{ "languageCode": "es", "name": "Spanisch" }],
         "currencies": [
             { "currencyCode": "CRC", "name": "Costa-Rica-Colón", "symbol": "₡" }

@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Jamestown",
-        "region": "Africa",
-        "subregion": "Western Africa",
+        "region": "Afrika",
+        "subregion": "Westafrika",
         "languages": [{ "languageCode": "en", "name": "Englisch" }],
         "currencies": [
             { "currencyCode": "GBP", "name": "Britisches Pfund", "symbol": "£" },

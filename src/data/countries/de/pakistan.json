@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Islamabad",
-        "region": "Asia",
-        "subregion": "Southern Asia",
+        "region": "Asien",
+        "subregion": "Südasien",
         "languages": [
             { "languageCode": "en", "name": "Englisch" },
             { "languageCode": "ur", "name": "Urdu" }

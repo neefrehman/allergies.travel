@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Adamstown",
-        "region": "Oceania",
-        "subregion": "Polynesia",
+        "region": "Oceanía",
+        "subregion": "Polinesia",
         "languages": [{ "languageCode": "en", "name": "inglés" }],
         "currencies": [
             { "currencyCode": "NZD", "name": "dólar neozelandés", "symbol": "$" }

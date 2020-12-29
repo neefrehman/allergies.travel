@@ -19,9 +19,9 @@
                 }
             ]
         },
-        "capital": "Baghdad",
-        "region": "Asia",
-        "subregion": "Western Asia",
+        "capital": "Bagdad",
+        "region": "Asien",
+        "subregion": "Vorderasien",
         "languages": [
             { "languageCode": "ar", "name": "Arabisch" },
             { "name": "Aramäisch" },

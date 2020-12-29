@@ -60,8 +60,8 @@
             ]
         },
         "capital": "Harare",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "region": "África",
+        "subregion": "África Oriental",
         "languages": [
             { "name": "bwg" },
             { "languageCode": "en", "name": "inglés" },

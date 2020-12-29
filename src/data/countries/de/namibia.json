@@ -42,8 +42,8 @@
             ]
         },
         "capital": "Windhoek",
-        "region": "Africa",
-        "subregion": "Southern Africa",
+        "region": "Afrika",
+        "subregion": "Südliches Afrika",
         "languages": [
             { "languageCode": "af", "name": "Afrikaans" },
             { "languageCode": "de", "name": "Deutsch" },

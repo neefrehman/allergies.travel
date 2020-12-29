@@ -11,7 +11,7 @@
         },
         "capital": "Doha",
         "region": "Asia",
-        "subregion": "Western Asia",
+        "subregion": "Asia Occidental",
         "languages": [{ "languageCode": "ar", "name": "árabe" }],
         "currencies": [
             { "currencyCode": "QAR", "name": "rial catarí", "symbol": "ر.ق" }

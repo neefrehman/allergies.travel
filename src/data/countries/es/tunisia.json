@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Tunis",
-        "region": "Africa",
-        "subregion": "Northern Africa",
+        "capital": "Túnez",
+        "region": "África",
+        "subregion": "África del Norte",
         "languages": [{ "languageCode": "ar", "name": "árabe" }],
         "currencies": [
             { "currencyCode": "TND", "name": "dinar tunecino", "symbol": "د.ت" }

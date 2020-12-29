@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Ramallah",
+        "capital": "Ramala",
         "region": "Asia",
-        "subregion": "Western Asia",
+        "subregion": "Asia Occidental",
         "languages": [{ "languageCode": "ar", "name": "árabe" }],
         "currencies": [
             { "currencyCode": "EGP", "name": "libra egipcia", "symbol": "E£" },

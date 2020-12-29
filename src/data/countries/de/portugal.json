@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Lisbon",
-        "region": "Europe",
-        "subregion": "Southern Europe",
+        "capital": "Lissabon",
+        "region": "Europa",
+        "subregion": "Südeuropa",
         "languages": [{ "languageCode": "pt", "name": "Portugiesisch" }],
         "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
         "flag": "🇵🇹",

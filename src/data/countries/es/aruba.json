@@ -11,8 +11,8 @@
             ]
         },
         "capital": "Oranjestad",
-        "region": "Americas",
-        "subregion": "Caribbean",
+        "region": "Middle America",
+        "subregion": "Caribe",
         "languages": [
             { "languageCode": "nl", "name": "neerlandés" },
             { "name": "papiamento" }

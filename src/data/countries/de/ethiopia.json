@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Addis Ababa",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "capital": "Addis Abeba",
+        "region": "Afrika",
+        "subregion": "Ostafrika",
         "languages": [{ "languageCode": "am", "name": "Amharisch" }],
         "currencies": [
             { "currencyCode": "ETB", "name": "Äthiopischer Birr", "symbol": "Br" }

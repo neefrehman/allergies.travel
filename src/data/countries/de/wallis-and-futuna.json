@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Mata-Utu",
-        "region": "Oceania",
-        "subregion": "Polynesia",
+        "region": "Ozeanien",
+        "subregion": "Polynesien",
         "languages": [{ "languageCode": "fr", "name": "Französisch" }],
         "currencies": [
             { "currencyCode": "XPF", "name": "CFP-Franc", "symbol": "₣" }

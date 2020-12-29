@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "City of San Marino",
-        "region": "Europe",
-        "subregion": "Southern Europe",
+        "capital": "San Marino",
+        "region": "Europa",
+        "subregion": "Südeuropa",
         "languages": [{ "languageCode": "it", "name": "Italienisch" }],
         "currencies": [{ "currencyCode": "EUR", "name": "Euro", "symbol": "€" }],
         "flag": "🇸🇲",

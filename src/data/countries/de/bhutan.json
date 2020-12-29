@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Thimphu",
-        "region": "Asia",
-        "subregion": "Southern Asia",
+        "region": "Asien",
+        "subregion": "Südasien",
         "languages": [{ "languageCode": "dz", "name": "Dzongkha" }],
         "currencies": [
             { "currencyCode": "BTN", "name": "Bhutan-Ngultrum", "symbol": "Nu." },

@@ -14,8 +14,8 @@
             ]
         },
         "capital": "San Salvador",
-        "region": "Americas",
-        "subregion": "Central America",
+        "region": "Middle America",
+        "subregion": "Zentralamerika",
         "languages": [{ "languageCode": "es", "name": "Spanisch" }],
         "currencies": [
             { "currencyCode": "USD", "name": "US-Dollar", "symbol": "$" }

@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Port-au-Prince",
-        "region": "Americas",
-        "subregion": "Caribbean",
+        "capital": "Puerto Príncipe",
+        "region": "Middle America",
+        "subregion": "Caribe",
         "languages": [
             { "languageCode": "fr", "name": "francés" },
             { "languageCode": "ht", "name": "criollo haitiano" }

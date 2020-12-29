@@ -14,8 +14,8 @@
             ]
         },
         "capital": "King Edward Point",
-        "region": "Antarctic",
-        "subregion": "",
+        "region": "Antarctic, The",
+        "subregion": "Pamoana",
         "languages": [{ "languageCode": "en", "name": "Englisch" }],
         "currencies": [
             { "currencyCode": "SHP", "name": "St. Helena-Pfund", "symbol": "£" }

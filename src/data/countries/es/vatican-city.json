@@ -18,8 +18,8 @@
                 }
             ]
         },
-        "capital": "Vatican City",
-        "region": "Europe",
+        "capital": "Ciudad del Vaticano",
+        "region": "Europa",
         "subregion": "Southern Europe",
         "languages": [
             { "languageCode": "it", "name": "italiano" },

@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Mogadishu",
-        "region": "Africa",
-        "subregion": "Eastern Africa",
+        "capital": "Mogadischu",
+        "region": "Afrika",
+        "subregion": "Ostafrika",
         "languages": [
             { "languageCode": "ar", "name": "Arabisch" },
             { "languageCode": "so", "name": "Somali" }

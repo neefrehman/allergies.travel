@@ -9,9 +9,9 @@
                 { "official": "Republik Österreich", "common": "Österreich" }
             ]
         },
-        "capital": "Vienna",
-        "region": "Europe",
-        "subregion": "Western Europe",
+        "capital": "Viena",
+        "region": "Europa",
+        "subregion": "Europa Occidental",
         "languages": [{ "name": "bar" }],
         "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
         "flag": "🇦🇹",

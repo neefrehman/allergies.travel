@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Abu Dhabi",
-        "region": "Asia",
-        "subregion": "Western Asia",
+        "region": "Asien",
+        "subregion": "Vorderasien",
         "languages": [{ "languageCode": "ar", "name": "Arabisch" }],
         "currencies": [
             { "currencyCode": "AED", "name": "VAE-Dirham", "symbol": "د.إ" }

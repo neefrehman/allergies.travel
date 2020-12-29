@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Cayenne",
-        "region": "Americas",
-        "subregion": "South America",
+        "capital": "Cayena",
+        "region": "Middle America",
+        "subregion": "Sudamérica",
         "languages": [{ "languageCode": "fr", "name": "francés" }],
         "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
         "flag": "🇬🇫",

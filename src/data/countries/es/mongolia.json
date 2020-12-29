@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Ulan Bator",
+        "capital": "Ulán Bator",
         "region": "Asia",
-        "subregion": "Eastern Asia",
+        "subregion": "Asia Oriental",
         "languages": [{ "languageCode": "mn", "name": "mongol" }],
         "currencies": [
             { "currencyCode": "MNT", "name": "tugrik", "symbol": "₮" }

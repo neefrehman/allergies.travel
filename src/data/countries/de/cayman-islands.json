@@ -14,8 +14,8 @@
             ]
         },
         "capital": "George Town",
-        "region": "Americas",
-        "subregion": "Caribbean",
+        "region": "Middle America",
+        "subregion": "Karibik",
         "languages": [{ "languageCode": "en", "name": "Englisch" }],
         "currencies": [
             { "currencyCode": "KYD", "name": "Kaiman-Dollar", "symbol": "$" }

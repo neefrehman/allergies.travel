@@ -18,9 +18,9 @@
                 }
             ]
         },
-        "capital": "Jerusalem",
-        "region": "Asia",
-        "subregion": "Western Asia",
+        "capital": "Westjerusalem",
+        "region": "Asien",
+        "subregion": "Vorderasien",
         "languages": [
             { "languageCode": "ar", "name": "Arabisch" },
             { "languageCode": "he", "name": "Hebräisch" }

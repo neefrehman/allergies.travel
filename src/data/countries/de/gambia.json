@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Banjul",
-        "region": "Africa",
-        "subregion": "Western Africa",
+        "region": "Afrika",
+        "subregion": "Westafrika",
         "languages": [{ "languageCode": "en", "name": "Englisch" }],
         "currencies": [
             { "currencyCode": "GMD", "name": "Gambia-Dalasi", "symbol": "D" }

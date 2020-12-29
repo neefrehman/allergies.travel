@@ -15,9 +15,9 @@
                 { "languageCode": "es", "official": "Belice", "common": "Belice" }
             ]
         },
-        "capital": "Belmopan",
-        "region": "Americas",
-        "subregion": "Central America",
+        "capital": "Belmopán",
+        "region": "Middle America",
+        "subregion": "América Central",
         "languages": [
             { "name": "bjz" },
             { "languageCode": "en", "name": "inglés" },

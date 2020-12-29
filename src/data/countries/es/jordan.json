@@ -13,9 +13,9 @@
                 }
             ]
         },
-        "capital": "Amman",
+        "capital": "Ammán",
         "region": "Asia",
-        "subregion": "Western Asia",
+        "subregion": "Asia Occidental",
         "languages": [{ "languageCode": "ar", "name": "árabe" }],
         "currencies": [
             { "currencyCode": "JOD", "name": "dinar jordano", "symbol": "د.ا" }

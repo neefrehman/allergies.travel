@@ -19,8 +19,8 @@
             ]
         },
         "capital": "Douglas",
-        "region": "Europe",
-        "subregion": "Northern Europe",
+        "region": "Europa",
+        "subregion": "Europa septentrional",
         "languages": [
             { "languageCode": "en", "name": "inglés" },
             { "languageCode": "gv", "name": "manés" }

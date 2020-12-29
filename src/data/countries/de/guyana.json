@@ -14,8 +14,8 @@
             ]
         },
         "capital": "Georgetown",
-        "region": "Americas",
-        "subregion": "South America",
+        "region": "Middle America",
+        "subregion": "Südamerika",
         "languages": [{ "languageCode": "en", "name": "Englisch" }],
         "currencies": [
             { "currencyCode": "GYD", "name": "Guyana-Dollar", "symbol": "$" }

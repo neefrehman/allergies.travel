@@ -18,8 +18,8 @@
                 }
             ]
         },
-        "capital": "Prague",
-        "region": "Europe",
+        "capital": "Prag",
+        "region": "Europa",
         "subregion": "Eastern Europe",
         "languages": [
             { "languageCode": "cs", "name": "Tschechisch" },
