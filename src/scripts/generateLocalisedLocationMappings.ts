@@ -49,7 +49,7 @@ const generateLocalisedLocationMappings = async () => {
     const dataToCreateMappingsFor = {
         capitals: countryData.map(country => country.capital[0]),
         regions: [...new Set(countryData.map(country => country.region))], // need overwiriting: Americas
-        subregions: [...new Set(countryData.map(country => country.subregion))], // need overwiriting: Central Europe
+        subregions: [...new Set(countryData.map(country => country.subregion))], // need overwiriting: Central Europe, Middle Africa
     } as { [k: string]: string[] };
 
     Object.keys(dataToCreateMappingsFor).forEach(async key => {
@@ -110,7 +110,7 @@ const generateLocalisedLocationMappings = async () => {
         );
 
         fs.writeFileSync(fileName, formattedData);
-    };);
+    });
 };
 
 generateLocalisedLocationMappings();
