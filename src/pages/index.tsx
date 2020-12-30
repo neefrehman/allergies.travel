@@ -25,7 +25,9 @@ const IntroContainer = styled.div<{ isRounded: boolean }>`
     will-change: clip-path;
 
     clip-path: ${({ isRounded }) =>
-        isRounded ? "inset(15px round 80px)" : "inset(0 round 0)"};
+        isRounded
+            ? "inset(clamp(8px, 1vw, 16px) round clamp(60px, 7vw, 80px))"
+            : "inset(0 round 0)"};
 `;
 
 const CountryCardGrid = styled.ul`

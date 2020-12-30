@@ -9,8 +9,8 @@ export const Lights = () => {
     const frontLight = useRef<SpotLight>(null);
     const backLight = useRef<SpotLight>(null);
 
-    useFrame(({ clock }) => {
-        const time = clock.elapsedTime * 0.06;
+    useFrame(({ frames }) => {
+        const time = frames * 0.0007;
 
         if (frontLight.current && backLight.current) {
             frontLight.current.position.x = Math.sin(time) * -DIST;
@@ -37,7 +37,7 @@ export const Lights = () => {
             <spotLight
                 ref={backLight}
                 castShadow
-                intensity={0.06}
+                intensity={0.07}
                 color="#ffffff"
                 position={[DIST, -Y_DIST, 0]}
                 angle={Math.PI / 8}

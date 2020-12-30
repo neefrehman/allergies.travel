@@ -1,5 +1,6 @@
 import React, { memo, useMemo } from "react";
 import { useLoader } from "react-three-fiber";
+import { EffectComposer, Noise } from "@react-three/postprocessing";
 import { useSpring, animated } from "react-spring/three";
 import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
 
@@ -49,6 +50,11 @@ export const Planet = memo(
                         reflectivity={1.1}
                     />
                 </animated.group>
+
+                {/* This (mostly) removes the fog effect */}
+                <EffectComposer>
+                    <Noise opacity={0.04} />
+                </EffectComposer>
             </>
         );
     },

@@ -1,6 +1,5 @@
 import React, { memo, Suspense, useContext } from "react";
 import { Canvas } from "react-three-fiber";
-import { EffectComposer, Noise } from "@react-three/postprocessing";
 import { useTheme } from "@emotion/react";
 
 import { IsDebugContext } from "context/IsDebug";
@@ -57,11 +56,6 @@ const PeanutWorldScene = memo(
                         setTitleIsVisible={setTitleIsVisible}
                     />
                 </Suspense>
-
-                {/* This (mostly) remove the fog effect */}
-                <EffectComposer>
-                    <Noise opacity={0.04} />
-                </EffectComposer>
             </Canvas>
         );
     },
