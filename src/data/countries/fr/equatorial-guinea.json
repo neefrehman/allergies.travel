@@ -1,0 +1,41 @@
+{
+    "title": "Guinée équatoriale",
+    "slug": "equatorial-guinea",
+    "baseInfo": {
+        "name": {
+            "common": "Guinée équatoriale",
+            "official": "République de Guinée équatoriale",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République de la Guinée Équatoriale",
+                    "common": "Guinée équatoriale"
+                },
+                {
+                    "languageCode": "pt",
+                    "official": "República da Guiné Equatorial",
+                    "common": "Guiné Equatorial"
+                },
+                {
+                    "languageCode": "es",
+                    "official": "República de Guinea Ecuatorial",
+                    "common": "Guinea Ecuatorial"
+                }
+            ]
+        },
+        "capital": "Malabo",
+        "region": "Afrique",
+        "subregion": "Greater Cairo Area",
+        "languages": [
+            { "languageCode": "fr", "name": "français" },
+            { "languageCode": "pt", "name": "portugais" },
+            { "languageCode": "es", "name": "espagnol" }
+        ],
+        "currencies": [
+            { "currencyCode": "XAF", "name": "franc CFA (BEAC)", "symbol": "Fr" }
+        ],
+        "flag": "🇬🇶",
+        "codes": { "cca2": "GQ", "cca3": "GNQ", "ccn3": "226" },
+        "coordinates": { "latitude": 2, "longitude": 10 }
+    }
+}

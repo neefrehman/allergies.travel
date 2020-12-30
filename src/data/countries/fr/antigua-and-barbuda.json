@@ -1,0 +1,31 @@
+{
+    "title": "Antigua-et-Barbuda",
+    "slug": "antigua-and-barbuda",
+    "baseInfo": {
+        "name": {
+            "common": "Antigua-et-Barbuda",
+            "official": "Antigua -et-Barbuda",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Antigua and Barbuda",
+                    "common": "Antigua and Barbuda"
+                }
+            ]
+        },
+        "capital": "Saint John's",
+        "region": "Middle America",
+        "subregion": "Caraïbe",
+        "languages": [{ "languageCode": "en", "name": "anglais" }],
+        "currencies": [
+            {
+                "currencyCode": "XCD",
+                "name": "dollar des Caraïbes orientales",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇦🇬",
+        "codes": { "cca2": "AG", "cca3": "ATG", "ccn3": "028" },
+        "coordinates": { "latitude": 17.05, "longitude": -61.8 }
+    }
+}

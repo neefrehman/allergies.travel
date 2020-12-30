@@ -1,0 +1,27 @@
+{
+    "title": "Suède",
+    "slug": "sweden",
+    "baseInfo": {
+        "name": {
+            "common": "Suède",
+            "official": "Royaume de Suède",
+            "native": [
+                {
+                    "languageCode": "sv",
+                    "official": "Konungariket Sverige",
+                    "common": "Sverige"
+                }
+            ]
+        },
+        "capital": "Stockholm",
+        "region": "Europe",
+        "subregion": "Europe du Nord",
+        "languages": [{ "languageCode": "sv", "name": "suédois" }],
+        "currencies": [
+            { "currencyCode": "SEK", "name": "couronne suédoise", "symbol": "kr" }
+        ],
+        "flag": "🇸🇪",
+        "codes": { "cca2": "SE", "cca3": "SWE", "ccn3": "752" },
+        "coordinates": { "latitude": 62, "longitude": 15 }
+    }
+}

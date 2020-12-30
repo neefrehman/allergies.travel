@@ -1,0 +1,39 @@
+{
+    "title": "Luxembourg",
+    "slug": "luxembourg",
+    "baseInfo": {
+        "name": {
+            "common": "Luxembourg",
+            "official": "Grand-Duché de Luxembourg",
+            "native": [
+                {
+                    "languageCode": "de",
+                    "official": "Großherzogtum Luxemburg",
+                    "common": "Luxemburg"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "Grand-Duché de Luxembourg",
+                    "common": "Luxembourg"
+                },
+                {
+                    "languageCode": "lb",
+                    "official": "Groussherzogtum Lëtzebuerg",
+                    "common": "Lëtzebuerg"
+                }
+            ]
+        },
+        "capital": "Luxembourg",
+        "region": "Europe",
+        "subregion": "Europe de l'Ouest",
+        "languages": [
+            { "languageCode": "de", "name": "allemand" },
+            { "languageCode": "fr", "name": "français" },
+            { "languageCode": "lb", "name": "luxembourgeois" }
+        ],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇱🇺",
+        "codes": { "cca2": "LU", "cca3": "LUX", "ccn3": "442" },
+        "coordinates": { "latitude": 49.75, "longitude": 6.16666666 }
+    }
+}

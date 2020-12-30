@@ -1,0 +1,45 @@
+{
+    "title": "Sahara Occidental",
+    "slug": "western-sahara",
+    "baseInfo": {
+        "name": {
+            "common": "Sahara Occidental",
+            "official": "République arabe sahraouie démocratique",
+            "native": [
+                {
+                    "official": "Sahrawi Arab Democratic Republic",
+                    "common": "Western Sahara"
+                },
+                {
+                    "official": "الجمهورية العربية الصحراوية الديمقراطية",
+                    "common": "الصحراء الغربية"
+                },
+                {
+                    "languageCode": "es",
+                    "official": "República Árabe Saharaui Democrática",
+                    "common": "Sahara Occidental"
+                }
+            ]
+        },
+        "capital": "Laâyoune",
+        "region": "Afrique",
+        "subregion": "Afrique du Nord",
+        "languages": [
+            { "name": "ber" },
+            { "name": "mey" },
+            { "languageCode": "es", "name": "espagnol" }
+        ],
+        "currencies": [
+            { "currencyCode": "DZD", "name": "dinar algérien", "symbol": "دج" },
+            { "currencyCode": "MAD", "name": "dirham marocain", "symbol": "DH" },
+            {
+                "currencyCode": "MRU",
+                "name": "ouguiya mauritanien",
+                "symbol": "UM"
+            }
+        ],
+        "flag": "🇪🇭",
+        "codes": { "cca2": "EH", "cca3": "ESH", "ccn3": "732" },
+        "coordinates": { "latitude": 24.5, "longitude": -13 }
+    }
+}

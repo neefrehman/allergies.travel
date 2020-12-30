@@ -1,0 +1,27 @@
+{
+    "title": "Ghana",
+    "slug": "ghana",
+    "baseInfo": {
+        "name": {
+            "common": "Ghana",
+            "official": "République du Ghana",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Ghana",
+                    "common": "Ghana"
+                }
+            ]
+        },
+        "capital": "Accra",
+        "region": "Afrique",
+        "subregion": "Afrique de l'Ouest",
+        "languages": [{ "languageCode": "en", "name": "anglais" }],
+        "currencies": [
+            { "currencyCode": "GHS", "name": "cédi ghanéen", "symbol": "₵" }
+        ],
+        "flag": "🇬🇭",
+        "codes": { "cca2": "GH", "cca3": "GHA", "ccn3": "288" },
+        "coordinates": { "latitude": 8, "longitude": -2 }
+    }
+}

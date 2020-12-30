@@ -45,7 +45,7 @@ export class DistortPhysicalMaterialImpl extends MeshPhysicalMaterial {
             "#include <begin_vertex>",
             // TODO: update characteristics of noise for better terrain
             glsl`
-                float noiseScale = 2.0; // "Continent" size
+                float noiseScale = 1.7; // "Continent" size
                 
                 float noise = snoise3(vec3(position / noiseScale + time));
                 vec3 transformed = vec3(position * (noise * pow(distort, 2.0) + radius));

@@ -1,0 +1,35 @@
+{
+    "title": "Tchéquie",
+    "slug": "czechia",
+    "baseInfo": {
+        "name": {
+            "common": "Tchéquie",
+            "official": "République tchèque",
+            "native": [
+                {
+                    "languageCode": "cs",
+                    "official": "česká republika",
+                    "common": "Česko"
+                },
+                {
+                    "languageCode": "sk",
+                    "official": "Česká republika",
+                    "common": "Česko"
+                }
+            ]
+        },
+        "capital": "Prague",
+        "region": "Europe",
+        "subregion": "Europe de l'Est",
+        "languages": [
+            { "languageCode": "cs", "name": "tchèque" },
+            { "languageCode": "sk", "name": "slovaque" }
+        ],
+        "currencies": [
+            { "currencyCode": "CZK", "name": "couronne tchèque", "symbol": "Kč" }
+        ],
+        "flag": "🇨🇿",
+        "codes": { "cca2": "CZ", "cca3": "CZE", "ccn3": "203" },
+        "coordinates": { "latitude": 49.75, "longitude": 15.5 }
+    }
+}

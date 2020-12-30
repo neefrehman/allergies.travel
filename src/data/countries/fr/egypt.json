@@ -1,0 +1,27 @@
+{
+    "title": "Égypte",
+    "slug": "egypt",
+    "baseInfo": {
+        "name": {
+            "common": "Égypte",
+            "official": "République arabe d'Égypte",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "جمهورية مصر العربية",
+                    "common": "مصر"
+                }
+            ]
+        },
+        "capital": "Le Caire",
+        "region": "Afrique",
+        "subregion": "Afrique du Nord",
+        "languages": [{ "languageCode": "ar", "name": "arabe" }],
+        "currencies": [
+            { "currencyCode": "EGP", "name": "livre égyptienne", "symbol": "£" }
+        ],
+        "flag": "🇪🇬",
+        "codes": { "cca2": "EG", "cca3": "EGY", "ccn3": "818" },
+        "coordinates": { "latitude": 27, "longitude": 30 }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "title": "Îles Caïmans",
+    "slug": "cayman-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Îles Caïmans",
+            "official": "Îles Caïmans",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Cayman Islands",
+                    "common": "Cayman Islands"
+                }
+            ]
+        },
+        "capital": "George Town",
+        "region": "Middle America",
+        "subregion": "Caraïbe",
+        "languages": [{ "languageCode": "en", "name": "anglais" }],
+        "currencies": [
+            {
+                "currencyCode": "KYD",
+                "name": "dollar des îles Caïmans",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇰🇾",
+        "codes": { "cca2": "KY", "cca3": "CYM", "ccn3": "136" },
+        "coordinates": { "latitude": 19.5, "longitude": -80.5 }
+    }
+}

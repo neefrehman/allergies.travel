@@ -1,0 +1,21 @@
+{
+    "title": "Autriche",
+    "slug": "austria",
+    "baseInfo": {
+        "name": {
+            "common": "Autriche",
+            "official": "République d'Autriche",
+            "native": [
+                { "official": "Republik Österreich", "common": "Österreich" }
+            ]
+        },
+        "capital": "Vienne",
+        "region": "Europe",
+        "subregion": "Europe de l'Ouest",
+        "languages": [{ "name": "bavarois" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇦🇹",
+        "codes": { "cca2": "AT", "cca3": "AUT", "ccn3": "040" },
+        "coordinates": { "latitude": 47.33333333, "longitude": 13.33333333 }
+    }
+}

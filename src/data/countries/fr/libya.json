@@ -1,0 +1,27 @@
+{
+    "title": "Libye",
+    "slug": "libya",
+    "baseInfo": {
+        "name": {
+            "common": "Libye",
+            "official": "Grande République arabe libyenne populaire et socialiste",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "الدولة ليبيا",
+                    "common": "‏ليبيا"
+                }
+            ]
+        },
+        "capital": "Tripoli",
+        "region": "Afrique",
+        "subregion": "Afrique du Nord",
+        "languages": [{ "languageCode": "ar", "name": "arabe" }],
+        "currencies": [
+            { "currencyCode": "LYD", "name": "dinar libyen", "symbol": "ل.د" }
+        ],
+        "flag": "🇱🇾",
+        "codes": { "cca2": "LY", "cca3": "LBY", "ccn3": "434" },
+        "coordinates": { "latitude": 25, "longitude": 17 }
+    }
+}

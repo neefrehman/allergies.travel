@@ -1,0 +1,27 @@
+{
+    "title": "Iran",
+    "slug": "iran",
+    "baseInfo": {
+        "name": {
+            "common": "Iran",
+            "official": "République islamique d'Iran",
+            "native": [
+                {
+                    "languageCode": "fa",
+                    "official": "جمهوری اسلامی ایران",
+                    "common": "ایران"
+                }
+            ]
+        },
+        "capital": "Téhéran",
+        "region": "Asie",
+        "subregion": "Asie du Sud",
+        "languages": [{ "languageCode": "fa", "name": "persan" }],
+        "currencies": [
+            { "currencyCode": "IRR", "name": "riyal iranien", "symbol": "﷼" }
+        ],
+        "flag": "🇮🇷",
+        "codes": { "cca2": "IR", "cca3": "IRN", "ccn3": "364" },
+        "coordinates": { "latitude": 32, "longitude": 53 }
+    }
+}

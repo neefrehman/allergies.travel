@@ -1,0 +1,27 @@
+{
+    "title": "Thaïlande",
+    "slug": "thailand",
+    "baseInfo": {
+        "name": {
+            "common": "Thaïlande",
+            "official": "Royaume de Thaïlande",
+            "native": [
+                {
+                    "languageCode": "th",
+                    "official": "ราชอาณาจักรไทย",
+                    "common": "ประเทศไทย"
+                }
+            ]
+        },
+        "capital": "Bangkok",
+        "region": "Asie",
+        "subregion": "Asie du Sud-Est",
+        "languages": [{ "languageCode": "th", "name": "thaï" }],
+        "currencies": [
+            { "currencyCode": "THB", "name": "baht thaïlandais", "symbol": "฿" }
+        ],
+        "flag": "🇹🇭",
+        "codes": { "cca2": "TH", "cca3": "THA", "ccn3": "764" },
+        "coordinates": { "latitude": 15, "longitude": 100 }
+    }
+}

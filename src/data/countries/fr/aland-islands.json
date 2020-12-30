@@ -1,0 +1,25 @@
+{
+    "title": "Ahvenanmaa",
+    "slug": "aland-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Ahvenanmaa",
+            "official": "Ahvenanmaa",
+            "native": [
+                {
+                    "languageCode": "sv",
+                    "official": "Landskapet Åland",
+                    "common": "Åland"
+                }
+            ]
+        },
+        "capital": "Mariehamn",
+        "region": "Europe",
+        "subregion": "Europe du Nord",
+        "languages": [{ "languageCode": "sv", "name": "suédois" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇦🇽",
+        "codes": { "cca2": "AX", "cca3": "ALA", "ccn3": "248" },
+        "coordinates": { "latitude": 60.116667, "longitude": 19.9 }
+    }
+}

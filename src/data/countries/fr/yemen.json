@@ -1,0 +1,27 @@
+{
+    "title": "Yémen",
+    "slug": "yemen",
+    "baseInfo": {
+        "name": {
+            "common": "Yémen",
+            "official": "République du Yémen",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "الجمهورية اليمنية",
+                    "common": "اليَمَن"
+                }
+            ]
+        },
+        "capital": "Sanaa",
+        "region": "Asie",
+        "subregion": "Asie de l'Ouest",
+        "languages": [{ "languageCode": "ar", "name": "arabe" }],
+        "currencies": [
+            { "currencyCode": "YER", "name": "riyal yéménite", "symbol": "﷼" }
+        ],
+        "flag": "🇾🇪",
+        "codes": { "cca2": "YE", "cca3": "YEM", "ccn3": "887" },
+        "coordinates": { "latitude": 15, "longitude": 48 }
+    }
+}

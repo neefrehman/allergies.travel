@@ -1,0 +1,35 @@
+{
+    "title": "Kenya",
+    "slug": "kenya",
+    "baseInfo": {
+        "name": {
+            "common": "Kenya",
+            "official": "République du Kenya",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Kenya",
+                    "common": "Kenya"
+                },
+                {
+                    "languageCode": "sw",
+                    "official": "Republic of Kenya",
+                    "common": "Kenya"
+                }
+            ]
+        },
+        "capital": "Nairobi",
+        "region": "Afrique",
+        "subregion": "Afrique de l'Est",
+        "languages": [
+            { "languageCode": "en", "name": "anglais" },
+            { "languageCode": "sw", "name": "swahili" }
+        ],
+        "currencies": [
+            { "currencyCode": "KES", "name": "shilling kényan", "symbol": "Sh" }
+        ],
+        "flag": "🇰🇪",
+        "codes": { "cca2": "KE", "cca3": "KEN", "ccn3": "404" },
+        "coordinates": { "latitude": 1, "longitude": 38 }
+    }
+}

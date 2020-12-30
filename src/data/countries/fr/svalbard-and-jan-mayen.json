@@ -1,0 +1,31 @@
+{
+    "title": "Svalbard et Jan Mayen",
+    "slug": "svalbard-and-jan-mayen",
+    "baseInfo": {
+        "name": {
+            "common": "Svalbard et Jan Mayen",
+            "official": "Jan Mayen Svalbard",
+            "native": [
+                {
+                    "languageCode": "no",
+                    "official": "Svalbard og Jan Mayen",
+                    "common": "Svalbard og Jan Mayen"
+                }
+            ]
+        },
+        "capital": "Longyearbyen",
+        "region": "Europe",
+        "subregion": "Europe du Nord",
+        "languages": [{ "languageCode": "no", "name": "norvégien" }],
+        "currencies": [
+            {
+                "currencyCode": "NOK",
+                "name": "couronne norvégienne",
+                "symbol": "kr"
+            }
+        ],
+        "flag": "🇸🇯",
+        "codes": { "cca2": "SJ", "cca3": "SJM", "ccn3": "744" },
+        "coordinates": { "latitude": 78, "longitude": 20 }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "title": "Bénin",
+    "slug": "benin",
+    "baseInfo": {
+        "name": {
+            "common": "Bénin",
+            "official": "République du Bénin",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République du Bénin",
+                    "common": "Bénin"
+                }
+            ]
+        },
+        "capital": "Porto Novo",
+        "region": "Afrique",
+        "subregion": "Afrique de l'Ouest",
+        "languages": [{ "languageCode": "fr", "name": "français" }],
+        "currencies": [
+            { "currencyCode": "XOF", "name": "franc CFA (BCEAO)", "symbol": "Fr" }
+        ],
+        "flag": "🇧🇯",
+        "codes": { "cca2": "BJ", "cca3": "BEN", "ccn3": "204" },
+        "coordinates": { "latitude": 9.5, "longitude": 2.25 }
+    }
+}

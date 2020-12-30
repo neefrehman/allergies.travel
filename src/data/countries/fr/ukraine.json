@@ -1,0 +1,31 @@
+{
+    "title": "Ukraine",
+    "slug": "ukraine",
+    "baseInfo": {
+        "name": {
+            "common": "Ukraine",
+            "official": "Ukraine",
+            "native": [
+                {
+                    "languageCode": "uk",
+                    "official": "Україна",
+                    "common": "Україна"
+                }
+            ]
+        },
+        "capital": "Kyiv",
+        "region": "Europe",
+        "subregion": "Europe de l'Est",
+        "languages": [{ "languageCode": "uk", "name": "ukrainien" }],
+        "currencies": [
+            {
+                "currencyCode": "UAH",
+                "name": "hryvnia ukrainienne",
+                "symbol": "₴"
+            }
+        ],
+        "flag": "🇺🇦",
+        "codes": { "cca2": "UA", "cca3": "UKR", "ccn3": "804" },
+        "coordinates": { "latitude": 49, "longitude": 32 }
+    }
+}

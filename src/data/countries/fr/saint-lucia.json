@@ -1,0 +1,31 @@
+{
+    "title": "Sainte-Lucie",
+    "slug": "saint-lucia",
+    "baseInfo": {
+        "name": {
+            "common": "Sainte-Lucie",
+            "official": "Sainte-Lucie",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Saint Lucia",
+                    "common": "Saint Lucia"
+                }
+            ]
+        },
+        "capital": "Castries",
+        "region": "Middle America",
+        "subregion": "Caraïbe",
+        "languages": [{ "languageCode": "en", "name": "anglais" }],
+        "currencies": [
+            {
+                "currencyCode": "XCD",
+                "name": "dollar des Caraïbes orientales",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇱🇨",
+        "codes": { "cca2": "LC", "cca3": "LCA", "ccn3": "662" },
+        "coordinates": { "latitude": 13.88333333, "longitude": -60.96666666 }
+    }
+}

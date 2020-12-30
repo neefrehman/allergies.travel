@@ -1,0 +1,25 @@
+{
+    "title": "Martinique",
+    "slug": "martinique",
+    "baseInfo": {
+        "name": {
+            "common": "Martinique",
+            "official": "Martinique",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Martinique",
+                    "common": "Martinique"
+                }
+            ]
+        },
+        "capital": "Fort-de-France",
+        "region": "Middle America",
+        "subregion": "Caraïbe",
+        "languages": [{ "languageCode": "fr", "name": "français" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇲🇶",
+        "codes": { "cca2": "MQ", "cca3": "MTQ", "ccn3": "474" },
+        "coordinates": { "latitude": 14.666667, "longitude": -61 }
+    }
+}

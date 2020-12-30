@@ -1,0 +1,35 @@
+{
+    "title": "Burundi",
+    "slug": "burundi",
+    "baseInfo": {
+        "name": {
+            "common": "Burundi",
+            "official": "République du Burundi",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République du Burundi",
+                    "common": "Burundi"
+                },
+                {
+                    "languageCode": "rn",
+                    "official": "Republika y'Uburundi ",
+                    "common": "Uburundi"
+                }
+            ]
+        },
+        "capital": "Bujumbura",
+        "region": "Afrique",
+        "subregion": "Afrique de l'Est",
+        "languages": [
+            { "languageCode": "fr", "name": "français" },
+            { "languageCode": "rn", "name": "roundi" }
+        ],
+        "currencies": [
+            { "currencyCode": "BIF", "name": "franc burundais", "symbol": "Fr" }
+        ],
+        "flag": "🇧🇮",
+        "codes": { "cca2": "BI", "cca3": "BDI", "ccn3": "108" },
+        "coordinates": { "latitude": -3.5, "longitude": 30 }
+    }
+}

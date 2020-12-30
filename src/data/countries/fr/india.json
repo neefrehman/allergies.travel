@@ -1,0 +1,41 @@
+{
+    "title": "Inde",
+    "slug": "india",
+    "baseInfo": {
+        "name": {
+            "common": "Inde",
+            "official": "République de l'Inde",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of India",
+                    "common": "India"
+                },
+                {
+                    "languageCode": "hi",
+                    "official": "भारत गणराज्य",
+                    "common": "भारत"
+                },
+                {
+                    "languageCode": "ta",
+                    "official": "இந்தியக் குடியரசு",
+                    "common": "இந்தியா"
+                }
+            ]
+        },
+        "capital": "Delhi",
+        "region": "Asie",
+        "subregion": "Asie du Sud",
+        "languages": [
+            { "languageCode": "en", "name": "anglais" },
+            { "languageCode": "hi", "name": "hindi" },
+            { "languageCode": "ta", "name": "tamoul" }
+        ],
+        "currencies": [
+            { "currencyCode": "INR", "name": "roupie indienne", "symbol": "₹" }
+        ],
+        "flag": "🇮🇳",
+        "codes": { "cca2": "IN", "cca3": "IND", "ccn3": "356" },
+        "coordinates": { "latitude": 20, "longitude": 77 }
+    }
+}

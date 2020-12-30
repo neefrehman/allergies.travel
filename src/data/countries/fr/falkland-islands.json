@@ -1,0 +1,31 @@
+{
+    "title": "Îles Malouines",
+    "slug": "falkland-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Îles Malouines",
+            "official": "Îles Malouines",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Falkland Islands",
+                    "common": "Falkland Islands"
+                }
+            ]
+        },
+        "capital": "Port Stanley",
+        "region": "Middle America",
+        "subregion": "Amérique du Sud",
+        "languages": [{ "languageCode": "en", "name": "anglais" }],
+        "currencies": [
+            {
+                "currencyCode": "FKP",
+                "name": "livre des îles Malouines",
+                "symbol": "£"
+            }
+        ],
+        "flag": "🇫🇰",
+        "codes": { "cca2": "FK", "cca3": "FLK", "ccn3": "238" },
+        "coordinates": { "latitude": -51.75, "longitude": -59 }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "title": "Îles Mariannes du Nord",
+    "slug": "northern-mariana-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Îles Mariannes du Nord",
+            "official": "Commonwealth des îles Mariannes du Nord",
+            "native": [
+                {
+                    "official": "Commonwealth of the Northern Mariana Islands",
+                    "common": "Northern Mariana Islands"
+                },
+                {
+                    "languageCode": "ch",
+                    "official": "Sankattan Siha Na Islas Mariånas",
+                    "common": "Na Islas Mariånas"
+                },
+                {
+                    "languageCode": "en",
+                    "official": "Commonwealth of the Northern Mariana Islands",
+                    "common": "Northern Mariana Islands"
+                }
+            ]
+        },
+        "capital": "Saipan",
+        "region": "Océanie",
+        "subregion": "Micronésie",
+        "languages": [
+            { "name": "cal" },
+            { "languageCode": "ch", "name": "chamorro" },
+            { "languageCode": "en", "name": "anglais" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "USD",
+                "name": "dollar des États-Unis",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇲🇵",
+        "codes": { "cca2": "MP", "cca3": "MNP", "ccn3": "580" },
+        "coordinates": { "latitude": 15.2, "longitude": 145.75 }
+    }
+}

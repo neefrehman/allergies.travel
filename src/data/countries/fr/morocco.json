@@ -1,0 +1,31 @@
+{
+    "title": "Maroc",
+    "slug": "morocco",
+    "baseInfo": {
+        "name": {
+            "common": "Maroc",
+            "official": "Royaume du Maroc",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "المملكة المغربية",
+                    "common": "المغرب"
+                },
+                { "official": "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ", "common": "ⵍⵎⴰⵖⵔⵉⴱ" }
+            ]
+        },
+        "capital": "Rabat",
+        "region": "Afrique",
+        "subregion": "Afrique du Nord",
+        "languages": [
+            { "languageCode": "ar", "name": "arabe" },
+            { "name": "ber" }
+        ],
+        "currencies": [
+            { "currencyCode": "MAD", "name": "dirham marocain", "symbol": "د.م." }
+        ],
+        "flag": "🇲🇦",
+        "codes": { "cca2": "MA", "cca3": "MAR", "ccn3": "504" },
+        "coordinates": { "latitude": 32, "longitude": -5 }
+    }
+}

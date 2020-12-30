@@ -1,0 +1,27 @@
+{
+    "title": "Népal",
+    "slug": "nepal",
+    "baseInfo": {
+        "name": {
+            "common": "Népal",
+            "official": "République du Népal",
+            "native": [
+                {
+                    "languageCode": "ne",
+                    "official": "नेपाल संघीय लोकतान्त्रिक गणतन्त्र",
+                    "common": "नेपाल"
+                }
+            ]
+        },
+        "capital": "Katmandou",
+        "region": "Asie",
+        "subregion": "Asie du Sud",
+        "languages": [{ "languageCode": "ne", "name": "népalais" }],
+        "currencies": [
+            { "currencyCode": "NPR", "name": "roupie népalaise", "symbol": "₨" }
+        ],
+        "flag": "🇳🇵",
+        "codes": { "cca2": "NP", "cca3": "NPL", "ccn3": "524" },
+        "coordinates": { "latitude": 28, "longitude": 84 }
+    }
+}

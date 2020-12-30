@@ -1,0 +1,27 @@
+{
+    "title": "Pologne",
+    "slug": "poland",
+    "baseInfo": {
+        "name": {
+            "common": "Pologne",
+            "official": "République de Pologne",
+            "native": [
+                {
+                    "languageCode": "pl",
+                    "official": "Rzeczpospolita Polska",
+                    "common": "Polska"
+                }
+            ]
+        },
+        "capital": "Varsovie",
+        "region": "Europe",
+        "subregion": "Europe de l'Est",
+        "languages": [{ "languageCode": "pl", "name": "polonais" }],
+        "currencies": [
+            { "currencyCode": "PLN", "name": "zloty polonais", "symbol": "zł" }
+        ],
+        "flag": "🇵🇱",
+        "codes": { "cca2": "PL", "cca3": "POL", "ccn3": "616" },
+        "coordinates": { "latitude": 52, "longitude": 20 }
+    }
+}

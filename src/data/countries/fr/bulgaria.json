@@ -1,0 +1,27 @@
+{
+    "title": "Bulgarie",
+    "slug": "bulgaria",
+    "baseInfo": {
+        "name": {
+            "common": "Bulgarie",
+            "official": "République de Bulgarie",
+            "native": [
+                {
+                    "languageCode": "bg",
+                    "official": "Република България",
+                    "common": "България"
+                }
+            ]
+        },
+        "capital": "Sofia",
+        "region": "Europe",
+        "subregion": "Europe de l'Est",
+        "languages": [{ "languageCode": "bg", "name": "bulgare" }],
+        "currencies": [
+            { "currencyCode": "BGN", "name": "lev bulgare", "symbol": "лв" }
+        ],
+        "flag": "🇧🇬",
+        "codes": { "cca2": "BG", "cca3": "BGR", "ccn3": "100" },
+        "coordinates": { "latitude": 43, "longitude": 25 }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "title": "France",
+    "slug": "france",
+    "baseInfo": {
+        "name": {
+            "common": "France",
+            "official": "République française",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République française",
+                    "common": "France"
+                }
+            ]
+        },
+        "capital": "Paris",
+        "region": "Europe",
+        "subregion": "Europe de l'Ouest",
+        "languages": [{ "languageCode": "fr", "name": "français" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇫🇷",
+        "codes": { "cca2": "FR", "cca3": "FRA", "ccn3": "250" },
+        "coordinates": { "latitude": 46, "longitude": 2 }
+    }
+}

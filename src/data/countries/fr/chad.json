@@ -1,0 +1,35 @@
+{
+    "title": "Tchad",
+    "slug": "chad",
+    "baseInfo": {
+        "name": {
+            "common": "Tchad",
+            "official": "République du Tchad",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "جمهورية تشاد",
+                    "common": "تشاد‎"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "République du Tchad",
+                    "common": "Tchad"
+                }
+            ]
+        },
+        "capital": "Ndjamena",
+        "region": "Afrique",
+        "subregion": "Greater Cairo Area",
+        "languages": [
+            { "languageCode": "ar", "name": "arabe" },
+            { "languageCode": "fr", "name": "français" }
+        ],
+        "currencies": [
+            { "currencyCode": "XAF", "name": "franc CFA (BEAC)", "symbol": "Fr" }
+        ],
+        "flag": "🇹🇩",
+        "codes": { "cca2": "TD", "cca3": "TCD", "ccn3": "148" },
+        "coordinates": { "latitude": 15, "longitude": 19 }
+    }
+}

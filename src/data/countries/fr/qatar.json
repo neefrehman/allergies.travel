@@ -1,0 +1,23 @@
+{
+    "title": "Qatar",
+    "slug": "qatar",
+    "baseInfo": {
+        "name": {
+            "common": "Qatar",
+            "official": "État du Qatar",
+            "native": [
+                { "languageCode": "ar", "official": "دولة قطر", "common": "قطر" }
+            ]
+        },
+        "capital": "Doha",
+        "region": "Asie",
+        "subregion": "Asie de l'Ouest",
+        "languages": [{ "languageCode": "ar", "name": "arabe" }],
+        "currencies": [
+            { "currencyCode": "QAR", "name": "riyal qatari", "symbol": "ر.ق" }
+        ],
+        "flag": "🇶🇦",
+        "codes": { "cca2": "QA", "cca3": "QAT", "ccn3": "634" },
+        "coordinates": { "latitude": 25.5, "longitude": 51.25 }
+    }
+}

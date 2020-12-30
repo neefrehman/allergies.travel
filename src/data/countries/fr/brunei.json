@@ -1,0 +1,32 @@
+{
+    "title": "Brunei",
+    "slug": "brunei",
+    "baseInfo": {
+        "name": {
+            "common": "Brunei",
+            "official": "État de Brunei Darussalam",
+            "native": [
+                {
+                    "languageCode": "ms",
+                    "official": "Nation of Brunei, Abode Damai",
+                    "common": "Negara Brunei Darussalam"
+                }
+            ]
+        },
+        "capital": "Bandar Seri Begawan",
+        "region": "Asie",
+        "subregion": "Asie du Sud-Est",
+        "languages": [{ "languageCode": "ms", "name": "malais" }],
+        "currencies": [
+            { "currencyCode": "BND", "name": "dollar brunéien", "symbol": "$" },
+            {
+                "currencyCode": "SGD",
+                "name": "dollar de Singapour",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇧🇳",
+        "codes": { "cca2": "BN", "cca3": "BRN", "ccn3": "096" },
+        "coordinates": { "latitude": 4.5, "longitude": 114.66666666 }
+    }
+}

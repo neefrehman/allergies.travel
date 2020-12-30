@@ -1,0 +1,25 @@
+{
+    "title": "Saint-Pierre-et-Miquelon",
+    "slug": "saint-pierre-and-miquelon",
+    "baseInfo": {
+        "name": {
+            "common": "Saint-Pierre-et-Miquelon",
+            "official": "Saint-Pierre-et-Miquelon",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Collectivité territoriale de Saint-Pierre-et-Miquelon",
+                    "common": "Saint-Pierre-et-Miquelon"
+                }
+            ]
+        },
+        "capital": "Saint-Pétersbourg",
+        "region": "Middle America",
+        "subregion": "Amérique du Nord",
+        "languages": [{ "languageCode": "fr", "name": "français" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇵🇲",
+        "codes": { "cca2": "PM", "cca3": "SPM", "ccn3": "666" },
+        "coordinates": { "latitude": 46.83333333, "longitude": -56.33333333 }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "title": "Koweït",
+    "slug": "kuwait",
+    "baseInfo": {
+        "name": {
+            "common": "Koweït",
+            "official": "État du Koweït",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "دولة الكويت",
+                    "common": "الكويت"
+                }
+            ]
+        },
+        "capital": "Koweït",
+        "region": "Asie",
+        "subregion": "Asie de l'Ouest",
+        "languages": [{ "languageCode": "ar", "name": "arabe" }],
+        "currencies": [
+            { "currencyCode": "KWD", "name": "dinar koweïtien", "symbol": "د.ك" }
+        ],
+        "flag": "🇰🇼",
+        "codes": { "cca2": "KW", "cca3": "KWT", "ccn3": "414" },
+        "coordinates": { "latitude": 29.5, "longitude": 45.75 }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "title": "Sainte-Hélène, Ascension et Tristan da Cunha",
+    "slug": "saint-helena-ascension-and-tristan-da-cunha",
+    "baseInfo": {
+        "name": {
+            "common": "Sainte-Hélène, Ascension et Tristan da Cunha",
+            "official": "Sainte-Hélène, Ascension et Tristan da Cunha",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Saint Helena, Ascension and Tristan da Cunha",
+                    "common": "Saint Helena, Ascension and Tristan da Cunha"
+                }
+            ]
+        },
+        "capital": "Jamestown",
+        "region": "Afrique",
+        "subregion": "Afrique de l'Ouest",
+        "languages": [{ "languageCode": "en", "name": "anglais" }],
+        "currencies": [
+            { "currencyCode": "GBP", "name": "livre sterling", "symbol": "£" },
+            {
+                "currencyCode": "SHP",
+                "name": "livre de Sainte-Hélène",
+                "symbol": "£"
+            }
+        ],
+        "flag": "🇸🇭",
+        "codes": { "cca2": "SH", "cca3": "SHN", "ccn3": "654" },
+        "coordinates": { "latitude": -15.95, "longitude": -5.72 }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "title": "Corée du Nord",
+    "slug": "north-korea",
+    "baseInfo": {
+        "name": {
+            "common": "Corée du Nord",
+            "official": "République populaire démocratique de Corée",
+            "native": [
+                {
+                    "languageCode": "ko",
+                    "official": "조선민주주의인민공화국",
+                    "common": "조선"
+                }
+            ]
+        },
+        "capital": "Pyongyang",
+        "region": "Asie",
+        "subregion": "Asie de l'Est",
+        "languages": [{ "languageCode": "ko", "name": "coréen" }],
+        "currencies": [
+            { "currencyCode": "KPW", "name": "won nord-coréen", "symbol": "₩" }
+        ],
+        "flag": "🇰🇵",
+        "codes": { "cca2": "KP", "cca3": "PRK", "ccn3": "408" },
+        "coordinates": { "latitude": 40, "longitude": 127 }
+    }
+}

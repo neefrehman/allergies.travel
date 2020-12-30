@@ -1,0 +1,27 @@
+{
+    "title": "Île Christmas",
+    "slug": "christmas-island",
+    "baseInfo": {
+        "name": {
+            "common": "Île Christmas",
+            "official": "Territoire de l'île Christmas",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Territory of Christmas Island",
+                    "common": "Christmas Island"
+                }
+            ]
+        },
+        "capital": "Flying Fish Cove",
+        "region": "Océanie",
+        "subregion": "l'Australie et la Nouvelle-Zélande",
+        "languages": [{ "languageCode": "en", "name": "anglais" }],
+        "currencies": [
+            { "currencyCode": "AUD", "name": "dollar australien", "symbol": "$" }
+        ],
+        "flag": "🇨🇽",
+        "codes": { "cca2": "CX", "cca3": "CXR", "ccn3": "162" },
+        "coordinates": { "latitude": -10.5, "longitude": 105.66666666 }
+    }
+}

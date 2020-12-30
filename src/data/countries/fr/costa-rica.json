@@ -1,0 +1,27 @@
+{
+    "title": "Costa Rica",
+    "slug": "costa-rica",
+    "baseInfo": {
+        "name": {
+            "common": "Costa Rica",
+            "official": "République du Costa Rica",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República de Costa Rica",
+                    "common": "Costa Rica"
+                }
+            ]
+        },
+        "capital": "San José",
+        "region": "Middle America",
+        "subregion": "Amérique centrale",
+        "languages": [{ "languageCode": "es", "name": "espagnol" }],
+        "currencies": [
+            { "currencyCode": "CRC", "name": "colón costaricain", "symbol": "₡" }
+        ],
+        "flag": "🇨🇷",
+        "codes": { "cca2": "CR", "cca3": "CRI", "ccn3": "188" },
+        "coordinates": { "latitude": 10, "longitude": -84 }
+    }
+}

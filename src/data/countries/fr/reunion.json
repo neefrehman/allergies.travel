@@ -1,0 +1,25 @@
+{
+    "title": "Réunion",
+    "slug": "reunion",
+    "baseInfo": {
+        "name": {
+            "common": "Réunion",
+            "official": "Ile de la Réunion",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Ile de la Réunion",
+                    "common": "La Réunion"
+                }
+            ]
+        },
+        "capital": "Saint-Denis",
+        "region": "Afrique",
+        "subregion": "Afrique de l'Est",
+        "languages": [{ "languageCode": "fr", "name": "français" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇷🇪",
+        "codes": { "cca2": "RE", "cca3": "REU", "ccn3": "638" },
+        "coordinates": { "latitude": -21.15, "longitude": 55.5 }
+    }
+}

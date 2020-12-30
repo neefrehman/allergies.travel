@@ -1,0 +1,27 @@
+{
+    "title": "Mongolie",
+    "slug": "mongolia",
+    "baseInfo": {
+        "name": {
+            "common": "Mongolie",
+            "official": "Mongolie",
+            "native": [
+                {
+                    "languageCode": "mn",
+                    "official": "Монгол улс",
+                    "common": "Монгол улс"
+                }
+            ]
+        },
+        "capital": "Oulan-Bator",
+        "region": "Asie",
+        "subregion": "Asie de l'Est",
+        "languages": [{ "languageCode": "mn", "name": "mongol" }],
+        "currencies": [
+            { "currencyCode": "MNT", "name": "tugrik mongol", "symbol": "₮" }
+        ],
+        "flag": "🇲🇳",
+        "codes": { "cca2": "MN", "cca3": "MNG", "ccn3": "496" },
+        "coordinates": { "latitude": 46, "longitude": 105 }
+    }
+}

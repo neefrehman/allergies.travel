@@ -1,0 +1,51 @@
+{
+    "title": "Singapour",
+    "slug": "singapore",
+    "baseInfo": {
+        "name": {
+            "common": "Singapour",
+            "official": "République de Singapour",
+            "native": [
+                {
+                    "languageCode": "zh",
+                    "official": "新加坡共和国",
+                    "common": "新加坡"
+                },
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Singapore",
+                    "common": "Singapore"
+                },
+                {
+                    "languageCode": "ms",
+                    "official": "Republik Singapura",
+                    "common": "Singapura"
+                },
+                {
+                    "languageCode": "ta",
+                    "official": "சிங்கப்பூர் குடியரசு",
+                    "common": "சிங்கப்பூர்"
+                }
+            ]
+        },
+        "capital": "Singapour",
+        "region": "Asie",
+        "subregion": "Asie du Sud-Est",
+        "languages": [
+            { "languageCode": "zh", "name": "chinois" },
+            { "languageCode": "en", "name": "anglais" },
+            { "languageCode": "ms", "name": "malais" },
+            { "languageCode": "ta", "name": "tamoul" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "SGD",
+                "name": "dollar de Singapour",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇸🇬",
+        "codes": { "cca2": "SG", "cca3": "SGP", "ccn3": "702" },
+        "coordinates": { "latitude": 1.36666666, "longitude": 103.8 }
+    }
+}

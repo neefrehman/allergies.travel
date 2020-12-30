@@ -1,0 +1,31 @@
+{
+    "title": "Grenade",
+    "slug": "grenada",
+    "baseInfo": {
+        "name": {
+            "common": "Grenade",
+            "official": "Grenade",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Grenada",
+                    "common": "Grenada"
+                }
+            ]
+        },
+        "capital": "Saint-Georges",
+        "region": "Middle America",
+        "subregion": "Caraïbe",
+        "languages": [{ "languageCode": "en", "name": "anglais" }],
+        "currencies": [
+            {
+                "currencyCode": "XCD",
+                "name": "dollar des Caraïbes orientales",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇬🇩",
+        "codes": { "cca2": "GD", "cca3": "GRD", "ccn3": "308" },
+        "coordinates": { "latitude": 12.11666666, "longitude": -61.66666666 }
+    }
+}

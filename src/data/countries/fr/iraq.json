@@ -1,0 +1,37 @@
+{
+    "title": "Irak",
+    "slug": "iraq",
+    "baseInfo": {
+        "name": {
+            "common": "Irak",
+            "official": "République d'Irak",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "جمهورية العراق",
+                    "common": "العراق"
+                },
+                { "official": "ܩܘܼܛܢܵܐ ܐܝܼܪܲܩ", "common": "ܩܘܼܛܢܵܐ" },
+                {
+                    "languageCode": "ku",
+                    "official": "کۆماری عێراق",
+                    "common": "کۆماری"
+                }
+            ]
+        },
+        "capital": "Bagdad",
+        "region": "Asie",
+        "subregion": "Asie de l'Ouest",
+        "languages": [
+            { "languageCode": "ar", "name": "arabe" },
+            { "name": "araméen" },
+            { "languageCode": "ku", "name": "sorani" }
+        ],
+        "currencies": [
+            { "currencyCode": "IQD", "name": "dinar irakien", "symbol": "ع.د" }
+        ],
+        "flag": "🇮🇶",
+        "codes": { "cca2": "IQ", "cca3": "IRQ", "ccn3": "368" },
+        "coordinates": { "latitude": 33, "longitude": 44 }
+    }
+}

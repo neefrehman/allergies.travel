@@ -1,0 +1,31 @@
+{
+    "title": "Malaisie",
+    "slug": "malaysia",
+    "baseInfo": {
+        "name": {
+            "common": "Malaisie",
+            "official": "Fédération de Malaisie",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Malaysia",
+                    "common": "Malaysia"
+                },
+                { "languageCode": "ms", "official": "مليسيا", "common": "مليسيا" }
+            ]
+        },
+        "capital": "Kuala Lumpur",
+        "region": "Asie",
+        "subregion": "Asie du Sud-Est",
+        "languages": [
+            { "languageCode": "en", "name": "anglais" },
+            { "languageCode": "ms", "name": "malais" }
+        ],
+        "currencies": [
+            { "currencyCode": "MYR", "name": "ringgit malais", "symbol": "RM" }
+        ],
+        "flag": "🇲🇾",
+        "codes": { "cca2": "MY", "cca3": "MYS", "ccn3": "458" },
+        "coordinates": { "latitude": 2.5, "longitude": 112.5 }
+    }
+}

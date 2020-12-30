@@ -1,0 +1,31 @@
+{
+    "title": "Îles du Cap-Vert",
+    "slug": "cape-verde",
+    "baseInfo": {
+        "name": {
+            "common": "Îles du Cap-Vert",
+            "official": "République du Cap-Vert",
+            "native": [
+                {
+                    "languageCode": "pt",
+                    "official": "República de Cabo Verde",
+                    "common": "Cabo Verde"
+                }
+            ]
+        },
+        "capital": "Praia",
+        "region": "Afrique",
+        "subregion": "Afrique de l'Ouest",
+        "languages": [{ "languageCode": "pt", "name": "portugais" }],
+        "currencies": [
+            {
+                "currencyCode": "CVE",
+                "name": "escudo capverdien",
+                "symbol": "Esc"
+            }
+        ],
+        "flag": "🇨🇻",
+        "codes": { "cca2": "CV", "cca3": "CPV", "ccn3": "132" },
+        "coordinates": { "latitude": 16, "longitude": -24 }
+    }
+}

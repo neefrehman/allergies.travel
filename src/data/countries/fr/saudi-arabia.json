@@ -1,0 +1,27 @@
+{
+    "title": "Arabie Saoudite",
+    "slug": "saudi-arabia",
+    "baseInfo": {
+        "name": {
+            "common": "Arabie Saoudite",
+            "official": "Royaume d'Arabie Saoudite",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "المملكة العربية السعودية",
+                    "common": "العربية السعودية"
+                }
+            ]
+        },
+        "capital": "Riyad",
+        "region": "Asie",
+        "subregion": "Asie de l'Ouest",
+        "languages": [{ "languageCode": "ar", "name": "arabe" }],
+        "currencies": [
+            { "currencyCode": "SAR", "name": "riyal saoudien", "symbol": "ر.س" }
+        ],
+        "flag": "🇸🇦",
+        "codes": { "cca2": "SA", "cca3": "SAU", "ccn3": "682" },
+        "coordinates": { "latitude": 25, "longitude": 45 }
+    }
+}

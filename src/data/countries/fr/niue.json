@@ -1,0 +1,31 @@
+{
+    "title": "Niue",
+    "slug": "niue",
+    "baseInfo": {
+        "name": {
+            "common": "Niue",
+            "official": "Niue",
+            "native": [
+                { "languageCode": "en", "official": "Niue", "common": "Niue" },
+                { "official": "Niuē", "common": "Niuē" }
+            ]
+        },
+        "capital": "Alofi",
+        "region": "Océanie",
+        "subregion": "Polynésie",
+        "languages": [
+            { "languageCode": "en", "name": "anglais" },
+            { "name": "niuéen" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "NZD",
+                "name": "dollar néo-zélandais",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇳🇺",
+        "codes": { "cca2": "NU", "cca3": "NIU", "ccn3": "570" },
+        "coordinates": { "latitude": -19.03333333, "longitude": -169.86666666 }
+    }
+}

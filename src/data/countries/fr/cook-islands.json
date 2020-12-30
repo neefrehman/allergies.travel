@@ -1,0 +1,36 @@
+{
+    "title": "Îles Cook",
+    "slug": "cook-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Îles Cook",
+            "official": "Îles Cook",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Cook Islands",
+                    "common": "Cook Islands"
+                },
+                { "official": "Kūki 'Āirani", "common": "Kūki 'Āirani" }
+            ]
+        },
+        "capital": "Avarua",
+        "region": "Océanie",
+        "subregion": "Polynésie",
+        "languages": [
+            { "languageCode": "en", "name": "anglais" },
+            { "name": "rarotongien" }
+        ],
+        "currencies": [
+            { "currencyCode": "CKD", "name": "CKD", "symbol": "$" },
+            {
+                "currencyCode": "NZD",
+                "name": "dollar néo-zélandais",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇨🇰",
+        "codes": { "cca2": "CK", "cca3": "COK", "ccn3": "184" },
+        "coordinates": { "latitude": -21.23333333, "longitude": -159.76666666 }
+    }
+}

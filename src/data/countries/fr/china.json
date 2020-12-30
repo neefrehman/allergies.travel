@@ -1,0 +1,31 @@
+{
+    "title": "Chine",
+    "slug": "china",
+    "baseInfo": {
+        "name": {
+            "common": "Chine",
+            "official": "République populaire de Chine",
+            "native": [
+                {
+                    "languageCode": "zh",
+                    "official": "中华人民共和国",
+                    "common": "中国"
+                }
+            ]
+        },
+        "capital": "Pékin",
+        "region": "Asie",
+        "subregion": "Asie de l'Est",
+        "languages": [{ "languageCode": "zh", "name": "chinois" }],
+        "currencies": [
+            {
+                "currencyCode": "CNY",
+                "name": "yuan renminbi chinois",
+                "symbol": "¥"
+            }
+        ],
+        "flag": "🇨🇳",
+        "codes": { "cca2": "CN", "cca3": "CHN", "ccn3": "156" },
+        "coordinates": { "latitude": 35, "longitude": 105 }
+    }
+}

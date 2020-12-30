@@ -1,0 +1,35 @@
+{
+    "title": "Biélorussie",
+    "slug": "belarus",
+    "baseInfo": {
+        "name": {
+            "common": "Biélorussie",
+            "official": "République de Biélorussie",
+            "native": [
+                {
+                    "languageCode": "be",
+                    "official": "Рэспубліка Беларусь",
+                    "common": "Белару́сь"
+                },
+                {
+                    "languageCode": "ru",
+                    "official": "Республика Беларусь",
+                    "common": "Беларусь"
+                }
+            ]
+        },
+        "capital": "Minsk",
+        "region": "Europe",
+        "subregion": "Europe de l'Est",
+        "languages": [
+            { "languageCode": "be", "name": "biélorusse" },
+            { "languageCode": "ru", "name": "russe" }
+        ],
+        "currencies": [
+            { "currencyCode": "BYN", "name": "rouble biélorusse", "symbol": "Br" }
+        ],
+        "flag": "🇧🇾",
+        "codes": { "cca2": "BY", "cca3": "BLR", "ccn3": "112" },
+        "coordinates": { "latitude": 53, "longitude": 28 }
+    }
+}

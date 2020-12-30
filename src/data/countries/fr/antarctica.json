@@ -1,0 +1,19 @@
+{
+    "title": "Antarctique",
+    "slug": "antarctica",
+    "baseInfo": {
+        "name": {
+            "common": "Antarctique",
+            "official": "Antarctique",
+            "native": []
+        },
+        "capital": "Fidalgo",
+        "region": "Antarctic, The",
+        "subregion": "Pamoana",
+        "languages": [],
+        "currencies": [],
+        "flag": "🇦🇶",
+        "codes": { "cca2": "AQ", "cca3": "ATA", "ccn3": "010" },
+        "coordinates": { "latitude": -90, "longitude": 0 }
+    }
+}

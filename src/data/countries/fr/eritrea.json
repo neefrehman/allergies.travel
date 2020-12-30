@@ -1,0 +1,37 @@
+{
+    "title": "Érythrée",
+    "slug": "eritrea",
+    "baseInfo": {
+        "name": {
+            "common": "Érythrée",
+            "official": "État d'Érythrée",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "دولة إرتريا",
+                    "common": "إرتريا‎"
+                },
+                {
+                    "languageCode": "en",
+                    "official": "State of Eritrea",
+                    "common": "Eritrea"
+                },
+                { "languageCode": "ti", "official": "ሃገረ ኤርትራ", "common": "ኤርትራ" }
+            ]
+        },
+        "capital": "Asmara",
+        "region": "Afrique",
+        "subregion": "Afrique de l'Est",
+        "languages": [
+            { "languageCode": "ar", "name": "arabe" },
+            { "languageCode": "en", "name": "anglais" },
+            { "languageCode": "ti", "name": "tigrigna" }
+        ],
+        "currencies": [
+            { "currencyCode": "ERN", "name": "nafka érythréen", "symbol": "Nfk" }
+        ],
+        "flag": "🇪🇷",
+        "codes": { "cca2": "ER", "cca3": "ERI", "ccn3": "232" },
+        "coordinates": { "latitude": 15, "longitude": 39 }
+    }
+}

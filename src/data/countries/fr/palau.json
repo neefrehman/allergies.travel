@@ -1,0 +1,35 @@
+{
+    "title": "Palaos (Palau)",
+    "slug": "palau",
+    "baseInfo": {
+        "name": {
+            "common": "Palaos (Palau)",
+            "official": "République des Palaos (Palau)",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Palau",
+                    "common": "Palau"
+                },
+                { "official": "Beluu er a Belau", "common": "Belau" }
+            ]
+        },
+        "capital": "Ngerulmud",
+        "region": "Océanie",
+        "subregion": "Micronésie",
+        "languages": [
+            { "languageCode": "en", "name": "anglais" },
+            { "name": "palau" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "USD",
+                "name": "dollar des États-Unis",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇵🇼",
+        "codes": { "cca2": "PW", "cca3": "PLW", "ccn3": "585" },
+        "coordinates": { "latitude": 7.5, "longitude": 134.5 }
+    }
+}

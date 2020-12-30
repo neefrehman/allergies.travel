@@ -1,0 +1,38 @@
+{
+    "title": "Timor oriental",
+    "slug": "timor-leste",
+    "baseInfo": {
+        "name": {
+            "common": "Timor oriental",
+            "official": "République démocratique du Timor oriental",
+            "native": [
+                {
+                    "languageCode": "pt",
+                    "official": "República Democrática de Timor-Leste",
+                    "common": "Timor-Leste"
+                },
+                {
+                    "official": "Repúblika Demokrátika Timór-Leste",
+                    "common": "Timór-Leste"
+                }
+            ]
+        },
+        "capital": "Dili",
+        "region": "Asie",
+        "subregion": "Asie du Sud-Est",
+        "languages": [
+            { "languageCode": "pt", "name": "portugais" },
+            { "name": "tétoum" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "USD",
+                "name": "dollar des États-Unis",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇹🇱",
+        "codes": { "cca2": "TL", "cca3": "TLS", "ccn3": "626" },
+        "coordinates": { "latitude": -8.83333333, "longitude": 125.91666666 }
+    }
+}

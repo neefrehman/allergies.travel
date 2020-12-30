@@ -1,0 +1,35 @@
+{
+    "title": "Kazakhstan",
+    "slug": "kazakhstan",
+    "baseInfo": {
+        "name": {
+            "common": "Kazakhstan",
+            "official": "République du Kazakhstan",
+            "native": [
+                {
+                    "languageCode": "kk",
+                    "official": "Қазақстан Республикасы",
+                    "common": "Қазақстан"
+                },
+                {
+                    "languageCode": "ru",
+                    "official": "Республика Казахстан",
+                    "common": "Казахстан"
+                }
+            ]
+        },
+        "capital": "Nour-Soultan",
+        "region": "Asie",
+        "subregion": "Asie centrale",
+        "languages": [
+            { "languageCode": "kk", "name": "kazakh" },
+            { "languageCode": "ru", "name": "russe" }
+        ],
+        "currencies": [
+            { "currencyCode": "KZT", "name": "tenge kazakh", "symbol": "₸" }
+        ],
+        "flag": "🇰🇿",
+        "codes": { "cca2": "KZ", "cca3": "KAZ", "ccn3": "398" },
+        "coordinates": { "latitude": 48, "longitude": 68 }
+    }
+}

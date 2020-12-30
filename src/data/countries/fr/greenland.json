@@ -1,0 +1,27 @@
+{
+    "title": "Groenland",
+    "slug": "greenland",
+    "baseInfo": {
+        "name": {
+            "common": "Groenland",
+            "official": "Groenland",
+            "native": [
+                {
+                    "languageCode": "kl",
+                    "official": "Kalaallit Nunaat",
+                    "common": "Kalaallit Nunaat"
+                }
+            ]
+        },
+        "capital": "Nuuk",
+        "region": "Middle America",
+        "subregion": "Amérique du Nord",
+        "languages": [{ "languageCode": "kl", "name": "groenlandais" }],
+        "currencies": [
+            { "currencyCode": "DKK", "name": "couronne danoise", "symbol": "kr." }
+        ],
+        "flag": "🇬🇱",
+        "codes": { "cca2": "GL", "cca3": "GRL", "ccn3": "304" },
+        "coordinates": { "latitude": 72, "longitude": -40 }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "title": "Allemagne",
+    "slug": "germany",
+    "baseInfo": {
+        "name": {
+            "common": "Allemagne",
+            "official": "République fédérale d'Allemagne",
+            "native": [
+                {
+                    "languageCode": "de",
+                    "official": "Bundesrepublik Deutschland",
+                    "common": "Deutschland"
+                }
+            ]
+        },
+        "capital": "Berlin",
+        "region": "Europe",
+        "subregion": "Europe de l'Ouest",
+        "languages": [{ "languageCode": "de", "name": "allemand" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇩🇪",
+        "codes": { "cca2": "DE", "cca3": "DEU", "ccn3": "276" },
+        "coordinates": { "latitude": 51, "longitude": 9 }
+    }
+}

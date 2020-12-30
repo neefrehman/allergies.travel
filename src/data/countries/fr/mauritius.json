@@ -1,0 +1,37 @@
+{
+    "title": "Île Maurice",
+    "slug": "mauritius",
+    "baseInfo": {
+        "name": {
+            "common": "Île Maurice",
+            "official": "République de Maurice",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Mauritius",
+                    "common": "Mauritius"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "République de Maurice",
+                    "common": "Maurice"
+                },
+                { "official": "Republik Moris", "common": "Moris" }
+            ]
+        },
+        "capital": "Port-Louis",
+        "region": "Afrique",
+        "subregion": "Afrique de l'Est",
+        "languages": [
+            { "languageCode": "en", "name": "anglais" },
+            { "languageCode": "fr", "name": "français" },
+            { "name": "créole mauricien" }
+        ],
+        "currencies": [
+            { "currencyCode": "MUR", "name": "roupie mauricienne", "symbol": "₨" }
+        ],
+        "flag": "🇲🇺",
+        "codes": { "cca2": "MU", "cca3": "MUS", "ccn3": "480" },
+        "coordinates": { "latitude": -20.28333333, "longitude": 57.55 }
+    }
+}

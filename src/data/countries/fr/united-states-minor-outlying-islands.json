@@ -1,0 +1,31 @@
+{
+    "title": "Îles mineures éloignées des États-Unis",
+    "slug": "united-states-minor-outlying-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Îles mineures éloignées des États-Unis",
+            "official": "Îles mineures éloignées des États-Unis",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "United States Minor Outlying Islands",
+                    "common": "United States Minor Outlying Islands"
+                }
+            ]
+        },
+        "capital": "Fidalgo",
+        "region": "Middle America",
+        "subregion": "Amérique du Nord",
+        "languages": [{ "languageCode": "en", "name": "anglais" }],
+        "currencies": [
+            {
+                "currencyCode": "USD",
+                "name": "dollar des États-Unis",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇺🇲",
+        "codes": { "cca2": "UM", "cca3": "UMI", "ccn3": "581" },
+        "coordinates": { "latitude": 19.3, "longitude": 166.633333 }
+    }
+}

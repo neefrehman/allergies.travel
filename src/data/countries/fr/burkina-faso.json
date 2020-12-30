@@ -1,0 +1,27 @@
+{
+    "title": "Burkina Faso",
+    "slug": "burkina-faso",
+    "baseInfo": {
+        "name": {
+            "common": "Burkina Faso",
+            "official": "République du Burkina",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République du Burkina",
+                    "common": "Burkina Faso"
+                }
+            ]
+        },
+        "capital": "Ouagadougou",
+        "region": "Afrique",
+        "subregion": "Afrique de l'Ouest",
+        "languages": [{ "languageCode": "fr", "name": "français" }],
+        "currencies": [
+            { "currencyCode": "XOF", "name": "franc CFA (BCEAO)", "symbol": "Fr" }
+        ],
+        "flag": "🇧🇫",
+        "codes": { "cca2": "BF", "cca3": "BFA", "ccn3": "854" },
+        "coordinates": { "latitude": 13, "longitude": -2 }
+    }
+}

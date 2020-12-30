@@ -1,0 +1,45 @@
+{
+    "title": "Bosnie-Herzégovine",
+    "slug": "bosnia-and-herzegovina",
+    "baseInfo": {
+        "name": {
+            "common": "Bosnie-Herzégovine",
+            "official": "Bosnie-et-Herzégovine",
+            "native": [
+                {
+                    "languageCode": "sh",
+                    "official": "Bosna i Hercegovina",
+                    "common": "Bosna i Hercegovina"
+                },
+                {
+                    "languageCode": "sh",
+                    "official": "Bosna i Hercegovina",
+                    "common": "Bosna i Hercegovina"
+                },
+                {
+                    "languageCode": "sh",
+                    "official": "Боснa и Херцеговина",
+                    "common": "Боснa и Херцеговина"
+                }
+            ]
+        },
+        "capital": "Sarajevo",
+        "region": "Europe",
+        "subregion": "Europe du Sud",
+        "languages": [
+            { "languageCode": "sh", "name": "bosniaque" },
+            { "languageCode": "sh", "name": "croate" },
+            { "languageCode": "sh", "name": "serbe" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "BAM",
+                "name": "mark convertible bosniaque",
+                "symbol": ""
+            }
+        ],
+        "flag": "🇧🇦",
+        "codes": { "cca2": "BA", "cca3": "BIH", "ccn3": "070" },
+        "coordinates": { "latitude": 44, "longitude": 18 }
+    }
+}

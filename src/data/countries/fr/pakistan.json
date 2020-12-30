@@ -1,0 +1,39 @@
+{
+    "title": "Pakistan",
+    "slug": "pakistan",
+    "baseInfo": {
+        "name": {
+            "common": "Pakistan",
+            "official": "République islamique du Pakistan",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Islamic Republic of Pakistan",
+                    "common": "Pakistan"
+                },
+                {
+                    "languageCode": "ur",
+                    "official": "اسلامی جمہوریۂ پاكستان",
+                    "common": "پاكستان"
+                }
+            ]
+        },
+        "capital": "Islamabad",
+        "region": "Asie",
+        "subregion": "Asie du Sud",
+        "languages": [
+            { "languageCode": "en", "name": "anglais" },
+            { "languageCode": "ur", "name": "ourdou" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "PKR",
+                "name": "roupie pakistanaise",
+                "symbol": "₨"
+            }
+        ],
+        "flag": "🇵🇰",
+        "codes": { "cca2": "PK", "cca3": "PAK", "ccn3": "586" },
+        "coordinates": { "latitude": 30, "longitude": 70 }
+    }
+}

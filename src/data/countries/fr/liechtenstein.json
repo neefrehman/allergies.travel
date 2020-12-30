@@ -1,0 +1,27 @@
+{
+    "title": "Liechtenstein",
+    "slug": "liechtenstein",
+    "baseInfo": {
+        "name": {
+            "common": "Liechtenstein",
+            "official": "Principauté du Liechtenstein",
+            "native": [
+                {
+                    "languageCode": "de",
+                    "official": "Fürstentum Liechtenstein",
+                    "common": "Liechtenstein"
+                }
+            ]
+        },
+        "capital": "Vaduz",
+        "region": "Europe",
+        "subregion": "Europe de l'Ouest",
+        "languages": [{ "languageCode": "de", "name": "allemand" }],
+        "currencies": [
+            { "currencyCode": "CHF", "name": "franc suisse", "symbol": "Fr" }
+        ],
+        "flag": "🇱🇮",
+        "codes": { "cca2": "LI", "cca3": "LIE", "ccn3": "438" },
+        "coordinates": { "latitude": 47.26666666, "longitude": 9.53333333 }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "title": "Équateur",
+    "slug": "ecuador",
+    "baseInfo": {
+        "name": {
+            "common": "Équateur",
+            "official": "République de l'Équateur",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República del Ecuador",
+                    "common": "Ecuador"
+                }
+            ]
+        },
+        "capital": "Quito",
+        "region": "Middle America",
+        "subregion": "Amérique du Sud",
+        "languages": [{ "languageCode": "es", "name": "espagnol" }],
+        "currencies": [
+            {
+                "currencyCode": "USD",
+                "name": "dollar des États-Unis",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇪🇨",
+        "codes": { "cca2": "EC", "cca3": "ECU", "ccn3": "218" },
+        "coordinates": { "latitude": -2, "longitude": -77.5 }
+    }
+}

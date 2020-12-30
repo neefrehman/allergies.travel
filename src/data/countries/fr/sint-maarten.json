@@ -1,0 +1,41 @@
+{
+    "title": "Saint-Martin",
+    "slug": "sint-maarten",
+    "baseInfo": {
+        "name": {
+            "common": "Saint-Martin",
+            "official": "Sint Maarten",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Sint Maarten",
+                    "common": "Sint Maarten"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "Saint-Martin",
+                    "common": "Saint-Martin"
+                },
+                {
+                    "languageCode": "nl",
+                    "official": "Sint Maarten",
+                    "common": "Sint Maarten"
+                }
+            ]
+        },
+        "capital": "Philipsburg",
+        "region": "Middle America",
+        "subregion": "Caraïbe",
+        "languages": [
+            { "languageCode": "en", "name": "anglais" },
+            { "languageCode": "fr", "name": "français" },
+            { "languageCode": "nl", "name": "néerlandais" }
+        ],
+        "currencies": [
+            { "currencyCode": "ANG", "name": "florin antillais", "symbol": "ƒ" }
+        ],
+        "flag": "🇸🇽",
+        "codes": { "cca2": "SX", "cca3": "SXM", "ccn3": "534" },
+        "coordinates": { "latitude": 18.033333, "longitude": -63.05 }
+    }
+}

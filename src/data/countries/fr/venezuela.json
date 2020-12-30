@@ -1,0 +1,31 @@
+{
+    "title": "Venezuela",
+    "slug": "venezuela",
+    "baseInfo": {
+        "name": {
+            "common": "Venezuela",
+            "official": "République bolivarienne du Venezuela",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República Bolivariana de Venezuela",
+                    "common": "Venezuela"
+                }
+            ]
+        },
+        "capital": "Caracas",
+        "region": "Middle America",
+        "subregion": "Amérique du Sud",
+        "languages": [{ "languageCode": "es", "name": "espagnol" }],
+        "currencies": [
+            {
+                "currencyCode": "VES",
+                "name": "bolivar vénézuélien",
+                "symbol": "Bs.S."
+            }
+        ],
+        "flag": "🇻🇪",
+        "codes": { "cca2": "VE", "cca3": "VEN", "ccn3": "862" },
+        "coordinates": { "latitude": 8, "longitude": -66 }
+    }
+}

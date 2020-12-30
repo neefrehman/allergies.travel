@@ -1,0 +1,27 @@
+{
+    "title": "Brésil",
+    "slug": "brazil",
+    "baseInfo": {
+        "name": {
+            "common": "Brésil",
+            "official": "République fédérative du Brésil",
+            "native": [
+                {
+                    "languageCode": "pt",
+                    "official": "República Federativa do Brasil",
+                    "common": "Brasil"
+                }
+            ]
+        },
+        "capital": "Brésil",
+        "region": "Middle America",
+        "subregion": "Amérique du Sud",
+        "languages": [{ "languageCode": "pt", "name": "portugais" }],
+        "currencies": [
+            { "currencyCode": "BRL", "name": "réal brésilien", "symbol": "R$" }
+        ],
+        "flag": "🇧🇷",
+        "codes": { "cca2": "BR", "cca3": "BRA", "ccn3": "076" },
+        "coordinates": { "latitude": -10, "longitude": -55 }
+    }
+}

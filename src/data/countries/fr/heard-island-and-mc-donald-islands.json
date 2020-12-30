@@ -1,0 +1,25 @@
+{
+    "title": "Îles Heard-et-MacDonald",
+    "slug": "heard-island-and-mc-donald-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Îles Heard-et-MacDonald",
+            "official": "Des îles Heard et McDonald",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Heard Island and McDonald Islands",
+                    "common": "Heard Island and McDonald Islands"
+                }
+            ]
+        },
+        "capital": "Fidalgo",
+        "region": "Antarctic, The",
+        "subregion": "Pamoana",
+        "languages": [{ "languageCode": "en", "name": "anglais" }],
+        "currencies": [],
+        "flag": "🇭🇲",
+        "codes": { "cca2": "HM", "cca3": "HMD", "ccn3": "334" },
+        "coordinates": { "latitude": -53.1, "longitude": 72.51666666 }
+    }
+}

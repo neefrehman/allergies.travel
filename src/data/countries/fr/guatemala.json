@@ -1,0 +1,31 @@
+{
+    "title": "Guatemala",
+    "slug": "guatemala",
+    "baseInfo": {
+        "name": {
+            "common": "Guatemala",
+            "official": "République du Guatemala",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República de Guatemala",
+                    "common": "Guatemala"
+                }
+            ]
+        },
+        "capital": "Guatemala",
+        "region": "Middle America",
+        "subregion": "Amérique centrale",
+        "languages": [{ "languageCode": "es", "name": "espagnol" }],
+        "currencies": [
+            {
+                "currencyCode": "GTQ",
+                "name": "quetzal guatémaltèque",
+                "symbol": "Q"
+            }
+        ],
+        "flag": "🇬🇹",
+        "codes": { "cca2": "GT", "cca3": "GTM", "ccn3": "320" },
+        "coordinates": { "latitude": 15.5, "longitude": -90.25 }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "title": "Éthiopie",
+    "slug": "ethiopia",
+    "baseInfo": {
+        "name": {
+            "common": "Éthiopie",
+            "official": "République fédérale démocratique d'Éthiopie",
+            "native": [
+                {
+                    "languageCode": "am",
+                    "official": "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ",
+                    "common": "ኢትዮጵያ"
+                }
+            ]
+        },
+        "capital": "Addis-Abeba",
+        "region": "Afrique",
+        "subregion": "Afrique de l'Est",
+        "languages": [{ "languageCode": "am", "name": "amharique" }],
+        "currencies": [
+            { "currencyCode": "ETB", "name": "birr éthiopien", "symbol": "Br" }
+        ],
+        "flag": "🇪🇹",
+        "codes": { "cca2": "ET", "cca3": "ETH", "ccn3": "231" },
+        "coordinates": { "latitude": 8, "longitude": 38 }
+    }
+}

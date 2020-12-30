@@ -1,0 +1,35 @@
+{
+    "title": "Tadjikistan",
+    "slug": "tajikistan",
+    "baseInfo": {
+        "name": {
+            "common": "Tadjikistan",
+            "official": "République du Tadjikistan",
+            "native": [
+                {
+                    "languageCode": "ru",
+                    "official": "Республика Таджикистан",
+                    "common": "Таджикистан"
+                },
+                {
+                    "languageCode": "tg",
+                    "official": "Ҷумҳурии Тоҷикистон",
+                    "common": "Тоҷикистон"
+                }
+            ]
+        },
+        "capital": "Douchanbé",
+        "region": "Asie",
+        "subregion": "Asie centrale",
+        "languages": [
+            { "languageCode": "ru", "name": "russe" },
+            { "languageCode": "tg", "name": "tadjik" }
+        ],
+        "currencies": [
+            { "currencyCode": "TJS", "name": "somoni tadjik", "symbol": "ЅМ" }
+        ],
+        "flag": "🇹🇯",
+        "codes": { "cca2": "TJ", "cca3": "TJK", "ccn3": "762" },
+        "coordinates": { "latitude": 39, "longitude": 71 }
+    }
+}

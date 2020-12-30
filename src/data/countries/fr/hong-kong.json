@@ -1,0 +1,39 @@
+{
+    "title": "Hong Kong",
+    "slug": "hong-kong",
+    "baseInfo": {
+        "name": {
+            "common": "Hong Kong",
+            "official": "Région administrative spéciale de Hong Kong de la République populaire de Chine",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Hong Kong Special Administrative Region of the People's Republic of China",
+                    "common": "Hong Kong"
+                },
+                {
+                    "languageCode": "zh",
+                    "official": "中华人民共和国香港特别行政区",
+                    "common": "香港"
+                }
+            ]
+        },
+        "capital": "Melbourne",
+        "region": "Asie",
+        "subregion": "Asie de l'Est",
+        "languages": [
+            { "languageCode": "en", "name": "anglais" },
+            { "languageCode": "zh", "name": "chinois" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "HKD",
+                "name": "dollar de Hong Kong",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇭🇰",
+        "codes": { "cca2": "HK", "cca3": "HKG", "ccn3": "344" },
+        "coordinates": { "latitude": 22.267, "longitude": 114.188 }
+    }
+}

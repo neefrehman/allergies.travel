@@ -1,0 +1,35 @@
+{
+    "title": "Cameroun",
+    "slug": "cameroon",
+    "baseInfo": {
+        "name": {
+            "common": "Cameroun",
+            "official": "République du Cameroun",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Cameroon",
+                    "common": "Cameroon"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "République du Cameroun",
+                    "common": "Cameroun"
+                }
+            ]
+        },
+        "capital": "Yaoundé",
+        "region": "Afrique",
+        "subregion": "Greater Cairo Area",
+        "languages": [
+            { "languageCode": "en", "name": "anglais" },
+            { "languageCode": "fr", "name": "français" }
+        ],
+        "currencies": [
+            { "currencyCode": "XAF", "name": "franc CFA (BEAC)", "symbol": "Fr" }
+        ],
+        "flag": "🇨🇲",
+        "codes": { "cca2": "CM", "cca3": "CMR", "ccn3": "120" },
+        "coordinates": { "latitude": 6, "longitude": 12 }
+    }
+}

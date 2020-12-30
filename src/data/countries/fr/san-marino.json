@@ -1,0 +1,25 @@
+{
+    "title": "Saint-Marin",
+    "slug": "san-marino",
+    "baseInfo": {
+        "name": {
+            "common": "Saint-Marin",
+            "official": "République de Saint-Marin",
+            "native": [
+                {
+                    "languageCode": "it",
+                    "official": "Serenissima Repubblica di San Marino",
+                    "common": "San Marino"
+                }
+            ]
+        },
+        "capital": "Ville de Saint-Marin",
+        "region": "Europe",
+        "subregion": "Europe du Sud",
+        "languages": [{ "languageCode": "it", "name": "italien" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇸🇲",
+        "codes": { "cca2": "SM", "cca3": "SMR", "ccn3": "674" },
+        "coordinates": { "latitude": 43.76666666, "longitude": 12.41666666 }
+    }
+}

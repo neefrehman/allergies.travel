@@ -1,0 +1,25 @@
+{
+    "title": "Monaco",
+    "slug": "monaco",
+    "baseInfo": {
+        "name": {
+            "common": "Monaco",
+            "official": "Principauté de Monaco",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Principauté de Monaco",
+                    "common": "Monaco"
+                }
+            ]
+        },
+        "capital": "Monaco",
+        "region": "Europe",
+        "subregion": "Europe de l'Ouest",
+        "languages": [{ "languageCode": "fr", "name": "français" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇲🇨",
+        "codes": { "cca2": "MC", "cca3": "MCO", "ccn3": "492" },
+        "coordinates": { "latitude": 43.73333333, "longitude": 7.4 }
+    }
+}

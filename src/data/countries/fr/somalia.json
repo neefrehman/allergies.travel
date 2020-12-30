@@ -1,0 +1,35 @@
+{
+    "title": "Somalie",
+    "slug": "somalia",
+    "baseInfo": {
+        "name": {
+            "common": "Somalie",
+            "official": "République fédérale de Somalie",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "جمهورية الصومال‎‎",
+                    "common": "الصومال‎‎"
+                },
+                {
+                    "languageCode": "so",
+                    "official": "Jamhuuriyadda Federaalka Soomaaliya",
+                    "common": "Soomaaliya"
+                }
+            ]
+        },
+        "capital": "Mogadiscio",
+        "region": "Afrique",
+        "subregion": "Afrique de l'Est",
+        "languages": [
+            { "languageCode": "ar", "name": "arabe" },
+            { "languageCode": "so", "name": "somali" }
+        ],
+        "currencies": [
+            { "currencyCode": "SOS", "name": "shilling somalien", "symbol": "Sh" }
+        ],
+        "flag": "🇸🇴",
+        "codes": { "cca2": "SO", "cca3": "SOM", "ccn3": "706" },
+        "coordinates": { "latitude": 10, "longitude": 49 }
+    }
+}

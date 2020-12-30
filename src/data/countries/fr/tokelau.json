@@ -1,0 +1,41 @@
+{
+    "title": "Tokelau",
+    "slug": "tokelau",
+    "baseInfo": {
+        "name": {
+            "common": "Tokelau",
+            "official": "Îles Tokelau",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Tokelau",
+                    "common": "Tokelau"
+                },
+                {
+                    "languageCode": "sm",
+                    "official": "Tokelau",
+                    "common": "Tokelau"
+                },
+                { "official": "Tokelau", "common": "Tokelau" }
+            ]
+        },
+        "capital": "Fakaofo",
+        "region": "Océanie",
+        "subregion": "Polynésie",
+        "languages": [
+            { "languageCode": "en", "name": "anglais" },
+            { "languageCode": "sm", "name": "samoan" },
+            { "name": "tokelau" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "NZD",
+                "name": "dollar néo-zélandais",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇹🇰",
+        "codes": { "cca2": "TK", "cca3": "TKL", "ccn3": "772" },
+        "coordinates": { "latitude": -9, "longitude": -172 }
+    }
+}

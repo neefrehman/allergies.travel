@@ -1,0 +1,39 @@
+{
+    "title": "Îles Marshall",
+    "slug": "marshall-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Îles Marshall",
+            "official": "République des Îles Marshall",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of the Marshall Islands",
+                    "common": "Marshall Islands"
+                },
+                {
+                    "languageCode": "mh",
+                    "official": "Republic of the Marshall Islands",
+                    "common": "M̧ajeļ"
+                }
+            ]
+        },
+        "capital": "Majuro",
+        "region": "Océanie",
+        "subregion": "Micronésie",
+        "languages": [
+            { "languageCode": "en", "name": "anglais" },
+            { "languageCode": "mh", "name": "marshallais" }
+        ],
+        "currencies": [
+            {
+                "currencyCode": "USD",
+                "name": "dollar des États-Unis",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇲🇭",
+        "codes": { "cca2": "MH", "cca3": "MHL", "ccn3": "584" },
+        "coordinates": { "latitude": 9, "longitude": 168 }
+    }
+}

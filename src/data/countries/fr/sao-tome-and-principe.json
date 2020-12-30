@@ -1,0 +1,27 @@
+{
+    "title": "São Tomé et Príncipe",
+    "slug": "sao-tome-and-principe",
+    "baseInfo": {
+        "name": {
+            "common": "São Tomé et Príncipe",
+            "official": "République démocratique de São Tomé et Príncipe",
+            "native": [
+                {
+                    "languageCode": "pt",
+                    "official": "República Democrática do São Tomé e Príncipe",
+                    "common": "São Tomé e Príncipe"
+                }
+            ]
+        },
+        "capital": "São Paulo",
+        "region": "Afrique",
+        "subregion": "Greater Cairo Area",
+        "languages": [{ "languageCode": "pt", "name": "portugais" }],
+        "currencies": [
+            { "currencyCode": "STN", "name": "dobra santoméen", "symbol": "Db" }
+        ],
+        "flag": "🇸🇹",
+        "codes": { "cca2": "ST", "cca3": "STP", "ccn3": "678" },
+        "coordinates": { "latitude": 1, "longitude": 7 }
+    }
+}

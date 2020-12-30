@@ -1,0 +1,32 @@
+{
+    "title": "Cambodge",
+    "slug": "cambodia",
+    "baseInfo": {
+        "name": {
+            "common": "Cambodge",
+            "official": "Royaume du Cambodge",
+            "native": [
+                {
+                    "languageCode": "km",
+                    "official": "ព្រះរាជាណាចក្រកម្ពុជា",
+                    "common": "Kâmpŭchéa"
+                }
+            ]
+        },
+        "capital": "Phnom Penh",
+        "region": "Asie",
+        "subregion": "Asie du Sud-Est",
+        "languages": [{ "languageCode": "km", "name": "khmer" }],
+        "currencies": [
+            { "currencyCode": "KHR", "name": "riel cambodgien", "symbol": "៛" },
+            {
+                "currencyCode": "USD",
+                "name": "dollar des États-Unis",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇰🇭",
+        "codes": { "cca2": "KH", "cca3": "KHM", "ccn3": "116" },
+        "coordinates": { "latitude": 13, "longitude": 105 }
+    }
+}

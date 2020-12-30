@@ -1,0 +1,31 @@
+{
+    "title": "Dominique",
+    "slug": "dominica",
+    "baseInfo": {
+        "name": {
+            "common": "Dominique",
+            "official": "Commonwealth de la Dominique",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Commonwealth of Dominica",
+                    "common": "Dominica"
+                }
+            ]
+        },
+        "capital": "Roseau",
+        "region": "Middle America",
+        "subregion": "Caraïbe",
+        "languages": [{ "languageCode": "en", "name": "anglais" }],
+        "currencies": [
+            {
+                "currencyCode": "XCD",
+                "name": "dollar des Caraïbes orientales",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇩🇲",
+        "codes": { "cca2": "DM", "cca3": "DMA", "ccn3": "212" },
+        "coordinates": { "latitude": 15.41666666, "longitude": -61.33333333 }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "title": "Zambie",
+    "slug": "zambia",
+    "baseInfo": {
+        "name": {
+            "common": "Zambie",
+            "official": "République de Zambie",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Zambia",
+                    "common": "Zambia"
+                }
+            ]
+        },
+        "capital": "Lusaka",
+        "region": "Afrique",
+        "subregion": "Afrique de l'Est",
+        "languages": [{ "languageCode": "en", "name": "anglais" }],
+        "currencies": [
+            { "currencyCode": "ZMW", "name": "kwacha zambien", "symbol": "ZK" }
+        ],
+        "flag": "🇿🇲",
+        "codes": { "cca2": "ZM", "cca3": "ZMB", "ccn3": "894" },
+        "coordinates": { "latitude": -15, "longitude": 30 }
+    }
+}

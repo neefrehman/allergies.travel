@@ -1,0 +1,27 @@
+{
+    "title": "Barbade",
+    "slug": "barbados",
+    "baseInfo": {
+        "name": {
+            "common": "Barbade",
+            "official": "Barbade",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Barbados",
+                    "common": "Barbados"
+                }
+            ]
+        },
+        "capital": "Bridgetown",
+        "region": "Middle America",
+        "subregion": "Caraïbe",
+        "languages": [{ "languageCode": "en", "name": "anglais" }],
+        "currencies": [
+            { "currencyCode": "BBD", "name": "dollar barbadien", "symbol": "$" }
+        ],
+        "flag": "🇧🇧",
+        "codes": { "cca2": "BB", "cca3": "BRB", "ccn3": "052" },
+        "coordinates": { "latitude": 13.16666666, "longitude": -59.53333333 }
+    }
+}

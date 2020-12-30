@@ -1,0 +1,25 @@
+{
+    "title": "Terres australes et antarctiques françaises",
+    "slug": "french-southern-and-antarctic-lands",
+    "baseInfo": {
+        "name": {
+            "common": "Terres australes et antarctiques françaises",
+            "official": "Territoire des Terres australes et antarctiques françaises",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "Territoire des Terres australes et antarctiques françaises",
+                    "common": "Terres australes et antarctiques françaises"
+                }
+            ]
+        },
+        "capital": "Port-aux-Français",
+        "region": "Antarctic, The",
+        "subregion": "Pamoana",
+        "languages": [{ "languageCode": "fr", "name": "français" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇹🇫",
+        "codes": { "cca2": "TF", "cca3": "ATF", "ccn3": "260" },
+        "coordinates": { "latitude": -49.25, "longitude": 69.167 }
+    }
+}

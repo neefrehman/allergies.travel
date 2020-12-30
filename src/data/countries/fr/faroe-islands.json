@@ -1,0 +1,36 @@
+{
+    "title": "Îles Féroé",
+    "slug": "faroe-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Îles Féroé",
+            "official": "Îles Féroé",
+            "native": [
+                {
+                    "languageCode": "da",
+                    "official": "Færøerne",
+                    "common": "Færøerne"
+                },
+                {
+                    "languageCode": "fo",
+                    "official": "Føroyar",
+                    "common": "Føroyar"
+                }
+            ]
+        },
+        "capital": "Tórshavn",
+        "region": "Europe",
+        "subregion": "Europe du Nord",
+        "languages": [
+            { "languageCode": "da", "name": "danois" },
+            { "languageCode": "fo", "name": "féroïen" }
+        ],
+        "currencies": [
+            { "currencyCode": "DKK", "name": "couronne danoise", "symbol": "kr" },
+            { "currencyCode": "FOK", "name": "FOK", "symbol": "kr" }
+        ],
+        "flag": "🇫🇴",
+        "codes": { "cca2": "FO", "cca3": "FRO", "ccn3": "234" },
+        "coordinates": { "latitude": 62, "longitude": -7 }
+    }
+}

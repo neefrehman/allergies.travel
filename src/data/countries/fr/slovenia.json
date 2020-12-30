@@ -1,0 +1,25 @@
+{
+    "title": "Slovénie",
+    "slug": "slovenia",
+    "baseInfo": {
+        "name": {
+            "common": "Slovénie",
+            "official": "République de Slovénie",
+            "native": [
+                {
+                    "languageCode": "sl",
+                    "official": "Republika Slovenija",
+                    "common": "Slovenija"
+                }
+            ]
+        },
+        "capital": "Ljubljana",
+        "region": "Europe",
+        "subregion": "Europe du Sud",
+        "languages": [{ "languageCode": "sl", "name": "slovène" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇸🇮",
+        "codes": { "cca2": "SI", "cca3": "SVN", "ccn3": "705" },
+        "coordinates": { "latitude": 46.11666666, "longitude": 14.81666666 }
+    }
+}

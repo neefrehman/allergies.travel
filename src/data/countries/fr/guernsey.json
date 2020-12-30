@@ -1,0 +1,38 @@
+{
+    "title": "Guernesey",
+    "slug": "guernsey",
+    "baseInfo": {
+        "name": {
+            "common": "Guernesey",
+            "official": "Bailliage de Guernesey",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Bailiwick of Guernsey",
+                    "common": "Guernsey"
+                },
+                {
+                    "languageCode": "fr",
+                    "official": "Bailliage de Guernesey",
+                    "common": "Guernesey"
+                },
+                { "official": "Dgèrnésiais", "common": "Dgèrnésiais" }
+            ]
+        },
+        "capital": "Saint-Pierre-Port",
+        "region": "Europe",
+        "subregion": "Europe du Nord",
+        "languages": [
+            { "languageCode": "en", "name": "anglais" },
+            { "languageCode": "fr", "name": "français" },
+            { "name": "nfr" }
+        ],
+        "currencies": [
+            { "currencyCode": "GBP", "name": "livre sterling", "symbol": "£" },
+            { "currencyCode": "GGP", "name": "GGP", "symbol": "£" }
+        ],
+        "flag": "🇬🇬",
+        "codes": { "cca2": "GG", "cca3": "GGY", "ccn3": "831" },
+        "coordinates": { "latitude": 49.46666666, "longitude": -2.58333333 }
+    }
+}

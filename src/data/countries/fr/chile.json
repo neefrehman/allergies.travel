@@ -1,0 +1,27 @@
+{
+    "title": "Chili",
+    "slug": "chile",
+    "baseInfo": {
+        "name": {
+            "common": "Chili",
+            "official": "République du Chili",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República de Chile",
+                    "common": "Chile"
+                }
+            ]
+        },
+        "capital": "Santiago du Chili",
+        "region": "Middle America",
+        "subregion": "Amérique du Sud",
+        "languages": [{ "languageCode": "es", "name": "espagnol" }],
+        "currencies": [
+            { "currencyCode": "CLP", "name": "peso chilien", "symbol": "$" }
+        ],
+        "flag": "🇨🇱",
+        "codes": { "cca2": "CL", "cca3": "CHL", "ccn3": "152" },
+        "coordinates": { "latitude": -30, "longitude": -71 }
+    }
+}

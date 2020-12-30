@@ -1,0 +1,27 @@
+{
+    "title": "Angola",
+    "slug": "angola",
+    "baseInfo": {
+        "name": {
+            "common": "Angola",
+            "official": "République d'Angola",
+            "native": [
+                {
+                    "languageCode": "pt",
+                    "official": "República de Angola",
+                    "common": "Angola"
+                }
+            ]
+        },
+        "capital": "Luanda",
+        "region": "Afrique",
+        "subregion": "Greater Cairo Area",
+        "languages": [{ "languageCode": "pt", "name": "portugais" }],
+        "currencies": [
+            { "currencyCode": "AOA", "name": "kwanza angolais", "symbol": "Kz" }
+        ],
+        "flag": "🇦🇴",
+        "codes": { "cca2": "AO", "cca3": "AGO", "ccn3": "024" },
+        "coordinates": { "latitude": -12.5, "longitude": 18.5 }
+    }
+}

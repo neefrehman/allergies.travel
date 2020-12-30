@@ -1,0 +1,32 @@
+{
+    "title": "Bhoutan",
+    "slug": "bhutan",
+    "baseInfo": {
+        "name": {
+            "common": "Bhoutan",
+            "official": "Royaume du Bhoutan",
+            "native": [
+                {
+                    "languageCode": "dz",
+                    "official": "འབྲུག་རྒྱལ་ཁབ་",
+                    "common": "འབྲུག་ཡུལ་"
+                }
+            ]
+        },
+        "capital": "Thimphou",
+        "region": "Asie",
+        "subregion": "Asie du Sud",
+        "languages": [{ "languageCode": "dz", "name": "dzongkha" }],
+        "currencies": [
+            {
+                "currencyCode": "BTN",
+                "name": "ngultrum bouthanais",
+                "symbol": "Nu."
+            },
+            { "currencyCode": "INR", "name": "roupie indienne", "symbol": "₹" }
+        ],
+        "flag": "🇧🇹",
+        "codes": { "cca2": "BT", "cca3": "BTN", "ccn3": "064" },
+        "coordinates": { "latitude": 27.5, "longitude": 90.5 }
+    }
+}

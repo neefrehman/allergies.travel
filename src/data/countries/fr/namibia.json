@@ -1,0 +1,66 @@
+{
+    "title": "Namibie",
+    "slug": "namibia",
+    "baseInfo": {
+        "name": {
+            "common": "Namibie",
+            "official": "République de Namibie",
+            "native": [
+                {
+                    "languageCode": "af",
+                    "official": "Republiek van Namibië",
+                    "common": "Namibië"
+                },
+                {
+                    "languageCode": "de",
+                    "official": "Republik Namibia",
+                    "common": "Namibia"
+                },
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Namibia",
+                    "common": "Namibia"
+                },
+                {
+                    "languageCode": "hz",
+                    "official": "Republic of Namibia",
+                    "common": "Namibia"
+                },
+                { "official": "Republic of Namibia", "common": "Namibia" },
+                { "official": "Republic of Namibia", "common": "Namibia" },
+                { "official": "Republic of Namibia", "common": "Namibia" },
+                {
+                    "languageCode": "ng",
+                    "official": "Republic of Namibia",
+                    "common": "Namibia"
+                },
+                {
+                    "languageCode": "tn",
+                    "official": "Lefatshe la Namibia",
+                    "common": "Namibia"
+                }
+            ]
+        },
+        "capital": "Windhoek",
+        "region": "Afrique",
+        "subregion": "Afrique australe",
+        "languages": [
+            { "languageCode": "af", "name": "afrikaans" },
+            { "languageCode": "de", "name": "allemand" },
+            { "languageCode": "en", "name": "anglais" },
+            { "languageCode": "hz", "name": "héréro" },
+            { "name": "hgm" },
+            { "name": "kwn" },
+            { "name": "lozi" },
+            { "languageCode": "ng", "name": "ndonga" },
+            { "languageCode": "tn", "name": "tswana" }
+        ],
+        "currencies": [
+            { "currencyCode": "NAD", "name": "dollar namibien", "symbol": "$" },
+            { "currencyCode": "ZAR", "name": "rand sud-africain", "symbol": "R" }
+        ],
+        "flag": "🇳🇦",
+        "codes": { "cca2": "NA", "cca3": "NAM", "ccn3": "516" },
+        "coordinates": { "latitude": -22, "longitude": 17 }
+    }
+}

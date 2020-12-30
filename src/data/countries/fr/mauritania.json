@@ -1,0 +1,31 @@
+{
+    "title": "Mauritanie",
+    "slug": "mauritania",
+    "baseInfo": {
+        "name": {
+            "common": "Mauritanie",
+            "official": "République islamique de Mauritanie",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "الجمهورية الإسلامية الموريتانية",
+                    "common": "موريتانيا"
+                }
+            ]
+        },
+        "capital": "Nouakchott",
+        "region": "Afrique",
+        "subregion": "Afrique de l'Ouest",
+        "languages": [{ "languageCode": "ar", "name": "arabe" }],
+        "currencies": [
+            {
+                "currencyCode": "MRU",
+                "name": "ouguiya mauritanien",
+                "symbol": "UM"
+            }
+        ],
+        "flag": "🇲🇷",
+        "codes": { "cca2": "MR", "cca3": "MRT", "ccn3": "478" },
+        "coordinates": { "latitude": 20, "longitude": -12 }
+    }
+}

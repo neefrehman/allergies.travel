@@ -1,0 +1,31 @@
+{
+    "title": "Îles Vierges britanniques",
+    "slug": "british-virgin-islands",
+    "baseInfo": {
+        "name": {
+            "common": "Îles Vierges britanniques",
+            "official": "îles Vierges",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Virgin Islands",
+                    "common": "British Virgin Islands"
+                }
+            ]
+        },
+        "capital": "Road Town",
+        "region": "Middle America",
+        "subregion": "Caraïbe",
+        "languages": [{ "languageCode": "en", "name": "anglais" }],
+        "currencies": [
+            {
+                "currencyCode": "USD",
+                "name": "dollar des États-Unis",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇻🇬",
+        "codes": { "cca2": "VG", "cca3": "VGB", "ccn3": "092" },
+        "coordinates": { "latitude": 18.431383, "longitude": -64.62305 }
+    }
+}

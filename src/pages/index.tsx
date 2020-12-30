@@ -2,6 +2,7 @@ import fs from "fs";
 
 import React, { useState, lazy, Suspense } from "react";
 import styled from "@emotion/styled";
+import { css } from "@emotion/react";
 import type { GetStaticProps } from "next";
 
 import { useHasMounted } from "hooks/useHasMounted";
@@ -14,11 +15,20 @@ import { Title } from "HomeComponents/Title";
 const PeanutWorld = lazy(() => import("components/PeanutWorld"));
 // ^Fix for `cannot use import statement outside a module` issue with three/jsm: https://github.com/react-spring/react-three-fiber/discussions/504
 
-const IntroContainer = styled.div`
+const IntroContainer = styled.div<{ isRounded: boolean }>`
     background-color: ${({ theme }) => theme.colors.spaceNavy};
     position: relative;
     height: 100vh;
     width: 100vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: border-radius 1600ms ease-in-out, border 1600ms ease-in-out;
+
+    /* TODO: make this good */
+    /* ${({ isRounded }) => css`
+        border-radius: ${isRounded ? "80px" : 0};
+        border: ${isRounded ? "20px solid white" : "none"};
+    `} */
 `;
 
 const CountryCardGrid = styled.ul`
@@ -48,7 +58,7 @@ const HomePage = ({ countryData }: HomePageProps) => {
 
     return (
         <>
-            <IntroContainer>
+            <IntroContainer isRounded={titleIsVisible}>
                 {hasMounted && (
                     <ErrorBoundary fallback={<Title isVisible />}>
                         <Suspense fallback={null}>

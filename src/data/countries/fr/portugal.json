@@ -1,0 +1,25 @@
+{
+    "title": "Portugal",
+    "slug": "portugal",
+    "baseInfo": {
+        "name": {
+            "common": "Portugal",
+            "official": "République portugaise",
+            "native": [
+                {
+                    "languageCode": "pt",
+                    "official": "República português",
+                    "common": "Portugal"
+                }
+            ]
+        },
+        "capital": "Lisbonne",
+        "region": "Europe",
+        "subregion": "Europe du Sud",
+        "languages": [{ "languageCode": "pt", "name": "portugais" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇵🇹",
+        "codes": { "cca2": "PT", "cca3": "PRT", "ccn3": "620" },
+        "coordinates": { "latitude": 39.5, "longitude": -8 }
+    }
+}

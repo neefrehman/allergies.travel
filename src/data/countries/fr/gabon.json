@@ -1,0 +1,27 @@
+{
+    "title": "Gabon",
+    "slug": "gabon",
+    "baseInfo": {
+        "name": {
+            "common": "Gabon",
+            "official": "République gabonaise",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République gabonaise",
+                    "common": "Gabon"
+                }
+            ]
+        },
+        "capital": "Libreville",
+        "region": "Afrique",
+        "subregion": "Greater Cairo Area",
+        "languages": [{ "languageCode": "fr", "name": "français" }],
+        "currencies": [
+            { "currencyCode": "XAF", "name": "franc CFA (BEAC)", "symbol": "Fr" }
+        ],
+        "flag": "🇬🇦",
+        "codes": { "cca2": "GA", "cca3": "GAB", "ccn3": "266" },
+        "coordinates": { "latitude": -1, "longitude": 11.75 }
+    }
+}

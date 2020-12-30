@@ -1,0 +1,35 @@
+{
+    "title": "République centrafricaine",
+    "slug": "central-african-republic",
+    "baseInfo": {
+        "name": {
+            "common": "République centrafricaine",
+            "official": "République centrafricaine",
+            "native": [
+                {
+                    "languageCode": "fr",
+                    "official": "République centrafricaine",
+                    "common": "République centrafricaine"
+                },
+                {
+                    "languageCode": "sg",
+                    "official": "Ködörösêse tî Bêafrîka",
+                    "common": "Bêafrîka"
+                }
+            ]
+        },
+        "capital": "Bangui",
+        "region": "Afrique",
+        "subregion": "Greater Cairo Area",
+        "languages": [
+            { "languageCode": "fr", "name": "français" },
+            { "languageCode": "sg", "name": "sango" }
+        ],
+        "currencies": [
+            { "currencyCode": "XAF", "name": "franc CFA (BEAC)", "symbol": "Fr" }
+        ],
+        "flag": "🇨🇫",
+        "codes": { "cca2": "CF", "cca3": "CAF", "ccn3": "140" },
+        "coordinates": { "latitude": 7, "longitude": 21 }
+    }
+}

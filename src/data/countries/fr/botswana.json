@@ -1,0 +1,35 @@
+{
+    "title": "Botswana",
+    "slug": "botswana",
+    "baseInfo": {
+        "name": {
+            "common": "Botswana",
+            "official": "République du Botswana",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "Republic of Botswana",
+                    "common": "Botswana"
+                },
+                {
+                    "languageCode": "tn",
+                    "official": "Lefatshe la Botswana",
+                    "common": "Botswana"
+                }
+            ]
+        },
+        "capital": "Gaborone",
+        "region": "Afrique",
+        "subregion": "Afrique australe",
+        "languages": [
+            { "languageCode": "en", "name": "anglais" },
+            { "languageCode": "tn", "name": "tswana" }
+        ],
+        "currencies": [
+            { "currencyCode": "BWP", "name": "pula botswanais", "symbol": "P" }
+        ],
+        "flag": "🇧🇼",
+        "codes": { "cca2": "BW", "cca3": "BWA", "ccn3": "072" },
+        "coordinates": { "latitude": -22, "longitude": 24 }
+    }
+}

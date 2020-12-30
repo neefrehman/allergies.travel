@@ -1,0 +1,41 @@
+{
+    "title": "Afghanistan",
+    "slug": "afghanistan",
+    "baseInfo": {
+        "name": {
+            "common": "Afghanistan",
+            "official": "République islamique d'Afghanistan",
+            "native": [
+                {
+                    "languageCode": "fa",
+                    "official": "جمهوری اسلامی افغانستان",
+                    "common": "افغانستان"
+                },
+                {
+                    "languageCode": "ps",
+                    "official": "د افغانستان اسلامي جمهوریت",
+                    "common": "افغانستان"
+                },
+                {
+                    "languageCode": "tk",
+                    "official": "Owganystan Yslam Respublikasy",
+                    "common": "Owganystan"
+                }
+            ]
+        },
+        "capital": "Kaboul",
+        "region": "Asie",
+        "subregion": "Asie du Sud",
+        "languages": [
+            { "languageCode": "fa", "name": "prs" },
+            { "languageCode": "ps", "name": "pachto" },
+            { "languageCode": "tk", "name": "turkmène" }
+        ],
+        "currencies": [
+            { "currencyCode": "AFN", "name": "afghani afghan", "symbol": "؋" }
+        ],
+        "flag": "🇦🇫",
+        "codes": { "cca2": "AF", "cca3": "AFG", "ccn3": "004" },
+        "coordinates": { "latitude": 33, "longitude": 65 }
+    }
+}

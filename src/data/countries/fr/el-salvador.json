@@ -1,0 +1,31 @@
+{
+    "title": "Salvador",
+    "slug": "el-salvador",
+    "baseInfo": {
+        "name": {
+            "common": "Salvador",
+            "official": "République du Salvador",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República de El Salvador",
+                    "common": "El Salvador"
+                }
+            ]
+        },
+        "capital": "San Salvador",
+        "region": "Middle America",
+        "subregion": "Amérique centrale",
+        "languages": [{ "languageCode": "es", "name": "espagnol" }],
+        "currencies": [
+            {
+                "currencyCode": "USD",
+                "name": "dollar des États-Unis",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇸🇻",
+        "codes": { "cca2": "SV", "cca3": "SLV", "ccn3": "222" },
+        "coordinates": { "latitude": 13.83333333, "longitude": -88.91666666 }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "title": "Kosovo",
+    "slug": "kosovo",
+    "baseInfo": {
+        "name": {
+            "common": "Kosovo",
+            "official": "République du Kosovo",
+            "native": [
+                {
+                    "languageCode": "sq",
+                    "official": "Republika e Kosovës",
+                    "common": "Kosova"
+                },
+                {
+                    "languageCode": "sh",
+                    "official": "Република Косово",
+                    "common": "Косово"
+                }
+            ]
+        },
+        "capital": "Pristina",
+        "region": "Europe",
+        "subregion": "Europe de l'Est",
+        "languages": [
+            { "languageCode": "sq", "name": "albanais" },
+            { "languageCode": "sh", "name": "serbe" }
+        ],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇽🇰",
+        "codes": { "cca2": "XK", "cca3": "UNK", "ccn3": "" },
+        "coordinates": { "latitude": 42.666667, "longitude": 21.166667 }
+    }
+}

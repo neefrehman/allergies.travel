@@ -5,7 +5,12 @@ import * as fs from "fs";
 import fetch from "node-fetch";
 import type { Country } from "world-countries";
 
+import { deepMerge } from "../utils/deepMerge";
 import { sluggify } from "../utils/sluggify";
+// Remove below if starting from scratch
+import { regionNameMappings as previousRegionMappings } from "../utils/i18n/regionNameMappings";
+import { capitalNameMappings as previousCapitalMappings } from "../utils/i18n/capitalNameMappings";
+import { subregionNameMappings as previousSubregionMappings } from "../utils/i18n/subregionNameMappings";
 
 const prettier = require("prettier");
 const countryData: Country[] = require("world-countries"); // require needed to avoid `world_countries_1["default"]` error
@@ -34,37 +39,59 @@ const generateLocalisedLocationMappings = async () => {
                     nameInEnglish
                 )}&maxRows=1&username=neef&lang=${locale}`
             );
-            const data = await geonamesResponse.json();
-            const locationName = data?.geonames?.[0]?.name ?? nameInEnglish;
-            return locationName;
+            const data = (await geonamesResponse.json()) as {
+                geonames?: { name?: string }[];
+            };
+            const localisedName = data?.geonames?.[0].name ?? nameInEnglish;
+            return localisedName;
         } catch (err) {
             console.log(err);
             return nameInEnglish;
         }
     };
 
-    // TODO: Add ability to deepmarge with existing mappings, so I can manually to add new locales construcutively and decrease request count
-    // readfileSync doesn't work with ts & import() wont work with named export 🤔
-    const localesToQueryFor = supportedLocales.filter(locale => locale !== "en");
-    const dataToCreateMappingsFor = {
-        capitals: countryData.map(country => country.capital[0]),
-        regions: [...new Set(countryData.map(country => country.region))], // need overwiriting: Americas
-        subregions: [...new Set(countryData.map(country => country.subregion))], // need overwiriting: Central Europe, Middle Africa
-    } as { [k: string]: string[] };
+    const locationTypes: {
+        [locationType: string]: {
+            previousMapping: { [location: string]: { [locale: string]: string } };
+            newData: string[];
+        };
+    } = {
+        capitals: {
+            previousMapping: previousCapitalMappings,
+            newData: countryData.map(country => country.capital[0]),
+        },
+        regions: {
+            previousMapping: previousRegionMappings,
+            newData: [...new Set(countryData.map(country => country.region))], // need overwiriting: Americas
+        },
+        subregions: {
+            previousMapping: previousSubregionMappings,
+            newData: [...new Set(countryData.map(country => country.subregion))], // need overwiriting: Central Europe, Middle Africa
+        },
+    };
 
-    Object.keys(dataToCreateMappingsFor).forEach(async key => {
-        const mappedData = await dataToCreateMappingsFor[key].reduce(
-            async (locationAccumulator, currentLocationName) => {
-                const awaitedLocationAccumulator = await locationAccumulator;
+    Object.keys(locationTypes).forEach(async key => {
+        const { previousMapping, newData } = locationTypes[key];
 
-                const localisedLocationNames = await localesToQueryFor.reduce(
+        const previouslyQueriedLocales =
+            Object.keys(previousMapping[Object.keys(previousMapping)[0]]) ?? [];
+
+        const newLocalesToQueryFor = supportedLocales.filter(
+            locale => !previouslyQueriedLocales.includes(locale)
+        );
+
+        const newMappedData = await newData.reduce(
+            async (locationsAccumulator, currentLocationNameInEnglish) => {
+                const awaitedLocationsAccumulator = await locationsAccumulator;
+
+                const localisedLocationNames = await newLocalesToQueryFor.reduce(
                     async (localesAccumulator, currentLocale) => {
                         const awaitedLocalesAccumulator = await localesAccumulator;
 
                         return {
                             ...awaitedLocalesAccumulator,
                             [currentLocale]: await getLocalisedName(
-                                currentLocationName,
+                                currentLocationNameInEnglish,
                                 currentLocale
                             ),
                         };
@@ -73,47 +100,40 @@ const generateLocalisedLocationMappings = async () => {
                 );
 
                 const localisedCurrentLocationNameMapping = {
-                    [currentLocationName]: {
-                        en: currentLocationName,
+                    [currentLocationNameInEnglish]: {
+                        en: currentLocationNameInEnglish,
                         ...localisedLocationNames,
                     },
                 };
 
                 return {
-                    ...awaitedLocationAccumulator,
+                    ...awaitedLocationsAccumulator,
                     ...localisedCurrentLocationNameMapping,
                 };
             },
             {}
         );
 
-        const variableName = `${key.slice(0, -1)}NameMappings`;
-        const fileName = `${directory}/${variableName}.ts`;
+        const mergedData = deepMerge(previousMapping, newMappedData);
 
-        // let finalisedData = mappedData;
-        // if (fs.existsSync(fileName)) {
-        //     // Merge new base data into existing data, while keeping additions from the CMS
-        //     const previousData = await import(`../../${fileName}`);
-        //     finalisedData = deepMerge(previousData, mappedData);
-        // }
-
+        const dataVariableName = `${key.slice(0, -1)}NameMappings`;
         const formattedData = prettier.format(
             `
             /**
              * auto-generated by scripts/generateLocalisedLocationMappings.ts
              */
-            export const ${variableName}: Record<string, Record<string, string>> = ${JSON.stringify(
-                mappedData
-            )};
+            export const ${dataVariableName}: Record<string, Record<string, string>> = 
+                ${JSON.stringify(mergedData)};
             `,
             { ...prettierConfig, parser: "typescript" }
         );
 
-        fs.writeFileSync(fileName, formattedData);
+        fs.writeFileSync(`${directory}/${dataVariableName}.ts`, formattedData);
     });
 };
 
 generateLocalisedLocationMappings();
 
 fs.unlinkSync("src/utils/sluggify.js");
+fs.unlinkSync("src/utils/deepMerge.js");
 fs.unlinkSync("src/scripts/generateLocalisedLocationMappings.js");

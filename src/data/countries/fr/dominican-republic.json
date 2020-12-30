@@ -1,0 +1,27 @@
+{
+    "title": "République dominicaine",
+    "slug": "dominican-republic",
+    "baseInfo": {
+        "name": {
+            "common": "République dominicaine",
+            "official": "République Dominicaine",
+            "native": [
+                {
+                    "languageCode": "es",
+                    "official": "República Dominicana",
+                    "common": "República Dominicana"
+                }
+            ]
+        },
+        "capital": "Saint Domingue",
+        "region": "Middle America",
+        "subregion": "Caraïbe",
+        "languages": [{ "languageCode": "es", "name": "espagnol" }],
+        "currencies": [
+            { "currencyCode": "DOP", "name": "peso dominicain", "symbol": "$" }
+        ],
+        "flag": "🇩🇴",
+        "codes": { "cca2": "DO", "cca3": "DOM", "ccn3": "214" },
+        "coordinates": { "latitude": 19, "longitude": -70.66666666 }
+    }
+}

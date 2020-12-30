@@ -1,0 +1,27 @@
+{
+    "title": "Jordanie",
+    "slug": "jordan",
+    "baseInfo": {
+        "name": {
+            "common": "Jordanie",
+            "official": "Royaume hachémite de Jordanie",
+            "native": [
+                {
+                    "languageCode": "ar",
+                    "official": "المملكة الأردنية الهاشمية",
+                    "common": "الأردن"
+                }
+            ]
+        },
+        "capital": "Amman",
+        "region": "Asie",
+        "subregion": "Asie de l'Ouest",
+        "languages": [{ "languageCode": "ar", "name": "arabe" }],
+        "currencies": [
+            { "currencyCode": "JOD", "name": "dinar jordanien", "symbol": "د.ا" }
+        ],
+        "flag": "🇯🇴",
+        "codes": { "cca2": "JO", "cca3": "JOR", "ccn3": "400" },
+        "coordinates": { "latitude": 31, "longitude": 36 }
+    }
+}

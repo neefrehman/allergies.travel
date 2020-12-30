@@ -1,0 +1,27 @@
+{
+    "title": "Taïwan",
+    "slug": "taiwan",
+    "baseInfo": {
+        "name": {
+            "common": "Taïwan",
+            "official": "République de Chine (Taïwan)",
+            "native": [
+                { "languageCode": "zh", "official": "中華民國", "common": "台灣" }
+            ]
+        },
+        "capital": "Taipei",
+        "region": "Asie",
+        "subregion": "Asie de l'Est",
+        "languages": [{ "languageCode": "zh", "name": "chinois" }],
+        "currencies": [
+            {
+                "currencyCode": "TWD",
+                "name": "nouveau dollar taïwanais",
+                "symbol": "$"
+            }
+        ],
+        "flag": "🇹🇼",
+        "codes": { "cca2": "TW", "cca3": "TWN", "ccn3": "158" },
+        "coordinates": { "latitude": 23.5, "longitude": 121 }
+    }
+}

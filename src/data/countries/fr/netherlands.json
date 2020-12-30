@@ -1,0 +1,25 @@
+{
+    "title": "Pays-Bas",
+    "slug": "netherlands",
+    "baseInfo": {
+        "name": {
+            "common": "Pays-Bas",
+            "official": "Pays-Bas",
+            "native": [
+                {
+                    "languageCode": "nl",
+                    "official": "Koninkrijk der Nederlanden",
+                    "common": "Nederland"
+                }
+            ]
+        },
+        "capital": "Amsterdam",
+        "region": "Europe",
+        "subregion": "Europe de l'Ouest",
+        "languages": [{ "languageCode": "nl", "name": "néerlandais" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇳🇱",
+        "codes": { "cca2": "NL", "cca3": "NLD", "ccn3": "528" },
+        "coordinates": { "latitude": 52.5, "longitude": 5.75 }
+    }
+}

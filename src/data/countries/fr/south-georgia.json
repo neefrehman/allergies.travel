@@ -1,0 +1,31 @@
+{
+    "title": "Géorgie du Sud-et-les Îles Sandwich du Sud",
+    "slug": "south-georgia",
+    "baseInfo": {
+        "name": {
+            "common": "Géorgie du Sud-et-les Îles Sandwich du Sud",
+            "official": "Géorgie du Sud et les îles Sandwich du Sud",
+            "native": [
+                {
+                    "languageCode": "en",
+                    "official": "South Georgia and the South Sandwich Islands",
+                    "common": "South Georgia"
+                }
+            ]
+        },
+        "capital": "King Edward Point",
+        "region": "Antarctic, The",
+        "subregion": "Pamoana",
+        "languages": [{ "languageCode": "en", "name": "anglais" }],
+        "currencies": [
+            {
+                "currencyCode": "SHP",
+                "name": "livre de Sainte-Hélène",
+                "symbol": "£"
+            }
+        ],
+        "flag": "🇬🇸",
+        "codes": { "cca2": "GS", "cca3": "SGS", "ccn3": "239" },
+        "coordinates": { "latitude": -54.5, "longitude": -37 }
+    }
+}

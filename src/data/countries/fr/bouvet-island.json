@@ -1,0 +1,25 @@
+{
+    "title": "Île Bouvet",
+    "slug": "bouvet-island",
+    "baseInfo": {
+        "name": {
+            "common": "Île Bouvet",
+            "official": "Île Bouvet",
+            "native": [
+                {
+                    "languageCode": "no",
+                    "official": "Bouvetøya",
+                    "common": "Bouvetøya"
+                }
+            ]
+        },
+        "capital": "Fidalgo",
+        "region": "Antarctic, The",
+        "subregion": "Pamoana",
+        "languages": [{ "languageCode": "no", "name": "norvégien" }],
+        "currencies": [],
+        "flag": "🇧🇻",
+        "codes": { "cca2": "BV", "cca3": "BVT", "ccn3": "074" },
+        "coordinates": { "latitude": -54.43333333, "longitude": 3.4 }
+    }
+}

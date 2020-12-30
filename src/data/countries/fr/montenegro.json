@@ -1,0 +1,25 @@
+{
+    "title": "Monténégro",
+    "slug": "montenegro",
+    "baseInfo": {
+        "name": {
+            "common": "Monténégro",
+            "official": "Monténégro",
+            "native": [
+                {
+                    "languageCode": "sh",
+                    "official": "Црна Гора",
+                    "common": "Црна Гора"
+                }
+            ]
+        },
+        "capital": "Podgorica",
+        "region": "Europe",
+        "subregion": "Europe du Sud",
+        "languages": [{ "languageCode": "sh", "name": "serbe" }],
+        "currencies": [{ "currencyCode": "EUR", "name": "euro", "symbol": "€" }],
+        "flag": "🇲🇪",
+        "codes": { "cca2": "ME", "cca3": "MNE", "ccn3": "499" },
+        "coordinates": { "latitude": 42.5, "longitude": 19.3 }
+    }
+}

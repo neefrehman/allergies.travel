@@ -1,0 +1,41 @@
+{
+    "title": "Pérou",
+    "slug": "peru",
+    "baseInfo": {
+        "name": {
+            "common": "Pérou",
+            "official": "République du Pérou",
+            "native": [
+                {
+                    "languageCode": "ay",
+                    "official": "Piruw Suyu",
+                    "common": "Piruw"
+                },
+                {
+                    "languageCode": "qu",
+                    "official": "Piruw Ripuwlika",
+                    "common": "Piruw"
+                },
+                {
+                    "languageCode": "es",
+                    "official": "República del Perú",
+                    "common": "Perú"
+                }
+            ]
+        },
+        "capital": "Lima",
+        "region": "Middle America",
+        "subregion": "Amérique du Sud",
+        "languages": [
+            { "languageCode": "ay", "name": "aymara" },
+            { "languageCode": "qu", "name": "quechua" },
+            { "languageCode": "es", "name": "espagnol" }
+        ],
+        "currencies": [
+            { "currencyCode": "PEN", "name": "sol péruvien", "symbol": "S/." }
+        ],
+        "flag": "🇵🇪",
+        "codes": { "cca2": "PE", "cca3": "PER", "ccn3": "604" },
+        "coordinates": { "latitude": -10, "longitude": -76 }
+    }
+}
