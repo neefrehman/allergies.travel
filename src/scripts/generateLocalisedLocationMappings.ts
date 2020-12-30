@@ -7,7 +7,6 @@ import type { Country } from "world-countries";
 
 import { deepMerge } from "../utils/deepMerge";
 import { sluggify } from "../utils/sluggify";
-// Remove below if starting from scratch
 import { regionNameMappings as previousRegionMappings } from "../utils/i18n/regionNameMappings";
 import { capitalNameMappings as previousCapitalMappings } from "../utils/i18n/capitalNameMappings";
 import { subregionNameMappings as previousSubregionMappings } from "../utils/i18n/subregionNameMappings";
@@ -50,7 +49,7 @@ const generateLocalisedLocationMappings = async () => {
         }
     };
 
-    const locationTypes: {
+    const locationTypeData: {
         [locationType: string]: {
             previousMapping: { [location: string]: { [locale: string]: string } };
             newData: string[];
@@ -70,8 +69,8 @@ const generateLocalisedLocationMappings = async () => {
         },
     };
 
-    Object.keys(locationTypes).forEach(async key => {
-        const { previousMapping, newData } = locationTypes[key];
+    Object.keys(locationTypeData).forEach(async key => {
+        const { previousMapping, newData } = locationTypeData[key];
 
         const previouslyQueriedLocales =
             Object.keys(previousMapping[Object.keys(previousMapping)[0]]) ?? [];

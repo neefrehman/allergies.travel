@@ -2,7 +2,6 @@ import fs from "fs";
 
 import React, { useState, lazy, Suspense } from "react";
 import styled from "@emotion/styled";
-import { css } from "@emotion/react";
 import type { GetStaticProps } from "next";
 
 import { useHasMounted } from "hooks/useHasMounted";
@@ -22,13 +21,11 @@ const IntroContainer = styled.div<{ isRounded: boolean }>`
     width: 100vw;
     box-sizing: border-box;
     overflow: hidden;
-    transition: border-radius 1600ms ease-in-out, border 1600ms ease-in-out;
+    transition: clip-path 1200ms ease-out; /* TODO: better easing */
+    will-change: clip-path;
 
-    /* TODO: make this good */
-    /* ${({ isRounded }) => css`
-        border-radius: ${isRounded ? "80px" : 0};
-        border: ${isRounded ? "20px solid white" : "none"};
-    `} */
+    clip-path: ${({ isRounded }) =>
+        isRounded ? "inset(15px round 80px)" : "inset(0 round 0)"};
 `;
 
 const CountryCardGrid = styled.ul`
@@ -49,13 +46,6 @@ const HomePage = ({ countryData }: HomePageProps) => {
     const [titleIsVisible, setTitleIsVisible] = useState(false);
     const hasMounted = useHasMounted();
 
-    const locallySortedCountryData = countryData.sort((a, b) => {
-        const nameA = a.name.toUpperCase();
-        const nameB = b.name.toUpperCase();
-        // eslint-disable-next-line no-nested-ternary
-        return nameA < nameB ? -1 : nameA > nameB ? 1 : 0; // Only works here, not in getStaticProps 🤔
-    });
-
     return (
         <>
             <IntroContainer isRounded={titleIsVisible}>
@@ -71,8 +61,13 @@ const HomePage = ({ countryData }: HomePageProps) => {
 
             <div>
                 <CountryCardGrid>
-                    {locallySortedCountryData.map(({ name, flag, slug }) => (
-                        <CountryCard name={name} flag={flag} slug={slug} />
+                    {countryData.map(({ name, flag, slug }) => (
+                        <CountryCard
+                            key={name}
+                            name={name}
+                            flag={flag}
+                            slug={slug}
+                        />
                     ))}
                 </CountryCardGrid>
             </div>
@@ -91,6 +86,13 @@ export const getStaticProps: GetStaticProps = async ({ locale, locales }) => {
         countryData.push({ name, flag: data.baseInfo.flag, slug: data.slug });
     });
 
+    const locallySortedCountryData = countryData.sort((a, b) => {
+        const nameA = a.name.toUpperCase();
+        const nameB = b.name.toUpperCase();
+        // eslint-disable-next-line no-nested-ternary
+        return nameA < nameB ? -1 : nameA > nameB ? 1 : 0; // Only works in client??? 🤔
+    });
+
     // TODO fetch public posts only ("published" boolean in CMS schema?)
 
     // if (process.env.NODE_ENV === "production") {
@@ -98,7 +100,7 @@ export const getStaticProps: GetStaticProps = async ({ locale, locales }) => {
     // }
 
     return {
-        props: { countryData, locales },
+        props: { countryData: locallySortedCountryData, locales },
     };
 };
 
