@@ -17,9 +17,9 @@ export const subregionNameMappings: Record<string, Record<string, string>> = {
     },
     "Northern Europe": {
         en: "Northern Europe",
+        es: "Europa septentrional",
         fr: "Europe du Nord",
         de: "Nordeuropa",
-        es: "Europa septentrional",
     },
     "Southern Europe": {
         en: "Southern Europe",
@@ -35,21 +35,15 @@ export const subregionNameMappings: Record<string, Record<string, string>> = {
     },
     "South America": {
         en: "South America",
+        es: "Sudamérica",
         fr: "Amérique du Sud",
         de: "Südamerika",
-        es: "Sudamérica",
-    },
-    Polynesia: {
-        en: "Polynesia",
-        fr: "Polynésie",
-        de: "Polynesien",
-        es: "Polinesia",
     },
     "": { en: "", fr: "Pamoana", de: "Pamoana", es: "Pamoana" },
     "Australia and New Zealand": {
         en: "Australia and New Zealand",
-        fr: "l'Australie et la Nouvelle-Zélande",
         de: "Australien und Neuseeland",
+        fr: "l'Australie et la Nouvelle-Zélande",
         es: "Austral Andes Nev Zelanda",
     },
     "Western Europe": {
@@ -69,12 +63,6 @@ export const subregionNameMappings: Record<string, Record<string, string>> = {
         fr: "Afrique de l'Ouest",
         de: "Westafrika",
         es: "África Occidental",
-    },
-    "Eastern Europe": {
-        en: "Eastern Europe",
-        fr: "Europe de l'Est",
-        de: "Eastern Europe",
-        es: "Europa Oriental",
     },
     "Central America": {
         en: "Central America",
@@ -135,5 +123,17 @@ export const subregionNameMappings: Record<string, Record<string, string>> = {
         fr: "Central",
         de: "Central",
         es: "Central",
+    },
+    Polynesia: {
+        en: "Polynesia",
+        de: "Polynesien",
+        es: "Polinesia",
+        fr: "Polynésie",
+    },
+    "Eastern Europe": {
+        en: "Eastern Europe",
+        de: "Eastern Europe",
+        es: "Europa Oriental",
+        fr: "Europe de l'Est",
     },
 };

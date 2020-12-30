@@ -33,6 +33,7 @@ const generateLocalisedLocationMappings = async () => {
         locale: string
     ): Promise<string> => {
         try {
+            console.log(`querying: ${nameInEnglish} in ${locale}`);
             const geonamesResponse = await fetch(
                 `http://api.geonames.org/searchJSON?q=${sluggify(
                     nameInEnglish
@@ -72,16 +73,19 @@ const generateLocalisedLocationMappings = async () => {
     Object.keys(locationTypeData).forEach(async key => {
         const { previousMapping, newData } = locationTypeData[key];
 
-        const previouslyQueriedLocales =
-            Object.keys(previousMapping[Object.keys(previousMapping)[0]]) ?? [];
-
-        const newLocalesToQueryFor = supportedLocales.filter(
-            locale => !previouslyQueriedLocales.includes(locale)
-        );
-
         const newMappedData = await newData.reduce(
             async (locationsAccumulator, currentLocationNameInEnglish) => {
                 const awaitedLocationsAccumulator = await locationsAccumulator;
+
+                const previouslyQueriedLocales = Object.keys(
+                    previousMapping[currentLocationNameInEnglish] ?? {}
+                );
+
+                const newLocalesToQueryFor = supportedLocales.filter(
+                    locale =>
+                        !previouslyQueriedLocales.includes(locale) &&
+                        locale !== "en"
+                );
 
                 const localisedLocationNames = await newLocalesToQueryFor.reduce(
                     async (localesAccumulator, currentLocale) => {

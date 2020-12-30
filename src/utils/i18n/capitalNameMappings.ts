@@ -22,7 +22,6 @@ export const capitalNameMappings: Record<string, Record<string, string>> = {
         de: "Mariehamn",
         es: "Mariehamn",
     },
-    Tirana: { en: "Tirana", fr: "Tirana", de: "Tirana", es: "Tirana" },
     "Andorra la Vella": {
         en: "Andorra la Vella",
         fr: "Andorre-la-Vieille",
@@ -99,7 +98,7 @@ export const capitalNameMappings: Record<string, Record<string, string>> = {
     Belmopan: { en: "Belmopan", fr: "Belmopan", de: "Belmopan", es: "Belmopán" },
     Hamilton: { en: "Hamilton", fr: "Hamilton", de: "Hamilton", es: "Hamilton" },
     Sucre: { en: "Sucre", fr: "Sucre", de: "Sucre", es: "Sucre" },
-    undefined: {},
+    undefined: { de: "Njindoun", es: "Njindoun", fr: "Njindoun" },
     Brasília: { en: "Brasília", fr: "Brésil", de: "Brasilien", es: "Brasil" },
     Bridgetown: {
         en: "Bridgetown",
@@ -740,6 +739,7 @@ export const capitalNameMappings: Record<string, Record<string, string>> = {
     Apia: { en: "Apia", fr: "Apia", de: "Apia", es: "Apia" },
     "Sana'a": { en: "Sana'a", fr: "Sanaa", de: "Sanaa", es: "Sanaá" },
     Pretoria: { en: "Pretoria", fr: "Pretoria", de: "Pretoria", es: "Pretoria" },
-    Lusaka: { en: "Lusaka", fr: "Lusaka", de: "Lusaka", es: "Lusaka" },
-    Harare: { en: "Harare", fr: "Harare", de: "Harare", es: "Harare" },
+    Tirana: { en: "Tirana", de: "Tirana", es: "Tirana", fr: "Tirana" },
+    Lusaka: { en: "Lusaka", de: "Lusaka", es: "Lusaka", fr: "Lusaka" },
+    Harare: { en: "Harare", de: "Harare", es: "Harare", fr: "Harare" },
 };

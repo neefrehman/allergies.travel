@@ -1,5 +1,7 @@
 /** Converts strings of text to kebab-case, while removing any diacritics from lêttërs */
 export const sluggify = (string: string): string => {
+    if (!string) return "";
+
     const matches =
         string
             .normalize("NFD") // splits diacritics from their base letter
