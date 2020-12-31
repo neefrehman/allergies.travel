@@ -1,4 +1,5 @@
 import React, { lazy, memo, Suspense } from "react";
+import type { LazyExoticComponent, FC } from "react";
 
 export interface PeanutWorldProps {
     setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
@@ -15,10 +16,14 @@ const PeanutWorld = memo(
 
         const shouldFallback = isLowPerformance || isLowConnectivity;
 
-        const Scene = lazy(
-            /* prettier-ignore */ /* stops webpack trying to bundle the .blend file */
-            () => import(/* webpackInclude: /.tsx/ */`./${shouldFallback ? "FallbackImage" : "Scene"}`)
-        );
+        let Scene: LazyExoticComponent<FC<PeanutWorldProps>>;
+        if (shouldFallback) Scene = lazy(() => import("./FallbackImage"));
+        else Scene = lazy(() => import("./Scene"));
+
+        // const Scene = lazy(
+        //     /* prettier-ignore */ /* stops webpack trying to bundle the .blend file, but causes big bundle increase! */
+        //     () => import(/* webpackInclude: /\.tsx$/ */`./${shouldFallback ? "FallbackImage" : "Scene"}`)
+        // );
 
         return (
             <Suspense fallback={null}>
