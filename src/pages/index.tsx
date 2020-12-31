@@ -1,3 +1,4 @@
+// import path from "path";
 import fs from "fs";
 
 import React, { useState, lazy, Suspense } from "react";
@@ -6,8 +7,9 @@ import type { GetStaticProps } from "next";
 
 import { useHasMounted } from "hooks/useHasMounted";
 import { ErrorBoundary } from "components/ErrorBoundary";
-import type { CountryContent } from "scripts/generateBaseCountryData";
 import { CountryCard } from "components/CountryCard";
+import { getAllCountryData } from "data/fetchers";
+// import { generateSitemap } from "scripts/generateSitemap";
 
 import { Title } from "HomeComponents/Title";
 
@@ -61,32 +63,34 @@ const HomePage = ({ countryData }: HomePageProps) => {
                 )}
             </IntroContainer>
 
-            <div>
-                <CountryCardGrid>
-                    {countryData.map(({ name, flag, slug }) => (
-                        <CountryCard
-                            key={name}
-                            name={name}
-                            flag={flag}
-                            slug={slug}
-                        />
-                    ))}
-                </CountryCardGrid>
-            </div>
+            {countryData.length > 0 && (
+                <div>
+                    <CountryCardGrid>
+                        {countryData.map(({ name, flag, slug }) => (
+                            <CountryCard
+                                key={name}
+                                name={name}
+                                flag={flag}
+                                slug={slug}
+                            />
+                        ))}
+                    </CountryCardGrid>
+                </div>
+            )}
         </>
     );
 };
 
-export const getStaticProps: GetStaticProps = async ({ locale, locales }) => {
-    const countryData: { name: string; flag: string; slug: string }[] = [];
+export default HomePage;
 
-    fs.readdirSync(`src/data/countries/${locale}`).forEach(async file => {
-        const data: CountryContent = await import(
-            `../data/countries/${locale}/${file}`
-        );
-        const name = data.title;
-        countryData.push({ name, flag: data.baseInfo.flag, slug: data.slug });
-    });
+export const getStaticProps: GetStaticProps = async ({ locale, locales }) => {
+    const countryData = getAllCountryData(fs, { locale }).map(
+        ({ title, baseInfo, slug }) => ({
+            name: title,
+            flag: baseInfo.flag,
+            slug,
+        })
+    );
 
     const locallySortedCountryData = countryData.sort((a, b) => {
         const nameA = a.name.toUpperCase();
@@ -94,8 +98,6 @@ export const getStaticProps: GetStaticProps = async ({ locale, locales }) => {
         // eslint-disable-next-line no-nested-ternary
         return nameA < nameB ? -1 : nameA > nameB ? 1 : 0; // Only works in client??? 🤔
     });
-
-    // TODO fetch public posts only ("published" boolean in CMS schema?)
 
     // if (process.env.NODE_ENV === "production") {
     //     generateSitemap(path, fs);
@@ -105,5 +107,3 @@ export const getStaticProps: GetStaticProps = async ({ locale, locales }) => {
         props: { countryData: locallySortedCountryData, locales },
     };
 };
-
-export default HomePage;

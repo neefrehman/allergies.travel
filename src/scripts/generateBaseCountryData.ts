@@ -4,6 +4,8 @@ import * as fs from "fs";
 
 import type { Country } from "world-countries";
 
+import type { CountryContent } from "data/schemas";
+
 import { sluggify } from "../utils/sluggify";
 import { deepMerge } from "../utils/deepMerge";
 import {
@@ -103,7 +105,11 @@ const generateBaseCountryData = async () => {
                             symbol,
                         })
                     ),
-                    flag: country.flag, // TODO: fallback for no emoji devices (windows)?: https://github.com/danalloway/detect-emoji-support
+                    flag: country.flag,
+                    // flag: {
+                    //     emoji: country.flag,
+                    //     svg: await import(`world-countries/data/${country.cca3.toLowerCase()}.svg`), // TODO: fallback for no emoji devices (windows). need to detect support somehow
+                    // },
                     codes: {
                         cca2: country.cca2,
                         cca3: country.cca3,
@@ -129,7 +135,6 @@ const generateBaseCountryData = async () => {
             let finalisedData = country;
 
             if (fs.existsSync(fileName)) {
-                // Merge new base data into existing data, while keeping additions from the CMS
                 const previousData: CountryContent = JSON.parse(
                     fs.readFileSync(fileName, "utf8")
                 );
@@ -156,48 +161,3 @@ fs.unlinkSync("src/utils/i18n/subregionNameMappings.js");
 fs.unlinkSync("src/utils/i18n/regionNameMappings.js");
 fs.unlinkSync("src/utils/i18n/capitalNameMappings.js");
 fs.unlinkSync("src/scripts/generateBaseCountryData.js");
-
-// TODO: find better home for these - types/content.ts?
-export type BaseCountryData = Pick<Country, "region" | "subregion" | "flag"> & {
-    name: {
-        common: string;
-        official: string;
-        native: { languageCode: ISO_639_1; common: string; official: string }[];
-    };
-    capital: string;
-    languages: { languageCode: ISO_639_1; name: string }[];
-    currencies?: { name: string; symbol: string; currencyCode: string }[];
-    coordinates: { latitude: number; longitude: number };
-    codes?: {
-        cca2?: string;
-        cca3?: string;
-        ccn3?: string;
-    };
-};
-
-export interface Allergen {
-    name: string;
-    slug: string;
-    descriptionInCuisine: string;
-    foundIn: Food[];
-}
-
-export interface Food {
-    name: string;
-    description: string;
-    infoUrl: string;
-}
-
-export interface CuisineDescription {
-    description: string;
-    sourceUrl?: string;
-}
-
-export interface CountryContent {
-    title: string;
-    slug: string;
-    lastModified?: string;
-    allergens: Allergen[];
-    cuisineDescription?: CuisineDescription;
-    baseInfo: BaseCountryData;
-}

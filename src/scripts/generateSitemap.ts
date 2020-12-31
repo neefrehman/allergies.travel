@@ -4,6 +4,10 @@ import type fs from "fs";
 // eslint-disable-next-line import/no-extraneous-dependencies
 import prettier from "prettier";
 
+import { getAllCountryData } from "data/fetchers";
+
+import nextConfig from "../../next.config";
+
 /**
  * Generates a sitemap of all pages and published skethes. To be used in index.tsx's getStaticProps
  */
@@ -16,13 +20,28 @@ export const generateSitemap = async (
     const staticPagesPath = pathInstance.resolve("src/pages");
     const pages = fsInstance.readdirSync(staticPagesPath); // Get all pages from `/pages`.
     const staticPageArray = pages
-        .filter(name => name[0] !== "_" && name[0] !== "[" && name !== "404.tsx") // Ignore Next specific files, dynamic route templates, 404. We don't want these indexed.
+        .filter(
+            name =>
+                name[0] !== "_" && // Ignore Next specific files
+                name[0] !== "[" && // and dynamic route templates
+                name !== "404.tsx" && // and 404
+                name !== "api" // and api routes
+        )
         .map(name => name.replace(".tsx", "").replace("index", "")); // Index becomes homepage
 
-    // const dyamicPageArray = getAllPagesFromCmsData();
-    // TODO: i18n handling & lastModified
+    const supportedLocales = nextConfig.i18n.locales;
 
-    const allRoutes = [...staticPageArray /* , ...dyamicPageArray */];
+    const countryPages = supportedLocales.reduce((acc, locale) => {
+        const allCountriesinLocale = getAllCountryData(fsInstance, {
+            locale,
+        }).map(country => country.slug);
+
+        return [...acc, ...allCountriesinLocale];
+    }, [] as string[]);
+
+    // TODO: i18n handling & lastModified, allergen paths
+
+    const allRoutes = [...staticPageArray, ...countryPages];
     const urlPaths = allRoutes.map(route => (route !== "" ? `/${route}` : route));
 
     const sitemap = `

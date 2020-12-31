@@ -3,7 +3,7 @@
 module.exports = {
     target: "serverless",
     i18n: {
-        locales: ["en", "de", "es", "fr"],
+        locales: ["en"],
         defaultLocale: "en",
     },
     webpack(config /* , options */) {
