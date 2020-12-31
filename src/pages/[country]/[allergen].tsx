@@ -5,7 +5,11 @@ import type { GetStaticPaths, GetStaticProps } from "next";
 import React from "react";
 
 import type { Allergen } from "data/schemas";
-import { getAllCountryData, getCountryData } from "data/fetchers";
+import {
+    getAllAllergens,
+    getAllCountryData,
+    getCountryData,
+} from "data/fetchers";
 
 interface AllergenPageProps {
     countryTitle: string;
@@ -22,16 +26,15 @@ export default AllergenPage;
 
 export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
     const paths: { params: ParsedUrlQuery; locale: string }[] = [];
-    const allergenPaths = ["nuts"]; // TODO: allergen paths
 
     locales?.forEach(locale => {
-        allergenPaths.forEach(allergen => {
-            getAllCountryData(fs, { locale }).forEach(country =>
+        getAllCountryData(fs, { locale }).forEach(country => {
+            getAllAllergens().forEach(allergen => {
                 paths.push({
                     params: { country: country.slug, allergen },
                     locale,
-                })
-            );
+                });
+            });
         });
     });
 

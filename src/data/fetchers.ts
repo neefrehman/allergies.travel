@@ -37,4 +37,6 @@ export const getCountryData = (
         )
     );
 
-const allergensFolder = "src/data/allergens";
+// const allergensFolder = "src/data/allergens";
+
+export const getAllAllergens = () => ["nuts"];
