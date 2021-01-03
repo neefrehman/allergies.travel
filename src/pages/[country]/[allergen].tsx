@@ -1,8 +1,5 @@
-import fs from "fs";
-import type { ParsedUrlQuery } from "querystring";
-
-import type { GetStaticPaths, GetStaticProps } from "next";
 import React from "react";
+import type { GetStaticPaths, GetStaticProps } from "next";
 
 import type { Allergen } from "data/schemas";
 import {
@@ -25,10 +22,13 @@ const AllergenPage = ({ countryTitle, allergenTitle }: AllergenPageProps) => (
 export default AllergenPage;
 
 export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
-    const paths: { params: ParsedUrlQuery; locale: string }[] = [];
+    const paths: {
+        params: { country: string; allergen: string };
+        locale: string;
+    }[] = [];
 
     locales?.forEach(locale => {
-        getAllCountryData(fs, { locale }).forEach(country => {
+        getAllCountryData({ locale }).forEach(country => {
             getAllAllergens().forEach(allergen => {
                 paths.push({
                     params: { country: country.slug, allergen },
@@ -47,7 +47,7 @@ export const getStaticProps: GetStaticProps = async ({
     locales,
 }) => {
     const slug = typeof params?.country === "string" ? params.country : "";
-    const { title: countryTitle } = getCountryData(fs, { locale, slug });
+    const { title: countryTitle } = getCountryData({ locale, slug });
     const allergenTitle =
         typeof params?.allergen === "string" ? params.allergen : "";
 

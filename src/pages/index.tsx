@@ -1,6 +1,3 @@
-// import path from "path";
-import fs from "fs";
-
 import React, { useState, lazy, Suspense } from "react";
 import styled from "@emotion/styled";
 import type { GetStaticProps } from "next";
@@ -84,7 +81,7 @@ const HomePage = ({ countryData }: HomePageProps) => {
 export default HomePage;
 
 export const getStaticProps: GetStaticProps = async ({ locale, locales }) => {
-    const countryData = getAllCountryData(fs, { locale }).map(
+    const countryData = getAllCountryData({ locale }).map(
         ({ title, baseInfo, slug }) => ({
             name: title,
             flag: baseInfo.flag,
@@ -100,7 +97,7 @@ export const getStaticProps: GetStaticProps = async ({ locale, locales }) => {
     });
 
     // if (process.env.NODE_ENV === "production") {
-    //     generateSitemap(path, fs);
+    //     generateSitemap();
     // }
 
     return {

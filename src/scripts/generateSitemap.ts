@@ -1,5 +1,5 @@
-import type path from "path";
-import type fs from "fs";
+import path from "path";
+import fs from "fs";
 
 // eslint-disable-next-line import/no-extraneous-dependencies
 import prettier from "prettier";
@@ -11,14 +11,11 @@ import nextConfig from "../../next.config";
 /**
  * Generates a sitemap of all pages and published skethes. To be used in index.tsx's getStaticProps
  */
-export const generateSitemap = async (
-    pathInstance: typeof path,
-    fsInstance: typeof fs
-) => {
+export const generateSitemap = async () => {
     const prettierConfig = await prettier.resolveConfig("./.prettierrc");
 
-    const staticPagesPath = pathInstance.resolve("src/pages");
-    const pages = fsInstance.readdirSync(staticPagesPath); // Get all pages from `/pages`.
+    const staticPagesPath = path.resolve("src/pages");
+    const pages = fs.readdirSync(staticPagesPath); // Get all pages from `/pages`.
     const staticPageArray = pages
         .filter(
             name =>
@@ -32,7 +29,7 @@ export const generateSitemap = async (
     const supportedLocales = nextConfig.i18n.locales;
 
     const countryPages = supportedLocales.reduce((acc, locale) => {
-        const allCountriesinLocale = getAllCountryData(fsInstance, {
+        const allCountriesinLocale = getAllCountryData({
             locale,
         }).map(country => country.slug);
 
@@ -65,5 +62,5 @@ export const generateSitemap = async (
         parser: "html",
     });
 
-    fsInstance.writeFileSync("public/sitemap.xml", formattedSitemap);
-};
+    fs.writeFileSync("public/sitemap.xml", formattedSitemap);
+};;

@@ -1,8 +1,5 @@
-import fs from "fs";
-import type { ParsedUrlQuery } from "querystring";
-
-import type { GetStaticPaths, GetStaticProps } from "next";
 import React from "react";
+import type { GetStaticPaths, GetStaticProps } from "next";
 
 import type { Allergen, BaseCountryData, CuisineDescription } from "data/schemas";
 import { getAllCountryData, getCountryData } from "data/fetchers";
@@ -48,10 +45,10 @@ const CountryPage = ({
 export default CountryPage;
 
 export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
-    const countryPaths: { params: ParsedUrlQuery; locale: string }[] = [];
+    const countryPaths: { params: { country: string }; locale: string }[] = [];
 
     locales?.forEach(locale => {
-        getAllCountryData(fs, { locale }).forEach(country =>
+        getAllCountryData({ locale }).forEach(country =>
             countryPaths.push({ params: { country: country.slug }, locale })
         );
     });
@@ -65,7 +62,7 @@ export const getStaticProps: GetStaticProps = async ({
     locales,
 }) => {
     const slug = typeof params?.country === "string" ? params.country : "";
-    const countryData = getCountryData(fs, { locale, slug });
+    const countryData = getCountryData({ locale, slug });
 
     const {
         title,
