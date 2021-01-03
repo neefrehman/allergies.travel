@@ -1,5 +1,4 @@
 import React, { lazy, memo, Suspense } from "react";
-// import type { LazyExoticComponent, FC } from "react";
 
 export interface PeanutWorldProps {
     setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
@@ -17,8 +16,8 @@ const PeanutWorld = memo(
         const shouldFallback = isLowPerformance || isLowConnectivity;
 
         const Scene = shouldFallback
-            ? lazy(() => import("./FallbackImage")) // import(`./${shouldFallback ? "FallbackImage" : "Scene"}`)
-            : lazy(() => import("./Scene")); //        Has big bundle size increase. not helped by prefixing /* webpackInclude: /\.tsx$/ */
+            ? lazy(() => import("./FallbackImage"))
+            : lazy(() => import("./Scene")); // `./${shouldFallback ? "FallbackImage" : "Scene"}` has big bundle size increase. not helped by `webpackInclude`
 
         return (
             <Suspense fallback={null}>
