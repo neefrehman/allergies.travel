@@ -19,7 +19,7 @@ const CountryPage = ({
     baseInfo,
     locales,
 }: CountryPageProps) => (
-    // TODO: generate meta images - like readng.co
+    // TODO: generate meta images - like readng.co || https://github.com/dsumer/portfolio/blob/master/src/pages/api/og-image.ts
     <>
         <h1>
             {title} {baseInfo.flag}
