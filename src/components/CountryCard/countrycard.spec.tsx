@@ -5,9 +5,9 @@ import { CountryCard } from "./index";
 import type { CountryCardProps } from "./index";
 
 const testProps: CountryCardProps = {
-    name: "Afghanistan",
-    flag: "🇦🇫",
-    slug: "afghanistan",
+    CountryName: "Afghanistan",
+    countryFlag: "🇦🇫",
+    linkPath: "afghanistan",
 };
 
 describe("CountryCard", () => {

@@ -24,16 +24,20 @@ const StyledCard = styled.a`
 `;
 
 export interface CountryCardProps {
-    name: string;
-    flag: string;
-    slug: string;
+    CountryName: string;
+    countryFlag: string;
+    linkPath: string;
 }
 
-export const CountryCard = ({ name, flag, slug }: CountryCardProps) => (
-    <Link href={slug} passHref data-testid="country-card-link">
+export const CountryCard = ({
+    CountryName,
+    countryFlag,
+    linkPath,
+}: CountryCardProps) => (
+    <Link href={linkPath} passHref data-testid="country-card-link">
         <StyledCard>
-            <h3>{name}</h3>
-            <p>{flag}</p>
+            <h3>{CountryName}</h3>
+            <p>{countryFlag}</p>
         </StyledCard>
     </Link>
 );

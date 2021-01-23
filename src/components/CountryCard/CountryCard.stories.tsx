@@ -15,7 +15,7 @@ const Template: Story<CountryCardProps> = args => <CountryCard {...args} />;
 export const Primary = Template.bind({});
 
 Primary.args = {
-    name: "Afghanistan",
-    flag: "🇦🇫",
-    slug: "afghanistan",
+    CountryName: "Afghanistan",
+    countryFlag: "🇦🇫",
+    linkPath: "afghanistan",
 };

@@ -1,15 +1,13 @@
 import React from "react";
 import type { ReactNode } from "react";
-import type { NextRouter } from "next/dist/next-server/lib/router/router";
 import { RouterContext } from "next/dist/next-server/lib/router-context";
-import type { RenderOptions, RenderResult } from "@testing-library/react";
+import type { NextRouter } from "next/dist/next-server/lib/router/router";
 import { render } from "@testing-library/react";
-import { ThemeProvider } from "@emotion/react";
+import type { RenderOptions, RenderResult } from "@testing-library/react";
 
-import { GlobalStyles } from "../../styles/GlobalStyles";
-import { theme } from "../../styles/theme";
+import { AppProviders } from "pages/_app";
 
-export const routerMock: NextRouter = {
+export const mockRouter: NextRouter = {
     basePath: "",
     pathname: "/",
     route: "/",
@@ -30,27 +28,20 @@ export const routerMock: NextRouter = {
     isFallback: false,
 };
 
-const Providers = ({ children }: { children: ReactNode }) => (
-    // stylis bug still exists: https://github.com/emotion-js/emotion/issues/2103
-    <ThemeProvider theme={theme}>
-        <GlobalStyles />
-        <RouterContext.Provider value={routerMock}>
+const Providers = ({ children }: { children?: ReactNode }) => (
+    // FIXME: "stylis.middleware is not a function": https://github.com/emotion-js/emotion/issues/2103
+    <AppProviders>
+        <RouterContext.Provider value={mockRouter}>
             {children}
         </RouterContext.Provider>
-    </ThemeProvider>
+    </AppProviders>
 );
 
 const customRender = (
     ui: React.ReactElement,
     options?: Omit<RenderOptions, "queries">
-): RenderResult =>
-    render(ui, {
-        wrapper: Providers as React.FunctionComponent<Record<string, unknown>>,
-        ...options,
-    });
+): RenderResult => render(ui, { wrapper: Providers, ...options });
 
-// re-export everything
 export * from "@testing-library/react";
 
-// override render method
 export { customRender as render };
