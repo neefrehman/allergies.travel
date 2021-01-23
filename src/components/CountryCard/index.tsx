@@ -23,19 +23,17 @@ const StyledCard = styled.a`
     }
 `;
 
-interface CountryCardProps {
+export interface CountryCardProps {
     name: string;
     flag: string;
     slug: string;
 }
 
 export const CountryCard = ({ name, flag, slug }: CountryCardProps) => (
-    <li>
-        <Link href={slug} passHref>
-            <StyledCard>
-                <h3>{name}</h3>
-                <p>{flag}</p>
-            </StyledCard>
-        </Link>
-    </li>
+    <Link href={slug} passHref data-testid="country-card-link">
+        <StyledCard>
+            <h3>{name}</h3>
+            <p>{flag}</p>
+        </StyledCard>
+    </Link>
 );

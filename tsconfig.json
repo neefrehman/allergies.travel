@@ -17,8 +17,9 @@
         "paths": {
             "HomeComponents/*": ["components/pages/home/*"],
             "CountryComponents/*": ["components/pages/country/*"],
+            "test-utils": ["utils/tests/test-utils"]
         }
     },
     "exclude": ["node_modules"],
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.config.js"]
 }

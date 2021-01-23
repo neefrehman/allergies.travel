@@ -1,5 +1,7 @@
 const path = require("path");
 
+const toPath = _path => path.join(process.cwd(), _path);
+
 module.exports = {
     reactOptions: {
         fastRefresh: true,
@@ -16,6 +18,12 @@ module.exports = {
             path.resolve(__dirname, ".."),
             "node_modules",
         ];
+        baseConfig.resolve.alias = {
+            ...baseConfig.resolve.alias,
+            "@emotion/core": toPath("node_modules/@emotion/react"),
+            "@emotion/styled": toPath("node_modules/@emotion/styled"),
+            "emotion-theming": toPath("node_modules/@emotion/react"),
+        };
         return { ...nextConfig.webpack, ...baseConfig };
     },
 };

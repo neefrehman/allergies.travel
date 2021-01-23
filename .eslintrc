@@ -9,7 +9,8 @@
     },
     "env": {
         "browser": true,
-        "node": true
+        "node": true,
+        "jest": true
     },
     "plugins": [
         "react",
@@ -17,7 +18,8 @@
         "prettier",
         "import",
         "@typescript-eslint",
-        "@emotion"
+        "@emotion",
+        "testing-library"
     ],
     "extends": [
         "plugin:react/recommended",
@@ -29,7 +31,9 @@
         "plugin:import/typescript",
         "plugin:react-hooks/recommended",
         "prettier",
-        "prettier/@typescript-eslint"
+        "prettier/@typescript-eslint",
+        "plugin:testing-library/recommended",
+        "plugin:testing-library/react"
     ],
     "settings": {
         "import/resolver": {
@@ -79,6 +83,10 @@
                         "pattern": "CountryComponents/**",
                         "group": "internal",
                         "position": "after"
+                    },
+                    {
+                        "pattern": "test-utils",
+                        "group": "external"
                     }
                 ]
             }
@@ -98,6 +106,7 @@
         "react/jsx-filename-extension": "off",
         "react/jsx-indent": [2, 4],
         "react/jsx-indent-props": [2, 4],
+        "react/jsx-props-no-spreading": "off",
         "react/jsx-one-expression-per-line": "off",
         "react/no-danger": "warn",
         "react/require-default-props": "off",
@@ -112,7 +121,6 @@
         ],
         "no-use-before-define": "off",
         "@typescript-eslint/no-use-before-define": ["error"],
-        "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "@typescript-eslint/consistent-type-imports": ["warn"]
     }

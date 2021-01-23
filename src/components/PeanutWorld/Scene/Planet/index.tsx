@@ -3,6 +3,7 @@ import { useLoader } from "react-three-fiber";
 import { EffectComposer, Noise } from "@react-three/postprocessing";
 import { useSpring, animated } from "react-spring/three";
 import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
+import type { Group } from "three/src/objects/Group";
 
 import planetModel from "./models/peanut-planet.obj";
 import { DistortedObject } from "./DistortObject";
@@ -13,7 +14,7 @@ interface PlanetProps {
 
 export const Planet = memo(
     ({ willRotate }: PlanetProps) => {
-        const planetObj = useLoader(OBJLoader, planetModel);
+        const planetObj = useLoader(OBJLoader, planetModel) as Group;
         const clonedObject = useMemo(() => planetObj.clone(), [planetObj]);
 
         const scale = window.innerWidth > 500 ? 4 : 3;

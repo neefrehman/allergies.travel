@@ -20,7 +20,6 @@ const App = ({ Component, pageProps }: AppProps) => (
             <IsDebugProvider>
                 <PrefersReducedMotionProvider>
                     <HomePageAnimationHasRunProvider>
-                        {/* eslint-disable-next-line react/jsx-props-no-spreading */}
                         <Component {...pageProps} />
                     </HomePageAnimationHasRunProvider>
                 </PrefersReducedMotionProvider>

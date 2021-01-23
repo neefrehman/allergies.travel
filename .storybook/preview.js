@@ -12,9 +12,9 @@ export const decorators = [
     Story => (
         <ThemeProvider theme={theme}>
             <GlobalStyles />
-            <div style={{ margin: "3em" }}>
-                <Story />
-            </div>
+                <div style={{ margin: "3em" }}>
+                    <Story />
+                </div>
         </ThemeProvider>
     ),
 ];
