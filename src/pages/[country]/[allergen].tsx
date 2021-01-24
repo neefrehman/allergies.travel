@@ -41,7 +41,7 @@ const AllergenPage = ({
                 </Head>
                 <h1>
                     {countryIsNotPublished
-                        ? "We currenlty don't have data for this country, consider adding some [link]"
+                        ? "We currently don't have data for this country, consider adding some: [link]"
                         : "This country is not found"}
                 </h1>
             </>
@@ -100,6 +100,8 @@ export const getStaticProps: GetStaticProps<AllergenPageProps> = async ({
 }) => {
     const slug = typeof params?.country === "string" ? params.country : "";
     const countryData = getCountryData({ locale, slug });
+
+    // TODO: look into 404s with unsupported locales
 
     if (!countryData) {
         return { props: { countryIsNotFound: true } as AllergenPageProps };

@@ -13,6 +13,8 @@ const StyledCard = styled.a`
     text-align: center;
     font-size: 1.3rem;
 
+    /* TODO: aspect-ratio? */
+
     > p {
         margin-top: 1em;
         font-size: 4rem;

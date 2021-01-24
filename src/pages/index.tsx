@@ -8,6 +8,7 @@ import { CountryCard } from "components/CountryCard";
 import { getAllCountryData } from "data/fetchers";
 import { generateSitemap } from "scripts/generateSitemap";
 import { Title } from "components/Title";
+import { sluggify } from "utils/sluggify";
 
 const PeanutWorld = lazy(() => import("components/PeanutWorld"));
 // ^Fix for `cannot use import statement outside a module` issue with three/jsm: https://github.com/react-spring/react-three-fiber/discussions/504
@@ -90,10 +91,10 @@ export const getStaticProps: GetStaticProps = async ({ locale, locales }) => {
     );
 
     const locallySortedCountryData = countryData.sort((a, b) => {
-        const nameA = a.slug.toUpperCase();
-        const nameB = b.slug.toUpperCase();
+        const nameA = sluggify(a.name);
+        const nameB = sluggify(b.name);
         // eslint-disable-next-line no-nested-ternary
-        return nameA < nameB ? -1 : nameA > nameB ? 1 : 0; // Only works in client??? 🤔
+        return nameA < nameB ? -1 : nameA > nameB ? 1 : 0;
     });
 
     if (process.env.NODE_ENV === "production") {
