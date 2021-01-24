@@ -25,3 +25,4 @@ npm-debug.log*
 
 **/*.blend1
 src/**/*.js
+**/*/sitemap.xml

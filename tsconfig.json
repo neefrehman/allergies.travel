@@ -15,8 +15,6 @@
         "jsx": "preserve",
         "baseUrl": "src",
         "paths": {
-            "HomeComponents/*": ["components/pages/home/*"],
-            "CountryComponents/*": ["components/pages/country/*"],
             "test-utils": ["utils/tests/test-utils"]
         }
     },

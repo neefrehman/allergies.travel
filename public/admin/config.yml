@@ -47,6 +47,7 @@ collections:
       - { label: "Title", name: title, widget: "string", i18n: true }
       - { label: "Slug", name: slug, widget: "string", hint: "A URL-friendly version of the name. e.g. 'papua-new-guinea'", i18n: duplicate }
       - { label: "Last Modified", name: lastModified, widget: "hidden", i18n: true }
+      - { label: "Published", name: published, widget: "boolean", i18n: true }
 
       - name: allergens
         label: "Allergens"

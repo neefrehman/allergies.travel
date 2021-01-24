@@ -4,7 +4,8 @@ import type { ISO_639_1 } from "utils/i18n/languageCodeMappings";
 
 export interface CountryContent {
     title: string;
-    // TODO: remove slug from csm and only read from fs?
+    published: boolean;
+    // TODO: remove slug from cms and only read from fs?
     slug: string;
     baseInfo: BaseCountryData;
     lastModified?: string;

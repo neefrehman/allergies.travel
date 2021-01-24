@@ -33,11 +33,19 @@ export const getCountryData = ({
 }: {
     slug: string;
     locale?: string;
-}): CountryContent =>
-    JSON.parse(
-        fs.readFileSync(`${countriesFolder}/${locale}/${slug}.json`, "utf8")
-    );
+}): CountryContent | null => {
+    let data: CountryContent | null;
 
-// const allergensFolder = "src/data/allergens";
+    try {
+        data = JSON.parse(
+            fs.readFileSync(`${countriesFolder}/${locale}/${slug}.json`, "utf8")
+        );
+    } catch {
+        data = null;
+    }
 
+    return data;
+};
+
+// TODO: const allergensFolder = "src/data/allergens";
 export const getAllAllergens = () => ["nuts"];

@@ -6,9 +6,8 @@ import { useHasMounted } from "hooks/useHasMounted";
 import { ErrorBoundary } from "components/ErrorBoundary";
 import { CountryCard } from "components/CountryCard";
 import { getAllCountryData } from "data/fetchers";
-// import { generateSitemap } from "scripts/generateSitemap";
-
-import { Title } from "HomeComponents/Title";
+import { generateSitemap } from "scripts/generateSitemap";
+import { Title } from "components/Title";
 
 const PeanutWorld = lazy(() => import("components/PeanutWorld"));
 // ^Fix for `cannot use import statement outside a module` issue with three/jsm: https://github.com/react-spring/react-three-fiber/discussions/504
@@ -64,12 +63,13 @@ const HomePage = ({ countryData }: HomePageProps) => {
                 <div>
                     <CountryCardGrid>
                         {countryData.map(({ name, flag, slug }) => (
-                            <CountryCard
-                                key={name}
-                                name={name}
-                                flag={flag}
-                                slug={slug}
-                            />
+                            <li key={name}>
+                                <CountryCard
+                                    countryName={name}
+                                    countryFlag={flag}
+                                    linkPath={slug}
+                                />
+                            </li>
                         ))}
                     </CountryCardGrid>
                 </div>
@@ -90,15 +90,15 @@ export const getStaticProps: GetStaticProps = async ({ locale, locales }) => {
     );
 
     const locallySortedCountryData = countryData.sort((a, b) => {
-        const nameA = a.name.toUpperCase();
-        const nameB = b.name.toUpperCase();
+        const nameA = a.slug.toUpperCase();
+        const nameB = b.slug.toUpperCase();
         // eslint-disable-next-line no-nested-ternary
         return nameA < nameB ? -1 : nameA > nameB ? 1 : 0; // Only works in client??? 🤔
     });
 
-    // if (process.env.NODE_ENV === "production") {
-    //     generateSitemap();
-    // }
+    if (process.env.NODE_ENV === "production") {
+        generateSitemap();
+    }
 
     return {
         props: { countryData: locallySortedCountryData, locales },

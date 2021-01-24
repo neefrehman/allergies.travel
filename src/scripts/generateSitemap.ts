@@ -31,7 +31,9 @@ export const generateSitemap = async () => {
     const countryPages = supportedLocales.reduce((acc, locale) => {
         const allCountriesinLocale = getAllCountryData({
             locale,
-        }).map(country => country.slug);
+        })
+            .filter(country => country.published)
+            .map(country => country.slug);
 
         return [...acc, ...allCountriesinLocale];
     }, [] as string[]);
@@ -63,4 +65,4 @@ export const generateSitemap = async () => {
     });
 
     fs.writeFileSync("public/sitemap.xml", formattedSitemap);
-};;
+};

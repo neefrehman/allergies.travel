@@ -5,7 +5,7 @@ import { CountryCard } from "./index";
 import type { CountryCardProps } from "./index";
 
 const testProps: CountryCardProps = {
-    CountryName: "Afghanistan",
+    countryName: "Afghanistan",
     countryFlag: "🇦🇫",
     linkPath: "afghanistan",
 };
