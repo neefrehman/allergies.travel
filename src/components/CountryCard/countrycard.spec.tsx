@@ -15,12 +15,10 @@ describe("CountryCard", () => {
         beforeEach(() => render(<CountryCard {...testProps} />));
 
         it("It renders correctly", () => {
-            expect(screen.getByTestId("country-card-link")).toBeInTheDocument();
+            expect(screen.getByRole("link")).toBeInTheDocument();
         });
         it("The correct country name is diplayed", () => {
-            expect(screen.getByTestId("country-card-link")).toContainHTML(
-                "Afghanistan"
-            );
+            expect(screen.getByRole("link")).toContainHTML("Afghanistan");
         });
         it("The correct flag is diplayed", () => {
             expect(screen.getByTestId("userEmailAddress")).toContainHTML("🇦🇫");

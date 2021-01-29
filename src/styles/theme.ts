@@ -53,7 +53,9 @@ export const theme = {
     },
 } as const;
 
-type InferedThemeType = typeof theme; // workaround for manual typing: https://twitter.com/neefrehman_/status/1337052860421447685
+// ⌄ workaround for manual typing: https://twitter.com/neefrehman_/status/1337052860421447685
+type InferedThemeType = typeof theme;
+
 declare module "@emotion/react" {
     // eslint-disable-next-line @typescript-eslint/no-empty-interface
     export interface Theme extends InferedThemeType {}

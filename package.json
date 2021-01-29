@@ -27,7 +27,7 @@
   "dependencies": {
     "@emotion/react": "^11.1.4",
     "@emotion/styled": "^11.0.0",
-    "@react-three/drei": "^2.2.20",
+    "@react-three/drei": "^2.2.21",
     "@react-three/postprocessing": "^1.5.1",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
@@ -37,7 +37,7 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-spring": "8.0.27",
-    "react-three-fiber": "^5.3.16",
+    "react-three-fiber": "^5.3.17",
     "three": "^0.124.0"
   },
   "devDependencies": {
