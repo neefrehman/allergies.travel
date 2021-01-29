@@ -27,7 +27,7 @@
   "dependencies": {
     "@emotion/react": "^11.1.4",
     "@emotion/styled": "^11.0.0",
-    "@react-three/drei": "^3.0.0",
+    "@react-three/drei": "^3.1.0",
     "@react-three/postprocessing": "^1.5.1",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
@@ -44,7 +44,7 @@
     "@babel/core": "^7.12.10",
     "@emotion/babel-plugin": "^11.1.2",
     "@emotion/eslint-plugin": "^11.0.0",
-    "@netlify/plugin-nextjs": "^1.0.8",
+    "@netlify/plugin-nextjs": "^1.1.0",
     "@storybook/addon-a11y": "^6.1.15",
     "@storybook/addon-essentials": "^6.1.15",
     "@storybook/addon-links": "^6.1.15",
