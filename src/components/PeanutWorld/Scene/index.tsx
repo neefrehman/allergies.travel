@@ -1,5 +1,6 @@
 import React, { memo, Suspense, useContext } from "react";
 import { Canvas } from "react-three-fiber";
+import { Preload } from "@react-three/drei/core/Preload";
 import { useTheme } from "@emotion/react";
 
 import { IsDebugContext } from "context/IsDebug";
@@ -48,6 +49,8 @@ const PeanutWorldScene = memo(
                 <Suspense fallback={null}>
                     <Lights />
                     <Planet willRotate={!isShortAnimation} />
+                    {/* Doesnt solve the stutter when the planet enters the scene */}
+                    <Preload all />
                     <Stars count={1000} />
                     <Controls
                         initialCameraZ={INITIAL_CAMERA_Z}
