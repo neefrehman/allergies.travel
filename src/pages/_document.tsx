@@ -20,7 +20,8 @@ class MyDocument extends Document {
                         href="https://fonts.googleapis.com/css?family=Chonburi"
                     />
 
-                    <script
+                    {/* TODO: reactivate GA once site is live */}
+                    {/* <script
                         async
                         src="https://www.googletagmanager.com/gtag/js?id=UA-122323130-1"
                     />
@@ -39,7 +40,7 @@ class MyDocument extends Document {
                                 });
                             `,
                         }}
-                    />
+                    /> */}
 
                     <meta property="og:type" content="website" />
                     <meta property="og:url" content="https://allergies.travel" />

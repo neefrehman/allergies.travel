@@ -16,11 +16,8 @@ export const useGroupSimplification = (simplePercent: number) => {
     const modifier = useMemo(() => new SimplifyModifier(), []);
 
     const getSimplifiedGeometry = useCallback(
-        (originalGeom: THREE.BufferGeometry | THREE.Geometry) => {
-            const newGeom =
-                originalGeom instanceof THREE.BufferGeometry
-                    ? originalGeom.clone()
-                    : new THREE.BufferGeometry().fromGeometry(originalGeom);
+        (originalGeom: THREE.BufferGeometry) => {
+            const newGeom = originalGeom.clone();
 
             const originalVertexCount = newGeom.attributes.position.count;
             const newVertexCount = Math.floor(
@@ -37,7 +34,7 @@ export const useGroupSimplification = (simplePercent: number) => {
 
     useEffect(() => {
         if (!initialGroupRef.current && groupElementRef.current) {
-            initialGroupRef.current = groupElementRef.current?.clone();
+            initialGroupRef.current = groupElementRef.current?.clone() as THREE.Group;
         }
     }, []);
 

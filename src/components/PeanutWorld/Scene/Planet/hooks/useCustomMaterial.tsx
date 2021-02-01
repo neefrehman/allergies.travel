@@ -12,7 +12,7 @@ export const useCustomMaterial = (material: THREE.Material) => {
         if (!originalMaterial.current) {
             groupElementRef.current?.traverse(child => {
                 if (child instanceof THREE.Mesh) {
-                    originalMaterial.current = child.material.clone();
+                    originalMaterial.current = (child.material as THREE.Material).clone();
                 }
             });
         }

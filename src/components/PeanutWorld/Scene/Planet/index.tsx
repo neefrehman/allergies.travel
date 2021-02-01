@@ -15,7 +15,9 @@ interface PlanetProps {
 export const Planet = memo(
     ({ willRotate }: PlanetProps) => {
         const planetObj = useLoader(OBJLoader, planetModel) as Group;
-        const clonedObject = useMemo(() => planetObj.clone(), [planetObj]);
+        const clonedObject = useMemo(() => planetObj.clone(), [
+            planetObj,
+        ]) as Group;
 
         const scale = window.innerWidth > 500 ? 4 : 3;
 
