@@ -1,10 +1,17 @@
+const hsla = (h: number, s: number, l: number, a?: number) =>
+    `hsla(${h}, ${s}%, ${l}%, ${a || 100}%)`;
+
 export const theme = {
     colors: {
         spaceNavy: "#061923",
         white: "#ffffff",
+        // TODO: hsla schemes https://blog.maximeheckel.com/posts/the-power-of-composition-with-css-variables
+        blue: (l?: number, a?: number) => hsla(222, 89, l || 50, a || 100),
+        // TODO: also split into primary & accent? function default is primary, but need another argument?
     },
     fonts: {
         chonburi: `"Chonburi", serif"`,
+        dazzed: `"DAZZED-TRIAL"`,
     },
     fontSizes: {
         small: "0.8rem",

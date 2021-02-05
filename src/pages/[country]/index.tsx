@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 
 import type { Allergen, BaseCountryData, CuisineDescription } from "data/schemas";
-import { getAllCountryData, getCountryData } from "data/fetchers";
+import { getCountryData } from "data/fetchers";
 
 interface CountryPageProps {
     countryIsNotFound?: boolean;
@@ -99,6 +99,10 @@ export const getStaticProps: GetStaticProps<CountryPageProps> = async ({
 
     if (!countryData) {
         return { props: { countryIsNotFound: true } as CountryPageProps };
+        // TODO: return below and make 404.tsx the countryNotFound page.
+        // This avoids a new page being generated for each missing country.
+        // return { notFound: true };
+        // [allergen].tsx will probably still need a custom prop returned for noAllergenDataForCountry to still show country details.
     }
 
     // if (!countryData.published) {

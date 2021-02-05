@@ -17,8 +17,43 @@ i18n:
 
 collections:
 
-  - name: allergens # Used in routes, e.g., /admin/collections/allergens
-    label: "Allergens" # Used in the UI
+  - name: site-copy # Used in routes, e.g., /admin/collections/site-copy
+    label: "Site Copy" # Used in the UI
+    folder: "src/data/site-copy"
+    extension: "json"
+    format: "json"
+    create: true
+    i18n: true
+    editor:
+      preview: false
+
+    fields:
+      - { label: "Title", name: title, widget: "string", i18n: true, default: "Site Copy" }
+      - name: common
+        label: "Common"
+        widget: list
+        i18n: true
+        fields:
+          - { label: "Key", name: key, widget: string, i18n: false }
+          - { label: "Value", name: value, widget: string, i18n: true }
+      - name: home
+        label: "Home"
+        widget: list
+        i18n: true
+        fields:
+          - { label: "Key", name: key, widget: string, i18n: false }
+          - { label: "Value", name: value, widget: string, i18n: true }
+      - name: country
+        label: "Country"
+        widget: list
+        i18n: true
+        fields:
+          - { label: "Key", name: key, widget: string, i18n: false }
+          - { label: "Value", name: value, widget: string, i18n: true }
+
+
+  - name: allergens
+    label: "Allergens"
     folder: "src/data/allergens"
     extension: "json"
     format: "json"
@@ -28,6 +63,7 @@ collections:
       preview: false
 
     fields:
+      - { label: "Title", name: title, widget: "string", i18n: true }
       - { label: "Name", name: name, widget: string, i18n: true }
       - { label: "Slug", name: slug, widget: string, hint: "A URL-friendly version of the name. e.g. 'mutter-paneer'", i18n: duplicate  }
       - { label: "Last Modified", name: "lastModified", widget: "hidden", i18n: true }

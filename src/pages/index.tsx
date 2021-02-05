@@ -5,12 +5,14 @@ import type { GetStaticProps } from "next";
 import { useHasMounted } from "hooks/useHasMounted";
 import { ErrorBoundary } from "components/ErrorBoundary";
 import { CountryCard } from "components/CountryCard";
-import { getAllCountryData } from "data/fetchers";
+import { getAllCountryData, getTranslationStrings } from "data/fetchers";
 import { generateSitemap } from "scripts/generateSitemap";
 import { Title } from "components/Title";
 import { sluggify } from "utils/sluggify";
+import type { TranslationStrings } from "data/schemas";
+import { createTranslator } from "utils/i18n/createTranslator";
 
-const PeanutWorld = lazy(() => import("components/PeanutWorld"));
+const PeanutWorld = lazy(() => import("containers/PeanutWorld"));
 // ^Fix for `cannot use import statement outside a module` issue with three/jsm: https://github.com/react-spring/react-three-fiber/discussions/504
 
 const IntroContainer = styled.div<{ isRounded: boolean }>`
@@ -41,11 +43,14 @@ const CountryCardGrid = styled.ul`
 interface HomePageProps {
     countryData: { name: string; flag: string; slug: string }[];
     locales: string[];
+    translations: TranslationStrings;
 }
 
-const HomePage = ({ countryData }: HomePageProps) => {
+const HomePage = ({ countryData, translations }: HomePageProps) => {
     const [titleIsVisible, setTitleIsVisible] = useState(false);
     const hasMounted = useHasMounted();
+
+    const t = createTranslator(translations);
 
     return (
         <>
@@ -59,6 +64,8 @@ const HomePage = ({ countryData }: HomePageProps) => {
                     </ErrorBoundary>
                 )}
             </IntroContainer>
+
+            <p>{t("common.appName")}</p>
 
             {countryData.length > 0 && (
                 <div>
@@ -81,7 +88,12 @@ const HomePage = ({ countryData }: HomePageProps) => {
 
 export default HomePage;
 
-export const getStaticProps: GetStaticProps = async ({ locale, locales }) => {
+export const getStaticProps: GetStaticProps<HomePageProps> = async ({
+    locale,
+    locales,
+}) => {
+    const translations = getTranslationStrings({ locale });
+
     const countryData = getAllCountryData({ locale }).map(
         ({ title, baseInfo, slug }) => ({
             name: title,
@@ -102,6 +114,10 @@ export const getStaticProps: GetStaticProps = async ({ locale, locales }) => {
     }
 
     return {
-        props: { countryData: locallySortedCountryData, locales },
+        props: {
+            countryData: locallySortedCountryData,
+            locales: locales ?? ["en"],
+            translations,
+        },
     };
 };

@@ -1,8 +1,44 @@
 import fs from "fs";
 
-import type { CountryContent } from "./schemas";
+import type { CountryContent, TranslationStrings } from "./schemas";
 
-// TODO await import(slug) vs JSON.parse(fs.readFileSync("slug"))
+export const getTranslationStrings = ({
+    locale = "en",
+    filterNamespaces,
+}: {
+    locale?: string;
+    filterNamespaces?: string[];
+}): TranslationStrings => {
+    const siteCopyFolder = "src/data/site-copy";
+
+    const rawTranslations: {
+        [namespace: string]: { key: string; value: string }[];
+    } = JSON.parse(
+        fs.readFileSync(`${siteCopyFolder}/${locale}/site-copy.json`, "utf-8")
+    );
+    // TODO: assert all values from english version exist?
+
+    let translations = Object.keys(rawTranslations).reduce((acc, namespace) => {
+        const values = Object.values(rawTranslations[namespace]);
+        const entries = values.map(
+            ({ key, value }) => [key, value] as [key: string, value: string]
+        );
+        const newNamespace = Object.fromEntries(entries);
+        return { ...acc, [namespace]: newNamespace };
+    }, {} as TranslationStrings);
+
+    if (filterNamespaces) {
+        translations = Object.keys(translations)
+            .filter(key => filterNamespaces.includes(key))
+            .reduce((acc, key) => {
+                // eslint-disable-next-line no-param-reassign
+                acc[key] = translations[key];
+                return acc;
+            }, {} as TranslationStrings);
+    }
+
+    return translations;
+};
 
 const countriesFolder = "src/data/countries";
 
