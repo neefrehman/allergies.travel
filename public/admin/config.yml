@@ -28,7 +28,7 @@ collections:
       preview: false
 
     fields:
-      - { label: "Title", name: title, widget: "string", i18n: true, default: "Site Copy" }
+      - { label: "Title", name: title, widget: "string", i18n: true, default: "Site Copy", required: false }
       - name: common
         label: "Common"
         widget: list

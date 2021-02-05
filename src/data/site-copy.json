@@ -1,5 +1,4 @@
 {
-    "title": "site-copy",
     "common": [
         { "key": "appName", "value": "allergies.travel" },
         { "key": "subtitle", "value": "not coming soon" }
