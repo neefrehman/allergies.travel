@@ -1,6 +1,7 @@
 import React, { useState, lazy, Suspense } from "react";
 import styled from "@emotion/styled";
 import type { GetStaticProps } from "next";
+import Head from "next/head";
 
 import { useHasMounted } from "hooks/useHasMounted";
 import { ErrorBoundary } from "components/ErrorBoundary";
@@ -54,6 +55,10 @@ const HomePage = ({ countryData, translations }: HomePageProps) => {
 
     return (
         <>
+            <Head>
+                <title>{t("common.appName")}</title>
+            </Head>
+
             <IntroContainer isRounded={titleIsVisible}>
                 {hasMounted && (
                     <ErrorBoundary fallback={<Title isVisible />}>
@@ -64,8 +69,6 @@ const HomePage = ({ countryData, translations }: HomePageProps) => {
                     </ErrorBoundary>
                 )}
             </IntroContainer>
-
-            <p>{t("common.appName")}</p>
 
             {countryData.length > 0 && (
                 <div>

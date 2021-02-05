@@ -19,6 +19,9 @@ export const getTranslationStrings = ({
     // TODO: assert all values from english version exist?
 
     let translations = Object.keys(rawTranslations).reduce((acc, namespace) => {
+        if (typeof rawTranslations[namespace] === "string") {
+            return { ...acc }; // for title and lastModified widgets in CMS
+        }
         const values = Object.values(rawTranslations[namespace]);
         const entries = values.map(
             ({ key, value }) => [key, value] as [key: string, value: string]
