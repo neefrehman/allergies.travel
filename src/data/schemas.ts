@@ -4,12 +4,15 @@ import type { ISO_639_1 } from "utils/i18n/languageCodeMappings";
 
 export type TranslationNamespaces = "common" | "home" | "country";
 
-export interface RawTranslationData {
+export interface RawTranslationSchema {
     title: string;
     lastModified: string;
     copy: { key: string; value: string }[];
 }
 
+export interface RawTranslationStrings {
+    [nameSpace: string]: { key: string; value: string }[];
+}
 export interface TranslationStrings {
     [nameSpace: string]: Record<string, string>;
 }

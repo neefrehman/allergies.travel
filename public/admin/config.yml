@@ -79,7 +79,7 @@ collections:
 
     fields:
       - { label: "Title", name: title, widget: "string", i18n: true }
-      - { label: "Title", name: title, widget: "string", widget: "hidden", i18n: true } # no longer needed in the cms, but hidden as the generation script will create it anyway
+      - { label: "Slug", name: slug, widget: "hidden", i18n: false } # not required in the cms, but the generation script will create it to be used
       - { label: "Last Modified", name: lastModified, widget: "hidden", i18n: true }
       - { label: "Published", name: published, widget: "boolean", i18n: true }
 
@@ -89,7 +89,7 @@ collections:
         label_singular: "Add new allergen"
         i18n: true
         fields:
-          - { label: "Allergen Name", name: name, widget: relation, collection: allergens, value_field: slug, search_fields: [name] }
+          - { label: "Allergen Name", name: name, widget: relation, collection: allergens, value_field: title, search_fields: [title] }
           - { label: "Description", name: descriptionInCuisine, widget: text, hint: "A short piece of informaiton about the use of this ingredient in the country's cuisine", required: false, i18n: true }
           - label: "Found in"
             name: "foundIn"

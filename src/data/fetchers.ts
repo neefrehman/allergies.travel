@@ -2,7 +2,8 @@ import fs from "fs";
 
 import type {
     CountryContent,
-    RawTranslationData,
+    RawTranslationSchema,
+    RawTranslationStrings,
     TranslationStrings,
 } from "./schemas";
 
@@ -18,29 +19,21 @@ export const getTranslationStrings = ({
 
     const namespaces = fs
         .readdirSync(`${siteCopyFolder}/${locale}`)
-        .map(namespace => namespace.replace(".json", ""));
+        .map(namespace => namespace.replace(".json", ""))
+        .filter(namespace => filterNamespaces?.includes(namespace) ?? true);
 
-    const filteredNamespaces = filterNamespaces
-        ? namespaces.filter(namespace => filterNamespaces.includes(namespace))
-        : namespaces;
-
-    const rawTranslations: {
-        [namespace: string]: { key: string; value: string }[];
-    } = filteredNamespaces.reduce((acc, namespace) => {
-        const currentTranslations: RawTranslationData = JSON.parse(
+    const rawTranslations = namespaces.reduce((acc, namespace) => {
+        const currentTranslations: RawTranslationSchema = JSON.parse(
             fs.readFileSync(
                 `${siteCopyFolder}/${locale}/${namespace}.json`,
                 "utf-8"
             )
         );
         return { ...acc, [namespace]: currentTranslations.copy };
-    }, {});
+    }, {} as RawTranslationStrings);
 
     const formattedTranslations = Object.keys(rawTranslations).reduce(
         (acc, namespace) => {
-            if (typeof rawTranslations[namespace] === "string") {
-                return { ...acc }; // for title and lastModified widgets in CMS
-            }
             const values = Object.values(rawTranslations[namespace]);
             const entries = values.map(
                 ({ key, value }) => [key, value] as [key: string, value: string]
@@ -64,19 +57,16 @@ export const getAllCountryData = ({
 }): CountryContent[] => {
     const countryContentArray = fs
         .readdirSync(`${countriesFolder}/${locale}`)
-        .reduce((acc, currentFile) => {
-            const currentCountryData: CountryContent = {
-                slug: currentFile.replace(".json", ""),
-                ...JSON.parse(
-                    fs.readFileSync(
-                        `${countriesFolder}/${locale}/${currentFile}`,
-                        "utf8"
-                    )
-                ),
-            };
+        .map(currentFile => {
+            const currentCountryData: CountryContent = JSON.parse(
+                fs.readFileSync(
+                    `${countriesFolder}/${locale}/${currentFile}`,
+                    "utf8"
+                )
+            );
             // TODO fetch public posts only ("published" boolean in CMS schema?)
-            return [...acc, currentCountryData];
-        }, [] as CountryContent[]);
+            return currentCountryData;
+        });
 
     return countryContentArray;
 };
@@ -88,8 +78,8 @@ export const getCountryData = ({
 }: {
     slug: string;
     locale?: string;
-}): Omit<CountryContent, "slug"> | null => {
-    let data: Omit<CountryContent, "slug"> | null;
+}): CountryContent | null => {
+    let data: CountryContent | null;
 
     try {
         data = JSON.parse(
