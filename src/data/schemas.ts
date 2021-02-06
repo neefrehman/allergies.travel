@@ -3,19 +3,25 @@ import type { Country } from "world-countries";
 import type { ISO_639_1 } from "utils/i18n/languageCodeMappings";
 
 export type TranslationNamespaces = "common" | "home" | "country";
+
+export interface RawTranslationData {
+    title: string;
+    lastModified: string;
+    copy: { key: string; value: string }[];
+}
+
 export interface TranslationStrings {
     [nameSpace: string]: Record<string, string>;
 }
 
 export interface CountryContent {
-    title: string;
-    published: boolean;
-    // TODO: remove slug from cms and only read from fs?
     slug: string;
-    baseInfo: BaseCountryData;
+    title: string;
     lastModified?: string;
-    allergens?: Allergen[];
+    published: boolean;
+    baseInfo: BaseCountryData;
     cuisineDescription?: CuisineDescription;
+    allergens?: Allergen[];
 }
 
 export type BaseCountryData = Pick<Country, "region" | "subregion" | "flag"> & {

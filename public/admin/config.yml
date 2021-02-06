@@ -9,6 +9,11 @@ backend:
 media_folder: public/static/uploads
 public_folder: /uploads
 
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
 i18n:
   structure: multiple_folders
   locales: ["en", "de", "es"]
@@ -19,19 +24,22 @@ collections:
 
   - name: site-copy # Used in routes, e.g., /admin/collections/site-copy
     label: "Site Copy" # Used in the UI
+    description: "Localisable copy sinnepts to be used across the site"
     folder: "src/data/site-copy"
     extension: "json"
     format: "json"
-    create: true
+    create: false
     i18n: true
+    slug: "{{title}}"
     editor:
       preview: false
 
     fields:
-      - { label: "Title", name: title, widget: "string", i18n: true, default: "Site Copy", required: false }
+      - { label: "Title", name: title, widget: "string", i18n: false, default: "Namespace" }
       - name: copy
-        label: "Copy"
+        label: "Copy snippets"
         widget: list
+        label_singular: "Add new snippet"
         i18n: true
         fields:
           - { label: "Key", name: key, widget: string, i18n: false }
@@ -40,40 +48,45 @@ collections:
 
   - name: allergens
     label: "Allergens"
+    label_singular: "Allergen"
+    description: "Possible Allergens to be used on each page"
     folder: "src/data/allergens"
     extension: "json"
     format: "json"
     create: true
     i18n: true
+    slug: "{{title}}"
     editor:
       preview: false
 
     fields:
       - { label: "Title", name: title, widget: "string", i18n: true }
-      - { label: "Name", name: name, widget: string, i18n: true }
-      - { label: "Slug", name: slug, widget: string, hint: "A URL-friendly version of the name. e.g. 'mutter-paneer'", i18n: duplicate  }
       - { label: "Last Modified", name: "lastModified", widget: "hidden", i18n: true }
 
 
   - name: countries
     label: "Countries"
+    label_singular: "Country"
+    description: "Country content to be fed to the dynamic [country] pages"
     folder: "src/data/countries"
     extension: "json"
     format: "json"
     create: false
     i18n: true
+    slug: "{{title}}"
     editor:
       preview: false
 
     fields:
       - { label: "Title", name: title, widget: "string", i18n: true }
-      - { label: "Slug", name: slug, widget: "string", hint: "A URL-friendly version of the name. e.g. 'papua-new-guinea'", i18n: duplicate }
+      - { label: "Title", name: title, widget: "string", widget: "hidden", i18n: true } # no longer needed in the cms, but hidden as the generation script will create it anyway
       - { label: "Last Modified", name: lastModified, widget: "hidden", i18n: true }
       - { label: "Published", name: published, widget: "boolean", i18n: true }
 
       - name: allergens
         label: "Allergens"
         widget: list
+        label_singular: "Add new allergen"
         i18n: true
         fields:
           - { label: "Allergen Name", name: name, widget: relation, collection: allergens, value_field: slug, search_fields: [name] }
@@ -81,6 +94,7 @@ collections:
           - label: "Found in"
             name: "foundIn"
             widget: list
+            label_singular: "Add new food item"
             fields:
               - { label: "Food Name", name: name, widget: string, i18n: true }
               - { label: "Food Description", name: description, widget: text, i18n: true }

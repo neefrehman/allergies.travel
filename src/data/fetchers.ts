@@ -1,6 +1,10 @@
 import fs from "fs";
 
-import type { CountryContent, TranslationStrings } from "./schemas";
+import type {
+    CountryContent,
+    RawTranslationData,
+    TranslationStrings,
+} from "./schemas";
 
 /** Fetches and formats the translations for the site's copy for a given locale */
 export const getTranslationStrings = ({
@@ -12,14 +16,27 @@ export const getTranslationStrings = ({
 }): TranslationStrings => {
     const siteCopyFolder = "src/data/site-copy";
 
+    const namespaces = fs
+        .readdirSync(`${siteCopyFolder}/${locale}`)
+        .map(namespace => namespace.replace(".json", ""));
+
+    const filteredNamespaces = filterNamespaces
+        ? namespaces.filter(namespace => filterNamespaces.includes(namespace))
+        : namespaces;
+
     const rawTranslations: {
         [namespace: string]: { key: string; value: string }[];
-    } = JSON.parse(
-        fs.readFileSync(`${siteCopyFolder}/${locale}/site-copy.json`, "utf-8")
-    );
-    // TODO: assert all values from english version exist?
+    } = filteredNamespaces.reduce((acc, namespace) => {
+        const currentTranslations: RawTranslationData = JSON.parse(
+            fs.readFileSync(
+                `${siteCopyFolder}/${locale}/${namespace}.json`,
+                "utf-8"
+            )
+        );
+        return { ...acc, [namespace]: currentTranslations.copy };
+    }, {});
 
-    let formattedTranslations = Object.keys(rawTranslations).reduce(
+    const formattedTranslations = Object.keys(rawTranslations).reduce(
         (acc, namespace) => {
             if (typeof rawTranslations[namespace] === "string") {
                 return { ...acc }; // for title and lastModified widgets in CMS
@@ -33,16 +50,6 @@ export const getTranslationStrings = ({
         },
         {} as TranslationStrings
     );
-
-    if (filterNamespaces) {
-        formattedTranslations = Object.keys(formattedTranslations)
-            .filter(key => filterNamespaces.includes(key))
-            .reduce((acc, key) => {
-                // eslint-disable-next-line no-param-reassign
-                acc[key] = formattedTranslations[key];
-                return acc;
-            }, {} as TranslationStrings);
-    }
 
     return formattedTranslations;
 };
@@ -58,12 +65,15 @@ export const getAllCountryData = ({
     const countryContentArray = fs
         .readdirSync(`${countriesFolder}/${locale}`)
         .reduce((acc, currentFile) => {
-            const currentCountryData: CountryContent = JSON.parse(
-                fs.readFileSync(
-                    `${countriesFolder}/${locale}/${currentFile}`,
-                    "utf8"
-                )
-            );
+            const currentCountryData: CountryContent = {
+                slug: currentFile.replace(".json", ""),
+                ...JSON.parse(
+                    fs.readFileSync(
+                        `${countriesFolder}/${locale}/${currentFile}`,
+                        "utf8"
+                    )
+                ),
+            };
             // TODO fetch public posts only ("published" boolean in CMS schema?)
             return [...acc, currentCountryData];
         }, [] as CountryContent[]);
@@ -78,8 +88,8 @@ export const getCountryData = ({
 }: {
     slug: string;
     locale?: string;
-}): CountryContent | null => {
-    let data: CountryContent | null;
+}): Omit<CountryContent, "slug"> | null => {
+    let data: Omit<CountryContent, "slug"> | null;
 
     try {
         data = JSON.parse(
