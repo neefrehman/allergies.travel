@@ -2,6 +2,7 @@ import fs from "fs";
 
 import type { CountryContent, TranslationStrings } from "./schemas";
 
+/** Fetches and formats the translations for the site's copy for a given locale */
 export const getTranslationStrings = ({
     locale = "en",
     filterNamespaces,
@@ -18,33 +19,37 @@ export const getTranslationStrings = ({
     );
     // TODO: assert all values from english version exist?
 
-    let translations = Object.keys(rawTranslations).reduce((acc, namespace) => {
-        if (typeof rawTranslations[namespace] === "string") {
-            return { ...acc }; // for title and lastModified widgets in CMS
-        }
-        const values = Object.values(rawTranslations[namespace]);
-        const entries = values.map(
-            ({ key, value }) => [key, value] as [key: string, value: string]
-        );
-        const newNamespace = Object.fromEntries(entries);
-        return { ...acc, [namespace]: newNamespace };
-    }, {} as TranslationStrings);
+    let formattedTranslations = Object.keys(rawTranslations).reduce(
+        (acc, namespace) => {
+            if (typeof rawTranslations[namespace] === "string") {
+                return { ...acc }; // for title and lastModified widgets in CMS
+            }
+            const values = Object.values(rawTranslations[namespace]);
+            const entries = values.map(
+                ({ key, value }) => [key, value] as [key: string, value: string]
+            );
+            const newNamespace = Object.fromEntries(entries);
+            return { ...acc, [namespace]: newNamespace };
+        },
+        {} as TranslationStrings
+    );
 
     if (filterNamespaces) {
-        translations = Object.keys(translations)
+        formattedTranslations = Object.keys(formattedTranslations)
             .filter(key => filterNamespaces.includes(key))
             .reduce((acc, key) => {
                 // eslint-disable-next-line no-param-reassign
-                acc[key] = translations[key];
+                acc[key] = formattedTranslations[key];
                 return acc;
             }, {} as TranslationStrings);
     }
 
-    return translations;
+    return formattedTranslations;
 };
 
 const countriesFolder = "src/data/countries";
 
+/** Fetches all country data in a given locale */
 export const getAllCountryData = ({
     locale = "en",
 }: {
@@ -66,6 +71,7 @@ export const getAllCountryData = ({
     return countryContentArray;
 };
 
+/** Fetches a single country's data in a given locale */
 export const getCountryData = ({
     slug,
     locale = "en",

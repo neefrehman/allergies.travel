@@ -2,7 +2,6 @@ import React from "react";
 import type { ReactNode } from "react";
 import { ThemeProvider } from "@emotion/react";
 import type { AppProps } from "next/app";
-import Head from "next/head";
 
 import { GlobalStyles } from "styles/GlobalStyles";
 import { theme } from "styles/theme";
@@ -24,15 +23,9 @@ export const AppProviders = ({ children }: { children: ReactNode }) => (
 );
 
 const App = ({ Component, pageProps }: AppProps) => (
-    <>
-        <Head>
-            <title>allergies.travel</title>
-        </Head>
-
-        <AppProviders>
-            <Component {...pageProps} />
-        </AppProviders>
-    </>
+    <AppProviders>
+        <Component {...pageProps} />
+    </AppProviders>
 );
 
 export default App;

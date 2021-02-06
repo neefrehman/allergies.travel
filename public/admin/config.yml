@@ -29,22 +29,8 @@ collections:
 
     fields:
       - { label: "Title", name: title, widget: "string", i18n: true, default: "Site Copy", required: false }
-      - name: common
-        label: "Common"
-        widget: list
-        i18n: true
-        fields:
-          - { label: "Key", name: key, widget: string, i18n: false }
-          - { label: "Value", name: value, widget: string, i18n: true }
-      - name: home
-        label: "Home"
-        widget: list
-        i18n: true
-        fields:
-          - { label: "Key", name: key, widget: string, i18n: false }
-          - { label: "Value", name: value, widget: string, i18n: true }
-      - name: country
-        label: "Country"
+      - name: copy
+        label: "Copy"
         widget: list
         i18n: true
         fields:
