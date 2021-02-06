@@ -32,6 +32,7 @@ const generateLocalisedLocationMappings = async () => {
         nameInEnglish: string,
         locale: string
     ): Promise<string> => {
+        /* eslint-disable no-console */
         try {
             console.log(`querying: ${nameInEnglish} in ${locale}`);
             const geonamesResponse = await fetch(
@@ -48,6 +49,7 @@ const generateLocalisedLocationMappings = async () => {
             console.log(err);
             return nameInEnglish;
         }
+        /* eslint-enable no-console */
     };
 
     const locationTypeData: {
