@@ -3,7 +3,7 @@
 module.exports = {
     target: "experimental-serverless-trace",
     i18n: {
-        locales: ["en", "de"],
+        locales: ["en", "de", "ja"],
         defaultLocale: "en",
     },
     webpack(config /* , options */) {

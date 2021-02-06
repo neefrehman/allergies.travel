@@ -1,11 +1,13 @@
+/* eslint-disable @typescript-eslint/no-use-before-define */
 /* eslint-disable import/no-extraneous-dependencies */
-/* eslint-disable @typescript-eslint/no-var-requires */
 import * as fs from "fs";
 
-import type { Country } from "world-countries";
+import prettier from "prettier";
+import countryData from "world-countries";
 
 import type { CountryContent } from "data/schemas";
 
+import nextConfig from "../../next.config";
 import { sluggify } from "../utils/sluggify";
 import { deepMerge } from "../utils/deepMerge";
 import {
@@ -17,22 +19,7 @@ import { subregionNameMappings } from "../utils/i18n/subregionNameMappings";
 import { regionNameMappings } from "../utils/i18n/regionNameMappings";
 import { capitalNameMappings } from "../utils/i18n/capitalNameMappings";
 
-const prettier = require("prettier");
-const countryData: Country[] = require("world-countries"); // require needed to avoid `world_countries_1["default"]` error
-
-const supportedLocales: ISO_639_1[] = require("../../next.config").i18n.locales;
-
-// eslint-disable-next-line @typescript-eslint/no-namespace
-declare namespace Intl {
-    class DisplayNames {
-        constructor(
-            locales: string | string[],
-            options: { type: "region" | "language" | "currency" | "script" }
-        );
-
-        public of: (code: string) => string;
-    }
-}
+const supportedLocales = nextConfig.i18n.locales as ISO_639_1[];
 
 /**
  * Generates the base country data we will use in the site, from the
@@ -153,11 +140,14 @@ const generateBaseCountryData = async () => {
 
 generateBaseCountryData();
 
-fs.unlinkSync("src/utils/deepMerge.js");
-fs.unlinkSync("src/utils/sluggify.js");
-fs.unlinkSync("src/utils/invertObject.js");
-fs.unlinkSync("src/utils/i18n/languageCodeMappings.js");
-fs.unlinkSync("src/utils/i18n/subregionNameMappings.js");
-fs.unlinkSync("src/utils/i18n/regionNameMappings.js");
-fs.unlinkSync("src/utils/i18n/capitalNameMappings.js");
-fs.unlinkSync("src/scripts/generateBaseCountryData.js");
+// eslint-disable-next-line @typescript-eslint/no-namespace
+declare namespace Intl {
+    class DisplayNames {
+        constructor(
+            locales: string | string[],
+            options: { type: "region" | "language" | "currency" | "script" }
+        );
+
+        public of: (code: string) => string;
+    }
+}

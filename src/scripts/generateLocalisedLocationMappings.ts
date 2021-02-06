@@ -1,20 +1,18 @@
 /* eslint-disable import/no-extraneous-dependencies */
-/* eslint-disable @typescript-eslint/no-var-requires */
 import * as fs from "fs";
 
 import fetch from "node-fetch";
-import type { Country } from "world-countries";
+import prettier from "prettier";
+import countryData from "world-countries";
 
 import { deepMerge } from "../utils/deepMerge";
 import { sluggify } from "../utils/sluggify";
 import { regionNameMappings as previousRegionMappings } from "../utils/i18n/regionNameMappings";
 import { capitalNameMappings as previousCapitalMappings } from "../utils/i18n/capitalNameMappings";
 import { subregionNameMappings as previousSubregionMappings } from "../utils/i18n/subregionNameMappings";
+import nextConfig from "../../next.config";
 
-const prettier = require("prettier");
-const countryData: Country[] = require("world-countries"); // require needed to avoid `world_countries_1["default"]` error
-
-const supportedLocales: string[] = require("../../next.config").i18n.locales;
+const supportedLocales = nextConfig.i18n.locales;
 
 /**
  * Uses the geonames API to fetch and cache localised location names that Intl.DisplayNames
@@ -138,7 +136,3 @@ const generateLocalisedLocationMappings = async () => {
 };
 
 generateLocalisedLocationMappings();
-
-fs.unlinkSync("src/utils/sluggify.js");
-fs.unlinkSync("src/utils/deepMerge.js");
-fs.unlinkSync("src/scripts/generateLocalisedLocationMappings.js");
