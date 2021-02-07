@@ -1,6 +1,7 @@
 import fs from "fs";
 
 import type {
+    AllergenRelation,
     CountryContent,
     RawTranslationSchema,
     RawTranslationStrings,
@@ -29,7 +30,10 @@ export const getTranslationStrings = ({
                 "utf-8"
             )
         );
-        return { ...acc, [namespace]: currentTranslations.copy };
+        return {
+            ...acc,
+            [namespace]: currentTranslations.copy,
+        };
     }, {} as RawTranslationStrings);
 
     const formattedTranslations = Object.keys(rawTranslations).reduce(
@@ -39,7 +43,10 @@ export const getTranslationStrings = ({
                 ({ key, value }) => [key, value] as [key: string, value: string]
             );
             const newNamespace = Object.fromEntries(entries);
-            return { ...acc, [namespace]: newNamespace };
+            return {
+                ...acc,
+                [namespace]: newNamespace,
+            };
         },
         {} as TranslationStrings
     );
@@ -92,5 +99,37 @@ export const getCountryData = ({
     return data;
 };
 
-// TODO: const allergensFolder = "src/data/allergens";
-export const getAllAllergens = () => ["nuts"];
+const allergensFolder = "src/data/allergens";
+
+/** Fetches all possible allergens */
+export const getAllAllergens = ({
+    locale = "en",
+}: {
+    locale?: string;
+}): string[] => {
+    const allergenArray = fs
+        .readdirSync(`${allergensFolder}/${locale}`)
+        .map(currentFile => {
+            const allergenData: AllergenRelation = JSON.parse(
+                fs.readFileSync(
+                    `${allergensFolder}/${locale}/${currentFile}`,
+                    "utf8"
+                )
+            );
+            return allergenData.title;
+        });
+
+    return allergenArray;
+};
+
+/** Fetches all allergens found in a given country */
+export const getAllAllergensInCountry = ({
+    slug,
+    locale = "en",
+}: {
+    slug: string;
+    locale?: string;
+}): string[] => {
+    const countryData = getCountryData({ locale, slug });
+    return countryData?.allergens?.map(allergen => allergen.name) ?? [];
+};

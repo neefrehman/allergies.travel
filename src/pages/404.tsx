@@ -1,5 +1,6 @@
 import React from "react";
 
-const FourOhFourPage = () => <p>404</p>;
+// TODO: use country page container
+const FourOhFourPage = () => <p>404 - country not found</p>;
 
 export default FourOhFourPage;

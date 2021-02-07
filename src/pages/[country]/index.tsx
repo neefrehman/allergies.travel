@@ -7,7 +7,6 @@ import type { Allergen, BaseCountryData, CuisineDescription } from "data/schemas
 import { getCountryData } from "data/fetchers";
 
 interface CountryPageProps {
-    countryIsNotFound?: boolean;
     countryIsNotPublished?: boolean;
     title: string;
     allergens: Allergen[];
@@ -17,7 +16,6 @@ interface CountryPageProps {
 }
 
 const CountryPage = ({
-    countryIsNotFound = false,
     countryIsNotPublished = false,
     title,
     allergens,
@@ -33,17 +31,13 @@ const CountryPage = ({
     }
 
     // TODO: componentise these fallbacks as containers so [allergen].tsx can use them too
-    if (countryIsNotFound || countryIsNotPublished) {
+    if (countryIsNotPublished) {
         return (
             <>
                 <Head>
                     <meta name="robots" content="noindex" />
                 </Head>
-                <h1>
-                    {countryIsNotPublished
-                        ? "We currenlty don't have data for this country"
-                        : "This country is not found"}
-                </h1>
+                <h1>We currenlty dont have data for this country. Add some?</h1>
             </>
         );
     }
@@ -98,11 +92,7 @@ export const getStaticProps: GetStaticProps<CountryPageProps> = async ({
     const countryData = getCountryData({ locale, slug });
 
     if (!countryData) {
-        return { props: { countryIsNotFound: true } as CountryPageProps };
-        // TODO: return below and make 404.tsx the countryNotFound page.
-        // This avoids a new page being generated for each missing country.
-        // return { notFound: true };
-        // [allergen].tsx will probably still need a custom prop returned for noAllergenDataForCountry to still show country details.
+        return { notFound: true };
     }
 
     // if (!countryData.published) {

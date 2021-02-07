@@ -2,11 +2,11 @@ import type { Country } from "world-countries";
 
 import type { ISO_639_1 } from "utils/i18n/languageCodeMappings";
 
+// SITE-COPY
 export type TranslationNamespaces = "common" | "home" | "country";
 
 export interface RawTranslationSchema {
     title: string;
-    lastModified: string;
     copy: { key: string; value: string }[];
 }
 
@@ -17,10 +17,15 @@ export interface TranslationStrings {
     [nameSpace: string]: Record<string, string>;
 }
 
+// ALLERGENS
+export interface AllergenRelation {
+    title: string;
+}
+
+// COUNTRIES
 export interface CountryContent {
     slug: string;
     title: string;
-    lastModified?: string;
     published: boolean;
     baseInfo: BaseCountryData;
     cuisineDescription?: CuisineDescription;

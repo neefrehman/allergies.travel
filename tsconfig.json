@@ -21,9 +21,8 @@
     "exclude": ["node_modules"],
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.config.js"],
     "ts-node": {
-        // overrides used only by ts-node
         "compilerOptions": {
-            "module": "commonjs"
+            "module": "commonjs" // allows ts-node to use import statements safely
         }
     },
 }

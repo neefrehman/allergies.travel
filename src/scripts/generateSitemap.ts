@@ -4,7 +4,7 @@ import fs from "fs";
 // eslint-disable-next-line import/no-extraneous-dependencies
 import prettier from "prettier";
 
-import { getAllCountryData } from "data/fetchers";
+import { getAllCountryData, getAllAllergensInCountry } from "data/fetchers";
 
 import nextConfig from "../../next.config";
 
@@ -28,19 +28,27 @@ export const generateSitemap = async () => {
 
     const supportedLocales = nextConfig.i18n.locales;
 
-    const countryPages = supportedLocales.reduce((acc, locale) => {
-        const allCountriesinLocale = getAllCountryData({
+    const dynamicPageArray = supportedLocales.reduce((localesAcc, locale) => {
+        const allCountryPages = getAllCountryData({
             locale,
         })
             .filter(country => country.published)
             .map(country => country.slug);
 
-        return [...acc, ...allCountriesinLocale];
+        const allAllergenPages = allCountryPages.reduce((acc, country) => {
+            const allAllergens = getAllAllergensInCountry({
+                slug: country,
+                locale,
+            });
+            const paths = allAllergens.map(allergen => `${country}/${allergen}`);
+            return [...acc, ...paths];
+        }, [] as string[]);
+
+        // TODO: return {path: string, localesPathIsSupportedIn: ISO_CODE[]} for alternate creation
+        return [...localesAcc, ...allCountryPages, ...allAllergenPages];
     }, [] as string[]);
 
-    // TODO: i18n handling & lastModified, allergen paths
-
-    const allRoutes = [...staticPageArray, ...countryPages];
+    const allRoutes = [...staticPageArray, ...dynamicPageArray];
     const urlPaths = allRoutes.map(route => (route !== "" ? `/${route}` : route));
 
     const sitemap = `
@@ -51,7 +59,11 @@ export const generateSitemap = async () => {
                     route =>
                         `
                         <url>
-                            <loc>${`https://allergies.travel${route}`}</loc>
+                            <loc>https://allergies.travel${route}</loc>
+                            <xhtml:link 
+                                rel="alternate"
+                                hreflang=${"en" /* TODO: dynamic locale */}
+                                href="https://allergies.travel/${"en"}/${route}"/>
                         </url>
                     `
                 )

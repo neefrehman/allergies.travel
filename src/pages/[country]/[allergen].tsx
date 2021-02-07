@@ -11,7 +11,6 @@ import {
 } from "data/fetchers";
 
 interface AllergenPageProps {
-    countryIsNotFound?: boolean;
     countryIsNotPublished?: boolean;
     noAllergenDataForCountry?: boolean;
     countryTitle: string;
@@ -20,7 +19,6 @@ interface AllergenPageProps {
 }
 
 const AllergenPage = ({
-    countryIsNotFound = false,
     countryIsNotPublished = false,
     noAllergenDataForCountry = false,
     countryTitle,
@@ -33,17 +31,13 @@ const AllergenPage = ({
         return <div>Loading...</div>;
     }
 
-    if (countryIsNotFound || countryIsNotPublished) {
+    if (countryIsNotPublished) {
         return (
             <>
                 <Head>
                     <meta name="robots" content="noindex" />
                 </Head>
-                <h1>
-                    {countryIsNotPublished
-                        ? "We currently don't have data for this country, consider adding some: [link]"
-                        : "This country is not found"}
-                </h1>
+                <h1>We currently dont have data for this country, add some?</h1>
             </>
         );
     }
@@ -81,9 +75,9 @@ export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
     /* TODO: still return most viewed countries? and allergens? */
     // locales?.forEach(locale => {
     //     getAllCountryData({ locale }).forEach(country => {
-    //         getAllAllergens().forEach(allergen => {
+    //         country.allergens?.forEach(allergen => {
     //             paths.push({
-    //                 params: { country: country.slug, allergen },
+    //                 params: { country: country.slug, allergen: allergen.name },
     //                 locale,
     //             });
     //         });
@@ -98,40 +92,31 @@ export const getStaticProps: GetStaticProps<AllergenPageProps> = async ({
     locale,
     locales,
 }) => {
-    const slug = typeof params?.country === "string" ? params.country : "";
+    const { country: countryParam, allergen: allergenParam } = params ?? {};
+    const slug = typeof countryParam === "string" ? countryParam : "";
     const countryData = getCountryData({ locale, slug });
 
     // TODO: look into 404s with unsupported locales
 
     if (!countryData) {
-        return { props: { countryIsNotFound: true } as AllergenPageProps };
+        return { notFound: true };
     }
 
     // if (!countryData.published) {
     //     return { props: { countryIsNotPublished: true } as AllergenPageProps };
     // }
 
-    const { title: countryTitle } = countryData;
-    const allergenTitle =
-        typeof params?.allergen === "string" ? params.allergen : "";
-
-    // if (
-    //     !countryData.allergens?.find(allergen => allergen.name === allergenTitle)
-    // ) {
-    //     return {
-    //         props: {
-    //             noAllergenDataForCountry: true,
-    //             countryTitle,
-    //             allergenTitle,
-    //         } as AllergenPageProps,
-    //     };
-    // }
+    const countryTitle = countryData.title;
+    const allergenTitle = typeof allergenParam === "string" ? allergenParam : "";
 
     return {
         props: {
             countryTitle,
             allergenTitle,
             locales: locales ?? ["en"],
+            // noAllergenDataForCountry: !countryData.allergens?.find(
+            //     allergen => allergen.name === allergenTitle
+            // ),
         },
         revalidate: 86_400, // Next will regenerate this page at most once per day
     };
