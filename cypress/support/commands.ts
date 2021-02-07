@@ -1,17 +1,14 @@
+/* eslint-disable import/no-extraneous-dependencies */
+import "@testing-library/cypress/add-commands";
+
 // ***********************************************
 // This example commands.js shows you how to
-// create various custom commands and overwrite
-// existing commands.
+// create and overwrite commands.
 //
-// For more comprehensive examples of custom
-// commands please read more here:
+// For more comprehensive examples read more here:
 // https://on.cypress.io/custom-commands
 // ***********************************************
-//
-// import "cypress-iframe";
-// import "cypress-file-upload";
 
-//
 // -- This is a parent command --
 // Cypress.Commands.add("login", (email, password) => { ... })
 //
