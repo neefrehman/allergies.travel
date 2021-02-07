@@ -12,8 +12,6 @@ import { capitalNameMappings as previousCapitalMappings } from "../utils/i18n/ca
 import { subregionNameMappings as previousSubregionMappings } from "../utils/i18n/subregionNameMappings";
 import nextConfig from "../../next.config";
 
-const supportedLocales = nextConfig.i18n.locales;
-
 /**
  * Uses the geonames API to fetch and cache localised location names that Intl.DisplayNames
  * can't create for us (region, capital, etc.). these are then used by `generateBaseCountryData.ts`
@@ -22,13 +20,14 @@ const supportedLocales = nextConfig.i18n.locales;
  */
 const generateLocalisedLocationMappings = async () => {
     const prettierConfig = await prettier.resolveConfig("./.prettierrc");
+    const supportedLocales = nextConfig.i18n.locales;
 
     const directory = "src/utils/i18n";
     if (!fs.existsSync(directory)) {
         fs.mkdirSync(directory);
     }
 
-    const getLocalisedName = async (
+    const fetchLocalisedName = async (
         nameInEnglish: string,
         locale: string
     ): Promise<string> => {
@@ -95,7 +94,7 @@ const generateLocalisedLocationMappings = async () => {
 
                         return {
                             ...awaitedLocalesAccumulator,
-                            [currentLocale]: await getLocalisedName(
+                            [currentLocale]: await fetchLocalisedName(
                                 currentLocationNameInEnglish,
                                 currentLocale
                             ),

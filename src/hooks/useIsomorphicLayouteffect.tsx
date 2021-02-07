@@ -1,8 +1,8 @@
 import { useEffect, useLayoutEffect } from "react";
 
 /**
- * Selects the correct React effect hook depending on if it will be
- * run by SSR or the browser. This helps to avoid `useLayoutEffect
+ * Selects the correct React `useEffect` hook depending on if it will be
+ * run by SSR or in the browser. This helps to avoid `useLayoutEffect
  * does nothing on the server` warnings.
  *
  * @link https://gist.github.com/gaearon/e7d97cdf38a2907924ea12e4ebdf3c85#gistcomment-3318852

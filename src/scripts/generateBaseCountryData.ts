@@ -18,16 +18,10 @@ import { subregionNameMappings } from "../utils/i18n/subregionNameMappings";
 import { regionNameMappings } from "../utils/i18n/regionNameMappings";
 import { capitalNameMappings } from "../utils/i18n/capitalNameMappings";
 
-const supportedLocales = nextConfig.i18n.locales as ISO_639_1[];
-
 // eslint-disable-next-line @typescript-eslint/no-namespace
 declare namespace Intl {
     class DisplayNames {
-        constructor(
-            locales: string | string[],
-            options: { type: "region" | "language" | "currency" | "script" }
-        );
-
+        constructor(locales: string | string[], options: { type: "region" | "language" | "currency" | "script" }); // prettier-ignore
         public of: (code: string) => string;
     }
 }
@@ -45,9 +39,11 @@ declare namespace Intl {
  */
 const generateBaseCountryData = async () => {
     const prettierConfig = await prettier.resolveConfig("./.prettierrc");
+    const supportedLocales = nextConfig.i18n.locales as ISO_639_1[];
 
-    if (!fs.existsSync("src/data/countries")) {
-        fs.mkdirSync("src/data/countries");
+    const countriesFolder = "src/data/countries";
+    if (!fs.existsSync(countriesFolder)) {
+        fs.mkdirSync(countriesFolder);
     }
 
     supportedLocales.forEach(locale => {
@@ -121,7 +117,7 @@ const generateBaseCountryData = async () => {
             };
         });
 
-        const directory = `src/data/countries/${locale}`;
+        const directory = `${countriesFolder}/${locale}`;
 
         if (!fs.existsSync(directory)) {
             fs.mkdirSync(directory);
