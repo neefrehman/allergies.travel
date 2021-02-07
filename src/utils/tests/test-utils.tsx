@@ -6,6 +6,8 @@ import { render } from "@testing-library/react";
 import type { RenderOptions, RenderResult } from "@testing-library/react";
 
 import { AppProviders } from "pages/_app";
+import { getTranslationStrings } from "data/fetchers";
+import { createTranslator } from "utils/i18n/createTranslator";
 
 export const mockRouter: NextRouter = {
     basePath: "",
@@ -42,6 +44,8 @@ const customRender = (
     options?: Omit<RenderOptions, "queries">
 ): RenderResult => render(ui, { wrapper: Providers, ...options });
 
+const t = createTranslator(getTranslationStrings({ locale: "en" }));
+
 export * from "@testing-library/react";
 
-export { customRender as render };
+export { customRender as render, t };

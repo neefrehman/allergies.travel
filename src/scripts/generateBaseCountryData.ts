@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-use-before-define */
 /* eslint-disable import/no-extraneous-dependencies */
 import * as fs from "fs";
 
@@ -20,6 +19,18 @@ import { regionNameMappings } from "../utils/i18n/regionNameMappings";
 import { capitalNameMappings } from "../utils/i18n/capitalNameMappings";
 
 const supportedLocales = nextConfig.i18n.locales as ISO_639_1[];
+
+// eslint-disable-next-line @typescript-eslint/no-namespace
+declare namespace Intl {
+    class DisplayNames {
+        constructor(
+            locales: string | string[],
+            options: { type: "region" | "language" | "currency" | "script" }
+        );
+
+        public of: (code: string) => string;
+    }
+}
 
 /**
  * Generates the base country data we will use in the site, from the
@@ -139,15 +150,3 @@ const generateBaseCountryData = async () => {
 };
 
 generateBaseCountryData();
-
-// eslint-disable-next-line @typescript-eslint/no-namespace
-declare namespace Intl {
-    class DisplayNames {
-        constructor(
-            locales: string | string[],
-            options: { type: "region" | "language" | "currency" | "script" }
-        );
-
-        public of: (code: string) => string;
-    }
-}

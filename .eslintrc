@@ -75,16 +75,6 @@
                 ],
                 "pathGroups": [
                     {
-                        "pattern": "HomeComponents/**",
-                        "group": "internal",
-                        "position": "after"
-                    },
-                    {
-                        "pattern": "CountryComponents/**",
-                        "group": "internal",
-                        "position": "after"
-                    },
-                    {
                         "pattern": "test-utils",
                         "group": "external"
                     }

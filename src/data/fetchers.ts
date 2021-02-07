@@ -8,6 +8,22 @@ import type {
     TranslationStrings,
 } from "./schemas";
 
+/** Formats translations from an array of keys and values, to an object of key-value pairs */
+export const formatTranslations = (
+    rawTranslations: RawTranslationStrings
+): TranslationStrings =>
+    Object.keys(rawTranslations).reduce((acc, namespace) => {
+        const values = Object.values(rawTranslations[namespace]);
+        const entries = values.map(
+            ({ key, value }) => [key, value] as [key: string, value: string]
+        );
+        const newNamespace = Object.fromEntries(entries);
+        return {
+            ...acc,
+            [namespace]: newNamespace,
+        };
+    }, {});
+
 /** Fetches and formats the translations for the site's copy for a given locale */
 export const getTranslationStrings = ({
     locale = "en",
@@ -36,22 +52,7 @@ export const getTranslationStrings = ({
         };
     }, {} as RawTranslationStrings);
 
-    const formattedTranslations = Object.keys(rawTranslations).reduce(
-        (acc, namespace) => {
-            const values = Object.values(rawTranslations[namespace]);
-            const entries = values.map(
-                ({ key, value }) => [key, value] as [key: string, value: string]
-            );
-            const newNamespace = Object.fromEntries(entries);
-            return {
-                ...acc,
-                [namespace]: newNamespace,
-            };
-        },
-        {} as TranslationStrings
-    );
-
-    return formattedTranslations;
+    return formatTranslations(rawTranslations);
 };
 
 const countriesFolder = "src/data/countries";

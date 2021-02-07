@@ -10,6 +10,7 @@
   "homepage": "https://allergies.travel",
   "scripts": {
     "dev": "next dev",
+    "dev:test": "NODE_ENV=test next dev",
     "build": "next build",
     "start": "next start",
     "test:unit": "jest --verbose",

@@ -26,48 +26,42 @@ export const generateSitemap = async () => {
         )
         .map(name => name.replace(".tsx", "").replace("index", "")); // Index becomes homepage
 
+    const defaultLocale = nextConfig.i18n.defaultLocale;
     const supportedLocales = nextConfig.i18n.locales;
 
-    const dynamicPageArray = supportedLocales.reduce((localesAcc, locale) => {
-        const allCountryPages = getAllCountryData({
-            locale,
-        })
-            .filter(country => country.published)
-            .map(country => country.slug);
+    const allCountryPages = getAllCountryData({
+        locale: defaultLocale,
+    })
+        .filter(country => country.published)
+        .map(country => country.slug);
 
-        const allAllergenPages = allCountryPages.reduce((acc, country) => {
-            const allAllergens = getAllAllergensInCountry({
-                slug: country,
-                locale,
-            });
-            const paths = allAllergens.map(allergen => `${country}/${allergen}`);
-            return [...acc, ...paths];
-        }, [] as string[]);
-
-        // TODO: return {path: string, localesPathIsSupportedIn: ISO_CODE[]} for alternate creation
-        return [...localesAcc, ...allCountryPages, ...allAllergenPages];
+    const allAllergenPages = allCountryPages.reduce((acc, country) => {
+        const allAllergens = getAllAllergensInCountry({
+            slug: country,
+            locale: defaultLocale,
+        });
+        const paths = allAllergens.map(allergen => `${country}/${allergen}`);
+        return [...acc, ...paths];
     }, [] as string[]);
 
-    const allRoutes = [...staticPageArray, ...dynamicPageArray];
+    const allRoutes = [...staticPageArray, ...allCountryPages, allAllergenPages];
     const urlPaths = allRoutes.map(route => (route !== "" ? `/${route}` : route));
 
+    // prettier-ignore
     const sitemap = `
         <?xml version="1.0" encoding="UTF-8"?>
         <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-            ${urlPaths
-                .map(
-                    route =>
-                        `
-                        <url>
-                            <loc>https://allergies.travel${route}</loc>
-                            <xhtml:link 
-                                rel="alternate"
-                                hreflang=${"en" /* TODO: dynamic locale */}
-                                href="https://allergies.travel/${"en"}/${route}"/>
-                        </url>
-                    `
-                )
-                .join("")}
+            ${urlPaths.map(route => `
+                <url>
+                    <loc>https://allergies.travel${route}</loc>
+                    ${supportedLocales.map(locale => `
+                        <xhtml:link 
+                            rel="alternate"
+                            hreflang=${locale}
+                            href="https://allergies.travel/${locale}${route}"/>
+                        `).join("")}
+                </url>
+                `).join("")}
         </urlset>
     `;
 

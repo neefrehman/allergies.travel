@@ -17,6 +17,8 @@ const supportedLocales = nextConfig.i18n.locales;
 /**
  * Uses the geonames API to fetch and cache localised location names that Intl.DisplayNames
  * can't create for us (region, capital, etc.). these are then used by `generateBaseCountryData.ts`
+ *
+ * @remarks — VSCode says many of the `await` calls have no effect, but they do!
  */
 const generateLocalisedLocationMappings = async () => {
     const prettierConfig = await prettier.resolveConfig("./.prettierrc");
