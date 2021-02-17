@@ -1,9 +1,15 @@
-import type { NextApiRequest, NextApiResponse } from "next";
+import type { NextApiHandler } from "next";
 
-export default (req: NextApiRequest, res: NextApiResponse): any => {
+export type ErrorResponse = { Error: string };
+
+type GithubResponse = { n: number } | ErrorResponse;
+
+const handler: NextApiHandler<GithubResponse> = async (req, res) => {
     if (req.method === "POST") {
-        res.status(200).json({ randomNumber: Math.random() });
+        res.status(200).json({ n: Math.random() });
     } else {
         res.status(405).json({ Error: "only POST requests are accepted" });
     }
 };
+
+export default handler;

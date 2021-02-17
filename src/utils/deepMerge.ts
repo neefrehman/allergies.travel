@@ -1,5 +1,5 @@
 /**
- * Recursively merges and dedupes two objects or arrays together
+ * Recursively merges and deduplicates two objects or arrays together
  *
  * @params target - the target object (or array) to be written over
  * @params source - the source of incoming data (in our case a new object from the `world-countries` database)

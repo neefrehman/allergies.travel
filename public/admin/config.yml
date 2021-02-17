@@ -79,7 +79,7 @@ collections:
     fields:
       - { label: "Title", name: title, widget: "string", i18n: true }
       - { label: "Slug", name: slug, widget: "hidden", i18n: false } # not required in the cms, but the generation script will create it to be used
-      - { label: "Published", name: published, widget: "boolean", i18n: true }
+      - { label: "Published", name: isPublished, widget: "boolean", i18n: true }
 
       - name: allergens
         label: "Allergens"

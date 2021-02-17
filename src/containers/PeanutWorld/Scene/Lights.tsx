@@ -24,23 +24,21 @@ export const Lights = () => {
     return (
         <>
             <ambientLight intensity={0.25} color="#ffffff" />
-            <spotLight
+            <pointLight
                 ref={frontLight}
                 castShadow
                 intensity={0.42}
                 color="#ffffff"
                 position={[0, Y_DIST, DIST]}
-                angle={Math.PI / 8}
                 shadow-mapSize-width={2048}
                 shadow-mapSize-height={2048}
             />
-            <spotLight
+            <pointLight
                 ref={backLight}
                 castShadow
                 intensity={0.07}
                 color="#ffffff"
                 position={[DIST, -Y_DIST, 0]}
-                angle={Math.PI / 8}
                 shadow-mapSize-width={2048}
                 shadow-mapSize-height={2048}
             />

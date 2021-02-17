@@ -72,7 +72,6 @@ export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
     }[] = [];
 
     /* `fallback: true` now will generate and cache pages upon request instead of at build time. */
-    /* TODO: still return most viewed countries? and allergens? */
     // locales?.forEach(locale => {
     //     getAllCountryData({ locale }).forEach(country => {
     //         country.allergens?.forEach(allergen => {

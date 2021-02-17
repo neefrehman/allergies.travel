@@ -7,20 +7,20 @@ import type { Allergen, BaseCountryData, CuisineDescription } from "data/schemas
 import { getCountryData } from "data/fetchers";
 
 interface CountryPageProps {
-    countryIsNotPublished?: boolean;
     title: string;
     allergens: Allergen[];
     cuisineDescription: CuisineDescription | null;
     baseInfo: BaseCountryData;
+    isPublished: boolean;
     locales: string[];
 }
 
 const CountryPage = ({
-    countryIsNotPublished = false,
     title,
     allergens,
     cuisineDescription,
     baseInfo,
+    isPublished,
     locales,
 }: CountryPageProps) => {
     const router = useRouter();
@@ -31,7 +31,7 @@ const CountryPage = ({
     }
 
     // TODO: componentise these fallbacks as containers so [allergen].tsx can use them too
-    if (countryIsNotPublished) {
+    if (!isPublished) {
         return (
             <>
                 <Head>
@@ -73,7 +73,6 @@ export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
     const countryPaths: { params: { country: string }; locale: string }[] = [];
 
     /* `fallback: true` now will generate and cache pages upon request instead of at build time. */
-    /* TODO: still return most viewed countries? */
     // locales?.forEach(locale => {
     //     getAllCountryData({ locale }).forEach(country =>
     //         countryPaths.push({ params: { country: country.slug }, locale })
@@ -95,15 +94,12 @@ export const getStaticProps: GetStaticProps<CountryPageProps> = async ({
         return { notFound: true };
     }
 
-    // if (!countryData.published) {
-    //     return { props: { countryIsNotPublished: true } as CountryPageProps };
-    // }
-
     const {
         title,
         allergens = [],
         cuisineDescription = null,
         baseInfo,
+        isPublished,
     } = countryData;
 
     return {
@@ -112,6 +108,7 @@ export const getStaticProps: GetStaticProps<CountryPageProps> = async ({
             allergens,
             cuisineDescription,
             baseInfo,
+            isPublished,
             locales: locales ?? ["en"],
         },
         revalidate: 86_400, // Next will regenerate this page at most once per day

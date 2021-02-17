@@ -26,7 +26,7 @@ export interface AllergenRelation {
 export interface CountryContent {
     slug: string;
     title: string;
-    published: boolean;
+    isPublished: boolean;
     baseInfo: BaseCountryData;
     cuisineDescription?: CuisineDescription;
     allergens?: Allergen[];

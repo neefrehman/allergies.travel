@@ -2,7 +2,6 @@
   - https://www.instagram.com/p/CBGRwKiBxAJ/?igshid=123ebin13hj0
   - Olf?
   - Bec?
-
 - Merch drop
 
 Marketing: 
@@ -10,3 +9,6 @@ Marketing:
 - Allergy fb groups that Imogen Weatherly mentioned
 - Reddit: webdev, javascript, react, frontend, any allergy or travel ones?
 - Read this: https://brianlovin.com/overthought/my-playbook-for-shipping-side-projects
+
+Tech:
+- Use [Upptime](https://github.com/upptime/upptime)
