@@ -2,7 +2,7 @@
 
 module.exports = {
     preset: "ts-jest",
-    moduleDirectories: ["node_modules", ".", "src/utils/tests", __dirname],
+    moduleDirectories: ["node_modules", "src", "src/utils/tests"],
     testPathIgnorePatterns: [
         "<rootDir>/.next/",
         "<rootDir>/node_modules/",

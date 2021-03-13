@@ -14,9 +14,9 @@ const PeanutWorld = memo(
 
         const shouldFallback = isLowPerformance || isLowConnectivity;
 
-        const Scene = shouldFallback
+        const Scene = shouldFallback // `./${shouldFallback ? "FallbackImage" : "Scene"}` has big bundle size increase. not helped by `webpackInclude`
             ? lazy(() => import("./FallbackImage"))
-            : lazy(() => import("./Scene")); // `./${shouldFallback ? "FallbackImage" : "Scene"}` has big bundle size increase. not helped by `webpackInclude`
+            : lazy(() => import("./Scene"));
 
         return (
             <Suspense fallback={null}>
