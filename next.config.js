@@ -6,6 +6,9 @@ module.exports = {
         locales: ["en", "de"],
         defaultLocale: "en",
     },
+    future: {
+        webpack5: true,
+    },
     webpack(config /* , options */) {
         config.module.rules.push({
             test: [/\.obj$/, /\.jpe?g$/],

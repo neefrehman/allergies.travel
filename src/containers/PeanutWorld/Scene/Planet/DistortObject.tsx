@@ -4,7 +4,7 @@ import type { MeshPhysicalMaterialParameters } from "three/src/materials/Materia
 import { MeshPhysicalMaterial } from "three/src/materials/Materials";
 import type { Shader } from "three/src/renderers/shaders/ShaderLib";
 import type { Group } from "three/src/objects/Group";
-import { useFrame } from "react-three-fiber";
+import { useFrame } from "@react-three/fiber";
 import glsl from "glslify";
 
 import { useCustomMaterial } from "./hooks/useCustomMaterial";

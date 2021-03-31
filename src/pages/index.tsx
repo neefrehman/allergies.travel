@@ -12,23 +12,14 @@ import { Title } from "components/Title";
 import { sluggify } from "utils/sluggify";
 import type { TranslationStrings } from "data/schemas";
 import { createTranslator } from "utils/i18n/createTranslator";
+import PeanutWorld from "containers/PeanutWorld";
 
-const PeanutWorld = lazy(() => import("containers/PeanutWorld"));
-// ^Fix for `cannot use import statement outside a module` issue with three/jsm: https://github.com/react-spring/react-three-fiber/discussions/504
-
-const IntroContainer = styled.div<{ isRounded: boolean }>`
+const IntroContainer = styled.div`
     background-color: ${({ theme }) => theme.colors.spaceNavy};
     position: relative;
     height: 100vh;
-    width: 100vw;
-    box-sizing: border-box;
+    width: 100%;
     overflow: hidden;
-    transition: clip-path 1200ms ease-out; /* TODO: better easing */
-    will-change: clip-path;
-    /* clip-path: ${({ isRounded }) =>
-        isRounded
-            ? "inset(clamp(8px, 1vw, 16px) round clamp(60px, 7vw, 80px))"
-            : "inset(0 round 0)"}; */
 `;
 
 const CountryCardGrid = styled.ul`
@@ -58,7 +49,7 @@ const HomePage = ({ countryData, translations }: HomePageProps) => {
                 <title>{t("common.appName")}</title>
             </Head>
 
-            <IntroContainer isRounded={titleIsVisible}>
+            <IntroContainer>
                 {hasMounted && (
                     <ErrorBoundary fallback={<Title isVisible />}>
                         <Suspense fallback={null}>

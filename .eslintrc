@@ -31,7 +31,6 @@
         "plugin:import/typescript",
         "plugin:react-hooks/recommended",
         "prettier",
-        "prettier/@typescript-eslint",
         "plugin:testing-library/recommended",
         "plugin:testing-library/react"
     ],

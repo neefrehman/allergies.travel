@@ -32,7 +32,7 @@ export const generateSitemap = async () => {
     const allCountryPages = getAllCountryData({
         locale: defaultLocale,
     })
-        .filter(country => country.published)
+        .filter(country => country.isPublished)
         .map(country => country.slug);
 
     const allAllergenPages = allCountryPages.reduce((acc, country) => {
@@ -46,6 +46,8 @@ export const generateSitemap = async () => {
 
     const allRoutes = [...staticPageArray, ...allCountryPages, allAllergenPages];
     const urlPaths = allRoutes.map(route => (route !== "" ? `/${route}` : route));
+
+    // TODO: better `alternative` logic, to only add published countries?
 
     // prettier-ignore
     const sitemap = `

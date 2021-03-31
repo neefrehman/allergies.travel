@@ -1,12 +1,16 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useContext, useState } from "react";
 
 import { useIsomorphicLayoutEffect } from "hooks/useIsomorphicLayouteffect";
 import { getFromSearchParams } from "utils/getFromSearchParams";
 
 import type { SimpleProviderProps } from "./types";
 
+type PrefersReducedMotionContextValue = boolean | null;
+
 /** Global context for reduced motion a11y preference */
-export const PrefersReducedMotionContext = createContext(false);
+export const PrefersReducedMotionContext = createContext<PrefersReducedMotionContextValue>(
+    null
+);
 
 /** Global context provider for reduced motion a11y preference */
 export const PrefersReducedMotionProvider = ({
@@ -47,4 +51,17 @@ export const PrefersReducedMotionProvider = ({
             {children}
         </PrefersReducedMotionContext.Provider>
     );
+};
+
+/** Global context receiver hook for reduced motion a11y preference */
+export const usePrefersReducedMotionContext = (): PrefersReducedMotionContextValue => {
+    const value = useContext(PrefersReducedMotionContext);
+
+    if (value === null) {
+        throw new Error(
+            "PrefersReducedMotionContext was used before it was initialised"
+        );
+    }
+
+    return value;
 };

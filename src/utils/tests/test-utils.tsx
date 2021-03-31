@@ -47,7 +47,6 @@ Object.defineProperty(window, "matchMedia", {
 });
 
 const Providers = ({ children }: { children?: ReactNode }) => (
-    // FIXME: "stylis.middleware is not a function": https://github.com/emotion-js/emotion/issues/2103
     <AppProviders>
         <RouterContext.Provider value={mockRouter}>
             {children}

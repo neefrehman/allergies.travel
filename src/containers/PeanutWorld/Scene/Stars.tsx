@@ -1,5 +1,5 @@
 import React, { useMemo, useRef } from "react";
-import { useFrame } from "react-three-fiber";
+import { useFrame } from "@react-three/fiber";
 import type { PointsMaterial } from "three";
 
 export const Stars = ({ count = 1000, xOff = 0, yOff = 0, zOff = 50 }) => {

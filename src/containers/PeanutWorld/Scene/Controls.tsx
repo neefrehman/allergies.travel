@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
-import { useThree } from "react-three-fiber";
-import { animated, useSpring } from "react-spring";
+import { useThree } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei/core/OrbitControls";
+import { animated, useSpring } from "react-spring";
 
 // eslint-disable-next-line import/order
 // import { useContext } from "react";
@@ -57,7 +57,8 @@ export const Controls = ({
             target={[0, 0, 0]}
             args={[camera, gl.domElement]}
             autoRotate
-            autoRotateSpeed={(orbitSpeed as unknown) as number} // Fix for: Type '{ interpolate: InterpolationChain... }' not assignable to type 'number'
+            autoRotateSpeed={orbitSpeed}
+            enableDamping
             enablePan={userControllable}
             enableZoom={userControllable}
             enableRotate={userControllable}

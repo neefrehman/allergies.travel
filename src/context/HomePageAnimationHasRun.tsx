@@ -1,14 +1,19 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useContext, useState } from "react";
 import type { Dispatch, SetStateAction } from "react";
 
 import type { SimpleProviderProps } from "./types";
 
-/** Global context for if the PeanutCosmos animation has run in this user session */
-export const HomePageAnimationHasRunContext = createContext<
-    [boolean, Dispatch<SetStateAction<boolean>>]
->([false, () => null]);
+type HomePageAnimationHasRunContextValue = [
+    boolean,
+    Dispatch<SetStateAction<boolean>>
+];
 
-/** Global context provider for if the PeanutCosmos animation has run in this user session */
+/** Global context for if the PeanutPlanet animation has run this session */
+export const HomePageAnimationHasRunContext = createContext<HomePageAnimationHasRunContextValue | null>(
+    null
+);
+
+/** Global context provider for if the PeanutPlanet animation has run this session */
 export const HomePageAnimationHasRunProvider = ({
     children,
 }: SimpleProviderProps) => {
@@ -22,4 +27,15 @@ export const HomePageAnimationHasRunProvider = ({
             {children}
         </HomePageAnimationHasRunContext.Provider>
     );
+};
+
+/** Global context reciever hook for if the PeanutPlanet animation has run this session */
+export const useHomePageAnimationHasRunContext = (): HomePageAnimationHasRunContextValue => {
+    const value = useContext(HomePageAnimationHasRunContext);
+
+    if (value === null) {
+        throw new Error("UnitSystemContext was used before it was initialised");
+    }
+
+    return value;
 };

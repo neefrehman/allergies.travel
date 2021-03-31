@@ -1,13 +1,13 @@
-import React, { memo, Suspense, useContext } from "react";
-import { Canvas } from "react-three-fiber";
+import React, { memo, Suspense } from "react";
+import { Canvas } from "@react-three/fiber";
 import { Preload } from "@react-three/drei/core/Preload";
 import { useTheme } from "@emotion/react";
 
-import { IsDebugContext } from "context/IsDebug";
-import { PrefersReducedMotionContext } from "context/PrefersReducedMotion";
-import { HomePageAnimationHasRunContext } from "context/HomePageAnimationHasRun";
+import { useHomePageAnimationHasRunContext } from "context/HomePageAnimationHasRun";
 import { useHasMounted } from "hooks/useHasMounted";
 import { useTimeout } from "hooks/useTimeout";
+import { useIsDebugContext } from "context/IsDebug";
+import { usePrefersReducedMotionContext } from "context/PrefersReducedMotion";
 
 import type { PeanutWorldProps } from "..";
 
@@ -21,11 +21,12 @@ const PeanutWorldScene = memo(
         const { colors } = useTheme();
 
         const hasMounted = useHasMounted();
-        const isDebug = useContext(IsDebugContext);
-        const prefersReducedMotion = useContext(PrefersReducedMotionContext);
-        const [hasRunThisSession, setHasRunThisSession] = useContext(
-            HomePageAnimationHasRunContext
-        );
+        const isDebug = useIsDebugContext();
+        const prefersReducedMotion = usePrefersReducedMotionContext();
+        const [
+            hasRunThisSession,
+            setHasRunThisSession,
+        ] = useHomePageAnimationHasRunContext();
 
         const isShortAnimation = prefersReducedMotion || hasRunThisSession; // FIXME: rotation and orbit issues
 
@@ -36,9 +37,7 @@ const PeanutWorldScene = memo(
 
         return (
             <Canvas
-                concurrent
                 camera={{ position: [0, 0, INITIAL_CAMERA_Z] }}
-                shadowMap
                 style={{
                     backgroundColor: colors.spaceNavy,
                     transition: "opacity 3000ms",
@@ -55,7 +54,7 @@ const PeanutWorldScene = memo(
                     <Controls
                         initialCameraZ={INITIAL_CAMERA_Z}
                         orbitSpeedMax={ORBIT_SPEED}
-                        userControllable={isDebug}
+                        userControllable={isDebug ?? false}
                         setTitleIsVisible={setTitleIsVisible}
                     />
                 </Suspense>

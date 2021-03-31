@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { useFrame } from "react-three-fiber";
+import { useFrame } from "@react-three/fiber";
 import type { SpotLight } from "three";
 
 export const Lights = () => {
@@ -9,8 +9,8 @@ export const Lights = () => {
     const frontLight = useRef<SpotLight>(null);
     const backLight = useRef<SpotLight>(null);
 
-    useFrame(({ frames }) => {
-        const time = frames * 0.0007;
+    useFrame(({ clock }) => {
+        const time = clock.elapsedTime * 0.033;
 
         if (frontLight.current && backLight.current) {
             frontLight.current.position.x = Math.sin(time) * -DIST;
