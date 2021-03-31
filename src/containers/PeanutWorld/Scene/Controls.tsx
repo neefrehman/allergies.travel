@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import { useThree } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import { animated, useSpring } from "react-spring";
+import { animated, useSpring } from "react-spring/three";
 
 // eslint-disable-next-line import/order
 // import { useContext } from "react";
@@ -43,7 +43,7 @@ export const Controls = ({
             if (camera.position && camera.position?.z !== 20)
                 camera.position.z = z; // Will be deprecated in v9 https://github.com/react-spring/react-three-fiber/discussions/505
         },
-        onRest: () => setTitleIsVisible(true),
+        onRest: () => setTimeout(() => setTitleIsVisible(true), 200),
     });
 
     const { orbitSpeed } = useSpring({

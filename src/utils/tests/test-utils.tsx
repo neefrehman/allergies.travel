@@ -12,7 +12,7 @@ import { createTranslator } from "utils/i18n/createTranslator";
 
 // TODO: implement storkybook-based react testing https://github.com/storybookjs/testing-react
 
-export const mockRouter: NextRouter = {
+const mockRouter: NextRouter = {
     basePath: "",
     pathname: "/",
     route: "/",
@@ -25,11 +25,7 @@ export const mockRouter: NextRouter = {
     back: jest.fn(),
     prefetch: jest.fn().mockResolvedValue(undefined),
     beforePopState: jest.fn(),
-    events: {
-        on: jest.fn(),
-        off: jest.fn(),
-        emit: jest.fn(),
-    },
+    events: { on: jest.fn(), off: jest.fn(), emit: jest.fn() },
     isFallback: false,
     isLocaleDomain: false,
     isPreview: false,
