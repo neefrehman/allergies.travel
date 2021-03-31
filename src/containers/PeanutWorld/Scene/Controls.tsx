@@ -57,7 +57,7 @@ export const Controls = ({
             target={[0, 0, 0]}
             args={[camera, gl.domElement]}
             autoRotate
-            autoRotateSpeed={orbitSpeed}
+            autoRotateSpeed={(orbitSpeed as unknown) as number} // fix for `Type '{ interpolate: InterpolationChain<unknown>; getValue: () => unknown; }' is not assignable to type 'number'`
             enableDamping
             enablePan={userControllable}
             enableZoom={userControllable}
