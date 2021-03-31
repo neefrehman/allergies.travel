@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from "react";
 import type { ReactNode } from "react";
 import { RouterContext } from "next/dist/next-server/lib/router-context";
@@ -8,6 +9,8 @@ import type { RenderOptions, RenderResult } from "@testing-library/react";
 import { AppProviders } from "pages/_app";
 import { getTranslationStrings } from "data/fetchers";
 import { createTranslator } from "utils/i18n/createTranslator";
+
+// TODO: implement storkybook-based react testing https://github.com/storybookjs/testing-react
 
 export const mockRouter: NextRouter = {
     basePath: "",

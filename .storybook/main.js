@@ -16,7 +16,8 @@ module.exports = {
     webpackFinal: async baseConfig => {
         const nextConfig = require("../next.config.js");
         baseConfig.resolve.modules = [
-            path.resolve(__dirname, ".."),
+            ...(baseConfig.resolve.modules || []),
+            path.resolve(__dirname, "../src"),
             "node_modules",
         ];
         baseConfig.resolve.alias = {

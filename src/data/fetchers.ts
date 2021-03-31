@@ -8,7 +8,9 @@ import type {
     TranslationStrings,
 } from "./schemas";
 
-/** Formats translations from an array of keys and values, to an object of key-value pairs */
+/**
+ * Formats translations from an array of keys and values, to an object of key-value pairs
+ */
 export const formatTranslations = (
     rawTranslations: RawTranslationStrings
 ): TranslationStrings =>
@@ -24,7 +26,9 @@ export const formatTranslations = (
         };
     }, {});
 
-/** Fetches and formats the translations for the site's copy for a given locale */
+/**
+ * Fetches and formats the translations for the site's copy for a given locale
+ */
 export const getTranslationStrings = ({
     locale = "en",
     filterNamespaces,
@@ -57,7 +61,9 @@ export const getTranslationStrings = ({
 
 const countriesFolder = "src/data/countries";
 
-/** Fetches all country data in a given locale */
+/**
+ * Fetches all country data in a given locale
+ */
 export const getAllCountryData = ({
     locale = "en",
 }: {
@@ -79,7 +85,9 @@ export const getAllCountryData = ({
     return countryContentArray;
 };
 
-/** Fetches a single country's data in a given locale */
+/**
+ * Fetches a single country's data in a given locale
+ */
 export const getCountryData = ({
     slug,
     locale = "en",
@@ -102,7 +110,9 @@ export const getCountryData = ({
 
 const allergensFolder = "src/data/allergens";
 
-/** Fetches all possible allergens */
+/**
+ * Fetches all possible allergens
+ */
 export const getAllAllergens = ({
     locale = "en",
 }: {
@@ -123,7 +133,9 @@ export const getAllAllergens = ({
     return allergenArray;
 };
 
-/** Fetches all allergens found in a given country */
+/**
+ * Fetches all allergens found in a given country
+ */
 export const getAllAllergensInCountry = ({
     slug,
     locale = "en",

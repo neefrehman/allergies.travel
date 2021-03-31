@@ -1,8 +1,6 @@
 import React from "react";
-import { ThemeProvider } from "@emotion/react";
 
-import { GlobalStyles } from "../src/styles/GlobalStyles";
-import { theme } from "../src/styles/theme";
+import { AppProviders } from "../src/pages/_app";
 
 export const parameters = {
     actions: { argTypesRegex: "^on[A-Z].*" },
@@ -10,11 +8,10 @@ export const parameters = {
 
 export const decorators = [
     Story => (
-        <ThemeProvider theme={theme}>
-            <GlobalStyles />
-                <div style={{ margin: "3em" }}>
-                    <Story />
-                </div>
-        </ThemeProvider>
+        <AppProviders>
+            <div style={{ margin: "3em" }}>
+                <Story />
+            </div>
+        </AppProviders>
     ),
 ];

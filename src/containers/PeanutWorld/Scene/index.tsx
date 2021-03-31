@@ -1,6 +1,6 @@
 import React, { memo, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { Preload } from "@react-three/drei/core/Preload";
+import { Preload } from "@react-three/drei";
 import { useTheme } from "@emotion/react";
 
 import { useHomePageAnimationHasRunContext } from "context/HomePageAnimationHasRun";
