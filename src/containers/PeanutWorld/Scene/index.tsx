@@ -14,7 +14,7 @@ import type { PeanutWorldProps } from "..";
 import { Lights } from "./Lights";
 import { Stars } from "./Stars";
 import { Planet } from "./Planet";
-import { Controls } from "./Controls";
+import { Controls, ZoomIntoView } from "./Controls";
 
 const PeanutWorldScene = memo(
     ({ setTitleIsVisible }: PeanutWorldProps) => {
@@ -37,7 +37,7 @@ const PeanutWorldScene = memo(
 
         return (
             <Canvas
-                camera={{ position: [0, 0, INITIAL_CAMERA_Z] }}
+                camera={{ position: [0, 0, 20] }}
                 style={{
                     backgroundColor: colors.spaceNavy,
                     transition: "opacity 3000ms",
@@ -46,16 +46,19 @@ const PeanutWorldScene = memo(
                 }}
             >
                 <Suspense fallback={null}>
-                    <Lights />
-                    <Planet willRotate={!isShortAnimation} />
-                    {/* Doesnt solve the stutter when the planet enters the scene */}
-                    <Preload all />
-                    <Stars count={1000} />
-                    <Controls
+                    <ZoomIntoView
                         initialCameraZ={INITIAL_CAMERA_Z}
+                        setTitleIsVisible={setTitleIsVisible}
+                    >
+                        <Lights />
+                        <Planet willRotate={!isShortAnimation} />
+                        {/* Doesnt solve the stutter when the planet enters the scene */}
+                        <Preload all />
+                        <Stars count={1000} />
+                    </ZoomIntoView>
+                    <Controls
                         orbitSpeedMax={ORBIT_SPEED}
                         userControllable={isDebug ?? false}
-                        setTitleIsVisible={setTitleIsVisible}
                     />
                 </Suspense>
             </Canvas>

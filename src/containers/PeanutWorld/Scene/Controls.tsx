@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import React, { useMemo } from "react";
 import { useThree } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
@@ -9,18 +10,11 @@ import { animated, useSpring } from "react-spring/three";
 // import { PrefersReducedMotionContext } from "context/PrefersReducedMotion";
 
 interface ControlsProps {
-    initialCameraZ: number;
     orbitSpeedMax: number;
     userControllable: boolean;
-    setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-export const Controls = ({
-    initialCameraZ,
-    orbitSpeedMax,
-    userControllable,
-    setTitleIsVisible,
-}: ControlsProps) => {
+export const Controls = ({ orbitSpeedMax, userControllable }: ControlsProps) => {
     const { gl, camera } = useThree();
 
     /*
@@ -34,17 +28,6 @@ export const Controls = ({
     // console.log(isDebug, prefersReducedMotion);
 
     const AnimatedOrbitControls = useMemo(() => animated(OrbitControls), []);
-
-    useSpring({
-        z: 20,
-        from: { z: initialCameraZ },
-        config: { mass: 5.2, tension: 320, friction: 150 }, // TODO: more experimentation with config
-        onFrame: ({ z }: { z: number }) => {
-            if (camera.position && camera.position?.z !== 20)
-                camera.position.z = z; // Will be deprecated in v9 https://github.com/react-spring/react-three-fiber/discussions/505
-        },
-        onRest: () => setTimeout(() => setTitleIsVisible(true), 200),
-    });
 
     const { orbitSpeed } = useSpring({
         orbitSpeed: orbitSpeedMax,
@@ -64,4 +47,25 @@ export const Controls = ({
             enableRotate={userControllable}
         />
     );
+};
+
+interface ZoomIntoViewProps {
+    initialCameraZ: number;
+    setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
+    children: ReactNode;
+}
+
+export const ZoomIntoView = ({
+    initialCameraZ,
+    setTitleIsVisible,
+    children,
+}: ZoomIntoViewProps) => {
+    const { position } = useSpring({
+        position: [0, 0, 0],
+        from: { position: [0, 0, -initialCameraZ] },
+        config: { mass: 5.2, tension: 320, friction: 150 }, // TODO: more experimentation with config
+        onRest: () => setTimeout(() => setTitleIsVisible(true), 200),
+    });
+
+    return <animated.group position={position}>{children}</animated.group>;
 };
