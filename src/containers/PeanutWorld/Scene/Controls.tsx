@@ -1,4 +1,3 @@
-import type { ReactNode } from "react";
 import React, { useMemo } from "react";
 import { useThree } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
@@ -40,32 +39,11 @@ export const Controls = ({ orbitSpeedMax, userControllable }: ControlsProps) => 
             target={[0, 0, 0]}
             args={[camera, gl.domElement]}
             autoRotate
-            autoRotateSpeed={(orbitSpeed as unknown) as number} // fix for `Type '{ interpolate: InterpolationChain<unknown>; getValue: () => unknown; }' is not assignable to type 'number'`
+            autoRotateSpeed={(orbitSpeed as unknown) as number}
             enableDamping
             enablePan={userControllable}
             enableZoom={userControllable}
             enableRotate={userControllable}
         />
     );
-};
-
-interface ZoomIntoViewProps {
-    initialCameraZ: number;
-    setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
-    children: ReactNode;
-}
-
-export const ZoomIntoView = ({
-    initialCameraZ,
-    setTitleIsVisible,
-    children,
-}: ZoomIntoViewProps) => {
-    const { position } = useSpring({
-        position: [0, 0, 0],
-        from: { position: [0, 0, -initialCameraZ] },
-        config: { mass: 5.2, tension: 320, friction: 150 }, // TODO: more experimentation with config
-        onRest: () => setTimeout(() => setTitleIsVisible(true), 200),
-    });
-
-    return <animated.group position={position}>{children}</animated.group>;
 };

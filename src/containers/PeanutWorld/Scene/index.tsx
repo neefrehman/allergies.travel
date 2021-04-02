@@ -1,11 +1,10 @@
 import React, { memo, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { Preload } from "@react-three/drei";
+// import { EffectComposer, Noise } from "@react-three/postprocessing";
 import { useTheme } from "@emotion/react";
 
 import { useHomePageAnimationHasRunContext } from "context/HomePageAnimationHasRun";
 import { useHasMounted } from "hooks/useHasMounted";
-import { useTimeout } from "hooks/useTimeout";
 import { useIsDebugContext } from "context/IsDebug";
 import { usePrefersReducedMotionContext } from "context/PrefersReducedMotion";
 
@@ -14,9 +13,10 @@ import type { PeanutWorldProps } from "..";
 import { Lights } from "./Lights";
 import { Stars } from "./Stars";
 import { Planet } from "./Planet";
-import { Controls, ZoomIntoView } from "./Controls";
+import { Controls } from "./Controls";
+import { ZoomIntoView } from "./ZoomIntoView";
 
-const PeanutWorldScene = memo(
+export const PeanutWorldScene = memo(
     ({ setTitleIsVisible }: PeanutWorldProps) => {
         const { colors } = useTheme();
 
@@ -30,10 +30,13 @@ const PeanutWorldScene = memo(
 
         const isShortAnimation = prefersReducedMotion || hasRunThisSession; // FIXME: rotation and orbit issues
 
-        useTimeout(() => setHasRunThisSession(true), 3000); // TODO test hasRunThisSession
-
         const INITIAL_CAMERA_Z = isShortAnimation ? 26 : 2100;
-        const ORBIT_SPEED = prefersReducedMotion ? 0.1 : 0.28;
+        const ORBIT_SPEED = prefersReducedMotion ? 0.1 : 0.26;
+
+        const onRest = () => {
+            setHasRunThisSession(true);
+            setTitleIsVisible(true);
+        };
 
         return (
             <Canvas
@@ -48,18 +51,20 @@ const PeanutWorldScene = memo(
                 <Suspense fallback={null}>
                     <ZoomIntoView
                         initialCameraZ={INITIAL_CAMERA_Z}
-                        setTitleIsVisible={setTitleIsVisible}
+                        onRest={onRest}
                     >
                         <Lights />
                         <Planet willRotate={!isShortAnimation} />
-                        {/* Doesnt solve the stutter when the planet enters the scene */}
-                        <Preload all />
                         <Stars count={1000} />
                     </ZoomIntoView>
                     <Controls
                         orbitSpeedMax={ORBIT_SPEED}
                         userControllable={isDebug ?? false}
                     />
+                    {/* FIXME: hook error & This (mostly) removes the fog effect */}
+                    {/* <EffectComposer>
+                        <Noise opacity={0.04} />
+                    </EffectComposer> */}
                 </Suspense>
             </Canvas>
         );
