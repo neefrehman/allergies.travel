@@ -23,7 +23,7 @@ export const Controls = ({
     const { gl, camera } = useThree();
 
     /*
-        Context returns intial values on this layer. Resorted to prop drilling as in the parent it works fine.
+        Context only returns intial values on this layer. Resorted to prop drilling as in the parent it works fine.
         Comments left for future investigation. Looks like this component doesn't rerender when
         context values change? Although the console.log does happen multiple times for other state changes...
         Why? it's not memo-ised. And context is changed with setState. 🤔

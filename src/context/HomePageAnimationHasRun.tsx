@@ -8,12 +8,16 @@ type HomePageAnimationHasRunContextValue = [
     Dispatch<SetStateAction<boolean>>
 ];
 
-/** Global context for if the PeanutPlanet animation has run this session */
+/**
+ * Global context for if the PeanutPlanet animation has run this session
+ */
 export const HomePageAnimationHasRunContext = createContext<HomePageAnimationHasRunContextValue | null>(
     null
 );
 
-/** Global context provider for if the PeanutPlanet animation has run this session */
+/**
+ * Global context provider for if the PeanutPlanet animation has run this session
+ */
 export const HomePageAnimationHasRunProvider = ({
     children,
 }: SimpleProviderProps) => {
@@ -29,7 +33,9 @@ export const HomePageAnimationHasRunProvider = ({
     );
 };
 
-/** Global context reciever hook for if the PeanutPlanet animation has run this session */
+/**
+ * Global context reciever hook for if the PeanutPlanet animation has run this session
+ */
 export const useHomePageAnimationHasRunContext = (): HomePageAnimationHasRunContextValue => {
     const value = useContext(HomePageAnimationHasRunContext);
 

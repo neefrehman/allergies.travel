@@ -7,10 +7,14 @@ import type { SimpleProviderProps } from "./types";
 
 type IsDebugContextValue = boolean | null;
 
-/** Global context for debug mode */
+/**
+ * Global context for debug mode
+ */
 export const IsDebugContext = createContext<IsDebugContextValue>(null);
 
-/** Global context provider for debug mode */
+/**
+ * Global context provider for debug mode
+ */
 export const IsDebugProvider = ({ children }: SimpleProviderProps) => {
     const [isDebug, setIsDebug] = useState(
         process.env.NODE_ENV === "development"
@@ -31,7 +35,9 @@ export const IsDebugProvider = ({ children }: SimpleProviderProps) => {
     );
 };
 
-/** Global context receiver hook for debug mode */
+/**
+ * Global context receiver hook for debug mode
+ */
 export const useIsDebugContext = (): IsDebugContextValue => {
     const value = useContext(IsDebugContext);
 

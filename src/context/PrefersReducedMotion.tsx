@@ -7,12 +7,16 @@ import type { SimpleProviderProps } from "./types";
 
 type PrefersReducedMotionContextValue = boolean | null;
 
-/** Global context for reduced motion a11y preference */
+/**
+ * Global context for reduced motion a11y preference
+ */
 export const PrefersReducedMotionContext = createContext<PrefersReducedMotionContextValue>(
     null
 );
 
-/** Global context provider for reduced motion a11y preference */
+/**
+ * Global context provider for reduced motion a11y preference
+ */
 export const PrefersReducedMotionProvider = ({
     children,
 }: SimpleProviderProps) => {
@@ -53,7 +57,9 @@ export const PrefersReducedMotionProvider = ({
     );
 };
 
-/** Global context receiver hook for reduced motion a11y preference */
+/**
+ * Global context receiver hook for reduced motion a11y preference
+ */
 export const usePrefersReducedMotionContext = (): PrefersReducedMotionContextValue => {
     const value = useContext(PrefersReducedMotionContext);
 

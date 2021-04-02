@@ -21,7 +21,7 @@ export const PeanutWorldScene = memo(
         const { colors } = useTheme();
 
         const hasMounted = useHasMounted();
-        const isDebug = useIsDebugContext();
+        const isDebug = useIsDebugContext() ?? false;
         const prefersReducedMotion = usePrefersReducedMotionContext();
         const [hasRun, setHasRun] = useHomePageAnimationHasRunContext();
 
@@ -54,7 +54,7 @@ export const PeanutWorldScene = memo(
                     <Controls
                         targetZ={ZOOM_END}
                         orbitSpeedMax={ORBIT_SPEED}
-                        userControllable={isDebug ?? false}
+                        userControllable={isDebug}
                     />
                     {/* FIXME: breaks until resize & (mostly) removes the fog effect */}
                     {/* <EffectComposer>
