@@ -1,6 +1,6 @@
 import React, { memo, useMemo } from "react";
 import { useLoader } from "@react-three/fiber";
-import { animated, useSpring } from "react-spring/three";
+import { animated, useSpring } from "@react-spring/three";
 import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
 import type { Group } from "three/src/objects/Group";
 
@@ -33,18 +33,16 @@ export const Planet = memo(
                 position={[0, -0.3, 0]}
                 rotation={(rotation as unknown) as [number, number, number]}
             >
-                {/* terrain */}
                 <DistortedObject
                     object={planetObj}
-                    color="#24714f"
+                    color="#24714f" // terrain
                     distort={0.32}
                     speed={0}
                     reflectivity={1.6}
                 />
-                {/* ocean */}
                 <DistortedObject
                     object={clonedObject}
-                    color="#2f5596"
+                    color="#2f5596" // ocean
                     distort={0.06}
                     speed={0.03}
                     reflectivity={1.1}

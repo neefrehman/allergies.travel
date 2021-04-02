@@ -33,7 +33,7 @@ export const PeanutWorldScene = memo(
         const INITIAL_CAMERA_Z = isShortAnimation ? 26 : 2100;
         const ORBIT_SPEED = prefersReducedMotion ? 0.1 : 0.26;
 
-        const onRest = () => {
+        const onZoomRest = () => {
             setHasRunThisSession(true);
             setTitleIsVisible(true);
         };
@@ -49,10 +49,7 @@ export const PeanutWorldScene = memo(
                 }}
             >
                 <Suspense fallback={null}>
-                    <ZoomIntoView
-                        initialCameraZ={INITIAL_CAMERA_Z}
-                        onRest={onRest}
-                    >
+                    <ZoomIntoView from={INITIAL_CAMERA_Z} onRest={onZoomRest}>
                         <Lights />
                         <Planet willRotate={!isShortAnimation} />
                         <Stars count={1000} />
@@ -61,7 +58,7 @@ export const PeanutWorldScene = memo(
                         orbitSpeedMax={ORBIT_SPEED}
                         userControllable={isDebug ?? false}
                     />
-                    {/* FIXME: hook error & This (mostly) removes the fog effect */}
+                    {/* FIXME: breaks until resize & (mostly) removes the fog effect */}
                     {/* <EffectComposer>
                         <Noise opacity={0.04} />
                     </EffectComposer> */}

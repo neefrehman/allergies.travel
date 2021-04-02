@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import { useThree } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import { animated, useSpring } from "react-spring/three";
+import { animated, useSpring } from "@react-spring/three";
 
 // eslint-disable-next-line import/order
 // import { useContext } from "react";
