@@ -1,6 +1,7 @@
 import React, { memo, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 // import { EffectComposer, Noise } from "@react-three/postprocessing";
+import { Preload } from "@react-three/drei";
 import { useTheme } from "@emotion/react";
 
 import { useHomePageAnimationHasRunContext } from "context/HomePageAnimationHasRun";
@@ -29,7 +30,7 @@ export const PeanutWorldScene = memo(
 
         const ORBIT_SPEED = prefersReducedMotion ? 0.1 : 0.26;
         const ZOOM_START = isShortAnimation ? 26 : 2100;
-        const ZOOM_END = 20;
+        const ZOOM_END = 15;
 
         const onZoomRest = () => {
             setHasRun(true);
@@ -46,9 +47,10 @@ export const PeanutWorldScene = memo(
                 }}
             >
                 <Suspense fallback={null}>
+                    <Preload all />
                     <ZoomIn from={ZOOM_START} to={ZOOM_END} onRest={onZoomRest}>
-                        <Lights />
                         <Planet willRotate={!isShortAnimation} />
+                        <Lights />
                         <Stars count={1000} />
                     </ZoomIn>
                     <Controls
