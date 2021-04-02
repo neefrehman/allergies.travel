@@ -3,8 +3,9 @@ import type { ReactNode } from "react";
 import { animated, useSpring } from "@react-spring/three";
 import type { Vector3 } from "three";
 
-interface ZoomIntoViewProps {
+interface ZoomInProps {
     from: number;
+    to: number;
     onRest: () => void;
     children: ReactNode;
 }
@@ -13,9 +14,9 @@ interface ZoomIntoViewProps {
  * Creates dolly zoom effect for children. Used as `OrbitControls` camera
  * position can't be animated with react-spring
  */
-export const ZoomIntoView = ({ from, onRest, children }: ZoomIntoViewProps) => {
+export const ZoomIn = ({ from, to, onRest, children }: ZoomInProps) => {
     const { position } = useSpring({
-        position: [0, 0, 0],
+        position: [0, 0, -to],
         from: { position: [0, 0, -from] },
         config: { mass: 5.2, tension: 320, friction: 150 }, // TODO: more experimentation with config
         onRest: () => setTimeout(() => onRest(), 200),

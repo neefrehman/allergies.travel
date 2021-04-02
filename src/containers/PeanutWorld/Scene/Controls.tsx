@@ -8,13 +8,18 @@ import { animated, useSpring } from "@react-spring/three";
 // import { usePrefersReducedMotionContext } from "context/PrefersReducedMotion";
 
 interface ControlsProps {
+    targetZ: number;
     orbitSpeedMax: number;
     userControllable: boolean;
 }
 
 const AnimatedOrbitControls = animated(OrbitControls);
 
-export const Controls = ({ orbitSpeedMax, userControllable }: ControlsProps) => {
+export const Controls = ({
+    targetZ,
+    orbitSpeedMax,
+    userControllable,
+}: ControlsProps) => {
     const { gl, camera } = useThree();
 
     /*
@@ -35,7 +40,7 @@ export const Controls = ({ orbitSpeedMax, userControllable }: ControlsProps) => 
 
     return (
         <AnimatedOrbitControls
-            target={[0, 0, 0]}
+            target={[0, 0, -targetZ]}
             args={[camera, gl.domElement]}
             autoRotate
             autoRotateSpeed={(orbitSpeed as unknown) as number}

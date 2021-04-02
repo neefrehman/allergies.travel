@@ -11,7 +11,7 @@ const PeanutWorld = memo(
         const hasMounted = useHasMounted();
 
         if (!hasMounted) {
-            return null;
+            return null; // dont't render during SSR as Suspense and navigator will cause errors
         }
 
         // @ts-expect-error: connection does exist!
@@ -38,5 +38,5 @@ const PeanutWorld = memo(
     }
 );
 
-// Default export required for simple dynamic importing
+// Default export required for simpler dynamic importing
 export default PeanutWorld;

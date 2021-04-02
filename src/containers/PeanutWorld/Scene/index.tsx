@@ -14,7 +14,7 @@ import { Lights } from "./Lights";
 import { Stars } from "./Stars";
 import { Planet } from "./Planet";
 import { Controls } from "./Controls";
-import { ZoomIntoView } from "./ZoomIntoView";
+import { ZoomIn } from "./ZoomIn";
 
 export const PeanutWorldScene = memo(
     ({ setTitleIsVisible }: PeanutWorldProps) => {
@@ -23,24 +23,21 @@ export const PeanutWorldScene = memo(
         const hasMounted = useHasMounted();
         const isDebug = useIsDebugContext();
         const prefersReducedMotion = usePrefersReducedMotionContext();
-        const [
-            hasRunThisSession,
-            setHasRunThisSession,
-        ] = useHomePageAnimationHasRunContext();
+        const [hasRun, setHasRun] = useHomePageAnimationHasRunContext();
 
-        const isShortAnimation = prefersReducedMotion || hasRunThisSession; // FIXME: rotation and orbit issues
+        const isShortAnimation = prefersReducedMotion || hasRun; // FIXME: rotation and orbit issues
 
-        const INITIAL_CAMERA_Z = isShortAnimation ? 26 : 2100;
         const ORBIT_SPEED = prefersReducedMotion ? 0.1 : 0.26;
+        const ZOOM_START = isShortAnimation ? 26 : 2100;
+        const ZOOM_END = 20;
 
         const onZoomRest = () => {
-            setHasRunThisSession(true);
+            setHasRun(true);
             setTitleIsVisible(true);
         };
 
         return (
             <Canvas
-                camera={{ position: [0, 0, 20] }}
                 style={{
                     backgroundColor: colors.spaceNavy,
                     transition: "opacity 3000ms",
@@ -49,12 +46,13 @@ export const PeanutWorldScene = memo(
                 }}
             >
                 <Suspense fallback={null}>
-                    <ZoomIntoView from={INITIAL_CAMERA_Z} onRest={onZoomRest}>
+                    <ZoomIn from={ZOOM_START} to={ZOOM_END} onRest={onZoomRest}>
                         <Lights />
                         <Planet willRotate={!isShortAnimation} />
                         <Stars count={1000} />
-                    </ZoomIntoView>
+                    </ZoomIn>
                     <Controls
+                        targetZ={ZOOM_END}
                         orbitSpeedMax={ORBIT_SPEED}
                         userControllable={isDebug ?? false}
                     />
