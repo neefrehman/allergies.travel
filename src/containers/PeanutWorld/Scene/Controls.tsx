@@ -1,32 +1,31 @@
-import React, { useMemo } from "react";
+import React from "react";
 import { useThree } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { animated, useSpring } from "@react-spring/three";
 
 // eslint-disable-next-line import/order
-// import { useContext } from "react";
-// import { IsDebugContext } from "context/IsDebug";
-// import { PrefersReducedMotionContext } from "context/PrefersReducedMotion";
+// import { useIsDebugContext } from "context/IsDebug";
+// import { usePrefersReducedMotionContext } from "context/PrefersReducedMotion";
 
 interface ControlsProps {
     orbitSpeedMax: number;
     userControllable: boolean;
 }
 
+const AnimatedOrbitControls = animated(OrbitControls);
+
 export const Controls = ({ orbitSpeedMax, userControllable }: ControlsProps) => {
     const { gl, camera } = useThree();
 
     /*
-        Context only returns default values on this layer. Resorted to prop drilling as in the parent it works fine.
+        Context returns intial values on this layer. Resorted to prop drilling as in the parent it works fine.
         Comments left for future investigation. Looks like this component doesn't rerender when
         context values change? Although the console.log does happen multiple times for other state changes...
-        Why? it's not memo-ised (the below memo isn't the cause). And context is changed with setState. 🤔
+        Why? it's not memo-ised. And context is changed with setState. 🤔
     */
-    // const isDebug = useContext(IsDebugContext);
-    // const prefersReducedMotion = useContext(PrefersReducedMotionContext);
+    // const isDebug = useIsDebugContext();
+    // const prefersReducedMotion = usePrefersReducedMotionContext();
     // console.log(isDebug, prefersReducedMotion);
-
-    const AnimatedOrbitControls = useMemo(() => animated(OrbitControls), []);
 
     const { orbitSpeed } = useSpring({
         orbitSpeed: orbitSpeedMax,

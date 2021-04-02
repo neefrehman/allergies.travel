@@ -2,7 +2,9 @@ import type { TranslationNamespaces, TranslationStrings } from "data/schemas";
 
 type TranslatorKey = `${TranslationNamespaces}.${string}`;
 
-/** Returns a translator instance to be used to insert copy throughout the site */
+/**
+ * Returns a translator instance to be used to insert copy throughout the site
+ */
 export const createTranslator = (
     translations: TranslationStrings
 ): ((t: TranslatorKey) => string) => {
@@ -18,4 +20,4 @@ export const createTranslator = (
 };
 
 // TODO: swap for context implementation once _app.tsx can support getStaticProps. this
-// would avoidhaving to get the translations inside each page's generation
+// would avoid having to get the translations inside each page's generation

@@ -1,10 +1,8 @@
-import React, { useState, lazy, Suspense } from "react";
+import React, { useState } from "react";
 import styled from "@emotion/styled";
 import type { GetStaticProps } from "next";
 import Head from "next/head";
 
-import { useHasMounted } from "hooks/useHasMounted";
-import { ErrorBoundary } from "components/ErrorBoundary";
 import { CountryCard } from "components/CountryCard";
 import { getAllCountryData, getTranslationStrings } from "data/fetchers";
 import { generateSitemap } from "scripts/generateSitemap";
@@ -13,6 +11,7 @@ import { sluggify } from "utils/sluggify";
 import type { TranslationStrings } from "data/schemas";
 import { createTranslator } from "utils/i18n/createTranslator";
 import PeanutWorld from "containers/PeanutWorld";
+import { ErrorBoundary } from "components/ErrorBoundary";
 
 const IntroContainer = styled.div`
     background-color: ${({ theme }) => theme.colors.spaceNavy};
@@ -39,7 +38,6 @@ interface HomePageProps {
 
 const HomePage = ({ countryData, translations }: HomePageProps) => {
     const [titleIsVisible, setTitleIsVisible] = useState(false);
-    const hasMounted = useHasMounted();
 
     const t = createTranslator(translations);
 
@@ -50,14 +48,10 @@ const HomePage = ({ countryData, translations }: HomePageProps) => {
             </Head>
 
             <IntroContainer>
-                {hasMounted && (
-                    <ErrorBoundary fallback={<Title isVisible />}>
-                        <Suspense fallback={null}>
-                            <PeanutWorld setTitleIsVisible={setTitleIsVisible} />
-                            <Title isVisible={titleIsVisible} />
-                        </Suspense>
-                    </ErrorBoundary>
-                )}
+                <ErrorBoundary fallback={<Title isVisible />}>
+                    <PeanutWorld setTitleIsVisible={setTitleIsVisible} />
+                    <Title isVisible={titleIsVisible} />
+                </ErrorBoundary>
             </IntroContainer>
 
             {countryData.length > 0 && (

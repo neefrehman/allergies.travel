@@ -10,7 +10,7 @@ export const Lights = () => {
     const backLight = useRef<SpotLight>(null);
 
     useFrame(({ clock }) => {
-        const time = clock.elapsedTime * 0.033;
+        const time = clock.elapsedTime * 0.035;
 
         if (frontLight.current && backLight.current) {
             frontLight.current.position.x = Math.sin(time) * -DIST;

@@ -1,7 +1,7 @@
 import React, { memo, useMemo } from "react";
 import { useLoader } from "@react-three/fiber";
 import { animated, useSpring } from "@react-spring/three";
-import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
+import { OBJLoader } from "three-stdlib";
 import type { Group } from "three/src/objects/Group";
 
 import planetModel from "./models/peanut-planet.obj";
@@ -14,9 +14,7 @@ interface PlanetProps {
 export const Planet = memo(
     ({ willRotate }: PlanetProps) => {
         const planetObj = useLoader(OBJLoader, planetModel) as Group;
-        const clonedObject = useMemo(() => planetObj.clone(), [
-            planetObj,
-        ]) as Group;
+        const clonedObject = useMemo(() => planetObj.clone(), [planetObj]);
 
         const scale = window.innerWidth > 500 ? 4 : 3;
 

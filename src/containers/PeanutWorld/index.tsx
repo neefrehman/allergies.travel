@@ -1,20 +1,28 @@
 import React, { lazy, memo, Suspense } from "react";
 
+import { useHasMounted } from "hooks/useHasMounted";
+
 export interface PeanutWorldProps {
     setTitleIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const PeanutWorld = memo(
     ({ setTitleIsVisible }: PeanutWorldProps) => {
-        const cpuCoreCount = navigator?.hardwareConcurrency ?? 6;
-        const isLowPerformance = cpuCoreCount < 4;
-        // @ts-expect-error: connection does exist
+        const hasMounted = useHasMounted();
+
+        if (!hasMounted) {
+            return null;
+        }
+
+        // @ts-expect-error: connection does exist!
         const connection = navigator?.connection?.effectiveType ?? "4g";
+        const cpuCoreCount = navigator?.hardwareConcurrency ?? 6;
         const isLowConnectivity = connection === "slow-2g" || connection === "2g";
+        const isLowPerformance = cpuCoreCount < 4;
 
-        const shouldFallback = isLowPerformance || isLowConnectivity;
+        const shouldFallback = isLowConnectivity || isLowPerformance;
 
-        const Scene = shouldFallback // `./${shouldFallback ? "FallbackImage" : "Scene"}` has big bundle size increase. not helped by `webpackInclude`
+        const Scene = shouldFallback // `./${shouldFallback ? "FallbackImage" : "Scene"}` causes BIG bundle size increase. not helped by `webpackInclude`
             ? lazy(() => import("./FallbackImage"))
             : lazy(() => import("./Scene"));
 

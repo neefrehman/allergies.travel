@@ -3,7 +3,7 @@ import React, { useEffect, useMemo } from "react";
 import type { MeshPhysicalMaterialParameters } from "three/src/materials/Materials";
 import { MeshPhysicalMaterial } from "three/src/materials/Materials";
 import type { Shader } from "three/src/renderers/shaders/ShaderLib";
-import type { Group } from "three/src/objects/Group";
+import type { Object3D } from "three/src/core/Object3D";
 import { useFrame } from "@react-three/fiber";
 import glsl from "glslify";
 
@@ -76,7 +76,7 @@ export class DistortPhysicalMaterialImpl extends MeshPhysicalMaterial {
 }
 
 interface DistortedObjectProps {
-    object: Group;
+    object: Object3D;
     radius?: number;
     distort?: number;
     speed?: number;
