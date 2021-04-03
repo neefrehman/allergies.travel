@@ -16,12 +16,12 @@ export const Planet = memo(
         const planetObj = useLoader(OBJLoader, planetModel) as Group;
         const clonedObject = useMemo(() => planetObj.clone(), [planetObj]);
 
-        const scale = window.innerWidth > 500 ? 4 : 3;
+        const scale = window.innerWidth > 500 ? 2 : 1.5;
 
         const { rotation } = useSpring({
             rotation: [0, -0.3, 0],
             from: { rotation: [0, -22, 0] },
-            config: { mass: 3, tension: 355, friction: 235 },
+            config: { mass: 3, tension: 350, friction: 250 },
             immediate: !willRotate,
         });
 

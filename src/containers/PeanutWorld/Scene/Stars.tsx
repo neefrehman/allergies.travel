@@ -1,18 +1,27 @@
-import React, { useMemo } from "react";
+import React, { useCallback, useMemo } from "react";
 import { useSpring, animated } from "@react-spring/three";
 
-const getAxisPosition = (offset: number) =>
-    (offset + Math.random() * 1000) * (Math.round(Math.random()) ? -1 : 1);
+interface StarsProps {
+    count: number;
+    maxDistance: number;
+}
 
-export const Stars = ({ count = 1000, xOff = 0, yOff = 0, zOff = 50 }) => {
+export const Stars = ({ count, maxDistance }: StarsProps) => {
+    const getAxisPosition = useCallback(
+        ({ minDistance = 0 } = {}) =>
+            (minDistance + Math.random() * maxDistance) *
+            (Math.random() > 0.5 ? -1 : 1),
+        [maxDistance]
+    );
+
     const starPositionsArray = useMemo(() => {
-        const positions = [...Array(count)].flatMap(() => [
-            getAxisPosition(xOff),
-            getAxisPosition(yOff),
-            getAxisPosition(zOff),
+        const positions = [...Array(count)].map(() => [
+            getAxisPosition(),
+            getAxisPosition(),
+            getAxisPosition({ minDistance: 50 }),
         ]);
-        return new Float32Array(positions);
-    }, [count, xOff, yOff, zOff]);
+        return new Float32Array(positions.flat(1));
+    }, [count, getAxisPosition]);
 
     const { opacity } = useSpring({ opacity: 1, from: { opacity: 0 } });
 
@@ -27,7 +36,7 @@ export const Stars = ({ count = 1000, xOff = 0, yOff = 0, zOff = 50 }) => {
                 />
             </bufferGeometry>
             <animated.pointsMaterial
-                size={2}
+                size={maxDistance * 0.002}
                 sizeAttenuation
                 color="white"
                 transparent

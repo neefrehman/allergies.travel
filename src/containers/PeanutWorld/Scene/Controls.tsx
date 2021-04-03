@@ -3,10 +3,6 @@ import { useThree } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { animated, useSpring } from "@react-spring/three";
 
-// eslint-disable-next-line import/order
-// import { useIsDebugContext } from "context/IsDebug";
-// import { usePrefersReducedMotionContext } from "context/PrefersReducedMotion";
-
 interface ControlsProps {
     targetZ: number;
     orbitSpeedMax: number;
@@ -21,14 +17,6 @@ export const Controls = ({
     userControllable,
 }: ControlsProps) => {
     const { gl, camera } = useThree();
-
-    /*
-        Context only returns intial values on this layer. I've resorted to prop drilling as
-        in the parent it works fine. Comment left for future investigation 🤔
-    */
-    // const isDebug = useIsDebugContext();
-    // const prefersReducedMotion = usePrefersReducedMotionContext();
-    // console.log(isDebug, prefersReducedMotion);
 
     const { orbitSpeed } = useSpring({
         orbitSpeed: orbitSpeedMax,

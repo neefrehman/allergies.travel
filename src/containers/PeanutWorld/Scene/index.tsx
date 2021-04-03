@@ -1,7 +1,6 @@
 import React, { memo, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 // import { EffectComposer, Noise } from "@react-three/postprocessing";
-import { Preload } from "@react-three/drei";
 import { useTheme } from "@emotion/react";
 
 import { useHomePageAnimationHasRunContext } from "context/HomePageAnimationHasRun";
@@ -28,9 +27,10 @@ export const PeanutWorldScene = memo(
 
         const isShortAnimation = prefersReducedMotion || hasRun; // FIXME: rotation and orbit issues
 
-        const ORBIT_SPEED = prefersReducedMotion ? 0.1 : 0.26;
-        const ZOOM_START = isShortAnimation ? 26 : 2100;
-        const ZOOM_END = 15;
+        const CAMERA_FAR = 1300;
+        const CONTROLS_ORBIT_SPEED = prefersReducedMotion ? 0.1 : 0.26;
+        const ZOOM_START = isShortAnimation ? 8 : CAMERA_FAR;
+        const ZOOM_END = 5;
 
         const onZoomRest = () => {
             setTitleIsVisible(true);
@@ -39,30 +39,31 @@ export const PeanutWorldScene = memo(
 
         return (
             <Canvas
+                camera={{ far: CAMERA_FAR }}
                 style={{
                     backgroundColor: colors.spaceNavy,
                     transition: "opacity 3000ms",
-                    opacity: prefersReducedMotion && hasMounted ? "0" : "1",
+                    opacity: prefersReducedMotion && !hasMounted ? "0" : "1",
                     pointerEvents: isDebug ? "initial" : "none",
                 }}
             >
+                <fog args={["#030515", 0, CAMERA_FAR * 0.15]} attach="fog" />
+                {/* FIXME: breaks until resize & (mostly) removes the fog effect */}
+                {/* <EffectComposer>
+                        <Noise opacity={0.04} />
+                    </EffectComposer> */}
                 <Suspense fallback={null}>
-                    <Preload all />
                     <ZoomIn from={ZOOM_START} to={ZOOM_END} onRest={onZoomRest}>
                         <Planet willRotate={!isShortAnimation} />
                         <Lights />
-                        <Stars count={1000} />
+                        <Stars count={1000} maxDistance={CAMERA_FAR} />
                     </ZoomIn>
+                    <Controls
+                        targetZ={ZOOM_END}
+                        orbitSpeedMax={CONTROLS_ORBIT_SPEED}
+                        userControllable={isDebug}
+                    />
                 </Suspense>
-                <Controls
-                    targetZ={ZOOM_END}
-                    orbitSpeedMax={ORBIT_SPEED}
-                    userControllable={isDebug}
-                />
-                {/* FIXME: breaks until resize & (mostly) removes the fog effect */}
-                {/* <EffectComposer>
-                    <Noise opacity={0.04} />
-                </EffectComposer> */}
             </Canvas>
         );
     },

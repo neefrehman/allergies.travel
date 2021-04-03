@@ -23,11 +23,8 @@ export const ZoomIn = ({ from, to, onRest, children }: ZoomInProps) => {
     });
 
     return (
-        <>
-            <fog attach="fog" args={["#030515", 0, 500]} />
-            <animated.group position={(position as unknown) as Vector3}>
-                {children}
-            </animated.group>
-        </>
+        <animated.group position={(position as unknown) as Vector3}>
+            {children}
+        </animated.group>
     );
 };
