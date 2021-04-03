@@ -23,10 +23,8 @@ export const Controls = ({
     const { gl, camera } = useThree();
 
     /*
-        Context only returns intial values on this layer. Resorted to prop drilling as in the parent it works fine.
-        Comments left for future investigation. Looks like this component doesn't rerender when
-        context values change? Although the console.log does happen multiple times for other state changes...
-        Why? it's not memo-ised. And context is changed with setState. 🤔
+        Context only returns intial values on this layer. I've resorted to prop drilling as
+        in the parent it works fine. Comment left for future investigation 🤔
     */
     // const isDebug = useIsDebugContext();
     // const prefersReducedMotion = usePrefersReducedMotionContext();

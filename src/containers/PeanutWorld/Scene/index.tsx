@@ -33,8 +33,8 @@ export const PeanutWorldScene = memo(
         const ZOOM_END = 15;
 
         const onZoomRest = () => {
-            setHasRun(true);
             setTitleIsVisible(true);
+            setHasRun(true);
         };
 
         return (
@@ -53,16 +53,16 @@ export const PeanutWorldScene = memo(
                         <Lights />
                         <Stars count={1000} />
                     </ZoomIn>
-                    <Controls
-                        targetZ={ZOOM_END}
-                        orbitSpeedMax={ORBIT_SPEED}
-                        userControllable={isDebug}
-                    />
-                    {/* FIXME: breaks until resize & (mostly) removes the fog effect */}
-                    {/* <EffectComposer>
-                        <Noise opacity={0.04} />
-                    </EffectComposer> */}
                 </Suspense>
+                <Controls
+                    targetZ={ZOOM_END}
+                    orbitSpeedMax={ORBIT_SPEED}
+                    userControllable={isDebug}
+                />
+                {/* FIXME: breaks until resize & (mostly) removes the fog effect */}
+                {/* <EffectComposer>
+                    <Noise opacity={0.04} />
+                </EffectComposer> */}
             </Canvas>
         );
     },

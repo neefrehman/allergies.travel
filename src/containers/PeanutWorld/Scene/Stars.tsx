@@ -1,54 +1,37 @@
-import React, { useMemo, useRef } from "react";
-import { useFrame } from "@react-three/fiber";
-import type { PointsMaterial } from "three";
+import React, { useMemo } from "react";
+import { useSpring, animated } from "@react-spring/three";
+
+const getAxisPosition = (offset: number) =>
+    (offset + Math.random() * 1000) * (Math.round(Math.random()) ? -1 : 1);
 
 export const Stars = ({ count = 1000, xOff = 0, yOff = 0, zOff = 50 }) => {
-    const points = useRef<PointsMaterial>(null);
-
-    useFrame(() => {
-        if (points.current) {
-            if (points.current.opacity < 1) points.current.opacity += 0.02;
-        }
-    });
-
-    const starPositionArray = useMemo(() => {
-        const positions = [];
-        for (let i = 0; i < count; i++) {
-            positions.push(
-                (xOff + Math.random() * 1000) *
-                    (Math.round(Math.random()) ? -1 : 1)
-            );
-            positions.push(
-                (yOff + Math.random() * 1000) *
-                    (Math.round(Math.random()) ? -1 : 1)
-            );
-            positions.push(
-                (zOff + Math.random() * 1000) *
-                    (Math.round(Math.random()) ? -1 : 1)
-            );
-        }
+    const starPositionsArray = useMemo(() => {
+        const positions = [...Array(count)].flatMap(() => [
+            getAxisPosition(xOff),
+            getAxisPosition(yOff),
+            getAxisPosition(zOff),
+        ]);
         return new Float32Array(positions);
     }, [count, xOff, yOff, zOff]);
 
+    const { opacity } = useSpring({ opacity: 1, from: { opacity: 0 } });
+
     return (
         <points>
-            <bufferGeometry attach="geometry">
+            <bufferGeometry>
                 <bufferAttribute
                     attachObject={["attributes", "position"]}
                     count={count}
-                    array={starPositionArray}
+                    array={starPositionsArray}
                     itemSize={3}
                 />
             </bufferGeometry>
-
-            <pointsMaterial
-                ref={points}
-                attach="material"
+            <animated.pointsMaterial
                 size={2}
                 sizeAttenuation
                 color="white"
                 transparent
-                opacity={0}
+                opacity={opacity}
                 fog={false}
             />
         </points>
