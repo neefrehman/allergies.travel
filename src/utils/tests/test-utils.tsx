@@ -59,7 +59,5 @@ const customRender = (
 const t = createTranslator(getTranslationStrings({ locale: "en" }));
 
 export * from "@testing-library/react";
-
 export { composeStories } from "@storybook/testing-react";
-
 export { customRender as render, t };

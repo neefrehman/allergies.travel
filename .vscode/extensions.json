@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "boyswan.glsl-literal",
+        "kavod-io.vscode-jest-test-adapter",
+        "esbenp.prettier-vscode",
+        "hbenl.vscode-test-explorer",
+        "gruntfuggly.todo-tree",
+        "raczzalan.webgl-glsl-editor"
+    ]
+}
