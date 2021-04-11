@@ -27,5 +27,5 @@ export const deepMerge = <
         });
     }
 
-    return Object.assign(target || ({} as A), source);
+    return Object.assign(target || ({} as A | B), source);
 };

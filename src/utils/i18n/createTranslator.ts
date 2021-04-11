@@ -10,10 +10,12 @@ export const createTranslator = (
 ): ((t: TranslatorKey) => string) => {
     const t = (translationKey: TranslatorKey) => {
         const [namespace, key] = translationKey.split(".");
-        return (
-            translations[namespace]?.[key] ??
-            `!! MISSING TRANSLATION: ${translationKey} !!`
-        );
+        const fallback =
+            process.env.NODE_ENV === "production"
+                ? `!! MISSING TRANSLATION: ${translationKey} !!`
+                : translationKey;
+
+        return translations[namespace]?.[key] ?? fallback;
     };
 
     return t;

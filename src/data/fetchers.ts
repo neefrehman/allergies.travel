@@ -5,13 +5,14 @@ import type {
     CountryContent,
     RawTranslationSchema,
     RawTranslationStrings,
+    TranslationNamespaces,
     TranslationStrings,
 } from "./schemas";
 
 /**
  * Formats translations from an array of keys and values, to an object of key-value pairs
  */
-export const formatTranslations = (
+const formatTranslations = (
     rawTranslations: RawTranslationStrings
 ): TranslationStrings =>
     Object.keys(rawTranslations).reduce((acc, namespace) => {
@@ -34,13 +35,13 @@ export const getTranslationStrings = ({
     filterNamespaces,
 }: {
     locale?: string;
-    filterNamespaces?: string[];
+    filterNamespaces?: TranslationNamespaces[];
 }): TranslationStrings => {
     const siteCopyFolder = "src/data/site-copy";
 
     const namespaces = fs
         .readdirSync(`${siteCopyFolder}/${locale}`)
-        .map(namespace => namespace.replace(".json", ""))
+        .map(namespace => namespace.replace(".json", "") as TranslationNamespaces)
         .filter(namespace => filterNamespaces?.includes(namespace) ?? true);
 
     const rawTranslations = namespaces.reduce((acc, namespace) => {
@@ -78,7 +79,7 @@ export const getAllCountryData = ({
                     "utf8"
                 )
             );
-            // TODO fetch public posts only ("published" boolean in CMS schema?)
+            // TODO fetch public posts only ("isPublished" boolean in CMS schema?)
             return currentCountryData;
         });
 
