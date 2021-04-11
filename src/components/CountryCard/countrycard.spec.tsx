@@ -1,27 +1,22 @@
 import React from "react";
-import { render, screen } from "test-utils";
+import { render, screen, composeStories } from "test-utils";
 
-import { CountryCard } from "./index";
-import type { CountryCardProps } from "./index";
+import * as stories from "./CountryCard.stories";
 
-const testProps: CountryCardProps = {
-    countryName: "Afghanistan",
-    countryFlag: "🇦🇫",
-    linkPath: "afghanistan",
-};
+const { Primary } = composeStories(stories);
 
 describe("CountryCard", () => {
     describe("When the CountryCard component mounts", () => {
-        beforeEach(() => render(<CountryCard {...testProps} />));
+        beforeEach(() => render(<Primary />));
 
         it("It renders correctly", () => {
             expect(screen.getByRole("link")).toBeInTheDocument();
         });
         it("The correct country name is diplayed", () => {
-            expect(screen.getByRole("link")).toContainHTML("Afghanistan");
+            expect(screen.getByRole("link")).toHaveTextContent("Afghanistan");
         });
         it("The correct flag is diplayed", () => {
-            expect(screen.getByTestId("userEmailAddress")).toContainHTML("🇦🇫");
+            expect(screen.getByRole("link")).toContainHTML("🇦🇫");
         });
     });
 });

@@ -10,8 +10,6 @@ import { AppProviders } from "pages/_app";
 import { getTranslationStrings } from "data/fetchers";
 import { createTranslator } from "utils/i18n/createTranslator";
 
-// TODO: implement storkybook-based react testing https://github.com/storybookjs/testing-react
-
 const mockRouter: NextRouter = {
     basePath: "",
     pathname: "/",
@@ -61,5 +59,7 @@ const customRender = (
 const t = createTranslator(getTranslationStrings({ locale: "en" }));
 
 export * from "@testing-library/react";
+
+export { composeStories } from "@storybook/testing-react";
 
 export { customRender as render, t };

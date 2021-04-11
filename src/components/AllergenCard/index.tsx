@@ -36,13 +36,13 @@ export const AllergenCard = ({
     containingFoods,
     linkPath,
 }: AllergenCardProps) => (
-    <Link href={linkPath} passHref data-testid="allergen-card-link">
+    <Link href={linkPath} passHref>
         <StyledCard>
             <h3>{allergenName}</h3>
             <p>
                 found in{" "}
                 {containingFoods.map(food => (
-                    <span>{food}</span>
+                    <span key="food">{food}</span>
                 ))}
             </p>
         </StyledCard>

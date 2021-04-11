@@ -93,6 +93,7 @@
         "import/prefer-default-export": "off",
         "prettier/prettier": "warn",
         "react/prop-types": "off",
+        "react/jsx-key": ["error"],
         "react/jsx-filename-extension": "off",
         "react/jsx-indent": [2, 4],
         "react/jsx-indent-props": [2, 4],

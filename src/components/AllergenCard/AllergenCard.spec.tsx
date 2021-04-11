@@ -1,29 +1,19 @@
 import React from "react";
-import { render, screen } from "test-utils";
+import { render, screen, composeStories } from "test-utils";
 
-import { AllergenCard } from "./index";
-import type { AllergenCardProps } from "./index";
+import * as stories from "./AllergenCard.stories";
 
-const testProps: AllergenCardProps = {
-    allergenName: "Peanuts",
-    containingFoods: ["dhoog"],
-    linkPath: "afghanistan",
-};
+const { Primary } = composeStories(stories);
 
 describe("AllergenCard", () => {
     describe("When the AllergenCard component mounts", () => {
-        beforeEach(() => render(<AllergenCard {...testProps} />));
+        beforeEach(() => render(<Primary />));
 
         it("It renders correctly", () => {
-            expect(screen.getByTestId("allergen-card-link")).toBeInTheDocument();
+            expect(screen.getByRole("link")).toBeInTheDocument();
         });
         it("The correct allergen name is diplayed", () => {
-            expect(screen.getByTestId("allergen-card-link")).toContainHTML(
-                "Afghanistan"
-            );
-        });
-        it("The correct flag is diplayed", () => {
-            expect(screen.getByTestId("userEmailAddress")).toContainHTML("🇦🇫");
+            expect(screen.getByRole("link")).toContainHTML("afghanistan");
         });
     });
 });
