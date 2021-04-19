@@ -31,7 +31,7 @@
         "plugin:import/typescript",
         "plugin:react-hooks/recommended",
         "prettier",
-        "plugin:testing-library/recommended",
+        "plugin:testing-library/dom",
         "plugin:testing-library/react"
     ],
     "settings": {

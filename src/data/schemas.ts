@@ -2,36 +2,33 @@ import type { Country } from "world-countries";
 
 import type { ISO_639_1 } from "utils/i18n/languageCodeMappings";
 
-/**
- * SITE-COPY
- */
-
-export type TranslationNamespaces = "common" | "home" | "country";
+/*
+   SITE-COPY
+*/
+export type TranslationNamespaces = "common" | "home" | "country" | "about";
 
 export interface RawTranslationSchema {
     title: string;
     copy: { key: string; value: string }[];
 }
-
 export interface RawTranslationStrings {
     [nameSpace: string]: { key: string; value: string }[];
 }
+
 export interface TranslationStrings {
     [nameSpace: string]: Record<string, string>;
 }
 
-/**
- * ALLERGENS
- */
-
+/*
+   ALLERGENS
+*/
 export interface AllergenRelation {
     title: string;
 }
 
-/**
- * COUNTRIES
- */
-
+/*
+   COUNTRIES
+*/
 export interface CountryContent {
     slug: string;
     title: string;

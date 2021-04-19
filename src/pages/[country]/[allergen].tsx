@@ -117,6 +117,5 @@ export const getStaticProps: GetStaticProps<AllergenPageProps> = async ({
             //     allergen => allergen.name === allergenTitle
             // ),
         },
-        revalidate: 86_400, // Next will regenerate this page at most once per day
     };
 };

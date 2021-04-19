@@ -111,6 +111,5 @@ export const getStaticProps: GetStaticProps<CountryPageProps> = async ({
             isPublished: isPublished ?? null, // TODO: make null in data not here
             locales: locales ?? ["en"],
         },
-        revalidate: 86_400, // Next will regenerate this page at most once per day
     };
 };

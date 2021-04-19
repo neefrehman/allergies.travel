@@ -6,7 +6,6 @@ import type { NextRouter } from "next/dist/next-server/lib/router/router";
 import { render } from "@testing-library/react";
 import type { RenderOptions, RenderResult } from "@testing-library/react";
 
-import { AppProviders } from "pages/_app";
 import { getTranslationStrings } from "data/fetchers";
 import { createTranslator } from "utils/i18n/createTranslator";
 
@@ -44,11 +43,7 @@ Object.defineProperty(window, "matchMedia", {
 });
 
 const Providers = ({ children }: { children?: ReactNode }) => (
-    <AppProviders>
-        <RouterContext.Provider value={mockRouter}>
-            {children}
-        </RouterContext.Provider>
-    </AppProviders>
+    <RouterContext.Provider value={mockRouter}>{children}</RouterContext.Provider>
 );
 
 const customRender = (

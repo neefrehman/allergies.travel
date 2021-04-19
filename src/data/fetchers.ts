@@ -9,6 +9,11 @@ import type {
     TranslationStrings,
 } from "./schemas";
 
+/*
+   SITE-COPY
+*/
+const siteCopyFolder = "src/data/site-copy";
+
 /**
  * Formats translations from an array of keys and values, to an object of key-value pairs
  */
@@ -37,8 +42,6 @@ export const getTranslationStrings = ({
     locale?: string;
     filterNamespaces?: TranslationNamespaces[];
 }): TranslationStrings => {
-    const siteCopyFolder = "src/data/site-copy";
-
     const namespaces = fs
         .readdirSync(`${siteCopyFolder}/${locale}`)
         .map(namespace => namespace.replace(".json", "") as TranslationNamespaces)
@@ -46,10 +49,7 @@ export const getTranslationStrings = ({
 
     const rawTranslations = namespaces.reduce((acc, namespace) => {
         const currentTranslations: RawTranslationSchema = JSON.parse(
-            fs.readFileSync(
-                `${siteCopyFolder}/${locale}/${namespace}.json`,
-                "utf-8"
-            )
+            fs.readFileSync(`${siteCopyFolder}/${locale}/${namespace}.json`, "utf-8")
         );
         return {
             ...acc,
@@ -60,6 +60,9 @@ export const getTranslationStrings = ({
     return formatTranslations(rawTranslations);
 };
 
+/*
+   COUNTRIES
+*/
 const countriesFolder = "src/data/countries";
 
 /**
@@ -109,6 +112,9 @@ export const getCountryData = ({
     return data;
 };
 
+/*
+   ALLERGENS
+*/
 const allergensFolder = "src/data/allergens";
 
 /**

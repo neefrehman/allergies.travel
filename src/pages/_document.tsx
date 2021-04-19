@@ -57,10 +57,7 @@ class MyDocument extends Document {
                         content="https://allergies.travel"
                     />
                     <meta property="twitter:title" content="allergies.travel" />
-                    <meta
-                        property="twitter:description"
-                        content="Not coming soon"
-                    />
+                    <meta property="twitter:description" content="Not coming soon" />
                     <meta
                         property="twitter:image"
                         content="https://allergies.travel/static/meta-image.jpeg"

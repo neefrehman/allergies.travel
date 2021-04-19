@@ -84,8 +84,7 @@ const generateLocalisedLocationMappings = async () => {
 
                 const newLocalesToQueryFor = supportedLocales.filter(
                     locale =>
-                        !previouslyQueriedLocales.includes(locale) &&
-                        locale !== "en"
+                        !previouslyQueriedLocales.includes(locale) && locale !== "en"
                 );
 
                 const localisedLocationNames = await newLocalesToQueryFor.reduce(

@@ -17,9 +17,7 @@ export const PrefersReducedMotionContext = createContext<PrefersReducedMotionCon
 /**
  * Global context provider for reduced motion a11y preference
  */
-export const PrefersReducedMotionProvider = ({
-    children,
-}: SimpleProviderProps) => {
+export const PrefersReducedMotionProvider = ({ children }: SimpleProviderProps) => {
     const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
 
     const QUERY = "(prefers-reduced-motion: reduce)";

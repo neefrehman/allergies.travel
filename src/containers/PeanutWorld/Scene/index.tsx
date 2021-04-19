@@ -1,6 +1,6 @@
 import React, { memo, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-// import { EffectComposer, Noise } from "@react-three/postprocessing";
+import { EffectComposer, Noise } from "@react-three/postprocessing";
 import { useTheme } from "@emotion/react";
 
 import { useHomePageAnimationHasRunContext } from "context/HomePageAnimationHasRun";
@@ -47,11 +47,12 @@ export const PeanutWorldScene = memo(
                     pointerEvents: isDebug ? "initial" : "none",
                 }}
             >
-                <fog args={["#030515", 0, CAMERA_FAR * 0.15]} attach="fog" />
-                {/* FIXME: breaks until resize & (mostly) removes the fog effect */}
-                {/* <EffectComposer>
-                        <Noise opacity={0.04} />
-                    </EffectComposer> */}
+                <fog args={["#000004", 0, CAMERA_FAR * 0.12]} attach="fog" />
+                <EffectComposer // stops star opacity fading from happening...
+                    multisampling={0} // To remove after next three release
+                >
+                    <Noise opacity={0.04} />
+                </EffectComposer>
                 <Suspense fallback={null}>
                     <ZoomIn from={ZOOM_START} to={ZOOM_END} onRest={onZoomRest}>
                         <Planet willRotate={!isShortAnimation} />

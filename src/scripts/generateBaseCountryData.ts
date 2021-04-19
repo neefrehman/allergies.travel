@@ -9,10 +9,7 @@ import type { CountryContent } from "data/schemas";
 import nextConfig from "../../next.config";
 import { sluggify } from "../utils/sluggify";
 import { deepMerge } from "../utils/deepMerge";
-import {
-    ISO_639_1_TO_3,
-    ISO_639_3_TO_1,
-} from "../utils/i18n/languageCodeMappings";
+import { ISO_639_1_TO_3, ISO_639_3_TO_1 } from "../utils/i18n/languageCodeMappings";
 import type { ISO_639_1, ISO_639_3 } from "../utils/i18n/languageCodeMappings";
 import { subregionNameMappings } from "../utils/i18n/subregionNameMappings";
 import { regionNameMappings } from "../utils/i18n/regionNameMappings";

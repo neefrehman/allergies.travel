@@ -16,9 +16,7 @@ export const IsDebugContext = createContext<IsDebugContextValue>(null);
  * Global context provider for debug mode
  */
 export const IsDebugProvider = ({ children }: SimpleProviderProps) => {
-    const [isDebug, setIsDebug] = useState(
-        process.env.NODE_ENV === "development"
-    );
+    const [isDebug, setIsDebug] = useState(process.env.NODE_ENV === "development");
 
     useIsomorphicLayoutEffect(() => {
         if (isDebug === true) return;
@@ -29,9 +27,7 @@ export const IsDebugProvider = ({ children }: SimpleProviderProps) => {
     }, [isDebug]);
 
     return (
-        <IsDebugContext.Provider value={isDebug}>
-            {children}
-        </IsDebugContext.Provider>
+        <IsDebugContext.Provider value={isDebug}>{children}</IsDebugContext.Provider>
     );
 };
 

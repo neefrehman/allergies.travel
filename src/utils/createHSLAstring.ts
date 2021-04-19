@@ -9,5 +9,4 @@ export const hsla = <
     s: S,
     l: L,
     a?: A
-) =>
-    `hsla(${h}, ${s}%, ${l}%, ${a || 100}%)` as `hsla(${H}, ${S}%, ${L}%, ${A}%)`;
+) => `hsla(${h}, ${s}%, ${l}%, ${a || 100}%)` as `hsla(${H}, ${S}%, ${L}%, ${A}%)`;
