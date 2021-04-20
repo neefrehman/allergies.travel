@@ -1,4 +1,4 @@
-/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable import/no-extraneous-dependencies, no-console */
 import * as fs from "fs";
 
 import fetch from "node-fetch";
@@ -12,11 +12,28 @@ import { capitalNameMappings as previousCapitalMappings } from "../src/utils/i18
 import { subregionNameMappings as previousSubregionMappings } from "../src/utils/i18n/subregionNameMappings";
 import nextConfig from "../next.config";
 
+type GeonamesResponse = {
+    geonames?: { name?: string }[];
+};
+
+type LocationTypeInputData = {
+    [locationType: string]: {
+        previousMapping: { [location: string]: { [locale: string]: string } };
+        newData: string[];
+    };
+};
+
+type LocalisedLocationNames = {
+    [locale: string]: string;
+};
+
+type LocalisedLocationNamesDict = {
+    [locationNameInEnglish: string]: LocalisedLocationNames;
+};
+
 /**
  * Uses the geonames API to fetch and cache localised location names that Intl.DisplayNames
  * can't create for us (region, capital, etc.). these are then used by `generateBaseCountryData.ts`
- *
- * @remarks — VSCode says many of the `await` calls have no effect, but they do!
  */
 const generateLocalisedLocationMappings = async () => {
     const prettierConfig = await prettier.resolveConfig("./.prettierrc");
@@ -31,7 +48,6 @@ const generateLocalisedLocationMappings = async () => {
         nameInEnglish: string,
         locale: string
     ): Promise<string> => {
-        /* eslint-disable no-console */
         try {
             console.log(`querying: ${nameInEnglish} in ${locale}`);
             const geonamesResponse = await fetch(
@@ -39,35 +55,26 @@ const generateLocalisedLocationMappings = async () => {
                     nameInEnglish
                 )}&maxRows=1&username=neef&lang=${locale}`
             );
-            const data = (await geonamesResponse.json()) as {
-                geonames?: { name?: string }[];
-            };
-            const localisedName = data?.geonames?.[0].name ?? nameInEnglish;
-            return localisedName;
+            const data: GeonamesResponse = await geonamesResponse.json();
+            return data.geonames?.[0].name ?? nameInEnglish;
         } catch (err) {
             console.log(err);
             return nameInEnglish;
         }
-        /* eslint-enable no-console */
     };
 
-    const locationTypeData: {
-        [locationType: string]: {
-            previousMapping: { [location: string]: { [locale: string]: string } };
-            newData: string[];
-        };
-    } = {
+    const locationTypeData: LocationTypeInputData = {
         capitals: {
             previousMapping: previousCapitalMappings,
             newData: countryData.map(country => country.capital[0]),
         },
         regions: {
             previousMapping: previousRegionMappings,
-            newData: [...new Set(countryData.map(country => country.region))], // need overwiriting: Americas
+            newData: [...new Set(countryData.map(country => country.region))], // needs overwiriting: Americas
         },
         subregions: {
             previousMapping: previousSubregionMappings,
-            newData: [...new Set(countryData.map(country => country.subregion))], // need overwiriting: Central Europe, Middle Africa
+            newData: [...new Set(countryData.map(country => country.subregion))], // needs overwiriting: Central Europe, Middle Africa
         },
     };
 
@@ -99,7 +106,7 @@ const generateLocalisedLocationMappings = async () => {
                             ),
                         };
                     },
-                    {}
+                    {} as Promise<LocalisedLocationNames>
                 );
 
                 const localisedCurrentLocationNameMapping = {
@@ -114,7 +121,7 @@ const generateLocalisedLocationMappings = async () => {
                     ...localisedCurrentLocationNameMapping,
                 };
             },
-            {}
+            {} as Promise<LocalisedLocationNamesDict>
         );
 
         const mergedData = deepMerge(previousMapping, newMappedData);
@@ -135,7 +142,6 @@ const generateLocalisedLocationMappings = async () => {
     });
 };
 
-/* eslint-disable no-console */
 generateLocalisedLocationMappings()
     .then(() => console.log("Location name mappings generated"))
     .catch(error => console.log("error generating location name mappings", error));
