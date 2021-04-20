@@ -26,11 +26,7 @@
             { "languageCode": "tg", "name": "Tajik" }
         ],
         "currencies": [
-            {
-                "currencyCode": "TJS",
-                "name": "Tajikistani Somoni",
-                "symbol": "ЅМ"
-            }
+            { "currencyCode": "TJS", "name": "Tajikistani Somoni", "symbol": "ЅМ" }
         ],
         "flag": "🇹🇯",
         "codes": { "cca2": "TJ", "cca3": "TJK", "ccn3": "762" },

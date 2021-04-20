@@ -6,11 +6,7 @@
             "common": "Jamaika",
             "official": "Jamaika",
             "native": [
-                {
-                    "languageCode": "en",
-                    "official": "Jamaica",
-                    "common": "Jamaica"
-                },
+                { "languageCode": "en", "official": "Jamaica", "common": "Jamaica" },
                 { "official": "Jamaica", "common": "Jamaica" }
             ]
         },

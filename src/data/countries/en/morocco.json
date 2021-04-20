@@ -17,10 +17,7 @@
         "capital": "Rabat",
         "region": "Africa",
         "subregion": "Northern Africa",
-        "languages": [
-            { "languageCode": "ar", "name": "Arabic" },
-            { "name": "ber" }
-        ],
+        "languages": [{ "languageCode": "ar", "name": "Arabic" }, { "name": "ber" }],
         "currencies": [
             { "currencyCode": "MAD", "name": "Moroccan Dirham", "symbol": "د.م." }
         ],

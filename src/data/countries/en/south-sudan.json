@@ -18,11 +18,7 @@
         "subregion": "Middle Africa",
         "languages": [{ "languageCode": "en", "name": "English" }],
         "currencies": [
-            {
-                "currencyCode": "SSP",
-                "name": "South Sudanese Pound",
-                "symbol": "£"
-            }
+            { "currencyCode": "SSP", "name": "South Sudanese Pound", "symbol": "£" }
         ],
         "flag": "🇸🇸",
         "codes": { "cca2": "SS", "cca3": "SSD", "ccn3": "728" },

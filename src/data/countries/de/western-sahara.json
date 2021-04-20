@@ -30,11 +30,7 @@
             { "languageCode": "es", "name": "Spanisch" }
         ],
         "currencies": [
-            {
-                "currencyCode": "DZD",
-                "name": "Algerischer Dinar",
-                "symbol": "دج"
-            },
+            { "currencyCode": "DZD", "name": "Algerischer Dinar", "symbol": "دج" },
             {
                 "currencyCode": "MAD",
                 "name": "Marokkanischer Dirham",

@@ -18,11 +18,7 @@
         "subregion": "Greater Cairo Area",
         "languages": [{ "languageCode": "pt", "name": "Portugiesisch" }],
         "currencies": [
-            {
-                "currencyCode": "AOA",
-                "name": "Angolanischer Kwanza",
-                "symbol": "Kz"
-            }
+            { "currencyCode": "AOA", "name": "Angolanischer Kwanza", "symbol": "Kz" }
         ],
         "flag": "🇦🇴",
         "codes": { "cca2": "AO", "cca3": "AGO", "ccn3": "024" },

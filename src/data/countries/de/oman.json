@@ -6,11 +6,7 @@
             "common": "Oman",
             "official": "Sultanat Oman",
             "native": [
-                {
-                    "languageCode": "ar",
-                    "official": "سلطنة عمان",
-                    "common": "عمان"
-                }
+                { "languageCode": "ar", "official": "سلطنة عمان", "common": "عمان" }
             ]
         },
         "capital": "Maskat",

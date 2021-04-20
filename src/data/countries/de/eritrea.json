@@ -28,11 +28,7 @@
             { "languageCode": "ti", "name": "Tigrinya" }
         ],
         "currencies": [
-            {
-                "currencyCode": "ERN",
-                "name": "Eritreischer Nakfa",
-                "symbol": "Nfk"
-            }
+            { "currencyCode": "ERN", "name": "Eritreischer Nakfa", "symbol": "Nfk" }
         ],
         "flag": "🇪🇷",
         "codes": { "cca2": "ER", "cca3": "ERI", "ccn3": "232" },

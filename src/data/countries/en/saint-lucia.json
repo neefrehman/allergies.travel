@@ -18,11 +18,7 @@
         "subregion": "Caribbean",
         "languages": [{ "languageCode": "en", "name": "English" }],
         "currencies": [
-            {
-                "currencyCode": "XCD",
-                "name": "East Caribbean Dollar",
-                "symbol": "$"
-            }
+            { "currencyCode": "XCD", "name": "East Caribbean Dollar", "symbol": "$" }
         ],
         "flag": "🇱🇨",
         "codes": { "cca2": "LC", "cca3": "LCA", "ccn3": "662" },

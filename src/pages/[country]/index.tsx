@@ -50,7 +50,9 @@ const CountryPage = ({
             </h1>
             {baseInfo.name.official && <p>{baseInfo.name.official}</p>}
             {allergens.length > 0 &&
-                allergens.map(allergen => <h3>{allergen.name}</h3>)}
+                allergens.map(allergen => (
+                    <h3 key={allergen.name}>{allergen.name}</h3>
+                ))}
             {cuisineDescription && <p>{cuisineDescription}</p>}
             <p>capital: {baseInfo.capital}</p>
             <p>region: {baseInfo.region}</p>

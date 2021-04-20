@@ -11,11 +11,7 @@
                     "official": "Færøerne",
                     "common": "Færøerne"
                 },
-                {
-                    "languageCode": "fo",
-                    "official": "Føroyar",
-                    "common": "Føroyar"
-                }
+                { "languageCode": "fo", "official": "Føroyar", "common": "Føroyar" }
             ]
         },
         "capital": "Tórshavn",

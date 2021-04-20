@@ -18,11 +18,7 @@
         "subregion": "Eastern Europe",
         "languages": [{ "languageCode": "hu", "name": "Ungarisch" }],
         "currencies": [
-            {
-                "currencyCode": "HUF",
-                "name": "Ungarischer Forint",
-                "symbol": "Ft"
-            }
+            { "currencyCode": "HUF", "name": "Ungarischer Forint", "symbol": "Ft" }
         ],
         "flag": "🇭🇺",
         "codes": { "cca2": "HU", "cca3": "HUN", "ccn3": "348" },

@@ -18,11 +18,7 @@
         "subregion": "Westafrika",
         "languages": [{ "languageCode": "en", "name": "Englisch" }],
         "currencies": [
-            {
-                "currencyCode": "LRD",
-                "name": "Liberianischer Dollar",
-                "symbol": "$"
-            }
+            { "currencyCode": "LRD", "name": "Liberianischer Dollar", "symbol": "$" }
         ],
         "flag": "🇱🇷",
         "codes": { "cca2": "LR", "cca3": "LBR", "ccn3": "430" },

@@ -26,11 +26,7 @@
             { "languageCode": "fr", "name": "Französisch" }
         ],
         "currencies": [
-            {
-                "currencyCode": "LBP",
-                "name": "Libanesisches Pfund",
-                "symbol": "ل.ل"
-            }
+            { "currencyCode": "LBP", "name": "Libanesisches Pfund", "symbol": "ل.ل" }
         ],
         "flag": "🇱🇧",
         "codes": { "cca2": "LB", "cca3": "LBN", "ccn3": "422" },

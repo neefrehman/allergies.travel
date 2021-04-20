@@ -27,11 +27,7 @@
         ],
         "currencies": [
             { "currencyCode": "LSL", "name": "Loti", "symbol": "L" },
-            {
-                "currencyCode": "ZAR",
-                "name": "Südafrikanischer Rand",
-                "symbol": "R"
-            }
+            { "currencyCode": "ZAR", "name": "Südafrikanischer Rand", "symbol": "R" }
         ],
         "flag": "🇱🇸",
         "codes": { "cca2": "LS", "cca3": "LSO", "ccn3": "426" },

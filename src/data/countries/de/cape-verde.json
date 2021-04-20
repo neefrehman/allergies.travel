@@ -18,11 +18,7 @@
         "subregion": "Westafrika",
         "languages": [{ "languageCode": "pt", "name": "Portugiesisch" }],
         "currencies": [
-            {
-                "currencyCode": "CVE",
-                "name": "Cabo-Verde-Escudo",
-                "symbol": "Esc"
-            }
+            { "currencyCode": "CVE", "name": "Cabo-Verde-Escudo", "symbol": "Esc" }
         ],
         "flag": "🇨🇻",
         "codes": { "cca2": "CV", "cca3": "CPV", "ccn3": "132" },

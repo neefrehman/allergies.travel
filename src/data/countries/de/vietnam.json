@@ -18,11 +18,7 @@
         "subregion": "Südostasien",
         "languages": [{ "languageCode": "vi", "name": "Vietnamesisch" }],
         "currencies": [
-            {
-                "currencyCode": "VND",
-                "name": "Vietnamesischer Dong",
-                "symbol": "₫"
-            }
+            { "currencyCode": "VND", "name": "Vietnamesischer Dong", "symbol": "₫" }
         ],
         "flag": "🇻🇳",
         "codes": { "cca2": "VN", "cca3": "VNM", "ccn3": "704" },

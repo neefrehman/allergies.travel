@@ -4,10 +4,7 @@
  * @params target - the target object (or array) to be written over
  * @params source - the source of incoming data (in our case a new object from the `world-countries` database)
  */
-export const deepMerge = <
-    A extends Record<string | number, any>,
-    B extends Record<string | number, any>
->(
+export const deepMerge = <A extends MergeableObject, B extends MergeableObject>(
     target: A,
     source: B
 ): A & B => {
@@ -29,3 +26,5 @@ export const deepMerge = <
 
     return Object.assign(target || ({} as A | B), source);
 };
+
+type MergeableObject = Record<PropertyKey, any>;

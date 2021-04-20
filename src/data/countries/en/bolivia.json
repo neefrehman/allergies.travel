@@ -38,11 +38,7 @@
             { "languageCode": "es", "name": "Spanish" }
         ],
         "currencies": [
-            {
-                "currencyCode": "BOB",
-                "name": "Bolivian Boliviano",
-                "symbol": "Bs."
-            }
+            { "currencyCode": "BOB", "name": "Bolivian Boliviano", "symbol": "Bs." }
         ],
         "flag": "🇧🇴",
         "codes": { "cca2": "BO", "cca3": "BOL", "ccn3": "068" },

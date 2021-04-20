@@ -135,4 +135,7 @@ const generateLocalisedLocationMappings = async () => {
     });
 };
 
-generateLocalisedLocationMappings();
+/* eslint-disable no-console */
+generateLocalisedLocationMappings()
+    .then(() => console.log("Location name mappings generated"))
+    .catch(error => console.log("error generating location name mappings", error));

@@ -32,11 +32,7 @@
             { "languageCode": "tk", "name": "Turkmenisch" }
         ],
         "currencies": [
-            {
-                "currencyCode": "AFN",
-                "name": "Afghanischer Afghani",
-                "symbol": "؋"
-            }
+            { "currencyCode": "AFN", "name": "Afghanischer Afghani", "symbol": "؋" }
         ],
         "flag": "🇦🇫",
         "codes": { "cca2": "AF", "cca3": "AFG", "ccn3": "004" },

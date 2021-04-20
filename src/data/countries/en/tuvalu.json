@@ -6,11 +6,7 @@
             "common": "Tuvalu",
             "official": "Tuvalu",
             "native": [
-                {
-                    "languageCode": "en",
-                    "official": "Tuvalu",
-                    "common": "Tuvalu"
-                },
+                { "languageCode": "en", "official": "Tuvalu", "common": "Tuvalu" },
                 { "official": "Tuvalu", "common": "Tuvalu" }
             ]
         },

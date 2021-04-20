@@ -18,11 +18,7 @@
         "subregion": "Südostasien",
         "languages": [{ "languageCode": "th", "name": "Thailändisch" }],
         "currencies": [
-            {
-                "currencyCode": "THB",
-                "name": "Thailändischer Baht",
-                "symbol": "฿"
-            }
+            { "currencyCode": "THB", "name": "Thailändischer Baht", "symbol": "฿" }
         ],
         "flag": "🇹🇭",
         "codes": { "cca2": "TH", "cca3": "THA", "ccn3": "764" },

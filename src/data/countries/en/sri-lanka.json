@@ -26,11 +26,7 @@
             { "languageCode": "ta", "name": "Tamil" }
         ],
         "currencies": [
-            {
-                "currencyCode": "LKR",
-                "name": "Sri Lankan Rupee",
-                "symbol": "Rs  රු"
-            }
+            { "currencyCode": "LKR", "name": "Sri Lankan Rupee", "symbol": "Rs  රු" }
         ],
         "flag": "🇱🇰",
         "codes": { "cca2": "LK", "cca3": "LKA", "ccn3": "144" },

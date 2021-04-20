@@ -26,11 +26,7 @@
             { "languageCode": "to", "name": "Tongaisch" }
         ],
         "currencies": [
-            {
-                "currencyCode": "TOP",
-                "name": "Tongaischer Paʻanga",
-                "symbol": "T$"
-            }
+            { "currencyCode": "TOP", "name": "Tongaischer Paʻanga", "symbol": "T$" }
         ],
         "flag": "🇹🇴",
         "codes": { "cca2": "TO", "cca3": "TON", "ccn3": "776" },

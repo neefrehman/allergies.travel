@@ -80,11 +80,7 @@
             { "name": "zib" }
         ],
         "currencies": [
-            {
-                "currencyCode": "BWP",
-                "name": "Botswanischer Pula",
-                "symbol": "P"
-            },
+            { "currencyCode": "BWP", "name": "Botswanischer Pula", "symbol": "P" },
             { "currencyCode": "CNY", "name": "Renminbi Yuan", "symbol": "¥" },
             { "currencyCode": "EUR", "name": "Euro", "symbol": "€" },
             { "currencyCode": "GBP", "name": "Britisches Pfund", "symbol": "£" },

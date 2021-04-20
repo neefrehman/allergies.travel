@@ -18,21 +18,13 @@
         "subregion": "Vorderasien",
         "languages": [{ "languageCode": "ar", "name": "Arabisch" }],
         "currencies": [
-            {
-                "currencyCode": "EGP",
-                "name": "Ägyptisches Pfund",
-                "symbol": "E£"
-            },
+            { "currencyCode": "EGP", "name": "Ägyptisches Pfund", "symbol": "E£" },
             {
                 "currencyCode": "ILS",
                 "name": "Israelischer Neuer Schekel",
                 "symbol": "₪"
             },
-            {
-                "currencyCode": "JOD",
-                "name": "Jordanischer Dinar",
-                "symbol": "JD"
-            }
+            { "currencyCode": "JOD", "name": "Jordanischer Dinar", "symbol": "JD" }
         ],
         "flag": "🇵🇸",
         "codes": { "cca2": "PS", "cca3": "PSE", "ccn3": "275" },

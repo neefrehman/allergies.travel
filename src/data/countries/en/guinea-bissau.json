@@ -11,10 +11,7 @@
                     "official": "República da Guiné-Bissau",
                     "common": "Guiné-Bissau"
                 },
-                {
-                    "official": "República da Guiné-Bissau",
-                    "common": "Guiné-Bissau"
-                }
+                { "official": "República da Guiné-Bissau", "common": "Guiné-Bissau" }
             ]
         },
         "capital": "Bissau",

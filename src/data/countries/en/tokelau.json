@@ -6,16 +6,8 @@
             "common": "Tokelau",
             "official": "Tokelau",
             "native": [
-                {
-                    "languageCode": "en",
-                    "official": "Tokelau",
-                    "common": "Tokelau"
-                },
-                {
-                    "languageCode": "sm",
-                    "official": "Tokelau",
-                    "common": "Tokelau"
-                },
+                { "languageCode": "en", "official": "Tokelau", "common": "Tokelau" },
+                { "languageCode": "sm", "official": "Tokelau", "common": "Tokelau" },
                 { "official": "Tokelau", "common": "Tokelau" }
             ]
         },

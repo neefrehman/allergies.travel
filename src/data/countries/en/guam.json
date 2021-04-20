@@ -6,11 +6,7 @@
             "common": "Guam",
             "official": "Guam",
             "native": [
-                {
-                    "languageCode": "ch",
-                    "official": "Guåhån",
-                    "common": "Guåhån"
-                },
+                { "languageCode": "ch", "official": "Guåhån", "common": "Guåhån" },
                 { "languageCode": "en", "official": "Guam", "common": "Guam" },
                 { "languageCode": "es", "official": "Guam", "common": "Guam" }
             ]

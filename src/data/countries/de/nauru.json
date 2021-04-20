@@ -26,11 +26,7 @@
             { "languageCode": "na", "name": "Nauruisch" }
         ],
         "currencies": [
-            {
-                "currencyCode": "AUD",
-                "name": "Australischer Dollar",
-                "symbol": "$"
-            }
+            { "currencyCode": "AUD", "name": "Australischer Dollar", "symbol": "$" }
         ],
         "flag": "🇳🇷",
         "codes": { "cca2": "NR", "cca3": "NRU", "ccn3": "520" },

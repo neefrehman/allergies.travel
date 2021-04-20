@@ -6,11 +6,7 @@
             "common": "Grenada",
             "official": "Grenada",
             "native": [
-                {
-                    "languageCode": "en",
-                    "official": "Grenada",
-                    "common": "Grenada"
-                }
+                { "languageCode": "en", "official": "Grenada", "common": "Grenada" }
             ]
         },
         "capital": "St. George's",
@@ -18,11 +14,7 @@
         "subregion": "Caribbean",
         "languages": [{ "languageCode": "en", "name": "English" }],
         "currencies": [
-            {
-                "currencyCode": "XCD",
-                "name": "East Caribbean Dollar",
-                "symbol": "$"
-            }
+            { "currencyCode": "XCD", "name": "East Caribbean Dollar", "symbol": "$" }
         ],
         "flag": "🇬🇩",
         "codes": { "cca2": "GD", "cca3": "GRD", "ccn3": "308" },

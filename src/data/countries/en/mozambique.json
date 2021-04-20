@@ -18,11 +18,7 @@
         "subregion": "Eastern Africa",
         "languages": [{ "languageCode": "pt", "name": "Portuguese" }],
         "currencies": [
-            {
-                "currencyCode": "MZN",
-                "name": "Mozambican Metical",
-                "symbol": "MT"
-            }
+            { "currencyCode": "MZN", "name": "Mozambican Metical", "symbol": "MT" }
         ],
         "flag": "🇲🇿",
         "codes": { "cca2": "MZ", "cca3": "MOZ", "ccn3": "508" },

@@ -18,11 +18,7 @@
         "subregion": "Australien und Neuseeland",
         "languages": [{ "languageCode": "en", "name": "Englisch" }],
         "currencies": [
-            {
-                "currencyCode": "AUD",
-                "name": "Australischer Dollar",
-                "symbol": "$"
-            }
+            { "currencyCode": "AUD", "name": "Australischer Dollar", "symbol": "$" }
         ],
         "flag": "🇨🇨",
         "codes": { "cca2": "CC", "cca3": "CCK", "ccn3": "166" },

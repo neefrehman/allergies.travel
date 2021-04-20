@@ -18,11 +18,7 @@
         "subregion": "Ostasien",
         "languages": [{ "languageCode": "ko", "name": "Koreanisch" }],
         "currencies": [
-            {
-                "currencyCode": "KPW",
-                "name": "Nordkoreanischer Won",
-                "symbol": "₩"
-            }
+            { "currencyCode": "KPW", "name": "Nordkoreanischer Won", "symbol": "₩" }
         ],
         "flag": "🇰🇵",
         "codes": { "cca2": "KP", "cca3": "PRK", "ccn3": "408" },

@@ -6,11 +6,7 @@
             "common": "Rumänien",
             "official": "Rumänien",
             "native": [
-                {
-                    "languageCode": "ro",
-                    "official": "România",
-                    "common": "România"
-                }
+                { "languageCode": "ro", "official": "România", "common": "România" }
             ]
         },
         "capital": "Bukarest",

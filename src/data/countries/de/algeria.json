@@ -18,11 +18,7 @@
         "subregion": "Nordafrika",
         "languages": [{ "languageCode": "ar", "name": "Arabisch" }],
         "currencies": [
-            {
-                "currencyCode": "DZD",
-                "name": "Algerischer Dinar",
-                "symbol": "د.ج"
-            }
+            { "currencyCode": "DZD", "name": "Algerischer Dinar", "symbol": "د.ج" }
         ],
         "flag": "🇩🇿",
         "codes": { "cca2": "DZ", "cca3": "DZA", "ccn3": "012" },

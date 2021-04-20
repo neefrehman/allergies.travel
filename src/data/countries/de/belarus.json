@@ -26,11 +26,7 @@
             { "languageCode": "ru", "name": "Russisch" }
         ],
         "currencies": [
-            {
-                "currencyCode": "BYN",
-                "name": "Weißrussischer Rubel",
-                "symbol": "Br"
-            }
+            { "currencyCode": "BYN", "name": "Weißrussischer Rubel", "symbol": "Br" }
         ],
         "flag": "🇧🇾",
         "codes": { "cca2": "BY", "cca3": "BLR", "ccn3": "112" },

@@ -26,11 +26,7 @@
             { "languageCode": "ru", "name": "Russisch" }
         ],
         "currencies": [
-            {
-                "currencyCode": "AZN",
-                "name": "Aserbaidschan-Manat",
-                "symbol": "₼"
-            }
+            { "currencyCode": "AZN", "name": "Aserbaidschan-Manat", "symbol": "₼" }
         ],
         "flag": "🇦🇿",
         "codes": { "cca2": "AZ", "cca3": "AZE", "ccn3": "031" },

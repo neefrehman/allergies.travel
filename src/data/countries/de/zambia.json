@@ -17,9 +17,7 @@
         "region": "Afrika",
         "subregion": "Ostafrika",
         "languages": [{ "languageCode": "en", "name": "Englisch" }],
-        "currencies": [
-            { "currencyCode": "ZMW", "name": "Kwacha", "symbol": "ZK" }
-        ],
+        "currencies": [{ "currencyCode": "ZMW", "name": "Kwacha", "symbol": "ZK" }],
         "flag": "🇿🇲",
         "codes": { "cca2": "ZM", "cca3": "ZMB", "ccn3": "894" },
         "coordinates": { "latitude": -15, "longitude": 30 }

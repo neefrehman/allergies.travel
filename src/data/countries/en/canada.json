@@ -6,11 +6,7 @@
             "common": "Canada",
             "official": "Canada",
             "native": [
-                {
-                    "languageCode": "en",
-                    "official": "Canada",
-                    "common": "Canada"
-                },
+                { "languageCode": "en", "official": "Canada", "common": "Canada" },
                 { "languageCode": "fr", "official": "Canada", "common": "Canada" }
             ]
         },

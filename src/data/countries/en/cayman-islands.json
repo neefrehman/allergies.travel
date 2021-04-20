@@ -18,11 +18,7 @@
         "subregion": "Caribbean",
         "languages": [{ "languageCode": "en", "name": "English" }],
         "currencies": [
-            {
-                "currencyCode": "KYD",
-                "name": "Cayman Islands Dollar",
-                "symbol": "$"
-            }
+            { "currencyCode": "KYD", "name": "Cayman Islands Dollar", "symbol": "$" }
         ],
         "flag": "🇰🇾",
         "codes": { "cca2": "KY", "cca3": "CYM", "ccn3": "136" },

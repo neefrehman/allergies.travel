@@ -18,11 +18,7 @@
         "subregion": "Ostasien",
         "languages": [{ "languageCode": "mn", "name": "Mongolisch" }],
         "currencies": [
-            {
-                "currencyCode": "MNT",
-                "name": "Mongolischer Tögrög",
-                "symbol": "₮"
-            }
+            { "currencyCode": "MNT", "name": "Mongolischer Tögrög", "symbol": "₮" }
         ],
         "flag": "🇲🇳",
         "codes": { "cca2": "MN", "cca3": "MNG", "ccn3": "496" },

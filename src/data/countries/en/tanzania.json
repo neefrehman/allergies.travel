@@ -26,11 +26,7 @@
             { "languageCode": "sw", "name": "Swahili" }
         ],
         "currencies": [
-            {
-                "currencyCode": "TZS",
-                "name": "Tanzanian Shilling",
-                "symbol": "Sh"
-            }
+            { "currencyCode": "TZS", "name": "Tanzanian Shilling", "symbol": "Sh" }
         ],
         "flag": "🇹🇿",
         "codes": { "cca2": "TZ", "cca3": "TZA", "ccn3": "834" },

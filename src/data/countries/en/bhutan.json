@@ -18,11 +18,7 @@
         "subregion": "Southern Asia",
         "languages": [{ "languageCode": "dz", "name": "Dzongkha" }],
         "currencies": [
-            {
-                "currencyCode": "BTN",
-                "name": "Bhutanese Ngultrum",
-                "symbol": "Nu."
-            },
+            { "currencyCode": "BTN", "name": "Bhutanese Ngultrum", "symbol": "Nu." },
             { "currencyCode": "INR", "name": "Indian Rupee", "symbol": "₹" }
         ],
         "flag": "🇧🇹",

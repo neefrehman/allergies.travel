@@ -11,10 +11,7 @@
                     "official": "Territory of Norfolk Island",
                     "common": "Norfolk Island"
                 },
-                {
-                    "official": "Teratri of Norf'k Ailen",
-                    "common": "Norf'k Ailen"
-                }
+                { "official": "Teratri of Norf'k Ailen", "common": "Norf'k Ailen" }
             ]
         },
         "capital": "Kingston",

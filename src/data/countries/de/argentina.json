@@ -26,11 +26,7 @@
             { "languageCode": "es", "name": "Spanisch" }
         ],
         "currencies": [
-            {
-                "currencyCode": "ARS",
-                "name": "Argentinischer Peso",
-                "symbol": "$"
-            }
+            { "currencyCode": "ARS", "name": "Argentinischer Peso", "symbol": "$" }
         ],
         "flag": "🇦🇷",
         "codes": { "cca2": "AR", "cca3": "ARG", "ccn3": "032" },

@@ -37,11 +37,7 @@
             { "languageCode": "rm", "name": "Rätoromanisch" }
         ],
         "currencies": [
-            {
-                "currencyCode": "CHF",
-                "name": "Schweizer Franken",
-                "symbol": "Fr."
-            }
+            { "currencyCode": "CHF", "name": "Schweizer Franken", "symbol": "Fr." }
         ],
         "flag": "🇨🇭",
         "codes": { "cca2": "CH", "cca3": "CHE", "ccn3": "756" },

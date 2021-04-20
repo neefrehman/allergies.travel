@@ -7,11 +7,7 @@
             "official": "Belize",
             "native": [
                 { "official": "Belize", "common": "Belize" },
-                {
-                    "languageCode": "en",
-                    "official": "Belize",
-                    "common": "Belize"
-                },
+                { "languageCode": "en", "official": "Belize", "common": "Belize" },
                 { "languageCode": "es", "official": "Belice", "common": "Belice" }
             ]
         },

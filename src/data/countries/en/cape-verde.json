@@ -18,11 +18,7 @@
         "subregion": "Western Africa",
         "languages": [{ "languageCode": "pt", "name": "Portuguese" }],
         "currencies": [
-            {
-                "currencyCode": "CVE",
-                "name": "Cape Verdean Escudo",
-                "symbol": "Esc"
-            }
+            { "currencyCode": "CVE", "name": "Cape Verdean Escudo", "symbol": "Esc" }
         ],
         "flag": "🇨🇻",
         "codes": { "cca2": "CV", "cca3": "CPV", "ccn3": "132" },

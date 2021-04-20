@@ -18,11 +18,7 @@
         "subregion": "Westafrika",
         "languages": [{ "languageCode": "en", "name": "Englisch" }],
         "currencies": [
-            {
-                "currencyCode": "NGN",
-                "name": "Nigerianischer Naira",
-                "symbol": "₦"
-            }
+            { "currencyCode": "NGN", "name": "Nigerianischer Naira", "symbol": "₦" }
         ],
         "flag": "🇳🇬",
         "codes": { "cca2": "NG", "cca3": "NGA", "ccn3": "566" },

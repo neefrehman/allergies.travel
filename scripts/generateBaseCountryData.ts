@@ -95,11 +95,7 @@ const generateBaseCountryData = async () => {
                             symbol,
                         })
                     ),
-                    flag: country.flag,
-                    // flag: {
-                    //     emoji: country.flag,
-                    //     svg: await import(`world-countries/data/${country.cca3.toLowerCase()}.svg`), // TODO: fallback for no emoji devices (windows). need to detect support somehow
-                    // },
+                    flag: country.flag, // TODO: fallback for no emoji devices (windows). need to detect support somehow
                     codes: {
                         cca2: country.cca2,
                         cca3: country.cca3,
@@ -141,4 +137,7 @@ const generateBaseCountryData = async () => {
     });
 };
 
-generateBaseCountryData();
+/* eslint-disable no-console */
+generateBaseCountryData()
+    .then(() => console.log("Base country data generated"))
+    .catch(error => console.log("error generating base country data", error));

@@ -26,11 +26,7 @@
             { "languageCode": "tk", "name": "Turkmen" }
         ],
         "currencies": [
-            {
-                "currencyCode": "TMT",
-                "name": "Turkmenistani Manat",
-                "symbol": "m"
-            }
+            { "currencyCode": "TMT", "name": "Turkmenistani Manat", "symbol": "m" }
         ],
         "flag": "🇹🇲",
         "codes": { "cca2": "TM", "cca3": "TKM", "ccn3": "795" },

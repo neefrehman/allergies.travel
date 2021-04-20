@@ -6,11 +6,7 @@
             "common": "Tuvalu",
             "official": "Tuvalu",
             "native": [
-                {
-                    "languageCode": "en",
-                    "official": "Tuvalu",
-                    "common": "Tuvalu"
-                },
+                { "languageCode": "en", "official": "Tuvalu", "common": "Tuvalu" },
                 { "official": "Tuvalu", "common": "Tuvalu" }
             ]
         },
@@ -22,11 +18,7 @@
             { "name": "Tuvaluisch" }
         ],
         "currencies": [
-            {
-                "currencyCode": "AUD",
-                "name": "Australischer Dollar",
-                "symbol": "$"
-            },
+            { "currencyCode": "AUD", "name": "Australischer Dollar", "symbol": "$" },
             { "currencyCode": "TVD", "name": "TVD", "symbol": "$" }
         ],
         "flag": "🇹🇻",

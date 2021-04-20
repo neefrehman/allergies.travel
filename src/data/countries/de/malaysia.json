@@ -22,11 +22,7 @@
             { "languageCode": "ms", "name": "Malaiisch" }
         ],
         "currencies": [
-            {
-                "currencyCode": "MYR",
-                "name": "Malaysischer Ringgit",
-                "symbol": "RM"
-            }
+            { "currencyCode": "MYR", "name": "Malaysischer Ringgit", "symbol": "RM" }
         ],
         "flag": "🇲🇾",
         "codes": { "cca2": "MY", "cca3": "MYS", "ccn3": "458" },

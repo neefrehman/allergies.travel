@@ -2,11 +2,7 @@
     "title": "Antarctica",
     "slug": "antarctica",
     "baseInfo": {
-        "name": {
-            "common": "Antarctica",
-            "official": "Antarctica",
-            "native": []
-        },
+        "name": { "common": "Antarctica", "official": "Antarctica", "native": [] },
         "capital": "",
         "region": "Antarctic",
         "subregion": "",

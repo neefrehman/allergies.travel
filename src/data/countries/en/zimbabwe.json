@@ -87,11 +87,7 @@
             { "currencyCode": "INR", "name": "Indian Rupee", "symbol": "₹" },
             { "currencyCode": "JPY", "name": "Japanese Yen", "symbol": "¥" },
             { "currencyCode": "USD", "name": "US Dollar", "symbol": "$" },
-            {
-                "currencyCode": "ZAR",
-                "name": "South African Rand",
-                "symbol": "Rs"
-            },
+            { "currencyCode": "ZAR", "name": "South African Rand", "symbol": "Rs" },
             { "currencyCode": "ZWB", "name": "ZWB", "symbol": "$" }
         ],
         "flag": "🇿🇼",

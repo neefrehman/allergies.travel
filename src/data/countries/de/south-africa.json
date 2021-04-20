@@ -79,11 +79,7 @@
             { "languageCode": "zu", "name": "Zulu" }
         ],
         "currencies": [
-            {
-                "currencyCode": "ZAR",
-                "name": "Südafrikanischer Rand",
-                "symbol": "R"
-            }
+            { "currencyCode": "ZAR", "name": "Südafrikanischer Rand", "symbol": "R" }
         ],
         "flag": "🇿🇦",
         "codes": { "cca2": "ZA", "cca3": "ZAF", "ccn3": "710" },

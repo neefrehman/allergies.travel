@@ -26,11 +26,7 @@
             { "languageCode": "sw", "name": "Suaheli" }
         ],
         "currencies": [
-            {
-                "currencyCode": "TZS",
-                "name": "Tansania-Schilling",
-                "symbol": "Sh"
-            }
+            { "currencyCode": "TZS", "name": "Tansania-Schilling", "symbol": "Sh" }
         ],
         "flag": "🇹🇿",
         "codes": { "cca2": "TZ", "cca3": "TZA", "ccn3": "834" },

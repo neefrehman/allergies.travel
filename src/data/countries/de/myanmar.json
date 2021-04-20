@@ -18,11 +18,7 @@
         "subregion": "Südostasien",
         "languages": [{ "languageCode": "my", "name": "Birmanisch" }],
         "currencies": [
-            {
-                "currencyCode": "MMK",
-                "name": "Myanmarischer Kyat",
-                "symbol": "Ks"
-            }
+            { "currencyCode": "MMK", "name": "Myanmarischer Kyat", "symbol": "Ks" }
         ],
         "flag": "🇲🇲",
         "codes": { "cca2": "MM", "cca3": "MMR", "ccn3": "104" },

@@ -18,11 +18,7 @@
         "subregion": "Greater Cairo Area",
         "languages": [{ "languageCode": "pt", "name": "Portugiesisch" }],
         "currencies": [
-            {
-                "currencyCode": "STN",
-                "name": "São-toméischer Dobra",
-                "symbol": "Db"
-            }
+            { "currencyCode": "STN", "name": "São-toméischer Dobra", "symbol": "Db" }
         ],
         "flag": "🇸🇹",
         "codes": { "cca2": "ST", "cca3": "STP", "ccn3": "678" },

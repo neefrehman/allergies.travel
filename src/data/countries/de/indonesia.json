@@ -18,11 +18,7 @@
         "subregion": "Südostasien",
         "languages": [{ "languageCode": "ms", "name": "Indonesisch" }],
         "currencies": [
-            {
-                "currencyCode": "IDR",
-                "name": "Indonesische Rupiah",
-                "symbol": "Rp"
-            }
+            { "currencyCode": "IDR", "name": "Indonesische Rupiah", "symbol": "Rp" }
         ],
         "flag": "🇮🇩",
         "codes": { "cca2": "ID", "cca3": "IDN", "ccn3": "360" },

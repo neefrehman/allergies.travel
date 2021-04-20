@@ -32,11 +32,7 @@
         "currencies": [
             { "currencyCode": "DZD", "name": "Algerian Dinar", "symbol": "دج" },
             { "currencyCode": "MAD", "name": "Moroccan Dirham", "symbol": "DH" },
-            {
-                "currencyCode": "MRU",
-                "name": "Mauritanian Ouguiya",
-                "symbol": "UM"
-            }
+            { "currencyCode": "MRU", "name": "Mauritanian Ouguiya", "symbol": "UM" }
         ],
         "flag": "🇪🇭",
         "codes": { "cca2": "EH", "cca3": "ESH", "ccn3": "732" },

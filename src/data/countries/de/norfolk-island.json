@@ -11,10 +11,7 @@
                     "official": "Territory of Norfolk Island",
                     "common": "Norfolk Island"
                 },
-                {
-                    "official": "Teratri of Norf'k Ailen",
-                    "common": "Norf'k Ailen"
-                }
+                { "official": "Teratri of Norf'k Ailen", "common": "Norf'k Ailen" }
             ]
         },
         "capital": "Kingston",
@@ -25,11 +22,7 @@
             { "name": "pih" }
         ],
         "currencies": [
-            {
-                "currencyCode": "AUD",
-                "name": "Australischer Dollar",
-                "symbol": "$"
-            }
+            { "currencyCode": "AUD", "name": "Australischer Dollar", "symbol": "$" }
         ],
         "flag": "🇳🇫",
         "codes": { "cca2": "NF", "cca3": "NFK", "ccn3": "574" },

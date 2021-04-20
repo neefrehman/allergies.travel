@@ -19,11 +19,7 @@
         "languages": [{ "languageCode": "ar", "name": "Arabic" }],
         "currencies": [
             { "currencyCode": "EGP", "name": "Egyptian Pound", "symbol": "E£" },
-            {
-                "currencyCode": "ILS",
-                "name": "Israeli New Shekel",
-                "symbol": "₪"
-            },
+            { "currencyCode": "ILS", "name": "Israeli New Shekel", "symbol": "₪" },
             { "currencyCode": "JOD", "name": "Jordanian Dinar", "symbol": "JD" }
         ],
         "flag": "🇵🇸",

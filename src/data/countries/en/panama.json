@@ -18,11 +18,7 @@
         "subregion": "Central America",
         "languages": [{ "languageCode": "es", "name": "Spanish" }],
         "currencies": [
-            {
-                "currencyCode": "PAB",
-                "name": "Panamanian Balboa",
-                "symbol": "B/."
-            },
+            { "currencyCode": "PAB", "name": "Panamanian Balboa", "symbol": "B/." },
             { "currencyCode": "USD", "name": "US Dollar", "symbol": "$" }
         ],
         "flag": "🇵🇦",

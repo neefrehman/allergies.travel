@@ -18,11 +18,7 @@
         "subregion": "Südamerika",
         "languages": [{ "languageCode": "es", "name": "Spanisch" }],
         "currencies": [
-            {
-                "currencyCode": "COP",
-                "name": "Kolumbianischer Peso",
-                "symbol": "$"
-            }
+            { "currencyCode": "COP", "name": "Kolumbianischer Peso", "symbol": "$" }
         ],
         "flag": "🇨🇴",
         "codes": { "cca2": "CO", "cca3": "COL", "ccn3": "170" },

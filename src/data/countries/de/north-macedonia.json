@@ -18,11 +18,7 @@
         "subregion": "Südeuropa",
         "languages": [{ "languageCode": "mk", "name": "Mazedonisch" }],
         "currencies": [
-            {
-                "currencyCode": "MKD",
-                "name": "Mazedonischer Denar",
-                "symbol": "den"
-            }
+            { "currencyCode": "MKD", "name": "Mazedonischer Denar", "symbol": "den" }
         ],
         "flag": "🇲🇰",
         "codes": { "cca2": "MK", "cca3": "MKD", "ccn3": "807" },

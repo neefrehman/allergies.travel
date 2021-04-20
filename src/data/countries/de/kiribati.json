@@ -22,11 +22,7 @@
             { "name": "Kiribatisch" }
         ],
         "currencies": [
-            {
-                "currencyCode": "AUD",
-                "name": "Australischer Dollar",
-                "symbol": "$"
-            },
+            { "currencyCode": "AUD", "name": "Australischer Dollar", "symbol": "$" },
             { "currencyCode": "KID", "name": "KID", "symbol": "$" }
         ],
         "flag": "🇰🇮",

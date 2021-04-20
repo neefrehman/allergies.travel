@@ -11,10 +11,7 @@
                     "official": "Republic of the Philippines",
                     "common": "Philippines"
                 },
-                {
-                    "official": "Republic of the Philippines",
-                    "common": "Pilipinas"
-                }
+                { "official": "Republic of the Philippines", "common": "Pilipinas" }
             ]
         },
         "capital": "Manila",
@@ -25,11 +22,7 @@
             { "name": "Filipino" }
         ],
         "currencies": [
-            {
-                "currencyCode": "PHP",
-                "name": "Philippinischer Peso",
-                "symbol": "₱"
-            }
+            { "currencyCode": "PHP", "name": "Philippinischer Peso", "symbol": "₱" }
         ],
         "flag": "🇵🇭",
         "codes": { "cca2": "PH", "cca3": "PHL", "ccn3": "608" },

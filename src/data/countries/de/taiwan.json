@@ -14,11 +14,7 @@
         "subregion": "Ostasien",
         "languages": [{ "languageCode": "zh", "name": "Chinesisch" }],
         "currencies": [
-            {
-                "currencyCode": "TWD",
-                "name": "Neuer Taiwan-Dollar",
-                "symbol": "$"
-            }
+            { "currencyCode": "TWD", "name": "Neuer Taiwan-Dollar", "symbol": "$" }
         ],
         "flag": "🇹🇼",
         "codes": { "cca2": "TW", "cca3": "TWN", "ccn3": "158" },

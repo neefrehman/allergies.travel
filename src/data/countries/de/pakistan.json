@@ -26,11 +26,7 @@
             { "languageCode": "ur", "name": "Urdu" }
         ],
         "currencies": [
-            {
-                "currencyCode": "PKR",
-                "name": "Pakistanische Rupie",
-                "symbol": "₨"
-            }
+            { "currencyCode": "PKR", "name": "Pakistanische Rupie", "symbol": "₨" }
         ],
         "flag": "🇵🇰",
         "codes": { "cca2": "PK", "cca3": "PAK", "ccn3": "586" },

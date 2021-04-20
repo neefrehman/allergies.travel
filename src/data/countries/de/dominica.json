@@ -18,11 +18,7 @@
         "subregion": "Karibik",
         "languages": [{ "languageCode": "en", "name": "Englisch" }],
         "currencies": [
-            {
-                "currencyCode": "XCD",
-                "name": "Ostkaribischer Dollar",
-                "symbol": "$"
-            }
+            { "currencyCode": "XCD", "name": "Ostkaribischer Dollar", "symbol": "$" }
         ],
         "flag": "🇩🇲",
         "codes": { "cca2": "DM", "cca3": "DMA", "ccn3": "212" },

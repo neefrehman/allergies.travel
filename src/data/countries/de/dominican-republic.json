@@ -18,11 +18,7 @@
         "subregion": "Karibik",
         "languages": [{ "languageCode": "es", "name": "Spanisch" }],
         "currencies": [
-            {
-                "currencyCode": "DOP",
-                "name": "Dominikanischer Peso",
-                "symbol": "$"
-            }
+            { "currencyCode": "DOP", "name": "Dominikanischer Peso", "symbol": "$" }
         ],
         "flag": "🇩🇴",
         "codes": { "cca2": "DO", "cca3": "DOM", "ccn3": "214" },

@@ -57,11 +57,7 @@
         ],
         "currencies": [
             { "currencyCode": "NAD", "name": "Namibia-Dollar", "symbol": "$" },
-            {
-                "currencyCode": "ZAR",
-                "name": "Südafrikanischer Rand",
-                "symbol": "R"
-            }
+            { "currencyCode": "ZAR", "name": "Südafrikanischer Rand", "symbol": "R" }
         ],
         "flag": "🇳🇦",
         "codes": { "cca2": "NA", "cca3": "NAM", "ccn3": "516" },

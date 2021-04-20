@@ -18,11 +18,7 @@
         "subregion": "Vorderasien",
         "languages": [{ "languageCode": "ar", "name": "Arabisch" }],
         "currencies": [
-            {
-                "currencyCode": "JOD",
-                "name": "Jordanischer Dinar",
-                "symbol": "د.ا"
-            }
+            { "currencyCode": "JOD", "name": "Jordanischer Dinar", "symbol": "د.ا" }
         ],
         "flag": "🇯🇴",
         "codes": { "cca2": "JO", "cca3": "JOR", "ccn3": "400" },

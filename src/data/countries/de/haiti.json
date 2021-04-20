@@ -26,11 +26,7 @@
             { "languageCode": "ht", "name": "Haiti-Kreolisch" }
         ],
         "currencies": [
-            {
-                "currencyCode": "HTG",
-                "name": "Haitianische Gourde",
-                "symbol": "G"
-            }
+            { "currencyCode": "HTG", "name": "Haitianische Gourde", "symbol": "G" }
         ],
         "flag": "🇭🇹",
         "codes": { "cca2": "HT", "cca3": "HTI", "ccn3": "332" },

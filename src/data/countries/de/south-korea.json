@@ -14,11 +14,7 @@
         "subregion": "Ostasien",
         "languages": [{ "languageCode": "ko", "name": "Koreanisch" }],
         "currencies": [
-            {
-                "currencyCode": "KRW",
-                "name": "Südkoreanischer Won",
-                "symbol": "₩"
-            }
+            { "currencyCode": "KRW", "name": "Südkoreanischer Won", "symbol": "₩" }
         ],
         "flag": "🇰🇷",
         "codes": { "cca2": "KR", "cca3": "KOR", "ccn3": "410" },

@@ -11,10 +11,7 @@
                     "official": "Republic of the Philippines",
                     "common": "Philippines"
                 },
-                {
-                    "official": "Republic of the Philippines",
-                    "common": "Pilipinas"
-                }
+                { "official": "Republic of the Philippines", "common": "Pilipinas" }
             ]
         },
         "capital": "Manila",

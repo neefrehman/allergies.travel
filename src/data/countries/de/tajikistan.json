@@ -26,11 +26,7 @@
             { "languageCode": "tg", "name": "Tadschikisch" }
         ],
         "currencies": [
-            {
-                "currencyCode": "TJS",
-                "name": "Tadschikistan-Somoni",
-                "symbol": "ЅМ"
-            }
+            { "currencyCode": "TJS", "name": "Tadschikistan-Somoni", "symbol": "ЅМ" }
         ],
         "flag": "🇹🇯",
         "codes": { "cca2": "TJ", "cca3": "TJK", "ccn3": "762" },

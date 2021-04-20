@@ -18,11 +18,7 @@
         "subregion": "Südamerika",
         "languages": [{ "languageCode": "pt", "name": "Portugiesisch" }],
         "currencies": [
-            {
-                "currencyCode": "BRL",
-                "name": "Brasilianischer Real",
-                "symbol": "R$"
-            }
+            { "currencyCode": "BRL", "name": "Brasilianischer Real", "symbol": "R$" }
         ],
         "flag": "🇧🇷",
         "codes": { "cca2": "BR", "cca3": "BRA", "ccn3": "076" },

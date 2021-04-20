@@ -6,11 +6,7 @@
             "common": "Bermuda",
             "official": "Bermuda",
             "native": [
-                {
-                    "languageCode": "en",
-                    "official": "Bermuda",
-                    "common": "Bermuda"
-                }
+                { "languageCode": "en", "official": "Bermuda", "common": "Bermuda" }
             ]
         },
         "capital": "Hamilton",

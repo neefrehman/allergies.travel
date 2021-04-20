@@ -18,11 +18,7 @@
         "subregion": "Nordafrika",
         "languages": [{ "languageCode": "ar", "name": "Arabisch" }],
         "currencies": [
-            {
-                "currencyCode": "TND",
-                "name": "Tunesischer Dinar",
-                "symbol": "د.ت"
-            }
+            { "currencyCode": "TND", "name": "Tunesischer Dinar", "symbol": "د.ت" }
         ],
         "flag": "🇹🇳",
         "codes": { "cca2": "TN", "cca3": "TUN", "ccn3": "788" },

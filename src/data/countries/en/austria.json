@@ -5,9 +5,7 @@
         "name": {
             "common": "Austria",
             "official": "Republic of Austria",
-            "native": [
-                { "official": "Republik Österreich", "common": "Österreich" }
-            ]
+            "native": [{ "official": "Republik Österreich", "common": "Österreich" }]
         },
         "capital": "Vienna",
         "region": "Europe",
