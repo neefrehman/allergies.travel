@@ -5,7 +5,6 @@ import Head from "next/head";
 
 import { CountryCard } from "components/CountryCard";
 import { getAllCountryData, getTranslationStrings } from "data/fetchers";
-import { generateSitemap } from "scripts/generateSitemap";
 import { Title } from "components/Title";
 import { sluggify } from "utils/sluggify";
 import type { TranslationStrings } from "data/schemas";
@@ -95,10 +94,6 @@ export const getStaticProps: GetStaticProps<HomePageProps> = async ({
         // eslint-disable-next-line no-nested-ternary
         return nameA < nameB ? -1 : nameA > nameB ? 1 : 0;
     });
-
-    if (process.env.NODE_ENV === "production") {
-        generateSitemap();
-    }
 
     return {
         props: {

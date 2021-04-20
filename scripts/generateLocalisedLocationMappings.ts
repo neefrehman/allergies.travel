@@ -5,12 +5,12 @@ import fetch from "node-fetch";
 import prettier from "prettier";
 import countryData from "world-countries";
 
-import { deepMerge } from "../utils/deepMerge";
-import { sluggify } from "../utils/sluggify";
-import { regionNameMappings as previousRegionMappings } from "../utils/i18n/regionNameMappings";
-import { capitalNameMappings as previousCapitalMappings } from "../utils/i18n/capitalNameMappings";
-import { subregionNameMappings as previousSubregionMappings } from "../utils/i18n/subregionNameMappings";
-import nextConfig from "../../next.config";
+import { deepMerge } from "../src/utils/deepMerge";
+import { sluggify } from "../src/utils/sluggify";
+import { regionNameMappings as previousRegionMappings } from "../src/utils/i18n/regionNameMappings";
+import { capitalNameMappings as previousCapitalMappings } from "../src/utils/i18n/capitalNameMappings";
+import { subregionNameMappings as previousSubregionMappings } from "../src/utils/i18n/subregionNameMappings";
+import nextConfig from "../next.config";
 
 /**
  * Uses the geonames API to fetch and cache localised location names that Intl.DisplayNames

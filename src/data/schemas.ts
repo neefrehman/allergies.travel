@@ -1,6 +1,6 @@
 import type { Country } from "world-countries";
 
-import type { ISO_639_1 } from "utils/i18n/languageCodeMappings";
+import type { IsoCode } from "utils/i18n/languageCodeMaps";
 
 /*
    SITE-COPY
@@ -42,10 +42,10 @@ export type BaseCountryData = Pick<Country, "region" | "subregion" | "flag"> & {
     name: {
         common: string;
         official: string;
-        native: { languageCode: ISO_639_1; common: string; official: string }[];
+        native: { languageCode: IsoCode; common: string; official: string }[];
     };
     capital: string;
-    languages: { languageCode: ISO_639_1; name: string }[];
+    languages: { languageCode: IsoCode; name: string }[];
     currencies?: { name: string; symbol: string; currencyCode: string }[];
     coordinates: { latitude: number; longitude: number };
     codes?: {

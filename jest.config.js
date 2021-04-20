@@ -10,9 +10,9 @@ module.exports = {
     ],
     setupFilesAfterEnv: ["<rootDir>/src/utils/tests/test-setup.ts"],
     transform: {
-        "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest",
+        "^.+\\.(js|jsx|ts|tsx)$": "babel-jest",
         "\\.(obj|gltf)$": "jest-url-loader",
     },
-    transformIgnorePatterns: ["node_modules/(?!three)"],
+    transformIgnorePatterns: ["<rootDir>/node_modules/(?!(three)/)"],
     moduleFileExtensions: ["ts", "tsx", "js", "json"],
 };

@@ -4,12 +4,11 @@ import fs from "fs";
 // eslint-disable-next-line import/no-extraneous-dependencies
 import prettier from "prettier";
 
-import { getAllCountryData, getAllAllergensInCountry } from "data/fetchers";
-
-import nextConfig from "../../next.config";
+import { getAllCountryData, getAllAllergensInCountry } from "../src/data/fetchers";
+import nextConfig from "../next.config";
 
 /**
- * Generates a sitemap of all pages and published skethes. To be used in index.tsx's getStaticProps
+ * Generates a sitemap of all pages. To be used in index.tsx's getStaticProps
  */
 export const generateSitemap = async () => {
     const prettierConfig = await prettier.resolveConfig("./.prettierrc");
@@ -74,3 +73,8 @@ export const generateSitemap = async () => {
 
     fs.writeFileSync("public/sitemap.xml", formattedSitemap);
 };
+
+/* eslint-disable no-console */
+generateSitemap()
+    .then(() => console.log("sitemap generated"))
+    .catch(error => console.log("error generating sitemap", error));

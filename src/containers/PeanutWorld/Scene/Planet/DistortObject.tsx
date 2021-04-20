@@ -1,9 +1,7 @@
 /* eslint-disable no-underscore-dangle, no-param-reassign, lines-between-class-members */
 import React, { useEffect, useMemo } from "react";
-import type { MeshPhysicalMaterialParameters } from "three/src/materials/Materials";
-import { MeshPhysicalMaterial } from "three/src/materials/Materials";
-import type { Shader } from "three/src/renderers/shaders/ShaderLib";
-import type { Object3D } from "three/src/core/Object3D";
+import type { MeshPhysicalMaterialParameters, Shader, Object3D } from "three";
+import { MeshPhysicalMaterial } from "three";
 import { useFrame } from "@react-three/fiber";
 import glsl from "glslify";
 

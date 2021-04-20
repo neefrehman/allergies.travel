@@ -6,14 +6,13 @@ import countryData from "world-countries";
 
 import type { CountryContent } from "data/schemas";
 
-import nextConfig from "../../next.config";
-import { sluggify } from "../utils/sluggify";
-import { deepMerge } from "../utils/deepMerge";
-import { ISO_639_1_TO_3, ISO_639_3_TO_1 } from "../utils/i18n/languageCodeMappings";
-import type { ISO_639_1, ISO_639_3 } from "../utils/i18n/languageCodeMappings";
-import { subregionNameMappings } from "../utils/i18n/subregionNameMappings";
-import { regionNameMappings } from "../utils/i18n/regionNameMappings";
-import { capitalNameMappings } from "../utils/i18n/capitalNameMappings";
+import nextConfig from "../next.config";
+import { sluggify } from "../src/utils/sluggify";
+import { deepMerge } from "../src/utils/deepMerge";
+import { ISO639_1_TO_3, ISO639_3_TO_1 } from "../src/utils/i18n/languageCodeMaps";
+import { subregionNameMappings } from "../src/utils/i18n/subregionNameMappings";
+import { regionNameMappings } from "../src/utils/i18n/regionNameMappings";
+import { capitalNameMappings } from "../src/utils/i18n/capitalNameMappings";
 
 // eslint-disable-next-line @typescript-eslint/no-namespace
 declare namespace Intl {
@@ -36,7 +35,7 @@ declare namespace Intl {
  */
 const generateBaseCountryData = async () => {
     const prettierConfig = await prettier.resolveConfig("./.prettierrc");
-    const supportedLocales = nextConfig.i18n.locales as ISO_639_1[];
+    const supportedLocales = nextConfig.i18n.locales;
 
     const countriesFolder = "src/data/countries";
     if (!fs.existsSync(countriesFolder)) {
@@ -53,7 +52,7 @@ const generateBaseCountryData = async () => {
             "title" | "slug" | "baseInfo"
         >[] = countryData.map(country => {
             const localisedCountryName = country.translations[
-                ISO_639_1_TO_3[locale]
+                ISO639_1_TO_3[locale]
             ] ?? {
                 common: regionName.of(country.cca2),
                 official: country.name.official,
@@ -68,7 +67,7 @@ const generateBaseCountryData = async () => {
                         official: localisedCountryName.official,
                         native: Object.entries(country.name.native).map(
                             ([code, { official, common }]) => ({
-                                languageCode: ISO_639_3_TO_1[code as ISO_639_3],
+                                languageCode: ISO639_3_TO_1[code],
                                 official,
                                 common,
                             })
@@ -79,7 +78,7 @@ const generateBaseCountryData = async () => {
                     subregion: subregionNameMappings[country.subregion][locale],
                     languages: Object.entries(country.languages).map(
                         ([code, name]) => ({
-                            languageCode: ISO_639_3_TO_1[code as ISO_639_3],
+                            languageCode: ISO639_3_TO_1[code],
                             name:
                                 languageName.of(code).length >= 2
                                     ? languageName.of(code)

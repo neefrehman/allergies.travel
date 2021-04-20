@@ -20,9 +20,7 @@ export const IsDebugProvider = ({ children }: SimpleProviderProps) => {
 
     useIsomorphicLayoutEffect(() => {
         if (isDebug === true) return;
-
         const debugInParams = getFromSearchParams("debug");
-
         setIsDebug(debugInParams);
     }, [isDebug]);
 
