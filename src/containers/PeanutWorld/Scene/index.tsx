@@ -50,7 +50,6 @@ export const PeanutWorldScene = memo(
             >
                 <fog args={["#000004", 0, CAMERA_FAR * 0.12]} attach="fog" />
                 <EffectComposer // stops star opacity fading from happening...
-                    multisampling={0} // To remove after next three release
                 >
                     <Noise opacity={0.04} />
                 </EffectComposer>
