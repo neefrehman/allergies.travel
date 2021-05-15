@@ -6,6 +6,9 @@ module.exports = {
         locales: ["en", "de"],
         defaultLocale: "en",
     },
+    experimental: {
+        eslint: true,
+    },
     future: {
         webpack5: true,
     },

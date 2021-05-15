@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState } from "react";
 
-import { useIsomorphicLayoutEffect } from "hooks/useIsomorphicLayouteffect";
+import { useIsomorphicLayoutEffect } from "hooks/useIsomorphicLayoutEffect";
 import { getFromSearchParams } from "utils/getFromSearchParams";
 
 import type { SimpleProviderProps } from "./types";

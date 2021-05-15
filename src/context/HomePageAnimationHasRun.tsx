@@ -11,9 +11,8 @@ type HomePageAnimationHasRunContextValue = [
 /**
  * Global context for if the PeanutPlanet animation has run this session
  */
-export const HomePageAnimationHasRunContext = createContext<HomePageAnimationHasRunContextValue | null>(
-    null
-);
+export const HomePageAnimationHasRunContext =
+    createContext<HomePageAnimationHasRunContextValue | null>(null);
 
 /**
  * Global context provider for if the PeanutPlanet animation has run this session
@@ -36,12 +35,13 @@ export const HomePageAnimationHasRunProvider = ({
 /**
  * Global context reciever hook for if the PeanutPlanet animation has run this session
  */
-export const useHomePageAnimationHasRunContext = (): HomePageAnimationHasRunContextValue => {
-    const value = useContext(HomePageAnimationHasRunContext);
+export const useHomePageAnimationHasRunContext =
+    (): HomePageAnimationHasRunContextValue => {
+        const value = useContext(HomePageAnimationHasRunContext);
 
-    if (value === null) {
-        throw new Error("UnitSystemContext was used before it was initialised");
-    }
+        if (value === null) {
+            throw new Error("UnitSystemContext was used before it was initialised");
+        }
 
-    return value;
-};
+        return value;
+    };

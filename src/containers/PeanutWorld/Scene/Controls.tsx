@@ -29,7 +29,7 @@ export const Controls = ({
             target={[0, 0, -targetZ]}
             args={[camera, gl.domElement]}
             autoRotate
-            autoRotateSpeed={(orbitSpeed as unknown) as number}
+            autoRotateSpeed={orbitSpeed as unknown as number}
             enableDamping
             enablePan={userControllable}
             enableZoom={userControllable}

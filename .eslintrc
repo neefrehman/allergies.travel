@@ -13,7 +13,6 @@
         "jest": true
     },
     "plugins": [
-        "react",
         "jsx-a11y",
         "prettier",
         "import",
@@ -22,17 +21,16 @@
         "testing-library"
     ],
     "extends": [
-        "plugin:react/recommended",
         "airbnb",
         "plugin:@typescript-eslint/recommended",
         "plugin:jsx-a11y/recommended",
         "plugin:import/errors",
         "plugin:import/warnings",
         "plugin:import/typescript",
-        "plugin:react-hooks/recommended",
-        "prettier",
         "plugin:testing-library/dom",
-        "plugin:testing-library/react"
+        "plugin:testing-library/react",
+        "next",
+        "prettier"
     ],
     "settings": {
         "import/resolver": {

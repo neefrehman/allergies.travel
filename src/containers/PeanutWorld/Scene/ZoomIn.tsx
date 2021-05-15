@@ -23,7 +23,7 @@ export const ZoomIn = ({ from, to, onRest, children }: ZoomInProps) => {
     });
 
     return (
-        <animated.group position={(position as unknown) as Vector3}>
+        <animated.group position={position as unknown as Vector3}>
             {children}
         </animated.group>
     );

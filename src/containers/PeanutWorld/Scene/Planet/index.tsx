@@ -29,7 +29,7 @@ export const Planet = memo(
             <animated.group
                 scale={[scale, scale, scale]}
                 position={[0, -0.3, 0]}
-                rotation={(rotation as unknown) as [number, number, number]}
+                rotation={rotation as unknown as [number, number, number]}
             >
                 <DistortedObject
                     object={planetObj}

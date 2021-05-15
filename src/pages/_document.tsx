@@ -16,7 +16,7 @@ class MyDocument extends Document {
                     <meta name="description" content="Not coming soon." />
 
                     <link
-                        rel="stylesheet"
+                        rel="preload"
                         href="https://fonts.googleapis.com/css?family=Chonburi"
                     />
 

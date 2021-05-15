@@ -26,6 +26,7 @@ export const PeanutWorldScene = memo(
         const [hasRun, setHasRun] = useHomePageAnimationHasRunContext();
 
         const isShortAnimation = prefersReducedMotion || hasRun; // FIXME: rotation and orbit issues
+        const willFadeIn = prefersReducedMotion && !hasMounted;
 
         const CAMERA_FAR = 1300;
         const CONTROLS_ORBIT_SPEED = prefersReducedMotion ? 0.1 : 0.26;
@@ -43,7 +44,7 @@ export const PeanutWorldScene = memo(
                 style={{
                     backgroundColor: colors.spaceNavy,
                     transition: "opacity 3000ms",
-                    opacity: prefersReducedMotion && !hasMounted ? "0" : "1",
+                    opacity: willFadeIn ? "0" : "1",
                     pointerEvents: isDebug ? "initial" : "none",
                 }}
             >
@@ -73,6 +74,8 @@ export const PeanutWorldScene = memo(
         return true;
     }
 );
+
+PeanutWorldScene.displayName = "PeanutWorldScene";
 
 // Default export required for simple dynamic importing
 export default PeanutWorldScene;

@@ -1,7 +1,7 @@
 /* eslint-disable no-underscore-dangle, no-param-reassign, lines-between-class-members */
-import React, { useEffect, useMemo } from "react";
+import React, { useLayoutEffect, useMemo } from "react";
 import type { MeshPhysicalMaterialParameters, Shader, Object3D } from "three";
-import { MeshPhysicalMaterial } from "three";
+import { MeshPhysicalMaterial } from "three/src/materials/MeshPhysicalMaterial";
 import { useFrame } from "@react-three/fiber";
 import glsl from "glslify";
 
@@ -83,6 +83,7 @@ interface DistortedObjectProps {
 /**
  * An adaptation of MeshDistortMaterial from drei, to work with `useCustomMaterial`, so that
  * we can apply the distort effect to our imported .obj files.
+ *
  * @link https://github.com/pmndrs/drei/blob/master/src/MeshDistortMaterial.tsx
  */
 export const DistortedObject = ({
@@ -96,12 +97,12 @@ export const DistortedObject = ({
     const material = useMemo(
         () => new DistortPhysicalMaterialImpl({ color, reflectivity }),
         // eslint-disable-next-line react-hooks/exhaustive-deps
-        [color, reflectivity, object] // object required to avoid resetting material when any DistortedObjectProps change.
+        [color, reflectivity, object] // `object` required to avoid resetting material when any DistortedObjectProps change.
     );
 
     const customMaterialRef = useCustomMaterial(material);
 
-    useEffect(() => {
+    useLayoutEffect(() => {
         material.time = Math.random() * 10000;
         material.radius = radius;
         material.distort = distort;
