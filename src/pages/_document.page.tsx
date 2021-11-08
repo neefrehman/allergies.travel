@@ -18,6 +18,7 @@ class MyDocument extends Document {
                     <link
                         rel="preload"
                         href="https://fonts.googleapis.com/css?family=Chonburi"
+                        as="style"
                     />
 
                     {/* TODO: reactivate GA once site is live */}

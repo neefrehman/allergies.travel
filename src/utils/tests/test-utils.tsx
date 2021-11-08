@@ -1,8 +1,8 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from "react";
 import type { ReactNode } from "react";
-import { RouterContext } from "next/dist/next-server/lib/router-context";
-import type { NextRouter } from "next/dist/next-server/lib/router/router";
+import { RouterContext } from "next/dist/shared/lib/router-context";
+import type { NextRouter } from "next/router";
 import { render } from "@testing-library/react";
 import type { RenderOptions, RenderResult } from "@testing-library/react";
 

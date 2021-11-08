@@ -1,10 +1,11 @@
 // eslint-ignore
-
 module.exports = {
-    target: "experimental-serverless-trace",
     i18n: {
         locales: ["en", "de"],
         defaultLocale: "en",
+    },
+    images: {
+        disableStaticImages: true, // to avoid peanutworld fallback image error
     },
     experimental: {
         eslint: true,
@@ -12,6 +13,7 @@ module.exports = {
     future: {
         webpack5: true,
     },
+    pageExtensions: ["page.tsx", "api.ts"],
     webpack(config /* , options */) {
         config.module.rules.push({
             test: [/\.obj$/, /\.jpe?g$/],

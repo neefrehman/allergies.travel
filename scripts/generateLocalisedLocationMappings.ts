@@ -55,7 +55,7 @@ const generateLocalisedLocationMappings = async () => {
                     nameInEnglish
                 )}&maxRows=1&username=neef&lang=${locale}`
             );
-            const data: GeonamesResponse = await geonamesResponse.json();
+            const data = (await geonamesResponse.json()) as GeonamesResponse;
             return data.geonames?.[0].name ?? nameInEnglish;
         } catch (err) {
             console.log(err);
@@ -70,11 +70,11 @@ const generateLocalisedLocationMappings = async () => {
         },
         regions: {
             previousMapping: previousRegionMappings,
-            newData: [...new Set(countryData.map(country => country.region))], // needs overwiriting: Americas
+            newData: [...new Set(countryData.map(country => country.region))], // needs overwriting: Americas
         },
         subregions: {
             previousMapping: previousSubregionMappings,
-            newData: [...new Set(countryData.map(country => country.subregion))], // needs overwiriting: Central Europe, Middle Africa
+            newData: [...new Set(countryData.map(country => country.subregion))], // needs overwriting: Central Europe, Middle Africa
         },
     };
 

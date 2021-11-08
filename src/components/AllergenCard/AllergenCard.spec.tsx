@@ -7,12 +7,12 @@ const { Primary } = composeStories(stories);
 
 describe("AllergenCard", () => {
     describe("When the AllergenCard component mounts", () => {
-        beforeEach(() => render(<Primary />));
-
         it("It renders correctly", () => {
+            render(<Primary />);
             expect(screen.getByRole("link")).toBeInTheDocument();
         });
         it("The correct allergen name is diplayed", () => {
+            render(<Primary />);
             expect(screen.getByRole("link")).toContainHTML("afghanistan");
         });
     });

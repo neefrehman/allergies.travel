@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AppProviders } from "../src/pages/_app";
+import { AppProviders } from "../src/pages/_app.page";
 
 export const parameters = {
     actions: { argTypesRegex: "^on[A-Z].*" },

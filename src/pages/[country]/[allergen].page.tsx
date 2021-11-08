@@ -4,11 +4,7 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 
 import type { Allergen } from "data/schemas";
-import {
-    getAllAllergens,
-    getAllCountryData,
-    getCountryData,
-} from "data/fetchers";
+import { getAllAllergens, getAllCountryData, getCountryData } from "data/fetchers";
 
 interface AllergenPageProps {
     countryIsNotPublished?: boolean;
@@ -49,8 +45,8 @@ const AllergenPage = ({
                     <meta name="robots" content="noindex" />
                 </Head>
                 <h1>
-                    Currently we dont have any information about {allergenTitle}{" "}
-                    in {countryTitle}. that doesnt mean it doesnt exist there
+                    Currently we dont have any information about {allergenTitle} in{" "}
+                    {countryTitle}. that doesnt mean it doesnt exist there
                 </h1>
             </>
         );

@@ -13,20 +13,13 @@
         "jest": true
     },
     "plugins": [
-        "jsx-a11y",
         "prettier",
-        "import",
         "@typescript-eslint",
         "@emotion",
         "testing-library"
     ],
     "extends": [
-        "airbnb",
         "plugin:@typescript-eslint/recommended",
-        "plugin:jsx-a11y/recommended",
-        "plugin:import/errors",
-        "plugin:import/warnings",
-        "plugin:import/typescript",
         "plugin:testing-library/dom",
         "plugin:testing-library/react",
         "next",
@@ -100,14 +93,6 @@
         "react/no-danger": "warn",
         "react/require-default-props": "off",
         "react/no-unused-prop-types": "off",
-        "jsx-a11y/anchor-is-valid": [
-            "error",
-            {
-                "components": ["Link"],
-                "specialLink": ["href"],
-                "aspects": ["invalidHref", "preferButton"]
-            }
-        ],
         "no-use-before-define": "off",
         "@typescript-eslint/no-use-before-define": ["error"],
         "@typescript-eslint/explicit-module-boundary-types": "off",

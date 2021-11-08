@@ -13,6 +13,7 @@ module.exports = {
         "^.+\\.(js|jsx|ts|tsx)$": "babel-jest",
         "\\.(obj|gltf)$": "jest-url-loader",
     },
+    testEnvironment: "jsdom",
     transformIgnorePatterns: ["<rootDir>/node_modules/(?!(three)/)"],
     moduleFileExtensions: ["ts", "tsx", "js", "json"],
 };

@@ -37,7 +37,7 @@ const CountryPage = ({
                 <Head>
                     <meta name="robots" content="noindex" />
                 </Head>
-                <h1>We currenlty dont have data for this country. Add some?</h1>
+                <h1>We currently dont have data for this country. Add some?</h1>
             </>
         );
     }
