@@ -11,7 +11,7 @@ import type { TranslationStrings } from "data/schemas";
 import { createTranslator } from "utils/i18n/createTranslator";
 import { ErrorBoundary } from "components/ErrorBoundary";
 
-import PeanutWorld from "./PeanutWorld";
+import PeanutWorld from "./components/PeanutWorld";
 
 const IntroContainer = styled.div`
   background-color: ${({ theme }) => theme.colors.spaceNavy};
