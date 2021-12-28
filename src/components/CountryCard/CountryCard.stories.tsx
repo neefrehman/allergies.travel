@@ -5,9 +5,9 @@ import { CountryCard } from "./index";
 import type { CountryCardProps } from "./index";
 
 export default {
-    title: "CountryCard",
-    component: CountryCard,
-    parameters: { actions: { argTypesRegex: "^on.*" } },
+  title: "CountryCard",
+  component: CountryCard,
+  parameters: { actions: { argTypesRegex: "^on.*" } },
 } as Meta;
 
 const Template: Story<CountryCardProps> = args => <CountryCard {...args} />;
@@ -15,7 +15,7 @@ const Template: Story<CountryCardProps> = args => <CountryCard {...args} />;
 export const Primary = Template.bind({});
 
 Primary.args = {
-    countryName: "Afghanistan",
-    countryFlag: "🇦🇫",
-    linkPath: "afghanistan",
+  countryName: "Afghanistan",
+  countryFlag: "🇦🇫",
+  linkPath: "afghanistan",
 };

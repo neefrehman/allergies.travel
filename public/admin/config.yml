@@ -21,7 +21,6 @@ i18n:
 
 
 collections:
-
   - name: site-copy # Used in routes, e.g., /admin/collections/site-copy
     label: "Site Copy" # Used in the UI
     description: "Localisable copy sinnepts to be used across the site"
@@ -33,7 +32,6 @@ collections:
     slug: "{{title}}"
     editor:
       preview: false
-
     fields:
       - { label: "Title", name: title, widget: "string", i18n: false, default: "Namespace" }
       - name: copy
@@ -44,7 +42,6 @@ collections:
         fields:
           - { label: "Key", name: key, widget: string, i18n: false }
           - { label: "Value", name: value, widget: string, i18n: true }
-
 
   - name: allergens
     label: "Allergens"
@@ -58,7 +55,6 @@ collections:
     slug: "{{title}}"
     editor:
       preview: false
-
     fields:
       - { label: "Title", name: title, widget: "string", i18n: true }
 
@@ -75,12 +71,10 @@ collections:
     slug: "{{title}}"
     editor:
       preview: false
-
     fields:
       - { label: "Title", name: title, widget: "string", i18n: true }
       - { label: "Slug", name: slug, widget: "hidden", i18n: false } # not required in the cms, but the generation script will create it to be used
       - { label: "Published", name: isPublished, widget: "boolean", i18n: true }
-
       - name: allergens
         label: "Allergens"
         widget: list
@@ -97,7 +91,6 @@ collections:
               - { label: "Food Name", name: name, widget: string, i18n: true }
               - { label: "Food Description", name: description, widget: text, i18n: true }
               - { label: "Info url", name: infoUrl, widget: string, i18n: duplicate }
-
       - name: cuisineDescription
         label: "Cuisine Description"
         widget: object
@@ -108,7 +101,6 @@ collections:
         fields:
           - { label: "Description", name: "description", widget: "text", required: false, i18n: true }
           - { label: "Source url", name: "sourceUrl", widget: "string", required: false, i18n: true }
-
       - name: baseInfo
         label: "Base Info"
         widget: object

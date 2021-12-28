@@ -6,23 +6,23 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 // TODO: navigator.share sheet
 
 class MyDocument extends Document {
-    render() {
-        return (
-            <Html lang="en">
-                <Head>
-                    <link rel="icon" href="/static/favicon.ico" />
-                    <meta name="author" content="Neef Rehman" />
-                    <meta name="title" content="allergies.travel" />
-                    <meta name="description" content="Not coming soon." />
+  render() {
+    return (
+      <Html lang="en">
+        <Head>
+          <link rel="icon" href="/static/favicon.ico" />
+          <meta name="author" content="Neef Rehman" />
+          <meta name="title" content="allergies.travel" />
+          <meta name="description" content="Not coming soon." />
 
-                    <link
-                        rel="preload"
-                        href="https://fonts.googleapis.com/css?family=Chonburi"
-                        as="style"
-                    />
+          <link
+            rel="preload"
+            href="https://fonts.googleapis.com/css?family=Chonburi"
+            as="style"
+          />
 
-                    {/* TODO: reactivate GA once site is live */}
-                    {/* <script
+          {/* TODO: reactivate GA once site is live */}
+          {/* <script
                         async
                         src="https://www.googletagmanager.com/gtag/js?id=UA-122323130-1"
                     />
@@ -43,35 +43,32 @@ class MyDocument extends Document {
                         }}
                     /> */}
 
-                    <meta property="og:type" content="website" />
-                    <meta property="og:url" content="https://allergies.travel" />
-                    <meta property="og:title" content="allergies.travel" />
-                    <meta property="og:description" content="Not coming soon" />
-                    <meta
-                        property="og:image"
-                        content="https://allergies.travel/static/meta-image.jpeg"
-                    />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://allergies.travel" />
+          <meta property="og:title" content="allergies.travel" />
+          <meta property="og:description" content="Not coming soon" />
+          <meta
+            property="og:image"
+            content="https://allergies.travel/static/meta-image.jpeg"
+          />
 
-                    <meta property="twitter:card" content="summary_large_image" />
-                    <meta
-                        property="twitter:url"
-                        content="https://allergies.travel"
-                    />
-                    <meta property="twitter:title" content="allergies.travel" />
-                    <meta property="twitter:description" content="Not coming soon" />
-                    <meta
-                        property="twitter:image"
-                        content="https://allergies.travel/static/meta-image.jpeg"
-                    />
-                </Head>
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://allergies.travel" />
+          <meta property="twitter:title" content="allergies.travel" />
+          <meta property="twitter:description" content="Not coming soon" />
+          <meta
+            property="twitter:image"
+            content="https://allergies.travel/static/meta-image.jpeg"
+          />
+        </Head>
 
-                <body>
-                    <Main />
-                    <NextScript />
-                </body>
-            </Html>
-        );
-    }
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
+  }
 }
 
 export default MyDocument;

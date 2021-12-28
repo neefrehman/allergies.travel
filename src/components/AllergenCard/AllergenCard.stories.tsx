@@ -5,9 +5,9 @@ import { AllergenCard } from "./index";
 import type { AllergenCardProps } from "./index";
 
 export default {
-    title: "AllergenCard",
-    component: AllergenCard,
-    parameters: { actions: { argTypesRegex: "^on.*" } },
+  title: "AllergenCard",
+  component: AllergenCard,
+  parameters: { actions: { argTypesRegex: "^on.*" } },
 } as Meta;
 
 const Template: Story<AllergenCardProps> = args => <AllergenCard {...args} />;
@@ -15,7 +15,7 @@ const Template: Story<AllergenCardProps> = args => <AllergenCard {...args} />;
 export const Primary = Template.bind({});
 
 Primary.args = {
-    allergenName: "Peanuts",
-    containingFoods: ["dhoog"],
-    linkPath: "afghanistan",
+  allergenName: "Peanuts",
+  containingFoods: ["dhoog"],
+  linkPath: "afghanistan",
 };

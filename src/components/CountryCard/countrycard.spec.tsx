@@ -6,18 +6,18 @@ import * as stories from "./CountryCard.stories";
 const { Primary } = composeStories(stories);
 
 describe("CountryCard", () => {
-    describe("When the CountryCard component mounts", () => {
-        it("It renders correctly", () => {
-            render(<Primary />);
-            expect(screen.getByRole("link")).toBeInTheDocument();
-        });
-        it("The correct country name is diplayed", () => {
-            render(<Primary />);
-            expect(screen.getByRole("link")).toHaveTextContent("Afghanistan");
-        });
-        it("The correct flag is diplayed", () => {
-            render(<Primary />);
-            expect(screen.getByRole("link")).toContainHTML("🇦🇫");
-        });
+  describe("When the CountryCard component mounts", () => {
+    it("It renders correctly", () => {
+      render(<Primary />);
+      expect(screen.getByRole("link")).toBeInTheDocument();
     });
+    it("The correct country name is diplayed", () => {
+      render(<Primary />);
+      expect(screen.getByRole("link")).toHaveTextContent("Afghanistan");
+    });
+    it("The correct flag is diplayed", () => {
+      render(<Primary />);
+      expect(screen.getByRole("link")).toContainHTML("🇦🇫");
+    });
+  });
 });

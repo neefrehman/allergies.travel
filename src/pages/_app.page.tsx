@@ -10,22 +10,20 @@ import { PrefersReducedMotionProvider } from "context/PrefersReducedMotion";
 import { HomePageAnimationHasRunProvider } from "context/HomePageAnimationHasRun";
 
 export const AppProviders = ({ children }: { children: ReactNode }) => (
-    <ThemeProvider theme={theme}>
-        <GlobalStyles />
-        <IsDebugProvider>
-            <PrefersReducedMotionProvider>
-                <HomePageAnimationHasRunProvider>
-                    {children}
-                </HomePageAnimationHasRunProvider>
-            </PrefersReducedMotionProvider>
-        </IsDebugProvider>
-    </ThemeProvider>
+  <ThemeProvider theme={theme}>
+    <GlobalStyles />
+    <IsDebugProvider>
+      <PrefersReducedMotionProvider>
+        <HomePageAnimationHasRunProvider>{children}</HomePageAnimationHasRunProvider>
+      </PrefersReducedMotionProvider>
+    </IsDebugProvider>
+  </ThemeProvider>
 );
 
 const App = ({ Component, pageProps }: AppProps) => (
-    <AppProviders>
-        <Component {...pageProps} />
-    </AppProviders>
+  <AppProviders>
+    <Component {...pageProps} />
+  </AppProviders>
 );
 
 export default App;
