@@ -4,13 +4,13 @@ import Head from "next/head";
 
 import { CountryCard } from "components/CountryCard";
 import { getAllCountryData, getTranslationStrings } from "data/fetchers";
-import { Title } from "components/Title";
 import { sluggify } from "utils/sluggify";
 import type { TranslationStrings } from "data/schemas";
 import { createTranslator } from "utils/i18n/createTranslator";
 import { ErrorBoundary } from "components/ErrorBoundary";
 import { styled } from "stitches";
 
+import { Title } from "./components/Title";
 import PeanutWorld from "./components/PeanutWorld";
 
 const IntroContainer = styled("div", {

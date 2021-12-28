@@ -56,6 +56,7 @@ export const { styled, css, globalCss, getCssText, theme, config } = createStitc
     dark: "(prefers-color-scheme: dark)",
     light: "(prefers-color-scheme: light)",
     reducedMotion: "(prefers-reduced-motion: reduce)",
+    normalMotion: "(prefers-reduced-motion: no-preference)",
   },
   utils: {
     marginX: (value: PropertyValue<"margin">) => ({
@@ -75,7 +76,6 @@ export const { styled, css, globalCss, getCssText, theme, config } = createStitc
       paddingBottom: value,
     }),
     size: (value: PropertyValue<"width">) => ({ width: value, height: value }),
-    br: (value: PropertyValue<"borderRadius">) => ({ borderRadius: value }),
   },
 });
 

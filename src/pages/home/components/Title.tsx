@@ -1,8 +1,9 @@
 import React from "react";
 
+import { usePrefersReducedMotionContext } from "context/PrefersReducedMotion";
 import { styled } from "stitches";
 
-const StyledDiv = styled("div", {
+const StyledTitleContainer = styled("div", {
   position: "absolute",
   top: "50%",
   left: "50%",
@@ -30,19 +31,28 @@ const StyledDiv = styled("div", {
     transform: "translate3d(0, -160%, 0)",
     transitionDelay: "2700ms",
   },
+  variants: {
+    isVisible: {
+      true: {
+        "& h1, & p": {
+          transform: "translate3d(0, 0, 0)",
+        },
+      },
+    },
+  },
 });
 
 export const Title = ({ isVisible }: { isVisible: boolean }) => {
-  const loadedStyle = isVisible ? { transform: "translate3d(0, 0, 0)" } : undefined;
+  const prefersReducedMotion = usePrefersReducedMotionContext();
 
   return (
-    <StyledDiv>
+    <StyledTitleContainer isVisible={prefersReducedMotion || isVisible}>
       <div>
-        <h1 style={loadedStyle}>allergies.travel</h1>
+        <h1>allergies.travel</h1>
       </div>
       <div>
-        <p style={loadedStyle}>not coming soon</p>
+        <p>not coming soon</p>
       </div>
-    </StyledDiv>
+    </StyledTitleContainer>
   );
 };

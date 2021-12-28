@@ -17,7 +17,7 @@ const PeanutWorld = memo(
     // @ts-expect-error: connection does exist!
     const connection = navigator?.connection?.effectiveType ?? "4g";
     const cpuCoreCount = navigator?.hardwareConcurrency ?? 6;
-    const isLowConnectivity = connection === "slow-2g" || connection === "2g";
+    const isLowConnectivity = ["slow-2g", "2g", "3g"].includes(connection);
     const isLowPerformance = cpuCoreCount < 4;
 
     const shouldFallback = isLowConnectivity || isLowPerformance;

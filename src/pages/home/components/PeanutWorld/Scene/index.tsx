@@ -25,20 +25,19 @@ export const PeanutWorldScene = memo(
     const prefersReducedMotion = usePrefersReducedMotionContext();
     const [hasRun, setHasRun] = useHomePageAnimationHasRunContext();
 
-    const isShortAnimation = prefersReducedMotion || hasRun; // FIXME: rotation and orbit issues
-    const willFadeIn = prefersReducedMotion && !hasMounted;
+    const isShortAnimation = prefersReducedMotion || hasRun;
 
     const CAMERA_FAR = 1300;
-    const CONTROLS_ORBIT_SPEED = prefersReducedMotion ? 0.1 : 0.26;
+    const CONTROLS_ORBIT_SPEED = prefersReducedMotion ? 0.06 : 0.26;
     const ZOOM_START = isShortAnimation ? 6 : CAMERA_FAR;
     const ZOOM_END = 5;
-    const titleTimeout = isShortAnimation ? 0 : 240;
+    const TITLE_TIMEOUT = isShortAnimation ? 0 : 240;
 
     const onZoomRest = () => {
       setTimeout(() => {
         setTitleIsVisible(true);
         setHasRun(true);
-      }, titleTimeout);
+      }, TITLE_TIMEOUT);
     };
 
     return (
@@ -46,8 +45,8 @@ export const PeanutWorldScene = memo(
         camera={{ far: CAMERA_FAR }}
         css={{
           backgroundColor: "$spaceNavy",
-          transition: "opacity 3000ms",
-          opacity: willFadeIn ? "0" : "1",
+          transition: "opacity 2000ms",
+          opacity: isShortAnimation && !hasMounted ? "0" : "1",
           pointerEvents: isDebug ? "initial" : "none",
         }}
       >
