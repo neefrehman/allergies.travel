@@ -25,6 +25,8 @@ export const Controls = ({
   });
 
   return (
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore 'Type instantiation is excessively deep and possibly infinite'
     <AnimatedOrbitControls
       target={[0, 0, -targetZ]}
       args={[camera, gl.domElement]}
