@@ -3,20 +3,13 @@ import { render, screen, composeStories } from "test-utils";
 
 import * as stories from "./Card.stories";
 
-const { Primary, Square, LinkBox } = composeStories(stories);
+const { Primary, LinkBox } = composeStories(stories);
 
 describe("Card", () => {
   describe("When the Card component mounts", () => {
     it("It renders correctly", () => {
       render(<Primary />);
       expect(screen.getByRole("heading")).toBeInTheDocument();
-    });
-  });
-
-  describe("When the Square variant component mounts", () => {
-    it("The aspect ratio is correct", () => {
-      const { container } = render(<Square />);
-      expect(container.style.height === container.style.width).toBeTruthy();
     });
   });
 
