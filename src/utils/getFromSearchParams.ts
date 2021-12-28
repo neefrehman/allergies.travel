@@ -3,12 +3,17 @@
  *
  * @param query The query string to be checked
  */
-export const getFromSearchParams = (query: string): boolean => {
+export const getFromSearchParams = (query: string): boolean | string | number => {
   const searchParams = new URLSearchParams(window.location.search);
-  const fullQuery = searchParams.get(query);
-  const acceptedQueryValues = ["", "true"]; // `/?query` || `/?query=true`
-  const isInParams =
-    fullQuery !== null ? acceptedQueryValues.includes(fullQuery) : false;
+  const queryValue = searchParams.get(query);
 
-  return isInParams;
+  if (queryValue === null || queryValue === "false") {
+    return false;
+  } else if (queryValue === "" || queryValue === "true") {
+    return true; // matches /?query || /?query=true
+  } else if (!isNaN(Number(queryValue))) {
+    return Number(queryValue);
+  }
+
+  return queryValue;
 };

@@ -7,43 +7,27 @@ import type { SimpleProviderProps } from "./types";
 
 type PrefersReducedMotionContextValue = boolean | null;
 
-/**
- * Global context for reduced motion a11y preference
- */
 export const PrefersReducedMotionContext =
   createContext<PrefersReducedMotionContextValue>(null);
 
-/**
- * Global context provider for reduced motion a11y preference
- */
 export const PrefersReducedMotionProvider = ({ children }: SimpleProviderProps) => {
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
 
-  const QUERY = "(prefers-reduced-motion: reduce)";
-
   useIsomorphicLayoutEffect(() => {
-    const mediaQueryList = window.matchMedia(QUERY);
+    const mediaQueryList = window.matchMedia("(prefers-reduced-motion: reduce)");
     const listener = (e: MediaQueryListEvent) => {
       setPrefersReducedMotion(e.matches);
     };
 
-    try {
-      mediaQueryList.addEventListener("change", listener); // Chrome & FF
-    } catch {
-      mediaQueryList.addListener(listener); // Safari
-    }
+    mediaQueryList.addEventListener("change", listener);
 
     if (prefersReducedMotion === false) {
-      const reducedMotionfromParams = getFromSearchParams("reducedMotion");
-      setPrefersReducedMotion(reducedMotionfromParams);
+      const reducedMotionFromParams = getFromSearchParams("reducedMotion");
+      setPrefersReducedMotion(reducedMotionFromParams === true);
     }
 
     return () => {
-      try {
-        mediaQueryList.removeEventListener("change", listener);
-      } catch {
-        mediaQueryList.removeListener(listener);
-      }
+      mediaQueryList.removeEventListener("change", listener);
     };
   }, []);
 
@@ -54,9 +38,6 @@ export const PrefersReducedMotionProvider = ({ children }: SimpleProviderProps) 
   );
 };
 
-/**
- * Global context receiver hook for reduced motion a11y preference
- */
 export const usePrefersReducedMotionContext =
   (): PrefersReducedMotionContextValue => {
     const value = useContext(PrefersReducedMotionContext);
