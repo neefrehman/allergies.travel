@@ -26,6 +26,8 @@ const PeanutWorld = memo(
       ? lazy(() => import("./FallbackImage"))
       : lazy(() => import("./Scene"));
 
+    // TODO: loading indicator
+
     return (
       <Suspense fallback={null}>
         <Scene setTitleIsVisible={setTitleIsVisible} />

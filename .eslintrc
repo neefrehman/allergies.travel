@@ -12,7 +12,7 @@
     "node": true,
     "jest": true
   },
-  "plugins": ["prettier", "@typescript-eslint", "@emotion", "testing-library"],
+  "plugins": ["prettier", "@typescript-eslint", "testing-library"],
   "extends": [
     "plugin:@typescript-eslint/recommended",
     "plugin:testing-library/dom",

@@ -25,7 +25,7 @@ export const Stars = ({ count, maxDistance }: StarsProps) => {
   const { opacity } = useSpring({
     opacity: 1,
     from: { opacity: 0 },
-    config: { friction: 100 },
+    config: { friction: 120 },
   });
 
   return (

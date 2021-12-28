@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import styled from "@emotion/styled";
 import type { GetStaticProps } from "next";
 import Head from "next/head";
 
@@ -10,25 +9,26 @@ import { sluggify } from "utils/sluggify";
 import type { TranslationStrings } from "data/schemas";
 import { createTranslator } from "utils/i18n/createTranslator";
 import { ErrorBoundary } from "components/ErrorBoundary";
+import { styled } from "stitches";
 
 import PeanutWorld from "./components/PeanutWorld";
 
-const IntroContainer = styled.div`
-  background-color: ${({ theme }) => theme.colors.spaceNavy};
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-`;
+const IntroContainer = styled("div", {
+  backgroundColor: "$spaceNavy",
+  position: "relative",
+  height: "100vh",
+  width: "100%",
+  overflow: "hidden",
+});
 
-const CountryCardGrid = styled.ul`
-  margin-top: 3em;
-  list-style: none;
-  display: grid;
-  gap: 3em;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 0 10em;
-`;
+const CountryCardGrid = styled("ul", {
+  mt: "3em",
+  listStyle: "none",
+  display: "grid",
+  gap: "3em",
+  gridTemplateColumns: "repeat(4, 1fr)",
+  px: "10em",
+});
 
 interface HomePageProps {
   countryData: { name: string; flag: string; slug: string }[];

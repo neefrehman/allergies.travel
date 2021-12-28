@@ -15,7 +15,8 @@
     "jsx": "preserve",
     "baseUrl": "src",
     "paths": {
-      "test-utils": ["utils/tests/test-utils"]
+      "test-utils": ["utils/tests/test-utils"],
+      "stitches": ["styles/stitches.config"]
     },
     "incremental": true
   },

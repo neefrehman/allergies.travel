@@ -2,6 +2,8 @@
 import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
+import { getCssText } from "stitches";
+
 // TODO: PWA support
 // TODO: navigator.share sheet
 
@@ -15,9 +17,11 @@ class MyDocument extends Document {
           <meta name="title" content="allergies.travel" />
           <meta name="description" content="Not coming soon." />
 
+          <style id="stitches" dangerouslySetInnerHTML={{ __html: getCssText() }} />
+
           <link
             rel="preload"
-            href="https://fonts.googleapis.com/css?family=Chonburi"
+            href="https://fonts.googleapis.com/css?family=Chonburi&display=optional"
             as="style"
           />
 

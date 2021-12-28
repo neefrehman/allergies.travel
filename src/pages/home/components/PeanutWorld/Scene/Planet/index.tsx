@@ -27,7 +27,7 @@ export const Planet = memo(
     const { rotation } = useSpring({
       rotation: [0, fullRotation * 0.02, 0],
       from: { rotation: [0, -fullRotation * 2.5, 0] },
-      delay: 200,
+      delay: willRotate ? 200 : 0,
       config: { mass: 3, tension: 400, friction: 250, precision: 0.001 },
       immediate: !willRotate,
     });

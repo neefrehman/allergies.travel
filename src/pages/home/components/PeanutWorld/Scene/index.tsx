@@ -1,12 +1,12 @@
 import React, { memo, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { EffectComposer, Noise } from "@react-three/postprocessing";
-import { useTheme } from "@emotion/react";
 
 import { useHomePageAnimationHasRunContext } from "context/HomePageAnimationHasRun";
 import { useHasMounted } from "hooks/useHasMounted";
 import { useIsDebugContext } from "context/IsDebug";
 import { usePrefersReducedMotionContext } from "context/PrefersReducedMotion";
+import { styled } from "stitches";
 
 import type { PeanutWorldProps } from "..";
 
@@ -16,10 +16,10 @@ import { Planet } from "./Planet";
 import { Controls } from "./Controls";
 import { ZoomIn } from "./ZoomIn";
 
+const StyledCanvas = styled(Canvas);
+
 export const PeanutWorldScene = memo(
   ({ setTitleIsVisible }: PeanutWorldProps) => {
-    const { colors } = useTheme();
-
     const hasMounted = useHasMounted();
     const isDebug = useIsDebugContext() ?? false;
     const prefersReducedMotion = usePrefersReducedMotionContext();
@@ -30,19 +30,22 @@ export const PeanutWorldScene = memo(
 
     const CAMERA_FAR = 1300;
     const CONTROLS_ORBIT_SPEED = prefersReducedMotion ? 0.1 : 0.26;
-    const ZOOM_START = isShortAnimation ? 8 : CAMERA_FAR;
+    const ZOOM_START = isShortAnimation ? 6 : CAMERA_FAR;
     const ZOOM_END = 5;
+    const titleTimeout = isShortAnimation ? 0 : 240;
 
     const onZoomRest = () => {
-      setTitleIsVisible(true);
-      setHasRun(true);
+      setTimeout(() => {
+        setTitleIsVisible(true);
+        setHasRun(true);
+      }, titleTimeout);
     };
 
     return (
-      <Canvas
+      <StyledCanvas
         camera={{ far: CAMERA_FAR }}
-        style={{
-          backgroundColor: colors.spaceNavy,
+        css={{
+          backgroundColor: "$spaceNavy",
           transition: "opacity 3000ms",
           opacity: willFadeIn ? "0" : "1",
           pointerEvents: isDebug ? "initial" : "none",
@@ -50,7 +53,7 @@ export const PeanutWorldScene = memo(
       >
         <fog args={["#000004", 0, CAMERA_FAR * 0.1]} attach="fog" />
         <EffectComposer>
-          <Noise opacity={0.04} />
+          <Noise opacity={0.035} />
         </EffectComposer>
         <Suspense fallback={null}>
           <ZoomIn from={ZOOM_START} to={ZOOM_END} onRest={onZoomRest}>
@@ -64,7 +67,7 @@ export const PeanutWorldScene = memo(
             userControllable={isDebug}
           />
         </Suspense>
-      </Canvas>
+      </StyledCanvas>
     );
   },
   (previous, next) => {

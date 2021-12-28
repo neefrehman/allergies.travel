@@ -19,7 +19,7 @@ export const ZoomIn = ({ from, to, onRest, children }: ZoomInProps) => {
     position: [0, 0, -to],
     from: { position: [0, 0, -from] },
     config: { mass: 5.2, tension: 320, friction: 150, precision: 0.01 }, // TODO: more experimentation with config
-    onRest: () => setTimeout(() => onRest(), 240),
+    onRest,
   });
 
   return (
