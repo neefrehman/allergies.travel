@@ -10,26 +10,21 @@ const StyledDiv = styled("div", {
   textAlign: "center",
   color: "$white",
   textShadow: "0px 0px 15px #00000060",
-
   "& div": {
     overflowY: "hidden",
     padding: "0.2em 0",
   },
-
   "& h1, & p": {
     transition: "transform 3600ms cubic-bezier(0, 0.8, 0.1, 1)",
   },
-
   "& h1": {
     marginBottom: "0.5em",
     overflowWrap: "break-word",
     transform: "translate3d(0, 180%, 0)",
-
     "@media (max-width: 620px)": {
       fontSize: "2.6em",
     },
   },
-
   "& p": {
     fontSize: "1.42em",
     transform: "translate3d(0, -160%, 0)",

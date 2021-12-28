@@ -1,5 +1,5 @@
 import { createStitches } from "@stitches/react";
-import type { PropertyValue as CSSProp, CSS as StitchesCSS } from "@stitches/react";
+import type { PropertyValue, CSS as StitchesCSS } from "@stitches/react";
 
 export const { styled, css, globalCss, getCssText, theme, config } = createStitches({
   theme: {
@@ -33,7 +33,8 @@ export const { styled, css, globalCss, getCssText, theme, config } = createStitc
     borderStyles: {},
     radii: {
       small: "4px",
-      large: "8px",
+      medium: "8px",
+      large: "12px",
     },
     shadows: {
       /** For smaller cards like CountryCard */
@@ -57,25 +58,24 @@ export const { styled, css, globalCss, getCssText, theme, config } = createStitc
     reducedMotion: "(prefers-reduced-motion: reduce)",
   },
   utils: {
-    m: (value: CSSProp<"margin">) => ({ margin: value }),
-    mt: (value: CSSProp<"margin">) => ({ marginTop: value }),
-    mb: (value: CSSProp<"margin">) => ({ marginBottom: value }),
-    ml: (value: CSSProp<"margin">) => ({ marginLeft: value }),
-    mr: (value: CSSProp<"margin">) => ({ marginRight: value }),
-    mx: (value: CSSProp<"margin">) => ({ marginLeft: value, marginRight: value }),
-    my: (value: CSSProp<"margin">) => ({ marginTop: value, marginBottom: value }),
-
-    p: (value: CSSProp<"padding">) => ({ padding: value }),
-    pt: (value: CSSProp<"padding">) => ({ paddingTop: value }),
-    pb: (value: CSSProp<"padding">) => ({ paddingBottom: value }),
-    pl: (value: CSSProp<"padding">) => ({ paddingLeft: value }),
-    pr: (value: CSSProp<"padding">) => ({ paddingRight: value }),
-    px: (value: CSSProp<"padding">) => ({ paddingLeft: value, paddingRight: value }),
-    py: (value: CSSProp<"padding">) => ({ paddingTop: value, paddingBottom: value }),
-
-    size: (value: CSSProp<"width">) => ({ width: value, height: value }),
-
-    br: (value: CSSProp<"borderRadius">) => ({ borderRadius: value }),
+    marginX: (value: PropertyValue<"margin">) => ({
+      marginLeft: value,
+      marginRight: value,
+    }),
+    marginY: (value: PropertyValue<"margin">) => ({
+      marginTop: value,
+      marginBottom: value,
+    }),
+    paddingX: (value: PropertyValue<"padding">) => ({
+      paddingLeft: value,
+      paddingRight: value,
+    }),
+    paddingY: (value: PropertyValue<"padding">) => ({
+      paddingTop: value,
+      paddingBottom: value,
+    }),
+    size: (value: PropertyValue<"width">) => ({ width: value, height: value }),
+    br: (value: PropertyValue<"borderRadius">) => ({ borderRadius: value }),
   },
 });
 

@@ -22,12 +22,12 @@ const IntroContainer = styled("div", {
 });
 
 const CountryCardGrid = styled("ul", {
-  mt: "3em",
+  marginTop: "3em",
   listStyle: "none",
   display: "grid",
   gap: "3em",
   gridTemplateColumns: "repeat(4, 1fr)",
-  px: "10em",
+  paddingX: "10em",
 });
 
 interface HomePageProps {

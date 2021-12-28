@@ -4,7 +4,7 @@ import Link from "next/link";
 import { styled } from "stitches";
 
 const StyledCard = styled("div", {
-  borderRadius: "10px",
+  borderRadius: "$large",
   boxShadow: "$small",
   display: "flex",
   flexDirection: "column",
@@ -12,14 +12,11 @@ const StyledCard = styled("div", {
   textDecoration: "none",
   textAlign: "center",
   fontSize: "1.3rem",
-
   /* TODO: aspect-ratio? */
-
   "& > p": {
     mt: "1em",
     fontSize: "4rem",
   },
-
   "& :hover": {
     textDecoration: "underline",
   },

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { styled } from "stitches";
 
 const StyledCard = styled("div", {
-  borderRadius: "10px",
+  borderRadius: "$large",
   boxShadow: "$small",
   display: "flex",
   flexDirection: "column",
