@@ -11,7 +11,7 @@ export const createTranslator = (
   const t = (translationKey: TranslatorKey) => {
     const [namespace, key] = translationKey.split(".");
     const fallback =
-      process.env.NODE_ENV === "production"
+      process.env.NODE_ENV !== "production"
         ? `!! MISSING TRANSLATION: ${translationKey} !!`
         : translationKey;
 

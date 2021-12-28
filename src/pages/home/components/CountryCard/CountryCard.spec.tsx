@@ -11,13 +11,15 @@ describe("CountryCard", () => {
       render(<Primary />);
       expect(screen.getByRole("link")).toBeInTheDocument();
     });
-    it("The correct country name is diplayed", () => {
+
+    it("The correct country name is displayed", () => {
       render(<Primary />);
       expect(screen.getByRole("link")).toHaveTextContent("Afghanistan");
     });
-    it("The correct flag is diplayed", () => {
+
+    it("The correct flag is displayed", () => {
       render(<Primary />);
-      expect(screen.getByRole("link")).toContainHTML("🇦🇫");
+      expect(screen.getByText("🇦🇫")).not.toBeNull();
     });
   });
 });

@@ -5,11 +5,6 @@ import type { CountryCardProps } from "./index";
 
 export default {
   component: CountryCard,
-  parameters: {
-    actions: {
-      argTypesRegex: "^on.*",
-    },
-  },
 } as Meta;
 
 export const Primary = {

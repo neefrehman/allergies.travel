@@ -24,7 +24,7 @@
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.config.js"],
   "ts-node": {
     "compilerOptions": {
-      "module": "commonjs" // allows ts-node to use import statements safely
+      "module": "commonjs"
     }
   }
 }

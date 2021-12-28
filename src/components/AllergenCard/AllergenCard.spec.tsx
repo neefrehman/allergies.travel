@@ -11,6 +11,7 @@ describe("AllergenCard", () => {
       render(<Primary />);
       expect(screen.getByRole("link")).toBeInTheDocument();
     });
+
     it("The correct allergen name is diplayed", () => {
       render(<Primary />);
       expect(screen.getByRole("link")).toContainHTML("afghanistan");

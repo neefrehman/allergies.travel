@@ -1,4 +1,5 @@
 const path = require("path");
+const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 
 const toPath = _path => path.join(process.cwd(), _path);
 
@@ -23,12 +24,12 @@ module.exports = {
       path.resolve(__dirname, "../src"),
       "node_modules",
     ];
-    baseConfig.resolve.alias = {
-      ...baseConfig.resolve.alias,
-      "@emotion/core": toPath("node_modules/@emotion/react"),
-      "@emotion/styled": toPath("node_modules/@emotion/styled"),
-      "emotion-theming": toPath("node_modules/@emotion/react"),
-    };
+    baseConfig.resolve.plugins = [
+      new TsconfigPathsPlugin({
+        configFile: path.resolve(__dirname, "../tsconfig.json"),
+      }),
+    ];
+
     return { ...nextConfig.webpack, ...baseConfig };
   },
 };

@@ -5,11 +5,6 @@ import type { AllergenCardProps } from "./index";
 
 export default {
   component: AllergenCard,
-  parameters: {
-    actions: {
-      argTypesRegex: "^on.*",
-    },
-  },
 } as Meta;
 
 export const Primary = {

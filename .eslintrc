@@ -72,7 +72,6 @@
         "tsx": "never"
       }
     ],
-    "arrow-body-style": ["warn", "as-needed"],
     "import/prefer-default-export": "off",
     "prettier/prettier": "warn",
     "react/prop-types": "off",

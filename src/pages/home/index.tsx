@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import type { GetStaticProps } from "next";
 import Head from "next/head";
 
-import { CountryCard } from "components/CountryCard";
 import { getAllCountryData, getTranslationStrings } from "data/fetchers";
 import { sluggify } from "utils/sluggify";
 import type { TranslationStrings } from "data/schemas";
@@ -10,6 +9,7 @@ import { createTranslator } from "utils/i18n/createTranslator";
 import { ErrorBoundary } from "components/ErrorBoundary";
 import { styled } from "stitches";
 
+import { CountryCard } from "./components/CountryCard";
 import { Title } from "./components/Title";
 import PeanutWorld from "./components/PeanutWorld";
 
