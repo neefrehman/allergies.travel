@@ -1,4 +1,6 @@
-/** Creates an hsla string to be parsed by CSS */
+/**
+ * Creates an hsla string to be parsed by CSS
+ */
 export const hsla = <
   H extends number,
   S extends number,

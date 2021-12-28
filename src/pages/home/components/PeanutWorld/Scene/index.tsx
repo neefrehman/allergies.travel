@@ -68,7 +68,9 @@ export const PeanutWorldScene = memo(
     );
   },
   (previous, next) => {
-    if (previous.setTitleIsVisible !== next.setTitleIsVisible) return false;
+    if (previous.setTitleIsVisible !== next.setTitleIsVisible) {
+      return false;
+    }
     return true;
   }
 );

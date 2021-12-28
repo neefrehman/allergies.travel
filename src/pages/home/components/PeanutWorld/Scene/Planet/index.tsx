@@ -54,7 +54,9 @@ export const Planet = memo(
     );
   },
   (previous, next) => {
-    if (previous.willRotate !== next.willRotate) return false;
+    if (previous.willRotate !== next.willRotate) {
+      return false;
+    }
     return true;
   }
 );

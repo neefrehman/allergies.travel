@@ -18,12 +18,13 @@ export const generateSitemap = async () => {
   const staticPageArray = pages
     .filter(
       name =>
+        name.endsWith("page.tsx") && // only use page components
         name[0] !== "_" && // Ignore Next specific files
         name[0] !== "[" && // and dynamic route templates
-        name !== "404.tsx" && // and 404
+        !name.startsWith("404") && // and 404
         name !== "api" // and api routes
     )
-    .map(name => name.replace(".tsx", "").replace("index", "")); // Index becomes homepage
+    .map(name => name.replace(".page.tsx", "").replace("index", "")); // Index becomes homepage
 
   const defaultLocale = nextConfig.i18n.defaultLocale;
   const supportedLocales = nextConfig.i18n.locales;

@@ -1,50 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://allergies.travel/404.page</loc>
+  <url>
+    <loc>https://allergies.travel</loc>
 
-        <xhtml:link
-            rel="alternate"
-            hreflang="en"
-            href="https://allergies.travel/en/404.page"
-        />
+    <xhtml:link rel="alternate" hreflang="en" href="https://allergies.travel/en" />
 
-        <xhtml:link
-            rel="alternate"
-            hreflang="de"
-            href="https://allergies.travel/de/404.page"
-        />
-    </url>
+    <xhtml:link rel="alternate" hreflang="de" href="https://allergies.travel/de" />
+  </url>
 
-    <url>
-        <loc>https://allergies.travel/home</loc>
+  <url>
+    <loc>https://allergies.travel/</loc>
 
-        <xhtml:link
-            rel="alternate"
-            hreflang="en"
-            href="https://allergies.travel/en/home"
-        />
+    <xhtml:link rel="alternate" hreflang="en" href="https://allergies.travel/en/" />
 
-        <xhtml:link
-            rel="alternate"
-            hreflang="de"
-            href="https://allergies.travel/de/home"
-        />
-    </url>
-
-    <url>
-        <loc>https://allergies.travel/</loc>
-
-        <xhtml:link
-            rel="alternate"
-            hreflang="en"
-            href="https://allergies.travel/en/"
-        />
-
-        <xhtml:link
-            rel="alternate"
-            hreflang="de"
-            href="https://allergies.travel/de/"
-        />
-    </url>
+    <xhtml:link rel="alternate" hreflang="de" href="https://allergies.travel/de/" />
+  </url>
 </urlset>

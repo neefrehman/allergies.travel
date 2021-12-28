@@ -1,44 +1,29 @@
 {
-    "compilerOptions": {
-        "target": "ES2018",
-        "lib": [
-            "dom",
-            "dom.iterable",
-            "es2019",
-            "esnext"
-        ],
-        "allowJs": true,
-        "skipLibCheck": true,
-        "strict": true,
-        "forceConsistentCasingInFileNames": true,
-        "noEmit": true,
-        "esModuleInterop": true,
-        "module": "esnext",
-        "moduleResolution": "node",
-        "resolveJsonModule": true,
-        "isolatedModules": true,
-        "jsx": "preserve",
-        "baseUrl": "src",
-        "paths": {
-            "test-utils": [
-                "utils/tests/test-utils"
-            ]
-        },
-        "incremental": true
+  "compilerOptions": {
+    "target": "ES2018",
+    "lib": ["dom", "dom.iterable", "es2020", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": "src",
+    "paths": {
+      "test-utils": ["utils/tests/test-utils"]
     },
-    "exclude": [
-        "node_modules",
-        "cypress"
-    ],
-    "include": [
-        "next-env.d.ts",
-        "**/*.ts",
-        "**/*.tsx",
-        "jest.config.js"
-    ],
-    "ts-node": {
-        "compilerOptions": {
-            "module": "commonjs" // allows ts-node to use import statements safely
-        }
+    "incremental": true
+  },
+  "exclude": ["node_modules", "cypress"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.config.js"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs" // allows ts-node to use import statements safely
     }
+  }
 }

@@ -33,12 +33,13 @@ const PeanutWorld = memo(
     );
   },
   (previous, next) => {
-    if (previous.setTitleIsVisible !== next.setTitleIsVisible) return false;
+    if (previous.setTitleIsVisible !== next.setTitleIsVisible) {
+      return false;
+    }
     return true;
   }
 );
 
 PeanutWorld.displayName = "PeanutWorld";
 
-// Default export required for simpler dynamic importing
-export default PeanutWorld;
+export default PeanutWorld; // Default export required for simpler dynamic importing

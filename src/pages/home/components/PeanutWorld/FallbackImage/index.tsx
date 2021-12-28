@@ -34,5 +34,4 @@ const FallbackImage = ({ setTitleIsVisible }: PeanutWorldProps) => {
   );
 };
 
-// Default export required for simple dynamic importing
-export default FallbackImage;
+export default FallbackImage; // Default export required for simple dynamic importing
