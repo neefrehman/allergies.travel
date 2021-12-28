@@ -48,9 +48,8 @@ export const PeanutWorldScene = memo(
           pointerEvents: isDebug ? "initial" : "none",
         }}
       >
-        <fog args={["#000004", 0, CAMERA_FAR * 0.12]} attach="fog" />
-        <EffectComposer // stops star opacity fading from happening...
-        >
+        <fog args={["#000004", 0, CAMERA_FAR * 0.1]} attach="fog" />
+        <EffectComposer>
           <Noise opacity={0.04} />
         </EffectComposer>
         <Suspense fallback={null}>
@@ -76,5 +75,4 @@ export const PeanutWorldScene = memo(
 
 PeanutWorldScene.displayName = "PeanutWorldScene";
 
-// Default export required for simple dynamic importing
-export default PeanutWorldScene;
+export default PeanutWorldScene; // Default export required for simple dynamic importing

@@ -2,7 +2,6 @@
 import React, { useLayoutEffect, useMemo } from "react";
 import type { MeshPhysicalMaterialParameters, Shader, Object3D } from "three";
 import { MeshPhysicalMaterial } from "three/src/materials/MeshPhysicalMaterial";
-import { useFrame } from "@react-three/fiber";
 import glsl from "glslify";
 
 import { useCustomMaterial } from "./hooks/useCustomMaterial";
@@ -33,21 +32,21 @@ export class DistortPhysicalMaterialImpl extends MeshPhysicalMaterial {
 
     shader.vertexShader =
       glsl`
-                #pragma glslify: snoise3 = require(glsl-noise/simplex/3d)
-                uniform float time;
-                uniform float radius;
-                uniform float distort;
-            ` + shader.vertexShader;
+        #pragma glslify: snoise3 = require(glsl-noise/simplex/3d)
+        uniform float time;
+        uniform float radius;
+        uniform float distort;
+      ` + shader.vertexShader;
 
     shader.vertexShader = shader.vertexShader.replace(
       "#include <begin_vertex>",
       // TODO: update characteristics of noise for better terrain
       glsl`
-                float noiseScale = 1.7; // "Continent" size
-                
-                float noise = snoise3(vec3(position / noiseScale + time));
-                vec3 transformed = vec3(position * (noise * pow(distort, 2.0) + radius));
-            `
+        float noiseScale = 1.7; // "Continent" size
+        
+        float noise = snoise3(vec3(position / noiseScale + time));
+        vec3 transformed = vec3(position * (noise * pow(distort, 2.0) + radius));
+      `
     );
   }
 
@@ -77,7 +76,6 @@ interface DistortedObjectProps {
   object: Object3D;
   radius?: number;
   distort?: number;
-  speed?: number;
 }
 
 /**
@@ -90,7 +88,6 @@ export const DistortedObject = ({
   object,
   distort = 1,
   radius = 1,
-  speed = 1,
   color,
   reflectivity,
 }: DistortedObjectProps & MeshPhysicalMaterialParameters) => {
@@ -107,10 +104,6 @@ export const DistortedObject = ({
     material.radius = radius;
     material.distort = distort;
   }, [distort, radius, material]);
-
-  useFrame(() => {
-    if (speed !== 0) material.time += 0.02 * speed;
-  });
 
   return <primitive ref={customMaterialRef} object={object} />;
 };

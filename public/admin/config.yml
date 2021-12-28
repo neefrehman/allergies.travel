@@ -5,6 +5,7 @@ backend:
   repo: neefrehman/allergies.travel
   branch: staging # TODO: update to master on launch
   open_authoring: true # docs: https://www.netlifycms.org/docs/open-authoring/ 
+  use_graphql: true
 
 media_folder: public/static/uploads
 public_folder: /uploads

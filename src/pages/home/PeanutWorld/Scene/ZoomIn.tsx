@@ -11,15 +11,15 @@ interface ZoomInProps {
 }
 
 /**
- * Creates dolly zoom effect for children. Used as `OrbitControls` camera
+ * Creates dolly zoom effect for children. Used because `OrbitControls` camera
  * position can't be animated with react-spring
  */
 export const ZoomIn = ({ from, to, onRest, children }: ZoomInProps) => {
   const { position } = useSpring({
     position: [0, 0, -to],
     from: { position: [0, 0, -from] },
-    config: { mass: 5.2, tension: 320, friction: 150 }, // TODO: more experimentation with config
-    onRest: () => setTimeout(() => onRest(), 200),
+    config: { mass: 5.2, tension: 320, friction: 150, precision: 0.01 }, // TODO: more experimentation with config
+    onRest: () => setTimeout(() => onRest(), 240),
   });
 
   return (

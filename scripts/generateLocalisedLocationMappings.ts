@@ -13,22 +13,22 @@ import { subregionNameMappings as previousSubregionMappings } from "../src/utils
 import nextConfig from "../next.config";
 
 type GeonamesResponse = {
-    geonames?: { name?: string }[];
+  geonames?: { name?: string }[];
 };
 
 type LocationTypeInputData = {
-    [locationType: string]: {
-        previousMapping: { [location: string]: { [locale: string]: string } };
-        newData: string[];
-    };
+  [locationType: string]: {
+    previousMapping: { [location: string]: { [locale: string]: string } };
+    newData: string[];
+  };
 };
 
 type LocalisedLocationNames = {
-    [locale: string]: string;
+  [locale: string]: string;
 };
 
 type LocalisedLocationNamesDict = {
-    [locationNameInEnglish: string]: LocalisedLocationNames;
+  [locationNameInEnglish: string]: LocalisedLocationNames;
 };
 
 /**
@@ -36,112 +36,111 @@ type LocalisedLocationNamesDict = {
  * can't create for us (region, capital, etc.). these are then used by `generateBaseCountryData.ts`
  */
 const generateLocalisedLocationMappings = async () => {
-    const prettierConfig = await prettier.resolveConfig("./.prettierrc");
-    const supportedLocales = nextConfig.i18n.locales;
+  const prettierConfig = await prettier.resolveConfig("./.prettierrc");
+  const supportedLocales = nextConfig.i18n.locales;
 
-    const directory = "src/utils/i18n";
-    if (!fs.existsSync(directory)) {
-        fs.mkdirSync(directory);
+  const directory = "src/utils/i18n";
+  if (!fs.existsSync(directory)) {
+    fs.mkdirSync(directory);
+  }
+
+  const fetchLocalisedName = async (
+    nameInEnglish: string,
+    locale: string
+  ): Promise<string> => {
+    try {
+      console.log(`querying: ${nameInEnglish} in ${locale}`);
+      const geonamesResponse = await fetch(
+        `http://api.geonames.org/searchJSON?q=${sluggify(
+          nameInEnglish
+        )}&maxRows=1&username=neef&lang=${locale}`
+      );
+      const data = (await geonamesResponse.json()) as GeonamesResponse;
+      return data.geonames?.[0].name ?? nameInEnglish;
+    } catch (err) {
+      console.log(err);
+      return nameInEnglish;
     }
+  };
 
-    const fetchLocalisedName = async (
-        nameInEnglish: string,
-        locale: string
-    ): Promise<string> => {
-        try {
-            console.log(`querying: ${nameInEnglish} in ${locale}`);
-            const geonamesResponse = await fetch(
-                `http://api.geonames.org/searchJSON?q=${sluggify(
-                    nameInEnglish
-                )}&maxRows=1&username=neef&lang=${locale}`
-            );
-            const data = (await geonamesResponse.json()) as GeonamesResponse;
-            return data.geonames?.[0].name ?? nameInEnglish;
-        } catch (err) {
-            console.log(err);
-            return nameInEnglish;
-        }
-    };
+  const locationTypeData: LocationTypeInputData = {
+    capitals: {
+      previousMapping: previousCapitalMappings,
+      newData: countryData.map(country => country.capital[0]),
+    },
+    regions: {
+      previousMapping: previousRegionMappings,
+      newData: [...new Set(countryData.map(country => country.region))], // needs overwriting: Americas
+    },
+    subregions: {
+      previousMapping: previousSubregionMappings,
+      newData: [...new Set(countryData.map(country => country.subregion))], // needs overwriting: Central Europe, Middle Africa
+    },
+  };
 
-    const locationTypeData: LocationTypeInputData = {
-        capitals: {
-            previousMapping: previousCapitalMappings,
-            newData: countryData.map(country => country.capital[0]),
-        },
-        regions: {
-            previousMapping: previousRegionMappings,
-            newData: [...new Set(countryData.map(country => country.region))], // needs overwriting: Americas
-        },
-        subregions: {
-            previousMapping: previousSubregionMappings,
-            newData: [...new Set(countryData.map(country => country.subregion))], // needs overwriting: Central Europe, Middle Africa
-        },
-    };
+  Object.keys(locationTypeData).forEach(async key => {
+    const { previousMapping, newData } = locationTypeData[key];
 
-    Object.keys(locationTypeData).forEach(async key => {
-        const { previousMapping, newData } = locationTypeData[key];
+    const newMappedData = await newData.reduce(
+      async (locationsAccumulator, currentLocationNameInEnglish) => {
+        const awaitedLocationsAccumulator = await locationsAccumulator;
 
-        const newMappedData = await newData.reduce(
-            async (locationsAccumulator, currentLocationNameInEnglish) => {
-                const awaitedLocationsAccumulator = await locationsAccumulator;
-
-                const previouslyQueriedLocales = Object.keys(
-                    previousMapping[currentLocationNameInEnglish] ?? {}
-                );
-
-                const newLocalesToQueryFor = supportedLocales.filter(
-                    locale =>
-                        !previouslyQueriedLocales.includes(locale) && locale !== "en"
-                );
-
-                const localisedLocationNames = await newLocalesToQueryFor.reduce(
-                    async (localesAccumulator, currentLocale) => {
-                        const awaitedLocalesAccumulator = await localesAccumulator;
-
-                        return {
-                            ...awaitedLocalesAccumulator,
-                            [currentLocale]: await fetchLocalisedName(
-                                currentLocationNameInEnglish,
-                                currentLocale
-                            ),
-                        };
-                    },
-                    {} as Promise<LocalisedLocationNames>
-                );
-
-                const localisedCurrentLocationNameMapping = {
-                    [currentLocationNameInEnglish]: {
-                        en: currentLocationNameInEnglish,
-                        ...localisedLocationNames,
-                    },
-                };
-
-                return {
-                    ...awaitedLocationsAccumulator,
-                    ...localisedCurrentLocationNameMapping,
-                };
-            },
-            {} as Promise<LocalisedLocationNamesDict>
+        const previouslyQueriedLocales = Object.keys(
+          previousMapping[currentLocationNameInEnglish] ?? {}
         );
 
-        const mergedData = deepMerge(previousMapping, newMappedData);
+        const newLocalesToQueryFor = supportedLocales.filter(
+          locale => !previouslyQueriedLocales.includes(locale) && locale !== "en"
+        );
 
-        const dataVariableName = `${key.slice(0, -1)}NameMappings`;
-        const formattedData = prettier.format(
-            `
+        const localisedLocationNames = await newLocalesToQueryFor.reduce(
+          async (localesAccumulator, currentLocale) => {
+            const awaitedLocalesAccumulator = await localesAccumulator;
+
+            return {
+              ...awaitedLocalesAccumulator,
+              [currentLocale]: await fetchLocalisedName(
+                currentLocationNameInEnglish,
+                currentLocale
+              ),
+            };
+          },
+          {} as Promise<LocalisedLocationNames>
+        );
+
+        const localisedCurrentLocationNameMapping = {
+          [currentLocationNameInEnglish]: {
+            en: currentLocationNameInEnglish,
+            ...localisedLocationNames,
+          },
+        };
+
+        return {
+          ...awaitedLocationsAccumulator,
+          ...localisedCurrentLocationNameMapping,
+        };
+      },
+      {} as Promise<LocalisedLocationNamesDict>
+    );
+
+    const mergedData = deepMerge(previousMapping, newMappedData);
+
+    const dataVariableName = `${key.slice(0, -1)}NameMappings`;
+    const formattedData = prettier.format(
+      `
             /**
              * auto-generated by scripts/generateLocalisedLocationMappings.ts
              */
             export const ${dataVariableName}: Record<string, Record<string, string>> = 
                 ${JSON.stringify(mergedData)};
             `,
-            { ...prettierConfig, parser: "typescript" }
-        );
+      { ...prettierConfig, parser: "typescript" }
+    );
 
-        fs.writeFileSync(`${directory}/${dataVariableName}.ts`, formattedData);
-    });
+    fs.writeFileSync(`${directory}/${dataVariableName}.ts`, formattedData);
+  });
 };
 
 generateLocalisedLocationMappings()
-    .then(() => console.log("Location name mappings generated"))
-    .catch(error => console.log("error generating location name mappings", error));
+  .then(() => console.log("Location name mappings generated"))
+  .catch(error => console.log("error generating location name mappings", error));

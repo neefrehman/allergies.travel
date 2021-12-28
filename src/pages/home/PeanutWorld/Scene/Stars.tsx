@@ -22,7 +22,11 @@ export const Stars = ({ count, maxDistance }: StarsProps) => {
     return new Float32Array(positions.flat(1));
   }, [count, getAxisPosition]);
 
-  const { opacity } = useSpring({ opacity: 1, from: { opacity: 0 } });
+  const { opacity } = useSpring({
+    opacity: 1,
+    from: { opacity: 0 },
+    config: { friction: 100 },
+  });
 
   return (
     <points>
@@ -34,6 +38,8 @@ export const Stars = ({ count, maxDistance }: StarsProps) => {
           itemSize={3}
         />
       </bufferGeometry>
+      {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+      {/* @ts-ignore 'Type instantiation is excessively deep and possibly infinite' */}
       <animated.pointsMaterial
         size={maxDistance * 0.002}
         sizeAttenuation
